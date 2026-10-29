@@ -24,17 +24,16 @@
         }
       }
     ],
-    "whole_county_vote_total": 641280,
+    "whole_county_vote_total": 677615,
     "split_block_direct_vote_total": 0,
     "split_precinct_matched_vote_total": 157109,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 65,
+      "canonical": 11,
+      "compact_code": 66,
       "exact": 163,
-      "numeric_code": 3,
-      "numeric_group": 19
+      "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -45,47 +44,47 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 82936,
-        "rep_votes": 99701,
-        "other_votes": 9418,
-        "total_votes": 192055,
+        "dem_votes": 85676,
+        "rep_votes": 106828,
+        "other_votes": 10221,
+        "total_votes": 202725,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 16765,
-        "margin_pct": 8.729270261123116,
+        "margin": 21152,
+        "margin_pct": 10.433838944382783,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 109956,
-        "rep_votes": 114791,
-        "other_votes": 11554,
-        "total_votes": 236301,
+        "dem_votes": 109828,
+        "rep_votes": 114761,
+        "other_votes": 11549,
+        "total_votes": 236138,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4835,
-        "margin_pct": 2.0461191446502554,
+        "margin": 4933,
+        "margin_pct": 2.0890326842778375,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 64819,
-        "rep_votes": 95688,
-        "other_votes": 11180,
-        "total_votes": 171687,
+        "dem_votes": 65188,
+        "rep_votes": 96172,
+        "other_votes": 11245,
+        "total_votes": 172605,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 30869,
-        "margin_pct": 17.97981209992603,
+        "margin": 30984,
+        "margin_pct": 17.950812548883288,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 89025,
-        "rep_votes": 99939,
-        "other_votes": 9382,
-        "total_votes": 198346,
+        "dem_votes": 99988,
+        "rep_votes": 113038,
+        "other_votes": 10230,
+        "total_votes": 223256,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 10914,
-        "margin_pct": 5.502505722323616,
+        "margin": 13050,
+        "margin_pct": 5.84530762891031,
         "winner": "R"
       }
     }

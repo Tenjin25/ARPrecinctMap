@@ -30,11 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 24,
-      "canonical": 57,
-      "exact": 137,
-      "numeric_code": 14,
-      "numeric_group": 22
+      "canonical": 4,
+      "compact_code": 68,
+      "exact": 173,
+      "numeric_group": 9
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -56,36 +55,36 @@
         "winner": "R"
       },
       "2": {
-        "dem_votes": 140365,
-        "rep_votes": 183663,
-        "other_votes": 8768,
-        "total_votes": 332796,
+        "dem_votes": 141457,
+        "rep_votes": 183754,
+        "other_votes": 8830,
+        "total_votes": 334041,
         "dem_candidate": "Joseph R. Biden / Kamala Harris",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 43298,
-        "margin_pct": 13.010372720825972,
+        "margin": 42297,
+        "margin_pct": 12.662218110950452,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 106531,
-        "rep_votes": 173319,
-        "other_votes": 8612,
-        "total_votes": 288462,
+        "dem_votes": 110317,
+        "rep_votes": 180067,
+        "other_votes": 8976,
+        "total_votes": 299360,
         "dem_candidate": "Joseph R. Biden / Kamala Harris",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 66788,
-        "margin_pct": 23.15313628831527,
+        "margin": 69750,
+        "margin_pct": 23.299706039551044,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 97723,
-        "rep_votes": 205623,
-        "other_votes": 8673,
-        "total_votes": 312019,
+        "dem_votes": 92845,
+        "rep_votes": 198784,
+        "other_votes": 8247,
+        "total_votes": 299876,
         "dem_candidate": "Joseph R. Biden / Kamala Harris",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 107900,
-        "margin_pct": 34.58122742525295,
+        "margin": 105939,
+        "margin_pct": 35.32760207552455,
         "winner": "R"
       }
     }

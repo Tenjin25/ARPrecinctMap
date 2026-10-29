@@ -124,6 +124,25 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
     if len(exact) == 1:
         return {"method": "exact", "score": 1.0, "targets": exact}
 
+    # County systems often preserve the same precinct code with different
+    # punctuation: "5-F3-50", "5F350", and "PRECINCT 5F350" are equivalent.
+    # Check this before canonical matching, which intentionally strips leading
+    # sequence numbers from labels like "15 - Almyra" and would turn "2-A"
+    # into the ambiguous label "A".
+    source_compact = re.sub(r"[^A-Z0-9]", "", (label or "").upper())
+    source_compact = re.sub(r"^PRECINCT", "", source_compact)
+    if len(source_compact) >= 2 and re.search(r"\d", source_compact) and re.search(r"[A-Z]", source_compact):
+        compact_matches = []
+        for item in targets:
+            target_compact = re.sub(r"[^A-Z0-9]", "", (item.get("name") or "").upper())
+            target_compact = re.sub(r"^PRECINCT", "", target_compact)
+            if target_compact == source_compact:
+                compact_matches.append(item)
+        if len(compact_matches) == 1:
+            return {"method": "compact_code", "score": 0.988, "targets": compact_matches}
+        if len(compact_matches) > 1:
+            return {"method": "compact_code_group", "score": 0.987, "targets": compact_matches}
+
     canonical_matches = [item for item in targets if item["canonical"] == canonical]
     if len(canonical_matches) == 1:
         return {"method": "canonical", "score": 0.99, "targets": canonical_matches}

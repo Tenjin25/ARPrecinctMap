@@ -25,7 +25,7 @@ SOURCE_PATH = DATA_DIR / "ar_elections_aggregated.json"
 CROSSWALK_DIR = DATA_DIR / "crosswalks"
 OUTPUT_DIR = DATA_DIR / "district_contests"
 SAFE_METHODS = {
-    "exact", "canonical", "structural", "abbreviation", "numeric_code", "containment", "fuzzy_high"
+    "exact", "canonical", "compact_code", "structural", "abbreviation", "numeric_code", "containment", "fuzzy_high"
 }
 DISTRICT_SAFE_METHODS = {
     "ambiguous_canonical",
@@ -34,6 +34,7 @@ DISTRICT_SAFE_METHODS = {
     "ambiguous_containment",
     "structural_group",
     "numeric_group",
+    "compact_code_group",
 }
 SCOPES = ("congressional", "state_house", "state_senate")
 NC_RULE_MIN_COVERAGE = 0.999
@@ -254,20 +255,55 @@ def precinct_weight_options(
     targets_by_county, weights = crosswalks[vintage]
     fallback_targets, fallback_weights = crosswalks[2020]
     options: list[tuple[dict, list[dict], dict]] = []
-    if year >= 2018 and reporting_2024:
+    if year >= 2022 and reporting_2024:
         reporting_targets, reporting_weights = reporting_2024
         match = match_precinct(precinct, reporting_targets.get(county, []))
         options.append((match, list(match["targets"]), reporting_weights))
     match = match_precinct(precinct, targets_by_county.get(county, []))
     options.append((match, list(match["targets"]), weights))
-    if 2014 <= year < 2018 and reporting_2024:
+    if 2014 <= year < 2022 and reporting_2024:
         reporting_targets, reporting_weights = reporting_2024
         match = match_precinct(precinct, reporting_targets.get(county, []))
         options.append((match, list(match["targets"]), reporting_weights))
     if vintage != 2020:
         match = match_precinct(precinct, fallback_targets.get(county, []))
         options.append((match, list(match["targets"]), fallback_weights))
+    else:
+        # Several counties, especially Sebastian, continued reporting with
+        # 2010-era ward/precinct identifiers through 2020 and into 2022.
+        legacy_targets, legacy_weights = crosswalks[2010]
+        match = match_precinct(precinct, legacy_targets.get(county, []))
+        options.append((match, list(match["targets"]), legacy_weights))
     return options
+
+
+def resolve_named_region_weights(
+    year: int,
+    county: str,
+    precinct: str,
+    scope: str,
+    crosswalks: dict[int, tuple[dict, dict]],
+) -> dict[str, float]:
+    """Resolve high-confidence historical municipal early/absentee pools."""
+    if year > 2008 or county != "SEBASTIAN":
+        return {}
+    label = clean_label(precinct)
+    region = ""
+    if "FORT SMITH" in label and ("EARLY" in label or "ABSENTEE" in label):
+        region = "fort_smith"
+    elif "GREENWOOD" in label and ("EARLY" in label or "ABSENTEE" in label):
+        region = "greenwood"
+    if not region:
+        return {}
+
+    targets_by_county, weights = crosswalks[2000]
+    candidates = []
+    for item in targets_by_county.get(county, []):
+        name = clean_label(item.get("name") or "")
+        is_fort_smith = "FORT SMITH WARD" in name or name.startswith("SMITH WARD")
+        if (region == "fort_smith" and is_fort_smith) or (region == "greenwood" and not is_fort_smith):
+            candidates.append(item)
+    return combine_target_weights(candidates, weights, scope)
 
 
 def resolve_precinct_weights(
@@ -278,23 +314,48 @@ def resolve_precinct_weights(
     crosswalks: dict[int, tuple[dict, dict]],
     reporting_2024: tuple[dict, dict] | None,
 ) -> tuple[dict[str, float], str]:
+    regional = resolve_named_region_weights(year, county, precinct, scope, crosswalks)
+    if regional:
+        return regional, "named_region"
     options = precinct_weight_options(year, county, precinct, crosswalks, reporting_2024)
-    for match, matches, active_weights in options:
-        if str(match["method"]) in SAFE_METHODS and len(matches) == 1:
+    method_rank = {
+        "exact": 100,
+        "canonical": 95,
+        "compact_code": 94,
+        "structural": 92,
+        "numeric_code": 90,
+        "abbreviation": 88,
+        "containment": 82,
+        "fuzzy_high": 78,
+        "structural_group": 76,
+        "compact_code_group": 75,
+        "numeric_group": 74,
+        "ambiguous_canonical": 68,
+        "ambiguous_structural": 66,
+        "ambiguous_abbreviation": 64,
+        "ambiguous_containment": 62,
+    }
+    resolved_options: list[tuple[int, int, dict[str, float], str]] = []
+    for order, (match, matches, active_weights) in enumerate(options):
+        method = str(match["method"])
+        if method in SAFE_METHODS and len(matches) == 1:
             resolved = combine_target_weights(matches, active_weights, scope)
             if resolved:
-                return resolved, str(match["method"])
-    for match, matches, active_weights in options:
-        method = str(match["method"])
+                resolved_options.append((method_rank.get(method, 0), -order, resolved, method))
+            continue
         if method not in DISTRICT_SAFE_METHODS or not matches:
             continue
-        if method in {"structural_group", "numeric_group"}:
+        if method in {"structural_group", "compact_code_group", "numeric_group"}:
             resolved = combine_target_weights(matches, active_weights, scope)
             if resolved:
-                return resolved, method
+                resolved_options.append((method_rank.get(method, 0), -order, resolved, method))
+                continue
         district = district_safe_assignments(matches, active_weights).get(scope)
         if district:
-            return {district: 1.0}, method
+            resolved_options.append((method_rank.get(method, 0), -order, {district: 1.0}, method))
+    if resolved_options:
+        _rank, _order, resolved, method = max(resolved_options, key=lambda item: (item[0], item[1]))
+        return resolved, method
     return {}, "county_cvap_fallback"
 
 

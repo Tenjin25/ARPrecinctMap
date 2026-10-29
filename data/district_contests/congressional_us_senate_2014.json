@@ -24,17 +24,16 @@
         }
       }
     ],
-    "whole_county_vote_total": 650653,
+    "whole_county_vote_total": 688042,
     "split_block_direct_vote_total": 0,
     "split_precinct_matched_vote_total": 159463,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 65,
+      "canonical": 11,
+      "compact_code": 66,
       "exact": 163,
-      "numeric_code": 3,
-      "numeric_group": 19
+      "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -45,47 +44,47 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 78397,
-        "rep_votes": 108847,
-        "other_votes": 8158,
-        "total_votes": 195402,
+        "dem_votes": 81281,
+        "rep_votes": 116425,
+        "other_votes": 8698,
+        "total_votes": 206404,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 30450,
-        "margin_pct": 15.58325912733749,
+        "margin": 35144,
+        "margin_pct": 17.026801806166546,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 103092,
-        "rep_votes": 127562,
-        "other_votes": 8841,
-        "total_votes": 239495,
+        "dem_votes": 102958,
+        "rep_votes": 127532,
+        "other_votes": 8839,
+        "total_votes": 239329,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 24470,
-        "margin_pct": 10.21733230338838,
+        "margin": 24574,
+        "margin_pct": 10.267873930865044,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 57438,
-        "rep_votes": 108134,
-        "other_votes": 8471,
-        "total_votes": 174043,
+        "dem_votes": 57766,
+        "rep_votes": 108682,
+        "other_votes": 8528,
+        "total_votes": 174976,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 50696,
-        "margin_pct": 29.1284337778595,
+        "margin": 50916,
+        "margin_pct": 29.098847841989762,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 80905,
-        "rep_votes": 112460,
-        "other_votes": 7811,
-        "total_votes": 201176,
+        "dem_votes": 92169,
+        "rep_votes": 126180,
+        "other_votes": 8447,
+        "total_votes": 226796,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 31555,
-        "margin_pct": 15.685270608820137,
+        "margin": 34011,
+        "margin_pct": 14.99629623097409,
         "winner": "R"
       }
     }

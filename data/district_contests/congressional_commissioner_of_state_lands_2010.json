@@ -30,10 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 2,
-      "canonical": 49,
+      "canonical": 4,
+      "compact_code": 52,
       "exact": 170,
-      "numeric_group": 6
+      "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -66,25 +66,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 52999,
-        "rep_votes": 94426,
+        "dem_votes": 52995,
+        "rep_votes": 94439,
         "other_votes": 0,
-        "total_votes": 147425,
+        "total_votes": 147434,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 41427,
-        "margin_pct": 28.10039002882822,
+        "margin": 41444,
+        "margin_pct": 28.110205244380538,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 102815,
-        "rep_votes": 103113,
+        "dem_votes": 102819,
+        "rep_votes": 103100,
         "other_votes": 0,
-        "total_votes": 205928,
+        "total_votes": 205919,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 298,
-        "margin_pct": 0.1447107726972534,
+        "margin": 281,
+        "margin_pct": 0.1364614241522152,
         "winner": "R"
       }
     }

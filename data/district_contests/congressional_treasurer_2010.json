@@ -30,10 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 2,
-      "canonical": 49,
+      "canonical": 4,
+      "compact_code": 52,
       "exact": 170,
-      "numeric_group": 6
+      "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -66,25 +66,25 @@
         "winner": "D"
       },
       "3": {
-        "dem_votes": 87450,
+        "dem_votes": 87466,
         "rep_votes": 0,
-        "other_votes": 49294,
-        "total_votes": 136744,
+        "other_votes": 49282,
+        "total_votes": 136748,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -87450,
-        "margin_pct": 63.95161762124847,
+        "margin": -87466,
+        "margin_pct": 63.96144733378185,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 132021,
+        "dem_votes": 132005,
         "rep_votes": 0,
-        "other_votes": 64511,
-        "total_votes": 196532,
+        "other_votes": 64523,
+        "total_votes": 196528,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -132021,
-        "margin_pct": 67.17532004966112,
+        "margin": -132005,
+        "margin_pct": 67.1685459578279,
         "winner": "D"
       }
     }

@@ -30,10 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 2,
-      "canonical": 49,
+      "canonical": 4,
+      "compact_code": 52,
       "exact": 170,
-      "numeric_group": 6
+      "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -66,25 +66,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 40785,
-        "rep_votes": 107044,
+        "dem_votes": 40780,
+        "rep_votes": 107055,
         "other_votes": 6350,
-        "total_votes": 154179,
+        "total_votes": 154185,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 66259,
-        "margin_pct": 42.97537278098833,
+        "margin": 66275,
+        "margin_pct": 42.98407756915394,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 79217,
-        "rep_votes": 120642,
+        "dem_votes": 79222,
+        "rep_votes": 120631,
         "other_votes": 13111,
-        "total_votes": 212970,
+        "total_votes": 212964,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 41425,
-        "margin_pct": 19.451096398553787,
+        "margin": 41409,
+        "margin_pct": 19.444131402490562,
         "winner": "R"
       }
     }

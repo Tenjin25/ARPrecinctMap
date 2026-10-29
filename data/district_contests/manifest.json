@@ -12,7 +12,7 @@
       "county_rule": true,
       "whole_counties": 73,
       "split_counties": 2,
-      "split_precinct_match_coverage_pct": 52.68,
+      "split_precinct_match_coverage_pct": 62.05,
       "partial": false,
       "missing_counties": []
     },
@@ -26,7 +26,7 @@
       "county_rule": true,
       "whole_counties": 73,
       "split_counties": 2,
-      "split_precinct_match_coverage_pct": 53.1,
+      "split_precinct_match_coverage_pct": 62.3,
       "partial": false,
       "missing_counties": []
     },
@@ -40,7 +40,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 42.86,
+      "split_precinct_match_coverage_pct": 44.86,
       "partial": false,
       "missing_counties": []
     },
@@ -54,7 +54,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 42.9,
+      "split_precinct_match_coverage_pct": 44.9,
       "partial": false,
       "missing_counties": []
     },
@@ -68,7 +68,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 47.61,
+      "split_precinct_match_coverage_pct": 50.29,
       "partial": false,
       "missing_counties": []
     },
@@ -82,7 +82,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 47.57,
+      "split_precinct_match_coverage_pct": 50.23,
       "partial": false,
       "missing_counties": []
     },
@@ -208,7 +208,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.54,
+      "split_precinct_match_coverage_pct": 68.59,
       "partial": false,
       "missing_counties": []
     },
@@ -222,7 +222,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.58,
+      "split_precinct_match_coverage_pct": 68.63,
       "partial": false,
       "missing_counties": []
     },
@@ -236,7 +236,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.52,
+      "split_precinct_match_coverage_pct": 68.57,
       "partial": false,
       "missing_counties": []
     },
@@ -250,7 +250,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.53,
+      "split_precinct_match_coverage_pct": 68.59,
       "partial": false,
       "missing_counties": []
     },
@@ -264,7 +264,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.59,
+      "split_precinct_match_coverage_pct": 68.65,
       "partial": false,
       "missing_counties": []
     },
@@ -278,7 +278,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.6,
+      "split_precinct_match_coverage_pct": 68.66,
       "partial": false,
       "missing_counties": []
     },
@@ -292,7 +292,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.55,
+      "split_precinct_match_coverage_pct": 68.61,
       "partial": false,
       "missing_counties": []
     },
@@ -306,7 +306,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 68.53,
+      "split_precinct_match_coverage_pct": 68.58,
       "partial": false,
       "missing_counties": []
     },
@@ -433,7 +433,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -441,13 +441,13 @@
       "scope": "state_house",
       "contest_type": "president",
       "file": "state_house_president_2012.json",
-      "rows": 99,
+      "rows": 100,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 78.33,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 75.48,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -460,8 +460,8 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 79.25,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 79.32,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -475,7 +475,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -489,7 +489,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -503,7 +503,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -517,7 +517,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -531,7 +531,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -545,7 +545,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -559,7 +559,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -573,7 +573,7 @@
       "whole_counties": 73,
       "split_counties": 2,
       "split_precinct_match_coverage_pct": 100.0,
-      "partial": false,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -581,13 +581,13 @@
       "scope": "state_house",
       "contest_type": "attorney_general",
       "file": "state_house_attorney_general_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.7,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.21,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -595,13 +595,13 @@
       "scope": "state_house",
       "contest_type": "auditor",
       "file": "state_house_auditor_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.72,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.21,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -609,13 +609,13 @@
       "scope": "state_house",
       "contest_type": "commissioner_of_state_lands",
       "file": "state_house_commissioner_of_state_lands_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.71,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.21,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -623,13 +623,13 @@
       "scope": "state_house",
       "contest_type": "governor",
       "file": "state_house_governor_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.67,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.12,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -637,13 +637,13 @@
       "scope": "state_house",
       "contest_type": "lieutenant_governor",
       "file": "state_house_lieutenant_governor_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.7,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.19,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -651,13 +651,13 @@
       "scope": "state_house",
       "contest_type": "secretary_of_state",
       "file": "state_house_secretary_of_state_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.71,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.2,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -665,13 +665,13 @@
       "scope": "state_house",
       "contest_type": "treasurer",
       "file": "state_house_treasurer_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.7,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.2,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -679,13 +679,13 @@
       "scope": "state_house",
       "contest_type": "us_senate",
       "file": "state_house_us_senate_2014.json",
-      "rows": 98,
+      "rows": 95,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 87.66,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 84.11,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -693,13 +693,13 @@
       "scope": "state_senate",
       "contest_type": "attorney_general",
       "file": "state_senate_attorney_general_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.72,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.11,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -707,13 +707,13 @@
       "scope": "state_senate",
       "contest_type": "auditor",
       "file": "state_senate_auditor_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.76,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.14,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -721,13 +721,13 @@
       "scope": "state_senate",
       "contest_type": "commissioner_of_state_lands",
       "file": "state_senate_commissioner_of_state_lands_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.75,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.13,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -735,13 +735,13 @@
       "scope": "state_senate",
       "contest_type": "governor",
       "file": "state_senate_governor_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.73,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.1,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -749,13 +749,13 @@
       "scope": "state_senate",
       "contest_type": "lieutenant_governor",
       "file": "state_senate_lieutenant_governor_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.73,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.11,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -763,13 +763,13 @@
       "scope": "state_senate",
       "contest_type": "secretary_of_state",
       "file": "state_senate_secretary_of_state_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.75,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.12,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -777,13 +777,13 @@
       "scope": "state_senate",
       "contest_type": "treasurer",
       "file": "state_senate_treasurer_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.74,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.12,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -791,13 +791,13 @@
       "scope": "state_senate",
       "contest_type": "us_senate",
       "file": "state_senate_us_senate_2014.json",
-      "rows": 35,
+      "rows": 34,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 88.74,
-      "partial": false,
+      "split_precinct_match_coverage_pct": 87.09,
+      "partial": true,
       "missing_counties": []
     },
     {
@@ -833,12 +833,12 @@
       "scope": "state_house",
       "contest_type": "president",
       "file": "state_house_president_2016.json",
-      "rows": 100,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 94.46,
+      "split_precinct_match_coverage_pct": 94.6,
       "partial": false,
       "missing_counties": []
     },
@@ -847,12 +847,12 @@
       "scope": "state_house",
       "contest_type": "us_senate",
       "file": "state_house_us_senate_2016.json",
-      "rows": 100,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 94.61,
+      "split_precinct_match_coverage_pct": 94.75,
       "partial": false,
       "missing_counties": []
     },
@@ -866,7 +866,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.62,
+      "split_precinct_match_coverage_pct": 99.09,
       "partial": false,
       "missing_counties": []
     },
@@ -880,7 +880,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.62,
+      "split_precinct_match_coverage_pct": 99.09,
       "partial": false,
       "missing_counties": []
     },
@@ -987,12 +987,12 @@
       "scope": "state_house",
       "contest_type": "attorney_general",
       "file": "state_house_attorney_general_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.63,
+      "split_precinct_match_coverage_pct": 95.73,
       "partial": false,
       "missing_counties": []
     },
@@ -1001,12 +1001,12 @@
       "scope": "state_house",
       "contest_type": "auditor",
       "file": "state_house_auditor_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.66,
+      "split_precinct_match_coverage_pct": 95.76,
       "partial": false,
       "missing_counties": []
     },
@@ -1015,12 +1015,12 @@
       "scope": "state_house",
       "contest_type": "commissioner_of_state_lands",
       "file": "state_house_commissioner_of_state_lands_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.62,
+      "split_precinct_match_coverage_pct": 95.72,
       "partial": false,
       "missing_counties": []
     },
@@ -1029,12 +1029,12 @@
       "scope": "state_house",
       "contest_type": "governor",
       "file": "state_house_governor_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.62,
+      "split_precinct_match_coverage_pct": 95.73,
       "partial": false,
       "missing_counties": []
     },
@@ -1043,12 +1043,12 @@
       "scope": "state_house",
       "contest_type": "lieutenant_governor",
       "file": "state_house_lieutenant_governor_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.63,
+      "split_precinct_match_coverage_pct": 95.73,
       "partial": false,
       "missing_counties": []
     },
@@ -1057,12 +1057,12 @@
       "scope": "state_house",
       "contest_type": "secretary_of_state",
       "file": "state_house_secretary_of_state_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.63,
+      "split_precinct_match_coverage_pct": 95.73,
       "partial": false,
       "missing_counties": []
     },
@@ -1071,12 +1071,12 @@
       "scope": "state_house",
       "contest_type": "treasurer",
       "file": "state_house_treasurer_2018.json",
-      "rows": 97,
+      "rows": 96,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 95.66,
+      "split_precinct_match_coverage_pct": 95.76,
       "partial": false,
       "missing_counties": []
     },
@@ -1090,7 +1090,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.14,
       "partial": false,
       "missing_counties": []
     },
@@ -1104,7 +1104,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.77,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1118,7 +1118,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.14,
       "partial": false,
       "missing_counties": []
     },
@@ -1132,7 +1132,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.14,
       "partial": false,
       "missing_counties": []
     },
@@ -1146,7 +1146,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.14,
       "partial": false,
       "missing_counties": []
     },
@@ -1160,7 +1160,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.14,
       "partial": false,
       "missing_counties": []
     },
@@ -1174,7 +1174,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.76,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1211,12 +1211,12 @@
       "scope": "state_house",
       "contest_type": "president",
       "file": "state_house_president_2020.json",
-      "rows": 96,
+      "rows": 100,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 94.0,
+      "split_precinct_match_coverage_pct": 95.48,
       "partial": false,
       "missing_counties": []
     },
@@ -1225,12 +1225,12 @@
       "scope": "state_house",
       "contest_type": "us_senate",
       "file": "state_house_us_senate_2020.json",
-      "rows": 96,
+      "rows": 100,
       "coverage_pct": 100.0,
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 94.08,
+      "split_precinct_match_coverage_pct": 95.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1244,7 +1244,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.22,
+      "split_precinct_match_coverage_pct": 99.32,
       "partial": false,
       "missing_counties": []
     },
@@ -1258,7 +1258,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 98.24,
+      "split_precinct_match_coverage_pct": 99.31,
       "partial": false,
       "missing_counties": []
     },
@@ -1384,7 +1384,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.51,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1398,7 +1398,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.5,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1412,7 +1412,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.51,
+      "split_precinct_match_coverage_pct": 99.12,
       "partial": false,
       "missing_counties": []
     },
@@ -1426,7 +1426,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.51,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1440,7 +1440,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.51,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1454,7 +1454,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.5,
+      "split_precinct_match_coverage_pct": 99.12,
       "partial": false,
       "missing_counties": []
     },
@@ -1468,7 +1468,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.52,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1482,7 +1482,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 97.5,
+      "split_precinct_match_coverage_pct": 99.13,
       "partial": false,
       "missing_counties": []
     },
@@ -1496,7 +1496,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1510,7 +1510,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.01,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1524,7 +1524,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1538,7 +1538,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1552,7 +1552,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1566,7 +1566,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1580,7 +1580,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.01,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },
@@ -1594,7 +1594,7 @@
       "county_rule": true,
       "whole_counties": 44,
       "split_counties": 31,
-      "split_precinct_match_coverage_pct": 99.02,
+      "split_precinct_match_coverage_pct": 99.56,
       "partial": false,
       "missing_counties": []
     },

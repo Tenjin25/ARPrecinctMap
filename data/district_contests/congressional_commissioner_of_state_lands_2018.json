@@ -30,11 +30,9 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 198,
-      "exact": 27,
-      "numeric_code": 14,
-      "numeric_group": 4
+      "canonical": 13,
+      "compact_code": 71,
+      "exact": 164
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -45,47 +43,47 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 68301,
-        "rep_votes": 134952,
-        "other_votes": 6732,
-        "total_votes": 209985,
+        "dem_votes": 68048,
+        "rep_votes": 133978,
+        "other_votes": 6691,
+        "total_votes": 208717,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 66651,
-        "margin_pct": 31.74083863133081,
+        "margin": 65930,
+        "margin_pct": 31.588227120934086,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 104049,
-        "rep_votes": 135844,
-        "other_votes": 8686,
-        "total_votes": 248579,
+        "dem_votes": 104313,
+        "rep_votes": 136735,
+        "other_votes": 8792,
+        "total_votes": 249840,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 31795,
-        "margin_pct": 12.790702352169733,
+        "margin": 32422,
+        "margin_pct": 12.977105347422349,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 70515,
-        "rep_votes": 117039,
-        "other_votes": 7294,
-        "total_votes": 194848,
+        "dem_votes": 73078,
+        "rep_votes": 122105,
+        "other_votes": 7634,
+        "total_votes": 202817,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 46524,
-        "margin_pct": 23.87707341106914,
+        "margin": 49027,
+        "margin_pct": 24.173022971447168,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 80817,
-        "rep_votes": 142395,
-        "other_votes": 6411,
-        "total_votes": 229623,
+        "dem_votes": 78243,
+        "rep_votes": 137412,
+        "other_votes": 6006,
+        "total_votes": 221661,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 61578,
-        "margin_pct": 26.817000039194678,
+        "margin": 59169,
+        "margin_pct": 26.693464344201278,
         "winner": "R"
       }
     }

@@ -30,11 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 24,
-      "canonical": 57,
-      "exact": 137,
-      "numeric_code": 14,
-      "numeric_group": 22
+      "canonical": 4,
+      "compact_code": 68,
+      "exact": 173,
+      "numeric_group": 9
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -57,35 +56,35 @@
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 195468,
-        "other_votes": 131501,
-        "total_votes": 326969,
+        "rep_votes": 195590,
+        "other_votes": 132663,
+        "total_votes": 328253,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 195468,
-        "margin_pct": 59.78181417810251,
+        "margin": 195590,
+        "margin_pct": 59.58513707414708,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 178260,
-        "other_votes": 105428,
-        "total_votes": 283688,
+        "rep_votes": 185269,
+        "other_votes": 109245,
+        "total_votes": 294514,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 178260,
-        "margin_pct": 62.83663743267252,
+        "margin": 185269,
+        "margin_pct": 62.906686948667975,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 215058,
-        "other_votes": 90166,
-        "total_votes": 305224,
+        "rep_votes": 207927,
+        "other_votes": 85187,
+        "total_votes": 293114,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 215058,
-        "margin_pct": 70.45907268104736,
+        "margin": 207927,
+        "margin_pct": 70.93724625913467,
         "winner": "R"
       }
     }

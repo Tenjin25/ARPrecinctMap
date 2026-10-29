@@ -26,13 +26,14 @@
     ],
     "whole_county_vote_total": 817830,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 102819,
-    "split_county_cvap_fallback_vote_total": 90831,
-    "split_precinct_match_coverage": 0.530953,
+    "split_precinct_matched_vote_total": 120637,
+    "split_county_cvap_fallback_vote_total": 73013,
+    "split_precinct_match_coverage": 0.622964,
     "split_match_methods": {
       "ambiguous_containment": 42,
       "containment": 8,
-      "county_cvap_fallback": 7,
+      "county_cvap_fallback": 3,
+      "named_region": 4,
       "numeric_code": 100,
       "numeric_group": 14
     },
@@ -67,25 +68,25 @@
         "winner": "D"
       },
       "3": {
-        "dem_votes": 156340,
+        "dem_votes": 156489,
         "rep_votes": 0,
-        "other_votes": 50290,
-        "total_votes": 206630,
+        "other_votes": 50310,
+        "total_votes": 206799,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -156340,
-        "margin_pct": 75.6618109664618,
+        "margin": -156489,
+        "margin_pct": 75.67202936184411,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 227216,
+        "dem_votes": 227067,
         "rep_votes": 0,
-        "other_votes": 50098,
-        "total_votes": 277314,
+        "other_votes": 50078,
+        "total_votes": 277145,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -227216,
-        "margin_pct": 81.93455793793318,
+        "margin": -227067,
+        "margin_pct": 81.93075826733298,
         "winner": "D"
       }
     }

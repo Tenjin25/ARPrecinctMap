@@ -24,16 +24,15 @@
         }
       }
     ],
-    "whole_county_vote_total": 829978,
+    "whole_county_vote_total": 866725,
     "split_block_direct_vote_total": 0,
     "split_precinct_matched_vote_total": 202743,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 6,
-      "canonical": 70,
-      "exact": 163,
-      "numeric_group": 5
+      "canonical": 11,
+      "compact_code": 70,
+      "exact": 163
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -55,36 +54,36 @@
         "winner": "R"
       },
       "2": {
-        "dem_votes": 118663,
-        "rep_votes": 165499,
-        "other_votes": 7010,
-        "total_votes": 291172,
+        "dem_votes": 118503,
+        "rep_votes": 165465,
+        "other_votes": 7004,
+        "total_votes": 290972,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 46836,
-        "margin_pct": 16.08533787589466,
+        "margin": 46962,
+        "margin_pct": 16.139697290460937,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 73673,
-        "rep_votes": 146006,
-        "other_votes": 6617,
-        "total_votes": 226296,
+        "dem_votes": 73685,
+        "rep_votes": 145996,
+        "other_votes": 6619,
+        "total_votes": 226300,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 72333,
-        "margin_pct": 31.96388800509068,
+        "margin": 72311,
+        "margin_pct": 31.95360141405214,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 91256,
-        "rep_votes": 151521,
-        "other_votes": 5918,
-        "total_votes": 248695,
+        "dem_votes": 105630,
+        "rep_votes": 173541,
+        "other_votes": 6467,
+        "total_votes": 285638,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 60265,
-        "margin_pct": 24.232493616679065,
+        "margin": 67911,
+        "margin_pct": 23.77519797786009,
         "winner": "R"
       }
     }

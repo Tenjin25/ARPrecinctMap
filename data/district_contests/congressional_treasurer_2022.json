@@ -30,11 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_containment": 33,
-      "containment": 3,
+      "compact_code": 94,
       "exact": 136,
-      "numeric_code": 28,
-      "numeric_group": 43
+      "numeric_code": 2,
+      "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -67,25 +66,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 79848,
-        "rep_votes": 141452,
+        "dem_votes": 80326,
+        "rep_votes": 142579,
         "other_votes": 0,
-        "total_votes": 221300,
+        "total_votes": 222905,
         "dem_candidate": "Pam Whitaker",
         "rep_candidate": "Mark Lowery",
-        "margin": 61604,
-        "margin_pct": 27.837324898328063,
+        "margin": 62253,
+        "margin_pct": 27.928041093739488,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 64590,
-        "rep_votes": 153759,
+        "dem_votes": 64112,
+        "rep_votes": 152632,
         "other_votes": 0,
-        "total_votes": 218349,
+        "total_votes": 216744,
         "dem_candidate": "Pam Whitaker",
         "rep_candidate": "Mark Lowery",
-        "margin": 89169,
-        "margin_pct": 40.83783301045574,
+        "margin": 88520,
+        "margin_pct": 40.84080758867604,
         "winner": "R"
       }
     }

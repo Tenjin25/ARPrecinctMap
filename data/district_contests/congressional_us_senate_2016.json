@@ -30,11 +30,9 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 71,
-      "exact": 164,
-      "numeric_code": 3,
-      "numeric_group": 3
+      "canonical": 13,
+      "compact_code": 69,
+      "exact": 164
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -67,25 +65,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 83982,
-        "rep_votes": 159441,
-        "other_votes": 11563,
-        "total_votes": 254986,
+        "dem_votes": 84492,
+        "rep_votes": 160312,
+        "other_votes": 11646,
+        "total_votes": 256450,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 75459,
-        "margin_pct": 29.593389440988915,
+        "margin": 75820,
+        "margin_pct": 29.565217391304348,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 92797,
-        "rep_votes": 156748,
-        "other_votes": 35003,
-        "total_votes": 284548,
+        "dem_votes": 92287,
+        "rep_votes": 155877,
+        "other_votes": 34920,
+        "total_votes": 283084,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 63951,
-        "margin_pct": 22.474591281611538,
+        "margin": 63590,
+        "margin_pct": 22.463297113224343,
         "winner": "R"
       }
     }

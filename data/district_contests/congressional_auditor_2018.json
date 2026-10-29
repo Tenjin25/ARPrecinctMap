@@ -30,11 +30,9 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 198,
-      "exact": 27,
-      "numeric_code": 14,
-      "numeric_group": 4
+      "canonical": 13,
+      "compact_code": 71,
+      "exact": 164
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -46,46 +44,46 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 155699,
-        "other_votes": 49114,
-        "total_votes": 204813,
+        "rep_votes": 154535,
+        "other_votes": 48996,
+        "total_votes": 203531,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 155699,
-        "margin_pct": 76.02007685059053,
+        "margin": 154535,
+        "margin_pct": 75.92700866207113,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 165077,
-        "other_votes": 75673,
-        "total_votes": 240750,
+        "rep_votes": 166454,
+        "other_votes": 75451,
+        "total_votes": 241905,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 165077,
-        "margin_pct": 68.56780893042576,
+        "margin": 166454,
+        "margin_pct": 68.80965668340878,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 137620,
-        "other_votes": 52803,
-        "total_votes": 190423,
+        "rep_votes": 143562,
+        "other_votes": 54754,
+        "total_votes": 198316,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 137620,
-        "margin_pct": 72.27068158783341,
+        "margin": 143562,
+        "margin_pct": 72.39052824784687,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 166129,
-        "other_votes": 57259,
-        "total_votes": 223388,
+        "rep_votes": 159974,
+        "other_votes": 55648,
+        "total_votes": 215622,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 166129,
-        "margin_pct": 74.36791591311977,
+        "margin": 159974,
+        "margin_pct": 74.19187281446234,
         "winner": "R"
       }
     }

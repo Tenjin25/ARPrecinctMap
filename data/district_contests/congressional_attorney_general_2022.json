@@ -30,11 +30,10 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_containment": 33,
-      "containment": 3,
+      "compact_code": 94,
       "exact": 136,
-      "numeric_code": 28,
-      "numeric_group": 43
+      "numeric_code": 2,
+      "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -67,25 +66,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 78021,
-        "rep_votes": 143161,
+        "dem_votes": 78473,
+        "rep_votes": 144336,
         "other_votes": 0,
-        "total_votes": 221182,
+        "total_votes": 222809,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 65140,
-        "margin_pct": 29.45085947319402,
+        "margin": 65863,
+        "margin_pct": 29.56029603831084,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 62115,
-        "rep_votes": 156507,
+        "dem_votes": 61663,
+        "rep_votes": 155332,
         "other_votes": 0,
-        "total_votes": 218622,
+        "total_votes": 216995,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 94392,
-        "margin_pct": 43.17589263660565,
+        "margin": 93669,
+        "margin_pct": 43.16643240627664,
         "winner": "R"
       }
     }

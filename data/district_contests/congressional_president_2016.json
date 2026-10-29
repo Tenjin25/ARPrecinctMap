@@ -30,11 +30,9 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "ambiguous_canonical": 5,
-      "canonical": 71,
-      "exact": 164,
-      "numeric_code": 3,
-      "numeric_group": 3
+      "canonical": 13,
+      "compact_code": 69,
+      "exact": 164
     },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
@@ -67,25 +65,25 @@
         "winner": "R"
       },
       "3": {
-        "dem_votes": 81990,
-        "rep_votes": 155755,
-        "other_votes": 20072,
-        "total_votes": 257817,
+        "dem_votes": 82452,
+        "rep_votes": 156611,
+        "other_votes": 20218,
+        "total_votes": 259281,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 73765,
-        "margin_pct": 28.61137938925672,
+        "margin": 74159,
+        "margin_pct": 28.60178725012631,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 85498,
-        "rep_votes": 167954,
-        "other_votes": 39334,
-        "total_votes": 292786,
+        "dem_votes": 85036,
+        "rep_votes": 167098,
+        "other_votes": 39188,
+        "total_votes": 291322,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 82456,
-        "margin_pct": 28.16254875574652,
+        "margin": 82062,
+        "margin_pct": 28.168830366398694,
         "winner": "R"
       }
     }
