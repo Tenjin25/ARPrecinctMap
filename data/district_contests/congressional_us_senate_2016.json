@@ -1,0 +1,62 @@
+{
+  "year": 2016,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2150,
+    "matched_vote_coverage": 0.834956,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 48284,
+        "rep_votes": 112159,
+        "other_votes": 7037,
+        "total_votes": 167480,
+        "dem_candidate": "Conner Eldridge",
+        "rep_candidate": "John Boozman",
+        "margin": 63875,
+        "margin_pct": 38.13888225459756,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 115753,
+        "rep_votes": 139800,
+        "other_votes": 9969,
+        "total_votes": 265522,
+        "dem_candidate": "Conner Eldridge",
+        "rep_candidate": "John Boozman",
+        "margin": 24047,
+        "margin_pct": 9.056500026363164,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 79995,
+        "rep_votes": 153632,
+        "other_votes": 11077,
+        "total_votes": 244704,
+        "dem_candidate": "Conner Eldridge",
+        "rep_candidate": "John Boozman",
+        "margin": 73637,
+        "margin_pct": 30.092274748267293,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 85100,
+        "rep_votes": 144297,
+        "other_votes": 17628,
+        "total_votes": 247025,
+        "dem_candidate": "Conner Eldridge",
+        "rep_candidate": "John Boozman",
+        "margin": 59197,
+        "margin_pct": 23.963971257969842,
+        "winner": "R"
+      }
+    }
+  }
+}

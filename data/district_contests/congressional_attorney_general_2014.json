@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.80743,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 51542,
+        "rep_votes": 66269,
+        "other_votes": 6458,
+        "total_votes": 124269,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 14727,
+        "margin_pct": 11.85090408710137,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 102298,
+        "rep_votes": 106125,
+        "other_votes": 10659,
+        "total_votes": 219082,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3827,
+        "margin_pct": 1.7468345185820835,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 57780,
+        "rep_votes": 85703,
+        "other_votes": 10060,
+        "total_votes": 153543,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 27923,
+        "margin_pct": 18.185785089518898,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 68638,
+        "rep_votes": 72307,
+        "other_votes": 6805,
+        "total_votes": 147750,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3669,
+        "margin_pct": 2.4832487309644673,
+        "winner": "R"
+      }
+    }
+  }
+}

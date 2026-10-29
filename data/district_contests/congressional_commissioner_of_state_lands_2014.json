@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.80724,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 43984,
+        "rep_votes": 71371,
+        "other_votes": 7970,
+        "total_votes": 123325,
+        "dem_candidate": "Mark A. Robertson",
+        "rep_candidate": "John Thurston",
+        "margin": 27387,
+        "margin_pct": 22.20717616055139,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 85806,
+        "rep_votes": 117084,
+        "other_votes": 13005,
+        "total_votes": 215895,
+        "dem_candidate": "Mark A. Robertson",
+        "rep_candidate": "John Thurston",
+        "margin": 31278,
+        "margin_pct": 14.487598137983742,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 44185,
+        "rep_votes": 96136,
+        "other_votes": 10773,
+        "total_votes": 151094,
+        "dem_candidate": "Mark A. Robertson",
+        "rep_candidate": "John Thurston",
+        "margin": 51951,
+        "margin_pct": 34.38323163064052,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 58916,
+        "rep_votes": 80000,
+        "other_votes": 7987,
+        "total_votes": 146903,
+        "dem_candidate": "Mark A. Robertson",
+        "rep_candidate": "John Thurston",
+        "margin": 21084,
+        "margin_pct": 14.352327726458954,
+        "winner": "R"
+      }
+    }
+  }
+}

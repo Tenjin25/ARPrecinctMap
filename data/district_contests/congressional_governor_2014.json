@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.807176,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 52018,
+        "rep_votes": 70102,
+        "other_votes": 4247,
+        "total_votes": 126367,
+        "dem_candidate": "Mike Ross",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 18084,
+        "margin_pct": 14.310698204436283,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 97619,
+        "rep_votes": 118412,
+        "other_votes": 6295,
+        "total_votes": 222326,
+        "dem_candidate": "Mike Ross",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 20793,
+        "margin_pct": 9.352482390723532,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 51277,
+        "rep_votes": 98851,
+        "other_votes": 5661,
+        "total_votes": 155789,
+        "dem_candidate": "Mike Ross",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 47574,
+        "margin_pct": 30.537457715243054,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 68824,
+        "rep_votes": 77599,
+        "other_votes": 3865,
+        "total_votes": 150288,
+        "dem_candidate": "Mike Ross",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 8775,
+        "margin_pct": 5.838789524113701,
+        "winner": "R"
+      }
+    }
+  }
+}

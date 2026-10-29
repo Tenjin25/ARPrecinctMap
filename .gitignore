@@ -1,0 +1,15 @@
+# Local Python dependencies used by the data-build scripts.
+.vendor/
+data/openelections-data-ar/.git-local-backup/
+
+# Census tabblock source archives exceed GitHub's 100 MB per-file limit.
+# Generated VTD, district, and crosswalk artifacts remain tracked.
+data/tl_2008_05_tabblock00.zip
+data/tl_2012_05_tabblock10.zip
+data/tl_2020_05_tabblock20.zip
+
+# Local development artifacts.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

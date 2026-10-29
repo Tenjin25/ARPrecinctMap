@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.614785,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 80034,
+        "rep_votes": 41155,
+        "other_votes": 2638,
+        "total_votes": 123827,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -38879,
+        "margin_pct": 31.39783730527268,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 96620,
+        "rep_votes": 45635,
+        "other_votes": 2494,
+        "total_votes": 144749,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -50985,
+        "margin_pct": 35.22304126453378,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 45666,
+        "rep_votes": 30834,
+        "other_votes": 1598,
+        "total_votes": 78098,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -14832,
+        "margin_pct": 18.99152347051141,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 89756,
+        "rep_votes": 41227,
+        "other_votes": 2696,
+        "total_votes": 133679,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -48529,
+        "margin_pct": 36.30263541767966,
+        "winner": "D"
+      }
+    }
+  }
+}

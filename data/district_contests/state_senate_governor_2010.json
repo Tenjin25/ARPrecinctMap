@@ -1,0 +1,381 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.614785,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 10342,
+        "rep_votes": 3851,
+        "other_votes": 181,
+        "total_votes": 14374,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -6491,
+        "margin_pct": 45.15792402949771,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 9067,
+        "rep_votes": 4777,
+        "other_votes": 236,
+        "total_votes": 14080,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -4290,
+        "margin_pct": 30.46875,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 12980,
+        "rep_votes": 5308,
+        "other_votes": 403,
+        "total_votes": 18691,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -7672,
+        "margin_pct": 41.04649296452838,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 11394,
+        "rep_votes": 6842,
+        "other_votes": 301,
+        "total_votes": 18537,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -4552,
+        "margin_pct": 24.556292819765872,
+        "winner": "D"
+      },
+      "5": {
+        "dem_votes": 14273,
+        "rep_votes": 8158,
+        "other_votes": 538,
+        "total_votes": 22969,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -6115,
+        "margin_pct": 26.622839479298182,
+        "winner": "D"
+      },
+      "6": {
+        "dem_votes": 1311,
+        "rep_votes": 707,
+        "other_votes": 40,
+        "total_votes": 2058,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -604,
+        "margin_pct": 29.348882410106903,
+        "winner": "D"
+      },
+      "7": {
+        "dem_votes": 6935,
+        "rep_votes": 3409,
+        "other_votes": 298,
+        "total_votes": 10642,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -3526,
+        "margin_pct": 33.13286976132306,
+        "winner": "D"
+      },
+      "8": {
+        "dem_votes": 11934,
+        "rep_votes": 2445,
+        "other_votes": 241,
+        "total_votes": 14620,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -9489,
+        "margin_pct": 64.90424076607387,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 2001,
+        "rep_votes": 295,
+        "other_votes": 32,
+        "total_votes": 2328,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -1706,
+        "margin_pct": 73.28178694158075,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 12273,
+        "rep_votes": 4004,
+        "other_votes": 255,
+        "total_votes": 16532,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -8269,
+        "margin_pct": 50.0181466247278,
+        "winner": "D"
+      },
+      "11": {
+        "dem_votes": 9023,
+        "rep_votes": 7708,
+        "other_votes": 281,
+        "total_votes": 17012,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -1315,
+        "margin_pct": 7.729837761580061,
+        "winner": "D"
+      },
+      "12": {
+        "dem_votes": 15013,
+        "rep_votes": 3141,
+        "other_votes": 275,
+        "total_votes": 18429,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -11872,
+        "margin_pct": 64.4202072820012,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 17626,
+        "rep_votes": 10306,
+        "other_votes": 386,
+        "total_votes": 28318,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -7320,
+        "margin_pct": 25.84928314146479,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 22759,
+        "rep_votes": 9910,
+        "other_votes": 568,
+        "total_votes": 33237,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -12849,
+        "margin_pct": 38.658723711526314,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 15779,
+        "rep_votes": 2886,
+        "other_votes": 268,
+        "total_votes": 18933,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -12893,
+        "margin_pct": 68.09802989489252,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 1836,
+        "rep_votes": 1340,
+        "other_votes": 45,
+        "total_votes": 3221,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -496,
+        "margin_pct": 15.398944427196524,
+        "winner": "D"
+      },
+      "17": {
+        "dem_votes": 4159,
+        "rep_votes": 2902,
+        "other_votes": 124,
+        "total_votes": 7185,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -1257,
+        "margin_pct": 17.494780793319414,
+        "winner": "D"
+      },
+      "18": {
+        "dem_votes": 3198,
+        "rep_votes": 2218,
+        "other_votes": 110,
+        "total_votes": 5526,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -980,
+        "margin_pct": 17.73434672457474,
+        "winner": "D"
+      },
+      "19": {
+        "dem_votes": 3662,
+        "rep_votes": 1676,
+        "other_votes": 119,
+        "total_votes": 5457,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -1986,
+        "margin_pct": 36.39362286970863,
+        "winner": "D"
+      },
+      "20": {
+        "dem_votes": 1960,
+        "rep_votes": 1018,
+        "other_votes": 39,
+        "total_votes": 3017,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -942,
+        "margin_pct": 31.223069274113357,
+        "winner": "D"
+      },
+      "21": {
+        "dem_votes": 13779,
+        "rep_votes": 5468,
+        "other_votes": 398,
+        "total_votes": 19645,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -8311,
+        "margin_pct": 42.30593026215322,
+        "winner": "D"
+      },
+      "22": {
+        "dem_votes": 15002,
+        "rep_votes": 8845,
+        "other_votes": 540,
+        "total_votes": 24387,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -6157,
+        "margin_pct": 25.247057858695204,
+        "winner": "D"
+      },
+      "23": {
+        "dem_votes": 12588,
+        "rep_votes": 8737,
+        "other_votes": 531,
+        "total_votes": 21856,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -3851,
+        "margin_pct": 17.619875549048317,
+        "winner": "D"
+      },
+      "24": {
+        "dem_votes": 14827,
+        "rep_votes": 9806,
+        "other_votes": 619,
+        "total_votes": 25252,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -5021,
+        "margin_pct": 19.88357357833043,
+        "winner": "D"
+      },
+      "25": {
+        "dem_votes": 8073,
+        "rep_votes": 4026,
+        "other_votes": 297,
+        "total_votes": 12396,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -4047,
+        "margin_pct": 32.64762826718296,
+        "winner": "D"
+      },
+      "26": {
+        "dem_votes": 12751,
+        "rep_votes": 7703,
+        "other_votes": 437,
+        "total_votes": 20891,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -5048,
+        "margin_pct": 24.163515389402136,
+        "winner": "D"
+      },
+      "27": {
+        "dem_votes": 10534,
+        "rep_votes": 5922,
+        "other_votes": 313,
+        "total_votes": 16769,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -4612,
+        "margin_pct": 27.50313077702904,
+        "winner": "D"
+      },
+      "28": {
+        "dem_votes": 14795,
+        "rep_votes": 8739,
+        "other_votes": 759,
+        "total_votes": 24293,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -6056,
+        "margin_pct": 24.928991890668094,
+        "winner": "D"
+      },
+      "29": {
+        "dem_votes": 11969,
+        "rep_votes": 8275,
+        "other_votes": 452,
+        "total_votes": 20696,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -3694,
+        "margin_pct": 17.84885968303054,
+        "winner": "D"
+      },
+      "30": {
+        "dem_votes": 850,
+        "rep_votes": 603,
+        "other_votes": 27,
+        "total_votes": 1480,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -247,
+        "margin_pct": 16.68918918918919,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 1228,
+        "rep_votes": 1092,
+        "other_votes": 38,
+        "total_votes": 2358,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -136,
+        "margin_pct": 5.767599660729432,
+        "winner": "D"
+      },
+      "32": {
+        "dem_votes": 416,
+        "rep_votes": 310,
+        "other_votes": 20,
+        "total_votes": 746,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -106,
+        "margin_pct": 14.209115281501342,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 7739,
+        "rep_votes": 6426,
+        "other_votes": 255,
+        "total_votes": 14420,
+        "dem_candidate": "Mike Beebe",
+        "rep_candidate": "Jim Keet",
+        "margin": -1313,
+        "margin_pct": 9.105409153952843,
+        "winner": "D"
+      }
+    }
+  }
+}

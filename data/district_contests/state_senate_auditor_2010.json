@@ -1,0 +1,381 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.618406,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 10728,
+        "rep_votes": 0,
+        "other_votes": 2990,
+        "total_votes": 13718,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -10728,
+        "margin_pct": 78.20381979880449,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 9824,
+        "rep_votes": 0,
+        "other_votes": 3349,
+        "total_votes": 13173,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -9824,
+        "margin_pct": 74.57678584984437,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 13225,
+        "rep_votes": 0,
+        "other_votes": 4212,
+        "total_votes": 17437,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -13225,
+        "margin_pct": 75.84446865859952,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 11545,
+        "rep_votes": 0,
+        "other_votes": 5644,
+        "total_votes": 17189,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -11545,
+        "margin_pct": 67.16504741404387,
+        "winner": "D"
+      },
+      "5": {
+        "dem_votes": 14801,
+        "rep_votes": 0,
+        "other_votes": 6488,
+        "total_votes": 21289,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -14801,
+        "margin_pct": 69.52416741039974,
+        "winner": "D"
+      },
+      "6": {
+        "dem_votes": 1260,
+        "rep_votes": 0,
+        "other_votes": 599,
+        "total_votes": 1859,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -1260,
+        "margin_pct": 67.77837547068316,
+        "winner": "D"
+      },
+      "7": {
+        "dem_votes": 7238,
+        "rep_votes": 0,
+        "other_votes": 2883,
+        "total_votes": 10121,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -7238,
+        "margin_pct": 71.51467246319534,
+        "winner": "D"
+      },
+      "8": {
+        "dem_votes": 12150,
+        "rep_votes": 0,
+        "other_votes": 1792,
+        "total_votes": 13942,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -12150,
+        "margin_pct": 87.14675082484578,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 1949,
+        "rep_votes": 0,
+        "other_votes": 275,
+        "total_votes": 2224,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -1949,
+        "margin_pct": 87.63489208633094,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 12439,
+        "rep_votes": 0,
+        "other_votes": 3139,
+        "total_votes": 15578,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -12439,
+        "margin_pct": 79.84978816279367,
+        "winner": "D"
+      },
+      "11": {
+        "dem_votes": 9544,
+        "rep_votes": 0,
+        "other_votes": 5951,
+        "total_votes": 15495,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -9544,
+        "margin_pct": 61.59406260083898,
+        "winner": "D"
+      },
+      "12": {
+        "dem_votes": 14796,
+        "rep_votes": 0,
+        "other_votes": 2831,
+        "total_votes": 17627,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -14796,
+        "margin_pct": 83.93941113065185,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 18295,
+        "rep_votes": 0,
+        "other_votes": 7821,
+        "total_votes": 26116,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -18295,
+        "margin_pct": 70.05284117016389,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 22677,
+        "rep_votes": 0,
+        "other_votes": 7716,
+        "total_votes": 30393,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -22677,
+        "margin_pct": 74.61257526404106,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 15768,
+        "rep_votes": 0,
+        "other_votes": 2375,
+        "total_votes": 18143,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -15768,
+        "margin_pct": 86.90955189329217,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 1892,
+        "rep_votes": 0,
+        "other_votes": 1033,
+        "total_votes": 2925,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -1892,
+        "margin_pct": 64.68376068376068,
+        "winner": "D"
+      },
+      "17": {
+        "dem_votes": 4382,
+        "rep_votes": 0,
+        "other_votes": 2111,
+        "total_votes": 6493,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -4382,
+        "margin_pct": 67.48806406899737,
+        "winner": "D"
+      },
+      "18": {
+        "dem_votes": 3329,
+        "rep_votes": 0,
+        "other_votes": 1831,
+        "total_votes": 5160,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -3329,
+        "margin_pct": 64.51550387596899,
+        "winner": "D"
+      },
+      "19": {
+        "dem_votes": 3615,
+        "rep_votes": 0,
+        "other_votes": 1523,
+        "total_votes": 5138,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -3615,
+        "margin_pct": 70.35811599844297,
+        "winner": "D"
+      },
+      "20": {
+        "dem_votes": 1910,
+        "rep_votes": 0,
+        "other_votes": 851,
+        "total_votes": 2761,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -1910,
+        "margin_pct": 69.17783411807316,
+        "winner": "D"
+      },
+      "21": {
+        "dem_votes": 13180,
+        "rep_votes": 0,
+        "other_votes": 4958,
+        "total_votes": 18138,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -13180,
+        "margin_pct": 72.66512294630058,
+        "winner": "D"
+      },
+      "22": {
+        "dem_votes": 15272,
+        "rep_votes": 0,
+        "other_votes": 7077,
+        "total_votes": 22349,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -15272,
+        "margin_pct": 68.33415365340731,
+        "winner": "D"
+      },
+      "23": {
+        "dem_votes": 12117,
+        "rep_votes": 0,
+        "other_votes": 7282,
+        "total_votes": 19399,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -12117,
+        "margin_pct": 62.46198257642146,
+        "winner": "D"
+      },
+      "24": {
+        "dem_votes": 15284,
+        "rep_votes": 0,
+        "other_votes": 7633,
+        "total_votes": 22917,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -15284,
+        "margin_pct": 66.69284810402758,
+        "winner": "D"
+      },
+      "25": {
+        "dem_votes": 8478,
+        "rep_votes": 0,
+        "other_votes": 3160,
+        "total_votes": 11638,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -8478,
+        "margin_pct": 72.84756831070631,
+        "winner": "D"
+      },
+      "26": {
+        "dem_votes": 13075,
+        "rep_votes": 0,
+        "other_votes": 6343,
+        "total_votes": 19418,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -13075,
+        "margin_pct": 67.33443197033681,
+        "winner": "D"
+      },
+      "27": {
+        "dem_votes": 10409,
+        "rep_votes": 0,
+        "other_votes": 4956,
+        "total_votes": 15365,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -10409,
+        "margin_pct": 67.74487471526196,
+        "winner": "D"
+      },
+      "28": {
+        "dem_votes": 14604,
+        "rep_votes": 0,
+        "other_votes": 7062,
+        "total_votes": 21666,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -14604,
+        "margin_pct": 67.40515092772085,
+        "winner": "D"
+      },
+      "29": {
+        "dem_votes": 12317,
+        "rep_votes": 0,
+        "other_votes": 6653,
+        "total_votes": 18970,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -12317,
+        "margin_pct": 64.92883500263574,
+        "winner": "D"
+      },
+      "30": {
+        "dem_votes": 910,
+        "rep_votes": 0,
+        "other_votes": 410,
+        "total_votes": 1320,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -910,
+        "margin_pct": 68.93939393939394,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 1387,
+        "rep_votes": 0,
+        "other_votes": 706,
+        "total_votes": 2093,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -1387,
+        "margin_pct": 66.26851409460104,
+        "winner": "D"
+      },
+      "32": {
+        "dem_votes": 434,
+        "rep_votes": 0,
+        "other_votes": 266,
+        "total_votes": 700,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -434,
+        "margin_pct": 62.0,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 7925,
+        "rep_votes": 0,
+        "other_votes": 4764,
+        "total_votes": 12689,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -7925,
+        "margin_pct": 62.45567026558436,
+        "winner": "D"
+      }
+    }
+  }
+}

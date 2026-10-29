@@ -1,0 +1,62 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1914,
+    "matched_vote_coverage": 0.673707,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 42245,
+        "rep_votes": 134829,
+        "other_votes": 3572,
+        "total_votes": 180646,
+        "dem_candidate": "Kamala D. Harris / Tim Walz",
+        "rep_candidate": "Donald J. Trump / JD Vance",
+        "margin": 92584,
+        "margin_pct": 51.251619188910915,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 112511,
+        "rep_votes": 139856,
+        "other_votes": 6098,
+        "total_votes": 258465,
+        "dem_candidate": "Kamala D. Harris / Tim Walz",
+        "rep_candidate": "Donald J. Trump / JD Vance",
+        "margin": 27345,
+        "margin_pct": 10.579769020950613,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 58712,
+        "rep_votes": 82563,
+        "other_votes": 4281,
+        "total_votes": 145556,
+        "dem_candidate": "Kamala D. Harris / Tim Walz",
+        "rep_candidate": "Donald J. Trump / JD Vance",
+        "margin": 23851,
+        "margin_pct": 16.38613317211245,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 62576,
+        "rep_votes": 147017,
+        "other_votes": 3796,
+        "total_votes": 213389,
+        "dem_candidate": "Kamala D. Harris / Tim Walz",
+        "rep_candidate": "Donald J. Trump / JD Vance",
+        "margin": 84441,
+        "margin_pct": 39.57139308961568,
+        "winner": "R"
+      }
+    }
+  }
+}

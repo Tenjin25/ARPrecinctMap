@@ -1,0 +1,62 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1874,
+    "matched_vote_coverage": 0.687181,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 51337,
+        "rep_votes": 107041,
+        "other_votes": 4954,
+        "total_votes": 163332,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 55704,
+        "margin_pct": 34.104768202189405,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 98232,
+        "rep_votes": 122930,
+        "other_votes": 5364,
+        "total_votes": 226526,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 24698,
+        "margin_pct": 10.902942708563256,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 45644,
+        "rep_votes": 83935,
+        "other_votes": 4168,
+        "total_votes": 133747,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 38291,
+        "margin_pct": 28.629427202105468,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 70292,
+        "rep_votes": 111283,
+        "other_votes": 4487,
+        "total_votes": 186062,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 40991,
+        "margin_pct": 22.03082843353291,
+        "winner": "R"
+      }
+    }
+  }
+}

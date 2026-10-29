@@ -1,0 +1,62 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.868086,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 115091,
+        "other_votes": 32131,
+        "total_votes": 147222,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 115091,
+        "margin_pct": 78.17513686813112,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 143962,
+        "other_votes": 75341,
+        "total_votes": 219303,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 143962,
+        "margin_pct": 65.64524881100577,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 134910,
+        "other_votes": 55117,
+        "total_votes": 190027,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 134910,
+        "margin_pct": 70.99517436995797,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 140185,
+        "other_votes": 51668,
+        "total_votes": 191853,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 140185,
+        "margin_pct": 73.0689642590942,
+        "winner": "R"
+      }
+    }
+  }
+}

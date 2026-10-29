@@ -1,0 +1,381 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.615287,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7792,
+        "rep_votes": 6280,
+        "other_votes": 0,
+        "total_votes": 14072,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -1512,
+        "margin_pct": 10.744741330301308,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 6610,
+        "rep_votes": 6897,
+        "other_votes": 0,
+        "total_votes": 13507,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 287,
+        "margin_pct": 2.1248241652476496,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 9752,
+        "rep_votes": 8314,
+        "other_votes": 0,
+        "total_votes": 18066,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -1438,
+        "margin_pct": 7.959703310085244,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 7958,
+        "rep_votes": 10184,
+        "other_votes": 0,
+        "total_votes": 18142,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 2226,
+        "margin_pct": 12.269871017528388,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 9374,
+        "rep_votes": 13046,
+        "other_votes": 0,
+        "total_votes": 22420,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 3672,
+        "margin_pct": 16.378233719892954,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 933,
+        "rep_votes": 1078,
+        "other_votes": 0,
+        "total_votes": 2011,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 145,
+        "margin_pct": 7.210343112879164,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 5775,
+        "rep_votes": 4712,
+        "other_votes": 0,
+        "total_votes": 10487,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -1063,
+        "margin_pct": 10.136359301992943,
+        "winner": "D"
+      },
+      "8": {
+        "dem_votes": 10534,
+        "rep_votes": 3615,
+        "other_votes": 0,
+        "total_votes": 14149,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -6919,
+        "margin_pct": 48.90098240158315,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 1731,
+        "rep_votes": 545,
+        "other_votes": 0,
+        "total_votes": 2276,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -1186,
+        "margin_pct": 52.10896309314587,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 9658,
+        "rep_votes": 6441,
+        "other_votes": 0,
+        "total_votes": 16099,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -3217,
+        "margin_pct": 19.982607615379838,
+        "winner": "D"
+      },
+      "11": {
+        "dem_votes": 6571,
+        "rep_votes": 10201,
+        "other_votes": 0,
+        "total_votes": 16772,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 3630,
+        "margin_pct": 21.6432148819461,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 13931,
+        "rep_votes": 4170,
+        "other_votes": 0,
+        "total_votes": 18101,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -9761,
+        "margin_pct": 53.92519750290039,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 14148,
+        "rep_votes": 13760,
+        "other_votes": 0,
+        "total_votes": 27908,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -388,
+        "margin_pct": 1.3902823563136018,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 19326,
+        "rep_votes": 13349,
+        "other_votes": 0,
+        "total_votes": 32675,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -5977,
+        "margin_pct": 18.292272379495028,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 14920,
+        "rep_votes": 3755,
+        "other_votes": 0,
+        "total_votes": 18675,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -11165,
+        "margin_pct": 59.78580990629183,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 1726,
+        "rep_votes": 1461,
+        "other_votes": 0,
+        "total_votes": 3187,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -265,
+        "margin_pct": 8.315029808597426,
+        "winner": "D"
+      },
+      "17": {
+        "dem_votes": 3278,
+        "rep_votes": 3806,
+        "other_votes": 0,
+        "total_votes": 7084,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 528,
+        "margin_pct": 7.453416149068323,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 2207,
+        "rep_votes": 3204,
+        "other_votes": 0,
+        "total_votes": 5411,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 997,
+        "margin_pct": 18.425429680280907,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 2866,
+        "rep_votes": 2480,
+        "other_votes": 0,
+        "total_votes": 5346,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -386,
+        "margin_pct": 7.22035166479611,
+        "winner": "D"
+      },
+      "20": {
+        "dem_votes": 1489,
+        "rep_votes": 1475,
+        "other_votes": 0,
+        "total_votes": 2964,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -14,
+        "margin_pct": 0.47233468286099867,
+        "winner": "D"
+      },
+      "21": {
+        "dem_votes": 10479,
+        "rep_votes": 8673,
+        "other_votes": 0,
+        "total_votes": 19152,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -1806,
+        "margin_pct": 9.429824561403509,
+        "winner": "D"
+      },
+      "22": {
+        "dem_votes": 10796,
+        "rep_votes": 13031,
+        "other_votes": 0,
+        "total_votes": 23827,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 2235,
+        "margin_pct": 9.380114995593235,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 7801,
+        "rep_votes": 13427,
+        "other_votes": 0,
+        "total_votes": 21228,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 5626,
+        "margin_pct": 26.50273224043716,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 10472,
+        "rep_votes": 14155,
+        "other_votes": 0,
+        "total_votes": 24627,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 3683,
+        "margin_pct": 14.955130547772768,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 5811,
+        "rep_votes": 6368,
+        "other_votes": 0,
+        "total_votes": 12179,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 557,
+        "margin_pct": 4.573446095738566,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 7805,
+        "rep_votes": 12676,
+        "other_votes": 0,
+        "total_votes": 20481,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 4871,
+        "margin_pct": 23.783018407304333,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 6619,
+        "rep_votes": 9780,
+        "other_votes": 0,
+        "total_votes": 16399,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 3161,
+        "margin_pct": 19.275565583267273,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 9521,
+        "rep_votes": 13854,
+        "other_votes": 0,
+        "total_votes": 23375,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 4333,
+        "margin_pct": 18.536898395721927,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 7353,
+        "rep_votes": 12947,
+        "other_votes": 0,
+        "total_votes": 20300,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 5594,
+        "margin_pct": 27.55665024630542,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 544,
+        "rep_votes": 917,
+        "other_votes": 0,
+        "total_votes": 1461,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 373,
+        "margin_pct": 25.530458590006845,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 759,
+        "rep_votes": 1579,
+        "other_votes": 0,
+        "total_votes": 2338,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 820,
+        "margin_pct": 35.0727117194183,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 267,
+        "rep_votes": 468,
+        "other_votes": 0,
+        "total_votes": 735,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 201,
+        "margin_pct": 27.346938775510203,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 4619,
+        "rep_votes": 9565,
+        "other_votes": 0,
+        "total_votes": 14184,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 4946,
+        "margin_pct": 34.8702763677383,
+        "winner": "R"
+      }
+    }
+  }
+}

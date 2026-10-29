@@ -1,0 +1,403 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.806877,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8039,
+        "rep_votes": 9133,
+        "other_votes": 599,
+        "total_votes": 17771,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1094,
+        "margin_pct": 6.15609701198582,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 2767,
+        "rep_votes": 4304,
+        "other_votes": 290,
+        "total_votes": 7361,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1537,
+        "margin_pct": 20.880315174568672,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 9108,
+        "rep_votes": 11102,
+        "other_votes": 650,
+        "total_votes": 20860,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1994,
+        "margin_pct": 9.558964525407479,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 8054,
+        "rep_votes": 13973,
+        "other_votes": 619,
+        "total_votes": 22646,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 5919,
+        "margin_pct": 26.137066148547206,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 6992,
+        "rep_votes": 15673,
+        "other_votes": 1369,
+        "total_votes": 24034,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8681,
+        "margin_pct": 36.11966380960306,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 1307,
+        "rep_votes": 3520,
+        "other_votes": 100,
+        "total_votes": 4927,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 2213,
+        "margin_pct": 44.91577024558555,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 6477,
+        "rep_votes": 12202,
+        "other_votes": 1041,
+        "total_votes": 19720,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 5725,
+        "margin_pct": 29.031440162271803,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 13867,
+        "rep_votes": 5972,
+        "other_votes": 421,
+        "total_votes": 20260,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -7895,
+        "margin_pct": 38.96841066140178,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 1436,
+        "rep_votes": 556,
+        "other_votes": 40,
+        "total_votes": 2032,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -880,
+        "margin_pct": 43.30708661417323,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 7872,
+        "rep_votes": 9403,
+        "other_votes": 621,
+        "total_votes": 17896,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1531,
+        "margin_pct": 8.554984354045597,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 4262,
+        "rep_votes": 9144,
+        "other_votes": 526,
+        "total_votes": 13932,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4882,
+        "margin_pct": 35.041630778064885,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 16328,
+        "rep_votes": 5306,
+        "other_votes": 716,
+        "total_votes": 22350,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -11022,
+        "margin_pct": 49.31543624161074,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 13370,
+        "rep_votes": 18046,
+        "other_votes": 993,
+        "total_votes": 32409,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4676,
+        "margin_pct": 14.42809096238699,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 20026,
+        "rep_votes": 16346,
+        "other_votes": 954,
+        "total_votes": 37326,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -3680,
+        "margin_pct": 9.859079462037187,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 17319,
+        "rep_votes": 4560,
+        "other_votes": 502,
+        "total_votes": 22381,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -12759,
+        "margin_pct": 57.0081765783477,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 8420,
+        "rep_votes": 16220,
+        "other_votes": 1104,
+        "total_votes": 25744,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 7800,
+        "margin_pct": 30.298321939092602,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 3011,
+        "rep_votes": 4914,
+        "other_votes": 258,
+        "total_votes": 8183,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1903,
+        "margin_pct": 23.255529756812905,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 6452,
+        "rep_votes": 17608,
+        "other_votes": 1235,
+        "total_votes": 25295,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 11156,
+        "margin_pct": 44.10357778217039,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 3263,
+        "rep_votes": 5889,
+        "other_votes": 513,
+        "total_votes": 9665,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 2626,
+        "margin_pct": 27.17020175892395,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 7035,
+        "rep_votes": 11388,
+        "other_votes": 691,
+        "total_votes": 19114,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4353,
+        "margin_pct": 22.773883017683374,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 7411,
+        "rep_votes": 12356,
+        "other_votes": 1057,
+        "total_votes": 20824,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4945,
+        "margin_pct": 23.74663849404533,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 8239,
+        "rep_votes": 16588,
+        "other_votes": 1465,
+        "total_votes": 26292,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8349,
+        "margin_pct": 31.754906435417617,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 3364,
+        "rep_votes": 6432,
+        "other_votes": 504,
+        "total_votes": 10300,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 3068,
+        "margin_pct": 29.78640776699029,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 7812,
+        "rep_votes": 18724,
+        "other_votes": 1280,
+        "total_votes": 27816,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 10912,
+        "margin_pct": 39.22922059246477,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 6952,
+        "rep_votes": 13943,
+        "other_votes": 936,
+        "total_votes": 21831,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6991,
+        "margin_pct": 32.02326966240667,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 6093,
+        "rep_votes": 12351,
+        "other_votes": 999,
+        "total_votes": 19443,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6258,
+        "margin_pct": 32.1863909890449,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5848,
+        "rep_votes": 9712,
+        "other_votes": 712,
+        "total_votes": 16272,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 3864,
+        "margin_pct": 23.74631268436578,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 5344,
+        "rep_votes": 9577,
+        "other_votes": 832,
+        "total_votes": 15753,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4233,
+        "margin_pct": 26.871072176728244,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 6730,
+        "rep_votes": 15051,
+        "other_votes": 1244,
+        "total_votes": 23025,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8321,
+        "margin_pct": 36.13897937024973,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 10676,
+        "rep_votes": 8267,
+        "other_votes": 898,
+        "total_votes": 19841,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": -2409,
+        "margin_pct": 12.141525124741696,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 948,
+        "rep_votes": 2265,
+        "other_votes": 127,
+        "total_votes": 3340,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1317,
+        "margin_pct": 39.431137724550894,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 4928,
+        "rep_votes": 11103,
+        "other_votes": 804,
+        "total_votes": 16835,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6175,
+        "margin_pct": 36.67953667953668,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 4987,
+        "rep_votes": 11814,
+        "other_votes": 820,
+        "total_votes": 17621,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6827,
+        "margin_pct": 38.743544634243236,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 4949,
+        "rep_votes": 11729,
+        "other_votes": 825,
+        "total_votes": 17503,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6780,
+        "margin_pct": 38.736216648574526,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 6612,
+        "rep_votes": 15157,
+        "other_votes": 1294,
+        "total_votes": 23063,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8545,
+        "margin_pct": 37.05068724797294,
+        "winner": "R"
+      }
+    }
+  }
+}

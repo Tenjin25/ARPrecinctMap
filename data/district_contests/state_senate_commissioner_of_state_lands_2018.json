@@ -1,0 +1,403 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.867411,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7111,
+        "rep_votes": 12840,
+        "other_votes": 431,
+        "total_votes": 20382,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 5729,
+        "margin_pct": 28.108134628593856,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 7450,
+        "rep_votes": 12644,
+        "other_votes": 537,
+        "total_votes": 20631,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 5194,
+        "margin_pct": 25.175706461150693,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 7864,
+        "rep_votes": 13573,
+        "other_votes": 454,
+        "total_votes": 21891,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 5709,
+        "margin_pct": 26.079210634507334,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 6245,
+        "rep_votes": 15349,
+        "other_votes": 442,
+        "total_votes": 22036,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9104,
+        "margin_pct": 41.31421310582683,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 5350,
+        "rep_votes": 18894,
+        "other_votes": 800,
+        "total_votes": 25044,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 13544,
+        "margin_pct": 54.0808177607411,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 10289,
+        "rep_votes": 19540,
+        "other_votes": 835,
+        "total_votes": 30664,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9251,
+        "margin_pct": 30.168927732846335,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 7176,
+        "rep_votes": 17359,
+        "other_votes": 826,
+        "total_votes": 25361,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 10183,
+        "margin_pct": 40.1522022002287,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 13031,
+        "rep_votes": 7104,
+        "other_votes": 426,
+        "total_votes": 20561,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": -5927,
+        "margin_pct": 28.826418948494727,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 202,
+        "rep_votes": 212,
+        "other_votes": 7,
+        "total_votes": 421,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 10,
+        "margin_pct": 2.375296912114014,
+        "winner": "R"
+      },
+      "10": {
+        "dem_votes": 6603,
+        "rep_votes": 12589,
+        "other_votes": 547,
+        "total_votes": 19739,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 5986,
+        "margin_pct": 30.325751051218404,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 4024,
+        "rep_votes": 9855,
+        "other_votes": 475,
+        "total_votes": 14354,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 5831,
+        "margin_pct": 40.6228229065069,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 16179,
+        "rep_votes": 5280,
+        "other_votes": 822,
+        "total_votes": 22281,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": -10899,
+        "margin_pct": 48.91611687087653,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 14694,
+        "rep_votes": 17999,
+        "other_votes": 1233,
+        "total_votes": 33926,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 3305,
+        "margin_pct": 9.741790956788304,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 21597,
+        "rep_votes": 15842,
+        "other_votes": 1411,
+        "total_votes": 38850,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": -5755,
+        "margin_pct": 14.813384813384815,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 17916,
+        "rep_votes": 4428,
+        "other_votes": 744,
+        "total_votes": 23088,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": -13488,
+        "margin_pct": 58.41995841995842,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 8191,
+        "rep_votes": 17606,
+        "other_votes": 1049,
+        "total_votes": 26846,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9415,
+        "margin_pct": 35.07040154957908,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 3139,
+        "rep_votes": 5518,
+        "other_votes": 300,
+        "total_votes": 8957,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 2379,
+        "margin_pct": 26.56023222060958,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 5019,
+        "rep_votes": 19246,
+        "other_votes": 743,
+        "total_votes": 25008,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 14227,
+        "margin_pct": 56.88979526551503,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 2286,
+        "rep_votes": 6326,
+        "other_votes": 306,
+        "total_votes": 8918,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 4040,
+        "margin_pct": 45.30163713837183,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 6961,
+        "rep_votes": 11912,
+        "other_votes": 697,
+        "total_votes": 19570,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 4951,
+        "margin_pct": 25.29892692897292,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 5718,
+        "rep_votes": 15166,
+        "other_votes": 775,
+        "total_votes": 21659,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9448,
+        "margin_pct": 43.62158917770903,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 5761,
+        "rep_votes": 18815,
+        "other_votes": 741,
+        "total_votes": 25317,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 13054,
+        "margin_pct": 51.56219141288463,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 5779,
+        "rep_votes": 17242,
+        "other_votes": 975,
+        "total_votes": 23996,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 11463,
+        "margin_pct": 47.77046174362394,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 5906,
+        "rep_votes": 19733,
+        "other_votes": 936,
+        "total_votes": 26575,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 13827,
+        "margin_pct": 52.03010348071496,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 6109,
+        "rep_votes": 15557,
+        "other_votes": 731,
+        "total_votes": 22397,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9448,
+        "margin_pct": 42.18422110104032,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 5018,
+        "rep_votes": 14057,
+        "other_votes": 696,
+        "total_votes": 19771,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9039,
+        "margin_pct": 45.71847655657276,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 6061,
+        "rep_votes": 10167,
+        "other_votes": 761,
+        "total_votes": 16989,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 4106,
+        "margin_pct": 24.168579669197715,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 7052,
+        "rep_votes": 16941,
+        "other_votes": 838,
+        "total_votes": 24831,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 9889,
+        "margin_pct": 39.82521847690387,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 6808,
+        "rep_votes": 17367,
+        "other_votes": 911,
+        "total_votes": 25086,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 10559,
+        "margin_pct": 42.09120625049829,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 14927,
+        "rep_votes": 8830,
+        "other_votes": 865,
+        "total_votes": 24622,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": -6097,
+        "margin_pct": 24.762407602956703,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 6236,
+        "rep_votes": 9425,
+        "other_votes": 566,
+        "total_votes": 16227,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 3189,
+        "margin_pct": 19.652431133296357,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 8986,
+        "rep_votes": 15537,
+        "other_votes": 1042,
+        "total_votes": 25565,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 6551,
+        "margin_pct": 25.624877762566005,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 6438,
+        "rep_votes": 12734,
+        "other_votes": 720,
+        "total_votes": 19892,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 6296,
+        "margin_pct": 31.65091494067967,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 6513,
+        "rep_votes": 12654,
+        "other_votes": 753,
+        "total_votes": 19920,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 6141,
+        "margin_pct": 30.828313253012045,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 7669,
+        "rep_votes": 15958,
+        "other_votes": 953,
+        "total_votes": 24580,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 8289,
+        "margin_pct": 33.72253864930838,
+        "winner": "R"
+      }
+    }
+  }
+}

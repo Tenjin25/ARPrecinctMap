@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.615287,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 58134,
+        "rep_votes": 62290,
+        "other_votes": 0,
+        "total_votes": 120424,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 4156,
+        "margin_pct": 3.4511393077791803,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 80440,
+        "rep_votes": 61944,
+        "other_votes": 0,
+        "total_votes": 142384,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -18496,
+        "margin_pct": 12.990223620631532,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 28113,
+        "rep_votes": 48484,
+        "other_votes": 0,
+        "total_votes": 76597,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 20371,
+        "margin_pct": 26.595036359126333,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 66733,
+        "rep_votes": 63497,
+        "other_votes": 0,
+        "total_votes": 130230,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": -3236,
+        "margin_pct": 2.484834523535284,
+        "winner": "D"
+      }
+    }
+  }
+}

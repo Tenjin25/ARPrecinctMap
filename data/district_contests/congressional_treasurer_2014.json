@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.807069,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 43581,
+        "rep_votes": 71794,
+        "other_votes": 8109,
+        "total_votes": 123484,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 28213,
+        "margin_pct": 22.847494412231544,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 88445,
+        "rep_votes": 113651,
+        "other_votes": 14817,
+        "total_votes": 216913,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 25206,
+        "margin_pct": 11.620327043561243,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 44893,
+        "rep_votes": 97036,
+        "other_votes": 9903,
+        "total_votes": 151832,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 52143,
+        "margin_pct": 34.34256283260446,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 59651,
+        "rep_votes": 78547,
+        "other_votes": 8810,
+        "total_votes": 147008,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 18896,
+        "margin_pct": 12.853722246408358,
+        "winner": "R"
+      }
+    }
+  }
+}

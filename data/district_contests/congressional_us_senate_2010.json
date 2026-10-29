@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.614516,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45633,
+        "rep_votes": 70213,
+        "other_votes": 7573,
+        "total_votes": 123419,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 24580,
+        "margin_pct": 19.915896255843915,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 64344,
+        "rep_votes": 73969,
+        "other_votes": 6089,
+        "total_votes": 144402,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 9625,
+        "margin_pct": 6.665420146535367,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 19616,
+        "rep_votes": 55478,
+        "other_votes": 3203,
+        "total_votes": 78297,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 35862,
+        "margin_pct": 45.802521169393465,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 51027,
+        "rep_votes": 74054,
+        "other_votes": 8098,
+        "total_votes": 133179,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 23027,
+        "margin_pct": 17.290263479978073,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.617341,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 82502,
+        "rep_votes": 0,
+        "other_votes": 31594,
+        "total_votes": 114096,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -82502,
+        "margin_pct": 72.30928341046136,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 103164,
+        "rep_votes": 0,
+        "other_votes": 32498,
+        "total_votes": 135662,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -103164,
+        "margin_pct": 76.04487623652902,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 48441,
+        "rep_votes": 0,
+        "other_votes": 22897,
+        "total_votes": 71338,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -48441,
+        "margin_pct": 67.90350164007963,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 93348,
+        "rep_votes": 0,
+        "other_votes": 31779,
+        "total_votes": 125127,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -93348,
+        "margin_pct": 74.60260375458535,
+        "winner": "D"
+      }
+    }
+  }
+}

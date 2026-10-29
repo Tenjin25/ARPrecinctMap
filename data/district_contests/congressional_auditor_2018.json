@@ -1,0 +1,62 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.868061,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 115886,
+        "other_votes": 30898,
+        "total_votes": 146784,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 115886,
+        "margin_pct": 78.95002180074123,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 150084,
+        "other_votes": 68466,
+        "total_votes": 218550,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 150084,
+        "margin_pct": 68.6726149622512,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 137549,
+        "other_votes": 51751,
+        "total_votes": 189300,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 137549,
+        "margin_pct": 72.66191230850502,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 142424,
+        "other_votes": 48932,
+        "total_votes": 191356,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 142424,
+        "margin_pct": 74.42881331131504,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.867539,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5929,
+        "rep_votes": 14154,
+        "other_votes": 440,
+        "total_votes": 20523,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 8225,
+        "margin_pct": 40.07698679530283,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 6628,
+        "rep_votes": 13782,
+        "other_votes": 403,
+        "total_votes": 20813,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 7154,
+        "margin_pct": 34.37274780185461,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 6883,
+        "rep_votes": 14584,
+        "other_votes": 443,
+        "total_votes": 21910,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 7701,
+        "margin_pct": 35.148334094020996,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 5532,
+        "rep_votes": 16074,
+        "other_votes": 452,
+        "total_votes": 22058,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 10542,
+        "margin_pct": 47.792184241545016,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 4238,
+        "rep_votes": 20017,
+        "other_votes": 905,
+        "total_votes": 25160,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 15779,
+        "margin_pct": 62.714626391096985,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 8256,
+        "rep_votes": 21793,
+        "other_votes": 772,
+        "total_votes": 30821,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 13537,
+        "margin_pct": 43.921352324713666,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 5672,
+        "rep_votes": 19091,
+        "other_votes": 756,
+        "total_votes": 25519,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 13419,
+        "margin_pct": 52.584348916493596,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 11260,
+        "rep_votes": 9099,
+        "other_votes": 400,
+        "total_votes": 20759,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": -2161,
+        "margin_pct": 10.409942675466063,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 181,
+        "rep_votes": 228,
+        "other_votes": 8,
+        "total_votes": 417,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 47,
+        "margin_pct": 11.270983213429256,
+        "winner": "R"
+      },
+      "10": {
+        "dem_votes": 5366,
+        "rep_votes": 13989,
+        "other_votes": 470,
+        "total_votes": 19825,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 8623,
+        "margin_pct": 43.495586380832286,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 3524,
+        "rep_votes": 10521,
+        "other_votes": 438,
+        "total_votes": 14483,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 6997,
+        "margin_pct": 48.311813850721535,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 14849,
+        "rep_votes": 7159,
+        "other_votes": 545,
+        "total_votes": 22553,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": -7690,
+        "margin_pct": 34.09745931805082,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 13224,
+        "rep_votes": 20533,
+        "other_votes": 765,
+        "total_votes": 34522,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 7309,
+        "margin_pct": 21.172006256879673,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 20205,
+        "rep_votes": 19056,
+        "other_votes": 738,
+        "total_votes": 39999,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": -1149,
+        "margin_pct": 2.872571814295357,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 16439,
+        "rep_votes": 6480,
+        "other_votes": 478,
+        "total_votes": 23397,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": -9959,
+        "margin_pct": 42.565286147796726,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 7127,
+        "rep_votes": 19297,
+        "other_votes": 841,
+        "total_votes": 27265,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 12170,
+        "margin_pct": 44.63598019438841,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 2763,
+        "rep_votes": 6081,
+        "other_votes": 256,
+        "total_votes": 9100,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 3318,
+        "margin_pct": 36.46153846153846,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 4290,
+        "rep_votes": 20140,
+        "other_votes": 678,
+        "total_votes": 25108,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 15850,
+        "margin_pct": 63.12729010673889,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 1803,
+        "rep_votes": 6723,
+        "other_votes": 451,
+        "total_votes": 8977,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 4920,
+        "margin_pct": 54.80672830567005,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 6096,
+        "rep_votes": 12644,
+        "other_votes": 994,
+        "total_votes": 19734,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 6548,
+        "margin_pct": 33.181311442181006,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 4222,
+        "rep_votes": 16534,
+        "other_votes": 1082,
+        "total_votes": 21838,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 12312,
+        "margin_pct": 56.37878926641634,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 4660,
+        "rep_votes": 19751,
+        "other_votes": 988,
+        "total_votes": 25399,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 15091,
+        "margin_pct": 59.41572502854443,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 4964,
+        "rep_votes": 18176,
+        "other_votes": 1009,
+        "total_votes": 24149,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 13212,
+        "margin_pct": 54.71033997266967,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 4959,
+        "rep_votes": 20930,
+        "other_votes": 999,
+        "total_votes": 26888,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 15971,
+        "margin_pct": 59.398244570068435,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 5147,
+        "rep_votes": 16527,
+        "other_votes": 847,
+        "total_votes": 22521,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 11380,
+        "margin_pct": 50.53061586963279,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 3671,
+        "rep_votes": 15582,
+        "other_votes": 611,
+        "total_votes": 19864,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 11911,
+        "margin_pct": 59.962746677406365,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5188,
+        "rep_votes": 11334,
+        "other_votes": 581,
+        "total_votes": 17103,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 6146,
+        "margin_pct": 35.93521604396889,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 6004,
+        "rep_votes": 18221,
+        "other_votes": 787,
+        "total_votes": 25012,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 12217,
+        "margin_pct": 48.844554613785384,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 5845,
+        "rep_votes": 18595,
+        "other_votes": 815,
+        "total_votes": 25255,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 12750,
+        "margin_pct": 50.48505246485845,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 14247,
+        "rep_votes": 10152,
+        "other_votes": 599,
+        "total_votes": 24998,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": -4095,
+        "margin_pct": 16.38131050484039,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 5606,
+        "rep_votes": 10354,
+        "other_votes": 446,
+        "total_votes": 16406,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 4748,
+        "margin_pct": 28.940631476289163,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 8110,
+        "rep_votes": 17059,
+        "other_votes": 722,
+        "total_votes": 25891,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 8949,
+        "margin_pct": 34.56413425514658,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 5901,
+        "rep_votes": 13761,
+        "other_votes": 496,
+        "total_votes": 20158,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 7860,
+        "margin_pct": 38.991963488441314,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 5871,
+        "rep_votes": 13873,
+        "other_votes": 468,
+        "total_votes": 20212,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 8002,
+        "margin_pct": 39.59034237086879,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 6804,
+        "rep_votes": 17210,
+        "other_votes": 772,
+        "total_votes": 24786,
+        "dem_candidate": "Jared K. Henderson",
+        "rep_candidate": "Asa Hutchinson",
+        "margin": 10406,
+        "margin_pct": 41.98337771322521,
+        "winner": "R"
+      }
+    }
+  }
+}

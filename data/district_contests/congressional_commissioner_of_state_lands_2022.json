@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.754348,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31540,
+        "rep_votes": 110857,
+        "other_votes": 0,
+        "total_votes": 142397,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 79317,
+        "margin_pct": 55.70131393217553,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 78803,
+        "rep_votes": 121239,
+        "other_votes": 0,
+        "total_votes": 200042,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 42436,
+        "margin_pct": 21.21354515551734,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 59133,
+        "rep_votes": 102711,
+        "other_votes": 0,
+        "total_votes": 161844,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 43578,
+        "margin_pct": 26.92592867205457,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 46495,
+        "rep_votes": 121196,
+        "other_votes": 0,
+        "total_votes": 167691,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 74701,
+        "margin_pct": 44.54681527333012,
+        "winner": "R"
+      }
+    }
+  }
+}

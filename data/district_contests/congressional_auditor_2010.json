@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.618406,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 79303,
+        "rep_votes": 0,
+        "other_votes": 33856,
+        "total_votes": 113159,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -79303,
+        "margin_pct": 70.08103641778382,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 98335,
+        "rep_votes": 0,
+        "other_votes": 35755,
+        "total_votes": 134090,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -98335,
+        "margin_pct": 73.33507345812514,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 46421,
+        "rep_votes": 0,
+        "other_votes": 24460,
+        "total_votes": 70881,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -46421,
+        "margin_pct": 65.49145751329694,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 92702,
+        "rep_votes": 0,
+        "other_votes": 32617,
+        "total_votes": 125319,
+        "dem_candidate": "Charlie Daniels",
+        "rep_candidate": "",
+        "margin": -92702,
+        "margin_pct": 73.97282135988956,
+        "winner": "D"
+      }
+    }
+  }
+}

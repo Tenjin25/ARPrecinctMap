@@ -1,0 +1,62 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 2139,
+    "matched_vote_coverage": 0.821691,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 44569,
+        "rep_votes": 136293,
+        "other_votes": 5061,
+        "total_votes": 185923,
+        "dem_candidate": "Joseph R. Biden / Kamala Harris",
+        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "margin": 91724,
+        "margin_pct": 49.33440187604546,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 125257,
+        "rep_votes": 163919,
+        "other_votes": 7579,
+        "total_votes": 296755,
+        "dem_candidate": "Joseph R. Biden / Kamala Harris",
+        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "margin": 38662,
+        "margin_pct": 13.028255631750095,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 95923,
+        "rep_votes": 156678,
+        "other_votes": 7632,
+        "total_votes": 260233,
+        "dem_candidate": "Joseph R. Biden / Kamala Harris",
+        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "margin": 60755,
+        "margin_pct": 23.346385738933957,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 80705,
+        "rep_votes": 171058,
+        "other_votes": 7024,
+        "total_votes": 258787,
+        "dem_candidate": "Joseph R. Biden / Kamala Harris",
+        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "margin": 90353,
+        "margin_pct": 34.91404127718935,
+        "winner": "R"
+      }
+    }
+  }
+}

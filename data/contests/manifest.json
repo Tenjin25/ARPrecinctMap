@@ -1,0 +1,405 @@
+{
+  "state": "Arkansas",
+  "files": [
+    {
+      "year": 2008,
+      "contest_type": "president",
+      "file": "president_2008.json",
+      "rows": 2108,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2008,
+      "contest_type": "us_senate",
+      "file": "us_senate_2008.json",
+      "rows": 2108,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "auditor",
+      "file": "auditor_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "commissioner_of_state_lands",
+      "file": "commissioner_of_state_lands_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "governor_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "treasurer",
+      "file": "treasurer_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2010,
+      "contest_type": "us_senate",
+      "file": "us_senate_2010.json",
+      "rows": 2310,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2012,
+      "contest_type": "president",
+      "file": "president_2012.json",
+      "rows": 2331,
+      "partial": false,
+      "counties_present": 72,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "auditor",
+      "file": "auditor_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "commissioner_of_state_lands",
+      "file": "commissioner_of_state_lands_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "governor_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "treasurer",
+      "file": "treasurer_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2014,
+      "contest_type": "us_senate",
+      "file": "us_senate_2014.json",
+      "rows": 2563,
+      "partial": false,
+      "counties_present": 71,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2016,
+      "contest_type": "president",
+      "file": "president_2016.json",
+      "rows": 2500,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2016,
+      "contest_type": "us_senate",
+      "file": "us_senate_2016.json",
+      "rows": 2500,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "auditor",
+      "file": "auditor_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "commissioner_of_state_lands",
+      "file": "commissioner_of_state_lands_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "governor_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2018,
+      "contest_type": "treasurer",
+      "file": "treasurer_2018.json",
+      "rows": 2636,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2020,
+      "contest_type": "president",
+      "file": "president_2020.json",
+      "rows": 2575,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "us_senate_2020.json",
+      "rows": 2575,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "auditor",
+      "file": "auditor_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "commissioner_of_state_lands",
+      "file": "commissioner_of_state_lands_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "governor_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "treasurer",
+      "file": "treasurer_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_senate",
+      "file": "us_senate_2022.json",
+      "rows": 2467,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2024,
+      "contest_type": "president",
+      "file": "president_2024.json",
+      "rows": 2839,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    },
+    {
+      "year": 2024,
+      "contest_type": "treasurer",
+      "file": "treasurer_2024.json",
+      "rows": 2839,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": []
+    }
+  ]
+}

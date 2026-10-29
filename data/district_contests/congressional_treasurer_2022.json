@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.754507,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 34444,
+        "rep_votes": 108339,
+        "other_votes": 0,
+        "total_votes": 142783,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 73895,
+        "margin_pct": 51.7533599938368,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 87134,
+        "rep_votes": 114114,
+        "other_votes": 0,
+        "total_votes": 201248,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 26980,
+        "margin_pct": 13.406344410876134,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 63388,
+        "rep_votes": 99476,
+        "other_votes": 0,
+        "total_votes": 162864,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 36088,
+        "margin_pct": 22.158365261813536,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 50236,
+        "rep_votes": 118580,
+        "other_votes": 0,
+        "total_votes": 168816,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 68344,
+        "margin_pct": 40.48431428300635,
+        "winner": "R"
+      }
+    }
+  }
+}

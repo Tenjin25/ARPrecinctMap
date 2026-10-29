@@ -1,0 +1,205 @@
+from __future__ import annotations
+
+import csv
+import json
+import re
+from collections import defaultdict
+from difflib import SequenceMatcher
+from pathlib import Path
+
+import build_ar_atlas_election_json as atlas
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
+VTD_PATH = DATA_DIR / "tl_2020_05_vtd20.geojson"
+AUDIT_PATH = DATA_DIR / "ar_precinct_crosswalks.csv"
+ALIASES_PATH = DATA_DIR / "ar_precinct_aliases.csv"
+
+PUBLISHED_YEARS = {2008, 2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024}
+NON_GEOGRAPHIC = re.compile(
+    r"\b(ABSENTEE|EARLY|PROVISIONAL|OVERSEAS|UOCAVA|FAILSAFE|TOTAL|"
+    r"CENTRAL COUNT|MAIL|PAPER BALLOT)\b",
+    re.I,
+)
+
+
+def clean_label(value: str) -> str:
+    text = " ".join((value or "").strip().upper().split())
+    text = text.replace("&", " AND ")
+    text = re.sub(r"\bPCT\b|\bPRCT\b", " PRECINCT ", text)
+    text = re.sub(r"\bTWP\b", " TOWNSHIP ", text)
+    text = re.sub(r"[^A-Z0-9]+", " ", text)
+    return " ".join(text.split())
+
+
+def canonical_label(value: str) -> str:
+    text = clean_label(value)
+    text = re.sub(r"^PRECINCT\s+", "", text)
+    # Census VTD names commonly prefix a local sequence code, e.g.
+    # "15 - Almyra" while election exports report simply "Almyra".
+    text = re.sub(r"^\d+\s+(?=[A-Z])", "", text)
+    tokens = []
+    for token in text.split():
+        if token.isdigit():
+            token = str(int(token))
+        else:
+            match = re.fullmatch(r"0*(\d+)([A-Z]+)", token)
+            if match:
+                token = f"{int(match.group(1))}{match.group(2)}"
+        tokens.append(token)
+    return " ".join(tokens)
+
+
+def load_vtds() -> dict[str, list[dict[str, str]]]:
+    payload = json.loads(VTD_PATH.read_text(encoding="utf-8"))
+    by_county: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for feature in payload.get("features", []):
+        props = feature.get("properties") or {}
+        county = atlas.normalize_county_name(str(props.get("county_nam") or ""))
+        name = str(props.get("prec_id") or props.get("NAME20") or "").strip()
+        code = str(props.get("VTDST20") or "").strip()
+        if county and name:
+            by_county[county].append(
+                {
+                    "name": name,
+                    "code": code,
+                    "clean": clean_label(name),
+                    "canonical": canonical_label(name),
+                }
+            )
+    return by_county
+
+
+def load_election_precincts() -> dict[int, dict[str, set[str]]]:
+    out: dict[int, dict[str, set[str]]] = {}
+    for year, paths in atlas.INPUTS.items():
+        if year not in PUBLISHED_YEARS:
+            continue
+        counties: dict[str, set[str]] = defaultdict(set)
+        for path in paths:
+            with path.open(newline="", encoding="utf-8-sig") as source:
+                for row in csv.DictReader(source):
+                    if (row.get("office") or "").strip() not in atlas.OFFICE_TYPES:
+                        continue
+                    county = atlas.normalize_county_name(row.get("county") or "")
+                    precinct = " ".join((row.get("precinct") or "").strip().upper().split())
+                    if county and precinct:
+                        counties[county].add(precinct)
+        out[year] = counties
+    return out
+
+
+def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, object]:
+    clean = clean_label(label)
+    canonical = canonical_label(label)
+    if NON_GEOGRAPHIC.search(clean):
+        return {"method": "non_geographic", "score": 0.0, "targets": []}
+
+    exact = [item for item in targets if item["clean"] == clean]
+    if len(exact) == 1:
+        return {"method": "exact", "score": 1.0, "targets": exact}
+
+    canonical_matches = [item for item in targets if item["canonical"] == canonical]
+    if len(canonical_matches) == 1:
+        return {"method": "canonical", "score": 0.99, "targets": canonical_matches}
+    if len(canonical_matches) > 1:
+        return {"method": "ambiguous_canonical", "score": 0.99, "targets": canonical_matches}
+
+    contained = [
+        item for item in targets
+        if len(canonical) >= 5
+        and (canonical in item["canonical"] or item["canonical"] in canonical)
+    ]
+    if len(contained) == 1:
+        return {"method": "containment", "score": 0.95, "targets": contained}
+    if len(contained) > 1:
+        return {"method": "ambiguous_containment", "score": 0.95, "targets": contained}
+
+    scored = sorted(
+        [
+            (
+                SequenceMatcher(None, canonical, item["canonical"]).ratio(),
+                item,
+            )
+            for item in targets
+            if canonical and item["canonical"]
+        ],
+        key=lambda pair: pair[0],
+    )
+    if not scored:
+        return {"method": "unmatched", "score": 0.0, "targets": []}
+    best_score, best = scored[-1]
+    runner_up = scored[-2][0] if len(scored) > 1 else 0.0
+    if best_score >= 0.94 and best_score - runner_up >= 0.08:
+        return {"method": "fuzzy_high", "score": best_score, "targets": [best]}
+    return {
+        "method": "ambiguous" if best_score >= 0.80 else "unmatched",
+        "score": best_score,
+        "targets": [best] if best_score >= 0.80 else [],
+    }
+
+
+def main() -> int:
+    vtds = load_vtds()
+    elections = load_election_precincts()
+    audit_rows: list[dict[str, object]] = []
+    alias_rows: list[dict[str, str]] = []
+    safe_methods = {"exact", "canonical", "containment", "fuzzy_high"}
+
+    for year in sorted(elections):
+        stats: dict[str, int] = defaultdict(int)
+        for county in sorted(elections[year]):
+            targets = vtds.get(county, [])
+            for precinct in sorted(elections[year][county]):
+                result = match_precinct(precinct, targets)
+                method = str(result["method"])
+                matches = list(result["targets"])
+                stats[method] += 1
+                best = matches[0] if matches else {}
+                audit_rows.append(
+                    {
+                        "election_year": year,
+                        "county_norm": county,
+                        "election_precinct": precinct,
+                        "vtd_year": 2020,
+                        "vtd_code": best.get("code", ""),
+                        "vtd_name": best.get("name", ""),
+                        "match_method": method,
+                        "match_score": f"{float(result['score']):.4f}",
+                        "candidate_count": len(matches),
+                    }
+                )
+                if method in safe_methods and len(matches) == 1:
+                    alias_rows.append(
+                        {
+                            "county_norm": county,
+                            "precinct_norm": precinct,
+                            "canonical_label": str(best["name"]),
+                            "prctseq_2024": str(best["name"]),
+                            "election_year": str(year),
+                            "match_method": method,
+                            "match_score": f"{float(result['score']):.4f}",
+                        }
+                    )
+        matched = sum(stats[m] for m in safe_methods)
+        total = sum(stats.values())
+        print(f"{year}: {matched}/{total} safely matched ({matched / total:.1%}) {dict(stats)}")
+
+    with AUDIT_PATH.open("w", newline="", encoding="utf-8") as output:
+        writer = csv.DictWriter(output, fieldnames=list(audit_rows[0]))
+        writer.writeheader()
+        writer.writerows(audit_rows)
+
+    with ALIASES_PATH.open("w", newline="", encoding="utf-8") as output:
+        writer = csv.DictWriter(output, fieldnames=list(alias_rows[0]))
+        writer.writeheader()
+        writer.writerows(alias_rows)
+
+    print(f"Wrote {AUDIT_PATH} ({len(audit_rows)} rows)")
+    print(f"Wrote {ALIASES_PATH} ({len(alias_rows)} conservative aliases)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

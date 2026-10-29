@@ -1,0 +1,381 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.754507,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5979,
+        "rep_votes": 14723,
+        "other_votes": 0,
+        "total_votes": 20702,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8744,
+        "margin_pct": 42.23746497922906,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 7061,
+        "rep_votes": 15532,
+        "other_votes": 0,
+        "total_votes": 22593,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8471,
+        "margin_pct": 37.49391404417297,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 7094,
+        "rep_votes": 15676,
+        "other_votes": 0,
+        "total_votes": 22770,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8582,
+        "margin_pct": 37.68994290733421,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 4502,
+        "rep_votes": 15011,
+        "other_votes": 0,
+        "total_votes": 19513,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 10509,
+        "margin_pct": 53.85640342335879,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 3514,
+        "rep_votes": 17914,
+        "other_votes": 0,
+        "total_votes": 21428,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 14400,
+        "margin_pct": 67.20179204778795,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 7553,
+        "rep_votes": 17551,
+        "other_votes": 0,
+        "total_votes": 25104,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 9998,
+        "margin_pct": 39.82632249840663,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 5187,
+        "rep_votes": 18719,
+        "other_votes": 0,
+        "total_votes": 23906,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 13532,
+        "margin_pct": 56.605036392537436,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 10061,
+        "rep_votes": 7855,
+        "other_votes": 0,
+        "total_votes": 17916,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": -2206,
+        "margin_pct": 12.313016298280868,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 4722,
+        "rep_votes": 13462,
+        "other_votes": 0,
+        "total_votes": 18184,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8740,
+        "margin_pct": 48.06423229212495,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 8152,
+        "rep_votes": 20551,
+        "other_votes": 0,
+        "total_votes": 28703,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 12399,
+        "margin_pct": 43.19757516635892,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 12093,
+        "rep_votes": 6218,
+        "other_votes": 0,
+        "total_votes": 18311,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": -5875,
+        "margin_pct": 32.08453934793294,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 14253,
+        "rep_votes": 15232,
+        "other_votes": 0,
+        "total_votes": 29485,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 979,
+        "margin_pct": 3.3203323723927416,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 22159,
+        "rep_votes": 11634,
+        "other_votes": 0,
+        "total_votes": 33793,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": -10525,
+        "margin_pct": 31.145503506643387,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 14835,
+        "rep_votes": 5929,
+        "other_votes": 0,
+        "total_votes": 20764,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": -8906,
+        "margin_pct": 42.891543055288004,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 9678,
+        "rep_votes": 19980,
+        "other_votes": 0,
+        "total_votes": 29658,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 10302,
+        "margin_pct": 34.735990289297995,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 2497,
+        "rep_votes": 3260,
+        "other_votes": 0,
+        "total_votes": 5757,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 763,
+        "margin_pct": 13.253430606218517,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 3428,
+        "rep_votes": 17457,
+        "other_votes": 0,
+        "total_votes": 20885,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 14029,
+        "margin_pct": 67.17261192243237,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 1498,
+        "rep_votes": 5274,
+        "other_votes": 0,
+        "total_votes": 6772,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 3776,
+        "margin_pct": 55.75900767867691,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 6976,
+        "rep_votes": 13646,
+        "other_votes": 0,
+        "total_votes": 20622,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 6670,
+        "margin_pct": 32.34409853554456,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 2283,
+        "rep_votes": 9602,
+        "other_votes": 0,
+        "total_votes": 11885,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 7319,
+        "margin_pct": 61.581825830879254,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 4935,
+        "rep_votes": 21814,
+        "other_votes": 0,
+        "total_votes": 26749,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 16879,
+        "margin_pct": 63.10142435231224,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 2537,
+        "rep_votes": 11922,
+        "other_votes": 0,
+        "total_votes": 14459,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 9385,
+        "margin_pct": 64.90766996334463,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 3113,
+        "rep_votes": 13070,
+        "other_votes": 0,
+        "total_votes": 16183,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 9957,
+        "margin_pct": 61.52752888833961,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 4212,
+        "rep_votes": 13818,
+        "other_votes": 0,
+        "total_votes": 18030,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 9606,
+        "margin_pct": 53.277870216306155,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 1109,
+        "rep_votes": 4724,
+        "other_votes": 0,
+        "total_votes": 5833,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 3615,
+        "margin_pct": 61.97496999828561,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 4485,
+        "rep_votes": 16312,
+        "other_votes": 0,
+        "total_votes": 20797,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 11827,
+        "margin_pct": 56.86877915083907,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 3250,
+        "rep_votes": 6023,
+        "other_votes": 0,
+        "total_votes": 9273,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 2773,
+        "margin_pct": 29.904022430712825,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 16432,
+        "rep_votes": 9518,
+        "other_votes": 0,
+        "total_votes": 25950,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": -6914,
+        "margin_pct": 26.643545279383428,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 6304,
+        "rep_votes": 9792,
+        "other_votes": 0,
+        "total_votes": 16096,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 3488,
+        "margin_pct": 21.669980119284293,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 7471,
+        "rep_votes": 15276,
+        "other_votes": 0,
+        "total_votes": 22747,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 7805,
+        "margin_pct": 34.31221699564777,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 9571,
+        "rep_votes": 17404,
+        "other_votes": 0,
+        "total_votes": 26975,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 7833,
+        "margin_pct": 29.03799814643188,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 11622,
+        "rep_votes": 20417,
+        "other_votes": 0,
+        "total_votes": 32039,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8795,
+        "margin_pct": 27.450919192234462,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 6637,
+        "rep_votes": 15195,
+        "other_votes": 0,
+        "total_votes": 21832,
+        "dem_candidate": "Pam Whitaker",
+        "rep_candidate": "Mark Lowery",
+        "margin": 8558,
+        "margin_pct": 39.199340417735435,
+        "winner": "R"
+      }
+    }
+  }
+}

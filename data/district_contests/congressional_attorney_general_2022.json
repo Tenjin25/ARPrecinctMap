@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.755081,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 32980,
+        "rep_votes": 110310,
+        "other_votes": 0,
+        "total_votes": 143290,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 77330,
+        "margin_pct": 53.96747854002373,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 82295,
+        "rep_votes": 119902,
+        "other_votes": 0,
+        "total_votes": 202197,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 37607,
+        "margin_pct": 18.599187920691207,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 62354,
+        "rep_votes": 100694,
+        "other_votes": 0,
+        "total_votes": 163048,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 38340,
+        "margin_pct": 23.514547863205927,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 48450,
+        "rep_votes": 120544,
+        "other_votes": 0,
+        "total_votes": 168994,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 72094,
+        "margin_pct": 42.66068617820751,
+        "winner": "R"
+      }
+    }
+  }
+}

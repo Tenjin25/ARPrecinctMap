@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.807345,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 47030,
+        "rep_votes": 72728,
+        "other_votes": 5247,
+        "total_votes": 125005,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 25698,
+        "margin_pct": 20.557577696892125,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 92539,
+        "rep_votes": 119687,
+        "other_votes": 8584,
+        "total_votes": 220810,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 27148,
+        "margin_pct": 12.294733028395454,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 48337,
+        "rep_votes": 97094,
+        "other_votes": 8475,
+        "total_votes": 153906,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 48757,
+        "margin_pct": 31.67972658635791,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 62288,
+        "rep_votes": 80475,
+        "other_votes": 5460,
+        "total_votes": 148223,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 18187,
+        "margin_pct": 12.27002556958097,
+        "winner": "R"
+      }
+    }
+  }
+}

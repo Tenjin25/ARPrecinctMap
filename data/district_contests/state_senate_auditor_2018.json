@@ -1,0 +1,403 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.868061,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 14768,
+        "other_votes": 5010,
+        "total_votes": 19778,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14768,
+        "margin_pct": 74.66882394579835,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 14486,
+        "other_votes": 5431,
+        "total_votes": 19917,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14486,
+        "margin_pct": 72.73183712406487,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 15697,
+        "other_votes": 5608,
+        "total_votes": 21305,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 15697,
+        "margin_pct": 73.67754048345458,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 16799,
+        "other_votes": 4891,
+        "total_votes": 21690,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 16799,
+        "margin_pct": 77.45043798985708,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 20974,
+        "other_votes": 3833,
+        "total_votes": 24807,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 20974,
+        "margin_pct": 84.54871608820092,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 22700,
+        "other_votes": 7139,
+        "total_votes": 29839,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 22700,
+        "margin_pct": 76.07493548711417,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 19944,
+        "other_votes": 5071,
+        "total_votes": 25015,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 19944,
+        "margin_pct": 79.72816310213872,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 10227,
+        "other_votes": 8768,
+        "total_votes": 18995,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 10227,
+        "margin_pct": 53.84048433798368,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 253,
+        "other_votes": 154,
+        "total_votes": 407,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 253,
+        "margin_pct": 62.16216216216216,
+        "winner": "R"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 14918,
+        "other_votes": 4424,
+        "total_votes": 19342,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14918,
+        "margin_pct": 77.12749457139903,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 11033,
+        "other_votes": 3108,
+        "total_votes": 14141,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 11033,
+        "margin_pct": 78.02135633972138,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 8436,
+        "other_votes": 12264,
+        "total_votes": 20700,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 8436,
+        "margin_pct": 40.7536231884058,
+        "winner": "O"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 22358,
+        "other_votes": 10528,
+        "total_votes": 32886,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 22358,
+        "margin_pct": 67.98637718177947,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 22571,
+        "other_votes": 14173,
+        "total_votes": 36744,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 22571,
+        "margin_pct": 61.427716089701725,
+        "winner": "R"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 8078,
+        "other_votes": 13462,
+        "total_votes": 21540,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 8078,
+        "margin_pct": 37.50232126276695,
+        "winner": "O"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 20396,
+        "other_votes": 6041,
+        "total_votes": 26437,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 20396,
+        "margin_pct": 77.14944963498127,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 6384,
+        "other_votes": 2340,
+        "total_votes": 8724,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 6384,
+        "margin_pct": 73.17744154057772,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 20888,
+        "other_votes": 3918,
+        "total_votes": 24806,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 20888,
+        "margin_pct": 84.20543416915262,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 7181,
+        "other_votes": 1616,
+        "total_votes": 8797,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 7181,
+        "margin_pct": 81.63010117085369,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 14157,
+        "other_votes": 5135,
+        "total_votes": 19292,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14157,
+        "margin_pct": 73.38274932614556,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 17556,
+        "other_votes": 3911,
+        "total_votes": 21467,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 17556,
+        "margin_pct": 81.78133879908697,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 20928,
+        "other_votes": 4134,
+        "total_votes": 25062,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 20928,
+        "margin_pct": 83.5049078285851,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 19002,
+        "other_votes": 4068,
+        "total_votes": 23070,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 19002,
+        "margin_pct": 82.3667100130039,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 21594,
+        "other_votes": 4608,
+        "total_votes": 26202,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 21594,
+        "margin_pct": 82.41355621708266,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 17943,
+        "other_votes": 4209,
+        "total_votes": 22152,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 17943,
+        "margin_pct": 80.99945828819068,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 16211,
+        "other_votes": 3420,
+        "total_votes": 19631,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 16211,
+        "margin_pct": 82.57857470327544,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 12013,
+        "other_votes": 4772,
+        "total_votes": 16785,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 12013,
+        "margin_pct": 71.56985403634198,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 19163,
+        "other_votes": 5130,
+        "total_votes": 24293,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 19163,
+        "margin_pct": 78.88280574651134,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 19371,
+        "other_votes": 5409,
+        "total_votes": 24780,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 19371,
+        "margin_pct": 78.17191283292978,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 12819,
+        "other_votes": 10359,
+        "total_votes": 23178,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 12819,
+        "margin_pct": 55.306756406937616,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 11229,
+        "other_votes": 4682,
+        "total_votes": 15911,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 11229,
+        "margin_pct": 70.57381685626297,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 18253,
+        "other_votes": 6830,
+        "total_votes": 25083,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 18253,
+        "margin_pct": 72.77040226448192,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 14718,
+        "other_votes": 4835,
+        "total_votes": 19553,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14718,
+        "margin_pct": 75.27233672582211,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 14684,
+        "other_votes": 4876,
+        "total_votes": 19560,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 14684,
+        "margin_pct": 75.07157464212679,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 18209,
+        "other_votes": 5890,
+        "total_votes": 24099,
+        "dem_candidate": "",
+        "rep_candidate": "Andrea Lea",
+        "margin": 18209,
+        "margin_pct": 75.55915183202623,
+        "winner": "R"
+      }
+    }
+  }
+}

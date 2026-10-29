@@ -1,0 +1,403 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.807069,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7612,
+        "rep_votes": 8806,
+        "other_votes": 1036,
+        "total_votes": 17454,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1194,
+        "margin_pct": 6.840838776211757,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 2712,
+        "rep_votes": 4068,
+        "other_votes": 503,
+        "total_votes": 7283,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1356,
+        "margin_pct": 18.618701084717838,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 8915,
+        "rep_votes": 10416,
+        "other_votes": 1033,
+        "total_votes": 20364,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1501,
+        "margin_pct": 7.370850520526419,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 7984,
+        "rep_votes": 13424,
+        "other_votes": 886,
+        "total_votes": 22294,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 5440,
+        "margin_pct": 24.40118417511438,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 6956,
+        "rep_votes": 14743,
+        "other_votes": 1800,
+        "total_votes": 23499,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 7787,
+        "margin_pct": 33.13758032256692,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 1180,
+        "rep_votes": 3419,
+        "other_votes": 216,
+        "total_votes": 4815,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 2239,
+        "margin_pct": 46.50051921079958,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 6450,
+        "rep_votes": 11358,
+        "other_votes": 1617,
+        "total_votes": 19425,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 4908,
+        "margin_pct": 25.26640926640927,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 13015,
+        "rep_votes": 5887,
+        "other_votes": 886,
+        "total_votes": 19788,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -7128,
+        "margin_pct": 36.02183141297756,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 1325,
+        "rep_votes": 587,
+        "other_votes": 63,
+        "total_votes": 1975,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -738,
+        "margin_pct": 37.36708860759494,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 7282,
+        "rep_votes": 9238,
+        "other_votes": 1020,
+        "total_votes": 17540,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1956,
+        "margin_pct": 11.151653363740023,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 3921,
+        "rep_votes": 8836,
+        "other_votes": 937,
+        "total_votes": 13694,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 4915,
+        "margin_pct": 35.891631371403534,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 15270,
+        "rep_votes": 5193,
+        "other_votes": 1423,
+        "total_votes": 21886,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -10077,
+        "margin_pct": 46.04313259618021,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 12130,
+        "rep_votes": 17337,
+        "other_votes": 1974,
+        "total_votes": 31441,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 5207,
+        "margin_pct": 16.561178079577623,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 17801,
+        "rep_votes": 16135,
+        "other_votes": 2185,
+        "total_votes": 36121,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -1666,
+        "margin_pct": 4.612275407657595,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 16322,
+        "rep_votes": 4485,
+        "other_votes": 1138,
+        "total_votes": 21945,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -11837,
+        "margin_pct": 53.939393939393945,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 7733,
+        "rep_votes": 15389,
+        "other_votes": 2111,
+        "total_votes": 25233,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 7656,
+        "margin_pct": 30.341219831173465,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 2749,
+        "rep_votes": 4718,
+        "other_votes": 548,
+        "total_votes": 8015,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1969,
+        "margin_pct": 24.566437928883346,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 6017,
+        "rep_votes": 16969,
+        "other_votes": 1872,
+        "total_votes": 24858,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 10952,
+        "margin_pct": 44.05825086491271,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 2953,
+        "rep_votes": 5861,
+        "other_votes": 622,
+        "total_votes": 9436,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 2908,
+        "margin_pct": 30.81814328105129,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 6201,
+        "rep_votes": 11403,
+        "other_votes": 1055,
+        "total_votes": 18659,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 5202,
+        "margin_pct": 27.879307572753092,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 6923,
+        "rep_votes": 11817,
+        "other_votes": 1545,
+        "total_votes": 20285,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 4894,
+        "margin_pct": 24.126201626817846,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 7743,
+        "rep_votes": 16269,
+        "other_votes": 1797,
+        "total_votes": 25809,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 8526,
+        "margin_pct": 33.03498779495525,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 3158,
+        "rep_votes": 6231,
+        "other_votes": 688,
+        "total_votes": 10077,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 3073,
+        "margin_pct": 30.495187059640767,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 7313,
+        "rep_votes": 17888,
+        "other_votes": 2018,
+        "total_votes": 27219,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 10575,
+        "margin_pct": 38.85153752893199,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 6438,
+        "rep_votes": 13570,
+        "other_votes": 1517,
+        "total_votes": 21525,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 7132,
+        "margin_pct": 33.1335656213705,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 5664,
+        "rep_votes": 12161,
+        "other_votes": 1297,
+        "total_votes": 19122,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 6497,
+        "margin_pct": 33.976571488338045,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5150,
+        "rep_votes": 9897,
+        "other_votes": 925,
+        "total_votes": 15972,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 4747,
+        "margin_pct": 29.72076133233158,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 5070,
+        "rep_votes": 9335,
+        "other_votes": 997,
+        "total_votes": 15402,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 4265,
+        "margin_pct": 27.691208933904687,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 6166,
+        "rep_votes": 14857,
+        "other_votes": 1535,
+        "total_votes": 22558,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 8691,
+        "margin_pct": 38.52735171557762,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 9407,
+        "rep_votes": 8591,
+        "other_votes": 1240,
+        "total_votes": 19238,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": -816,
+        "margin_pct": 4.241605156461171,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 776,
+        "rep_votes": 2299,
+        "other_votes": 173,
+        "total_votes": 3248,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 1523,
+        "margin_pct": 46.89039408866995,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 4222,
+        "rep_votes": 11042,
+        "other_votes": 1133,
+        "total_votes": 16397,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 6820,
+        "margin_pct": 41.59297432457157,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 4125,
+        "rep_votes": 11887,
+        "other_votes": 1084,
+        "total_votes": 17096,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 7762,
+        "margin_pct": 45.40243331773514,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 4211,
+        "rep_votes": 11711,
+        "other_votes": 1112,
+        "total_votes": 17034,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 7500,
+        "margin_pct": 44.02958788305742,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 5677,
+        "rep_votes": 15199,
+        "other_votes": 1651,
+        "total_votes": 22527,
+        "dem_candidate": "Karen Sealy Garcia",
+        "rep_candidate": "Circuit Clerk Dennis Milligan",
+        "margin": 9522,
+        "margin_pct": 42.269276867758684,
+        "winner": "R"
+      }
+    }
+  }
+}

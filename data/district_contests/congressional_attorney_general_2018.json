@@ -1,0 +1,62 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.86756,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 40564,
+        "rep_votes": 105929,
+        "other_votes": 3981,
+        "total_votes": 150474,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 65365,
+        "margin_pct": 43.43939816845435,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 95422,
+        "rep_votes": 126933,
+        "other_votes": 6458,
+        "total_votes": 228813,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 31511,
+        "margin_pct": 13.771507737759656,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 68000,
+        "rep_votes": 120719,
+        "other_votes": 6327,
+        "total_votes": 195046,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 52719,
+        "margin_pct": 27.029008541574807,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 65124,
+        "rep_votes": 127462,
+        "other_votes": 4705,
+        "total_votes": 197291,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 62338,
+        "margin_pct": 31.596981109123075,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.615171,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 56290,
+        "rep_votes": 62810,
+        "other_votes": 0,
+        "total_votes": 119100,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": 6520,
+        "margin_pct": 5.474391267842149,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 73389,
+        "rep_votes": 66026,
+        "other_votes": 0,
+        "total_votes": 139415,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": -7363,
+        "margin_pct": 5.281354230176093,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 27082,
+        "rep_votes": 48032,
+        "other_votes": 0,
+        "total_votes": 75114,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": 20950,
+        "margin_pct": 27.890939105892375,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 67067,
+        "rep_votes": 62070,
+        "other_votes": 0,
+        "total_votes": 129137,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": -4997,
+        "margin_pct": 3.8695339058519247,
+        "winner": "D"
+      }
+    }
+  }
+}

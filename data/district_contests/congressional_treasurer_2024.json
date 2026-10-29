@@ -1,0 +1,62 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1914,
+    "matched_vote_coverage": 0.673955,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 37729,
+        "rep_votes": 133013,
+        "other_votes": 5895,
+        "total_votes": 176637,
+        "dem_candidate": "John Pagan",
+        "rep_candidate": "John Thurston",
+        "margin": 95284,
+        "margin_pct": 53.943398042312765,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 99355,
+        "rep_votes": 139705,
+        "other_votes": 13638,
+        "total_votes": 252698,
+        "dem_candidate": "John Pagan",
+        "rep_candidate": "John Thurston",
+        "margin": 40350,
+        "margin_pct": 15.967676831633016,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 51758,
+        "rep_votes": 84168,
+        "other_votes": 6438,
+        "total_votes": 142364,
+        "dem_candidate": "John Pagan",
+        "rep_candidate": "John Thurston",
+        "margin": 32410,
+        "margin_pct": 22.765586805653115,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 55547,
+        "rep_votes": 144842,
+        "other_votes": 7720,
+        "total_votes": 208109,
+        "dem_candidate": "John Pagan",
+        "rep_candidate": "John Thurston",
+        "margin": 89295,
+        "margin_pct": 42.90780312240221,
+        "winner": "R"
+      }
+    }
+  }
+}

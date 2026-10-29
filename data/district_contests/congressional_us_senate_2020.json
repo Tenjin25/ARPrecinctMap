@@ -1,0 +1,62 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 2139,
+    "matched_vote_coverage": 0.823288,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 139746,
+        "other_votes": 42222,
+        "total_votes": 181968,
+        "dem_candidate": "",
+        "rep_candidate": "Tom Cotton",
+        "margin": 139746,
+        "margin_pct": 76.79701925613294,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 174827,
+        "other_votes": 116957,
+        "total_votes": 291784,
+        "dem_candidate": "",
+        "rep_candidate": "Tom Cotton",
+        "margin": 174827,
+        "margin_pct": 59.91658212924629,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 160922,
+        "other_votes": 94874,
+        "total_votes": 255796,
+        "dem_candidate": "",
+        "rep_candidate": "Tom Cotton",
+        "margin": 160922,
+        "margin_pct": 62.91028788565889,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 179023,
+        "other_votes": 73827,
+        "total_votes": 252850,
+        "dem_candidate": "",
+        "rep_candidate": "Tom Cotton",
+        "margin": 179023,
+        "margin_pct": 70.80205655526993,
+        "winner": "R"
+      }
+    }
+  }
+}

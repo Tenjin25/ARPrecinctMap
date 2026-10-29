@@ -1,0 +1,62 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.867676,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 38168,
+        "rep_votes": 107975,
+        "other_votes": 4189,
+        "total_votes": 150332,
+        "dem_candidate": "Anthony Bland",
+        "rep_candidate": "Tim Griffin",
+        "margin": 69807,
+        "margin_pct": 46.43522337226938,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 85622,
+        "rep_votes": 136333,
+        "other_votes": 6865,
+        "total_votes": 228820,
+        "dem_candidate": "Anthony Bland",
+        "rep_candidate": "Tim Griffin",
+        "margin": 50711,
+        "margin_pct": 22.161961367013372,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 65358,
+        "rep_votes": 123607,
+        "other_votes": 5892,
+        "total_votes": 194857,
+        "dem_candidate": "Anthony Bland",
+        "rep_candidate": "Tim Griffin",
+        "margin": 58249,
+        "margin_pct": 29.893203734020336,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 60930,
+        "rep_votes": 131612,
+        "other_votes": 4585,
+        "total_votes": 197127,
+        "dem_candidate": "Anthony Bland",
+        "rep_candidate": "Tim Griffin",
+        "margin": 70682,
+        "margin_pct": 35.85607248119233,
+        "winner": "R"
+      }
+    }
+  }
+}

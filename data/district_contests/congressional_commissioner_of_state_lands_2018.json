@@ -1,0 +1,62 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2310,
+    "matched_vote_coverage": 0.867411,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 43303,
+        "rep_votes": 101430,
+        "other_votes": 4994,
+        "total_votes": 149727,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 58127,
+        "margin_pct": 38.821989353957534,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 94789,
+        "rep_votes": 123406,
+        "other_votes": 7828,
+        "total_votes": 226023,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 28617,
+        "margin_pct": 12.661100861416758,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 69202,
+        "rep_votes": 117165,
+        "other_votes": 7226,
+        "total_votes": 193593,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 47963,
+        "margin_pct": 24.77517265603612,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 69015,
+        "rep_votes": 122295,
+        "other_votes": 5301,
+        "total_votes": 196611,
+        "dem_candidate": "Larry Williams",
+        "rep_candidate": "Tommy Land",
+        "margin": 53280,
+        "margin_pct": 27.099195874086394,
+        "winner": "R"
+      }
+    }
+  }
+}

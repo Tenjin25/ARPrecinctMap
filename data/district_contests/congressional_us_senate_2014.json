@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.806877,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 47335,
+        "rep_votes": 73354,
+        "other_votes": 5515,
+        "total_votes": 126204,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 26019,
+        "margin_pct": 20.616620709327755,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 95979,
+        "rep_votes": 117980,
+        "other_votes": 8097,
+        "total_votes": 222056,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 22001,
+        "margin_pct": 9.907861080087905,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 51198,
+        "rep_votes": 96897,
+        "other_votes": 7588,
+        "total_votes": 155683,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 45699,
+        "margin_pct": 29.353879357412175,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 61786,
+        "rep_votes": 82097,
+        "other_votes": 5840,
+        "total_votes": 149723,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "Tom Cotton",
+        "margin": 20311,
+        "margin_pct": 13.565718025954595,
+        "winner": "R"
+      }
+    }
+  }
+}

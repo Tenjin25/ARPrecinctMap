@@ -1,0 +1,62 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 2032,
+    "matched_vote_coverage": 0.807147,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45075,
+        "rep_votes": 70814,
+        "other_votes": 7029,
+        "total_votes": 122918,
+        "dem_candidate": "Regina Stewart Hampton",
+        "rep_candidate": "Andrea Lea",
+        "margin": 25739,
+        "margin_pct": 20.939976244325486,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 87858,
+        "rep_votes": 116089,
+        "other_votes": 11449,
+        "total_votes": 215396,
+        "dem_candidate": "Regina Stewart Hampton",
+        "rep_candidate": "Andrea Lea",
+        "margin": 28231,
+        "margin_pct": 13.106557224832402,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 44284,
+        "rep_votes": 97126,
+        "other_votes": 9539,
+        "total_votes": 150949,
+        "dem_candidate": "Regina Stewart Hampton",
+        "rep_candidate": "Andrea Lea",
+        "margin": 52842,
+        "margin_pct": 35.00652538274517,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 59618,
+        "rep_votes": 80228,
+        "other_votes": 7048,
+        "total_votes": 146894,
+        "dem_candidate": "Regina Stewart Hampton",
+        "rep_candidate": "Andrea Lea",
+        "margin": 20610,
+        "margin_pct": 14.030525412882758,
+        "winner": "R"
+      }
+    }
+  }
+}

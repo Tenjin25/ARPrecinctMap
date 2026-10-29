@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.755053,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31854,
+        "rep_votes": 106740,
+        "other_votes": 5013,
+        "total_votes": 143607,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 74886,
+        "margin_pct": 52.1464831101548,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 82764,
+        "rep_votes": 111793,
+        "other_votes": 8200,
+        "total_votes": 202757,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 29029,
+        "margin_pct": 14.317138249234304,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 63337,
+        "rep_votes": 94238,
+        "other_votes": 6410,
+        "total_votes": 163985,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 30901,
+        "margin_pct": 18.84379668872153,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 47613,
+        "rep_votes": 116633,
+        "other_votes": 5292,
+        "total_votes": 169538,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 69020,
+        "margin_pct": 40.71063714329531,
+        "winner": "R"
+      }
+    }
+  }
+}

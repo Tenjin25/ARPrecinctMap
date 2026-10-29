@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.754453,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31269,
+        "rep_votes": 107478,
+        "other_votes": 5002,
+        "total_votes": 143749,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 76209,
+        "margin_pct": 53.01532532400225,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 81035,
+        "rep_votes": 115885,
+        "other_votes": 6133,
+        "total_votes": 203053,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 34850,
+        "margin_pct": 17.163006702683536,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 59814,
+        "rep_votes": 98935,
+        "other_votes": 5517,
+        "total_votes": 164266,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 39121,
+        "margin_pct": 23.815640485553917,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 46797,
+        "rep_votes": 118417,
+        "other_votes": 4721,
+        "total_votes": 169935,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 71620,
+        "margin_pct": 42.14552623061759,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2020,
+    "matched_precincts": 1981,
+    "matched_vote_coverage": 0.754031,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 29379,
+        "rep_votes": 107825,
+        "other_votes": 5474,
+        "total_votes": 142678,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 78446,
+        "margin_pct": 54.98114635753234,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 72026,
+        "rep_votes": 117546,
+        "other_votes": 10273,
+        "total_votes": 199845,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 45520,
+        "margin_pct": 22.777652680827643,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 54378,
+        "rep_votes": 99484,
+        "other_votes": 8148,
+        "total_votes": 162010,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 45106,
+        "margin_pct": 27.841491265971236,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 44557,
+        "rep_votes": 118445,
+        "other_votes": 5417,
+        "total_votes": 168419,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 73888,
+        "margin_pct": 43.871534684328964,
+        "winner": "R"
+      }
+    }
+  }
+}

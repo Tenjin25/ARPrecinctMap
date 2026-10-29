@@ -1,0 +1,62 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "meta": {
+    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
+    "vtd_vintage": 2010,
+    "matched_precincts": 1617,
+    "matched_vote_coverage": 0.617422,
+    "approximate": true,
+    "statewide_partial": false,
+    "missing_counties": []
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 75105,
+        "rep_votes": 0,
+        "other_votes": 36759,
+        "total_votes": 111864,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -75105,
+        "margin_pct": 67.13956232568118,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 94010,
+        "rep_votes": 0,
+        "other_votes": 38720,
+        "total_votes": 132730,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -94010,
+        "margin_pct": 70.82799668499963,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 45790,
+        "rep_votes": 0,
+        "other_votes": 24569,
+        "total_votes": 70359,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -45790,
+        "margin_pct": 65.0805156412115,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 84571,
+        "rep_votes": 0,
+        "other_votes": 39027,
+        "total_votes": 123598,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -84571,
+        "margin_pct": 68.42424634702827,
+        "winner": "D"
+      }
+    }
+  }
+}
