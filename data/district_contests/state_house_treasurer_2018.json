@@ -3,1092 +3,1546 @@
   "scope": "state_house",
   "contest_type": "treasurer",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.868086,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 6118,
-        "other_votes": 1384,
-        "total_votes": 7502,
+        "rep_votes": 6605,
+        "other_votes": 1543,
+        "total_votes": 8148,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6118,
-        "margin_pct": 81.55158624366835,
+        "margin": 6605,
+        "margin_pct": 81.06283750613647,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 7684,
-        "other_votes": 1997,
-        "total_votes": 9681,
+        "rep_votes": 7910,
+        "other_votes": 1855,
+        "total_votes": 9765,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7684,
-        "margin_pct": 79.37196570602211,
+        "margin": 7910,
+        "margin_pct": 81.00358422939068,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 8138,
-        "other_votes": 1889,
-        "total_votes": 10027,
+        "rep_votes": 8236,
+        "other_votes": 1972,
+        "total_votes": 10208,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8138,
-        "margin_pct": 81.16086566271068,
+        "margin": 8236,
+        "margin_pct": 80.68181818181817,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 5349,
-        "other_votes": 1304,
-        "total_votes": 6653,
+        "rep_votes": 7440,
+        "other_votes": 1774,
+        "total_votes": 9214,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5349,
-        "margin_pct": 80.39981963024199,
+        "margin": 7440,
+        "margin_pct": 80.74668981983937,
         "winner": "R"
       },
       "5": {
         "dem_votes": 0,
-        "rep_votes": 7859,
-        "other_votes": 1722,
-        "total_votes": 9581,
+        "rep_votes": 7828,
+        "other_votes": 1624,
+        "total_votes": 9452,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7859,
-        "margin_pct": 82.02692829558501,
+        "margin": 7828,
+        "margin_pct": 82.81845112145577,
         "winner": "R"
       },
       "6": {
         "dem_votes": 0,
-        "rep_votes": 3324,
-        "other_votes": 1511,
-        "total_votes": 4835,
+        "rep_votes": 6780,
+        "other_votes": 2652,
+        "total_votes": 9432,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3324,
-        "margin_pct": 68.74870734229576,
+        "margin": 6780,
+        "margin_pct": 71.88295165394402,
         "winner": "R"
       },
       "7": {
         "dem_votes": 0,
-        "rep_votes": 6984,
-        "other_votes": 2516,
-        "total_votes": 9500,
+        "rep_votes": 5481,
+        "other_votes": 2008,
+        "total_votes": 7489,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6984,
-        "margin_pct": 73.51578947368421,
+        "margin": 5481,
+        "margin_pct": 73.18734143410335,
         "winner": "R"
       },
       "8": {
         "dem_votes": 0,
-        "rep_votes": 5572,
-        "other_votes": 2257,
-        "total_votes": 7829,
+        "rep_votes": 6138,
+        "other_votes": 2249,
+        "total_votes": 8387,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5572,
-        "margin_pct": 71.17128624345382,
+        "margin": 6138,
+        "margin_pct": 73.18469059258376,
         "winner": "R"
       },
       "9": {
         "dem_votes": 0,
-        "rep_votes": 1782,
-        "other_votes": 1215,
-        "total_votes": 2997,
+        "rep_votes": 2917,
+        "other_votes": 1737,
+        "total_votes": 4654,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1782,
-        "margin_pct": 59.45945945945946,
+        "margin": 2917,
+        "margin_pct": 62.677266867211,
         "winner": "R"
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 5968,
-        "other_votes": 2176,
-        "total_votes": 8144,
+        "rep_votes": 6008,
+        "other_votes": 2202,
+        "total_votes": 8210,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5968,
-        "margin_pct": 73.28094302554028,
+        "margin": 6008,
+        "margin_pct": 73.17904993909866,
         "winner": "R"
       },
       "11": {
         "dem_votes": 0,
-        "rep_votes": 4570,
-        "other_votes": 2156,
-        "total_votes": 6726,
+        "rep_votes": 3962,
+        "other_votes": 1865,
+        "total_votes": 5827,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4570,
-        "margin_pct": 67.94528694617901,
+        "margin": 3962,
+        "margin_pct": 67.99382186373776,
         "winner": "R"
       },
       "12": {
         "dem_votes": 0,
-        "rep_votes": 8729,
-        "other_votes": 2784,
-        "total_votes": 11513,
+        "rep_votes": 6891,
+        "other_votes": 2525,
+        "total_votes": 9416,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8729,
-        "margin_pct": 75.81863979848866,
+        "margin": 6891,
+        "margin_pct": 73.1839422259983,
         "winner": "R"
       },
       "13": {
         "dem_votes": 0,
-        "rep_votes": 3582,
-        "other_votes": 1415,
-        "total_votes": 4997,
+        "rep_votes": 5221,
+        "other_votes": 1913,
+        "total_votes": 7134,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3582,
-        "margin_pct": 71.68300980588353,
+        "margin": 5221,
+        "margin_pct": 73.1847490888702,
         "winner": "R"
       },
       "14": {
         "dem_votes": 0,
-        "rep_votes": 3714,
-        "other_votes": 1445,
-        "total_votes": 5159,
+        "rep_votes": 6359,
+        "other_votes": 2330,
+        "total_votes": 8689,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3714,
-        "margin_pct": 71.99069587129289,
+        "margin": 6359,
+        "margin_pct": 73.18448613189089,
         "winner": "R"
       },
       "15": {
         "dem_votes": 0,
-        "rep_votes": 5701,
-        "other_votes": 2652,
-        "total_votes": 8353,
+        "rep_votes": 5243,
+        "other_votes": 1921,
+        "total_votes": 7164,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5701,
-        "margin_pct": 68.25092781036753,
+        "margin": 5243,
+        "margin_pct": 73.18537130094919,
         "winner": "R"
       },
       "16": {
         "dem_votes": 0,
-        "rep_votes": 5284,
-        "other_votes": 2046,
-        "total_votes": 7330,
+        "rep_votes": 5713,
+        "other_votes": 2094,
+        "total_votes": 7807,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5284,
-        "margin_pct": 72.08731241473397,
+        "margin": 5713,
+        "margin_pct": 73.17791725374664,
         "winner": "R"
       },
       "17": {
         "dem_votes": 0,
-        "rep_votes": 6846,
-        "other_votes": 1829,
-        "total_votes": 8675,
+        "rep_votes": 5807,
+        "other_votes": 2128,
+        "total_votes": 7935,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6846,
-        "margin_pct": 78.9164265129683,
+        "margin": 5807,
+        "margin_pct": 73.18210459987398,
         "winner": "R"
       },
       "18": {
         "dem_votes": 0,
-        "rep_votes": 6035,
-        "other_votes": 2351,
-        "total_votes": 8386,
+        "rep_votes": 5032,
+        "other_votes": 2938,
+        "total_votes": 7970,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6035,
-        "margin_pct": 71.9651800620081,
+        "margin": 5032,
+        "margin_pct": 63.13676286072772,
         "winner": "R"
       },
       "19": {
         "dem_votes": 0,
-        "rep_votes": 5572,
-        "other_votes": 2638,
-        "total_votes": 8210,
+        "rep_votes": 4539,
+        "other_votes": 2703,
+        "total_votes": 7242,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5572,
-        "margin_pct": 67.86845310596833,
+        "margin": 4539,
+        "margin_pct": 62.676056338028175,
         "winner": "R"
       },
       "20": {
         "dem_votes": 0,
-        "rep_votes": 6437,
-        "other_votes": 4980,
-        "total_votes": 11417,
+        "rep_votes": 5356,
+        "other_votes": 3189,
+        "total_votes": 8545,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6437,
-        "margin_pct": 56.38083559604099,
+        "margin": 5356,
+        "margin_pct": 62.67992978349912,
         "winner": "R"
       },
       "21": {
         "dem_votes": 0,
-        "rep_votes": 2020,
-        "other_votes": 3192,
-        "total_votes": 5212,
+        "rep_votes": 5756,
+        "other_votes": 3427,
+        "total_votes": 9183,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2020,
-        "margin_pct": 38.7567152724482,
-        "winner": "O"
+        "margin": 5756,
+        "margin_pct": 62.68104105412174,
+        "winner": "R"
       },
       "22": {
         "dem_votes": 0,
-        "rep_votes": 4111,
-        "other_votes": 2902,
-        "total_votes": 7013,
+        "rep_votes": 5434,
+        "other_votes": 3236,
+        "total_votes": 8670,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4111,
-        "margin_pct": 58.61970625980323,
+        "margin": 5434,
+        "margin_pct": 62.67589388696655,
         "winner": "R"
       },
       "23": {
         "dem_votes": 0,
-        "rep_votes": 5155,
-        "other_votes": 2106,
-        "total_votes": 7261,
+        "rep_votes": 5069,
+        "other_votes": 3019,
+        "total_votes": 8088,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5155,
-        "margin_pct": 70.99573061561767,
+        "margin": 5069,
+        "margin_pct": 62.6730959446093,
         "winner": "R"
       },
       "24": {
         "dem_votes": 0,
-        "rep_votes": 7179,
-        "other_votes": 1616,
-        "total_votes": 8795,
+        "rep_votes": 6444,
+        "other_votes": 1679,
+        "total_votes": 8123,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7179,
-        "margin_pct": 81.62592382035247,
+        "margin": 6444,
+        "margin_pct": 79.33029668841561,
         "winner": "R"
       },
       "25": {
         "dem_votes": 0,
-        "rep_votes": 6778,
-        "other_votes": 2412,
-        "total_votes": 9190,
+        "rep_votes": 5465,
+        "other_votes": 2476,
+        "total_votes": 7941,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6778,
-        "margin_pct": 73.75408052230685,
+        "margin": 5465,
+        "margin_pct": 68.82004785291525,
         "winner": "R"
       },
       "26": {
         "dem_votes": 0,
-        "rep_votes": 6211,
-        "other_votes": 1446,
-        "total_votes": 7657,
+        "rep_votes": 7465,
+        "other_votes": 1922,
+        "total_votes": 9387,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6211,
-        "margin_pct": 81.11531931565888,
+        "margin": 7465,
+        "margin_pct": 79.52487482688825,
         "winner": "R"
       },
       "27": {
         "dem_votes": 0,
-        "rep_votes": 9243,
-        "other_votes": 1869,
-        "total_votes": 11112,
+        "rep_votes": 9330,
+        "other_votes": 1891,
+        "total_votes": 11221,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9243,
-        "margin_pct": 83.18034557235421,
+        "margin": 9330,
+        "margin_pct": 83.14766954816861,
         "winner": "R"
       },
       "28": {
         "dem_votes": 0,
-        "rep_votes": 7373,
-        "other_votes": 1446,
-        "total_votes": 8819,
+        "rep_votes": 7085,
+        "other_votes": 1578,
+        "total_votes": 8663,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7373,
-        "margin_pct": 83.60358317269532,
+        "margin": 7085,
+        "margin_pct": 81.78460117742121,
         "winner": "R"
       },
       "29": {
         "dem_votes": 0,
-        "rep_votes": 6136,
-        "other_votes": 1938,
-        "total_votes": 8074,
+        "rep_votes": 6365,
+        "other_votes": 1966,
+        "total_votes": 8331,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6136,
-        "margin_pct": 75.9970274956651,
+        "margin": 6365,
+        "margin_pct": 76.40139238986916,
         "winner": "R"
       },
       "30": {
         "dem_votes": 0,
-        "rep_votes": 6390,
-        "other_votes": 1662,
-        "total_votes": 8052,
+        "rep_votes": 5854,
+        "other_votes": 1736,
+        "total_votes": 7590,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6390,
-        "margin_pct": 79.3591654247392,
+        "margin": 5854,
+        "margin_pct": 77.12779973649539,
         "winner": "R"
       },
       "31": {
         "dem_votes": 0,
-        "rep_votes": 5591,
-        "other_votes": 1257,
-        "total_votes": 6848,
+        "rep_votes": 6040,
+        "other_votes": 1308,
+        "total_votes": 7348,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5591,
-        "margin_pct": 81.64427570093457,
+        "margin": 6040,
+        "margin_pct": 82.19923788786065,
         "winner": "R"
       },
       "32": {
         "dem_votes": 0,
-        "rep_votes": 4772,
-        "other_votes": 2200,
-        "total_votes": 6972,
+        "rep_votes": 5508,
+        "other_votes": 1899,
+        "total_votes": 7407,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4772,
-        "margin_pct": 68.44520940906483,
+        "margin": 5508,
+        "margin_pct": 74.36208991494532,
         "winner": "R"
       },
       "33": {
         "dem_votes": 0,
-        "rep_votes": 3696,
-        "other_votes": 915,
-        "total_votes": 4611,
+        "rep_votes": 5000,
+        "other_votes": 1965,
+        "total_votes": 6965,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3696,
-        "margin_pct": 80.15614834092388,
+        "margin": 5000,
+        "margin_pct": 71.78750897343862,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 4975,
+        "other_votes": 2422,
+        "total_votes": 7397,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 4975,
+        "margin_pct": 67.25699607949169,
         "winner": "R"
       },
       "35": {
         "dem_votes": 0,
-        "rep_votes": 159,
-        "other_votes": 259,
-        "total_votes": 418,
+        "rep_votes": 4077,
+        "other_votes": 3224,
+        "total_votes": 7301,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 159,
-        "margin_pct": 38.038277511961724,
-        "winner": "O"
+        "margin": 4077,
+        "margin_pct": 55.841665525270514,
+        "winner": "R"
       },
       "36": {
         "dem_votes": 0,
-        "rep_votes": 4234,
-        "other_votes": 1553,
-        "total_votes": 5787,
+        "rep_votes": 5582,
+        "other_votes": 1712,
+        "total_votes": 7294,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4234,
-        "margin_pct": 73.16398824952479,
+        "margin": 5582,
+        "margin_pct": 76.52865368796272,
         "winner": "R"
       },
       "37": {
         "dem_votes": 0,
-        "rep_votes": 4514,
-        "other_votes": 1147,
-        "total_votes": 5661,
+        "rep_votes": 6498,
+        "other_votes": 2487,
+        "total_votes": 8985,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4514,
-        "margin_pct": 79.73856209150327,
+        "margin": 6498,
+        "margin_pct": 72.32053422370618,
         "winner": "R"
       },
       "38": {
         "dem_votes": 0,
-        "rep_votes": 5355,
-        "other_votes": 1531,
-        "total_votes": 6886,
+        "rep_votes": 5798,
+        "other_votes": 1818,
+        "total_votes": 7616,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5355,
-        "margin_pct": 77.76648271855939,
+        "margin": 5798,
+        "margin_pct": 76.12920168067227,
         "winner": "R"
       },
       "39": {
         "dem_votes": 0,
-        "rep_votes": 4833,
-        "other_votes": 960,
-        "total_votes": 5793,
+        "rep_votes": 6467,
+        "other_votes": 1564,
+        "total_votes": 8031,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4833,
-        "margin_pct": 83.42827550491974,
+        "margin": 6467,
+        "margin_pct": 80.52546382766779,
         "winner": "R"
       },
       "40": {
         "dem_votes": 0,
-        "rep_votes": 6790,
-        "other_votes": 1367,
-        "total_votes": 8157,
+        "rep_votes": 6834,
+        "other_votes": 1389,
+        "total_votes": 8223,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6790,
-        "margin_pct": 83.24138776510972,
+        "margin": 6834,
+        "margin_pct": 83.10835461510398,
         "winner": "R"
       },
       "41": {
         "dem_votes": 0,
-        "rep_votes": 8602,
-        "other_votes": 1629,
-        "total_votes": 10231,
+        "rep_votes": 9866,
+        "other_votes": 1842,
+        "total_votes": 11708,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8602,
-        "margin_pct": 84.07780275632881,
+        "margin": 9866,
+        "margin_pct": 84.267167748548,
         "winner": "R"
       },
       "42": {
         "dem_votes": 0,
-        "rep_votes": 6070,
-        "other_votes": 1305,
-        "total_votes": 7375,
+        "rep_votes": 6780,
+        "other_votes": 2381,
+        "total_votes": 9161,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6070,
-        "margin_pct": 82.30508474576271,
+        "margin": 6780,
+        "margin_pct": 74.0093876214387,
         "winner": "R"
       },
       "43": {
         "dem_votes": 0,
-        "rep_votes": 7100,
-        "other_votes": 2308,
-        "total_votes": 9408,
+        "rep_votes": 7412,
+        "other_votes": 2379,
+        "total_votes": 9791,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7100,
-        "margin_pct": 75.46768707482994,
+        "margin": 7412,
+        "margin_pct": 75.70217546726585,
         "winner": "R"
       },
       "44": {
         "dem_votes": 0,
-        "rep_votes": 7212,
-        "other_votes": 1328,
-        "total_votes": 8540,
+        "rep_votes": 6480,
+        "other_votes": 1546,
+        "total_votes": 8026,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7212,
-        "margin_pct": 84.4496487119438,
+        "margin": 6480,
+        "margin_pct": 80.73760279092947,
         "winner": "R"
       },
       "45": {
         "dem_votes": 0,
-        "rep_votes": 7249,
-        "other_votes": 1840,
-        "total_votes": 9089,
+        "rep_votes": 7141,
+        "other_votes": 1888,
+        "total_votes": 9029,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7249,
-        "margin_pct": 79.75574870722852,
+        "margin": 7141,
+        "margin_pct": 79.08960017720678,
         "winner": "R"
       },
       "46": {
         "dem_votes": 0,
-        "rep_votes": 5726,
-        "other_votes": 1213,
-        "total_votes": 6939,
+        "rep_votes": 6578,
+        "other_votes": 1481,
+        "total_votes": 8059,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5726,
-        "margin_pct": 82.51909497045685,
+        "margin": 6578,
+        "margin_pct": 81.6230301526244,
         "winner": "R"
       },
       "47": {
         "dem_votes": 0,
-        "rep_votes": 8190,
-        "other_votes": 1473,
-        "total_votes": 9663,
+        "rep_votes": 5966,
+        "other_votes": 1973,
+        "total_votes": 7939,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8190,
-        "margin_pct": 84.75628686743248,
+        "margin": 5966,
+        "margin_pct": 75.14800352689257,
         "winner": "R"
       },
       "48": {
         "dem_votes": 0,
-        "rep_votes": 5600,
-        "other_votes": 1550,
-        "total_votes": 7150,
+        "rep_votes": 6344,
+        "other_votes": 1520,
+        "total_votes": 7864,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5600,
-        "margin_pct": 78.32167832167832,
+        "margin": 6344,
+        "margin_pct": 80.67141403865718,
         "winner": "R"
       },
       "49": {
         "dem_votes": 0,
-        "rep_votes": 1511,
-        "other_votes": 1177,
-        "total_votes": 2688,
+        "rep_votes": 4486,
+        "other_votes": 1484,
+        "total_votes": 5970,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1511,
-        "margin_pct": 56.21279761904761,
+        "margin": 4486,
+        "margin_pct": 75.14237855946398,
         "winner": "R"
       },
       "50": {
         "dem_votes": 0,
-        "rep_votes": 6383,
-        "other_votes": 2653,
-        "total_votes": 9036,
+        "rep_votes": 6096,
+        "other_votes": 2016,
+        "total_votes": 8112,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6383,
-        "margin_pct": 70.63966356795042,
+        "margin": 6096,
+        "margin_pct": 75.14792899408283,
         "winner": "R"
       },
       "51": {
         "dem_votes": 0,
-        "rep_votes": 4117,
-        "other_votes": 1139,
-        "total_votes": 5256,
+        "rep_votes": 6620,
+        "other_votes": 2189,
+        "total_votes": 8809,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4117,
-        "margin_pct": 78.32952815829528,
+        "margin": 6620,
+        "margin_pct": 75.15041434896129,
         "winner": "R"
       },
       "52": {
         "dem_votes": 0,
-        "rep_votes": 6880,
-        "other_votes": 1401,
-        "total_votes": 8281,
+        "rep_votes": 6508,
+        "other_votes": 1459,
+        "total_votes": 7967,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6880,
-        "margin_pct": 83.08175341142375,
+        "margin": 6508,
+        "margin_pct": 81.6869587046567,
         "winner": "R"
       },
       "53": {
         "dem_votes": 0,
-        "rep_votes": 4298,
-        "other_votes": 1225,
-        "total_votes": 5523,
+        "rep_votes": 6588,
+        "other_votes": 1566,
+        "total_votes": 8154,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4298,
-        "margin_pct": 77.82002534854246,
+        "margin": 6588,
+        "margin_pct": 80.79470198675497,
         "winner": "R"
       },
       "54": {
         "dem_votes": 0,
-        "rep_votes": 4804,
-        "other_votes": 1343,
-        "total_votes": 6147,
+        "rep_votes": 7199,
+        "other_votes": 2367,
+        "total_votes": 9566,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4804,
-        "margin_pct": 78.15194403774198,
+        "margin": 7199,
+        "margin_pct": 75.25611540873929,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 0,
+        "rep_votes": 7083,
+        "other_votes": 2824,
+        "total_votes": 9907,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 7083,
+        "margin_pct": 71.49490259412536,
         "winner": "R"
       },
       "56": {
         "dem_votes": 0,
-        "rep_votes": 1417,
-        "other_votes": 636,
-        "total_votes": 2053,
+        "rep_votes": 6593,
+        "other_votes": 2629,
+        "total_votes": 9222,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1417,
-        "margin_pct": 69.02094495859717,
+        "margin": 6593,
+        "margin_pct": 71.49208414660593,
         "winner": "R"
       },
       "57": {
         "dem_votes": 0,
-        "rep_votes": 7844,
-        "other_votes": 1525,
-        "total_votes": 9369,
+        "rep_votes": 6637,
+        "other_votes": 2044,
+        "total_votes": 8681,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7844,
-        "margin_pct": 83.72291599957306,
+        "margin": 6637,
+        "margin_pct": 76.45432553853243,
         "winner": "R"
       },
       "58": {
         "dem_votes": 0,
-        "rep_votes": 7580,
-        "other_votes": 1661,
-        "total_votes": 9241,
+        "rep_votes": 7574,
+        "other_votes": 1528,
+        "total_votes": 9102,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7580,
-        "margin_pct": 82.02575478844281,
+        "margin": 7574,
+        "margin_pct": 83.21248077345639,
         "winner": "R"
       },
       "59": {
         "dem_votes": 0,
-        "rep_votes": 5019,
-        "other_votes": 1043,
-        "total_votes": 6062,
+        "rep_votes": 6604,
+        "other_votes": 1486,
+        "total_votes": 8090,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5019,
-        "margin_pct": 82.7944572748268,
+        "margin": 6604,
+        "margin_pct": 81.63164400494438,
         "winner": "R"
       },
       "60": {
         "dem_votes": 0,
-        "rep_votes": 6524,
-        "other_votes": 1701,
-        "total_votes": 8225,
+        "rep_votes": 7530,
+        "other_votes": 1815,
+        "total_votes": 9345,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6524,
-        "margin_pct": 79.31914893617021,
+        "margin": 7530,
+        "margin_pct": 80.57784911717496,
         "winner": "R"
       },
       "61": {
         "dem_votes": 0,
-        "rep_votes": 5350,
-        "other_votes": 2027,
-        "total_votes": 7377,
+        "rep_votes": 6677,
+        "other_votes": 2572,
+        "total_votes": 9249,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5350,
-        "margin_pct": 72.52270570692694,
+        "margin": 6677,
+        "margin_pct": 72.19158827981403,
         "winner": "R"
       },
       "62": {
         "dem_votes": 0,
-        "rep_votes": 834,
-        "other_votes": 354,
-        "total_votes": 1188,
+        "rep_votes": 4594,
+        "other_votes": 3768,
+        "total_votes": 8362,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 834,
-        "margin_pct": 70.2020202020202,
+        "margin": 4594,
+        "margin_pct": 54.93900980626645,
         "winner": "R"
       },
       "63": {
         "dem_votes": 0,
-        "rep_votes": 346,
-        "other_votes": 158,
-        "total_votes": 504,
+        "rep_votes": 4090,
+        "other_votes": 3236,
+        "total_votes": 7326,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 346,
-        "margin_pct": 68.65079365079364,
+        "margin": 4090,
+        "margin_pct": 55.82855582855583,
         "winner": "R"
       },
       "64": {
         "dem_votes": 0,
-        "rep_votes": 2817,
-        "other_votes": 3846,
-        "total_votes": 6663,
+        "rep_votes": 4693,
+        "other_votes": 3209,
+        "total_votes": 7902,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2817,
-        "margin_pct": 42.278253039171545,
-        "winner": "O"
+        "margin": 4693,
+        "margin_pct": 59.3900278410529,
+        "winner": "R"
       },
       "65": {
         "dem_votes": 0,
-        "rep_votes": 2716,
-        "other_votes": 3542,
-        "total_votes": 6258,
+        "rep_votes": 4624,
+        "other_votes": 3793,
+        "total_votes": 8417,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2716,
-        "margin_pct": 43.40044742729307,
-        "winner": "O"
+        "margin": 4624,
+        "margin_pct": 54.93643816086492,
+        "winner": "R"
       },
       "66": {
         "dem_votes": 0,
-        "rep_votes": 3080,
-        "other_votes": 3638,
-        "total_votes": 6718,
+        "rep_votes": 4639,
+        "other_votes": 4020,
+        "total_votes": 8659,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3080,
-        "margin_pct": 45.84697826734147,
-        "winner": "O"
+        "margin": 4639,
+        "margin_pct": 53.57431574084768,
+        "winner": "R"
       },
       "67": {
         "dem_votes": 0,
-        "rep_votes": 6931,
-        "other_votes": 3958,
-        "total_votes": 10889,
+        "rep_votes": 5825,
+        "other_votes": 5047,
+        "total_votes": 10872,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6931,
-        "margin_pct": 63.65139131233355,
+        "margin": 5825,
+        "margin_pct": 53.57799852832965,
         "winner": "R"
       },
       "68": {
         "dem_votes": 0,
-        "rep_votes": 1563,
-        "other_votes": 290,
-        "total_votes": 1853,
+        "rep_votes": 6854,
+        "other_votes": 1696,
+        "total_votes": 8550,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1563,
-        "margin_pct": 84.3497031840259,
+        "margin": 6854,
+        "margin_pct": 80.16374269005848,
         "winner": "R"
       },
       "69": {
         "dem_votes": 0,
-        "rep_votes": 6519,
-        "other_votes": 2495,
-        "total_votes": 9014,
+        "rep_votes": 5815,
+        "other_votes": 3964,
+        "total_votes": 9779,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6519,
-        "margin_pct": 72.32083425782116,
+        "margin": 5815,
+        "margin_pct": 59.46415788935474,
         "winner": "R"
       },
       "70": {
         "dem_votes": 0,
-        "rep_votes": 7960,
-        "other_votes": 4058,
-        "total_votes": 12018,
+        "rep_votes": 5719,
+        "other_votes": 4955,
+        "total_votes": 10674,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7960,
-        "margin_pct": 66.23398235979364,
+        "margin": 5719,
+        "margin_pct": 53.578789582162266,
         "winner": "R"
       },
       "71": {
         "dem_votes": 0,
-        "rep_votes": 6502,
-        "other_votes": 3356,
-        "total_votes": 9858,
+        "rep_votes": 5111,
+        "other_votes": 4428,
+        "total_votes": 9539,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6502,
-        "margin_pct": 65.95658348549401,
+        "margin": 5111,
+        "margin_pct": 53.58003983646085,
         "winner": "R"
       },
       "72": {
         "dem_votes": 0,
-        "rep_votes": 2931,
-        "other_votes": 4211,
-        "total_votes": 7142,
+        "rep_votes": 4819,
+        "other_votes": 4175,
+        "total_votes": 8994,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2931,
-        "margin_pct": 41.03892467096051,
-        "winner": "O"
+        "margin": 4819,
+        "margin_pct": 53.58016455414722,
+        "winner": "R"
       },
       "73": {
         "dem_votes": 0,
-        "rep_votes": 8184,
-        "other_votes": 5084,
-        "total_votes": 13268,
+        "rep_votes": 5440,
+        "other_votes": 4713,
+        "total_votes": 10153,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8184,
-        "margin_pct": 61.6822429906542,
+        "margin": 5440,
+        "margin_pct": 53.5802225943071,
         "winner": "R"
       },
       "74": {
         "dem_votes": 0,
-        "rep_votes": 5822,
-        "other_votes": 6513,
-        "total_votes": 12335,
+        "rep_votes": 5422,
+        "other_votes": 4698,
+        "total_votes": 10120,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5822,
-        "margin_pct": 47.19902715849209,
-        "winner": "O"
+        "margin": 5422,
+        "margin_pct": 53.577075098814234,
+        "winner": "R"
       },
       "75": {
         "dem_votes": 0,
-        "rep_votes": 7116,
-        "other_votes": 3862,
-        "total_votes": 10978,
+        "rep_votes": 4848,
+        "other_votes": 4200,
+        "total_votes": 9048,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7116,
-        "margin_pct": 64.82055019129167,
+        "margin": 4848,
+        "margin_pct": 53.58090185676393,
         "winner": "R"
       },
       "76": {
         "dem_votes": 0,
-        "rep_votes": 1878,
-        "other_votes": 5166,
-        "total_votes": 7044,
+        "rep_votes": 4741,
+        "other_votes": 4108,
+        "total_votes": 8849,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1878,
-        "margin_pct": 26.66098807495741,
-        "winner": "O"
+        "margin": 4741,
+        "margin_pct": 53.57667533054582,
+        "winner": "R"
       },
       "77": {
         "dem_votes": 0,
-        "rep_votes": 3398,
-        "other_votes": 5748,
-        "total_votes": 9146,
+        "rep_votes": 5077,
+        "other_votes": 4399,
+        "total_votes": 9476,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3398,
-        "margin_pct": 37.15285370653838,
-        "winner": "O"
+        "margin": 5077,
+        "margin_pct": 53.577458843393835,
+        "winner": "R"
       },
       "78": {
         "dem_votes": 0,
-        "rep_votes": 7227,
-        "other_votes": 2420,
-        "total_votes": 9647,
+        "rep_votes": 6026,
+        "other_votes": 3719,
+        "total_votes": 9745,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7227,
-        "margin_pct": 74.9144811858609,
+        "margin": 6026,
+        "margin_pct": 61.83683940482298,
         "winner": "R"
       },
       "79": {
         "dem_votes": 0,
-        "rep_votes": 2170,
-        "other_votes": 4519,
-        "total_votes": 6689,
+        "rep_votes": 4280,
+        "other_votes": 3709,
+        "total_votes": 7989,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2170,
-        "margin_pct": 32.441321572731354,
-        "winner": "O"
+        "margin": 4280,
+        "margin_pct": 53.57366378770811,
+        "winner": "R"
       },
       "80": {
         "dem_votes": 0,
-        "rep_votes": 2798,
-        "other_votes": 5174,
-        "total_votes": 7972,
+        "rep_votes": 4993,
+        "other_votes": 4326,
+        "total_votes": 9319,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 2798,
-        "margin_pct": 35.09784244856999,
-        "winner": "O"
+        "margin": 4993,
+        "margin_pct": 53.57871016203455,
+        "winner": "R"
       },
       "81": {
         "dem_votes": 0,
-        "rep_votes": 6192,
-        "other_votes": 2829,
-        "total_votes": 9021,
+        "rep_votes": 7182,
+        "other_votes": 2510,
+        "total_votes": 9692,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6192,
-        "margin_pct": 68.63984037246425,
+        "margin": 7182,
+        "margin_pct": 74.10235245563351,
         "winner": "R"
       },
       "82": {
         "dem_votes": 0,
-        "rep_votes": 6465,
-        "other_votes": 2871,
-        "total_votes": 9336,
+        "rep_votes": 6844,
+        "other_votes": 2392,
+        "total_votes": 9236,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6465,
-        "margin_pct": 69.24807197943444,
+        "margin": 6844,
+        "margin_pct": 74.10134257254222,
         "winner": "R"
       },
       "83": {
         "dem_votes": 0,
-        "rep_votes": 9599,
-        "other_votes": 2737,
-        "total_votes": 12336,
+        "rep_votes": 7970,
+        "other_votes": 2785,
+        "total_votes": 10755,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9599,
-        "margin_pct": 77.81290531776914,
+        "margin": 7970,
+        "margin_pct": 74.10506741050675,
         "winner": "R"
       },
       "84": {
         "dem_votes": 0,
-        "rep_votes": 5271,
-        "other_votes": 2568,
-        "total_votes": 7839,
+        "rep_votes": 6438,
+        "other_votes": 2351,
+        "total_votes": 8789,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5271,
-        "margin_pct": 67.24071947952545,
+        "margin": 6438,
+        "margin_pct": 73.2506542268745,
         "winner": "R"
       },
       "85": {
         "dem_votes": 0,
-        "rep_votes": 8234,
-        "other_votes": 2351,
-        "total_votes": 10585,
+        "rep_votes": 6897,
+        "other_votes": 2519,
+        "total_votes": 9416,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8234,
-        "margin_pct": 77.78932451582428,
+        "margin": 6897,
+        "margin_pct": 73.24766355140187,
         "winner": "R"
       },
       "86": {
         "dem_votes": 0,
-        "rep_votes": 6523,
-        "other_votes": 1196,
-        "total_votes": 7719,
+        "rep_votes": 7907,
+        "other_votes": 1630,
+        "total_votes": 9537,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6523,
-        "margin_pct": 84.50576499546574,
+        "margin": 7907,
+        "margin_pct": 82.90867148998638,
         "winner": "R"
       },
       "87": {
         "dem_votes": 0,
-        "rep_votes": 5574,
-        "other_votes": 1557,
-        "total_votes": 7131,
+        "rep_votes": 5733,
+        "other_votes": 1654,
+        "total_votes": 7387,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5574,
-        "margin_pct": 78.16575515355491,
+        "margin": 5733,
+        "margin_pct": 77.6093136591309,
         "winner": "R"
       },
       "88": {
         "dem_votes": 0,
-        "rep_votes": 5689,
-        "other_votes": 2184,
-        "total_votes": 7873,
+        "rep_votes": 5531,
+        "other_votes": 1905,
+        "total_votes": 7436,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5689,
-        "margin_pct": 72.25962149117237,
+        "margin": 5531,
+        "margin_pct": 74.3813878429263,
         "winner": "R"
       },
       "89": {
         "dem_votes": 0,
-        "rep_votes": 6580,
-        "other_votes": 1676,
-        "total_votes": 8256,
+        "rep_votes": 6588,
+        "other_votes": 2233,
+        "total_votes": 8821,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6580,
-        "margin_pct": 79.69961240310077,
+        "margin": 6588,
+        "margin_pct": 74.685409817481,
         "winner": "R"
       },
       "90": {
         "dem_votes": 0,
-        "rep_votes": 5813,
-        "other_votes": 2357,
-        "total_votes": 8170,
+        "rep_votes": 6386,
+        "other_votes": 2679,
+        "total_votes": 9065,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5813,
-        "margin_pct": 71.15055079559363,
+        "margin": 6386,
+        "margin_pct": 70.44677330391616,
         "winner": "R"
       },
       "91": {
         "dem_votes": 0,
-        "rep_votes": 6447,
-        "other_votes": 2601,
-        "total_votes": 9048,
+        "rep_votes": 6919,
+        "other_votes": 2527,
+        "total_votes": 9446,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6447,
-        "margin_pct": 71.25331564986737,
+        "margin": 6919,
+        "margin_pct": 73.24793563413084,
         "winner": "R"
       },
       "92": {
         "dem_votes": 0,
-        "rep_votes": 7401,
-        "other_votes": 1586,
-        "total_votes": 8987,
+        "rep_votes": 7314,
+        "other_votes": 1840,
+        "total_votes": 9154,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7401,
-        "margin_pct": 82.35228663625237,
+        "margin": 7314,
+        "margin_pct": 79.89949748743719,
         "winner": "R"
       },
       "93": {
         "dem_votes": 0,
-        "rep_votes": 5815,
-        "other_votes": 1139,
-        "total_votes": 6954,
+        "rep_votes": 4897,
+        "other_votes": 2766,
+        "total_votes": 7663,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5815,
-        "margin_pct": 83.62093758987633,
+        "margin": 4897,
+        "margin_pct": 63.904476053764846,
         "winner": "R"
       },
       "94": {
         "dem_votes": 0,
-        "rep_votes": 4371,
-        "other_votes": 1970,
-        "total_votes": 6341,
+        "rep_votes": 5976,
+        "other_votes": 2538,
+        "total_votes": 8514,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4371,
-        "margin_pct": 68.93234505598485,
+        "margin": 5976,
+        "margin_pct": 70.19027484143763,
         "winner": "R"
       },
       "95": {
         "dem_votes": 0,
-        "rep_votes": 3810,
-        "other_votes": 2112,
-        "total_votes": 5922,
+        "rep_votes": 6289,
+        "other_votes": 3202,
+        "total_votes": 9491,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3810,
-        "margin_pct": 64.33637284701115,
+        "margin": 6289,
+        "margin_pct": 66.26277526077337,
         "winner": "R"
       },
       "96": {
         "dem_votes": 0,
-        "rep_votes": 6597,
-        "other_votes": 2215,
-        "total_votes": 8812,
+        "rep_votes": 6957,
+        "other_votes": 2642,
+        "total_votes": 9599,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6597,
-        "margin_pct": 74.86382206082615,
+        "margin": 6957,
+        "margin_pct": 72.47629961454318,
         "winner": "R"
       },
       "97": {
         "dem_votes": 0,
-        "rep_votes": 3138,
-        "other_votes": 1234,
-        "total_votes": 4372,
+        "rep_votes": 6259,
+        "other_votes": 2532,
+        "total_votes": 8791,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3138,
-        "margin_pct": 71.77493138151875,
+        "margin": 6259,
+        "margin_pct": 71.19781594812878,
         "winner": "R"
       },
       "98": {
         "dem_votes": 0,
-        "rep_votes": 5298,
-        "other_votes": 3146,
-        "total_votes": 8444,
+        "rep_votes": 6198,
+        "other_votes": 3145,
+        "total_votes": 9343,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5298,
-        "margin_pct": 62.74277593557556,
+        "margin": 6198,
+        "margin_pct": 66.33843519212245,
         "winner": "R"
       },
       "99": {
         "dem_votes": 0,
-        "rep_votes": 6030,
-        "other_votes": 1323,
-        "total_votes": 7353,
+        "rep_votes": 5982,
+        "other_votes": 2113,
+        "total_votes": 8095,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 6030,
-        "margin_pct": 82.00734394124846,
+        "margin": 5982,
+        "margin_pct": 73.89746757257566,
         "winner": "R"
       },
       "100": {
         "dem_votes": 0,
-        "rep_votes": 5252,
-        "other_votes": 1989,
-        "total_votes": 7241,
+        "rep_votes": 6038,
+        "other_votes": 1888,
+        "total_votes": 7926,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 5252,
-        "margin_pct": 72.5314183123878,
+        "margin": 6038,
+        "margin_pct": 76.17966187231895,
         "winner": "R"
       }
     }

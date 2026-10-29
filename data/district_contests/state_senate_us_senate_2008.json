@@ -1,1 +1,640 @@
-{"year":2008,"scope":"state_senate","contest_type":"us_senate","meta":{"source":"NHGIS block crosswalks + Census 2022 block equivalency files","vtd_vintage":2000,"matched_precincts":989,"matched_vote_coverage":0.25202,"approximate":true},"general":{"results":{"1":{"dem_votes":11872,"rep_votes":0,"other_votes":1889,"total_votes":13761,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-11872,"margin_pct":86.27279994186469,"winner":"D"},"2":{"dem_votes":10939,"rep_votes":0,"other_votes":2724,"total_votes":13663,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-10939,"margin_pct":80.0629437166069,"winner":"D"},"3":{"dem_votes":10434,"rep_votes":0,"other_votes":2234,"total_votes":12668,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-10434,"margin_pct":82.36501420903063,"winner":"D"},"4":{"dem_votes":12791,"rep_votes":0,"other_votes":3426,"total_votes":16217,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-12791,"margin_pct":78.8740210889807,"winner":"D"},"5":{"dem_votes":12895,"rep_votes":0,"other_votes":3184,"total_votes":16079,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-12895,"margin_pct":80.19777349337646,"winner":"D"},"6":{"dem_votes":3880,"rep_votes":0,"other_votes":1139,"total_votes":5019,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-3880,"margin_pct":77.3062363020522,"winner":"D"},"7":{"dem_votes":11040,"rep_votes":0,"other_votes":2365,"total_votes":13405,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-11040,"margin_pct":82.35732935471839,"winner":"D"},"8":{"dem_votes":12904,"rep_votes":0,"other_votes":1565,"total_votes":14469,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-12904,"margin_pct":89.18377220264013,"winner":"D"},"9":{"dem_votes":1590,"rep_votes":0,"other_votes":159,"total_votes":1749,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-1590,"margin_pct":90.9090909090909,"winner":"D"},"10":{"dem_votes":8900,"rep_votes":0,"other_votes":1609,"total_votes":10509,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-8900,"margin_pct":84.6893139214007,"winner":"D"},"11":{"dem_votes":9813,"rep_votes":0,"other_votes":3838,"total_votes":13651,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-9813,"margin_pct":71.88484360120138,"winner":"D"},"12":{"dem_votes":0,"rep_votes":0,"other_votes":0,"total_votes":0,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":0,"margin_pct":0,"winner":"T"},"13":{"dem_votes":373,"rep_votes":0,"other_votes":172,"total_votes":545,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-373,"margin_pct":68.44036697247707,"winner":"D"},"16":{"dem_votes":844,"rep_votes":0,"other_votes":275,"total_votes":1119,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-844,"margin_pct":75.42448614834673,"winner":"D"},"17":{"dem_votes":718,"rep_votes":0,"other_votes":240,"total_votes":958,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-718,"margin_pct":74.94780793319416,"winner":"D"},"18":{"dem_votes":4009,"rep_votes":0,"other_votes":993,"total_votes":5002,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-4009,"margin_pct":80.14794082367052,"winner":"D"},"19":{"dem_votes":3256,"rep_votes":0,"other_votes":680,"total_votes":3936,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-3256,"margin_pct":82.72357723577237,"winner":"D"},"20":{"dem_votes":16774,"rep_votes":0,"other_votes":3536,"total_votes":20310,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-16774,"margin_pct":82.58985721319547,"winner":"D"},"21":{"dem_votes":540,"rep_votes":0,"other_votes":128,"total_votes":668,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-540,"margin_pct":80.83832335329342,"winner":"D"},"22":{"dem_votes":5959,"rep_votes":0,"other_votes":1568,"total_votes":7527,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-5959,"margin_pct":79.16832735485585,"winner":"D"},"23":{"dem_votes":3826,"rep_votes":0,"other_votes":1338,"total_votes":5164,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-3826,"margin_pct":74.08985282726569,"winner":"D"},"24":{"dem_votes":16375,"rep_votes":0,"other_votes":5799,"total_votes":22174,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-16375,"margin_pct":73.84774961666817,"winner":"D"},"25":{"dem_votes":2658,"rep_votes":0,"other_votes":582,"total_votes":3240,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-2658,"margin_pct":82.03703703703704,"winner":"D"},"26":{"dem_votes":8333,"rep_votes":0,"other_votes":1964,"total_votes":10297,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-8333,"margin_pct":80.92648344177917,"winner":"D"},"27":{"dem_votes":4,"rep_votes":0,"other_votes":1,"total_votes":5,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-4,"margin_pct":80.0,"winner":"D"},"28":{"dem_votes":10167,"rep_votes":0,"other_votes":3346,"total_votes":13513,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-10167,"margin_pct":75.23865906904462,"winner":"D"},"29":{"dem_votes":9942,"rep_votes":0,"other_votes":2878,"total_votes":12820,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-9942,"margin_pct":77.55070202808112,"winner":"D"},"30":{"dem_votes":266,"rep_votes":0,"other_votes":71,"total_votes":337,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-266,"margin_pct":78.93175074183976,"winner":"D"},"31":{"dem_votes":1173,"rep_votes":0,"other_votes":294,"total_votes":1467,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-1173,"margin_pct":79.95910020449898,"winner":"D"},"32":{"dem_votes":925,"rep_votes":0,"other_votes":424,"total_votes":1349,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-925,"margin_pct":68.56931060044478,"winner":"D"},"33":{"dem_votes":213,"rep_votes":0,"other_votes":92,"total_votes":305,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-213,"margin_pct":69.83606557377048,"winner":"D"},"34":{"dem_votes":1210,"rep_votes":0,"other_votes":573,"total_votes":1783,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-1210,"margin_pct":67.86315199102636,"winner":"D"},"35":{"dem_votes":8697,"rep_votes":0,"other_votes":2508,"total_votes":11205,"dem_candidate":"Mark Pryor","rep_candidate":"","margin":-8697,"margin_pct":77.61713520749666,"winner":"D"}}}}
+{
+  "year": 2008,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 28995,
+        "rep_votes": 0,
+        "other_votes": 4305,
+        "total_votes": 33300,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28995,
+        "margin_pct": 87.07207207207207,
+        "winner": "D"
+      },
+      "2": {
+        "dem_votes": 27625,
+        "rep_votes": 0,
+        "other_votes": 6092,
+        "total_votes": 33717,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -27625,
+        "margin_pct": 81.9319631046653,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 26976,
+        "rep_votes": 0,
+        "other_votes": 5212,
+        "total_votes": 32188,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -26976,
+        "margin_pct": 83.80763017273519,
+        "winner": "D"
+      },
+      "4": {
+        "dem_votes": 22476,
+        "rep_votes": 0,
+        "other_votes": 5292,
+        "total_votes": 27768,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22476,
+        "margin_pct": 80.94209161624892,
+        "winner": "D"
+      },
+      "5": {
+        "dem_votes": 24170,
+        "rep_votes": 0,
+        "other_votes": 6207,
+        "total_votes": 30377,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -24170,
+        "margin_pct": 79.56677749613195,
+        "winner": "D"
+      },
+      "6": {
+        "dem_votes": 28220,
+        "rep_votes": 0,
+        "other_votes": 8405,
+        "total_votes": 36625,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28220,
+        "margin_pct": 77.05119453924915,
+        "winner": "D"
+      },
+      "7": {
+        "dem_votes": 23844,
+        "rep_votes": 0,
+        "other_votes": 6491,
+        "total_votes": 30335,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -23844,
+        "margin_pct": 78.60227460029668,
+        "winner": "D"
+      },
+      "8": {
+        "dem_votes": 30467,
+        "rep_votes": 0,
+        "other_votes": 3831,
+        "total_votes": 34298,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -30467,
+        "margin_pct": 88.83025249285673,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 28950,
+        "rep_votes": 0,
+        "other_votes": 4352,
+        "total_votes": 33302,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28950,
+        "margin_pct": 86.9317158128641,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 28428,
+        "rep_votes": 0,
+        "other_votes": 4530,
+        "total_votes": 32958,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28428,
+        "margin_pct": 86.25523393409794,
+        "winner": "D"
+      },
+      "11": {
+        "dem_votes": 22515,
+        "rep_votes": 0,
+        "other_votes": 6760,
+        "total_votes": 29275,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22515,
+        "margin_pct": 76.90862510674637,
+        "winner": "D"
+      },
+      "12": {
+        "dem_votes": 27672,
+        "rep_votes": 0,
+        "other_votes": 6457,
+        "total_votes": 34129,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -27672,
+        "margin_pct": 81.08060593630051,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 28351,
+        "rep_votes": 0,
+        "other_votes": 6616,
+        "total_votes": 34967,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28351,
+        "margin_pct": 81.07930334315212,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 28244,
+        "rep_votes": 0,
+        "other_votes": 6590,
+        "total_votes": 34834,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -28244,
+        "margin_pct": 81.08170178561176,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 24671,
+        "rep_votes": 0,
+        "other_votes": 5757,
+        "total_votes": 30428,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -24671,
+        "margin_pct": 81.07992638359406,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 22964,
+        "rep_votes": 0,
+        "other_votes": 7209,
+        "total_votes": 30173,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22964,
+        "margin_pct": 76.10777847744671,
+        "winner": "D"
+      },
+      "17": {
+        "dem_votes": 22503,
+        "rep_votes": 0,
+        "other_votes": 6694,
+        "total_votes": 29197,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22503,
+        "margin_pct": 77.07298695071412,
+        "winner": "D"
+      },
+      "18": {
+        "dem_votes": 21806,
+        "rep_votes": 0,
+        "other_votes": 6193,
+        "total_votes": 27999,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -21806,
+        "margin_pct": 77.88135290546091,
+        "winner": "D"
+      },
+      "19": {
+        "dem_votes": 21818,
+        "rep_votes": 0,
+        "other_votes": 4254,
+        "total_votes": 26072,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -21818,
+        "margin_pct": 83.68364528996625,
+        "winner": "D"
+      },
+      "20": {
+        "dem_votes": 19076,
+        "rep_votes": 0,
+        "other_votes": 4074,
+        "total_votes": 23150,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -19076,
+        "margin_pct": 82.40172786177105,
+        "winner": "D"
+      },
+      "21": {
+        "dem_votes": 20947,
+        "rep_votes": 0,
+        "other_votes": 5053,
+        "total_votes": 26000,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -20947,
+        "margin_pct": 80.56538461538462,
+        "winner": "D"
+      },
+      "22": {
+        "dem_votes": 23314,
+        "rep_votes": 0,
+        "other_votes": 5815,
+        "total_votes": 29129,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -23314,
+        "margin_pct": 80.03707645301932,
+        "winner": "D"
+      },
+      "23": {
+        "dem_votes": 23597,
+        "rep_votes": 0,
+        "other_votes": 9610,
+        "total_votes": 33207,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -23597,
+        "margin_pct": 71.0603186075225,
+        "winner": "D"
+      },
+      "24": {
+        "dem_votes": 22963,
+        "rep_votes": 0,
+        "other_votes": 7474,
+        "total_votes": 30437,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22963,
+        "margin_pct": 75.44436048230772,
+        "winner": "D"
+      },
+      "25": {
+        "dem_votes": 23568,
+        "rep_votes": 0,
+        "other_votes": 6417,
+        "total_votes": 29985,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -23568,
+        "margin_pct": 78.59929964982491,
+        "winner": "D"
+      },
+      "26": {
+        "dem_votes": 23254,
+        "rep_votes": 0,
+        "other_votes": 5479,
+        "total_votes": 28733,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -23254,
+        "margin_pct": 80.93133331013121,
+        "winner": "D"
+      },
+      "27": {
+        "dem_votes": 20553,
+        "rep_votes": 0,
+        "other_votes": 5285,
+        "total_votes": 25838,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -20553,
+        "margin_pct": 79.54563046675439,
+        "winner": "D"
+      },
+      "28": {
+        "dem_votes": 22822,
+        "rep_votes": 0,
+        "other_votes": 8121,
+        "total_votes": 30943,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -22822,
+        "margin_pct": 73.75496881362506,
+        "winner": "D"
+      },
+      "29": {
+        "dem_votes": 20307,
+        "rep_votes": 0,
+        "other_votes": 5887,
+        "total_votes": 26194,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -20307,
+        "margin_pct": 77.52538749331907,
+        "winner": "D"
+      },
+      "30": {
+        "dem_votes": 20046,
+        "rep_votes": 0,
+        "other_votes": 5428,
+        "total_votes": 25474,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -20046,
+        "margin_pct": 78.6919996859543,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 13419,
+        "rep_votes": 0,
+        "other_votes": 3633,
+        "total_votes": 17052,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -13419,
+        "margin_pct": 78.69458128078819,
+        "winner": "D"
+      },
+      "32": {
+        "dem_votes": 13554,
+        "rep_votes": 0,
+        "other_votes": 5549,
+        "total_votes": 19103,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -13554,
+        "margin_pct": 70.95220645971837,
+        "winner": "D"
+      },
+      "33": {
+        "dem_votes": 13980,
+        "rep_votes": 0,
+        "other_votes": 5894,
+        "total_votes": 19874,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -13980,
+        "margin_pct": 70.3431619200966,
+        "winner": "D"
+      },
+      "34": {
+        "dem_votes": 15630,
+        "rep_votes": 0,
+        "other_votes": 6589,
+        "total_votes": 22219,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -15630,
+        "margin_pct": 70.34520005400783,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 16712,
+        "rep_votes": 0,
+        "other_votes": 5488,
+        "total_votes": 22200,
+        "dem_candidate": "Mark Pryor",
+        "rep_candidate": "",
+        "margin": -16712,
+        "margin_pct": 75.27927927927928,
+        "winner": "D"
+      }
+    }
+  }
+}

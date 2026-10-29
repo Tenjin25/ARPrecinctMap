@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "us_senate",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.614516,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 6655,
-        "rep_votes": 7277,
-        "other_votes": 450,
-        "total_votes": 14382,
+        "dem_votes": 10708,
+        "rep_votes": 11868,
+        "other_votes": 776,
+        "total_votes": 23352,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 622,
-        "margin_pct": 4.324850507578918,
+        "margin": 1160,
+        "margin_pct": 4.967454607742377,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 4926,
-        "rep_votes": 8295,
-        "other_votes": 780,
-        "total_votes": 14001,
+        "dem_votes": 10270,
+        "rep_votes": 15584,
+        "other_votes": 1499,
+        "total_votes": 27353,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 3369,
-        "margin_pct": 24.06256695950289,
+        "margin": 5314,
+        "margin_pct": 19.427485102182576,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 7697,
-        "rep_votes": 9719,
-        "other_votes": 1188,
-        "total_votes": 18604,
+        "dem_votes": 10453,
+        "rep_votes": 13803,
+        "other_votes": 1570,
+        "total_votes": 25826,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 2022,
-        "margin_pct": 10.868630402064072,
+        "margin": 3350,
+        "margin_pct": 12.971424146209246,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 5902,
-        "rep_votes": 11702,
-        "other_votes": 852,
-        "total_votes": 18456,
+        "dem_votes": 6843,
+        "rep_votes": 13345,
+        "other_votes": 1000,
+        "total_votes": 21188,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 5800,
-        "margin_pct": 31.42609449501517,
+        "margin": 6502,
+        "margin_pct": 30.687181423447235,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 6434,
-        "rep_votes": 14605,
-        "other_votes": 1887,
-        "total_votes": 22926,
+        "dem_votes": 7285,
+        "rep_votes": 15964,
+        "other_votes": 1916,
+        "total_votes": 25165,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 8171,
-        "margin_pct": 35.64075721887813,
+        "margin": 8679,
+        "margin_pct": 34.48837671368965,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 651,
-        "rep_votes": 1268,
-        "other_votes": 130,
-        "total_votes": 2049,
+        "dem_votes": 8841,
+        "rep_votes": 16978,
+        "other_votes": 1514,
+        "total_votes": 27333,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 617,
-        "margin_pct": 30.11224987798926,
+        "margin": 8137,
+        "margin_pct": 29.769875242381005,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 3656,
-        "rep_votes": 6302,
-        "other_votes": 631,
-        "total_votes": 10589,
+        "dem_votes": 7514,
+        "rep_votes": 14485,
+        "other_votes": 1287,
+        "total_votes": 23286,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 2646,
-        "margin_pct": 24.988195297006328,
+        "margin": 6971,
+        "margin_pct": 29.936442497638065,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 9643,
-        "rep_votes": 4584,
-        "other_votes": 370,
-        "total_votes": 14597,
+        "dem_votes": 13749,
+        "rep_votes": 9329,
+        "other_votes": 796,
+        "total_votes": 23874,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": -5059,
-        "margin_pct": 34.65780639857505,
+        "margin": -4420,
+        "margin_pct": 18.51386445505571,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1618,
-        "rep_votes": 624,
-        "other_votes": 61,
-        "total_votes": 2303,
+        "dem_votes": 14404,
+        "rep_votes": 8984,
+        "other_votes": 997,
+        "total_votes": 24385,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": -994,
-        "margin_pct": 43.161094224924014,
+        "margin": -5420,
+        "margin_pct": 22.226778757432847,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 8303,
-        "rep_votes": 7603,
-        "other_votes": 523,
-        "total_votes": 16429,
+        "dem_votes": 13151,
+        "rep_votes": 11459,
+        "other_votes": 903,
+        "total_votes": 25513,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": -700,
-        "margin_pct": 4.260758414997869,
+        "margin": -1692,
+        "margin_pct": 6.631913142319602,
         "winner": "D"
       },
       "11": {
-        "dem_votes": 4379,
-        "rep_votes": 11895,
-        "other_votes": 687,
-        "total_votes": 16961,
+        "dem_votes": 7688,
+        "rep_votes": 12895,
+        "other_votes": 761,
+        "total_votes": 21344,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 7516,
-        "margin_pct": 44.31342491598373,
+        "margin": 5207,
+        "margin_pct": 24.395614692653673,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 12567,
-        "rep_votes": 5108,
-        "other_votes": 687,
-        "total_votes": 18362,
+        "dem_votes": 12680,
+        "rep_votes": 11154,
+        "other_votes": 813,
+        "total_votes": 24647,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": -7459,
-        "margin_pct": 40.621936608212614,
+        "margin": -1526,
+        "margin_pct": 6.191422891224084,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 10503,
-        "rep_votes": 16712,
-        "other_votes": 1052,
-        "total_votes": 28267,
+        "dem_votes": 12991,
+        "rep_votes": 11428,
+        "other_votes": 833,
+        "total_votes": 25252,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 6209,
-        "margin_pct": 21.965542859164398,
-        "winner": "R"
+        "margin": -1563,
+        "margin_pct": 6.189608743861872,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 16063,
-        "rep_votes": 16248,
-        "other_votes": 910,
-        "total_votes": 33221,
+        "dem_votes": 12942,
+        "rep_votes": 11385,
+        "other_votes": 830,
+        "total_votes": 25157,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 185,
-        "margin_pct": 0.5568766743927034,
-        "winner": "R"
+        "margin": -1557,
+        "margin_pct": 6.189132249473308,
+        "winner": "D"
       },
       "15": {
-        "dem_votes": 13760,
-        "rep_votes": 4572,
-        "other_votes": 568,
-        "total_votes": 18900,
+        "dem_votes": 11305,
+        "rep_votes": 9945,
+        "other_votes": 725,
+        "total_votes": 21975,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": -9188,
-        "margin_pct": 48.613756613756614,
+        "margin": -1360,
+        "margin_pct": 6.188850967007964,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 1011,
-        "rep_votes": 2077,
-        "other_votes": 127,
-        "total_votes": 3215,
+        "dem_votes": 7440,
+        "rep_votes": 16158,
+        "other_votes": 1093,
+        "total_votes": 24691,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 1066,
-        "margin_pct": 33.157076205287716,
+        "margin": 8718,
+        "margin_pct": 35.30841197197359,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2445,
-        "rep_votes": 4467,
-        "other_votes": 254,
-        "total_votes": 7166,
+        "dem_votes": 7673,
+        "rep_votes": 12506,
+        "other_votes": 887,
+        "total_votes": 21066,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 2022,
-        "margin_pct": 28.216578286352217,
+        "margin": 4833,
+        "margin_pct": 22.94218171461122,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 1556,
-        "rep_votes": 3622,
-        "other_votes": 314,
-        "total_votes": 5492,
+        "dem_votes": 6567,
+        "rep_votes": 15460,
+        "other_votes": 1188,
+        "total_votes": 23215,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 2066,
-        "margin_pct": 37.61835396941005,
+        "margin": 8893,
+        "margin_pct": 38.30712901141503,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 2238,
-        "rep_votes": 2876,
-        "other_votes": 331,
-        "total_votes": 5445,
+        "dem_votes": 10248,
+        "rep_votes": 10105,
+        "other_votes": 1173,
+        "total_votes": 21526,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 638,
-        "margin_pct": 11.717171717171718,
-        "winner": "R"
+        "margin": -143,
+        "margin_pct": 0.6643129239059742,
+        "winner": "D"
       },
       "20": {
-        "dem_votes": 1128,
-        "rep_votes": 1754,
-        "other_votes": 127,
-        "total_votes": 3009,
+        "dem_votes": 6743,
+        "rep_votes": 9471,
+        "other_votes": 671,
+        "total_votes": 16885,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 626,
-        "margin_pct": 20.80425390495181,
+        "margin": 2728,
+        "margin_pct": 16.156351791530945,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 8108,
-        "rep_votes": 10417,
-        "other_votes": 1016,
-        "total_votes": 19541,
+        "dem_votes": 8216,
+        "rep_votes": 10676,
+        "other_votes": 1048,
+        "total_votes": 19940,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 2309,
-        "margin_pct": 11.816181362263958,
+        "margin": 2460,
+        "margin_pct": 12.337011033099298,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 8285,
-        "rep_votes": 14319,
-        "other_votes": 1647,
-        "total_votes": 24251,
+        "dem_votes": 8696,
+        "rep_votes": 14583,
+        "other_votes": 1759,
+        "total_votes": 25038,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 6034,
-        "margin_pct": 24.8814481877036,
+        "margin": 5887,
+        "margin_pct": 23.512261362728655,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 5945,
-        "rep_votes": 13993,
-        "other_votes": 1836,
-        "total_votes": 21774,
+        "dem_votes": 7922,
+        "rep_votes": 19280,
+        "other_votes": 2443,
+        "total_votes": 29645,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 8048,
-        "margin_pct": 36.961513731973916,
+        "margin": 11358,
+        "margin_pct": 38.31337493675156,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 7279,
-        "rep_votes": 15779,
-        "other_votes": 2109,
-        "total_votes": 25167,
+        "dem_votes": 8160,
+        "rep_votes": 15157,
+        "other_votes": 2162,
+        "total_votes": 25479,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 8500,
-        "margin_pct": 33.774387094210674,
+        "margin": 6997,
+        "margin_pct": 27.461831312060912,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 3907,
-        "rep_votes": 7022,
-        "other_votes": 1430,
-        "total_votes": 12359,
+        "dem_votes": 6685,
+        "rep_votes": 12947,
+        "other_votes": 2902,
+        "total_votes": 22534,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 3115,
-        "margin_pct": 25.204304555384738,
+        "margin": 6262,
+        "margin_pct": 27.78911866512825,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 5103,
-        "rep_votes": 14709,
-        "other_votes": 1072,
-        "total_votes": 20884,
+        "dem_votes": 6517,
+        "rep_votes": 15072,
+        "other_votes": 1207,
+        "total_votes": 22796,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 9606,
-        "margin_pct": 45.996935452978356,
+        "margin": 8555,
+        "margin_pct": 37.52851377434638,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 4735,
-        "rep_votes": 11419,
-        "other_votes": 625,
-        "total_votes": 16779,
+        "dem_votes": 4851,
+        "rep_votes": 14051,
+        "other_votes": 753,
+        "total_votes": 19655,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 6684,
-        "margin_pct": 39.835508671553725,
+        "margin": 9200,
+        "margin_pct": 46.807428135334526,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 6766,
-        "rep_votes": 15795,
-        "other_votes": 1731,
-        "total_votes": 24292,
+        "dem_votes": 7877,
+        "rep_votes": 18828,
+        "other_votes": 2090,
+        "total_votes": 28795,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 9029,
-        "margin_pct": 37.16861518195291,
+        "margin": 10951,
+        "margin_pct": 38.03090814377496,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 4828,
-        "rep_votes": 14996,
-        "other_votes": 935,
-        "total_votes": 20759,
+        "dem_votes": 4679,
+        "rep_votes": 14186,
+        "other_votes": 828,
+        "total_votes": 19693,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 10168,
-        "margin_pct": 48.9811647959921,
+        "margin": 9507,
+        "margin_pct": 48.27603717056822,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 412,
-        "rep_votes": 1038,
-        "other_votes": 38,
-        "total_votes": 1488,
+        "dem_votes": 5978,
+        "rep_votes": 11126,
+        "other_votes": 779,
+        "total_votes": 17883,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 626,
-        "margin_pct": 42.06989247311828,
+        "margin": 5148,
+        "margin_pct": 28.787116255661804,
         "winner": "R"
       },
       "31": {
-        "dem_votes": 540,
-        "rep_votes": 1756,
-        "other_votes": 79,
-        "total_votes": 2375,
+        "dem_votes": 4002,
+        "rep_votes": 7448,
+        "other_votes": 522,
+        "total_votes": 11972,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 1216,
-        "margin_pct": 51.2,
+        "margin": 3446,
+        "margin_pct": 28.783828934179752,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 196,
-        "rep_votes": 525,
-        "other_votes": 23,
-        "total_votes": 744,
+        "dem_votes": 3328,
+        "rep_votes": 10797,
+        "other_votes": 560,
+        "total_votes": 14685,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 329,
-        "margin_pct": 44.22043010752688,
+        "margin": 7469,
+        "margin_pct": 50.861423220973776,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 3368,
+        "rep_votes": 11431,
+        "other_votes": 581,
+        "total_votes": 15380,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 8063,
+        "margin_pct": 52.425227568270486,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 3765,
+        "rep_votes": 12779,
+        "other_votes": 650,
+        "total_votes": 17194,
+        "dem_candidate": "Blanche Lambert Lincoln",
+        "rep_candidate": "Congressman John Boozman",
+        "margin": 9014,
+        "margin_pct": 52.42526462719553,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 3380,
-        "rep_votes": 10633,
-        "other_votes": 491,
-        "total_votes": 14504,
+        "dem_votes": 4617,
+        "rep_votes": 10951,
+        "other_votes": 667,
+        "total_votes": 16235,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 7253,
-        "margin_pct": 50.006894649751786,
+        "margin": 6334,
+        "margin_pct": 39.01447489990761,
         "winner": "R"
       }
     }

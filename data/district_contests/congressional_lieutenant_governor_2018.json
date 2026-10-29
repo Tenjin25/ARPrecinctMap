@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.867676,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 38168,
-        "rep_votes": 107975,
-        "other_votes": 4189,
-        "total_votes": 150332,
+        "dem_votes": 61938,
+        "rep_votes": 144143,
+        "other_votes": 5823,
+        "total_votes": 211904,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 69807,
-        "margin_pct": 46.43522337226938,
+        "margin": 82205,
+        "margin_pct": 38.793510268800965,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 85622,
-        "rep_votes": 136333,
-        "other_votes": 6865,
-        "total_votes": 228820,
+        "dem_votes": 93832,
+        "rep_votes": 147487,
+        "other_votes": 7457,
+        "total_votes": 248776,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 50711,
-        "margin_pct": 22.161961367013372,
+        "margin": 53655,
+        "margin_pct": 21.567594944849986,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 65358,
-        "rep_votes": 123607,
-        "other_votes": 5892,
-        "total_votes": 194857,
+        "dem_votes": 68727,
+        "rep_votes": 129458,
+        "other_votes": 6233,
+        "total_votes": 204418,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 58249,
-        "margin_pct": 29.893203734020336,
+        "margin": 60731,
+        "margin_pct": 29.70922325822579,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 60930,
-        "rep_votes": 131612,
-        "other_votes": 4585,
-        "total_votes": 197127,
+        "dem_votes": 69038,
+        "rep_votes": 149345,
+        "other_votes": 5254,
+        "total_votes": 223637,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 70682,
-        "margin_pct": 35.85607248119233,
+        "margin": 80307,
+        "margin_pct": 35.90953196474644,
         "winner": "R"
       }
     }

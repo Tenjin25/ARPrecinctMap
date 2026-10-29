@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.617341,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 10772,
+        "dem_votes": 17315,
         "rep_votes": 0,
-        "other_votes": 2880,
-        "total_votes": 13652,
+        "other_votes": 4732,
+        "total_votes": 22047,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -10772,
-        "margin_pct": 78.90418986229125,
+        "margin": -17315,
+        "margin_pct": 78.53676237129768,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 9668,
+        "dem_votes": 19075,
         "rep_votes": 0,
-        "other_votes": 3426,
-        "total_votes": 13094,
+        "other_votes": 6509,
+        "total_votes": 25584,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -9668,
-        "margin_pct": 73.83534443256453,
+        "margin": -19075,
+        "margin_pct": 74.55831769856161,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 13345,
+        "dem_votes": 18414,
         "rep_votes": 0,
-        "other_votes": 4004,
-        "total_votes": 17349,
+        "other_votes": 5617,
+        "total_votes": 24031,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -13345,
-        "margin_pct": 76.92085999193037,
+        "margin": -18414,
+        "margin_pct": 76.6260247180725,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 11438,
+        "dem_votes": 13140,
         "rep_votes": 0,
-        "other_votes": 5652,
-        "total_votes": 17090,
+        "other_votes": 6486,
+        "total_votes": 19626,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -11438,
-        "margin_pct": 66.92802808660035,
+        "margin": -13140,
+        "margin_pct": 66.95200244573525,
         "winner": "D"
       },
       "5": {
-        "dem_votes": 15034,
+        "dem_votes": 16596,
         "rep_votes": 0,
-        "other_votes": 6305,
-        "total_votes": 21339,
+        "other_votes": 6799,
+        "total_votes": 23395,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -15034,
-        "margin_pct": 70.45316087914148,
+        "margin": -16596,
+        "margin_pct": 70.93823466552682,
         "winner": "D"
       },
       "6": {
-        "dem_votes": 1333,
+        "dem_votes": 17012,
         "rep_votes": 0,
-        "other_votes": 571,
-        "total_votes": 1904,
+        "other_votes": 8272,
+        "total_votes": 25284,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -1333,
-        "margin_pct": 70.01050420168067,
+        "margin": -17012,
+        "margin_pct": 67.28365764910616,
         "winner": "D"
       },
       "7": {
-        "dem_votes": 7398,
+        "dem_votes": 15300,
         "rep_votes": 0,
-        "other_votes": 2721,
-        "total_votes": 10119,
+        "other_votes": 6521,
+        "total_votes": 21821,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -7398,
-        "margin_pct": 73.10999110584049,
+        "margin": -15300,
+        "margin_pct": 70.11594335731634,
         "winner": "D"
       },
       "8": {
-        "dem_votes": 12173,
+        "dem_votes": 19050,
         "rep_votes": 0,
-        "other_votes": 1702,
-        "total_votes": 13875,
+        "other_votes": 3505,
+        "total_votes": 22555,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -12173,
-        "margin_pct": 87.73333333333333,
+        "margin": -19050,
+        "margin_pct": 84.46020837951673,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1987,
+        "dem_votes": 18854,
         "rep_votes": 0,
-        "other_votes": 265,
-        "total_votes": 2252,
+        "other_votes": 4111,
+        "total_votes": 22965,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -1987,
-        "margin_pct": 88.23268206039077,
+        "margin": -18854,
+        "margin_pct": 82.09884607010667,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 12618,
+        "dem_votes": 19725,
         "rep_votes": 0,
-        "other_votes": 2996,
-        "total_votes": 15614,
+        "other_votes": 4548,
+        "total_votes": 24273,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -12618,
-        "margin_pct": 80.81209171256565,
+        "margin": -19725,
+        "margin_pct": 81.26313187492275,
         "winner": "D"
       },
       "11": {
-        "dem_votes": 10261,
+        "dem_votes": 14224,
         "rep_votes": 0,
-        "other_votes": 5415,
-        "total_votes": 15676,
+        "other_votes": 5721,
+        "total_votes": 19945,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -10261,
-        "margin_pct": 65.45674917070681,
+        "margin": -14224,
+        "margin_pct": 71.31611932815241,
         "winner": "D"
       },
       "12": {
-        "dem_votes": 15200,
+        "dem_votes": 18448,
         "rep_votes": 0,
-        "other_votes": 2557,
-        "total_votes": 17757,
+        "other_votes": 4814,
+        "total_votes": 23262,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -15200,
-        "margin_pct": 85.60004505265529,
+        "margin": -18448,
+        "margin_pct": 79.30530478892615,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 19433,
+        "dem_votes": 18901,
         "rep_votes": 0,
-        "other_votes": 7017,
-        "total_votes": 26450,
+        "other_votes": 4933,
+        "total_votes": 23834,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -19433,
-        "margin_pct": 73.47069943289225,
+        "margin": -18901,
+        "margin_pct": 79.30267684820005,
         "winner": "D"
       },
       "14": {
-        "dem_votes": 24307,
+        "dem_votes": 18829,
         "rep_votes": 0,
-        "other_votes": 6623,
-        "total_votes": 30930,
+        "other_votes": 4914,
+        "total_votes": 23743,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -24307,
-        "margin_pct": 78.58713223407695,
+        "margin": -18829,
+        "margin_pct": 79.3033736259108,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 16191,
+        "dem_votes": 16448,
         "rep_votes": 0,
-        "other_votes": 2106,
-        "total_votes": 18297,
+        "other_votes": 4292,
+        "total_votes": 20740,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -16191,
-        "margin_pct": 88.48991637973438,
+        "margin": -16448,
+        "margin_pct": 79.30568948891032,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 2062,
+        "dem_votes": 15986,
         "rep_votes": 0,
-        "other_votes": 900,
-        "total_votes": 2962,
+        "other_votes": 7005,
+        "total_votes": 22991,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -2062,
-        "margin_pct": 69.61512491559758,
+        "margin": -15986,
+        "margin_pct": 69.53155582619286,
         "winner": "D"
       },
       "17": {
-        "dem_votes": 4549,
+        "dem_votes": 13943,
         "rep_votes": 0,
-        "other_votes": 2044,
-        "total_votes": 6593,
+        "other_votes": 5626,
+        "total_votes": 19569,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -4549,
-        "margin_pct": 68.99742150765964,
+        "margin": -13943,
+        "margin_pct": 71.25044713577597,
         "winner": "D"
       },
       "18": {
-        "dem_votes": 3508,
+        "dem_votes": 14610,
         "rep_votes": 0,
-        "other_votes": 1709,
-        "total_votes": 5217,
+        "other_votes": 6670,
+        "total_votes": 21280,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -3508,
-        "margin_pct": 67.24170979490128,
+        "margin": -14610,
+        "margin_pct": 68.65601503759399,
         "winner": "D"
       },
       "19": {
-        "dem_votes": 4123,
+        "dem_votes": 16248,
         "rep_votes": 0,
-        "other_votes": 1141,
-        "total_votes": 5264,
+        "other_votes": 4227,
+        "total_votes": 20475,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -4123,
-        "margin_pct": 78.32446808510637,
+        "margin": -16248,
+        "margin_pct": 79.35531135531136,
         "winner": "D"
       },
       "20": {
-        "dem_votes": 2288,
+        "dem_votes": 12929,
         "rep_votes": 0,
-        "other_votes": 574,
-        "total_votes": 2862,
+        "other_votes": 3235,
+        "total_votes": 16164,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -2288,
-        "margin_pct": 79.94409503843465,
+        "margin": -12929,
+        "margin_pct": 79.98638950754764,
         "winner": "D"
       },
       "21": {
-        "dem_votes": 14513,
+        "dem_votes": 14756,
         "rep_votes": 0,
-        "other_votes": 3923,
-        "total_votes": 18436,
+        "other_votes": 4045,
+        "total_votes": 18801,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -14513,
-        "margin_pct": 78.72098068995443,
+        "margin": -14756,
+        "margin_pct": 78.48518695814053,
         "winner": "D"
       },
       "22": {
-        "dem_votes": 16148,
+        "dem_votes": 16817,
         "rep_votes": 0,
-        "other_votes": 6409,
-        "total_votes": 22557,
+        "other_votes": 6479,
+        "total_votes": 23296,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -16148,
-        "margin_pct": 71.58753380325398,
+        "margin": -16817,
+        "margin_pct": 72.18835851648352,
         "winner": "D"
       },
       "23": {
-        "dem_votes": 12275,
+        "dem_votes": 16389,
         "rep_votes": 0,
-        "other_votes": 7313,
-        "total_votes": 19588,
+        "other_votes": 10123,
+        "total_votes": 26512,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -12275,
-        "margin_pct": 62.66591790892383,
+        "margin": -16389,
+        "margin_pct": 61.81729028364514,
         "winner": "D"
       },
       "24": {
-        "dem_votes": 15382,
+        "dem_votes": 15897,
         "rep_votes": 0,
-        "other_votes": 7679,
-        "total_votes": 23061,
+        "other_votes": 7398,
+        "total_votes": 23295,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -15382,
-        "margin_pct": 66.70135726984952,
+        "margin": -15897,
+        "margin_pct": 68.24211204121056,
         "winner": "D"
       },
       "25": {
-        "dem_votes": 8590,
+        "dem_votes": 15590,
         "rep_votes": 0,
-        "other_votes": 3096,
-        "total_votes": 11686,
+        "other_votes": 5622,
+        "total_votes": 21212,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -8590,
-        "margin_pct": 73.50676022591135,
+        "margin": -15590,
+        "margin_pct": 73.49613426362437,
         "winner": "D"
       },
       "26": {
-        "dem_votes": 13861,
+        "dem_votes": 15596,
         "rep_votes": 0,
-        "other_votes": 5722,
-        "total_votes": 19583,
+        "other_votes": 5902,
+        "total_votes": 21498,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -13861,
-        "margin_pct": 70.78077924730634,
+        "margin": -15596,
+        "margin_pct": 72.54628337519769,
         "winner": "D"
       },
       "27": {
-        "dem_votes": 11163,
+        "dem_votes": 12774,
         "rep_votes": 0,
-        "other_votes": 4444,
-        "total_votes": 15607,
+        "other_votes": 5509,
+        "total_votes": 18283,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -11163,
-        "margin_pct": 71.52559748830653,
+        "margin": -12774,
+        "margin_pct": 69.86818355849697,
         "winner": "D"
       },
       "28": {
-        "dem_votes": 14207,
+        "dem_votes": 16849,
         "rep_votes": 0,
-        "other_votes": 7388,
-        "total_votes": 21595,
+        "other_votes": 8819,
+        "total_votes": 25668,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -14207,
-        "margin_pct": 65.78837693910627,
+        "margin": -16849,
+        "margin_pct": 65.6420445691133,
         "winner": "D"
       },
       "29": {
-        "dem_votes": 12616,
+        "dem_votes": 12049,
         "rep_votes": 0,
-        "other_votes": 6383,
-        "total_votes": 18999,
+        "other_votes": 5929,
+        "total_votes": 17978,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -12616,
-        "margin_pct": 66.4034949207853,
+        "margin": -12049,
+        "margin_pct": 67.0208032039159,
         "winner": "D"
       },
       "30": {
-        "dem_votes": 899,
+        "dem_votes": 11190,
         "rep_votes": 0,
-        "other_votes": 406,
-        "total_votes": 1305,
+        "other_votes": 4899,
+        "total_votes": 16089,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -899,
-        "margin_pct": 68.88888888888889,
+        "margin": -11190,
+        "margin_pct": 69.55062465038225,
         "winner": "D"
       },
       "31": {
-        "dem_votes": 1398,
+        "dem_votes": 7491,
         "rep_votes": 0,
-        "other_votes": 690,
-        "total_votes": 2088,
+        "other_votes": 3279,
+        "total_votes": 10770,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -1398,
-        "margin_pct": 66.95402298850574,
+        "margin": -7491,
+        "margin_pct": 69.55431754874651,
         "winner": "D"
       },
       "32": {
-        "dem_votes": 419,
+        "dem_votes": 8099,
         "rep_votes": 0,
-        "other_votes": 266,
-        "total_votes": 685,
+        "other_votes": 4779,
+        "total_votes": 12878,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -419,
-        "margin_pct": 61.16788321167883,
+        "margin": -8099,
+        "margin_pct": 62.890200341667956,
+        "winner": "D"
+      },
+      "33": {
+        "dem_votes": 8402,
+        "rep_votes": 0,
+        "other_votes": 5061,
+        "total_votes": 13463,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -8402,
+        "margin_pct": 62.40808140830424,
+        "winner": "D"
+      },
+      "34": {
+        "dem_votes": 9393,
+        "rep_votes": 0,
+        "other_votes": 5658,
+        "total_votes": 15051,
+        "dem_candidate": "Dustin McDaniel",
+        "rep_candidate": "",
+        "margin": -9393,
+        "margin_pct": 62.4078134343233,
         "winner": "D"
       },
       "35": {
-        "dem_votes": 8298,
+        "dem_votes": 9601,
         "rep_votes": 0,
-        "other_votes": 4441,
-        "total_votes": 12739,
+        "other_votes": 4835,
+        "total_votes": 14436,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -8298,
-        "margin_pct": 65.13855090666458,
+        "margin": -9601,
+        "margin_pct": 66.50734275422555,
         "winner": "D"
       }
     }

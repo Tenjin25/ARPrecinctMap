@@ -3,388 +3,636 @@
   "scope": "state_senate",
   "contest_type": "treasurer",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1914,
-    "matched_vote_coverage": 0.673955,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5987,
-        "rep_votes": 16817,
-        "other_votes": 558,
-        "total_votes": 23362,
+        "dem_votes": 8638,
+        "rep_votes": 19604,
+        "other_votes": 709,
+        "total_votes": 28951,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 10830,
-        "margin_pct": 46.357332420169506,
+        "margin": 10966,
+        "margin_pct": 37.87779351317744,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 8380,
-        "rep_votes": 20083,
-        "other_votes": 901,
-        "total_votes": 29364,
+        "dem_votes": 9385,
+        "rep_votes": 22796,
+        "other_votes": 1014,
+        "total_votes": 33195,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 11703,
-        "margin_pct": 39.85492439722108,
+        "margin": 13411,
+        "margin_pct": 40.40066275041422,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 7068,
-        "rep_votes": 17180,
-        "other_votes": 846,
-        "total_votes": 25094,
+        "dem_votes": 8176,
+        "rep_votes": 19821,
+        "other_votes": 936,
+        "total_votes": 28933,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 10112,
-        "margin_pct": 40.296485215589385,
+        "margin": 11645,
+        "margin_pct": 40.24815954100854,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 4906,
-        "rep_votes": 17944,
-        "other_votes": 662,
-        "total_votes": 23512,
+        "dem_votes": 6428,
+        "rep_votes": 22602,
+        "other_votes": 856,
+        "total_votes": 29886,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 13038,
-        "margin_pct": 55.4525348758081,
+        "margin": 16174,
+        "margin_pct": 54.11898547815031,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 3593,
-        "rep_votes": 20933,
-        "other_votes": 951,
-        "total_votes": 25477,
+        "dem_votes": 5467,
+        "rep_votes": 25911,
+        "other_votes": 1315,
+        "total_votes": 32693,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 17340,
-        "margin_pct": 68.06138870353652,
+        "margin": 20444,
+        "margin_pct": 62.533264001468204,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 8611,
-        "rep_votes": 20506,
-        "other_votes": 1496,
-        "total_votes": 30613,
+        "dem_votes": 10157,
+        "rep_votes": 25370,
+        "other_votes": 1872,
+        "total_votes": 37399,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 11895,
-        "margin_pct": 38.85604155097507,
+        "margin": 15213,
+        "margin_pct": 40.67755822348191,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 5298,
-        "rep_votes": 23542,
-        "other_votes": 1407,
-        "total_votes": 30247,
+        "dem_votes": 8326,
+        "rep_votes": 24717,
+        "other_votes": 1627,
+        "total_votes": 34670,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 18244,
-        "margin_pct": 60.31672562568189,
+        "margin": 16391,
+        "margin_pct": 47.277184886068646,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 11726,
-        "rep_votes": 9673,
-        "other_votes": 763,
-        "total_votes": 22162,
+        "dem_votes": 12695,
+        "rep_votes": 13412,
+        "other_votes": 928,
+        "total_votes": 27035,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -2053,
-        "margin_pct": 9.263604367836837,
-        "winner": "D"
+        "margin": 717,
+        "margin_pct": 2.6521176253005363,
+        "winner": "R"
       },
       "9": {
-        "dem_votes": 237,
-        "rep_votes": 142,
-        "other_votes": 7,
-        "total_votes": 386,
+        "dem_votes": 11861,
+        "rep_votes": 12072,
+        "other_votes": 582,
+        "total_votes": 24515,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -95,
-        "margin_pct": 24.61139896373057,
-        "winner": "D"
+        "margin": 211,
+        "margin_pct": 0.8606975321231898,
+        "winner": "R"
       },
       "10": {
-        "dem_votes": 4688,
-        "rep_votes": 15558,
-        "other_votes": 512,
-        "total_votes": 20758,
+        "dem_votes": 7689,
+        "rep_votes": 20562,
+        "other_votes": 763,
+        "total_votes": 29014,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 10870,
-        "margin_pct": 52.36535311687061,
+        "margin": 12873,
+        "margin_pct": 44.36823602398842,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 9401,
-        "rep_votes": 26386,
-        "other_votes": 1986,
-        "total_votes": 37773,
+        "dem_votes": 10378,
+        "rep_votes": 23508,
+        "other_votes": 1792,
+        "total_votes": 35678,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 16985,
-        "margin_pct": 44.96598099171366,
+        "margin": 13130,
+        "margin_pct": 36.80139021245586,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 14227,
-        "rep_votes": 7681,
-        "other_votes": 1371,
-        "total_votes": 23279,
+        "dem_votes": 18128,
+        "rep_votes": 13268,
+        "other_votes": 2023,
+        "total_votes": 33419,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -6546,
-        "margin_pct": 28.119764594699088,
+        "margin": -4860,
+        "margin_pct": 14.542625452586853,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 16859,
-        "rep_votes": 19044,
-        "other_votes": 2157,
-        "total_votes": 38060,
+        "dem_votes": 18572,
+        "rep_votes": 13594,
+        "other_votes": 2073,
+        "total_votes": 34239,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 2185,
-        "margin_pct": 5.740935365212821,
-        "winner": "R"
+        "margin": -4978,
+        "margin_pct": 14.538976021495955,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 24558,
-        "rep_votes": 13482,
-        "other_votes": 2446,
-        "total_votes": 40486,
+        "dem_votes": 18502,
+        "rep_votes": 13543,
+        "other_votes": 2065,
+        "total_votes": 34110,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -11076,
-        "margin_pct": 27.357605098058592,
+        "margin": -4959,
+        "margin_pct": 14.53825857519789,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 16169,
-        "rep_votes": 6328,
-        "other_votes": 1589,
-        "total_votes": 24086,
+        "dem_votes": 16162,
+        "rep_votes": 11830,
+        "other_votes": 1803,
+        "total_votes": 29795,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -9841,
-        "margin_pct": 40.857759694428296,
+        "margin": -4332,
+        "margin_pct": 14.539352240308775,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 11988,
-        "rep_votes": 25172,
-        "other_votes": 2291,
-        "total_votes": 39451,
+        "dem_votes": 10656,
+        "rep_votes": 26564,
+        "other_votes": 2178,
+        "total_votes": 39398,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 13184,
-        "margin_pct": 33.418671263085855,
+        "margin": 15908,
+        "margin_pct": 40.37768414640337,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2792,
-        "rep_votes": 3587,
-        "other_votes": 451,
-        "total_votes": 6830,
+        "dem_votes": 12701,
+        "rep_votes": 24299,
+        "other_votes": 2234,
+        "total_votes": 39234,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 795,
-        "margin_pct": 11.6398243045388,
+        "margin": 11598,
+        "margin_pct": 29.56109496864964,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 3918,
-        "rep_votes": 22521,
-        "other_votes": 1036,
-        "total_votes": 27475,
+        "dem_votes": 6006,
+        "rep_votes": 29240,
+        "other_votes": 1403,
+        "total_votes": 36649,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 18603,
-        "margin_pct": 67.70882620564149,
+        "margin": 23234,
+        "margin_pct": 63.3959998908565,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 2001,
-        "rep_votes": 8525,
-        "other_votes": 274,
-        "total_votes": 10800,
+        "dem_votes": 6308,
+        "rep_votes": 17754,
+        "other_votes": 697,
+        "total_votes": 24759,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 6524,
-        "margin_pct": 60.40740740740741,
+        "margin": 11446,
+        "margin_pct": 46.22965386324165,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 8357,
-        "rep_votes": 18068,
-        "other_votes": 817,
-        "total_votes": 27242,
+        "dem_votes": 7908,
+        "rep_votes": 20005,
+        "other_votes": 833,
+        "total_votes": 28746,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 9711,
-        "margin_pct": 35.64716246971588,
+        "margin": 12097,
+        "margin_pct": 42.0823766784944,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 1959,
-        "rep_votes": 9614,
-        "other_votes": 391,
-        "total_votes": 11964,
+        "dem_votes": 4840,
+        "rep_votes": 23342,
+        "other_votes": 943,
+        "total_votes": 29125,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 7655,
-        "margin_pct": 63.983617519224346,
+        "margin": 18502,
+        "margin_pct": 63.52618025751073,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 5454,
-        "rep_votes": 26938,
-        "other_votes": 963,
-        "total_votes": 33355,
+        "dem_votes": 5594,
+        "rep_votes": 27305,
+        "other_votes": 1007,
+        "total_votes": 33906,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 21484,
-        "margin_pct": 64.41013341328137,
+        "margin": 21711,
+        "margin_pct": 64.03291452840205,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 2488,
-        "rep_votes": 13399,
-        "other_votes": 601,
-        "total_votes": 16488,
+        "dem_votes": 6886,
+        "rep_votes": 31124,
+        "other_votes": 1403,
+        "total_votes": 39413,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 10911,
-        "margin_pct": 66.17540029112081,
+        "margin": 24238,
+        "margin_pct": 61.49747545226194,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 3081,
-        "rep_votes": 15047,
-        "other_votes": 683,
-        "total_votes": 18811,
+        "dem_votes": 8715,
+        "rep_votes": 28142,
+        "other_votes": 1785,
+        "total_votes": 38642,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 11966,
-        "margin_pct": 63.611716548827815,
+        "margin": 19427,
+        "margin_pct": 50.27431292376171,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 4654,
-        "rep_votes": 18238,
-        "other_votes": 1033,
-        "total_votes": 23925,
+        "dem_votes": 7261,
+        "rep_votes": 24706,
+        "other_votes": 1549,
+        "total_votes": 33516,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 13584,
-        "margin_pct": 56.77742946708464,
+        "margin": 17445,
+        "margin_pct": 52.049767275331185,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 1529,
-        "rep_votes": 7896,
-        "other_votes": 410,
-        "total_votes": 9835,
+        "dem_votes": 6583,
+        "rep_votes": 23630,
+        "other_votes": 1436,
+        "total_votes": 31649,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 6367,
-        "margin_pct": 64.7381799694967,
+        "margin": 17047,
+        "margin_pct": 53.86268128534867,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 7645,
+        "rep_votes": 19422,
+        "other_votes": 1404,
+        "total_votes": 28471,
+        "dem_candidate": "John Pagan",
+        "rep_candidate": "John Thurston",
+        "margin": 11777,
+        "margin_pct": 41.36489761511714,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 4970,
-        "rep_votes": 20664,
-        "other_votes": 987,
-        "total_votes": 26621,
+        "dem_votes": 7568,
+        "rep_votes": 27226,
+        "other_votes": 1388,
+        "total_votes": 36182,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 15694,
-        "margin_pct": 58.953457796476464,
+        "margin": 19658,
+        "margin_pct": 54.330882759383115,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 3572,
-        "rep_votes": 7943,
-        "other_votes": 556,
-        "total_votes": 12071,
+        "dem_votes": 8563,
+        "rep_votes": 23452,
+        "other_votes": 1311,
+        "total_votes": 33326,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 4371,
-        "margin_pct": 36.210753044486786,
+        "margin": 14889,
+        "margin_pct": 44.676828902358515,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 18979,
-        "rep_votes": 13110,
-        "other_votes": 1563,
-        "total_votes": 33652,
+        "dem_votes": 15539,
+        "rep_votes": 20496,
+        "other_votes": 1717,
+        "total_votes": 37752,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": -5869,
-        "margin_pct": 17.440271009152504,
-        "winner": "D"
+        "margin": 4957,
+        "margin_pct": 13.130430175884722,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 8417,
-        "rep_votes": 13443,
-        "other_votes": 1020,
-        "total_votes": 22880,
+        "dem_votes": 10402,
+        "rep_votes": 13720,
+        "other_votes": 1149,
+        "total_votes": 25271,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 5026,
-        "margin_pct": 21.966783216783217,
+        "margin": 3318,
+        "margin_pct": 13.129674330259983,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 2879,
-        "rep_votes": 6886,
-        "other_votes": 450,
-        "total_votes": 10215,
+        "dem_votes": 10638,
+        "rep_votes": 22142,
+        "other_votes": 1680,
+        "total_votes": 34460,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 4007,
-        "margin_pct": 39.226627508565834,
+        "margin": 11504,
+        "margin_pct": 33.383633197910626,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 4606,
-        "rep_votes": 10226,
-        "other_votes": 822,
-        "total_votes": 15654,
+        "dem_votes": 10985,
+        "rep_votes": 23583,
+        "other_votes": 1780,
+        "total_votes": 36348,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 5620,
-        "margin_pct": 35.90136706273157,
+        "margin": 12598,
+        "margin_pct": 34.659403543523716,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 2627,
-        "rep_votes": 6575,
-        "other_votes": 453,
-        "total_votes": 9655,
+        "dem_votes": 12281,
+        "rep_votes": 26365,
+        "other_votes": 1990,
+        "total_votes": 40636,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 3948,
-        "margin_pct": 40.890730191610565,
+        "margin": 14084,
+        "margin_pct": 34.658923122354565,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 8413,
-        "rep_votes": 18577,
-        "other_votes": 1236,
-        "total_votes": 28226,
+        "dem_votes": 13021,
+        "rep_votes": 21328,
+        "other_votes": 1698,
+        "total_votes": 36047,
         "dem_candidate": "John Pagan",
         "rep_candidate": "John Thurston",
-        "margin": 10164,
-        "margin_pct": 36.009353078721745,
+        "margin": 8307,
+        "margin_pct": 23.04491358504175,
         "winner": "R"
       }
     }

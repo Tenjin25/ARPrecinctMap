@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1914,
-    "matched_vote_coverage": 0.673707,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 42245,
-        "rep_votes": 134829,
-        "other_votes": 3572,
-        "total_votes": 180646,
+        "dem_votes": 72256,
+        "rep_votes": 196362,
+        "other_votes": 5268,
+        "total_votes": 273886,
         "dem_candidate": "Kamala D. Harris / Tim Walz",
         "rep_candidate": "Donald J. Trump / JD Vance",
-        "margin": 92584,
-        "margin_pct": 51.251619188910915,
+        "margin": 124106,
+        "margin_pct": 45.31301344354951,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 112511,
-        "rep_votes": 139856,
-        "other_votes": 6098,
-        "total_votes": 258465,
+        "dem_votes": 130116,
+        "rep_votes": 179206,
+        "other_votes": 7530,
+        "total_votes": 316852,
         "dem_candidate": "Kamala D. Harris / Tim Walz",
         "rep_candidate": "Donald J. Trump / JD Vance",
-        "margin": 27345,
-        "margin_pct": 10.579769020950613,
+        "margin": 49090,
+        "margin_pct": 15.493037758953706,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 58712,
-        "rep_votes": 82563,
-        "other_votes": 4281,
-        "total_votes": 145556,
+        "dem_votes": 111600,
+        "rep_votes": 190322,
+        "other_votes": 8432,
+        "total_votes": 310354,
         "dem_candidate": "Kamala D. Harris / Tim Walz",
         "rep_candidate": "Donald J. Trump / JD Vance",
-        "margin": 23851,
-        "margin_pct": 16.38613317211245,
+        "margin": 78722,
+        "margin_pct": 25.36522809436966,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 62576,
-        "rep_votes": 147017,
-        "other_votes": 3796,
-        "total_votes": 213389,
+        "dem_votes": 83448,
+        "rep_votes": 194691,
+        "other_votes": 5344,
+        "total_votes": 283483,
         "dem_candidate": "Kamala D. Harris / Tim Walz",
         "rep_candidate": "Donald J. Trump / JD Vance",
-        "margin": 84441,
-        "margin_pct": 39.57139308961568,
+        "margin": 111243,
+        "margin_pct": 39.241506545366036,
         "winner": "R"
       }
     }

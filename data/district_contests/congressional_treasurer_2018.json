@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "treasurer",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.868086,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 115091,
-        "other_votes": 32131,
-        "total_votes": 147222,
+        "rep_votes": 154588,
+        "other_votes": 51799,
+        "total_votes": 206387,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 115091,
-        "margin_pct": 78.17513686813112,
+        "margin": 154588,
+        "margin_pct": 74.9020044867167,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 143962,
-        "other_votes": 75341,
-        "total_votes": 219303,
+        "rep_votes": 156137,
+        "other_votes": 82645,
+        "total_votes": 238782,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 143962,
-        "margin_pct": 65.64524881100577,
+        "margin": 156137,
+        "margin_pct": 65.38893216406598,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 134910,
-        "other_votes": 55117,
-        "total_votes": 190027,
+        "rep_votes": 141263,
+        "other_votes": 58137,
+        "total_votes": 199400,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 134910,
-        "margin_pct": 70.99517436995797,
+        "margin": 141263,
+        "margin_pct": 70.84403209628887,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 140185,
-        "other_votes": 51668,
-        "total_votes": 191853,
+        "rep_votes": 159201,
+        "other_votes": 58362,
+        "total_votes": 217563,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 140185,
-        "margin_pct": 73.0689642590942,
+        "margin": 159201,
+        "margin_pct": 73.17466664828119,
         "winner": "R"
       }
     }

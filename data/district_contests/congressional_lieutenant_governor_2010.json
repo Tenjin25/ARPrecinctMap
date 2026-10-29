@@ -3,59 +3,77 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.615287,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 58134,
-        "rep_votes": 62290,
+        "dem_votes": 103780,
+        "rep_votes": 96650,
         "other_votes": 0,
-        "total_votes": 120424,
+        "total_votes": 200430,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 4156,
-        "margin_pct": 3.4511393077791803,
-        "winner": "R"
+        "margin": -7130,
+        "margin_pct": 3.5573516938582053,
+        "winner": "D"
       },
       "2": {
-        "dem_votes": 80440,
-        "rep_votes": 61944,
+        "dem_votes": 111477,
+        "rep_votes": 90945,
         "other_votes": 0,
-        "total_votes": 142384,
+        "total_votes": 202422,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -18496,
-        "margin_pct": 12.990223620631532,
+        "margin": -20532,
+        "margin_pct": 10.143166256632185,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 28113,
-        "rep_votes": 48484,
+        "dem_votes": 55015,
+        "rep_votes": 96208,
         "other_votes": 0,
-        "total_votes": 76597,
+        "total_votes": 151223,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 20371,
-        "margin_pct": 26.595036359126333,
+        "margin": 41193,
+        "margin_pct": 27.239903982859747,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 66733,
-        "rep_votes": 63497,
+        "dem_votes": 103319,
+        "rep_votes": 105887,
         "other_votes": 0,
-        "total_votes": 130230,
+        "total_votes": 209206,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -3236,
-        "margin_pct": 2.484834523535284,
-        "winner": "D"
+        "margin": 2568,
+        "margin_pct": 1.2274982553081653,
+        "winner": "R"
       }
     }
   }

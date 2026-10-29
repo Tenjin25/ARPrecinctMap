@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "auditor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.868061,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 115886,
-        "other_votes": 30898,
-        "total_votes": 146784,
+        "rep_votes": 155962,
+        "other_votes": 49839,
+        "total_votes": 205801,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 115886,
-        "margin_pct": 78.95002180074123,
+        "margin": 155962,
+        "margin_pct": 75.78291650672251,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 150084,
-        "other_votes": 68466,
-        "total_votes": 218550,
+        "rep_votes": 162669,
+        "other_votes": 75282,
+        "total_votes": 237951,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 150084,
-        "margin_pct": 68.6726149622512,
+        "margin": 162669,
+        "margin_pct": 68.36239393824779,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 137549,
-        "other_votes": 51751,
-        "total_votes": 189300,
+        "rep_votes": 144076,
+        "other_votes": 54563,
+        "total_votes": 198639,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 137549,
-        "margin_pct": 72.66191230850502,
+        "margin": 144076,
+        "margin_pct": 72.5315773840988,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 142424,
-        "other_votes": 48932,
-        "total_votes": 191356,
+        "rep_votes": 161818,
+        "other_votes": 55165,
+        "total_votes": 216983,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 142424,
-        "margin_pct": 74.42881331131504,
+        "margin": 161818,
+        "margin_pct": 74.57634929925386,
         "winner": "R"
       }
     }

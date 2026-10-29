@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.755053,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 31854,
-        "rep_votes": 106740,
-        "other_votes": 5013,
-        "total_votes": 143607,
+        "dem_votes": 53414,
+        "rep_votes": 150104,
+        "other_votes": 7097,
+        "total_votes": 210615,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 74886,
-        "margin_pct": 52.1464831101548,
+        "margin": 96690,
+        "margin_pct": 45.90841108183178,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 82764,
-        "rep_votes": 111793,
-        "other_votes": 8200,
-        "total_votes": 202757,
+        "dem_votes": 94708,
+        "rep_votes": 140269,
+        "other_votes": 9995,
+        "total_votes": 244972,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 29029,
-        "margin_pct": 14.317138249234304,
+        "margin": 45561,
+        "margin_pct": 18.598452067991445,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 63337,
-        "rep_votes": 94238,
-        "other_votes": 6410,
-        "total_votes": 163985,
+        "dem_votes": 78896,
+        "rep_votes": 136209,
+        "other_votes": 8958,
+        "total_votes": 224063,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 30901,
-        "margin_pct": 18.84379668872153,
+        "margin": 57313,
+        "margin_pct": 25.57896662992105,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 47613,
-        "rep_votes": 116633,
-        "other_votes": 5292,
-        "total_votes": 169538,
+        "dem_votes": 61977,
+        "rep_votes": 151657,
+        "other_votes": 7165,
+        "total_votes": 220799,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 69020,
-        "margin_pct": 40.71063714329531,
+        "margin": 89680,
+        "margin_pct": 40.61612597883143,
         "winner": "R"
       }
     }

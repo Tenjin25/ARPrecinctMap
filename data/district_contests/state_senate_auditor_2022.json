@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "auditor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.754031,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5372,
-        "rep_votes": 14779,
-        "other_votes": 487,
-        "total_votes": 20638,
+        "dem_votes": 7272,
+        "rep_votes": 16218,
+        "other_votes": 581,
+        "total_votes": 24071,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9407,
-        "margin_pct": 45.58096714797946,
+        "margin": 8946,
+        "margin_pct": 37.165053383739775,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 6487,
-        "rep_votes": 15424,
-        "other_votes": 631,
-        "total_votes": 22542,
+        "dem_votes": 7389,
+        "rep_votes": 18098,
+        "other_votes": 734,
+        "total_votes": 26221,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8937,
-        "margin_pct": 39.64599414426404,
+        "margin": 10709,
+        "margin_pct": 40.84131040006102,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 6336,
-        "rep_votes": 15666,
-        "other_votes": 601,
-        "total_votes": 22603,
+        "dem_votes": 6671,
+        "rep_votes": 15963,
+        "other_votes": 604,
+        "total_votes": 23238,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9330,
-        "margin_pct": 41.27770649913728,
+        "margin": 9292,
+        "margin_pct": 39.986229451760046,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 4175,
-        "rep_votes": 14845,
-        "other_votes": 496,
-        "total_votes": 19516,
+        "dem_votes": 4777,
+        "rep_votes": 17372,
+        "other_votes": 590,
+        "total_votes": 22739,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 10670,
-        "margin_pct": 54.6730887476942,
+        "margin": 12595,
+        "margin_pct": 55.38941905976517,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 2953,
-        "rep_votes": 17735,
-        "other_votes": 711,
-        "total_votes": 21399,
+        "dem_votes": 4369,
+        "rep_votes": 21845,
+        "other_votes": 986,
+        "total_votes": 27200,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 14782,
-        "margin_pct": 69.07799429879901,
+        "margin": 17476,
+        "margin_pct": 64.25,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 6204,
-        "rep_votes": 17865,
-        "other_votes": 949,
-        "total_votes": 25018,
+        "dem_votes": 7482,
+        "rep_votes": 21021,
+        "other_votes": 1204,
+        "total_votes": 29707,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 11661,
-        "margin_pct": 46.61044048285235,
+        "margin": 13539,
+        "margin_pct": 45.575116975796945,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 4118,
-        "rep_votes": 18697,
-        "other_votes": 1053,
-        "total_votes": 23868,
+        "dem_votes": 5927,
+        "rep_votes": 19898,
+        "other_votes": 1195,
+        "total_votes": 27020,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 14579,
-        "margin_pct": 61.081783140606674,
+        "margin": 13971,
+        "margin_pct": 51.706143597335306,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 9179,
-        "rep_votes": 8025,
-        "other_votes": 603,
-        "total_votes": 17807,
+        "dem_votes": 10080,
+        "rep_votes": 11087,
+        "other_votes": 745,
+        "total_votes": 21912,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": -1154,
-        "margin_pct": 6.480597517830066,
-        "winner": "D"
+        "margin": 1007,
+        "margin_pct": 4.595655348667397,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 9345,
+        "rep_votes": 9515,
+        "other_votes": 449,
+        "total_votes": 19309,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 170,
+        "margin_pct": 0.8804184577140193,
+        "winner": "R"
       },
       "10": {
-        "dem_votes": 4177,
-        "rep_votes": 13382,
-        "other_votes": 553,
-        "total_votes": 18112,
+        "dem_votes": 6182,
+        "rep_votes": 16944,
+        "other_votes": 731,
+        "total_votes": 23857,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9205,
-        "margin_pct": 50.8226590106007,
+        "margin": 10762,
+        "margin_pct": 45.110449763172234,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 6541,
-        "rep_votes": 20686,
-        "other_votes": 1417,
-        "total_votes": 28644,
+        "dem_votes": 7366,
+        "rep_votes": 18322,
+        "other_votes": 1329,
+        "total_votes": 27017,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 14145,
-        "margin_pct": 49.38206954335986,
+        "margin": 10956,
+        "margin_pct": 40.55224488285154,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 10823,
-        "rep_votes": 6370,
-        "other_votes": 996,
-        "total_votes": 18189,
+        "dem_votes": 13366,
+        "rep_votes": 12083,
+        "other_votes": 1535,
+        "total_votes": 26984,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": -4453,
-        "margin_pct": 24.481829677277474,
+        "margin": -1283,
+        "margin_pct": 4.754669433738512,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 11836,
-        "rep_votes": 15913,
-        "other_votes": 1563,
-        "total_votes": 29312,
+        "dem_votes": 13694,
+        "rep_votes": 12379,
+        "other_votes": 1572,
+        "total_votes": 27645,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4077,
-        "margin_pct": 13.90897925764192,
-        "winner": "R"
+        "margin": -1315,
+        "margin_pct": 4.756737203834328,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 18181,
-        "rep_votes": 13220,
-        "other_votes": 2029,
-        "total_votes": 33430,
+        "dem_votes": 13642,
+        "rep_votes": 12332,
+        "other_votes": 1566,
+        "total_votes": 27540,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": -4961,
-        "margin_pct": 14.839964104098117,
+        "margin": -1310,
+        "margin_pct": 4.756717501815541,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 12679,
-        "rep_votes": 6551,
-        "other_votes": 1271,
-        "total_votes": 20501,
+        "dem_votes": 11917,
+        "rep_votes": 10772,
+        "other_votes": 1368,
+        "total_votes": 24057,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": -6128,
-        "margin_pct": 29.89122481830155,
+        "margin": -1145,
+        "margin_pct": 4.7595294508874755,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 7600,
-        "rep_votes": 20098,
-        "other_votes": 1651,
-        "total_votes": 29349,
+        "dem_votes": 6936,
+        "rep_votes": 21141,
+        "other_votes": 1557,
+        "total_votes": 29634,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 12498,
-        "margin_pct": 42.58407441480119,
+        "margin": 14205,
+        "margin_pct": 47.93480461631909,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 1913,
-        "rep_votes": 3467,
-        "other_votes": 327,
-        "total_votes": 5707,
+        "dem_votes": 9011,
+        "rep_votes": 19083,
+        "other_votes": 1372,
+        "total_votes": 29466,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 1554,
-        "margin_pct": 27.229717890310145,
+        "margin": 10072,
+        "margin_pct": 34.181768818299055,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 2769,
-        "rep_votes": 17408,
-        "other_votes": 699,
-        "total_votes": 20876,
+        "dem_votes": 4156,
+        "rep_votes": 22784,
+        "other_votes": 987,
+        "total_votes": 27927,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 14639,
-        "margin_pct": 70.123586894041,
+        "margin": 18628,
+        "margin_pct": 66.70247430801733,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 1217,
-        "rep_votes": 5293,
-        "other_votes": 256,
-        "total_votes": 6766,
+        "dem_votes": 5364,
+        "rep_votes": 13605,
+        "other_votes": 596,
+        "total_votes": 19565,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4076,
-        "margin_pct": 60.24238841265149,
+        "margin": 8241,
+        "margin_pct": 42.12113467927421,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 6009,
-        "rep_votes": 13668,
-        "other_votes": 887,
-        "total_votes": 20564,
+        "dem_votes": 5698,
+        "rep_votes": 14951,
+        "other_votes": 901,
+        "total_votes": 21550,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7659,
-        "margin_pct": 37.244699474810346,
+        "margin": 9253,
+        "margin_pct": 42.93735498839907,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 1906,
-        "rep_votes": 9436,
-        "other_votes": 534,
-        "total_votes": 11876,
+        "dem_votes": 3655,
+        "rep_votes": 17993,
+        "other_votes": 1056,
+        "total_votes": 22704,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 7530,
-        "margin_pct": 63.40518693162681,
+        "margin": 14338,
+        "margin_pct": 63.15186751233263,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 4082,
-        "rep_votes": 21831,
-        "other_votes": 896,
-        "total_votes": 26809,
+        "dem_votes": 4086,
+        "rep_votes": 21766,
+        "other_votes": 903,
+        "total_votes": 26755,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 17749,
-        "margin_pct": 66.20537879070461,
+        "margin": 17680,
+        "margin_pct": 66.08110633526444,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 2199,
-        "rep_votes": 11682,
-        "other_votes": 542,
-        "total_votes": 14423,
+        "dem_votes": 5217,
+        "rep_votes": 23931,
+        "other_votes": 1107,
+        "total_votes": 30255,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9483,
-        "margin_pct": 65.74915066213687,
+        "margin": 18714,
+        "margin_pct": 61.85423896876549,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 2589,
-        "rep_votes": 13069,
-        "other_votes": 633,
-        "total_votes": 16291,
+        "dem_votes": 6444,
+        "rep_votes": 22754,
+        "other_votes": 1267,
+        "total_votes": 30465,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 10480,
-        "margin_pct": 64.32999815849242,
+        "margin": 16310,
+        "margin_pct": 53.53684556047924,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 3586,
-        "rep_votes": 13777,
-        "other_votes": 670,
-        "total_votes": 18033,
+        "dem_votes": 5376,
+        "rep_votes": 18716,
+        "other_votes": 983,
+        "total_votes": 25075,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 10191,
-        "margin_pct": 56.513059391116286,
+        "margin": 13340,
+        "margin_pct": 53.20039880358923,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 959,
-        "rep_votes": 4652,
-        "other_votes": 217,
-        "total_votes": 5828,
+        "dem_votes": 5014,
+        "rep_votes": 18379,
+        "other_votes": 1023,
+        "total_votes": 24416,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3693,
-        "margin_pct": 63.36650652024708,
+        "margin": 13365,
+        "margin_pct": 54.738695937090434,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5455,
+        "rep_votes": 15293,
+        "other_votes": 916,
+        "total_votes": 21664,
+        "dem_candidate": "Diamond Arnold-Johnson",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 9838,
+        "margin_pct": 45.41174298375184,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 3897,
-        "rep_votes": 16078,
-        "other_votes": 828,
-        "total_votes": 20803,
+        "dem_votes": 5947,
+        "rep_votes": 21088,
+        "other_votes": 1173,
+        "total_votes": 28208,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 12181,
-        "margin_pct": 58.55405470364852,
+        "margin": 15141,
+        "margin_pct": 53.676262053318204,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 2834,
-        "rep_votes": 5941,
-        "other_votes": 478,
-        "total_votes": 9253,
+        "dem_votes": 5964,
+        "rep_votes": 17951,
+        "other_votes": 1185,
+        "total_votes": 25100,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 3107,
-        "margin_pct": 33.578298930076734,
+        "margin": 11987,
+        "margin_pct": 47.756972111553786,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 14490,
-        "rep_votes": 9914,
-        "other_votes": 1373,
-        "total_votes": 25777,
+        "dem_votes": 11254,
+        "rep_votes": 14943,
+        "other_votes": 1414,
+        "total_votes": 27611,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": -4576,
-        "margin_pct": 17.75225976645847,
-        "winner": "D"
+        "margin": 3689,
+        "margin_pct": 13.360617145340626,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 5441,
-        "rep_votes": 9812,
-        "other_votes": 787,
-        "total_votes": 16040,
+        "dem_votes": 7533,
+        "rep_votes": 10003,
+        "other_votes": 946,
+        "total_votes": 18482,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 4371,
-        "margin_pct": 27.25062344139651,
+        "margin": 2470,
+        "margin_pct": 13.364354507087977,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 6383,
-        "rep_votes": 15128,
-        "other_votes": 1148,
-        "total_votes": 22659,
+        "dem_votes": 7166,
+        "rep_votes": 16085,
+        "other_votes": 1234,
+        "total_votes": 24485,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 8745,
-        "margin_pct": 38.593936184297625,
+        "margin": 8919,
+        "margin_pct": 36.426383500102105,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 8010,
-        "rep_votes": 17487,
-        "other_votes": 1284,
-        "total_votes": 26781,
+        "dem_votes": 7351,
+        "rep_votes": 17129,
+        "other_votes": 1298,
+        "total_votes": 25778,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9477,
-        "margin_pct": 35.387028116948585,
+        "margin": 9778,
+        "margin_pct": 37.93156955543487,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 9780,
-        "rep_votes": 20344,
-        "other_votes": 1639,
-        "total_votes": 31763,
+        "dem_votes": 8218,
+        "rep_votes": 19150,
+        "other_votes": 1451,
+        "total_votes": 28819,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 10564,
-        "margin_pct": 33.2588231590215,
+        "margin": 10932,
+        "margin_pct": 37.93330788715778,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 5619,
-        "rep_votes": 15056,
-        "other_votes": 1102,
-        "total_votes": 21777,
+        "dem_votes": 9155,
+        "rep_votes": 15520,
+        "other_votes": 1321,
+        "total_votes": 25996,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 9437,
-        "margin_pct": 43.33471093355375,
+        "margin": 6365,
+        "margin_pct": 24.484536082474225,
         "winner": "R"
       }
     }

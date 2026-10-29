@@ -3,1092 +3,1546 @@
   "scope": "state_house",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.86756,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 1781,
-        "rep_votes": 5604,
-        "other_votes": 221,
-        "total_votes": 7606,
+        "dem_votes": 1974,
+        "rep_votes": 6046,
+        "other_votes": 237,
+        "total_votes": 8257,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3823,
-        "margin_pct": 50.26295030239285,
+        "margin": 4072,
+        "margin_pct": 49.3157321060918,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 2529,
-        "rep_votes": 7048,
-        "other_votes": 333,
-        "total_votes": 9910,
+        "dem_votes": 2386,
+        "rep_votes": 7302,
+        "other_votes": 318,
+        "total_votes": 10006,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4519,
-        "margin_pct": 45.600403632694245,
+        "margin": 4916,
+        "margin_pct": 49.130521686987805,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 2376,
-        "rep_votes": 7739,
-        "other_votes": 370,
-        "total_votes": 10485,
+        "dem_votes": 2470,
+        "rep_votes": 7832,
+        "other_votes": 401,
+        "total_votes": 10703,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5363,
-        "margin_pct": 51.149260848831666,
+        "margin": 5362,
+        "margin_pct": 50.098103335513414,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 1568,
-        "rep_votes": 5107,
-        "other_votes": 244,
-        "total_votes": 6919,
+        "dem_votes": 2119,
+        "rep_votes": 7066,
+        "other_votes": 311,
+        "total_votes": 9496,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3539,
-        "margin_pct": 51.14900997253938,
+        "margin": 4947,
+        "margin_pct": 52.09561920808762,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 2070,
-        "rep_votes": 7378,
-        "other_votes": 251,
-        "total_votes": 9699,
+        "dem_votes": 1944,
+        "rep_votes": 7382,
+        "other_votes": 239,
+        "total_votes": 9565,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5308,
-        "margin_pct": 54.72729147334777,
+        "margin": 5438,
+        "margin_pct": 56.853110297961315,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 1765,
-        "rep_votes": 3029,
-        "other_votes": 129,
-        "total_votes": 4923,
+        "dem_votes": 3093,
+        "rep_votes": 6219,
+        "other_votes": 274,
+        "total_votes": 9586,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1264,
-        "margin_pct": 25.67540117814341,
+        "margin": 3126,
+        "margin_pct": 32.61005633215105,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 2985,
-        "rep_votes": 6384,
-        "other_votes": 308,
-        "total_votes": 9677,
+        "dem_votes": 2390,
+        "rep_votes": 4992,
+        "other_votes": 273,
+        "total_votes": 7655,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3399,
-        "margin_pct": 35.12452206262272,
+        "margin": 2602,
+        "margin_pct": 33.990855649902024,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 2733,
-        "rep_votes": 5004,
-        "other_votes": 316,
-        "total_votes": 8053,
+        "dem_votes": 2677,
+        "rep_votes": 5591,
+        "other_votes": 306,
+        "total_votes": 8574,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2271,
-        "margin_pct": 28.20067055755619,
+        "margin": 2914,
+        "margin_pct": 33.98647072544903,
         "winner": "R"
       },
       "9": {
-        "dem_votes": 1421,
-        "rep_votes": 1539,
-        "other_votes": 103,
-        "total_votes": 3063,
+        "dem_votes": 2234,
+        "rep_votes": 2470,
+        "other_votes": 143,
+        "total_votes": 4847,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 118,
-        "margin_pct": 3.852432255958211,
+        "margin": 236,
+        "margin_pct": 4.868991128533113,
         "winner": "R"
       },
       "10": {
-        "dem_votes": 2705,
-        "rep_votes": 5349,
-        "other_votes": 303,
-        "total_votes": 8357,
+        "dem_votes": 2621,
+        "rep_votes": 5473,
+        "other_votes": 300,
+        "total_votes": 8394,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2644,
-        "margin_pct": 31.638147660643774,
+        "margin": 2852,
+        "margin_pct": 33.97664998808673,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 2559,
-        "rep_votes": 4095,
-        "other_votes": 239,
-        "total_votes": 6893,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1536,
-        "margin_pct": 22.283475990134917,
-        "winner": "R"
-      },
-      "12": {
-        "dem_votes": 3198,
-        "rep_votes": 8128,
-        "other_votes": 433,
-        "total_votes": 11759,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 4930,
-        "margin_pct": 41.92533378688664,
-        "winner": "R"
-      },
-      "13": {
-        "dem_votes": 1766,
-        "rep_votes": 3183,
-        "other_votes": 167,
-        "total_votes": 5116,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1417,
-        "margin_pct": 27.69741985926505,
-        "winner": "R"
-      },
-      "14": {
-        "dem_votes": 1726,
-        "rep_votes": 3359,
+        "dem_votes": 2322,
+        "rep_votes": 3493,
         "other_votes": 197,
-        "total_votes": 5282,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1633,
-        "margin_pct": 30.916319575918212,
-        "winner": "R"
-      },
-      "15": {
-        "dem_votes": 3096,
-        "rep_votes": 5100,
-        "other_votes": 346,
-        "total_votes": 8542,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2004,
-        "margin_pct": 23.4605478810583,
-        "winner": "R"
-      },
-      "16": {
-        "dem_votes": 2514,
-        "rep_votes": 4744,
-        "other_votes": 253,
-        "total_votes": 7511,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2230,
-        "margin_pct": 29.689788310477965,
-        "winner": "R"
-      },
-      "17": {
-        "dem_votes": 2028,
-        "rep_votes": 6492,
-        "other_votes": 292,
-        "total_votes": 8812,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 4464,
-        "margin_pct": 50.65819337267363,
-        "winner": "R"
-      },
-      "18": {
-        "dem_votes": 3082,
-        "rep_votes": 5288,
-        "other_votes": 245,
-        "total_votes": 8615,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2206,
-        "margin_pct": 25.606500290191526,
-        "winner": "R"
-      },
-      "19": {
-        "dem_votes": 3480,
-        "rep_votes": 4788,
-        "other_votes": 235,
-        "total_votes": 8503,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1308,
-        "margin_pct": 15.382806068446431,
-        "winner": "R"
-      },
-      "20": {
-        "dem_votes": 6911,
-        "rep_votes": 4882,
-        "other_votes": 305,
-        "total_votes": 12098,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -2029,
-        "margin_pct": 16.771367168126964,
-        "winner": "D"
-      },
-      "21": {
-        "dem_votes": 4249,
-        "rep_votes": 1290,
-        "other_votes": 165,
-        "total_votes": 5704,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -2959,
-        "margin_pct": 51.87587657784011,
-        "winner": "D"
-      },
-      "22": {
-        "dem_votes": 3670,
-        "rep_votes": 3385,
-        "other_votes": 234,
-        "total_votes": 7289,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -285,
-        "margin_pct": 3.910001371930306,
-        "winner": "D"
-      },
-      "23": {
-        "dem_votes": 2523,
-        "rep_votes": 4705,
-        "other_votes": 227,
-        "total_votes": 7455,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2182,
-        "margin_pct": 29.26894701542589,
-        "winner": "R"
-      },
-      "24": {
-        "dem_votes": 1817,
-        "rep_votes": 6818,
-        "other_votes": 254,
-        "total_votes": 8889,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 5001,
-        "margin_pct": 56.260546743165705,
-        "winner": "R"
-      },
-      "25": {
-        "dem_votes": 2885,
-        "rep_votes": 6202,
-        "other_votes": 298,
-        "total_votes": 9385,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3317,
-        "margin_pct": 35.34363345764518,
-        "winner": "R"
-      },
-      "26": {
-        "dem_votes": 1965,
-        "rep_votes": 5698,
-        "other_votes": 234,
-        "total_votes": 7897,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3733,
-        "margin_pct": 47.271115613524124,
-        "winner": "R"
-      },
-      "27": {
-        "dem_votes": 2312,
-        "rep_votes": 8809,
-        "other_votes": 317,
-        "total_votes": 11438,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 6497,
-        "margin_pct": 56.80188844203532,
-        "winner": "R"
-      },
-      "28": {
-        "dem_votes": 1695,
-        "rep_votes": 6992,
-        "other_votes": 218,
-        "total_votes": 8905,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 5297,
-        "margin_pct": 59.48343627175744,
-        "winner": "R"
-      },
-      "29": {
-        "dem_votes": 2215,
-        "rep_votes": 5774,
-        "other_votes": 211,
-        "total_votes": 8200,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3559,
-        "margin_pct": 43.40243902439024,
-        "winner": "R"
-      },
-      "30": {
-        "dem_votes": 1997,
-        "rep_votes": 5915,
-        "other_votes": 241,
-        "total_votes": 8153,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3918,
-        "margin_pct": 48.05593033239298,
-        "winner": "R"
-      },
-      "31": {
-        "dem_votes": 1677,
-        "rep_votes": 5060,
-        "other_votes": 181,
-        "total_votes": 6918,
-        "dem_candidate": "Mike Lee",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3383,
-        "margin_pct": 48.90141659439144,
-        "winner": "R"
-      },
-      "32": {
-        "dem_votes": 2883,
-        "rep_votes": 4054,
-        "other_votes": 192,
-        "total_votes": 7129,
+        "total_votes": 6012,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
         "margin": 1171,
-        "margin_pct": 16.425866180389956,
+        "margin_pct": 19.477711244178312,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 3006,
+        "rep_votes": 6277,
+        "other_votes": 344,
+        "total_votes": 9627,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3271,
+        "margin_pct": 33.977355354731486,
+        "winner": "R"
+      },
+      "13": {
+        "dem_votes": 2277,
+        "rep_votes": 4756,
+        "other_votes": 260,
+        "total_votes": 7293,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2479,
+        "margin_pct": 33.99149869738105,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 2774,
+        "rep_votes": 5792,
+        "other_votes": 317,
+        "total_votes": 8883,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3018,
+        "margin_pct": 33.97500844309355,
+        "winner": "R"
+      },
+      "15": {
+        "dem_votes": 2287,
+        "rep_votes": 4776,
+        "other_votes": 261,
+        "total_votes": 7324,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2489,
+        "margin_pct": 33.98416166029492,
+        "winner": "R"
+      },
+      "16": {
+        "dem_votes": 2492,
+        "rep_votes": 5204,
+        "other_votes": 285,
+        "total_votes": 7981,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2712,
+        "margin_pct": 33.98070417240947,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 2533,
+        "rep_votes": 5289,
+        "other_votes": 290,
+        "total_votes": 8112,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2756,
+        "margin_pct": 33.97435897435898,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 3769,
+        "rep_votes": 4277,
+        "other_votes": 247,
+        "total_votes": 8293,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 508,
+        "margin_pct": 6.125648136982997,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 3475,
+        "rep_votes": 3844,
+        "other_votes": 223,
+        "total_votes": 7542,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 369,
+        "margin_pct": 4.892601431980907,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 4101,
+        "rep_votes": 4536,
+        "other_votes": 263,
+        "total_votes": 8900,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 435,
+        "margin_pct": 4.8876404494382015,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 4407,
+        "rep_votes": 4874,
+        "other_votes": 282,
+        "total_votes": 9563,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 467,
+        "margin_pct": 4.883404789292063,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 4160,
+        "rep_votes": 4601,
+        "other_votes": 266,
+        "total_votes": 9027,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 441,
+        "margin_pct": 4.885343968095713,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 3881,
+        "rep_votes": 4292,
+        "other_votes": 248,
+        "total_votes": 8421,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 411,
+        "margin_pct": 4.880655504096901,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 1966,
+        "rep_votes": 6013,
+        "other_votes": 252,
+        "total_votes": 8231,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4047,
+        "margin_pct": 49.167780342607216,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 3123,
+        "rep_votes": 4821,
+        "other_votes": 244,
+        "total_votes": 8188,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1698,
+        "margin_pct": 20.737664875427456,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 2536,
+        "rep_votes": 6834,
+        "other_votes": 283,
+        "total_votes": 9653,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4298,
+        "margin_pct": 44.525018129079044,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 2342,
+        "rep_votes": 8881,
+        "other_votes": 312,
+        "total_votes": 11535,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 6539,
+        "margin_pct": 56.68833983528392,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 1896,
+        "rep_votes": 6640,
+        "other_votes": 232,
+        "total_votes": 8768,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4744,
+        "margin_pct": 54.1058394160584,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 2294,
+        "rep_votes": 5949,
+        "other_votes": 223,
+        "total_votes": 8466,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3655,
+        "margin_pct": 43.17269076305221,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 2182,
+        "rep_votes": 5308,
+        "other_votes": 207,
+        "total_votes": 7697,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3126,
+        "margin_pct": 40.613225932181365,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 1692,
+        "rep_votes": 5535,
+        "other_votes": 191,
+        "total_votes": 7418,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3843,
+        "margin_pct": 51.80641682394176,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 2432,
+        "rep_votes": 4897,
+        "other_votes": 197,
+        "total_votes": 7526,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2465,
+        "margin_pct": 32.75312250863673,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 1186,
-        "rep_votes": 3365,
-        "other_votes": 115,
-        "total_votes": 4666,
+        "dem_votes": 2517,
+        "rep_votes": 4465,
+        "other_votes": 185,
+        "total_votes": 7167,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2179,
-        "margin_pct": 46.699528504072006,
+        "margin": 1948,
+        "margin_pct": 27.180131156690386,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 3101,
+        "rep_votes": 4480,
+        "other_votes": 196,
+        "total_votes": 7777,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1379,
+        "margin_pct": 17.73177317731773,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 315,
-        "rep_votes": 103,
-        "other_votes": 11,
-        "total_votes": 429,
+        "dem_votes": 3902,
+        "rep_votes": 3532,
+        "other_votes": 137,
+        "total_votes": 7571,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -212,
-        "margin_pct": 49.417249417249415,
+        "margin": -370,
+        "margin_pct": 4.887069079381852,
         "winner": "D"
       },
       "36": {
-        "dem_votes": 1961,
-        "rep_votes": 3753,
-        "other_votes": 146,
-        "total_votes": 5860,
+        "dem_votes": 2201,
+        "rep_votes": 5030,
+        "other_votes": 185,
+        "total_votes": 7416,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1792,
-        "margin_pct": 30.580204778156993,
+        "margin": 2829,
+        "margin_pct": 38.14724919093851,
         "winner": "R"
       },
       "37": {
-        "dem_votes": 1556,
-        "rep_votes": 4049,
-        "other_votes": 137,
-        "total_votes": 5742,
+        "dem_votes": 3351,
+        "rep_votes": 5699,
+        "other_votes": 206,
+        "total_votes": 9256,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2493,
-        "margin_pct": 43.41692789968652,
+        "margin": 2348,
+        "margin_pct": 25.36732929991357,
         "winner": "R"
       },
       "38": {
-        "dem_votes": 2008,
-        "rep_votes": 4834,
-        "other_votes": 160,
-        "total_votes": 7002,
+        "dem_votes": 2330,
+        "rep_votes": 5217,
+        "other_votes": 192,
+        "total_votes": 7739,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2826,
-        "margin_pct": 40.3598971722365,
+        "margin": 2887,
+        "margin_pct": 37.30456131283111,
         "winner": "R"
       },
       "39": {
-        "dem_votes": 1123,
-        "rep_votes": 4597,
-        "other_votes": 130,
-        "total_votes": 5850,
+        "dem_votes": 1905,
+        "rep_votes": 6024,
+        "other_votes": 206,
+        "total_votes": 8135,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3474,
-        "margin_pct": 59.38461538461538,
+        "margin": 4119,
+        "margin_pct": 50.633066994468344,
         "winner": "R"
       },
       "40": {
-        "dem_votes": 1664,
-        "rep_votes": 6374,
+        "dem_votes": 1669,
+        "rep_votes": 6427,
         "other_votes": 214,
-        "total_votes": 8252,
+        "total_votes": 8310,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4710,
-        "margin_pct": 57.07707222491517,
+        "margin": 4758,
+        "margin_pct": 57.25631768953069,
         "winner": "R"
       },
       "41": {
-        "dem_votes": 1990,
-        "rep_votes": 8139,
-        "other_votes": 261,
-        "total_votes": 10390,
+        "dem_votes": 2249,
+        "rep_votes": 9330,
+        "other_votes": 297,
+        "total_votes": 11876,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6149,
-        "margin_pct": 59.18190567853705,
+        "margin": 7081,
+        "margin_pct": 59.62445267766925,
         "winner": "R"
       },
       "42": {
-        "dem_votes": 1545,
-        "rep_votes": 5723,
-        "other_votes": 216,
-        "total_votes": 7484,
+        "dem_votes": 2842,
+        "rep_votes": 6216,
+        "other_votes": 309,
+        "total_votes": 9367,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4178,
-        "margin_pct": 55.825761624799576,
+        "margin": 3374,
+        "margin_pct": 36.02007046012597,
         "winner": "R"
       },
       "43": {
-        "dem_votes": 3023,
-        "rep_votes": 6413,
-        "other_votes": 282,
-        "total_votes": 9718,
+        "dem_votes": 3115,
+        "rep_votes": 6706,
+        "other_votes": 289,
+        "total_votes": 10110,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3390,
-        "margin_pct": 34.883720930232556,
+        "margin": 3591,
+        "margin_pct": 35.519287833827896,
         "winner": "R"
       },
       "44": {
-        "dem_votes": 1597,
-        "rep_votes": 6765,
-        "other_votes": 236,
-        "total_votes": 8598,
+        "dem_votes": 1924,
+        "rep_votes": 5937,
+        "other_votes": 241,
+        "total_votes": 8102,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5168,
-        "margin_pct": 60.10700162828565,
+        "margin": 4013,
+        "margin_pct": 49.53098000493705,
         "winner": "R"
       },
       "45": {
-        "dem_votes": 2334,
-        "rep_votes": 6541,
-        "other_votes": 286,
-        "total_votes": 9161,
+        "dem_votes": 2415,
+        "rep_votes": 6421,
+        "other_votes": 269,
+        "total_votes": 9105,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4207,
-        "margin_pct": 45.92293417749154,
+        "margin": 4006,
+        "margin_pct": 43.99780340472268,
         "winner": "R"
       },
       "46": {
-        "dem_votes": 1501,
-        "rep_votes": 5298,
-        "other_votes": 201,
-        "total_votes": 7000,
+        "dem_votes": 1836,
+        "rep_votes": 6059,
+        "other_votes": 244,
+        "total_votes": 8139,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3797,
-        "margin_pct": 54.24285714285715,
+        "margin": 4223,
+        "margin_pct": 51.88598107875661,
         "winner": "R"
       },
       "47": {
-        "dem_votes": 1702,
-        "rep_votes": 7773,
-        "other_votes": 263,
-        "total_votes": 9738,
+        "dem_votes": 2348,
+        "rep_votes": 5426,
+        "other_votes": 268,
+        "total_votes": 8042,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6071,
-        "margin_pct": 62.34339700143766,
+        "margin": 3078,
+        "margin_pct": 38.274061178811245,
         "winner": "R"
       },
       "48": {
-        "dem_votes": 1807,
-        "rep_votes": 5195,
-        "other_votes": 235,
-        "total_votes": 7237,
+        "dem_votes": 1750,
+        "rep_votes": 5949,
+        "other_votes": 247,
+        "total_votes": 7946,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3388,
-        "margin_pct": 46.81497858228548,
+        "margin": 4199,
+        "margin_pct": 52.84419833878681,
         "winner": "R"
       },
       "49": {
-        "dem_votes": 1374,
-        "rep_votes": 1259,
-        "other_votes": 116,
-        "total_votes": 2749,
+        "dem_votes": 1765,
+        "rep_votes": 4081,
+        "other_votes": 202,
+        "total_votes": 6048,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -115,
-        "margin_pct": 4.183339396144052,
-        "winner": "D"
+        "margin": 2316,
+        "margin_pct": 38.2936507936508,
+        "winner": "R"
       },
       "50": {
-        "dem_votes": 3202,
-        "rep_votes": 5630,
-        "other_votes": 347,
-        "total_votes": 9179,
+        "dem_votes": 2399,
+        "rep_votes": 5545,
+        "other_votes": 274,
+        "total_votes": 8218,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2428,
-        "margin_pct": 26.45168318988997,
+        "margin": 3146,
+        "margin_pct": 38.28182039425651,
         "winner": "R"
       },
       "51": {
-        "dem_votes": 1446,
-        "rep_votes": 3702,
-        "other_votes": 170,
-        "total_votes": 5318,
+        "dem_votes": 2605,
+        "rep_votes": 6022,
+        "other_votes": 298,
+        "total_votes": 8925,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2256,
-        "margin_pct": 42.42196314403911,
+        "margin": 3417,
+        "margin_pct": 38.285714285714285,
         "winner": "R"
       },
       "52": {
-        "dem_votes": 1673,
-        "rep_votes": 6418,
-        "other_votes": 285,
-        "total_votes": 8376,
+        "dem_votes": 1772,
+        "rep_votes": 6021,
+        "other_votes": 286,
+        "total_votes": 8079,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4745,
-        "margin_pct": 56.649952244508114,
+        "margin": 4249,
+        "margin_pct": 52.59314271568264,
         "winner": "R"
       },
       "53": {
-        "dem_votes": 1622,
-        "rep_votes": 3818,
-        "other_votes": 157,
-        "total_votes": 5597,
+        "dem_votes": 1958,
+        "rep_votes": 6029,
+        "other_votes": 243,
+        "total_votes": 8230,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2196,
-        "margin_pct": 39.235304627479,
+        "margin": 4071,
+        "margin_pct": 49.465370595382744,
         "winner": "R"
       },
       "54": {
-        "dem_votes": 1579,
-        "rep_votes": 4482,
-        "other_votes": 184,
-        "total_votes": 6245,
+        "dem_votes": 2817,
+        "rep_votes": 6615,
+        "other_votes": 312,
+        "total_votes": 9744,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2903,
-        "margin_pct": 46.485188150520415,
+        "margin": 3798,
+        "margin_pct": 38.97783251231527,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 3421,
+        "rep_votes": 6392,
+        "other_votes": 328,
+        "total_votes": 10141,
+        "dem_candidate": "Mike Lee",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2971,
+        "margin_pct": 29.296913519376787,
         "winner": "R"
       },
       "56": {
-        "dem_votes": 708,
-        "rep_votes": 1321,
-        "other_votes": 71,
-        "total_votes": 2100,
+        "dem_votes": 3184,
+        "rep_votes": 5950,
+        "other_votes": 306,
+        "total_votes": 9440,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 613,
-        "margin_pct": 29.19047619047619,
+        "margin": 2766,
+        "margin_pct": 29.300847457627118,
         "winner": "R"
       },
       "57": {
-        "dem_votes": 1710,
-        "rep_votes": 7464,
-        "other_votes": 303,
-        "total_votes": 9477,
+        "dem_votes": 2453,
+        "rep_votes": 6115,
+        "other_votes": 270,
+        "total_votes": 8838,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5754,
-        "margin_pct": 60.71541627097182,
+        "margin": 3662,
+        "margin_pct": 41.4347137361394,
         "winner": "R"
       },
       "58": {
-        "dem_votes": 2020,
-        "rep_votes": 7089,
-        "other_votes": 257,
-        "total_votes": 9366,
+        "dem_votes": 1801,
+        "rep_votes": 7148,
+        "other_votes": 261,
+        "total_votes": 9210,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5069,
-        "margin_pct": 54.12128977151399,
+        "margin": 5347,
+        "margin_pct": 58.05646036916395,
         "winner": "R"
       },
       "59": {
-        "dem_votes": 1188,
-        "rep_votes": 4740,
-        "other_votes": 194,
-        "total_votes": 6122,
+        "dem_votes": 1752,
+        "rep_votes": 6189,
+        "other_votes": 235,
+        "total_votes": 8176,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3552,
-        "margin_pct": 58.0202548186867,
+        "margin": 4437,
+        "margin_pct": 54.26859099804305,
         "winner": "R"
       },
       "60": {
-        "dem_votes": 2176,
-        "rep_votes": 5972,
-        "other_votes": 180,
-        "total_votes": 8328,
+        "dem_votes": 2198,
+        "rep_votes": 7022,
+        "other_votes": 246,
+        "total_votes": 9466,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3796,
-        "margin_pct": 45.58117195004803,
+        "margin": 4824,
+        "margin_pct": 50.96133530530319,
         "winner": "R"
       },
       "61": {
-        "dem_votes": 2645,
-        "rep_votes": 4791,
-        "other_votes": 173,
-        "total_votes": 7609,
+        "dem_votes": 3421,
+        "rep_votes": 5910,
+        "other_votes": 212,
+        "total_votes": 9543,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2146,
-        "margin_pct": 28.203443290839797,
+        "margin": 2489,
+        "margin_pct": 26.081944881064658,
         "winner": "R"
       },
       "62": {
-        "dem_votes": 449,
-        "rep_votes": 759,
-        "other_votes": 19,
-        "total_votes": 1227,
+        "dem_votes": 5066,
+        "rep_votes": 3814,
+        "other_votes": 154,
+        "total_votes": 9034,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 310,
-        "margin_pct": 25.264873675631623,
-        "winner": "R"
+        "margin": -1252,
+        "margin_pct": 13.858755811379234,
+        "winner": "D"
       },
       "63": {
-        "dem_votes": 200,
-        "rep_votes": 316,
-        "other_votes": 7,
-        "total_votes": 523,
+        "dem_votes": 4104,
+        "rep_votes": 3469,
+        "other_votes": 138,
+        "total_votes": 7711,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 116,
-        "margin_pct": 22.179732313575524,
-        "winner": "R"
+        "margin": -635,
+        "margin_pct": 8.23498897678641,
+        "winner": "D"
       },
       "64": {
-        "dem_votes": 5384,
-        "rep_votes": 1928,
-        "other_votes": 150,
-        "total_votes": 7462,
+        "dem_votes": 4398,
+        "rep_votes": 3965,
+        "other_votes": 175,
+        "total_votes": 8538,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -3456,
-        "margin_pct": 46.31466094880729,
+        "margin": -433,
+        "margin_pct": 5.071445303349731,
         "winner": "D"
       },
       "65": {
-        "dem_votes": 4803,
-        "rep_votes": 1952,
-        "other_votes": 156,
-        "total_votes": 6911,
+        "dem_votes": 5234,
+        "rep_votes": 3686,
+        "other_votes": 193,
+        "total_votes": 9113,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2851,
-        "margin_pct": 41.253074808276665,
+        "margin": -1548,
+        "margin_pct": 16.9867222648963,
         "winner": "D"
       },
       "66": {
-        "dem_votes": 4427,
-        "rep_votes": 2451,
-        "other_votes": 213,
-        "total_votes": 7091,
+        "dem_votes": 5278,
+        "rep_votes": 3678,
+        "other_votes": 257,
+        "total_votes": 9213,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -1976,
-        "margin_pct": 27.866309406289663,
+        "margin": -1600,
+        "margin_pct": 17.366764354716164,
         "winner": "D"
       },
       "67": {
-        "dem_votes": 5040,
-        "rep_votes": 5967,
-        "other_votes": 350,
-        "total_votes": 11357,
+        "dem_votes": 6627,
+        "rep_votes": 4619,
+        "other_votes": 323,
+        "total_votes": 11569,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 927,
-        "margin_pct": 8.162366822224179,
-        "winner": "R"
+        "margin": -2008,
+        "margin_pct": 17.35672919007693,
+        "winner": "D"
       },
       "68": {
-        "dem_votes": 328,
-        "rep_votes": 1501,
-        "other_votes": 43,
-        "total_votes": 1872,
+        "dem_votes": 1998,
+        "rep_votes": 6381,
+        "other_votes": 251,
+        "total_votes": 8630,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1173,
-        "margin_pct": 62.66025641025641,
+        "margin": 4383,
+        "margin_pct": 50.787949015063724,
         "winner": "R"
       },
       "69": {
-        "dem_votes": 2918,
-        "rep_votes": 6022,
-        "other_votes": 306,
-        "total_votes": 9246,
+        "dem_votes": 5113,
+        "rep_votes": 4861,
+        "other_votes": 302,
+        "total_votes": 10276,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3104,
-        "margin_pct": 33.571274064460304,
-        "winner": "R"
+        "margin": -252,
+        "margin_pct": 2.452316076294278,
+        "winner": "D"
       },
       "70": {
-        "dem_votes": 5440,
-        "rep_votes": 6738,
-        "other_votes": 363,
-        "total_votes": 12541,
+        "dem_votes": 6507,
+        "rep_votes": 4534,
+        "other_votes": 317,
+        "total_votes": 11358,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1298,
-        "margin_pct": 10.350051829997609,
-        "winner": "R"
+        "margin": -1973,
+        "margin_pct": 17.371016023947877,
+        "winner": "D"
       },
       "71": {
-        "dem_votes": 4423,
-        "rep_votes": 5566,
-        "other_votes": 298,
-        "total_votes": 10287,
+        "dem_votes": 5815,
+        "rep_votes": 4052,
+        "other_votes": 283,
+        "total_votes": 10150,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1143,
-        "margin_pct": 11.11111111111111,
-        "winner": "R"
+        "margin": -1763,
+        "margin_pct": 17.36945812807882,
+        "winner": "D"
       },
       "72": {
-        "dem_votes": 5163,
-        "rep_votes": 2194,
-        "other_votes": 272,
-        "total_votes": 7629,
+        "dem_votes": 5482,
+        "rep_votes": 3821,
+        "other_votes": 267,
+        "total_votes": 9570,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2969,
-        "margin_pct": 38.91728929086381,
+        "margin": -1661,
+        "margin_pct": 17.35632183908046,
         "winner": "D"
       },
       "73": {
-        "dem_votes": 7690,
-        "rep_votes": 6252,
-        "other_votes": 323,
-        "total_votes": 14265,
+        "dem_votes": 6189,
+        "rep_votes": 4313,
+        "other_votes": 301,
+        "total_votes": 10803,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -1438,
-        "margin_pct": 10.08061689449702,
+        "margin": -1876,
+        "margin_pct": 17.365546607423862,
         "winner": "D"
       },
       "74": {
-        "dem_votes": 9243,
-        "rep_votes": 3886,
-        "other_votes": 404,
-        "total_votes": 13533,
+        "dem_votes": 6168,
+        "rep_votes": 4299,
+        "other_votes": 300,
+        "total_votes": 10767,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5357,
-        "margin_pct": 39.5847188354393,
+        "margin": -1869,
+        "margin_pct": 17.358595709111174,
         "winner": "D"
       },
       "75": {
-        "dem_votes": 5583,
-        "rep_votes": 5723,
-        "other_votes": 314,
-        "total_votes": 11620,
+        "dem_votes": 5515,
+        "rep_votes": 3843,
+        "other_votes": 269,
+        "total_votes": 9627,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 140,
-        "margin_pct": 1.2048192771084338,
-        "winner": "R"
+        "margin": -1672,
+        "margin_pct": 17.36781967383401,
+        "winner": "D"
       },
       "76": {
-        "dem_votes": 6409,
-        "rep_votes": 1124,
-        "other_votes": 179,
-        "total_votes": 7712,
+        "dem_votes": 5394,
+        "rep_votes": 3759,
+        "other_votes": 263,
+        "total_votes": 9416,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5285,
-        "margin_pct": 68.5295643153527,
+        "margin": -1635,
+        "margin_pct": 17.364061172472386,
         "winner": "D"
       },
       "77": {
-        "dem_votes": 7274,
-        "rep_votes": 2292,
-        "other_votes": 262,
-        "total_votes": 9828,
+        "dem_votes": 5776,
+        "rep_votes": 4025,
+        "other_votes": 281,
+        "total_votes": 10082,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4982,
-        "margin_pct": 50.69190069190069,
+        "margin": -1751,
+        "margin_pct": 17.367585796468955,
         "winner": "D"
       },
       "78": {
-        "dem_votes": 3042,
-        "rep_votes": 6651,
-        "other_votes": 264,
-        "total_votes": 9957,
+        "dem_votes": 4631,
+        "rep_votes": 5308,
+        "other_votes": 283,
+        "total_votes": 10222,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3609,
-        "margin_pct": 36.24585718589937,
+        "margin": 677,
+        "margin_pct": 6.62297006456662,
         "winner": "R"
       },
       "79": {
-        "dem_votes": 5528,
-        "rep_votes": 1437,
-        "other_votes": 164,
-        "total_votes": 7129,
+        "dem_votes": 4869,
+        "rep_votes": 3394,
+        "other_votes": 237,
+        "total_votes": 8500,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4091,
-        "margin_pct": 57.38532753541872,
+        "margin": -1475,
+        "margin_pct": 17.352941176470587,
         "winner": "D"
       },
       "80": {
-        "dem_votes": 6488,
-        "rep_votes": 2012,
-        "other_votes": 220,
-        "total_votes": 8720,
+        "dem_votes": 5681,
+        "rep_votes": 3959,
+        "other_votes": 277,
+        "total_votes": 9917,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4476,
-        "margin_pct": 51.3302752293578,
+        "margin": -1722,
+        "margin_pct": 17.36412221437935,
         "winner": "D"
       },
       "81": {
-        "dem_votes": 3167,
-        "rep_votes": 5851,
-        "other_votes": 277,
-        "total_votes": 9295,
+        "dem_votes": 2674,
+        "rep_votes": 7001,
+        "other_votes": 271,
+        "total_votes": 9946,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2684,
-        "margin_pct": 28.875739644970416,
+        "margin": 4327,
+        "margin_pct": 43.50492660365976,
         "winner": "R"
       },
       "82": {
-        "dem_votes": 2923,
-        "rep_votes": 6337,
-        "other_votes": 327,
-        "total_votes": 9587,
+        "dem_votes": 2548,
+        "rep_votes": 6672,
+        "other_votes": 258,
+        "total_votes": 9478,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3414,
-        "margin_pct": 35.61072285386461,
+        "margin": 4124,
+        "margin_pct": 43.51128930154041,
         "winner": "R"
       },
       "83": {
-        "dem_votes": 2986,
-        "rep_votes": 9432,
-        "other_votes": 269,
-        "total_votes": 12687,
+        "dem_votes": 2968,
+        "rep_votes": 7769,
+        "other_votes": 300,
+        "total_votes": 11037,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6446,
-        "margin_pct": 50.807913612359116,
+        "margin": 4801,
+        "margin_pct": 43.49913925885657,
         "winner": "R"
       },
       "84": {
-        "dem_votes": 3126,
-        "rep_votes": 4667,
-        "other_votes": 265,
-        "total_votes": 8058,
+        "dem_votes": 2894,
+        "rep_votes": 5862,
+        "other_votes": 243,
+        "total_votes": 8999,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1541,
-        "margin_pct": 19.12385207247456,
+        "margin": 2968,
+        "margin_pct": 32.98144238248694,
         "winner": "R"
       },
       "85": {
-        "dem_votes": 2823,
-        "rep_votes": 7683,
-        "other_votes": 286,
-        "total_votes": 10792,
+        "dem_votes": 3100,
+        "rep_votes": 6279,
+        "other_votes": 261,
+        "total_votes": 9640,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4860,
-        "margin_pct": 45.033358042994806,
+        "margin": 3179,
+        "margin_pct": 32.977178423236516,
         "winner": "R"
       },
       "86": {
-        "dem_votes": 1368,
-        "rep_votes": 6243,
-        "other_votes": 182,
-        "total_votes": 7793,
+        "dem_votes": 1866,
+        "rep_votes": 7512,
+        "other_votes": 261,
+        "total_votes": 9639,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4875,
-        "margin_pct": 62.55614012575388,
+        "margin": 5646,
+        "margin_pct": 58.5745409274821,
         "winner": "R"
       },
       "87": {
-        "dem_votes": 1926,
-        "rep_votes": 5125,
-        "other_votes": 161,
-        "total_votes": 7212,
+        "dem_votes": 2067,
+        "rep_votes": 5236,
+        "other_votes": 176,
+        "total_votes": 7479,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3199,
-        "margin_pct": 44.35662784248475,
+        "margin": 3169,
+        "margin_pct": 42.37197486294959,
         "winner": "R"
       },
       "88": {
-        "dem_votes": 2854,
-        "rep_votes": 5102,
-        "other_votes": 127,
-        "total_votes": 8083,
+        "dem_votes": 2522,
+        "rep_votes": 4988,
+        "other_votes": 115,
+        "total_votes": 7625,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2248,
-        "margin_pct": 27.81145614252134,
+        "margin": 2466,
+        "margin_pct": 32.34098360655738,
         "winner": "R"
       },
       "89": {
-        "dem_votes": 2127,
-        "rep_votes": 6099,
-        "other_votes": 162,
-        "total_votes": 8388,
+        "dem_votes": 2833,
+        "rep_votes": 5981,
+        "other_votes": 190,
+        "total_votes": 9004,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3972,
-        "margin_pct": 47.35336194563662,
+        "margin": 3148,
+        "margin_pct": 34.96223900488672,
         "winner": "R"
       },
       "90": {
-        "dem_votes": 2967,
-        "rep_votes": 5170,
-        "other_votes": 189,
-        "total_votes": 8326,
+        "dem_votes": 3304,
+        "rep_votes": 5725,
+        "other_votes": 219,
+        "total_votes": 9248,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2203,
-        "margin_pct": 26.459284170069665,
+        "margin": 2421,
+        "margin_pct": 26.17863321799308,
         "winner": "R"
       },
       "91": {
-        "dem_votes": 3285,
-        "rep_votes": 5771,
-        "other_votes": 236,
-        "total_votes": 9292,
+        "dem_votes": 3111,
+        "rep_votes": 6300,
+        "other_votes": 262,
+        "total_votes": 9673,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2486,
-        "margin_pct": 26.75419715884632,
+        "margin": 3189,
+        "margin_pct": 32.96805541197147,
         "winner": "R"
       },
       "92": {
-        "dem_votes": 1855,
-        "rep_votes": 7010,
+        "dem_votes": 2112,
+        "rep_votes": 6949,
         "other_votes": 220,
-        "total_votes": 9085,
+        "total_votes": 9281,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5155,
-        "margin_pct": 56.74188222344524,
+        "margin": 4837,
+        "margin_pct": 52.11722874690228,
         "winner": "R"
       },
       "93": {
-        "dem_votes": 1503,
-        "rep_votes": 5480,
-        "other_votes": 140,
-        "total_votes": 7123,
+        "dem_votes": 3764,
+        "rep_votes": 4246,
+        "other_votes": 163,
+        "total_votes": 8173,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3977,
-        "margin_pct": 55.83321634142917,
+        "margin": 482,
+        "margin_pct": 5.897467270280191,
         "winner": "R"
       },
       "94": {
-        "dem_votes": 2552,
-        "rep_votes": 4046,
-        "other_votes": 135,
-        "total_votes": 6733,
+        "dem_votes": 3325,
+        "rep_votes": 5516,
+        "other_votes": 188,
+        "total_votes": 9029,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1494,
-        "margin_pct": 22.189217287984555,
+        "margin": 2191,
+        "margin_pct": 24.266253184184293,
         "winner": "R"
       },
       "95": {
-        "dem_votes": 2624,
-        "rep_votes": 3384,
-        "other_votes": 88,
-        "total_votes": 6096,
+        "dem_votes": 3894,
+        "rep_votes": 5656,
+        "other_votes": 151,
+        "total_votes": 9701,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 760,
-        "margin_pct": 12.46719160104987,
+        "margin": 1762,
+        "margin_pct": 18.163075971549326,
         "winner": "R"
       },
       "96": {
-        "dem_votes": 2792,
-        "rep_votes": 6162,
-        "other_votes": 198,
-        "total_votes": 9152,
+        "dem_votes": 3345,
+        "rep_votes": 6383,
+        "other_votes": 222,
+        "total_votes": 9950,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3370,
-        "margin_pct": 36.82255244755245,
+        "margin": 3038,
+        "margin_pct": 30.532663316582916,
         "winner": "R"
       },
       "97": {
-        "dem_votes": 1560,
-        "rep_votes": 2901,
-        "other_votes": 145,
-        "total_votes": 4606,
+        "dem_votes": 3194,
+        "rep_votes": 5819,
+        "other_votes": 302,
+        "total_votes": 9315,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1341,
-        "margin_pct": 29.11419887103778,
+        "margin": 2625,
+        "margin_pct": 28.180354267310786,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 3989,
-        "rep_votes": 4645,
-        "other_votes": 153,
-        "total_votes": 8787,
+        "dem_votes": 3998,
+        "rep_votes": 5540,
+        "other_votes": 157,
+        "total_votes": 9695,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 656,
-        "margin_pct": 7.465574143621259,
+        "margin": 1542,
+        "margin_pct": 15.905105724600311,
         "winner": "R"
       },
       "99": {
-        "dem_votes": 1717,
-        "rep_votes": 5663,
-        "other_votes": 112,
-        "total_votes": 7492,
+        "dem_votes": 2702,
+        "rep_votes": 5493,
+        "other_votes": 122,
+        "total_votes": 8317,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3946,
-        "margin_pct": 52.66951414842499,
+        "margin": 2791,
+        "margin_pct": 33.55777323554166,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 2299,
-        "rep_votes": 4950,
-        "other_votes": 101,
-        "total_votes": 7350,
+        "dem_votes": 2177,
+        "rep_votes": 5742,
+        "other_votes": 116,
+        "total_votes": 8035,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2651,
-        "margin_pct": 36.06802721088435,
+        "margin": 3565,
+        "margin_pct": 44.36838830118233,
         "winner": "R"
       }
     }

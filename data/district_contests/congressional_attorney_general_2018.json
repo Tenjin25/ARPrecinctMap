@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2310,
-    "matched_vote_coverage": 0.86756,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 40564,
-        "rep_votes": 105929,
-        "other_votes": 3981,
-        "total_votes": 150474,
+        "dem_votes": 65710,
+        "rep_votes": 141054,
+        "other_votes": 5433,
+        "total_votes": 212197,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 65365,
-        "margin_pct": 43.43939816845435,
+        "margin": 75344,
+        "margin_pct": 35.506628274669296,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 95422,
-        "rep_votes": 126933,
-        "other_votes": 6458,
-        "total_votes": 228813,
+        "dem_votes": 103957,
+        "rep_votes": 137691,
+        "other_votes": 7106,
+        "total_votes": 248754,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 31511,
-        "margin_pct": 13.771507737759656,
+        "margin": 33734,
+        "margin_pct": 13.561188965805576,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 68000,
-        "rep_votes": 120719,
-        "other_votes": 6327,
-        "total_votes": 195046,
+        "dem_votes": 71453,
+        "rep_votes": 126507,
+        "other_votes": 6658,
+        "total_votes": 204618,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 52719,
-        "margin_pct": 27.029008541574807,
+        "margin": 55054,
+        "margin_pct": 26.905746317528273,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 65124,
-        "rep_votes": 127462,
-        "other_votes": 4705,
-        "total_votes": 197291,
+        "dem_votes": 73979,
+        "rep_votes": 144416,
+        "other_votes": 5455,
+        "total_votes": 223850,
         "dem_candidate": "Mike Lee",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 62338,
-        "margin_pct": 31.596981109123075,
+        "margin": 70437,
+        "margin_pct": 31.466160375251285,
         "winner": "R"
       }
     }

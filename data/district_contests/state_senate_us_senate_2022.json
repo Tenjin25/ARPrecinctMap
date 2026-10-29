@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "us_senate",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.754453,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5457,
-        "rep_votes": 14957,
-        "other_votes": 408,
-        "total_votes": 20822,
+        "dem_votes": 7396,
+        "rep_votes": 16407,
+        "other_votes": 455,
+        "total_votes": 24258,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9500,
-        "margin_pct": 45.6248199020267,
+        "margin": 9011,
+        "margin_pct": 37.14650836837332,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 6710,
-        "rep_votes": 15428,
-        "other_votes": 552,
-        "total_votes": 22690,
+        "dem_votes": 7588,
+        "rep_votes": 18182,
+        "other_votes": 631,
+        "total_votes": 26401,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 8718,
-        "margin_pct": 38.422212428382544,
+        "margin": 10594,
+        "margin_pct": 40.127267906518696,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 6604,
-        "rep_votes": 15723,
-        "other_votes": 551,
-        "total_votes": 22878,
+        "dem_votes": 6905,
+        "rep_votes": 16058,
+        "other_votes": 548,
+        "total_votes": 23511,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9119,
-        "margin_pct": 39.85925343124399,
+        "margin": 9153,
+        "margin_pct": 38.93071328314406,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 4236,
-        "rep_votes": 14774,
-        "other_votes": 517,
-        "total_votes": 19527,
+        "dem_votes": 4850,
+        "rep_votes": 17312,
+        "other_votes": 605,
+        "total_votes": 22767,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 10538,
-        "margin_pct": 53.96630306754749,
+        "margin": 12462,
+        "margin_pct": 54.73711951508763,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 3109,
-        "rep_votes": 17744,
-        "other_votes": 742,
-        "total_votes": 21595,
+        "dem_votes": 4603,
+        "rep_votes": 21885,
+        "other_votes": 978,
+        "total_votes": 27466,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 14635,
-        "margin_pct": 67.77031720305627,
+        "margin": 17282,
+        "margin_pct": 62.92143013179932,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 6843,
-        "rep_votes": 17627,
-        "other_votes": 822,
-        "total_votes": 25292,
+        "dem_votes": 8238,
+        "rep_votes": 20706,
+        "other_votes": 1083,
+        "total_votes": 30027,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 10784,
-        "margin_pct": 42.63798829669461,
+        "margin": 12468,
+        "margin_pct": 41.522629633330006,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 4603,
-        "rep_votes": 18693,
-        "other_votes": 862,
-        "total_votes": 24158,
+        "dem_votes": 6590,
+        "rep_votes": 19793,
+        "other_votes": 1001,
+        "total_votes": 27384,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 14090,
-        "margin_pct": 58.324364599718514,
+        "margin": 13203,
+        "margin_pct": 48.214285714285715,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 9539,
-        "rep_votes": 8222,
-        "other_votes": 322,
-        "total_votes": 18083,
+        "dem_votes": 10537,
+        "rep_votes": 11286,
+        "other_votes": 467,
+        "total_votes": 22290,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": -1317,
-        "margin_pct": 7.283083559143948,
-        "winner": "D"
+        "margin": 749,
+        "margin_pct": 3.360251233737102,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 9503,
+        "rep_votes": 9660,
+        "other_votes": 379,
+        "total_votes": 19542,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 157,
+        "margin_pct": 0.8033978098454612,
+        "winner": "R"
       },
       "10": {
-        "dem_votes": 4328,
-        "rep_votes": 13475,
-        "other_votes": 466,
-        "total_votes": 18269,
+        "dem_votes": 6392,
+        "rep_votes": 17070,
+        "other_votes": 624,
+        "total_votes": 24086,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9147,
-        "margin_pct": 50.06842191690842,
+        "margin": 10678,
+        "margin_pct": 44.33280744000665,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 7475,
-        "rep_votes": 20329,
-        "other_votes": 1068,
-        "total_votes": 28872,
+        "dem_votes": 8331,
+        "rep_votes": 18013,
+        "other_votes": 939,
+        "total_votes": 27283,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 12854,
-        "margin_pct": 44.52064283735106,
+        "margin": 9682,
+        "margin_pct": 35.48729978374812,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 11678,
-        "rep_votes": 6277,
-        "other_votes": 488,
-        "total_votes": 18443,
+        "dem_votes": 15029,
+        "rep_votes": 11743,
+        "other_votes": 709,
+        "total_votes": 27481,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": -5401,
-        "margin_pct": 29.284823510274897,
+        "margin": -3286,
+        "margin_pct": 11.957352352534478,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 13271,
-        "rep_votes": 15605,
-        "other_votes": 856,
-        "total_votes": 29732,
+        "dem_votes": 15398,
+        "rep_votes": 12031,
+        "other_votes": 726,
+        "total_votes": 28155,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 2334,
-        "margin_pct": 7.850127808421902,
-        "winner": "R"
+        "margin": -3367,
+        "margin_pct": 11.958799502752619,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 20736,
-        "rep_votes": 12711,
-        "other_votes": 757,
-        "total_votes": 34204,
+        "dem_votes": 15339,
+        "rep_votes": 11986,
+        "other_votes": 724,
+        "total_votes": 28049,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": -8025,
-        "margin_pct": 23.462168167465794,
+        "margin": -3353,
+        "margin_pct": 11.954080359371101,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 14236,
-        "rep_votes": 6193,
-        "other_votes": 521,
-        "total_votes": 20950,
+        "dem_votes": 13399,
+        "rep_votes": 10470,
+        "other_votes": 632,
+        "total_votes": 24501,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": -8043,
-        "margin_pct": 38.39140811455847,
+        "margin": -2929,
+        "margin_pct": 11.95461409738378,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 8780,
-        "rep_votes": 19992,
-        "other_votes": 1123,
-        "total_votes": 29895,
+        "dem_votes": 7971,
+        "rep_votes": 21062,
+        "other_votes": 1080,
+        "total_votes": 30113,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 11212,
-        "margin_pct": 37.50459943134303,
+        "margin": 13091,
+        "margin_pct": 43.472918672998375,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2294,
-        "rep_votes": 3386,
-        "other_votes": 161,
-        "total_votes": 5841,
+        "dem_votes": 10151,
+        "rep_votes": 18481,
+        "other_votes": 1079,
+        "total_votes": 29711,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 1092,
-        "margin_pct": 18.69542886492039,
+        "margin": 8330,
+        "margin_pct": 28.036754064151324,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 3015,
-        "rep_votes": 17297,
-        "other_votes": 706,
-        "total_votes": 21018,
+        "dem_votes": 4581,
+        "rep_votes": 22600,
+        "other_votes": 1002,
+        "total_votes": 28183,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 14282,
-        "margin_pct": 67.95127985536207,
+        "margin": 18019,
+        "margin_pct": 63.935705922009724,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 1358,
-        "rep_votes": 5191,
-        "other_votes": 249,
-        "total_votes": 6798,
+        "dem_votes": 5493,
+        "rep_votes": 13686,
+        "other_votes": 557,
+        "total_votes": 19736,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 3833,
-        "margin_pct": 56.38423065607532,
+        "margin": 8193,
+        "margin_pct": 41.51297122010539,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 6524,
-        "rep_votes": 13506,
-        "other_votes": 755,
-        "total_votes": 20785,
+        "dem_votes": 6215,
+        "rep_votes": 14743,
+        "other_votes": 792,
+        "total_votes": 21750,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 6982,
-        "margin_pct": 33.59153235506375,
+        "margin": 8528,
+        "margin_pct": 39.20919540229885,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 1968,
-        "rep_votes": 9471,
-        "other_votes": 468,
-        "total_votes": 11907,
+        "dem_votes": 3925,
+        "rep_votes": 17994,
+        "other_votes": 861,
+        "total_votes": 22780,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 7503,
-        "margin_pct": 63.01335348954397,
+        "margin": 14069,
+        "margin_pct": 61.760316066725196,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 4360,
-        "rep_votes": 21719,
-        "other_votes": 911,
-        "total_votes": 26990,
+        "dem_votes": 4344,
+        "rep_votes": 21677,
+        "other_votes": 921,
+        "total_votes": 26942,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 17359,
-        "margin_pct": 64.31641348647648,
+        "margin": 17333,
+        "margin_pct": 64.33449632543984,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 2269,
-        "rep_votes": 11721,
-        "other_votes": 558,
-        "total_votes": 14548,
+        "dem_votes": 5398,
+        "rep_votes": 24083,
+        "other_votes": 999,
+        "total_votes": 30480,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9452,
-        "margin_pct": 64.97113005224085,
+        "margin": 18685,
+        "margin_pct": 61.302493438320205,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 2770,
-        "rep_votes": 12988,
-        "other_votes": 681,
-        "total_votes": 16439,
+        "dem_votes": 7136,
+        "rep_votes": 22351,
+        "other_votes": 1229,
+        "total_votes": 30716,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 10218,
-        "margin_pct": 62.157065514934,
+        "margin": 15215,
+        "margin_pct": 49.53444458913921,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 3822,
-        "rep_votes": 13761,
-        "other_votes": 608,
-        "total_votes": 18191,
+        "dem_votes": 5789,
+        "rep_votes": 18668,
+        "other_votes": 866,
+        "total_votes": 25323,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9939,
-        "margin_pct": 54.636908361277555,
+        "margin": 12879,
+        "margin_pct": 50.85890297358133,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 963,
-        "rep_votes": 4716,
-        "other_votes": 188,
-        "total_votes": 5867,
+        "dem_votes": 5186,
+        "rep_votes": 18586,
+        "other_votes": 876,
+        "total_votes": 24648,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 3753,
-        "margin_pct": 63.967956366115565,
+        "margin": 13400,
+        "margin_pct": 54.36546575787082,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5715,
+        "rep_votes": 15428,
+        "other_votes": 798,
+        "total_votes": 21941,
+        "dem_candidate": "Natalie James",
+        "rep_candidate": "John Boozman",
+        "margin": 9713,
+        "margin_pct": 44.26872065995169,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 4045,
-        "rep_votes": 16182,
-        "other_votes": 765,
-        "total_votes": 20992,
+        "dem_votes": 6149,
+        "rep_votes": 21242,
+        "other_votes": 1058,
+        "total_votes": 28449,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 12137,
-        "margin_pct": 57.81726371951219,
+        "margin": 15093,
+        "margin_pct": 53.0528313824739,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 3032,
-        "rep_votes": 5963,
-        "other_votes": 368,
-        "total_votes": 9363,
+        "dem_votes": 6511,
+        "rep_votes": 17980,
+        "other_votes": 896,
+        "total_votes": 25387,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 2931,
-        "margin_pct": 31.304069208586995,
+        "margin": 11469,
+        "margin_pct": 45.1766652223579,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 15778,
-        "rep_votes": 9765,
-        "other_votes": 687,
-        "total_votes": 26230,
+        "dem_votes": 12304,
+        "rep_votes": 14851,
+        "other_votes": 859,
+        "total_votes": 28014,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": -6013,
-        "margin_pct": 22.92413267251239,
-        "winner": "D"
+        "margin": 2547,
+        "margin_pct": 9.091882630113515,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 6010,
-        "rep_votes": 9806,
-        "other_votes": 484,
-        "total_votes": 16300,
+        "dem_votes": 8237,
+        "rep_votes": 9941,
+        "other_votes": 575,
+        "total_votes": 18753,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 3796,
-        "margin_pct": 23.28834355828221,
+        "margin": 1704,
+        "margin_pct": 9.086546152615583,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 6903,
-        "rep_votes": 15086,
-        "other_votes": 892,
-        "total_votes": 22881,
+        "dem_votes": 7958,
+        "rep_votes": 15968,
+        "other_votes": 893,
+        "total_votes": 24819,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 8183,
-        "margin_pct": 35.76329705869499,
+        "margin": 8010,
+        "margin_pct": 32.27366130786897,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 9004,
-        "rep_votes": 17273,
-        "other_votes": 919,
-        "total_votes": 27196,
+        "dem_votes": 8175,
+        "rep_votes": 17003,
+        "other_votes": 949,
+        "total_votes": 26127,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 8269,
-        "margin_pct": 30.405206648036476,
+        "margin": 8828,
+        "margin_pct": 33.78880085735063,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 10988,
-        "rep_votes": 20202,
-        "other_votes": 1095,
-        "total_votes": 32285,
+        "dem_votes": 9139,
+        "rep_votes": 19009,
+        "other_votes": 1060,
+        "total_votes": 29208,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 9214,
-        "margin_pct": 28.53956945950132,
+        "margin": 9870,
+        "margin_pct": 33.79211175020542,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 6206,
-        "rep_votes": 14931,
-        "other_votes": 822,
-        "total_votes": 21959,
+        "dem_votes": 10072,
+        "rep_votes": 15416,
+        "other_votes": 876,
+        "total_votes": 26364,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 8725,
-        "margin_pct": 39.733139031832046,
+        "margin": 5344,
+        "margin_pct": 20.270065240479443,
         "winner": "R"
       }
     }

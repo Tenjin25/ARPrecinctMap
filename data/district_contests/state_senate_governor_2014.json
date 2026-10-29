@@ -3,399 +3,636 @@
   "scope": "state_senate",
   "contest_type": "governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2032,
-    "matched_vote_coverage": 0.807176,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 8891,
-        "rep_votes": 8582,
-        "other_votes": 363,
-        "total_votes": 17836,
+        "dem_votes": 10575,
+        "rep_votes": 8651,
+        "other_votes": 357,
+        "total_votes": 19583,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -309,
-        "margin_pct": 1.7324512222471407,
+        "margin": -1924,
+        "margin_pct": 9.824848082520553,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 3183,
-        "rep_votes": 4031,
-        "other_votes": 183,
-        "total_votes": 7397,
+        "dem_votes": 3245,
+        "rep_votes": 4149,
+        "other_votes": 194,
+        "total_votes": 7588,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 848,
-        "margin_pct": 11.46410707043396,
+        "margin": 904,
+        "margin_pct": 11.913547706905641,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 10836,
-        "rep_votes": 9706,
-        "other_votes": 413,
-        "total_votes": 20955,
+        "dem_votes": 13815,
+        "rep_votes": 13129,
+        "other_votes": 516,
+        "total_votes": 27460,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -1130,
-        "margin_pct": 5.392507754712479,
+        "margin": -686,
+        "margin_pct": 2.498179169701384,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 9785,
-        "rep_votes": 12485,
-        "other_votes": 463,
-        "total_votes": 22733,
+        "dem_votes": 9964,
+        "rep_votes": 13029,
+        "other_votes": 476,
+        "total_votes": 23469,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 2700,
-        "margin_pct": 11.877006994237451,
+        "margin": 3065,
+        "margin_pct": 13.059780987685885,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 8274,
-        "rep_votes": 14984,
-        "other_votes": 866,
-        "total_votes": 24124,
+        "dem_votes": 9254,
+        "rep_votes": 15884,
+        "other_votes": 947,
+        "total_votes": 26085,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 6710,
-        "margin_pct": 27.814624440391313,
+        "margin": 6630,
+        "margin_pct": 25.416906267970095,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 1413,
-        "rep_votes": 3438,
-        "other_votes": 83,
-        "total_votes": 4934,
+        "dem_votes": 10780,
+        "rep_votes": 16366,
+        "other_votes": 971,
+        "total_votes": 28117,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 2025,
-        "margin_pct": 41.04175111471422,
+        "margin": 5586,
+        "margin_pct": 19.866984386669987,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 7097,
-        "rep_votes": 11933,
-        "other_votes": 749,
-        "total_votes": 19779,
+        "dem_votes": 9604,
+        "rep_votes": 15118,
+        "other_votes": 867,
+        "total_votes": 25589,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 4836,
-        "margin_pct": 24.450174427423025,
+        "margin": 5514,
+        "margin_pct": 21.548321544413614,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 14097,
-        "rep_votes": 5932,
-        "other_votes": 254,
-        "total_votes": 20283,
+        "dem_votes": 15893,
+        "rep_votes": 9086,
+        "other_votes": 395,
+        "total_votes": 25374,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -8165,
-        "margin_pct": 40.25538628408027,
+        "margin": -6807,
+        "margin_pct": 26.82667297233389,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1436,
-        "rep_votes": 561,
-        "other_votes": 27,
-        "total_votes": 2024,
+        "dem_votes": 13126,
+        "rep_votes": 8400,
+        "other_votes": 536,
+        "total_votes": 22062,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -875,
-        "margin_pct": 43.23122529644269,
+        "margin": -4726,
+        "margin_pct": 21.421448644728493,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 8078,
-        "rep_votes": 9373,
-        "other_votes": 431,
-        "total_votes": 17882,
+        "dem_votes": 12271,
+        "rep_votes": 12749,
+        "other_votes": 626,
+        "total_votes": 25646,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 1295,
-        "margin_pct": 7.2419192484062185,
+        "margin": 478,
+        "margin_pct": 1.8638384153474228,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 4421,
-        "rep_votes": 9092,
-        "other_votes": 439,
-        "total_votes": 13952,
+        "dem_votes": 9548,
+        "rep_votes": 14950,
+        "other_votes": 697,
+        "total_votes": 25195,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 4671,
-        "margin_pct": 33.47907110091743,
+        "margin": 5402,
+        "margin_pct": 21.440762055963486,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 16197,
-        "rep_votes": 5626,
-        "other_votes": 540,
-        "total_votes": 22363,
+        "dem_votes": 15986,
+        "rep_votes": 11811,
+        "other_votes": 631,
+        "total_votes": 28428,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -10571,
-        "margin_pct": 47.270044269552386,
+        "margin": -4175,
+        "margin_pct": 14.686224848740679,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 13537,
-        "rep_votes": 18125,
-        "other_votes": 776,
-        "total_votes": 32438,
+        "dem_votes": 16379,
+        "rep_votes": 12101,
+        "other_votes": 646,
+        "total_votes": 29126,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 4588,
-        "margin_pct": 14.143905296257476,
-        "winner": "R"
+        "margin": -4278,
+        "margin_pct": 14.687907711323216,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 19892,
-        "rep_votes": 16661,
-        "other_votes": 793,
-        "total_votes": 37346,
+        "dem_votes": 16317,
+        "rep_votes": 12055,
+        "other_votes": 644,
+        "total_votes": 29016,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -3231,
-        "margin_pct": 8.651528945536334,
+        "margin": -4262,
+        "margin_pct": 14.688447752963881,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 17225,
-        "rep_votes": 4791,
-        "other_votes": 387,
-        "total_votes": 22403,
+        "dem_votes": 14253,
+        "rep_votes": 10530,
+        "other_votes": 563,
+        "total_votes": 25346,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -12434,
-        "margin_pct": 55.50149533544615,
+        "margin": -3723,
+        "margin_pct": 14.688708277440227,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 8583,
-        "rep_votes": 16338,
-        "other_votes": 875,
-        "total_votes": 25796,
+        "dem_votes": 9316,
+        "rep_votes": 17737,
+        "other_votes": 929,
+        "total_votes": 27982,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 7755,
-        "margin_pct": 30.06280043417584,
+        "margin": 8421,
+        "margin_pct": 30.094346365520693,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 3031,
-        "rep_votes": 4937,
-        "other_votes": 247,
-        "total_votes": 8215,
+        "dem_votes": 10284,
+        "rep_votes": 14892,
+        "other_votes": 844,
+        "total_votes": 26020,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 1906,
-        "margin_pct": 23.20146074254413,
+        "margin": 4608,
+        "margin_pct": 17.70945426594927,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 7094,
-        "rep_votes": 17337,
-        "other_votes": 892,
-        "total_votes": 25323,
+        "dem_votes": 7241,
+        "rep_votes": 17584,
+        "other_votes": 902,
+        "total_votes": 25727,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 10243,
-        "margin_pct": 40.44939383169451,
+        "margin": 10343,
+        "margin_pct": 40.20289967738174,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 3968,
-        "rep_votes": 5358,
-        "other_votes": 355,
-        "total_votes": 9681,
+        "dem_votes": 10371,
+        "rep_votes": 10660,
+        "other_votes": 761,
+        "total_votes": 21792,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 1390,
-        "margin_pct": 14.358020865613055,
+        "margin": 289,
+        "margin_pct": 1.3261747430249633,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 7866,
-        "rep_votes": 10714,
-        "other_votes": 569,
-        "total_votes": 19149,
+        "dem_votes": 8155,
+        "rep_votes": 11211,
+        "other_votes": 628,
+        "total_votes": 19994,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 2848,
-        "margin_pct": 14.872839312757847,
+        "margin": 3056,
+        "margin_pct": 15.284585375612684,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 8795,
-        "rep_votes": 11197,
-        "other_votes": 846,
-        "total_votes": 20838,
+        "dem_votes": 9413,
+        "rep_votes": 11978,
+        "other_votes": 897,
+        "total_votes": 22288,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 2402,
-        "margin_pct": 11.527017947979653,
+        "margin": 2565,
+        "margin_pct": 11.508435032304378,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 9049,
-        "rep_votes": 16261,
-        "other_votes": 1065,
-        "total_votes": 26375,
+        "dem_votes": 9196,
+        "rep_votes": 16197,
+        "other_votes": 1060,
+        "total_votes": 26453,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 7212,
-        "margin_pct": 27.344075829383886,
+        "margin": 7001,
+        "margin_pct": 26.465807280837712,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 3721,
-        "rep_votes": 6097,
-        "other_votes": 466,
-        "total_votes": 10284,
+        "dem_votes": 8453,
+        "rep_votes": 15952,
+        "other_votes": 1044,
+        "total_votes": 25449,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 2376,
-        "margin_pct": 23.10385064177363,
+        "margin": 7499,
+        "margin_pct": 29.466776690636177,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 8289,
-        "rep_votes": 18550,
-        "other_votes": 1024,
-        "total_votes": 27863,
+        "dem_votes": 9361,
+        "rep_votes": 17207,
+        "other_votes": 1070,
+        "total_votes": 27638,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 10261,
-        "margin_pct": 36.82661594228906,
+        "margin": 7846,
+        "margin_pct": 28.38845068384109,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 7478,
-        "rep_votes": 13694,
-        "other_votes": 678,
-        "total_votes": 21850,
+        "dem_votes": 8407,
+        "rep_votes": 15376,
+        "other_votes": 791,
+        "total_votes": 24574,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 6216,
-        "margin_pct": 28.44851258581236,
+        "margin": 6969,
+        "margin_pct": 28.35924147472939,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 6386,
-        "rep_votes": 12513,
-        "other_votes": 613,
-        "total_votes": 19512,
+        "dem_votes": 8413,
+        "rep_votes": 14872,
+        "other_votes": 797,
+        "total_votes": 24082,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 6127,
-        "margin_pct": 31.401189011890118,
+        "margin": 6459,
+        "margin_pct": 26.82086205464662,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 5808,
-        "rep_votes": 9953,
-        "other_votes": 516,
-        "total_votes": 16277,
+        "dem_votes": 6384,
+        "rep_votes": 13365,
+        "other_votes": 652,
+        "total_votes": 20401,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 4145,
-        "margin_pct": 25.465380598390368,
+        "margin": 6981,
+        "margin_pct": 34.21891083770404,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 5573,
-        "rep_votes": 9622,
-        "other_votes": 667,
-        "total_votes": 15862,
+        "dem_votes": 6189,
+        "rep_votes": 10096,
+        "other_votes": 707,
+        "total_votes": 16992,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 4049,
-        "margin_pct": 25.526415332240575,
+        "margin": 3907,
+        "margin_pct": 22.993173258003765,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 6960,
-        "rep_votes": 15178,
-        "other_votes": 916,
-        "total_votes": 23054,
+        "dem_votes": 6880,
+        "rep_votes": 14478,
+        "other_votes": 838,
+        "total_votes": 22196,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 8218,
-        "margin_pct": 35.64674243081461,
+        "margin": 7598,
+        "margin_pct": 34.23139304379168,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 10617,
-        "rep_votes": 8479,
-        "other_votes": 750,
-        "total_votes": 19846,
+        "dem_votes": 8918,
+        "rep_votes": 11986,
+        "other_votes": 790,
+        "total_votes": 21694,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": -2138,
-        "margin_pct": 10.772951728307971,
-        "winner": "D"
+        "margin": 3068,
+        "margin_pct": 14.142159122337974,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 962,
-        "rep_votes": 2297,
-        "other_votes": 81,
-        "total_votes": 3340,
+        "dem_votes": 5969,
+        "rep_votes": 8023,
+        "other_votes": 529,
+        "total_votes": 14521,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 1335,
-        "margin_pct": 39.970059880239525,
+        "margin": 2054,
+        "margin_pct": 14.14503133393017,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 4759,
-        "rep_votes": 11443,
-        "other_votes": 634,
-        "total_votes": 16836,
+        "dem_votes": 4889,
+        "rep_votes": 11851,
+        "other_votes": 630,
+        "total_votes": 17370,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 6684,
-        "margin_pct": 39.70064148253742,
+        "margin": 6962,
+        "margin_pct": 40.080598733448475,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 4905,
-        "rep_votes": 12143,
-        "other_votes": 575,
-        "total_votes": 17623,
+        "dem_votes": 4940,
+        "rep_votes": 12560,
+        "other_votes": 659,
+        "total_votes": 18159,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 7238,
-        "margin_pct": 41.07132724280769,
+        "margin": 7620,
+        "margin_pct": 41.962663142243514,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 4890,
-        "rep_votes": 11978,
-        "other_votes": 633,
-        "total_votes": 17501,
+        "dem_votes": 5522,
+        "rep_votes": 14041,
+        "other_votes": 737,
+        "total_votes": 20300,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 7088,
-        "margin_pct": 40.50054282612422,
+        "margin": 8519,
+        "margin_pct": 41.96551724137931,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 6643,
-        "rep_votes": 15556,
-        "other_votes": 899,
-        "total_votes": 23098,
+        "dem_votes": 6850,
+        "rep_votes": 11910,
+        "other_votes": 708,
+        "total_votes": 19468,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 8913,
-        "margin_pct": 38.58775651571565,
+        "margin": 5060,
+        "margin_pct": 25.99137045407849,
         "winner": "R"
       }
     }

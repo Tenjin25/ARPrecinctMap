@@ -6,6 +6,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2008,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2008,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2008,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2008,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2008,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2008,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2008,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2008,canonical,0.9900
 ARKANSAS,HENTON,44 - Henton,44 - Henton,2008,canonical,0.9900
 ARKANSAS,HUMPHREY WARD 1,47 - Humphrey Ward 1,47 - Humphrey Ward 1,2008,canonical,0.9900
@@ -19,6 +22,9 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2008,canonical,0.9900
 ARKANSAS,PT. DELUCE,37 - PT Deluce,37 - PT Deluce,2008,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2008,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2008,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2008,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2008,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2008,structural,0.9850
 ASHLEY,BEECH CREEK,17 - Beech Creek,17 - Beech Creek,2008,canonical,0.9900
 ASHLEY,BOYDELL,23 - Boydell,23 - Boydell,2008,canonical,0.9900
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2008,canonical,0.9900
@@ -319,6 +325,7 @@ JACKSON,WELDON FIRE STN 17,52 - Weldon,52 - Weldon,2008,containment,0.9500
 JEFFERSON,10,0010,0010,2008,canonical,0.9900
 JEFFERSON,101,0101,0101,2008,canonical,0.9900
 JEFFERSON,102,0102,0102,2008,canonical,0.9900
+JEFFERSON,103,103X,103X,2008,abbreviation,0.9800
 JEFFERSON,104,0104,0104,2008,canonical,0.9900
 JEFFERSON,106,106,106,2008,exact,1.0000
 JEFFERSON,107,0107,0107,2008,canonical,0.9900
@@ -388,10 +395,12 @@ JEFFERSON,408,0408,0408,2008,canonical,0.9900
 JEFFERSON,409,0409,0409,2008,canonical,0.9900
 JEFFERSON,410,0410,0410,2008,canonical,0.9900
 JEFFERSON,412,0412,0412,2008,canonical,0.9900
+JEFFERSON,413,413X,413X,2008,abbreviation,0.9800
 JEFFERSON,414,0414,0414,2008,canonical,0.9900
 JEFFERSON,415,0415,0415,2008,canonical,0.9900
 JEFFERSON,416,0416,0416,2008,canonical,0.9900
 JEFFERSON,417,0417,0417,2008,canonical,0.9900
+JEFFERSON,418,418X,418X,2008,abbreviation,0.9800
 JEFFERSON,419,0419,0419,2008,canonical,0.9900
 JEFFERSON,420,0420,0420,2008,canonical,0.9900
 JEFFERSON,421,0421,0421,2008,canonical,0.9900
@@ -454,10 +463,10 @@ LAFAYETTE,MIDWAY/BOYD HILL FIR 03,040 - Boyd Hill,040 - Boyd Hill,2008,containme
 LAFAYETTE,WALKER CREEK COMMUNI 04,100 - Walker Creek,100 - Walker Creek,2008,containment,0.9500
 LAWRENCE,BLACK ROCK CITY HALL 04,04 - Black Rock,04 - Black Rock,2008,containment,0.9500
 LAWRENCE,STRAWBERRY CITY HALL 16,27 - Strawberry,27 - Strawberry,2008,containment,0.9500
-LEE,WARD 1,Precinct 1,Precinct 1,2008,containment,0.9500
-LEE,WARD 2,Precinct 2,Precinct 2,2008,containment,0.9500
-LEE,WARD 3,Precinct 3,Precinct 3,2008,containment,0.9500
-LEE,WARD 4,Precinct 4,Precinct 4,2008,containment,0.9500
+LEE,WARD 1,Precinct 1,Precinct 1,2008,structural,0.9850
+LEE,WARD 2,Precinct 2,Precinct 2,2008,structural,0.9850
+LEE,WARD 3,Precinct 3,Precinct 3,2008,structural,0.9850
+LEE,WARD 4,Precinct 4,Precinct 4,2008,structural,0.9850
 LINCOLN,AUBURN,001 - Auburn,001 - Auburn,2008,canonical,0.9900
 LINCOLN,BAR/TARRY,002 - Tarry,002 - Tarry,2008,containment,0.9500
 LINCOLN,BAR/YORKTOWN,003 - Yorktown,003 - Yorktown,2008,containment,0.9500
@@ -843,6 +852,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2010,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2010,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2010,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2010,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2010,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2010,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2010,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2010,canonical,0.9900
 ARKANSAS,GUM POND,42 - Gum Pond,42 - Gum Pond,2010,canonical,0.9900
 ARKANSAS,HENTON,44 - Henton,44 - Henton,2010,canonical,0.9900
@@ -856,6 +868,9 @@ ARKANSAS,PT. DELUCE 1,37 - PT Deluce,37 - PT Deluce,2010,containment,0.9500
 ARKANSAS,PT. DELUCE 2,37 - PT Deluce,37 - PT Deluce,2010,containment,0.9500
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2010,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2010,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2010,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2010,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2010,structural,0.9850
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2010,canonical,0.9900
 ASHLEY,CROSSETT WARD 1,01 - Crossett Ward 1,01 - Crossett Ward 1,2010,canonical,0.9900
 ASHLEY,CROSSETT WARD 2,02 - Crossett Ward 2,02 - Crossett Ward 2,2010,canonical,0.9900
@@ -1387,6 +1402,7 @@ JACKSON,WELDON FIRE STATION,52 - Weldon,52 - Weldon,2010,containment,0.9500
 JEFFERSON,10,0010,0010,2010,canonical,0.9900
 JEFFERSON,101,0101,0101,2010,canonical,0.9900
 JEFFERSON,102,0102,0102,2010,canonical,0.9900
+JEFFERSON,103,103X,103X,2010,abbreviation,0.9800
 JEFFERSON,104,0104,0104,2010,canonical,0.9900
 JEFFERSON,106,106,106,2010,exact,1.0000
 JEFFERSON,107,0107,0107,2010,canonical,0.9900
@@ -1460,15 +1476,18 @@ JEFFERSON,408,0408,0408,2010,canonical,0.9900
 JEFFERSON,409,0409,0409,2010,canonical,0.9900
 JEFFERSON,410,0410,0410,2010,canonical,0.9900
 JEFFERSON,412,0412,0412,2010,canonical,0.9900
+JEFFERSON,413,413X,413X,2010,abbreviation,0.9800
 JEFFERSON,414,0414,0414,2010,canonical,0.9900
 JEFFERSON,415,0415,0415,2010,canonical,0.9900
 JEFFERSON,416,0416,0416,2010,canonical,0.9900
 JEFFERSON,417,0417,0417,2010,canonical,0.9900
+JEFFERSON,418,418X,418X,2010,abbreviation,0.9800
 JEFFERSON,419,0419,0419,2010,canonical,0.9900
 JEFFERSON,420,0420,0420,2010,canonical,0.9900
 JEFFERSON,421,0421,0421,2010,canonical,0.9900
 JEFFERSON,422,0422,0422,2010,canonical,0.9900
 JEFFERSON,423,0423,0423,2010,canonical,0.9900
+JEFFERSON,424,424X,424X,2010,abbreviation,0.9800
 JEFFERSON,426,0426,0426,2010,canonical,0.9900
 JEFFERSON,50,0050,0050,2010,canonical,0.9900
 JEFFERSON,51,0051,0051,2010,canonical,0.9900
@@ -1561,10 +1580,10 @@ LAWRENCE,MORGAN,21 - Morgan,21 - Morgan,2010,canonical,0.9900
 LAWRENCE,PROMISED LAND,22 - Promised Land,22 - Promised Land,2010,canonical,0.9900
 LAWRENCE,REEDS CREEK SAFFELL,23 - Reeds Creek Saffell,23 - Reeds Creek Saffell,2010,canonical,0.9900
 LAWRENCE,REEDS CREEK STRAWBERRY,24 - Reeds Creek Strawberry,24 - Reeds Creek Strawberry,2010,canonical,0.9900
-LEE,WARD 1,Precinct 1,Precinct 1,2010,containment,0.9500
-LEE,WARD 2,Precinct 2,Precinct 2,2010,containment,0.9500
-LEE,WARD 3,Precinct 3,Precinct 3,2010,containment,0.9500
-LEE,WARD 4,Precinct 4,Precinct 4,2010,containment,0.9500
+LEE,WARD 1,Precinct 1,Precinct 1,2010,structural,0.9850
+LEE,WARD 2,Precinct 2,Precinct 2,2010,structural,0.9850
+LEE,WARD 3,Precinct 3,Precinct 3,2010,structural,0.9850
+LEE,WARD 4,Precinct 4,Precinct 4,2010,structural,0.9850
 LINCOLN,GOULDS COMM CTR 01,018 - Gould,018 - Gould,2010,containment,0.9500
 LINCOLN,SE LINCOLN CO FD 09,016 -SE Lincoln Co FD,016 -SE Lincoln Co FD,2010,containment,0.9500
 LINCOLN,WELLS BAYOU FIRE ST 10,017 -Wells Bayou,017 -Wells Bayou,2010,containment,0.9500
@@ -2220,6 +2239,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2012,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2012,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2012,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2012,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2012,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2012,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2012,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2012,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2012,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2012,canonical,0.9900
@@ -2237,6 +2259,9 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2012,canonical,0.9900
 ARKANSAS,PT. DELUCE,37 - PT Deluce,37 - PT Deluce,2012,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2012,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2012,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2012,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2012,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2012,structural,0.9850
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2012,canonical,0.9900
 ASHLEY,CROSSETT WARD 1,01 - Crossett Ward 1,01 - Crossett Ward 1,2012,canonical,0.9900
 ASHLEY,CROSSETT WARD 2,02 - Crossett Ward 2,02 - Crossett Ward 2,2012,canonical,0.9900
@@ -2335,6 +2360,8 @@ CARROLL,PINEY,Piney,Piney,2012,exact,1.0000
 CARROLL,POLO,Polo,Polo,2012,exact,1.0000
 CARROLL,SOUTH YOCUM,South Yocum,South Yocum,2012,exact,1.0000
 CHICOT,BOWIE 1 & RURAL,301 - Bowie 1,301 - Bowie 1,2012,containment,0.9500
+CHICOT,BOWIE WARD 2,302 - Bowie 2,302 - Bowie 2,2012,structural,0.9850
+CHICOT,BOWIE WARD 3,303 - Bowie 3,303 - Bowie 3,2012,structural,0.9850
 CHICOT,CARLTON 1 & 2,101 - Carlton,101 - Carlton,2012,containment,0.9500
 CHICOT,CARLTON 3,103 - Carlton 3,103 - Carlton 3,2012,canonical,0.9900
 CHICOT,CARLTON RURAL,104 - Carlton Rural,104 - Carlton Rural,2012,canonical,0.9900
@@ -2788,6 +2815,7 @@ JEFFERSON,1,0001,0001,2012,canonical,0.9900
 JEFFERSON,10,0010,0010,2012,canonical,0.9900
 JEFFERSON,101,0101,0101,2012,canonical,0.9900
 JEFFERSON,102,0102,0102,2012,canonical,0.9900
+JEFFERSON,103,103X,103X,2012,abbreviation,0.9800
 JEFFERSON,104,0104,0104,2012,canonical,0.9900
 JEFFERSON,105,0105,0105,2012,canonical,0.9900
 JEFFERSON,106,106,106,2012,exact,1.0000
@@ -2839,6 +2867,7 @@ JEFFERSON,222,0222,0222,2012,canonical,0.9900
 JEFFERSON,223,0223,0223,2012,canonical,0.9900
 JEFFERSON,224,0224,0224,2012,canonical,0.9900
 JEFFERSON,225,0225,0225,2012,canonical,0.9900
+JEFFERSON,226,226X,226X,2012,abbreviation,0.9800
 JEFFERSON,227,0227,0227,2012,canonical,0.9900
 JEFFERSON,26,0026,0026,2012,canonical,0.9900
 JEFFERSON,27,0027,0027,2012,canonical,0.9900
@@ -2896,15 +2925,18 @@ JEFFERSON,409,0409,0409,2012,canonical,0.9900
 JEFFERSON,41,0041,0041,2012,canonical,0.9900
 JEFFERSON,410,0410,0410,2012,canonical,0.9900
 JEFFERSON,412,0412,0412,2012,canonical,0.9900
+JEFFERSON,413,413X,413X,2012,abbreviation,0.9800
 JEFFERSON,414,0414,0414,2012,canonical,0.9900
 JEFFERSON,415,0415,0415,2012,canonical,0.9900
 JEFFERSON,416,0416,0416,2012,canonical,0.9900
 JEFFERSON,417,0417,0417,2012,canonical,0.9900
+JEFFERSON,418,418X,418X,2012,abbreviation,0.9800
 JEFFERSON,419,0419,0419,2012,canonical,0.9900
 JEFFERSON,420,0420,0420,2012,canonical,0.9900
 JEFFERSON,421,0421,0421,2012,canonical,0.9900
 JEFFERSON,422,0422,0422,2012,canonical,0.9900
 JEFFERSON,423,0423,0423,2012,canonical,0.9900
+JEFFERSON,424,424X,424X,2012,abbreviation,0.9800
 JEFFERSON,425,0425,0425,2012,canonical,0.9900
 JEFFERSON,426,0426,0426,2012,canonical,0.9900
 JEFFERSON,45,0045,0045,2012,canonical,0.9900
@@ -3017,10 +3049,10 @@ LAWRENCE,PROMISED LAND,22 - Promised Land,22 - Promised Land,2012,canonical,0.99
 LAWRENCE,REEDS CREEK SAFFELL,23 - Reeds Creek Saffell,23 - Reeds Creek Saffell,2012,canonical,0.9900
 LAWRENCE,REEDS CREEK STRAWBERRY,24 - Reeds Creek Strawberry,24 - Reeds Creek Strawberry,2012,canonical,0.9900
 LAWRENCE,STRAWBERRY,27 - Strawberry,27 - Strawberry,2012,canonical,0.9900
-LEE,WARD 1,Precinct 1,Precinct 1,2012,containment,0.9500
-LEE,WARD 2,Precinct 2,Precinct 2,2012,containment,0.9500
-LEE,WARD 3,Precinct 3,Precinct 3,2012,containment,0.9500
-LEE,WARD 4,Precinct 4,Precinct 4,2012,containment,0.9500
+LEE,WARD 1,Precinct 1,Precinct 1,2012,structural,0.9850
+LEE,WARD 2,Precinct 2,Precinct 2,2012,structural,0.9850
+LEE,WARD 3,Precinct 3,Precinct 3,2012,structural,0.9850
+LEE,WARD 4,Precinct 4,Precinct 4,2012,structural,0.9850
 LINCOLN,AUBURN TOWNSHIP,001 - Auburn,001 - Auburn,2012,containment,0.9500
 LINCOLN,BARTHOLOMEW/TARRY,002 - Tarry,002 - Tarry,2012,containment,0.9500
 LINCOLN,BARTHOLOMEW/YORKTOWN,003 - Yorktown,003 - Yorktown,2012,containment,0.9500
@@ -3938,6 +3970,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2014,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2014,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2014,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2014,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2014,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2014,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2014,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2014,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2014,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2014,canonical,0.9900
@@ -3955,6 +3990,9 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2014,canonical,0.9900
 ARKANSAS,PT. DELUCE,37 - PT Deluce,37 - PT Deluce,2014,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2014,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2014,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2014,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2014,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2014,structural,0.9850
 BENTON,PRECINCT 1,Precinct 01,Precinct 01,2014,canonical,0.9900
 BENTON,PRECINCT 10,Precinct 10,Precinct 10,2014,exact,1.0000
 BENTON,PRECINCT 11,Precinct 11,Precinct 11,2014,exact,1.0000
@@ -4104,6 +4142,7 @@ CLARK,CENTRAL,Central 1,Central 1,2014,containment,0.9500
 CLARK,CURTIS,Curtis 1,Curtis 1,2014,containment,0.9500
 CLARK,GUM SPRINGS OUTSIDE,Gum Springs Outside 1,Gum Springs Outside 1,2014,containment,0.9500
 CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2014,containment,0.9500
+CLARK,NE COUNTY,North East County,North East County,2014,abbreviation,0.9800
 CLARK,NORTH COUNTY,North County,North County,2014,exact,1.0000
 CLARK,OKOLONA CITY,Okolona City 1,Okolona City 1,2014,containment,0.9500
 CLARK,SOUTH COUNTY,South County 1,South County 1,2014,containment,0.9500
@@ -4635,6 +4674,7 @@ JEFFERSON,1,0001,0001,2014,canonical,0.9900
 JEFFERSON,10,0010,0010,2014,canonical,0.9900
 JEFFERSON,101,0101,0101,2014,canonical,0.9900
 JEFFERSON,102,0102,0102,2014,canonical,0.9900
+JEFFERSON,103,103X,103X,2014,abbreviation,0.9800
 JEFFERSON,104,0104,0104,2014,canonical,0.9900
 JEFFERSON,105,0105,0105,2014,canonical,0.9900
 JEFFERSON,106,106,106,2014,exact,1.0000
@@ -4686,6 +4726,7 @@ JEFFERSON,222,0222,0222,2014,canonical,0.9900
 JEFFERSON,223,0223,0223,2014,canonical,0.9900
 JEFFERSON,224,0224,0224,2014,canonical,0.9900
 JEFFERSON,225,0225,0225,2014,canonical,0.9900
+JEFFERSON,226,226X,226X,2014,abbreviation,0.9800
 JEFFERSON,227,0227,0227,2014,canonical,0.9900
 JEFFERSON,26,0026,0026,2014,canonical,0.9900
 JEFFERSON,27,0027,0027,2014,canonical,0.9900
@@ -4743,15 +4784,18 @@ JEFFERSON,409,0409,0409,2014,canonical,0.9900
 JEFFERSON,41,0041,0041,2014,canonical,0.9900
 JEFFERSON,410,0410,0410,2014,canonical,0.9900
 JEFFERSON,412,0412,0412,2014,canonical,0.9900
+JEFFERSON,413,413X,413X,2014,abbreviation,0.9800
 JEFFERSON,414,0414,0414,2014,canonical,0.9900
 JEFFERSON,415,0415,0415,2014,canonical,0.9900
 JEFFERSON,416,0416,0416,2014,canonical,0.9900
 JEFFERSON,417,0417,0417,2014,canonical,0.9900
+JEFFERSON,418,418X,418X,2014,abbreviation,0.9800
 JEFFERSON,419,0419,0419,2014,canonical,0.9900
 JEFFERSON,420,0420,0420,2014,canonical,0.9900
 JEFFERSON,421,0421,0421,2014,canonical,0.9900
 JEFFERSON,422,0422,0422,2014,canonical,0.9900
 JEFFERSON,423,0423,0423,2014,canonical,0.9900
+JEFFERSON,424,424X,424X,2014,abbreviation,0.9800
 JEFFERSON,425,0425,0425,2014,canonical,0.9900
 JEFFERSON,426,0426,0426,2014,canonical,0.9900
 JEFFERSON,45,0045,0045,2014,canonical,0.9900
@@ -4870,10 +4914,10 @@ LAWRENCE,RICHWOODS,25 - Richwoods,25 - Richwoods,2014,canonical,0.9900
 LAWRENCE,SPRING RIVER,26 - Spring River,26 - Spring River,2014,canonical,0.9900
 LAWRENCE,STRAWBERRY,27 - Strawberry,27 - Strawberry,2014,canonical,0.9900
 LAWRENCE,THACKER,28 - Thacker,28 - Thacker,2014,canonical,0.9900
-LEE,WARD 1,Precinct 1,Precinct 1,2014,containment,0.9500
-LEE,WARD 2,Precinct 2,Precinct 2,2014,containment,0.9500
-LEE,WARD 3,Precinct 3,Precinct 3,2014,containment,0.9500
-LEE,WARD 4,Precinct 4,Precinct 4,2014,containment,0.9500
+LEE,WARD 1,Precinct 1,Precinct 1,2014,structural,0.9850
+LEE,WARD 2,Precinct 2,Precinct 2,2014,structural,0.9850
+LEE,WARD 3,Precinct 3,Precinct 3,2014,structural,0.9850
+LEE,WARD 4,Precinct 4,Precinct 4,2014,structural,0.9850
 LINCOLN,AUBURN,001 - Auburn,001 - Auburn,2014,canonical,0.9900
 LINCOLN,BAR/TARRY,002 - Tarry,002 - Tarry,2014,containment,0.9500
 LINCOLN,BAR/YORKTOWN,003 - Yorktown,003 - Yorktown,2014,containment,0.9500
@@ -5425,6 +5469,8 @@ SCOTT,JONES/LITTLE TEXAS,16 - Jones/Little Texas,16 - Jones/Little Texas,2014,ca
 SCOTT,KEENER,17 - Keener,17 - Keener,2014,canonical,0.9900
 SCOTT,LAFAVE,19 - Lafave,19 - Lafave,2014,canonical,0.9900
 SCOTT,LAMB,18 - Lamb,18 - Lamb,2014,canonical,0.9900
+SCOTT,LEWIS WARD 1,20 - Lewis 1,20 - Lewis 1,2014,structural,0.9850
+SCOTT,LEWIS WARD 2,21 - Lewis 2,21 - Lewis 2,2014,structural,0.9850
 SCOTT,MILL CREEK,22 - Mill Creek,22 - Mill Creek,2014,canonical,0.9900
 SCOTT,MOUNTAIN,23 - Mountain,23 - Mountain,2014,canonical,0.9900
 SCOTT,PARKS,25 - Parks,25 - Parks,2014,canonical,0.9900
@@ -5831,6 +5877,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2016,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2016,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2016,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2016,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2016,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2016,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2016,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2016,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2016,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2016,canonical,0.9900
@@ -5848,11 +5897,16 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2016,canonical,0.9900
 ARKANSAS,PT DELUCE,37 - PT Deluce,37 - PT Deluce,2016,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2016,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2016,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2016,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2016,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2016,structural,0.9850
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2016,canonical,0.9900
 ASHLEY,CROSSETT WARD 1,01 - Crossett Ward 1,01 - Crossett Ward 1,2016,canonical,0.9900
 ASHLEY,CROSSETT WARD 2,02 - Crossett Ward 2,02 - Crossett Ward 2,2016,canonical,0.9900
 ASHLEY,CROSSETT WARD 3,03 - Crossett Ward 3,03 - Crossett Ward 3,2016,canonical,0.9900
 ASHLEY,CROSSROADS,10 - Cross Roads,10 - Cross Roads,2016,fuzzy_high,0.9524
+ASHLEY,FH CITY,19 - Fountain Hill City,19 - Fountain Hill City,2016,abbreviation,0.9800
+ASHLEY,FH RURAL,20 - Fountain Hill Rural,20 - Fountain Hill Rural,2016,abbreviation,0.9800
 ASHLEY,HAMBURG WARD 1,13 - Hamburg Ward 1,13 - Hamburg Ward 1,2016,canonical,0.9900
 ASHLEY,HAMBURG WARD 2,12 - Hamburg Ward 2,12 - Hamburg Ward 2,2016,canonical,0.9900
 ASHLEY,HAMBURG WARD 3,11 - Hamburg Ward 3,11 - Hamburg Ward 3,2016,canonical,0.9900
@@ -7486,6 +7540,7 @@ SEVIER,CLEAR CREEK 2,Clear Creek 2,Clear Creek 2,2016,exact,1.0000
 SEVIER,DE QUEEN EAST,De Queen East,De Queen East,2016,exact,1.0000
 SEVIER,DE QUEEN NORTH CENTRAL,De Queen North Central,De Queen North Central,2016,exact,1.0000
 SEVIER,DE QUEEN SOUTHWEST,De Queen Southwest,De Queen Southwest,2016,exact,1.0000
+SEVIER,DQ NORTHWEST,De Queen Northwest,De Queen Northwest,2016,abbreviation,0.9800
 SEVIER,JEFFERSON,Jefferson,Jefferson,2016,exact,1.0000
 SEVIER,MINERAL,Mineral,Mineral,2016,exact,1.0000
 SEVIER,MONROE,Monroe,Monroe,2016,exact,1.0000
@@ -7861,6 +7916,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2018,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2018,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2018,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2018,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2018,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2018,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2018,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2018,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2018,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2018,canonical,0.9900
@@ -7878,21 +7936,36 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2018,canonical,0.9900
 ARKANSAS,PT DELUCE,37 - PT Deluce,37 - PT Deluce,2018,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2018,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2018,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2018,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2018,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2018,structural,0.9850
 ASHLEY,BEECH CREEK,17 - Beech Creek,17 - Beech Creek,2018,canonical,0.9900
 ASHLEY,BOYDELL,23 - Boydell,23 - Boydell,2018,canonical,0.9900
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2018,canonical,0.9900
 ASHLEY,CROSSROADS,10 - Cross Roads,10 - Cross Roads,2018,fuzzy_high,0.9524
+ASHLEY,CW1,01 - Crossett Ward 1,01 - Crossett Ward 1,2018,abbreviation,0.9800
+ASHLEY,CW2,02 - Crossett Ward 2,02 - Crossett Ward 2,2018,abbreviation,0.9800
+ASHLEY,CW3,03 - Crossett Ward 3,03 - Crossett Ward 3,2018,abbreviation,0.9800
+ASHLEY,FH CITY,19 - Fountain Hill City,19 - Fountain Hill City,2018,abbreviation,0.9800
+ASHLEY,FH RURAL,20 - Fountain Hill Rural,20 - Fountain Hill Rural,2018,abbreviation,0.9800
 ASHLEY,HAMBURG RURAL,14 - Hamburg Rural,14 - Hamburg Rural,2018,canonical,0.9900
 ASHLEY,HICKORY GROVE,09 - Hickory Grove,09 - Hickory Grove,2018,canonical,0.9900
+ASHLEY,HW1,13 - Hamburg Ward 1,13 - Hamburg Ward 1,2018,abbreviation,0.9800
+ASHLEY,HW2,12 - Hamburg Ward 2,12 - Hamburg Ward 2,2018,abbreviation,0.9800
+ASHLEY,HW3,11 - Hamburg Ward 3,11 - Hamburg Ward 3,2018,abbreviation,0.9800
 ASHLEY,MILO,16 - Milo,16 - Milo,2018,canonical,0.9900
 ASHLEY,MIST,18 - Mist,18 - Mist,2018,canonical,0.9900
 ASHLEY,MONTROSE CITY,25 - Montrose City,25 - Montrose City,2018,canonical,0.9900
 ASHLEY,MONTROSE RURAL,26 - Montrose Rural,26 - Montrose Rural,2018,canonical,0.9900
 ASHLEY,MT ZION,15 - Mt. Zion,15 - Mt. Zion,2018,canonical,0.9900
+ASHLEY,NCE,04 - North Crossett East,04 - North Crossett East,2018,abbreviation,0.9800
+ASHLEY,NCW,05 - North Crossett West,05 - North Crossett West,2018,abbreviation,0.9800
 ASHLEY,PARKDALE CITY,27 - Parkdale City,27 - Parkdale City,2018,canonical,0.9900
 ASHLEY,PARKDALE RURAL,28 - Parkdale Rural,28 - Parkdale Rural,2018,canonical,0.9900
 ASHLEY,PORTLAND CITY,21 - Portland City,21 - Portland City,2018,canonical,0.9900
 ASHLEY,PORTLAND RURAL,22 - Portland Rural,22 - Portland Rural,2018,canonical,0.9900
+ASHLEY,SNY/TRA,24 - Snyder / Trafalgar,24 - Snyder / Trafalgar,2018,abbreviation,0.9800
+ASHLEY,WCR,06 - West Crossett Rural,06 - West Crossett Rural,2018,abbreviation,0.9800
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2018,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2018,canonical,0.9900
 BAXTER,1-1,1-1,1-1,2018,exact,1.0000
@@ -8826,6 +8899,7 @@ JEFFERSON,093,0093,0093,2018,canonical,0.9900
 JEFFERSON,094,0094,0094,2018,canonical,0.9900
 JEFFERSON,101,0101,0101,2018,canonical,0.9900
 JEFFERSON,102,0102,0102,2018,canonical,0.9900
+JEFFERSON,103,103X,103X,2018,abbreviation,0.9800
 JEFFERSON,104,0104,0104,2018,canonical,0.9900
 JEFFERSON,105,0105,0105,2018,canonical,0.9900
 JEFFERSON,106,106,106,2018,exact,1.0000
@@ -8875,6 +8949,7 @@ JEFFERSON,222,0222,0222,2018,canonical,0.9900
 JEFFERSON,223,0223,0223,2018,canonical,0.9900
 JEFFERSON,224,0224,0224,2018,canonical,0.9900
 JEFFERSON,225,0225,0225,2018,canonical,0.9900
+JEFFERSON,226,226X,226X,2018,abbreviation,0.9800
 JEFFERSON,227,0227,0227,2018,canonical,0.9900
 JEFFERSON,301,0301,0301,2018,canonical,0.9900
 JEFFERSON,302,0302,0302,2018,canonical,0.9900
@@ -8917,15 +8992,18 @@ JEFFERSON,408,0408,0408,2018,canonical,0.9900
 JEFFERSON,409,0409,0409,2018,canonical,0.9900
 JEFFERSON,410,0410,0410,2018,canonical,0.9900
 JEFFERSON,412,0412,0412,2018,canonical,0.9900
+JEFFERSON,413,413X,413X,2018,abbreviation,0.9800
 JEFFERSON,414,0414,0414,2018,canonical,0.9900
 JEFFERSON,415,0415,0415,2018,canonical,0.9900
 JEFFERSON,416,0416,0416,2018,canonical,0.9900
 JEFFERSON,417,0417,0417,2018,canonical,0.9900
+JEFFERSON,418,418X,418X,2018,abbreviation,0.9800
 JEFFERSON,419,0419,0419,2018,canonical,0.9900
 JEFFERSON,420,0420,0420,2018,canonical,0.9900
 JEFFERSON,421,0421,0421,2018,canonical,0.9900
 JEFFERSON,422,0422,0422,2018,canonical,0.9900
 JEFFERSON,423,0423,0423,2018,canonical,0.9900
+JEFFERSON,424,424X,424X,2018,abbreviation,0.9800
 JEFFERSON,425,0425,0425,2018,canonical,0.9900
 JEFFERSON,426,0426,0426,2018,canonical,0.9900
 JEFFERSON,510,0510,0510,2018,canonical,0.9900
@@ -9545,6 +9623,8 @@ SCOTT,JONES/LITTLE TEXAS,16 - Jones/Little Texas,16 - Jones/Little Texas,2018,ca
 SCOTT,KEENER,17 - Keener,17 - Keener,2018,canonical,0.9900
 SCOTT,LAFAVE,19 - Lafave,19 - Lafave,2018,canonical,0.9900
 SCOTT,LAMB,18 - Lamb,18 - Lamb,2018,canonical,0.9900
+SCOTT,LEWIS WARD 1,20 - Lewis 1,20 - Lewis 1,2018,structural,0.9850
+SCOTT,LEWIS WARD 2,21 - Lewis 2,21 - Lewis 2,2018,structural,0.9850
 SCOTT,MILL CREEK,22 - Mill Creek,22 - Mill Creek,2018,canonical,0.9900
 SCOTT,MOUNTAIN,23 - Mountain,23 - Mountain,2018,canonical,0.9900
 SCOTT,PARKS,25 - Parks,25 - Parks,2018,canonical,0.9900
@@ -9632,6 +9712,7 @@ SEVIER,CLEAR CREEK 2,Clear Creek 2,Clear Creek 2,2018,exact,1.0000
 SEVIER,DE QUEEN EAST,De Queen East,De Queen East,2018,exact,1.0000
 SEVIER,DE QUEEN NORTH CENTRAL,De Queen North Central,De Queen North Central,2018,exact,1.0000
 SEVIER,DE QUEEN SOUTHWEST,De Queen Southwest,De Queen Southwest,2018,exact,1.0000
+SEVIER,DQ NORTHWEST,De Queen Northwest,De Queen Northwest,2018,abbreviation,0.9800
 SEVIER,JEFFERSON,Jefferson,Jefferson,2018,exact,1.0000
 SEVIER,MINERAL,Mineral,Mineral,2018,exact,1.0000
 SEVIER,MONROE,Monroe,Monroe,2018,exact,1.0000
@@ -10013,6 +10094,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2020,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2020,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2020,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2020,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2020,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2020,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2020,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2020,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2020,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2020,canonical,0.9900
@@ -10030,20 +10114,35 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2020,canonical,0.9900
 ARKANSAS,PT DELUCE,37 - PT Deluce,37 - PT Deluce,2020,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2020,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2020,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2020,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2020,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2020,structural,0.9850
 ASHLEY,BEECH CREEK,17 - Beech Creek,17 - Beech Creek,2020,canonical,0.9900
 ASHLEY,BOYDELL,23 - Boydell,23 - Boydell,2020,canonical,0.9900
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2020,canonical,0.9900
 ASHLEY,CROSSROADS,10 - Cross Roads,10 - Cross Roads,2020,fuzzy_high,0.9524
+ASHLEY,CW1,01 - Crossett Ward 1,01 - Crossett Ward 1,2020,abbreviation,0.9800
+ASHLEY,CW2,02 - Crossett Ward 2,02 - Crossett Ward 2,2020,abbreviation,0.9800
+ASHLEY,CW3,03 - Crossett Ward 3,03 - Crossett Ward 3,2020,abbreviation,0.9800
+ASHLEY,FH CITY,19 - Fountain Hill City,19 - Fountain Hill City,2020,abbreviation,0.9800
+ASHLEY,FH RURAL,20 - Fountain Hill Rural,20 - Fountain Hill Rural,2020,abbreviation,0.9800
 ASHLEY,HICKORY GROVE,09 - Hickory Grove,09 - Hickory Grove,2020,canonical,0.9900
+ASHLEY,HW1,13 - Hamburg Ward 1,13 - Hamburg Ward 1,2020,abbreviation,0.9800
+ASHLEY,HW2,12 - Hamburg Ward 2,12 - Hamburg Ward 2,2020,abbreviation,0.9800
+ASHLEY,HW3,11 - Hamburg Ward 3,11 - Hamburg Ward 3,2020,abbreviation,0.9800
 ASHLEY,MILO,16 - Milo,16 - Milo,2020,canonical,0.9900
 ASHLEY,MIST,18 - Mist,18 - Mist,2020,canonical,0.9900
 ASHLEY,MONTROSE CITY,25 - Montrose City,25 - Montrose City,2020,canonical,0.9900
 ASHLEY,MONTROSE RURAL,26 - Montrose Rural,26 - Montrose Rural,2020,canonical,0.9900
 ASHLEY,MT ZION,15 - Mt. Zion,15 - Mt. Zion,2020,canonical,0.9900
+ASHLEY,NCE,04 - North Crossett East,04 - North Crossett East,2020,abbreviation,0.9800
+ASHLEY,NCW,05 - North Crossett West,05 - North Crossett West,2020,abbreviation,0.9800
 ASHLEY,PARKDALE CITY,27 - Parkdale City,27 - Parkdale City,2020,canonical,0.9900
 ASHLEY,PARKDALE RURAL,28 - Parkdale Rural,28 - Parkdale Rural,2020,canonical,0.9900
 ASHLEY,PORTLAND CITY,21 - Portland City,21 - Portland City,2020,canonical,0.9900
 ASHLEY,PORTLAND RURAL,22 - Portland Rural,22 - Portland Rural,2020,canonical,0.9900
+ASHLEY,SNY/TRA,24 - Snyder / Trafalgar,24 - Snyder / Trafalgar,2020,abbreviation,0.9800
+ASHLEY,WCR,06 - West Crossett Rural,06 - West Crossett Rural,2020,abbreviation,0.9800
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2020,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2020,canonical,0.9900
 BAXTER,1-1,1-1,1-1,2020,exact,1.0000
@@ -10784,6 +10883,7 @@ HOWARD,NASHVILLE WARD 6,32 - Nashville Ward 6,32 - Nashville Ward 6,2020,canonic
 HOWARD,SARATOGA,47 - Saratoga,47 - Saratoga,2020,canonical,0.9900
 INDEPENDENCE,ASHLEY,Ashley,Ashley,2020,exact,1.0000
 INDEPENDENCE,BARREN,Barren,Barren,2020,exact,1.0000
+INDEPENDENCE,BBWL,Big Bottom / Wycough / Logan,Big Bottom / Wycough / Logan,2020,abbreviation,0.9800
 INDEPENDENCE,BLACK RIVER/MARSHALL,Black River / Marshall,Black River / Marshall,2020,exact,1.0000
 INDEPENDENCE,CUSHMAN/UNION,Cushman / Union,Cushman / Union,2020,exact,1.0000
 INDEPENDENCE,DEPARTEE,Departee,Departee,2020,exact,1.0000
@@ -11690,6 +11790,8 @@ SCOTT,JONES/LITTLE TEXAS,16 - Jones/Little Texas,16 - Jones/Little Texas,2020,ca
 SCOTT,KEENER,17 - Keener,17 - Keener,2020,canonical,0.9900
 SCOTT,LAFAVE,19 - Lafave,19 - Lafave,2020,canonical,0.9900
 SCOTT,LAMB,18 - Lamb,18 - Lamb,2020,canonical,0.9900
+SCOTT,LEWIS WARD 1,20 - Lewis 1,20 - Lewis 1,2020,structural,0.9850
+SCOTT,LEWIS WARD 2,21 - Lewis 2,21 - Lewis 2,2020,structural,0.9850
 SCOTT,MILL CREEK,22 - Mill Creek,22 - Mill Creek,2020,canonical,0.9900
 SCOTT,MOUNTAIN,23 - Mountain,23 - Mountain,2020,canonical,0.9900
 SCOTT,PARKS,25 - Parks,25 - Parks,2020,canonical,0.9900
@@ -12117,6 +12219,15 @@ WHITE,UNION,82 - Union,82 - Union,2020,canonical,0.9900
 WHITE,VELVET RIDGE,83 - Velvet Ridge,83 - Velvet Ridge,2020,canonical,0.9900
 WHITE,WALKER,84 - Walker,84 - Walker,2020,canonical,0.9900
 WHITE,WEST POINT,85 - West Point,85 - West Point,2020,canonical,0.9900
+WOODRUFF,FAKES CHAPEL PRECINCT 20,Fakes Chapel - 20,Fakes Chapel - 20,2020,structural,0.9850
+WOODRUFF,GREGORY PRECINCT 6,Gregory - 06,Gregory - 06,2020,structural,0.9850
+WOODRUFF,HILLEMAN PRECINCT 13,Hilleman - 13,Hilleman - 13,2020,structural,0.9850
+WOODRUFF,HOWELL PRECINCT 12,Howell - 12,Howell - 12,2020,structural,0.9850
+WOODRUFF,MCCRORY RURAL PRECINCT 15,McCrory Rural - 15,McCrory Rural - 15,2020,structural,0.9850
+WOODRUFF,MORTON PRECINCT 14,Morton - 14,Morton - 14,2020,structural,0.9850
+WOODRUFF,NORTH RURAL AUGUSTA PRECINCT 4,North Rural Augusta - 04,North Rural Augusta - 04,2020,structural,0.9850
+WOODRUFF,RURAL HUNTER PRECINCT 10,Rural Hunter - 10,Rural Hunter - 10,2020,structural,0.9850
+WOODRUFF,SOUTH RURAL AUGUSTA PRECINCT 5,South Rural Augusta - 05,South Rural Augusta - 05,2020,structural,0.9850
 YELL,BLUFFTON,01 - Bluffton,01 - Bluffton,2020,canonical,0.9900
 YELL,BRIGGSVILLE,02 - Briggsville,02 - Briggsville,2020,canonical,0.9900
 YELL,CENTERVILLE,03 - Centerville,03 - Centerville,2020,canonical,0.9900
@@ -12152,6 +12263,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2022,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2022,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2022,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2022,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2022,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2022,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2022,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2022,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2022,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2022,canonical,0.9900
@@ -12169,24 +12283,36 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2022,canonical,0.9900
 ARKANSAS,PT DELUCE,37 - PT Deluce,37 - PT Deluce,2022,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2022,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2022,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2022,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2022,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2022,structural,0.9850
 ASHLEY,BEECH CREEK,17 - Beech Creek,17 - Beech Creek,2022,canonical,0.9900
 ASHLEY,BOYDELL,23 - Boydell,23 - Boydell,2022,canonical,0.9900
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2022,canonical,0.9900
 ASHLEY,CROSSROADS,10 - Cross Roads,10 - Cross Roads,2022,fuzzy_high,0.9524
+ASHLEY,CW1,01 - Crossett Ward 1,01 - Crossett Ward 1,2022,abbreviation,0.9800
+ASHLEY,CW2,02 - Crossett Ward 2,02 - Crossett Ward 2,2022,abbreviation,0.9800
+ASHLEY,CW3,03 - Crossett Ward 3,03 - Crossett Ward 3,2022,abbreviation,0.9800
 ASHLEY,FOUNTAIN HILL CITY,19 - Fountain Hill City,19 - Fountain Hill City,2022,canonical,0.9900
 ASHLEY,FOUNTAIN HILL RURAL,20 - Fountain Hill Rural,20 - Fountain Hill Rural,2022,canonical,0.9900
 ASHLEY,HAMBURG RURAL,14 - Hamburg Rural,14 - Hamburg Rural,2022,canonical,0.9900
 ASHLEY,HICKORY GROVE,09 - Hickory Grove,09 - Hickory Grove,2022,canonical,0.9900
+ASHLEY,HW1,13 - Hamburg Ward 1,13 - Hamburg Ward 1,2022,abbreviation,0.9800
+ASHLEY,HW2,12 - Hamburg Ward 2,12 - Hamburg Ward 2,2022,abbreviation,0.9800
+ASHLEY,HW3,11 - Hamburg Ward 3,11 - Hamburg Ward 3,2022,abbreviation,0.9800
 ASHLEY,MILO,16 - Milo,16 - Milo,2022,canonical,0.9900
 ASHLEY,MIST,18 - Mist,18 - Mist,2022,canonical,0.9900
 ASHLEY,MONTROSE CITY,25 - Montrose City,25 - Montrose City,2022,canonical,0.9900
 ASHLEY,MONTROSE RURAL,26 - Montrose Rural,26 - Montrose Rural,2022,canonical,0.9900
 ASHLEY,MT ZION,15 - Mt. Zion,15 - Mt. Zion,2022,canonical,0.9900
+ASHLEY,NCE,04 - North Crossett East,04 - North Crossett East,2022,abbreviation,0.9800
+ASHLEY,NCW,05 - North Crossett West,05 - North Crossett West,2022,abbreviation,0.9800
 ASHLEY,PARKDALE CITY,27 - Parkdale City,27 - Parkdale City,2022,canonical,0.9900
 ASHLEY,PARKDALE RURAL,28 - Parkdale Rural,28 - Parkdale Rural,2022,canonical,0.9900
 ASHLEY,PORTLAND CITY,21 - Portland City,21 - Portland City,2022,canonical,0.9900
 ASHLEY,PORTLAND RURAL,22 - Portland Rural,22 - Portland Rural,2022,canonical,0.9900
 ASHLEY,SNYDER / TRAFALGAR,24 - Snyder / Trafalgar,24 - Snyder / Trafalgar,2022,canonical,0.9900
+ASHLEY,WCR,06 - West Crossett Rural,06 - West Crossett Rural,2022,abbreviation,0.9800
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2022,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2022,canonical,0.9900
 BENTON,PRECINCT 1,Precinct 01,Precinct 01,2022,canonical,0.9900
@@ -13671,6 +13797,8 @@ SCOTT,JONES/LITTLE TEXAS,16 - Jones/Little Texas,16 - Jones/Little Texas,2022,ca
 SCOTT,KEENER,17 - Keener,17 - Keener,2022,canonical,0.9900
 SCOTT,LAFAVE,19 - Lafave,19 - Lafave,2022,canonical,0.9900
 SCOTT,LAMB,18 - Lamb,18 - Lamb,2022,canonical,0.9900
+SCOTT,LEWIS WARD 1,20 - Lewis 1,20 - Lewis 1,2022,structural,0.9850
+SCOTT,LEWIS WARD 2,21 - Lewis 2,21 - Lewis 2,2022,structural,0.9850
 SCOTT,MILL CREEK,22 - Mill Creek,22 - Mill Creek,2022,canonical,0.9900
 SCOTT,MOUNTAIN,23 - Mountain,23 - Mountain,2022,canonical,0.9900
 SCOTT,PARKS,25 - Parks,25 - Parks,2022,canonical,0.9900
@@ -14133,6 +14261,9 @@ ARKANSAS,BAYOU METO,38 - Bayou Meto,38 - Bayou Meto,2024,canonical,0.9900
 ARKANSAS,BREWER,45 - Brewer,45 - Brewer,2024,canonical,0.9900
 ARKANSAS,CHESTER,31 - Chester,31 - Chester,2024,canonical,0.9900
 ARKANSAS,CROCKETT,12 - Crockett,12 - Crockett,2024,canonical,0.9900
+ARKANSAS,DEWITT WARD 1,51 - DeWitt 1,51 - DeWitt 1,2024,structural,0.9850
+ARKANSAS,DEWITT WARD 2,53 - Dewitt 2,53 - Dewitt 2,2024,structural,0.9850
+ARKANSAS,DEWITT WARD 3,55 - Dewitt 3,55 - Dewitt 3,2024,structural,0.9850
 ARKANSAS,GARLAND,46 - Garland,46 - Garland,2024,canonical,0.9900
 ARKANSAS,GILLETT WARD 1,34 - Gillett Ward 1,34 - Gillett Ward 1,2024,canonical,0.9900
 ARKANSAS,GILLETT WARD 2,35 - Gillett Ward 2,35 - Gillett Ward 2,2024,canonical,0.9900
@@ -14150,24 +14281,36 @@ ARKANSAS,PRAIRIE,21 - Prairie,21 - Prairie,2024,canonical,0.9900
 ARKANSAS,PT DELUCE,37 - PT Deluce,37 - PT Deluce,2024,canonical,0.9900
 ARKANSAS,ST. CHARLES,23 - St. Charles,23 - St. Charles,2024,canonical,0.9900
 ARKANSAS,STANLEY,33 - Stanley,33 - Stanley,2024,canonical,0.9900
+ARKANSAS,STUTTGART WARD 1,71 - Stuttgart 1,71 - Stuttgart 1,2024,structural,0.9850
+ARKANSAS,STUTTGART WARD 2,81 - Stuttgart 2,81 - Stuttgart 2,2024,structural,0.9850
+ARKANSAS,STUTTGART WARD 3,91 - Stuttgart 3,91 - Stuttgart 3,2024,structural,0.9850
 ASHLEY,BEECH CREEK,17 - Beech Creek,17 - Beech Creek,2024,canonical,0.9900
 ASHLEY,BOYDELL,23 - Boydell,23 - Boydell,2024,canonical,0.9900
 ASHLEY,COOTER,08 - Cooter,08 - Cooter,2024,canonical,0.9900
 ASHLEY,CROSSROADS,10 - Cross Roads,10 - Cross Roads,2024,fuzzy_high,0.9524
+ASHLEY,CW1,01 - Crossett Ward 1,01 - Crossett Ward 1,2024,abbreviation,0.9800
+ASHLEY,CW2,02 - Crossett Ward 2,02 - Crossett Ward 2,2024,abbreviation,0.9800
+ASHLEY,CW3,03 - Crossett Ward 3,03 - Crossett Ward 3,2024,abbreviation,0.9800
 ASHLEY,FOUNTAIN HILL CITY,19 - Fountain Hill City,19 - Fountain Hill City,2024,canonical,0.9900
 ASHLEY,FOUNTAIN HILL RURAL,20 - Fountain Hill Rural,20 - Fountain Hill Rural,2024,canonical,0.9900
 ASHLEY,HAMBURG RURAL,14 - Hamburg Rural,14 - Hamburg Rural,2024,canonical,0.9900
 ASHLEY,HICKORY GROVE,09 - Hickory Grove,09 - Hickory Grove,2024,canonical,0.9900
+ASHLEY,HW1,13 - Hamburg Ward 1,13 - Hamburg Ward 1,2024,abbreviation,0.9800
+ASHLEY,HW2,12 - Hamburg Ward 2,12 - Hamburg Ward 2,2024,abbreviation,0.9800
+ASHLEY,HW3,11 - Hamburg Ward 3,11 - Hamburg Ward 3,2024,abbreviation,0.9800
 ASHLEY,MILO,16 - Milo,16 - Milo,2024,canonical,0.9900
 ASHLEY,MIST,18 - Mist,18 - Mist,2024,canonical,0.9900
 ASHLEY,MONTROSE CITY,25 - Montrose City,25 - Montrose City,2024,canonical,0.9900
 ASHLEY,MONTROSE RURAL,26 - Montrose Rural,26 - Montrose Rural,2024,canonical,0.9900
 ASHLEY,MT ZION,15 - Mt. Zion,15 - Mt. Zion,2024,canonical,0.9900
+ASHLEY,NCE,04 - North Crossett East,04 - North Crossett East,2024,abbreviation,0.9800
+ASHLEY,NCW,05 - North Crossett West,05 - North Crossett West,2024,abbreviation,0.9800
 ASHLEY,PARKDALE CITY,27 - Parkdale City,27 - Parkdale City,2024,canonical,0.9900
 ASHLEY,PARKDALE RURAL,28 - Parkdale Rural,28 - Parkdale Rural,2024,canonical,0.9900
 ASHLEY,PORTLAND CITY,21 - Portland City,21 - Portland City,2024,canonical,0.9900
 ASHLEY,PORTLAND RURAL,22 - Portland Rural,22 - Portland Rural,2024,canonical,0.9900
 ASHLEY,SNYDER/TRAFALGAR,24 - Snyder / Trafalgar,24 - Snyder / Trafalgar,2024,canonical,0.9900
+ASHLEY,WCR,06 - West Crossett Rural,06 - West Crossett Rural,2024,abbreviation,0.9800
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2024,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2024,canonical,0.9900
 BENTON,PRECINCT 1,Precinct 01,Precinct 01,2024,canonical,0.9900
@@ -14574,7 +14717,9 @@ FRANKLIN,8-G DONALD RURAL,8-G (Donald Rural),8-G (Donald Rural),2024,exact,1.000
 FRANKLIN,9-A CHARLESTON WD 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2024,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2024,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2024,exact,1.0000
+FULTON,B/U,Benton - Union,Benton - Union,2024,abbreviation,0.9800
 FULTON,CLEVELAND,Cleveland,Cleveland,2024,exact,1.0000
+FULTON,CV,Cherokee Village,Cherokee Village,2024,abbreviation,0.9800
 FULTON,MS/AFTON,MS - Afton,MS - Afton,2024,exact,1.0000
 FULTON,MYATT,Myatt,Myatt,2024,exact,1.0000
 FULTON,PR/SB,PR-SB,PR-SB,2024,exact,1.0000
@@ -15583,6 +15728,8 @@ SCOTT,JONES/LITTLE TEXAS,16 - Jones/Little Texas,16 - Jones/Little Texas,2024,ca
 SCOTT,KEENER,17 - Keener,17 - Keener,2024,canonical,0.9900
 SCOTT,LAFAVE,19 - Lafave,19 - Lafave,2024,canonical,0.9900
 SCOTT,LAMB,18 - Lamb,18 - Lamb,2024,canonical,0.9900
+SCOTT,LEWIS WARD 1,20 - Lewis 1,20 - Lewis 1,2024,structural,0.9850
+SCOTT,LEWIS WARD 2,21 - Lewis 2,21 - Lewis 2,2024,structural,0.9850
 SCOTT,MILL CREEK,22 - Mill Creek,22 - Mill Creek,2024,canonical,0.9900
 SCOTT,MOUNTAIN,23 - Mountain,23 - Mountain,2024,canonical,0.9900
 SCOTT,PARKS,25 - Parks,25 - Parks,2024,canonical,0.9900

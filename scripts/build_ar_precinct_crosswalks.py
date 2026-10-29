@@ -51,6 +51,28 @@ def canonical_label(value: str) -> str:
     return " ".join(tokens)
 
 
+def structural_label(value: str) -> str:
+    """Normalize administrative words without guessing at similar names."""
+    tokens = canonical_label(value).split()
+    return " ".join(token for token in tokens if token not in {"PRECINCT", "WARD"})
+
+
+def abbreviation_variants(value: str) -> set[str]:
+    """Return deterministic abbreviations used by county election exports."""
+    tokens = canonical_label(value).split()
+    if not tokens:
+        return set()
+    variants = {
+        "".join(token[0] for token in tokens),
+        " ".join(token[0] for token in tokens),
+        " ".join(token[:3] for token in tokens),
+    }
+    if len(tokens) > 1:
+        variants.add("".join(token[0] for token in tokens[:-1]) + " " + tokens[-1])
+        variants.add(" ".join(token[:3] for token in tokens[:-1]) + " " + tokens[-1])
+    return {variant for variant in variants if len(variant.replace(" ", "")) >= 2}
+
+
 def load_vtds() -> dict[str, list[dict[str, str]]]:
     payload = json.loads(VTD_PATH.read_text(encoding="utf-8"))
     by_county: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -66,6 +88,8 @@ def load_vtds() -> dict[str, list[dict[str, str]]]:
                     "code": code,
                     "clean": clean_label(name),
                     "canonical": canonical_label(name),
+                    "structural": structural_label(name),
+                    "abbreviations": abbreviation_variants(name),
                 }
             )
     return by_county
@@ -106,6 +130,50 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
     if len(canonical_matches) > 1:
         return {"method": "ambiguous_canonical", "score": 0.99, "targets": canonical_matches}
 
+    structural = structural_label(label)
+    structural_matches = [
+        item for item in targets
+        if (item["structural"] if "structural" in item else structural_label(item["name"])) == structural
+    ]
+    if len(structural_matches) == 1:
+        return {"method": "structural", "score": 0.985, "targets": structural_matches}
+    if len(structural_matches) > 1:
+        return {"method": "ambiguous_structural", "score": 0.985, "targets": structural_matches}
+
+    abbreviation_matches = [
+        item for item in targets
+        if canonical in (item["abbreviations"] if "abbreviations" in item else abbreviation_variants(item["name"]))
+    ]
+    if len(abbreviation_matches) == 1:
+        return {"method": "abbreviation", "score": 0.98, "targets": abbreviation_matches}
+    if len(abbreviation_matches) > 1:
+        return {"method": "ambiguous_abbreviation", "score": 0.98, "targets": abbreviation_matches}
+
+    # Some county exports combine a municipality or numbered group that is
+    # represented by several VTDs.  Preserve all candidates so the district
+    # builder can use the result only when every candidate is district-safe.
+    structural_group = [
+        item for item in targets
+        if len(structural) >= 4
+        and not any(token.isdigit() for token in structural.split())
+        and (item["structural"] if "structural" in item else structural_label(item["name"])).startswith(structural + " ")
+    ]
+    if len(structural_group) > 1:
+        return {"method": "structural_group", "score": 0.97, "targets": structural_group}
+
+    source_tokens = canonical.split()
+    month_tokens = {"JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"}
+    if source_tokens and source_tokens[0].isdigit() and all(
+        token in month_tokens for token in source_tokens[1:]
+    ):
+        prefix_matches = [
+            item for item in targets
+            if item["canonical"].split()
+            and item["canonical"].split()[0] == source_tokens[0]
+        ]
+        if len(prefix_matches) > 1:
+            return {"method": "numeric_group", "score": 0.97, "targets": prefix_matches}
+
     contained = [
         item for item in targets
         if len(canonical) >= 5
@@ -145,7 +213,7 @@ def main() -> int:
     elections = load_election_precincts()
     audit_rows: list[dict[str, object]] = []
     alias_rows: list[dict[str, str]] = []
-    safe_methods = {"exact", "canonical", "containment", "fuzzy_high"}
+    safe_methods = {"exact", "canonical", "structural", "abbreviation", "containment", "fuzzy_high"}
 
     for year in sorted(elections):
         stats: dict[str, int] = defaultdict(int)

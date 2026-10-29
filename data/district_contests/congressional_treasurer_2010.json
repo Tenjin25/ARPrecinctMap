@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "treasurer",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.617422,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 75105,
+        "dem_votes": 130870,
         "rep_votes": 0,
-        "other_votes": 36759,
-        "total_votes": 111864,
+        "other_votes": 57045,
+        "total_votes": 187915,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -75105,
-        "margin_pct": 67.13956232568118,
+        "margin": -130870,
+        "margin_pct": 69.64318974004205,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 94010,
+        "dem_votes": 129103,
         "rep_votes": 0,
-        "other_votes": 38720,
-        "total_votes": 132730,
+        "other_votes": 58857,
+        "total_votes": 187960,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -94010,
-        "margin_pct": 70.82799668499963,
+        "margin": -129103,
+        "margin_pct": 68.68642264311555,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 45790,
+        "dem_votes": 87606,
         "rep_votes": 0,
-        "other_votes": 24569,
-        "total_votes": 70359,
+        "other_votes": 49548,
+        "total_votes": 137154,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -45790,
-        "margin_pct": 65.0805156412115,
+        "margin": -87606,
+        "margin_pct": 63.87418522245068,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 84571,
+        "dem_votes": 132122,
         "rep_votes": 0,
-        "other_votes": 39027,
-        "total_votes": 123598,
+        "other_votes": 65144,
+        "total_votes": 197266,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -84571,
-        "margin_pct": 68.42424634702827,
+        "margin": -132122,
+        "margin_pct": 66.97656970790709,
         "winner": "D"
       }
     }

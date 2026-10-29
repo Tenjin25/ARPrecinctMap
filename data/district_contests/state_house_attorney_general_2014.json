@@ -3,1026 +3,1469 @@
   "scope": "state_house",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2032,
-    "matched_vote_coverage": 0.80743,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 3053,
-        "rep_votes": 3430,
-        "other_votes": 415,
-        "total_votes": 6898,
+        "dem_votes": 3494,
+        "rep_votes": 3889,
+        "other_votes": 462,
+        "total_votes": 7845,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 377,
-        "margin_pct": 5.465352276022036,
+        "margin": 395,
+        "margin_pct": 5.035054174633524,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 3474,
-        "rep_votes": 4781,
-        "other_votes": 541,
-        "total_votes": 8796,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1307,
-        "margin_pct": 14.859026830377445,
-        "winner": "R"
-      },
-      "3": {
-        "dem_votes": 221,
-        "rep_votes": 381,
-        "other_votes": 38,
-        "total_votes": 640,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 160,
-        "margin_pct": 25.0,
-        "winner": "R"
-      },
-      "4": {
-        "dem_votes": 1429,
-        "rep_votes": 3202,
-        "other_votes": 310,
-        "total_votes": 4941,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1773,
-        "margin_pct": 35.88342440801457,
-        "winner": "R"
-      },
-      "5": {
-        "dem_votes": 1,
-        "rep_votes": 1,
-        "other_votes": 0,
-        "total_votes": 2,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "O"
-      },
-      "6": {
-        "dem_votes": 1985,
-        "rep_votes": 3053,
-        "other_votes": 289,
-        "total_votes": 5327,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1068,
-        "margin_pct": 20.04880795945185,
-        "winner": "R"
-      },
-      "7": {
-        "dem_votes": 1499,
-        "rep_votes": 3052,
-        "other_votes": 338,
-        "total_votes": 4889,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1553,
-        "margin_pct": 31.76518715483739,
-        "winner": "R"
-      },
-      "8": {
-        "dem_votes": 2148,
-        "rep_votes": 3828,
-        "other_votes": 388,
-        "total_votes": 6364,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1680,
-        "margin_pct": 26.398491514770583,
-        "winner": "R"
-      },
-      "9": {
-        "dem_votes": 121,
-        "rep_votes": 229,
-        "other_votes": 24,
-        "total_votes": 374,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 108,
-        "margin_pct": 28.87700534759358,
-        "winner": "R"
-      },
-      "10": {
-        "dem_votes": 2670,
-        "rep_votes": 4761,
-        "other_votes": 528,
-        "total_votes": 7959,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2091,
-        "margin_pct": 26.272144741801736,
-        "winner": "R"
-      },
-      "11": {
-        "dem_votes": 467,
-        "rep_votes": 750,
-        "other_votes": 85,
-        "total_votes": 1302,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 283,
-        "margin_pct": 21.7357910906298,
-        "winner": "R"
-      },
-      "12": {
-        "dem_votes": 3534,
-        "rep_votes": 6366,
-        "other_votes": 782,
-        "total_votes": 10682,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2832,
-        "margin_pct": 26.511889159333457,
-        "winner": "R"
-      },
-      "13": {
-        "dem_votes": 1789,
-        "rep_votes": 3378,
-        "other_votes": 333,
-        "total_votes": 5500,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1589,
-        "margin_pct": 28.89090909090909,
-        "winner": "R"
-      },
-      "14": {
-        "dem_votes": 946,
-        "rep_votes": 1830,
-        "other_votes": 203,
-        "total_votes": 2979,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 884,
-        "margin_pct": 29.67438737831487,
-        "winner": "R"
-      },
-      "15": {
-        "dem_votes": 2693,
-        "rep_votes": 4596,
-        "other_votes": 585,
-        "total_votes": 7874,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1903,
-        "margin_pct": 24.16814833629667,
-        "winner": "R"
-      },
-      "16": {
-        "dem_votes": 2161,
-        "rep_votes": 3560,
-        "other_votes": 399,
-        "total_votes": 6120,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1399,
-        "margin_pct": 22.859477124183005,
-        "winner": "R"
-      },
-      "17": {
-        "dem_votes": 2176,
-        "rep_votes": 5367,
-        "other_votes": 575,
-        "total_votes": 8118,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3191,
-        "margin_pct": 39.30771125893077,
-        "winner": "R"
-      },
-      "18": {
-        "dem_votes": 1867,
-        "rep_votes": 2631,
-        "other_votes": 272,
-        "total_votes": 4770,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 764,
-        "margin_pct": 16.0167714884696,
-        "winner": "R"
-      },
-      "19": {
-        "dem_votes": 1191,
-        "rep_votes": 1199,
-        "other_votes": 107,
-        "total_votes": 2497,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 8,
-        "margin_pct": 0.32038446135362436,
-        "winner": "R"
-      },
-      "20": {
-        "dem_votes": 5610,
-        "rep_votes": 3928,
-        "other_votes": 518,
-        "total_votes": 10056,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -1682,
-        "margin_pct": 16.726332537788384,
-        "winner": "D"
-      },
-      "21": {
-        "dem_votes": 3172,
-        "rep_votes": 1002,
-        "other_votes": 332,
-        "total_votes": 4506,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -2170,
-        "margin_pct": 48.158011540168665,
-        "winner": "D"
-      },
-      "22": {
-        "dem_votes": 2842,
-        "rep_votes": 2575,
-        "other_votes": 393,
-        "total_votes": 5810,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -267,
-        "margin_pct": 4.59552495697074,
-        "winner": "D"
-      },
-      "23": {
-        "dem_votes": 3018,
-        "rep_votes": 4059,
-        "other_votes": 575,
-        "total_votes": 7652,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1041,
-        "margin_pct": 13.604286461055933,
-        "winner": "R"
-      },
-      "24": {
-        "dem_votes": 2576,
-        "rep_votes": 5492,
-        "other_votes": 557,
-        "total_votes": 8625,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2916,
-        "margin_pct": 33.80869565217392,
-        "winner": "R"
-      },
-      "25": {
-        "dem_votes": 3057,
-        "rep_votes": 4290,
-        "other_votes": 609,
-        "total_votes": 7956,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1233,
-        "margin_pct": 15.497737556561086,
-        "winner": "R"
-      },
-      "26": {
-        "dem_votes": 2950,
-        "rep_votes": 3978,
-        "other_votes": 449,
-        "total_votes": 7377,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1028,
-        "margin_pct": 13.935204012471194,
-        "winner": "R"
-      },
-      "27": {
-        "dem_votes": 3450,
-        "rep_votes": 6588,
-        "other_votes": 665,
-        "total_votes": 10703,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3138,
-        "margin_pct": 29.318882556292632,
-        "winner": "R"
-      },
-      "28": {
-        "dem_votes": 3068,
-        "rep_votes": 5377,
-        "other_votes": 544,
-        "total_votes": 8989,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2309,
-        "margin_pct": 25.686950717543667,
-        "winner": "R"
-      },
-      "29": {
-        "dem_votes": 3630,
-        "rep_votes": 4540,
-        "other_votes": 500,
-        "total_votes": 8670,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 910,
-        "margin_pct": 10.4959630911188,
-        "winner": "R"
-      },
-      "30": {
-        "dem_votes": 3150,
-        "rep_votes": 3994,
-        "other_votes": 467,
-        "total_votes": 7611,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 844,
-        "margin_pct": 11.089212981211405,
-        "winner": "R"
-      },
-      "31": {
-        "dem_votes": 2820,
-        "rep_votes": 3744,
-        "other_votes": 344,
-        "total_votes": 6908,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 924,
-        "margin_pct": 13.375796178343949,
-        "winner": "R"
-      },
-      "32": {
-        "dem_votes": 3193,
-        "rep_votes": 3395,
-        "other_votes": 369,
-        "total_votes": 6957,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 202,
-        "margin_pct": 2.9035503809113123,
-        "winner": "R"
-      },
-      "33": {
-        "dem_votes": 1877,
-        "rep_votes": 2220,
-        "other_votes": 237,
-        "total_votes": 4334,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 343,
-        "margin_pct": 7.914167051222888,
-        "winner": "R"
-      },
-      "35": {
-        "dem_votes": 503,
-        "rep_votes": 83,
-        "other_votes": 18,
-        "total_votes": 604,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -420,
-        "margin_pct": 69.5364238410596,
-        "winner": "D"
-      },
-      "36": {
-        "dem_votes": 3120,
-        "rep_votes": 3132,
-        "other_votes": 371,
-        "total_votes": 6623,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 12,
-        "margin_pct": 0.1811867733655443,
-        "winner": "R"
-      },
-      "37": {
-        "dem_votes": 2348,
-        "rep_votes": 2532,
-        "other_votes": 212,
-        "total_votes": 5092,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 184,
-        "margin_pct": 3.613511390416339,
-        "winner": "R"
-      },
-      "38": {
-        "dem_votes": 2513,
-        "rep_votes": 3622,
-        "other_votes": 286,
-        "total_votes": 6421,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1109,
-        "margin_pct": 17.27145304469709,
-        "winner": "R"
-      },
-      "39": {
-        "dem_votes": 1583,
-        "rep_votes": 2996,
-        "other_votes": 316,
-        "total_votes": 4895,
+        "dem_votes": 3578,
+        "rep_votes": 4991,
+        "other_votes": 555,
+        "total_votes": 9124,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
         "margin": 1413,
-        "margin_pct": 28.866189989785497,
+        "margin_pct": 15.486628671635247,
         "winner": "R"
       },
-      "40": {
-        "dem_votes": 2469,
-        "rep_votes": 5590,
-        "other_votes": 417,
-        "total_votes": 8476,
+      "3": {
+        "dem_votes": 3135,
+        "rep_votes": 7180,
+        "other_votes": 553,
+        "total_votes": 10868,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3121,
-        "margin_pct": 36.821613968853235,
+        "margin": 4045,
+        "margin_pct": 37.219359587780644,
         "winner": "R"
       },
-      "41": {
-        "dem_votes": 3494,
-        "rep_votes": 7111,
-        "other_votes": 718,
-        "total_votes": 11323,
+      "4": {
+        "dem_votes": 2687,
+        "rep_votes": 6178,
+        "other_votes": 535,
+        "total_votes": 9400,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3617,
-        "margin_pct": 31.943831140157204,
+        "margin": 3491,
+        "margin_pct": 37.138297872340424,
         "winner": "R"
       },
-      "42": {
-        "dem_votes": 2855,
-        "rep_votes": 6022,
-        "other_votes": 528,
-        "total_votes": 9405,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3167,
-        "margin_pct": 33.6735778841042,
-        "winner": "R"
-      },
-      "43": {
-        "dem_votes": 4246,
-        "rep_votes": 4580,
-        "other_votes": 546,
-        "total_votes": 9372,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 334,
-        "margin_pct": 3.5638070849338455,
-        "winner": "R"
-      },
-      "44": {
-        "dem_votes": 2382,
-        "rep_votes": 5177,
-        "other_votes": 549,
-        "total_votes": 8108,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2795,
-        "margin_pct": 34.47212629501727,
-        "winner": "R"
-      },
-      "45": {
-        "dem_votes": 3223,
-        "rep_votes": 4357,
-        "other_votes": 571,
-        "total_votes": 8151,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1134,
-        "margin_pct": 13.912403386087597,
-        "winner": "R"
-      },
-      "46": {
-        "dem_votes": 2749,
-        "rep_votes": 4065,
-        "other_votes": 533,
-        "total_votes": 7347,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1316,
-        "margin_pct": 17.912072954947597,
-        "winner": "R"
-      },
-      "47": {
-        "dem_votes": 1998,
-        "rep_votes": 4855,
-        "other_votes": 470,
-        "total_votes": 7323,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2857,
-        "margin_pct": 39.01406527379489,
-        "winner": "R"
-      },
-      "48": {
-        "dem_votes": 2266,
-        "rep_votes": 4029,
-        "other_votes": 440,
-        "total_votes": 6735,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1763,
-        "margin_pct": 26.176688938381588,
-        "winner": "R"
-      },
-      "49": {
-        "dem_votes": 1362,
-        "rep_votes": 1133,
-        "other_votes": 178,
-        "total_votes": 2673,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -229,
-        "margin_pct": 8.567153011597457,
-        "winner": "D"
-      },
-      "50": {
-        "dem_votes": 3342,
-        "rep_votes": 4682,
-        "other_votes": 567,
-        "total_votes": 8591,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1340,
-        "margin_pct": 15.597718542660925,
-        "winner": "R"
-      },
-      "51": {
-        "dem_votes": 1552,
-        "rep_votes": 2993,
-        "other_votes": 303,
-        "total_votes": 4848,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1441,
-        "margin_pct": 29.723597359735976,
-        "winner": "R"
-      },
-      "52": {
-        "dem_votes": 3119,
-        "rep_votes": 4719,
-        "other_votes": 471,
-        "total_votes": 8309,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1600,
-        "margin_pct": 19.256228186304007,
-        "winner": "R"
-      },
-      "53": {
-        "dem_votes": 1931,
-        "rep_votes": 3066,
-        "other_votes": 271,
-        "total_votes": 5268,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1135,
-        "margin_pct": 21.545178435839027,
-        "winner": "R"
-      },
-      "54": {
-        "dem_votes": 2614,
-        "rep_votes": 3551,
-        "other_votes": 410,
-        "total_votes": 6575,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 937,
-        "margin_pct": 14.250950570342205,
-        "winner": "R"
-      },
-      "55": {
-        "dem_votes": 52,
-        "rep_votes": 40,
-        "other_votes": 6,
-        "total_votes": 98,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -12,
-        "margin_pct": 12.244897959183673,
-        "winner": "D"
-      },
-      "56": {
-        "dem_votes": 645,
-        "rep_votes": 897,
-        "other_votes": 107,
-        "total_votes": 1649,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 252,
-        "margin_pct": 15.281989084293512,
-        "winner": "R"
-      },
-      "57": {
-        "dem_votes": 2500,
-        "rep_votes": 6060,
-        "other_votes": 542,
-        "total_votes": 9102,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3560,
-        "margin_pct": 39.11228301472204,
-        "winner": "R"
-      },
-      "58": {
-        "dem_votes": 2732,
-        "rep_votes": 6041,
-        "other_votes": 436,
-        "total_votes": 9209,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3309,
-        "margin_pct": 35.93224019980454,
-        "winner": "R"
-      },
-      "59": {
-        "dem_votes": 1584,
-        "rep_votes": 3732,
-        "other_votes": 389,
-        "total_votes": 5705,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2148,
-        "margin_pct": 37.651183172655564,
-        "winner": "R"
-      },
-      "60": {
-        "dem_votes": 2402,
-        "rep_votes": 4048,
-        "other_votes": 346,
-        "total_votes": 6796,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1646,
-        "margin_pct": 24.220129487934077,
-        "winner": "R"
-      },
-      "61": {
-        "dem_votes": 3648,
-        "rep_votes": 3406,
-        "other_votes": 268,
-        "total_votes": 7322,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -242,
-        "margin_pct": 3.305107894018028,
-        "winner": "D"
-      },
-      "62": {
-        "dem_votes": 2353,
-        "rep_votes": 1278,
-        "other_votes": 89,
-        "total_votes": 3720,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -1075,
-        "margin_pct": 28.897849462365592,
-        "winner": "D"
-      },
-      "63": {
-        "dem_votes": 91,
-        "rep_votes": 108,
-        "other_votes": 9,
-        "total_votes": 208,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 17,
-        "margin_pct": 8.173076923076923,
-        "winner": "R"
-      },
-      "64": {
-        "dem_votes": 5855,
-        "rep_votes": 1504,
-        "other_votes": 148,
-        "total_votes": 7507,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -4351,
-        "margin_pct": 57.95923804449181,
-        "winner": "D"
-      },
-      "65": {
-        "dem_votes": 5481,
-        "rep_votes": 1466,
-        "other_votes": 169,
-        "total_votes": 7116,
-        "dem_candidate": "Nate Steel",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -4015,
-        "margin_pct": 56.4221472737493,
-        "winner": "D"
-      },
-      "66": {
-        "dem_votes": 4345,
-        "rep_votes": 2143,
-        "other_votes": 250,
+      "6": {
+        "dem_votes": 2590,
+        "rep_votes": 3748,
+        "other_votes": 400,
         "total_votes": 6738,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2202,
-        "margin_pct": 32.68032056990205,
+        "margin": 1158,
+        "margin_pct": 17.186108637577917,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 1997,
+        "rep_votes": 3729,
+        "other_votes": 419,
+        "total_votes": 6145,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1732,
+        "margin_pct": 28.185516680227828,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 2237,
+        "rep_votes": 4177,
+        "other_votes": 469,
+        "total_votes": 6883,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1940,
+        "margin_pct": 28.185384280110416,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 1848,
+        "rep_votes": 1867,
+        "other_votes": 252,
+        "total_votes": 3967,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 19,
+        "margin_pct": 0.4789513486261659,
+        "winner": "R"
+      },
+      "10": {
+        "dem_votes": 2189,
+        "rep_votes": 4088,
+        "other_votes": 459,
+        "total_votes": 6736,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1899,
+        "margin_pct": 28.191805225653205,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 1930,
+        "rep_votes": 2623,
+        "other_votes": 321,
+        "total_votes": 4874,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 693,
+        "margin_pct": 14.21830118998769,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 2511,
+        "rep_votes": 4689,
+        "other_votes": 527,
+        "total_votes": 7727,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2178,
+        "margin_pct": 28.18687718390061,
+        "winner": "R"
+      },
+      "13": {
+        "dem_votes": 1902,
+        "rep_votes": 3553,
+        "other_votes": 399,
+        "total_votes": 5854,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1651,
+        "margin_pct": 28.202938161940555,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 2317,
+        "rep_votes": 4327,
+        "other_votes": 486,
+        "total_votes": 7130,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2010,
+        "margin_pct": 28.190743338008417,
+        "winner": "R"
+      },
+      "15": {
+        "dem_votes": 1910,
+        "rep_votes": 3568,
+        "other_votes": 401,
+        "total_votes": 5879,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1658,
+        "margin_pct": 28.202075182854223,
+        "winner": "R"
+      },
+      "16": {
+        "dem_votes": 2081,
+        "rep_votes": 3887,
+        "other_votes": 436,
+        "total_votes": 6404,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1806,
+        "margin_pct": 28.201124297314177,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 2116,
+        "rep_votes": 3952,
+        "other_votes": 444,
+        "total_votes": 6512,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1836,
+        "margin_pct": 28.194103194103192,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 3120,
+        "rep_votes": 3230,
+        "other_votes": 432,
+        "total_votes": 6782,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 110,
+        "margin_pct": 1.6219404305514595,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 2876,
+        "rep_votes": 2904,
+        "other_votes": 393,
+        "total_votes": 6173,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 28,
+        "margin_pct": 0.4535882067066256,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 3393,
+        "rep_votes": 3427,
+        "other_votes": 463,
+        "total_votes": 7283,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 34,
+        "margin_pct": 0.46684058766991626,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 3646,
+        "rep_votes": 3683,
+        "other_votes": 498,
+        "total_votes": 7827,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 37,
+        "margin_pct": 0.47272262680465055,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 3442,
+        "rep_votes": 3477,
+        "other_votes": 470,
+        "total_votes": 7389,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 35,
+        "margin_pct": 0.4736770875625931,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 3211,
+        "rep_votes": 3243,
+        "other_votes": 438,
+        "total_votes": 6892,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 32,
+        "margin_pct": 0.4643064422518862,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 2486,
+        "rep_votes": 4723,
+        "other_votes": 512,
+        "total_votes": 7721,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2237,
+        "margin_pct": 28.972930967491255,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 2933,
+        "rep_votes": 3695,
+        "other_votes": 456,
+        "total_votes": 7084,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 762,
+        "margin_pct": 10.756634669678148,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 3634,
+        "rep_votes": 4919,
+        "other_votes": 548,
+        "total_votes": 9101,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1285,
+        "margin_pct": 14.119327546423472,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 3601,
+        "rep_votes": 6775,
+        "other_votes": 690,
+        "total_votes": 11066,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3174,
+        "margin_pct": 28.682450750045184,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 3101,
+        "rep_votes": 5154,
+        "other_votes": 505,
+        "total_votes": 8760,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2053,
+        "margin_pct": 23.436073059360734,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 3557,
+        "rep_votes": 4676,
+        "other_votes": 520,
+        "total_votes": 8753,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1119,
+        "margin_pct": 12.784188278304581,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 3214,
+        "rep_votes": 3807,
+        "other_votes": 418,
+        "total_votes": 7439,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 593,
+        "margin_pct": 7.971501545906707,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 3001,
+        "rep_votes": 3965,
+        "other_votes": 370,
+        "total_votes": 7336,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 964,
+        "margin_pct": 13.140676117775355,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 3105,
+        "rep_votes": 3725,
+        "other_votes": 375,
+        "total_votes": 7205,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 620,
+        "margin_pct": 8.605135322692574,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 3196,
+        "rep_votes": 3305,
+        "other_votes": 357,
+        "total_votes": 6858,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 109,
+        "margin_pct": 1.589384660250802,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 3908,
+        "rep_votes": 3143,
+        "other_votes": 388,
+        "total_votes": 7439,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -765,
+        "margin_pct": 10.283640274230407,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 3710,
+        "rep_votes": 2765,
+        "other_votes": 182,
+        "total_votes": 6657,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -945,
+        "margin_pct": 14.195583596214512,
+        "winner": "D"
+      },
+      "36": {
+        "dem_votes": 3150,
+        "rep_votes": 3747,
+        "other_votes": 399,
+        "total_votes": 7296,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 597,
+        "margin_pct": 8.182565789473683,
+        "winner": "R"
+      },
+      "37": {
+        "dem_votes": 4630,
+        "rep_votes": 3818,
+        "other_votes": 327,
+        "total_votes": 8775,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -812,
+        "margin_pct": 9.253561253561253,
+        "winner": "D"
+      },
+      "38": {
+        "dem_votes": 3298,
+        "rep_votes": 3870,
+        "other_votes": 408,
+        "total_votes": 7576,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 572,
+        "margin_pct": 7.550158394931363,
+        "winner": "R"
+      },
+      "39": {
+        "dem_votes": 2955,
+        "rep_votes": 4632,
+        "other_votes": 430,
+        "total_votes": 8017,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1677,
+        "margin_pct": 20.91804914556567,
+        "winner": "R"
+      },
+      "40": {
+        "dem_votes": 2462,
+        "rep_votes": 5583,
+        "other_votes": 435,
+        "total_votes": 8480,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3121,
+        "margin_pct": 36.804245283018865,
+        "winner": "R"
+      },
+      "41": {
+        "dem_votes": 3674,
+        "rep_votes": 7579,
+        "other_votes": 760,
+        "total_votes": 12013,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3905,
+        "margin_pct": 32.50645134437693,
+        "winner": "R"
+      },
+      "42": {
+        "dem_votes": 3153,
+        "rep_votes": 4702,
+        "other_votes": 494,
+        "total_votes": 8349,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1549,
+        "margin_pct": 18.5531201341478,
+        "winner": "R"
+      },
+      "43": {
+        "dem_votes": 4346,
+        "rep_votes": 4902,
+        "other_votes": 567,
+        "total_votes": 9815,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 556,
+        "margin_pct": 5.664798777381559,
+        "winner": "R"
+      },
+      "44": {
+        "dem_votes": 2513,
+        "rep_votes": 4634,
+        "other_votes": 483,
+        "total_votes": 7630,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2121,
+        "margin_pct": 27.798165137614678,
+        "winner": "R"
+      },
+      "45": {
+        "dem_votes": 3227,
+        "rep_votes": 4262,
+        "other_votes": 554,
+        "total_votes": 8043,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1035,
+        "margin_pct": 12.868332711674748,
+        "winner": "R"
+      },
+      "46": {
+        "dem_votes": 3568,
+        "rep_votes": 4808,
+        "other_votes": 649,
+        "total_votes": 9025,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1240,
+        "margin_pct": 13.739612188365651,
+        "winner": "R"
+      },
+      "47": {
+        "dem_votes": 2667,
+        "rep_votes": 4494,
+        "other_votes": 483,
+        "total_votes": 7644,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1827,
+        "margin_pct": 23.9010989010989,
+        "winner": "R"
+      },
+      "48": {
+        "dem_votes": 2355,
+        "rep_votes": 4707,
+        "other_votes": 501,
+        "total_votes": 7563,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2352,
+        "margin_pct": 31.098770329234434,
+        "winner": "R"
+      },
+      "49": {
+        "dem_votes": 2006,
+        "rep_votes": 3379,
+        "other_votes": 364,
+        "total_votes": 5749,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1373,
+        "margin_pct": 23.882414332927464,
+        "winner": "R"
+      },
+      "50": {
+        "dem_votes": 2725,
+        "rep_votes": 4592,
+        "other_votes": 494,
+        "total_votes": 7811,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1867,
+        "margin_pct": 23.902189220330303,
+        "winner": "R"
+      },
+      "51": {
+        "dem_votes": 2959,
+        "rep_votes": 4987,
+        "other_votes": 537,
+        "total_votes": 8483,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2028,
+        "margin_pct": 23.9066368030178,
+        "winner": "R"
+      },
+      "52": {
+        "dem_votes": 3151,
+        "rep_votes": 4440,
+        "other_votes": 479,
+        "total_votes": 8070,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1289,
+        "margin_pct": 15.972738537794301,
+        "winner": "R"
+      },
+      "53": {
+        "dem_votes": 2544,
+        "rep_votes": 4723,
+        "other_votes": 489,
+        "total_votes": 7756,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2179,
+        "margin_pct": 28.094378545642083,
+        "winner": "R"
+      },
+      "54": {
+        "dem_votes": 3536,
+        "rep_votes": 4927,
+        "other_votes": 529,
+        "total_votes": 8992,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1391,
+        "margin_pct": 15.469306049822066,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 3419,
+        "rep_votes": 4937,
+        "other_votes": 479,
+        "total_votes": 8835,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1518,
+        "margin_pct": 17.181663837011886,
+        "winner": "R"
+      },
+      "56": {
+        "dem_votes": 3182,
+        "rep_votes": 4595,
+        "other_votes": 446,
+        "total_votes": 8223,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1413,
+        "margin_pct": 17.18350966800438,
+        "winner": "R"
+      },
+      "57": {
+        "dem_votes": 2780,
+        "rep_votes": 4870,
+        "other_votes": 450,
+        "total_votes": 8100,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2090,
+        "margin_pct": 25.80246913580247,
+        "winner": "R"
+      },
+      "58": {
+        "dem_votes": 2634,
+        "rep_votes": 5881,
+        "other_votes": 515,
+        "total_votes": 9030,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3247,
+        "margin_pct": 35.95791805094131,
+        "winner": "R"
+      },
+      "59": {
+        "dem_votes": 2318,
+        "rep_votes": 5062,
+        "other_votes": 454,
+        "total_votes": 7834,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2744,
+        "margin_pct": 35.02680622925708,
+        "winner": "R"
+      },
+      "60": {
+        "dem_votes": 2825,
+        "rep_votes": 5499,
+        "other_votes": 519,
+        "total_votes": 8843,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2674,
+        "margin_pct": 30.238606807644462,
+        "winner": "R"
+      },
+      "61": {
+        "dem_votes": 4949,
+        "rep_votes": 4061,
+        "other_votes": 357,
+        "total_votes": 9367,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -888,
+        "margin_pct": 9.480089676523967,
+        "winner": "D"
+      },
+      "62": {
+        "dem_votes": 6359,
+        "rep_votes": 3011,
+        "other_votes": 258,
+        "total_votes": 9628,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -3348,
+        "margin_pct": 34.773577066888244,
+        "winner": "D"
+      },
+      "63": {
+        "dem_votes": 4255,
+        "rep_votes": 2757,
+        "other_votes": 187,
+        "total_votes": 7199,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1498,
+        "margin_pct": 20.808445617446868,
+        "winner": "D"
+      },
+      "64": {
+        "dem_votes": 5356,
+        "rep_votes": 2877,
+        "other_votes": 265,
+        "total_votes": 8498,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -2479,
+        "margin_pct": 29.171569781124973,
+        "winner": "D"
+      },
+      "65": {
+        "dem_votes": 6058,
+        "rep_votes": 2817,
+        "other_votes": 250,
+        "total_votes": 9125,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -3241,
+        "margin_pct": 35.51780821917808,
+        "winner": "D"
+      },
+      "66": {
+        "dem_votes": 5142,
+        "rep_votes": 3153,
+        "other_votes": 331,
+        "total_votes": 8626,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1989,
+        "margin_pct": 23.05819615117088,
         "winner": "D"
       },
       "67": {
-        "dem_votes": 4893,
-        "rep_votes": 5144,
-        "other_votes": 494,
-        "total_votes": 10531,
+        "dem_votes": 6456,
+        "rep_votes": 3959,
+        "other_votes": 416,
+        "total_votes": 10831,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 251,
-        "margin_pct": 2.3834393694805813,
-        "winner": "R"
+        "margin": -2497,
+        "margin_pct": 23.054196288431356,
+        "winner": "D"
       },
       "68": {
-        "dem_votes": 444,
-        "rep_votes": 1277,
-        "other_votes": 122,
-        "total_votes": 1843,
+        "dem_votes": 2427,
+        "rep_votes": 5190,
+        "other_votes": 477,
+        "total_votes": 8094,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 833,
-        "margin_pct": 45.198046663049375,
+        "margin": 2763,
+        "margin_pct": 34.13639733135656,
         "winner": "R"
       },
       "69": {
-        "dem_votes": 3072,
-        "rep_votes": 4724,
-        "other_votes": 455,
-        "total_votes": 8251,
+        "dem_votes": 5009,
+        "rep_votes": 3990,
+        "other_votes": 406,
+        "total_votes": 9405,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1652,
-        "margin_pct": 20.021815537510605,
-        "winner": "R"
+        "margin": -1019,
+        "margin_pct": 10.83466241360978,
+        "winner": "D"
       },
       "70": {
-        "dem_votes": 5597,
-        "rep_votes": 5990,
-        "other_votes": 527,
-        "total_votes": 12114,
+        "dem_votes": 6338,
+        "rep_votes": 3887,
+        "other_votes": 408,
+        "total_votes": 10633,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 393,
-        "margin_pct": 3.2441802872709267,
-        "winner": "R"
+        "margin": -2451,
+        "margin_pct": 23.05087933791028,
+        "winner": "D"
       },
       "71": {
-        "dem_votes": 4210,
-        "rep_votes": 4813,
-        "other_votes": 416,
-        "total_votes": 9439,
+        "dem_votes": 5664,
+        "rep_votes": 3473,
+        "other_votes": 365,
+        "total_votes": 9502,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 603,
-        "margin_pct": 6.38838860048734,
-        "winner": "R"
+        "margin": -2191,
+        "margin_pct": 23.058303515049463,
+        "winner": "D"
       },
       "72": {
-        "dem_votes": 5041,
-        "rep_votes": 1890,
-        "other_votes": 359,
-        "total_votes": 7290,
+        "dem_votes": 5341,
+        "rep_votes": 3275,
+        "other_votes": 344,
+        "total_votes": 8960,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -3151,
-        "margin_pct": 43.223593964334704,
+        "margin": -2066,
+        "margin_pct": 23.058035714285715,
         "winner": "D"
       },
       "73": {
-        "dem_votes": 7333,
-        "rep_votes": 4865,
-        "other_votes": 412,
-        "total_votes": 12610,
+        "dem_votes": 6029,
+        "rep_votes": 3697,
+        "other_votes": 389,
+        "total_votes": 10115,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2468,
-        "margin_pct": 19.57176843774782,
+        "margin": -2332,
+        "margin_pct": 23.0548690064261,
         "winner": "D"
       },
       "74": {
-        "dem_votes": 8550,
-        "rep_votes": 3428,
-        "other_votes": 510,
-        "total_votes": 12488,
+        "dem_votes": 6009,
+        "rep_votes": 3685,
+        "other_votes": 387,
+        "total_votes": 10081,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5122,
-        "margin_pct": 41.01537475976938,
+        "margin": -2324,
+        "margin_pct": 23.053268524947924,
         "winner": "D"
       },
       "75": {
-        "dem_votes": 5458,
-        "rep_votes": 5130,
-        "other_votes": 369,
-        "total_votes": 10957,
+        "dem_votes": 5372,
+        "rep_votes": 3294,
+        "other_votes": 346,
+        "total_votes": 9012,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -328,
-        "margin_pct": 2.993520124121566,
+        "margin": -2078,
+        "margin_pct": 23.05814469596094,
         "winner": "D"
       },
       "76": {
-        "dem_votes": 6527,
-        "rep_votes": 953,
-        "other_votes": 257,
-        "total_votes": 7737,
+        "dem_votes": 5255,
+        "rep_votes": 3222,
+        "other_votes": 339,
+        "total_votes": 8816,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5574,
-        "margin_pct": 72.04342768514928,
+        "margin": -2033,
+        "margin_pct": 23.060344827586206,
         "winner": "D"
       },
       "77": {
-        "dem_votes": 6646,
-        "rep_votes": 1793,
-        "other_votes": 239,
-        "total_votes": 8678,
+        "dem_votes": 5626,
+        "rep_votes": 3450,
+        "other_votes": 363,
+        "total_votes": 9439,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4853,
-        "margin_pct": 55.923023738188526,
+        "margin": -2176,
+        "margin_pct": 23.053289543383833,
         "winner": "D"
       },
       "78": {
-        "dem_votes": 3222,
-        "rep_votes": 5644,
-        "other_votes": 419,
-        "total_votes": 9285,
+        "dem_votes": 4746,
+        "rep_votes": 4414,
+        "other_votes": 453,
+        "total_votes": 9613,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2422,
-        "margin_pct": 26.085083467959073,
-        "winner": "R"
+        "margin": -332,
+        "margin_pct": 3.4536565068136897,
+        "winner": "D"
       },
       "79": {
-        "dem_votes": 5389,
-        "rep_votes": 1290,
-        "other_votes": 169,
-        "total_votes": 6848,
+        "dem_votes": 4744,
+        "rep_votes": 2909,
+        "other_votes": 306,
+        "total_votes": 7959,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4099,
-        "margin_pct": 59.85689252336449,
+        "margin": -1835,
+        "margin_pct": 23.055660258826485,
         "winner": "D"
       },
       "80": {
-        "dem_votes": 6606,
-        "rep_votes": 1579,
-        "other_votes": 294,
-        "total_votes": 8479,
+        "dem_votes": 5534,
+        "rep_votes": 3393,
+        "other_votes": 357,
+        "total_votes": 9284,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5027,
-        "margin_pct": 59.28765184573652,
+        "margin": -2141,
+        "margin_pct": 23.061180525635503,
         "winner": "D"
       },
       "81": {
-        "dem_votes": 3401,
-        "rep_votes": 5031,
-        "other_votes": 541,
-        "total_votes": 8973,
+        "dem_votes": 3183,
+        "rep_votes": 5669,
+        "other_votes": 567,
+        "total_votes": 9419,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1630,
-        "margin_pct": 18.165607934915858,
+        "margin": 2486,
+        "margin_pct": 26.393460027603783,
         "winner": "R"
       },
       "82": {
-        "dem_votes": 3403,
-        "rep_votes": 5112,
-        "other_votes": 630,
-        "total_votes": 9145,
+        "dem_votes": 3033,
+        "rep_votes": 5402,
+        "other_votes": 541,
+        "total_votes": 8976,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1709,
-        "margin_pct": 18.687807545106615,
+        "margin": 2369,
+        "margin_pct": 26.39260249554367,
         "winner": "R"
       },
       "83": {
-        "dem_votes": 3591,
-        "rep_votes": 7537,
-        "other_votes": 595,
-        "total_votes": 11723,
+        "dem_votes": 3532,
+        "rep_votes": 6291,
+        "other_votes": 630,
+        "total_votes": 10453,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3946,
-        "margin_pct": 33.66032585515653,
+        "margin": 2759,
+        "margin_pct": 26.3943365540993,
         "winner": "R"
       },
       "84": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 3330,
+        "rep_votes": 4854,
+        "other_votes": 465,
+        "total_votes": 8649,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
+        "margin": 1524,
+        "margin_pct": 17.620534165799516,
+        "winner": "R"
       },
       "85": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 3568,
+        "rep_votes": 5200,
+        "other_votes": 498,
+        "total_votes": 9266,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
+        "margin": 1632,
+        "margin_pct": 17.61277789769048,
+        "winner": "R"
       },
       "86": {
-        "dem_votes": 2938,
-        "rep_votes": 4613,
-        "other_votes": 516,
-        "total_votes": 8067,
+        "dem_votes": 3687,
+        "rep_votes": 5596,
+        "other_votes": 639,
+        "total_votes": 9922,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1675,
-        "margin_pct": 20.763604809718604,
+        "margin": 1909,
+        "margin_pct": 19.240072566014916,
         "winner": "R"
       },
       "87": {
-        "dem_votes": 3774,
-        "rep_votes": 3821,
-        "other_votes": 260,
-        "total_votes": 7855,
+        "dem_votes": 3867,
+        "rep_votes": 3739,
+        "other_votes": 261,
+        "total_votes": 7867,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 47,
-        "margin_pct": 0.5983450031826862,
-        "winner": "R"
+        "margin": -128,
+        "margin_pct": 1.627049701283844,
+        "winner": "D"
       },
       "88": {
-        "dem_votes": 4581,
-        "rep_votes": 3681,
-        "other_votes": 220,
-        "total_votes": 8482,
+        "dem_votes": 4295,
+        "rep_votes": 3527,
+        "other_votes": 212,
+        "total_votes": 8034,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -900,
-        "margin_pct": 10.610705022400376,
+        "margin": -768,
+        "margin_pct": 9.559372666168784,
         "winner": "D"
       },
       "89": {
-        "dem_votes": 4173,
-        "rep_votes": 4075,
-        "other_votes": 357,
-        "total_votes": 8605,
+        "dem_votes": 4561,
+        "rep_votes": 4071,
+        "other_votes": 347,
+        "total_votes": 8979,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -98,
-        "margin_pct": 1.1388727484020917,
+        "margin": -490,
+        "margin_pct": 5.4571778594498275,
         "winner": "D"
       },
       "90": {
-        "dem_votes": 2752,
-        "rep_votes": 2137,
-        "other_votes": 227,
-        "total_votes": 5116,
+        "dem_votes": 4486,
+        "rep_votes": 4418,
+        "other_votes": 430,
+        "total_votes": 9334,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -615,
-        "margin_pct": 12.021110242376858,
+        "margin": -68,
+        "margin_pct": 0.7285193914720377,
         "winner": "D"
       },
-      "92": {
-        "dem_votes": 2832,
-        "rep_votes": 5313,
-        "other_votes": 524,
-        "total_votes": 8669,
+      "91": {
+        "dem_votes": 3579,
+        "rep_votes": 5217,
+        "other_votes": 500,
+        "total_votes": 9296,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2481,
-        "margin_pct": 28.6192179028723,
+        "margin": 1638,
+        "margin_pct": 17.620481927710845,
+        "winner": "R"
+      },
+      "92": {
+        "dem_votes": 3032,
+        "rep_votes": 5298,
+        "other_votes": 518,
+        "total_votes": 8848,
+        "dem_candidate": "Nate Steel",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2266,
+        "margin_pct": 25.61030741410488,
         "winner": "R"
       },
       "93": {
-        "dem_votes": 2522,
-        "rep_votes": 3926,
-        "other_votes": 325,
-        "total_votes": 6773,
+        "dem_votes": 4749,
+        "rep_votes": 3214,
+        "other_votes": 273,
+        "total_votes": 8236,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1404,
-        "margin_pct": 20.72936660268714,
-        "winner": "R"
+        "margin": -1535,
+        "margin_pct": 18.637688198154446,
+        "winner": "D"
       },
       "94": {
-        "dem_votes": 3316,
-        "rep_votes": 3060,
-        "other_votes": 217,
-        "total_votes": 6593,
+        "dem_votes": 4418,
+        "rep_votes": 3977,
+        "other_votes": 282,
+        "total_votes": 8677,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -256,
-        "margin_pct": 3.882906112543607,
+        "margin": -441,
+        "margin_pct": 5.082401751757519,
         "winner": "D"
       },
       "95": {
@@ -1037,47 +1480,47 @@
         "winner": "D"
       },
       "96": {
-        "dem_votes": 2660,
-        "rep_votes": 3093,
-        "other_votes": 232,
-        "total_votes": 5985,
+        "dem_votes": 2636,
+        "rep_votes": 2969,
+        "other_votes": 228,
+        "total_votes": 5833,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 433,
-        "margin_pct": 7.234753550543024,
+        "margin": 333,
+        "margin_pct": 5.70889765129436,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 1364,
-        "rep_votes": 1198,
-        "other_votes": 97,
-        "total_votes": 2659,
+        "dem_votes": 1736,
+        "rep_votes": 2193,
+        "other_votes": 136,
+        "total_votes": 4065,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -166,
-        "margin_pct": 6.242948476871004,
-        "winner": "D"
+        "margin": 457,
+        "margin_pct": 11.24231242312423,
+        "winner": "R"
       },
       "99": {
-        "dem_votes": 1600,
-        "rep_votes": 3656,
-        "other_votes": 204,
-        "total_votes": 5460,
+        "dem_votes": 3583,
+        "rep_votes": 5264,
+        "other_votes": 297,
+        "total_votes": 9144,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2056,
-        "margin_pct": 37.65567765567766,
+        "margin": 1681,
+        "margin_pct": 18.38363954505687,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 2858,
-        "rep_votes": 3970,
-        "other_votes": 202,
-        "total_votes": 7030,
+        "dem_votes": 2750,
+        "rep_votes": 4941,
+        "other_votes": 245,
+        "total_votes": 7936,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1112,
-        "margin_pct": 15.817923186344238,
+        "margin": 2191,
+        "margin_pct": 27.60836693548387,
         "winner": "R"
       }
     }

@@ -1,1 +1,80 @@
-{"year":2008,"scope":"congressional","contest_type":"president","meta":{"source":"NHGIS block crosswalks + Census 2022 block equivalency files","vtd_vintage":2000,"matched_precincts":989,"matched_vote_coverage":0.251952,"approximate":true},"general":{"results":{"1":{"dem_votes":28240,"rep_votes":52611,"other_votes":2488,"total_votes":83339,"dem_candidate":"Barack Obama and Joe Biden","rep_candidate":"John McCain and Sarah Palin","margin":24371,"margin_pct":29.24321146162061,"winner":"R"},"2":{"dem_votes":9784,"rep_votes":22732,"other_votes":1104,"total_votes":33620,"dem_candidate":"Barack Obama and Joe Biden","rep_candidate":"John McCain and Sarah Palin","margin":12948,"margin_pct":38.51279000594884,"winner":"R"},"3":{"dem_votes":13437,"rep_votes":28413,"other_votes":1232,"total_votes":43082,"dem_candidate":"Barack Obama and Joe Biden","rep_candidate":"John McCain and Sarah Palin","margin":14976,"margin_pct":34.76161738080869,"winner":"R"},"4":{"dem_votes":39199,"rep_votes":71027,"other_votes":3437,"total_votes":113663,"dem_candidate":"Barack Obama and Joe Biden","rep_candidate":"John McCain and Sarah Palin","margin":31828,"margin_pct":28.00207631331216,"winner":"R"}}}}
+{
+  "year": 2008,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 108364,
+        "rep_votes": 160745,
+        "other_votes": 7870,
+        "total_votes": 276979,
+        "dem_candidate": "Barack Obama and Joe Biden",
+        "rep_candidate": "John McCain and Sarah Palin",
+        "margin": 52381,
+        "margin_pct": 18.911542030262222,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 123968,
+        "rep_votes": 158684,
+        "other_votes": 5828,
+        "total_votes": 288480,
+        "dem_candidate": "Barack Obama and Joe Biden",
+        "rep_candidate": "John McCain and Sarah Palin",
+        "margin": 34716,
+        "margin_pct": 12.034109816971714,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 76459,
+        "rep_votes": 140121,
+        "other_votes": 4984,
+        "total_votes": 221564,
+        "dem_candidate": "Barack Obama and Joe Biden",
+        "rep_candidate": "John McCain and Sarah Palin",
+        "margin": 63662,
+        "margin_pct": 28.733007167229335,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 113344,
+        "rep_votes": 178368,
+        "other_votes": 7600,
+        "total_votes": 299312,
+        "dem_candidate": "Barack Obama and Joe Biden",
+        "rep_candidate": "John McCain and Sarah Palin",
+        "margin": 65024,
+        "margin_pct": 21.724488159512482,
+        "winner": "R"
+      }
+    }
+  }
+}

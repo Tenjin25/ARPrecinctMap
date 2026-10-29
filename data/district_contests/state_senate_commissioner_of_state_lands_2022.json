@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.754348,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5540,
-        "rep_votes": 14967,
+        "dem_votes": 7474,
+        "rep_votes": 16454,
         "other_votes": 0,
-        "total_votes": 20507,
+        "total_votes": 23928,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9427,
-        "margin_pct": 45.969668893548544,
+        "margin": 8980,
+        "margin_pct": 37.52925442995654,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 6522,
-        "rep_votes": 15984,
+        "dem_votes": 7415,
+        "rep_votes": 18764,
         "other_votes": 0,
-        "total_votes": 22506,
+        "total_votes": 26179,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9462,
-        "margin_pct": 42.04212210077313,
+        "margin": 11349,
+        "margin_pct": 43.351541311738416,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 6499,
-        "rep_votes": 16020,
+        "dem_votes": 6795,
+        "rep_votes": 16335,
         "other_votes": 0,
-        "total_votes": 22519,
+        "total_votes": 23130,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9521,
-        "margin_pct": 42.279852568941784,
+        "margin": 9540,
+        "margin_pct": 41.245136186770424,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 4286,
-        "rep_votes": 15121,
+        "dem_votes": 4909,
+        "rep_votes": 17706,
         "other_votes": 0,
-        "total_votes": 19407,
+        "total_votes": 22615,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 10835,
-        "margin_pct": 55.83037048487659,
+        "margin": 12797,
+        "margin_pct": 56.586336502321466,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 3206,
-        "rep_votes": 18134,
+        "dem_votes": 4766,
+        "rep_votes": 22344,
         "other_votes": 0,
-        "total_votes": 21340,
+        "total_votes": 27110,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 14928,
-        "margin_pct": 69.95313964386129,
+        "margin": 17578,
+        "margin_pct": 64.83954260420509,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 6781,
-        "rep_votes": 18193,
+        "dem_votes": 8126,
+        "rep_votes": 21539,
         "other_votes": 0,
-        "total_votes": 24974,
+        "total_votes": 29665,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 11412,
-        "margin_pct": 45.69552334427805,
+        "margin": 13413,
+        "margin_pct": 45.21489971346705,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 4573,
-        "rep_votes": 19202,
+        "dem_votes": 6520,
+        "rep_votes": 20408,
         "other_votes": 0,
-        "total_votes": 23775,
+        "total_votes": 26928,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 14629,
-        "margin_pct": 61.5310199789695,
+        "margin": 13888,
+        "margin_pct": 51.57456922162804,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 9415,
-        "rep_votes": 8260,
+        "dem_votes": 10358,
+        "rep_votes": 11429,
         "other_votes": 0,
-        "total_votes": 17675,
+        "total_votes": 21787,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": -1155,
-        "margin_pct": 6.534653465346535,
-        "winner": "D"
+        "margin": 1071,
+        "margin_pct": 4.915775462431726,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 9475,
+        "rep_votes": 9818,
+        "other_votes": 0,
+        "total_votes": 19293,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 343,
+        "margin_pct": 1.7778468874721403,
+        "winner": "R"
       },
       "10": {
-        "dem_votes": 4415,
-        "rep_votes": 13646,
+        "dem_votes": 6456,
+        "rep_votes": 17320,
         "other_votes": 0,
-        "total_votes": 18061,
+        "total_votes": 23776,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9231,
-        "margin_pct": 51.110126792536406,
+        "margin": 10864,
+        "margin_pct": 45.69313593539704,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 7288,
-        "rep_votes": 21301,
+        "dem_votes": 8193,
+        "rep_votes": 18813,
         "other_votes": 0,
-        "total_votes": 28589,
+        "total_votes": 27006,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 14013,
-        "margin_pct": 49.01535555633286,
+        "margin": 10620,
+        "margin_pct": 39.32459453454788,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 11617,
-        "rep_votes": 6617,
+        "dem_votes": 14573,
+        "rep_votes": 12479,
         "other_votes": 0,
-        "total_votes": 18234,
+        "total_votes": 27052,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": -5000,
-        "margin_pct": 27.42130086651311,
+        "margin": -2094,
+        "margin_pct": 7.740647641579181,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 12913,
-        "rep_votes": 16401,
+        "dem_votes": 14930,
+        "rep_votes": 12785,
         "other_votes": 0,
-        "total_votes": 29314,
+        "total_votes": 27715,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 3488,
-        "margin_pct": 11.8987514498192,
-        "winner": "R"
+        "margin": -2145,
+        "margin_pct": 7.73949125022551,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 19931,
-        "rep_votes": 13636,
+        "dem_votes": 14874,
+        "rep_votes": 12737,
         "other_votes": 0,
-        "total_votes": 33567,
+        "total_votes": 27611,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": -6295,
-        "margin_pct": 18.753537700717967,
+        "margin": -2137,
+        "margin_pct": 7.739668972510956,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 13797,
-        "rep_votes": 6819,
+        "dem_votes": 12992,
+        "rep_votes": 11125,
         "other_votes": 0,
-        "total_votes": 20616,
+        "total_votes": 24117,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": -6978,
-        "margin_pct": 33.84749708963912,
+        "margin": -1867,
+        "margin_pct": 7.741427209022681,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 8435,
-        "rep_votes": 20954,
+        "dem_votes": 7736,
+        "rep_votes": 21911,
         "other_votes": 0,
-        "total_votes": 29389,
+        "total_votes": 29647,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 12519,
-        "margin_pct": 42.597570519582156,
+        "margin": 14175,
+        "margin_pct": 47.81259486625966,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2154,
-        "rep_votes": 3561,
+        "dem_votes": 9892,
+        "rep_votes": 19531,
         "other_votes": 0,
-        "total_votes": 5715,
+        "total_votes": 29423,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 1407,
-        "margin_pct": 24.61942257217848,
+        "margin": 9639,
+        "margin_pct": 32.760085647282736,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 3077,
-        "rep_votes": 17798,
+        "dem_votes": 4607,
+        "rep_votes": 23328,
         "other_votes": 0,
-        "total_votes": 20875,
+        "total_votes": 27935,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 14721,
-        "margin_pct": 70.51976047904192,
+        "margin": 18721,
+        "margin_pct": 67.0162878109898,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 1336,
-        "rep_votes": 5417,
+        "dem_votes": 5614,
+        "rep_votes": 13858,
         "other_votes": 0,
-        "total_votes": 6753,
+        "total_votes": 19472,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 4081,
-        "margin_pct": 60.432400414630536,
+        "margin": 8244,
+        "margin_pct": 42.33771569433032,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 6416,
-        "rep_votes": 14125,
+        "dem_votes": 6113,
+        "rep_votes": 15409,
         "other_votes": 0,
-        "total_votes": 20541,
+        "total_votes": 21522,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 7709,
-        "margin_pct": 37.52981841195657,
+        "margin": 9296,
+        "margin_pct": 43.19301180187715,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 2014,
-        "rep_votes": 9861,
+        "dem_votes": 3967,
+        "rep_votes": 18714,
         "other_votes": 0,
-        "total_votes": 11875,
+        "total_votes": 22681,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 7847,
-        "margin_pct": 66.08000000000001,
+        "margin": 14747,
+        "margin_pct": 65.01917904854282,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 4380,
-        "rep_votes": 22365,
+        "dem_votes": 4381,
+        "rep_votes": 22296,
         "other_votes": 0,
-        "total_votes": 26745,
+        "total_votes": 26677,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 17985,
-        "margin_pct": 67.24621424565339,
+        "margin": 17915,
+        "margin_pct": 67.1552273494021,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 2382,
-        "rep_votes": 12013,
+        "dem_votes": 5599,
+        "rep_votes": 24611,
         "other_votes": 0,
-        "total_votes": 14395,
+        "total_votes": 30210,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9631,
-        "margin_pct": 66.90517540812783,
+        "margin": 19012,
+        "margin_pct": 62.93280370738166,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 2791,
-        "rep_votes": 13371,
+        "dem_votes": 7045,
+        "rep_votes": 23265,
         "other_votes": 0,
-        "total_votes": 16162,
+        "total_votes": 30310,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 10580,
-        "margin_pct": 65.46219527286226,
+        "margin": 16220,
+        "margin_pct": 53.5136918508743,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 3800,
-        "rep_votes": 14171,
+        "dem_votes": 5744,
+        "rep_votes": 19292,
         "other_votes": 0,
-        "total_votes": 17971,
+        "total_votes": 25036,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 10371,
-        "margin_pct": 57.70964331422847,
+        "margin": 13548,
+        "margin_pct": 54.114075730947434,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 1026,
-        "rep_votes": 4770,
+        "dem_votes": 5487,
+        "rep_votes": 18816,
         "other_votes": 0,
-        "total_votes": 5796,
+        "total_votes": 24303,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 3744,
-        "margin_pct": 64.59627329192547,
+        "margin": 13329,
+        "margin_pct": 54.84508085421553,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 5943,
+        "rep_votes": 15562,
+        "other_votes": 0,
+        "total_votes": 21505,
+        "dem_candidate": "Darlene Goldi Gaines",
+        "rep_candidate": "Tommy Land",
+        "margin": 9619,
+        "margin_pct": 44.7291327598233,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 4182,
-        "rep_votes": 16578,
+        "dem_votes": 6383,
+        "rep_votes": 21790,
         "other_votes": 0,
-        "total_votes": 20760,
+        "total_votes": 28173,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 12396,
-        "margin_pct": 59.71098265895953,
+        "margin": 15407,
+        "margin_pct": 54.68711177368403,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 3055,
-        "rep_votes": 6212,
+        "dem_votes": 6554,
+        "rep_votes": 18408,
         "other_votes": 0,
-        "total_votes": 9267,
+        "total_votes": 24962,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 3157,
-        "margin_pct": 34.06711988777382,
+        "margin": 11854,
+        "margin_pct": 47.488182036695775,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 15573,
-        "rep_votes": 10295,
+        "dem_votes": 12155,
+        "rep_votes": 15471,
         "other_votes": 0,
-        "total_votes": 25868,
+        "total_votes": 27626,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": -5278,
-        "margin_pct": 20.40358744394619,
-        "winner": "D"
+        "margin": 3316,
+        "margin_pct": 12.00318540505321,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 5907,
-        "rep_votes": 10096,
+        "dem_votes": 8136,
+        "rep_votes": 10356,
         "other_votes": 0,
-        "total_votes": 16003,
+        "total_votes": 18492,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 4189,
-        "margin_pct": 26.17634193588702,
+        "margin": 2220,
+        "margin_pct": 12.005191434133678,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 6959,
-        "rep_votes": 15654,
+        "dem_votes": 7856,
+        "rep_votes": 16587,
         "other_votes": 0,
-        "total_votes": 22613,
+        "total_votes": 24443,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 8695,
-        "margin_pct": 38.45133330385176,
+        "margin": 8731,
+        "margin_pct": 35.719837990426704,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 8760,
-        "rep_votes": 17976,
+        "dem_votes": 8070,
+        "rep_votes": 17659,
         "other_votes": 0,
-        "total_votes": 26736,
+        "total_votes": 25729,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9216,
-        "margin_pct": 34.47037701974865,
+        "margin": 9589,
+        "margin_pct": 37.269229274359674,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 10769,
-        "rep_votes": 20943,
+        "dem_votes": 9022,
+        "rep_votes": 19742,
         "other_votes": 0,
-        "total_votes": 31712,
+        "total_votes": 28764,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 10174,
-        "margin_pct": 32.08249243188698,
+        "margin": 10720,
+        "margin_pct": 37.26880823251286,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 6170,
-        "rep_votes": 15541,
+        "dem_votes": 9946,
+        "rep_votes": 16033,
         "other_votes": 0,
-        "total_votes": 21711,
+        "total_votes": 25979,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 9371,
-        "margin_pct": 43.16245221316383,
+        "margin": 6087,
+        "margin_pct": 23.430463066322798,
         "winner": "R"
       }
     }

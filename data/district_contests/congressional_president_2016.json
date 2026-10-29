@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2150,
-    "matched_vote_coverage": 0.832536,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 44305,
-        "rep_votes": 118096,
-        "other_votes": 9205,
-        "total_votes": 171606,
+        "dem_votes": 82746,
+        "rep_votes": 179034,
+        "other_votes": 13583,
+        "total_votes": 275363,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 73791,
-        "margin_pct": 43.00024474668718,
+        "margin": 96288,
+        "margin_pct": 34.96766086947048,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 108447,
-        "rep_votes": 144510,
-        "other_votes": 15426,
-        "total_votes": 268383,
+        "dem_votes": 121041,
+        "rep_votes": 164125,
+        "other_votes": 17942,
+        "total_votes": 303108,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 36063,
-        "margin_pct": 13.437140206346902,
+        "margin": 43084,
+        "margin_pct": 14.21407551103897,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 78119,
-        "rep_votes": 150032,
-        "other_votes": 19234,
-        "total_votes": 247385,
+        "dem_votes": 82081,
+        "rep_votes": 157488,
+        "other_votes": 20145,
+        "total_votes": 259714,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 71913,
-        "margin_pct": 29.069264506740506,
+        "margin": 75407,
+        "margin_pct": 29.034630401133555,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 78381,
-        "rep_votes": 154649,
-        "other_votes": 20925,
-        "total_votes": 253955,
+        "dem_votes": 84450,
+        "rep_votes": 168418,
+        "other_votes": 39623,
+        "total_votes": 292491,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 76268,
-        "margin_pct": 30.0320922998169,
+        "margin": 83968,
+        "margin_pct": 28.707891866758295,
         "winner": "R"
       }
     }

@@ -3,1081 +3,1524 @@
   "scope": "state_house",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2032,
-    "matched_vote_coverage": 0.807345,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 2639,
-        "rep_votes": 4020,
-        "other_votes": 314,
-        "total_votes": 6973,
+        "dem_votes": 3102,
+        "rep_votes": 4470,
+        "other_votes": 349,
+        "total_votes": 7921,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1381,
-        "margin_pct": 19.804961996271334,
+        "margin": 1368,
+        "margin_pct": 17.270546648150486,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 3285,
-        "rep_votes": 5121,
-        "other_votes": 462,
-        "total_votes": 8868,
+        "dem_votes": 3365,
+        "rep_votes": 5370,
+        "other_votes": 467,
+        "total_votes": 9202,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1836,
-        "margin_pct": 20.70365358592693,
+        "margin": 2005,
+        "margin_pct": 21.788741577917843,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 215,
-        "rep_votes": 388,
-        "other_votes": 42,
-        "total_votes": 645,
+        "dem_votes": 3008,
+        "rep_votes": 7408,
+        "other_votes": 519,
+        "total_votes": 10935,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 173,
-        "margin_pct": 26.82170542635659,
+        "margin": 4400,
+        "margin_pct": 40.23776863283036,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 1408,
-        "rep_votes": 3266,
-        "other_votes": 266,
-        "total_votes": 4940,
+        "dem_votes": 2614,
+        "rep_votes": 6334,
+        "other_votes": 479,
+        "total_votes": 9427,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1858,
-        "margin_pct": 37.611336032388664,
+        "margin": 3720,
+        "margin_pct": 39.4611223082635,
         "winner": "R"
       },
-      "5": {
-        "dem_votes": 1,
-        "rep_votes": 1,
-        "other_votes": 0,
-        "total_votes": 2,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 0,
-        "margin_pct": 0.0,
-        "winner": "O"
-      },
       "6": {
-        "dem_votes": 1867,
-        "rep_votes": 3224,
-        "other_votes": 258,
-        "total_votes": 5349,
+        "dem_votes": 2439,
+        "rep_votes": 3972,
+        "other_votes": 347,
+        "total_votes": 6758,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1357,
-        "margin_pct": 25.36922789306412,
+        "margin": 1533,
+        "margin_pct": 22.684226102397158,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 1153,
-        "rep_votes": 3498,
-        "other_votes": 259,
-        "total_votes": 4910,
+        "dem_votes": 1588,
+        "rep_votes": 4237,
+        "other_votes": 343,
+        "total_votes": 6168,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2345,
-        "margin_pct": 47.75967413441955,
+        "margin": 2649,
+        "margin_pct": 42.94747081712062,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 1712,
-        "rep_votes": 4350,
-        "other_votes": 321,
-        "total_votes": 6383,
+        "dem_votes": 1778,
+        "rep_votes": 4746,
+        "other_votes": 385,
+        "total_votes": 6909,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2638,
-        "margin_pct": 41.32852890490365,
+        "margin": 2968,
+        "margin_pct": 42.958459979736574,
         "winner": "R"
       },
       "9": {
-        "dem_votes": 96,
-        "rep_votes": 261,
-        "other_votes": 19,
-        "total_votes": 376,
+        "dem_votes": 1543,
+        "rep_votes": 2213,
+        "other_votes": 215,
+        "total_votes": 3971,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 165,
-        "margin_pct": 43.88297872340425,
+        "margin": 670,
+        "margin_pct": 16.872324351548727,
         "winner": "R"
       },
       "10": {
-        "dem_votes": 2122,
-        "rep_votes": 5442,
-        "other_votes": 420,
-        "total_votes": 7984,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3320,
-        "margin_pct": 41.583166332665336,
-        "winner": "R"
-      },
-      "11": {
-        "dem_votes": 342,
-        "rep_votes": 888,
-        "other_votes": 75,
-        "total_votes": 1305,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 546,
-        "margin_pct": 41.839080459770116,
-        "winner": "R"
-      },
-      "12": {
-        "dem_votes": 2811,
-        "rep_votes": 7289,
-        "other_votes": 623,
-        "total_votes": 10723,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 4478,
-        "margin_pct": 41.76070129627903,
-        "winner": "R"
-      },
-      "13": {
-        "dem_votes": 1377,
-        "rep_votes": 3883,
-        "other_votes": 267,
-        "total_votes": 5527,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2506,
-        "margin_pct": 45.34105301248417,
-        "winner": "R"
-      },
-      "14": {
-        "dem_votes": 731,
-        "rep_votes": 2075,
-        "other_votes": 175,
-        "total_votes": 2981,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1344,
-        "margin_pct": 45.085541764508555,
-        "winner": "R"
-      },
-      "15": {
-        "dem_votes": 2230,
-        "rep_votes": 5204,
-        "other_votes": 491,
-        "total_votes": 7925,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2974,
-        "margin_pct": 37.526813880126184,
-        "winner": "R"
-      },
-      "16": {
-        "dem_votes": 1783,
-        "rep_votes": 3990,
-        "other_votes": 370,
-        "total_votes": 6143,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2207,
-        "margin_pct": 35.92707146345434,
-        "winner": "R"
-      },
-      "17": {
-        "dem_votes": 1718,
-        "rep_votes": 5967,
-        "other_votes": 455,
-        "total_votes": 8140,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 4249,
-        "margin_pct": 52.19901719901719,
-        "winner": "R"
-      },
-      "18": {
-        "dem_votes": 1409,
-        "rep_votes": 3158,
-        "other_votes": 224,
-        "total_votes": 4791,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1749,
-        "margin_pct": 36.50594865372573,
-        "winner": "R"
-      },
-      "19": {
-        "dem_votes": 956,
-        "rep_votes": 1426,
-        "other_votes": 107,
-        "total_votes": 2489,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 470,
-        "margin_pct": 18.88308557653676,
-        "winner": "R"
-      },
-      "20": {
-        "dem_votes": 4648,
-        "rep_votes": 4933,
-        "other_votes": 471,
-        "total_votes": 10052,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 285,
-        "margin_pct": 2.8352566653402307,
-        "winner": "R"
-      },
-      "21": {
-        "dem_votes": 2914,
-        "rep_votes": 1283,
-        "other_votes": 290,
-        "total_votes": 4487,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": -1631,
-        "margin_pct": 36.349453978159126,
-        "winner": "D"
-      },
-      "22": {
-        "dem_votes": 2371,
-        "rep_votes": 3086,
-        "other_votes": 357,
-        "total_votes": 5814,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 715,
-        "margin_pct": 12.297901616787065,
-        "winner": "R"
-      },
-      "23": {
-        "dem_votes": 2532,
-        "rep_votes": 4678,
-        "other_votes": 473,
-        "total_votes": 7683,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2146,
-        "margin_pct": 27.93179747494468,
-        "winner": "R"
-      },
-      "24": {
-        "dem_votes": 2292,
-        "rep_votes": 5860,
-        "other_votes": 484,
-        "total_votes": 8636,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3568,
-        "margin_pct": 41.315423807318204,
-        "winner": "R"
-      },
-      "25": {
-        "dem_votes": 2588,
-        "rep_votes": 4896,
-        "other_votes": 484,
-        "total_votes": 7968,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2308,
-        "margin_pct": 28.96586345381526,
-        "winner": "R"
-      },
-      "26": {
-        "dem_votes": 2636,
-        "rep_votes": 4375,
-        "other_votes": 361,
-        "total_votes": 7372,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1739,
-        "margin_pct": 23.589256646771567,
-        "winner": "R"
-      },
-      "27": {
-        "dem_votes": 3272,
-        "rep_votes": 6962,
-        "other_votes": 534,
-        "total_votes": 10768,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3690,
-        "margin_pct": 34.26820208023774,
-        "winner": "R"
-      },
-      "28": {
-        "dem_votes": 2948,
-        "rep_votes": 5660,
-        "other_votes": 434,
-        "total_votes": 9042,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2712,
-        "margin_pct": 29.993364299933646,
-        "winner": "R"
-      },
-      "29": {
-        "dem_votes": 3440,
-        "rep_votes": 4869,
-        "other_votes": 398,
-        "total_votes": 8707,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1429,
-        "margin_pct": 16.412082232686345,
-        "winner": "R"
-      },
-      "30": {
-        "dem_votes": 2608,
-        "rep_votes": 4678,
-        "other_votes": 380,
-        "total_votes": 7666,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2070,
-        "margin_pct": 27.0023480302635,
-        "winner": "R"
-      },
-      "31": {
-        "dem_votes": 2328,
-        "rep_votes": 4354,
-        "other_votes": 276,
-        "total_votes": 6958,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2026,
-        "margin_pct": 29.117562517964934,
-        "winner": "R"
-      },
-      "32": {
-        "dem_votes": 2715,
-        "rep_votes": 3941,
-        "other_votes": 336,
-        "total_votes": 6992,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1226,
-        "margin_pct": 17.534324942791763,
-        "winner": "R"
-      },
-      "33": {
-        "dem_votes": 1534,
-        "rep_votes": 2623,
-        "other_votes": 205,
-        "total_votes": 4362,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1089,
-        "margin_pct": 24.965612104539204,
-        "winner": "R"
-      },
-      "35": {
-        "dem_votes": 481,
-        "rep_votes": 114,
-        "other_votes": 10,
-        "total_votes": 605,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": -367,
-        "margin_pct": 60.66115702479339,
-        "winner": "D"
-      },
-      "36": {
-        "dem_votes": 2702,
-        "rep_votes": 3681,
-        "other_votes": 291,
-        "total_votes": 6674,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 979,
-        "margin_pct": 14.668864249325742,
-        "winner": "R"
-      },
-      "37": {
-        "dem_votes": 1792,
-        "rep_votes": 3138,
-        "other_votes": 169,
-        "total_votes": 5099,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1346,
-        "margin_pct": 26.397332810354975,
-        "winner": "R"
-      },
-      "38": {
-        "dem_votes": 2077,
-        "rep_votes": 4139,
-        "other_votes": 255,
-        "total_votes": 6471,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2062,
-        "margin_pct": 31.86524493895843,
-        "winner": "R"
-      },
-      "39": {
-        "dem_votes": 1576,
-        "rep_votes": 3099,
-        "other_votes": 239,
-        "total_votes": 4914,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1523,
-        "margin_pct": 30.993080993080994,
-        "winner": "R"
-      },
-      "40": {
-        "dem_votes": 2730,
-        "rep_votes": 5376,
-        "other_votes": 369,
-        "total_votes": 8475,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2646,
-        "margin_pct": 31.221238938053098,
-        "winner": "R"
-      },
-      "41": {
-        "dem_votes": 3353,
-        "rep_votes": 7532,
-        "other_votes": 497,
-        "total_votes": 11382,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 4179,
-        "margin_pct": 36.715867158671585,
-        "winner": "R"
-      },
-      "42": {
-        "dem_votes": 2584,
-        "rep_votes": 6472,
-        "other_votes": 413,
-        "total_votes": 9469,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3888,
-        "margin_pct": 41.06030203823001,
-        "winner": "R"
-      },
-      "43": {
-        "dem_votes": 3940,
-        "rep_votes": 5125,
-        "other_votes": 390,
-        "total_votes": 9455,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1185,
-        "margin_pct": 12.53305129561079,
-        "winner": "R"
-      },
-      "44": {
-        "dem_votes": 2272,
-        "rep_votes": 5475,
-        "other_votes": 407,
-        "total_votes": 8154,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3203,
-        "margin_pct": 39.281334314446894,
-        "winner": "R"
-      },
-      "45": {
-        "dem_votes": 3104,
-        "rep_votes": 4632,
-        "other_votes": 466,
-        "total_votes": 8202,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1528,
-        "margin_pct": 18.62960253596684,
-        "winner": "R"
-      },
-      "46": {
-        "dem_votes": 2459,
-        "rep_votes": 4520,
-        "other_votes": 396,
-        "total_votes": 7375,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2061,
-        "margin_pct": 27.945762711864408,
-        "winner": "R"
-      },
-      "47": {
-        "dem_votes": 1691,
-        "rep_votes": 5249,
-        "other_votes": 398,
-        "total_votes": 7338,
-        "dem_candidate": "John Burkhalter",
-        "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3558,
-        "margin_pct": 48.48732624693377,
-        "winner": "R"
-      },
-      "48": {
-        "dem_votes": 1970,
-        "rep_votes": 4408,
-        "other_votes": 384,
+        "dem_votes": 1741,
+        "rep_votes": 4645,
+        "other_votes": 376,
         "total_votes": 6762,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2438,
-        "margin_pct": 36.054421768707485,
+        "margin": 2904,
+        "margin_pct": 42.94587400177463,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 1580,
+        "rep_votes": 3037,
+        "other_votes": 268,
+        "total_votes": 4885,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1457,
+        "margin_pct": 29.825997952917092,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 1996,
+        "rep_votes": 5328,
+        "other_votes": 432,
+        "total_votes": 7756,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 3332,
+        "margin_pct": 42.96028880866426,
+        "winner": "R"
+      },
+      "13": {
+        "dem_votes": 1513,
+        "rep_votes": 4037,
+        "other_votes": 327,
+        "total_votes": 5877,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2524,
+        "margin_pct": 42.947081844478475,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 1842,
+        "rep_votes": 4917,
+        "other_votes": 398,
+        "total_votes": 7157,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 3075,
+        "margin_pct": 42.96492943970938,
+        "winner": "R"
+      },
+      "15": {
+        "dem_votes": 1519,
+        "rep_votes": 4054,
+        "other_votes": 329,
+        "total_votes": 5902,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2535,
+        "margin_pct": 42.951541850220266,
+        "winner": "R"
+      },
+      "16": {
+        "dem_votes": 1655,
+        "rep_votes": 4417,
+        "other_votes": 358,
+        "total_votes": 6430,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2762,
+        "margin_pct": 42.954898911353034,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 1682,
+        "rep_votes": 4490,
+        "other_votes": 364,
+        "total_votes": 6536,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2808,
+        "margin_pct": 42.96205630354957,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 2600,
+        "rep_votes": 3820,
+        "other_votes": 368,
+        "total_votes": 6788,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1220,
+        "margin_pct": 17.972893341190336,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 2400,
+        "rep_votes": 3443,
+        "other_votes": 335,
+        "total_votes": 6178,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1043,
+        "margin_pct": 16.882486241502104,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 2832,
+        "rep_votes": 4063,
+        "other_votes": 395,
+        "total_votes": 7290,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1231,
+        "margin_pct": 16.886145404663925,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 3044,
+        "rep_votes": 4366,
+        "other_votes": 424,
+        "total_votes": 7834,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1322,
+        "margin_pct": 16.875159560888438,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 2873,
+        "rep_votes": 4122,
+        "other_votes": 400,
+        "total_votes": 7395,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1249,
+        "margin_pct": 16.88979039891819,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 2680,
+        "rep_votes": 3845,
+        "other_votes": 374,
+        "total_votes": 6899,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1165,
+        "margin_pct": 16.886505290621827,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 2187,
+        "rep_votes": 5108,
+        "other_votes": 449,
+        "total_votes": 7744,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2921,
+        "margin_pct": 37.71952479338843,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 2491,
+        "rep_votes": 4212,
+        "other_votes": 391,
+        "total_votes": 7094,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1721,
+        "margin_pct": 24.25993797575416,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 3247,
+        "rep_votes": 5418,
+        "other_votes": 442,
+        "total_votes": 9107,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2171,
+        "margin_pct": 23.83880531459317,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 3409,
+        "rep_votes": 7157,
+        "other_votes": 567,
+        "total_votes": 11133,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 3748,
+        "margin_pct": 33.66567861313213,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 3026,
+        "rep_votes": 5359,
+        "other_votes": 417,
+        "total_votes": 8802,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2333,
+        "margin_pct": 26.505339695523745,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 3366,
+        "rep_votes": 5024,
+        "other_votes": 399,
+        "total_votes": 8789,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1658,
+        "margin_pct": 18.864489703037886,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 2703,
+        "rep_votes": 4437,
+        "other_votes": 350,
+        "total_votes": 7490,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1734,
+        "margin_pct": 23.15086782376502,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 2441,
+        "rep_votes": 4660,
+        "other_votes": 304,
+        "total_votes": 7405,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2219,
+        "margin_pct": 29.966239027684,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 2580,
+        "rep_votes": 4339,
+        "other_votes": 331,
+        "total_votes": 7250,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1759,
+        "margin_pct": 24.26206896551724,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 2785,
+        "rep_votes": 3825,
+        "other_votes": 293,
+        "total_votes": 6903,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1040,
+        "margin_pct": 15.065913370998116,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 3629,
+        "rep_votes": 3584,
+        "other_votes": 275,
+        "total_votes": 7488,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": -45,
+        "margin_pct": 0.6009615384615385,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 3469,
+        "rep_votes": 3050,
+        "other_votes": 151,
+        "total_votes": 6670,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": -419,
+        "margin_pct": 6.281859070464768,
+        "winner": "D"
+      },
+      "36": {
+        "dem_votes": 2679,
+        "rep_votes": 4331,
+        "other_votes": 335,
+        "total_votes": 7345,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1652,
+        "margin_pct": 22.49149081007488,
+        "winner": "R"
+      },
+      "37": {
+        "dem_votes": 3907,
+        "rep_votes": 4629,
+        "other_votes": 274,
+        "total_votes": 8810,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 722,
+        "margin_pct": 8.195232690124858,
+        "winner": "R"
+      },
+      "38": {
+        "dem_votes": 2827,
+        "rep_votes": 4453,
+        "other_votes": 345,
+        "total_votes": 7625,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1626,
+        "margin_pct": 21.324590163934428,
+        "winner": "R"
+      },
+      "39": {
+        "dem_votes": 2879,
+        "rep_votes": 4863,
+        "other_votes": 334,
+        "total_votes": 8076,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1984,
+        "margin_pct": 24.56661713719663,
+        "winner": "R"
+      },
+      "40": {
+        "dem_votes": 2629,
+        "rep_votes": 5500,
+        "other_votes": 364,
+        "total_votes": 8493,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2871,
+        "margin_pct": 33.80430943129637,
+        "winner": "R"
+      },
+      "41": {
+        "dem_votes": 3566,
+        "rep_votes": 7982,
+        "other_votes": 532,
+        "total_votes": 12080,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 4416,
+        "margin_pct": 36.55629139072848,
+        "winner": "R"
+      },
+      "42": {
+        "dem_votes": 2851,
+        "rep_votes": 5172,
+        "other_votes": 383,
+        "total_votes": 8406,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2321,
+        "margin_pct": 27.611230073756843,
+        "winner": "R"
+      },
+      "43": {
+        "dem_votes": 4048,
+        "rep_votes": 5434,
+        "other_votes": 418,
+        "total_votes": 9900,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1386,
+        "margin_pct": 14.000000000000002,
+        "winner": "R"
+      },
+      "44": {
+        "dem_votes": 2328,
+        "rep_votes": 4979,
+        "other_votes": 376,
+        "total_votes": 7683,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2651,
+        "margin_pct": 34.50475074840557,
+        "winner": "R"
+      },
+      "45": {
+        "dem_votes": 3098,
+        "rep_votes": 4533,
+        "other_votes": 456,
+        "total_votes": 8087,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 1435,
+        "margin_pct": 17.744528255224434,
+        "winner": "R"
+      },
+      "46": {
+        "dem_votes": 3177,
+        "rep_votes": 5382,
+        "other_votes": 500,
+        "total_votes": 9059,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2205,
+        "margin_pct": 24.340434926592337,
+        "winner": "R"
+      },
+      "47": {
+        "dem_votes": 2318,
+        "rep_votes": 4924,
+        "other_votes": 417,
+        "total_votes": 7659,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2606,
+        "margin_pct": 34.02532967750359,
+        "winner": "R"
+      },
+      "48": {
+        "dem_votes": 2082,
+        "rep_votes": 5062,
+        "other_votes": 441,
+        "total_votes": 7585,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2980,
+        "margin_pct": 39.28806855636124,
         "winner": "R"
       },
       "49": {
-        "dem_votes": 1299,
-        "rep_votes": 1232,
-        "other_votes": 148,
-        "total_votes": 2679,
+        "dem_votes": 1743,
+        "rep_votes": 3703,
+        "other_votes": 314,
+        "total_votes": 5760,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -67,
-        "margin_pct": 2.5009331840238893,
-        "winner": "D"
+        "margin": 1960,
+        "margin_pct": 34.02777777777778,
+        "winner": "R"
       },
       "50": {
-        "dem_votes": 2917,
-        "rep_votes": 5166,
-        "other_votes": 501,
-        "total_votes": 8584,
+        "dem_votes": 2369,
+        "rep_votes": 5031,
+        "other_votes": 427,
+        "total_votes": 7827,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2249,
-        "margin_pct": 26.199906803355077,
+        "margin": 2662,
+        "margin_pct": 34.010476555512966,
         "winner": "R"
       },
       "51": {
-        "dem_votes": 1268,
-        "rep_votes": 3347,
-        "other_votes": 252,
-        "total_votes": 4867,
+        "dem_votes": 2573,
+        "rep_votes": 5464,
+        "other_votes": 463,
+        "total_votes": 8500,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2079,
-        "margin_pct": 42.71625231148551,
+        "margin": 2891,
+        "margin_pct": 34.01176470588235,
         "winner": "R"
       },
       "52": {
-        "dem_votes": 2771,
-        "rep_votes": 5166,
-        "other_votes": 406,
-        "total_votes": 8343,
+        "dem_votes": 2793,
+        "rep_votes": 4906,
+        "other_votes": 400,
+        "total_votes": 8099,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2395,
-        "margin_pct": 28.706700227735826,
+        "margin": 2113,
+        "margin_pct": 26.089640696382272,
         "winner": "R"
       },
       "53": {
-        "dem_votes": 1692,
-        "rep_votes": 3374,
-        "other_votes": 242,
-        "total_votes": 5308,
+        "dem_votes": 2355,
+        "rep_votes": 5071,
+        "other_votes": 382,
+        "total_votes": 7808,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1682,
-        "margin_pct": 31.688018085908066,
+        "margin": 2716,
+        "margin_pct": 34.78483606557377,
         "winner": "R"
       },
       "54": {
-        "dem_votes": 2387,
-        "rep_votes": 3898,
-        "other_votes": 328,
-        "total_votes": 6613,
+        "dem_votes": 3192,
+        "rep_votes": 5441,
+        "other_votes": 419,
+        "total_votes": 9052,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1511,
-        "margin_pct": 22.848933918040224,
+        "margin": 2249,
+        "margin_pct": 24.845338046840475,
         "winner": "R"
       },
       "55": {
-        "dem_votes": 48,
-        "rep_votes": 45,
-        "other_votes": 6,
-        "total_votes": 99,
+        "dem_votes": 3044,
+        "rep_votes": 5459,
+        "other_votes": 388,
+        "total_votes": 8891,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -3,
-        "margin_pct": 3.0303030303030303,
-        "winner": "D"
+        "margin": 2415,
+        "margin_pct": 27.162298953998427,
+        "winner": "R"
       },
       "56": {
-        "dem_votes": 594,
-        "rep_votes": 996,
-        "other_votes": 76,
-        "total_votes": 1666,
+        "dem_votes": 2833,
+        "rep_votes": 5081,
+        "other_votes": 361,
+        "total_votes": 8275,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 402,
-        "margin_pct": 24.129651860744296,
+        "margin": 2248,
+        "margin_pct": 27.16616314199396,
         "winner": "R"
       },
       "57": {
-        "dem_votes": 2266,
-        "rep_votes": 6484,
-        "other_votes": 411,
-        "total_votes": 9161,
+        "dem_votes": 2510,
+        "rep_votes": 5294,
+        "other_votes": 349,
+        "total_votes": 8153,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 4218,
-        "margin_pct": 46.04300840519594,
+        "margin": 2784,
+        "margin_pct": 34.14693977676929,
         "winner": "R"
       },
       "58": {
-        "dem_votes": 2375,
-        "rep_votes": 6595,
-        "other_votes": 316,
-        "total_votes": 9286,
+        "dem_votes": 2427,
+        "rep_votes": 6286,
+        "other_votes": 378,
+        "total_votes": 9091,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 4220,
-        "margin_pct": 45.4447555459832,
+        "margin": 3859,
+        "margin_pct": 42.44857551424486,
         "winner": "R"
       },
       "59": {
-        "dem_votes": 1504,
-        "rep_votes": 3944,
-        "other_votes": 299,
-        "total_votes": 5747,
+        "dem_votes": 2139,
+        "rep_votes": 5414,
+        "other_votes": 329,
+        "total_votes": 7882,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2440,
-        "margin_pct": 42.45693405254916,
+        "margin": 3275,
+        "margin_pct": 41.5503679269221,
         "winner": "R"
       },
       "60": {
-        "dem_votes": 2261,
-        "rep_votes": 4326,
-        "other_votes": 232,
-        "total_votes": 6819,
+        "dem_votes": 2674,
+        "rep_votes": 5858,
+        "other_votes": 361,
+        "total_votes": 8893,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2065,
-        "margin_pct": 30.283032702742336,
+        "margin": 3184,
+        "margin_pct": 35.80344090857978,
         "winner": "R"
       },
       "61": {
-        "dem_votes": 3510,
-        "rep_votes": 3672,
-        "other_votes": 186,
-        "total_votes": 7368,
+        "dem_votes": 4752,
+        "rep_votes": 4424,
+        "other_votes": 256,
+        "total_votes": 9432,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 162,
-        "margin_pct": 2.198697068403909,
-        "winner": "R"
+        "margin": -328,
+        "margin_pct": 3.477523324851569,
+        "winner": "D"
       },
       "62": {
-        "dem_votes": 2225,
-        "rep_votes": 1429,
-        "other_votes": 93,
-        "total_votes": 3747,
+        "dem_votes": 5993,
+        "rep_votes": 3500,
+        "other_votes": 206,
+        "total_votes": 9699,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -796,
-        "margin_pct": 21.243661595943422,
+        "margin": -2493,
+        "margin_pct": 25.70368079183421,
         "winner": "D"
       },
       "63": {
-        "dem_votes": 72,
-        "rep_votes": 131,
-        "other_votes": 4,
-        "total_votes": 207,
+        "dem_votes": 3984,
+        "rep_votes": 3081,
+        "other_votes": 170,
+        "total_votes": 7235,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 59,
-        "margin_pct": 28.502415458937197,
-        "winner": "R"
+        "margin": -903,
+        "margin_pct": 12.480995162404977,
+        "winner": "D"
       },
       "64": {
-        "dem_votes": 5653,
-        "rep_votes": 1725,
-        "other_votes": 149,
-        "total_votes": 7527,
+        "dem_votes": 5122,
+        "rep_votes": 3191,
+        "other_votes": 214,
+        "total_votes": 8527,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -3928,
-        "margin_pct": 52.18546565696825,
+        "margin": -1931,
+        "margin_pct": 22.64571361557406,
         "winner": "D"
       },
       "65": {
-        "dem_votes": 5275,
-        "rep_votes": 1707,
-        "other_votes": 147,
-        "total_votes": 7129,
+        "dem_votes": 5776,
+        "rep_votes": 3157,
+        "other_votes": 214,
+        "total_votes": 9147,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -3568,
-        "margin_pct": 50.04909524477487,
+        "margin": -2619,
+        "margin_pct": 28.632338471630042,
         "winner": "D"
       },
       "66": {
-        "dem_votes": 4195,
-        "rep_votes": 2390,
-        "other_votes": 226,
-        "total_votes": 6811,
+        "dem_votes": 4663,
+        "rep_votes": 3738,
+        "other_votes": 304,
+        "total_votes": 8705,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -1805,
-        "margin_pct": 26.50124798120687,
+        "margin": -925,
+        "margin_pct": 10.626076967260195,
         "winner": "D"
       },
       "67": {
-        "dem_votes": 4541,
-        "rep_votes": 5664,
-        "other_votes": 420,
-        "total_votes": 10625,
+        "dem_votes": 5855,
+        "rep_votes": 4693,
+        "other_votes": 381,
+        "total_votes": 10929,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1123,
-        "margin_pct": 10.569411764705883,
-        "winner": "R"
+        "margin": -1162,
+        "margin_pct": 10.632262787080245,
+        "winner": "D"
       },
       "68": {
-        "dem_votes": 409,
-        "rep_votes": 1368,
-        "other_votes": 81,
-        "total_votes": 1858,
+        "dem_votes": 2242,
+        "rep_votes": 5554,
+        "other_votes": 342,
+        "total_votes": 8138,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 959,
-        "margin_pct": 51.61463939720129,
+        "margin": 3312,
+        "margin_pct": 40.697960186778076,
         "winner": "R"
       },
       "69": {
-        "dem_votes": 2799,
-        "rep_votes": 5148,
-        "other_votes": 363,
-        "total_votes": 8310,
+        "dem_votes": 4523,
+        "rep_votes": 4604,
+        "other_votes": 356,
+        "total_votes": 9483,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2349,
-        "margin_pct": 28.267148014440437,
+        "margin": 81,
+        "margin_pct": 0.8541600759253402,
         "winner": "R"
       },
       "70": {
-        "dem_votes": 4854,
-        "rep_votes": 6950,
-        "other_votes": 413,
-        "total_votes": 12217,
+        "dem_votes": 5748,
+        "rep_votes": 4608,
+        "other_votes": 374,
+        "total_votes": 10730,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2096,
-        "margin_pct": 17.1564213800442,
-        "winner": "R"
+        "margin": -1140,
+        "margin_pct": 10.624417520969246,
+        "winner": "D"
       },
       "71": {
-        "dem_votes": 3585,
-        "rep_votes": 5624,
-        "other_votes": 345,
-        "total_votes": 9554,
+        "dem_votes": 5137,
+        "rep_votes": 4118,
+        "other_votes": 335,
+        "total_votes": 9590,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2039,
-        "margin_pct": 21.341846347079755,
-        "winner": "R"
+        "margin": -1019,
+        "margin_pct": 10.625651720542232,
+        "winner": "D"
       },
       "72": {
-        "dem_votes": 4797,
-        "rep_votes": 2233,
-        "other_votes": 330,
-        "total_votes": 7360,
+        "dem_votes": 4843,
+        "rep_votes": 3882,
+        "other_votes": 315,
+        "total_votes": 9040,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -2564,
-        "margin_pct": 34.83695652173913,
+        "margin": -961,
+        "margin_pct": 10.630530973451327,
         "winner": "D"
       },
       "73": {
-        "dem_votes": 5815,
-        "rep_votes": 6455,
-        "other_votes": 453,
-        "total_votes": 12723,
+        "dem_votes": 5467,
+        "rep_votes": 4383,
+        "other_votes": 356,
+        "total_votes": 10206,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 640,
-        "margin_pct": 5.030260158767586,
-        "winner": "R"
+        "margin": -1084,
+        "margin_pct": 10.621203213795805,
+        "winner": "D"
       },
       "74": {
-        "dem_votes": 7595,
-        "rep_votes": 4456,
-        "other_votes": 527,
-        "total_votes": 12578,
+        "dem_votes": 5450,
+        "rep_votes": 4368,
+        "other_votes": 355,
+        "total_votes": 10173,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -3139,
-        "margin_pct": 24.95627285737001,
+        "margin": -1082,
+        "margin_pct": 10.635997247616238,
         "winner": "D"
       },
       "75": {
-        "dem_votes": 4549,
-        "rep_votes": 6196,
-        "other_votes": 335,
-        "total_votes": 11080,
+        "dem_votes": 4872,
+        "rep_votes": 3905,
+        "other_votes": 317,
+        "total_votes": 9094,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1647,
-        "margin_pct": 14.864620938628159,
-        "winner": "R"
+        "margin": -967,
+        "margin_pct": 10.633384649219266,
+        "winner": "D"
       },
       "76": {
-        "dem_votes": 6355,
-        "rep_votes": 1188,
-        "other_votes": 247,
-        "total_votes": 7790,
+        "dem_votes": 4765,
+        "rep_votes": 3820,
+        "other_votes": 310,
+        "total_votes": 8895,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -5167,
-        "margin_pct": 66.32862644415918,
+        "margin": -945,
+        "margin_pct": 10.623946037099493,
         "winner": "D"
       },
       "77": {
-        "dem_votes": 6331,
-        "rep_votes": 2169,
-        "other_votes": 252,
-        "total_votes": 8752,
+        "dem_votes": 5103,
+        "rep_votes": 4090,
+        "other_votes": 332,
+        "total_votes": 9525,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -4162,
-        "margin_pct": 47.554844606946986,
+        "margin": -1013,
+        "margin_pct": 10.63517060367454,
         "winner": "D"
       },
       "78": {
-        "dem_votes": 2701,
-        "rep_votes": 6347,
-        "other_votes": 332,
-        "total_votes": 9380,
+        "dem_votes": 4290,
+        "rep_votes": 5033,
+        "other_votes": 366,
+        "total_votes": 9689,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3646,
-        "margin_pct": 38.869936034115135,
+        "margin": 743,
+        "margin_pct": 7.668490040251832,
         "winner": "R"
       },
       "79": {
-        "dem_votes": 5170,
-        "rep_votes": 1536,
-        "other_votes": 179,
-        "total_votes": 6885,
+        "dem_votes": 4302,
+        "rep_votes": 3448,
+        "other_votes": 280,
+        "total_votes": 8030,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -3634,
-        "margin_pct": 52.78140885984023,
+        "margin": -854,
+        "margin_pct": 10.635118306351183,
         "winner": "D"
       },
       "80": {
-        "dem_votes": 6427,
-        "rep_votes": 1860,
-        "other_votes": 269,
-        "total_votes": 8556,
+        "dem_votes": 5019,
+        "rep_votes": 4023,
+        "other_votes": 327,
+        "total_votes": 9369,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -4567,
-        "margin_pct": 53.37774661056568,
+        "margin": -996,
+        "margin_pct": 10.630803714377201,
         "winner": "D"
       },
       "81": {
-        "dem_votes": 3076,
-        "rep_votes": 5582,
-        "other_votes": 369,
-        "total_votes": 9027,
+        "dem_votes": 2853,
+        "rep_votes": 6223,
+        "other_votes": 402,
+        "total_votes": 9478,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2506,
-        "margin_pct": 27.761160961559767,
+        "margin": 3370,
+        "margin_pct": 35.55602447773792,
         "winner": "R"
       },
       "82": {
-        "dem_votes": 3034,
-        "rep_votes": 5688,
-        "other_votes": 475,
-        "total_votes": 9197,
+        "dem_votes": 2719,
+        "rep_votes": 5931,
+        "other_votes": 383,
+        "total_votes": 9033,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2654,
-        "margin_pct": 28.857236055235404,
+        "margin": 3212,
+        "margin_pct": 35.55850769401085,
         "winner": "R"
       },
       "83": {
-        "dem_votes": 3198,
-        "rep_votes": 8207,
-        "other_votes": 391,
-        "total_votes": 11796,
+        "dem_votes": 3166,
+        "rep_votes": 6906,
+        "other_votes": 446,
+        "total_votes": 10518,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 5009,
-        "margin_pct": 42.46354696507291,
+        "margin": 3740,
+        "margin_pct": 35.558090891804525,
         "winner": "R"
       },
       "84": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 3100,
+        "rep_votes": 5209,
+        "other_votes": 371,
+        "total_votes": 8680,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
+        "margin": 2109,
+        "margin_pct": 24.297235023041473,
+        "winner": "R"
       },
       "85": {
-        "dem_votes": 0,
-        "rep_votes": 1,
-        "other_votes": 0,
-        "total_votes": 1,
+        "dem_votes": 3321,
+        "rep_votes": 5580,
+        "other_votes": 397,
+        "total_votes": 9298,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1,
-        "margin_pct": 100.0,
+        "margin": 2259,
+        "margin_pct": 24.29554742955474,
         "winner": "R"
       },
       "86": {
-        "dem_votes": 2378,
-        "rep_votes": 5300,
-        "other_votes": 396,
-        "total_votes": 8074,
+        "dem_votes": 3033,
+        "rep_votes": 6401,
+        "other_votes": 499,
+        "total_votes": 9933,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2922,
-        "margin_pct": 36.19024027743374,
+        "margin": 3368,
+        "margin_pct": 33.9071780932246,
         "winner": "R"
       },
       "87": {
-        "dem_votes": 2856,
-        "rep_votes": 4728,
+        "dem_votes": 2938,
+        "rep_votes": 4656,
         "other_votes": 242,
-        "total_votes": 7826,
+        "total_votes": 7836,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1872,
-        "margin_pct": 23.920265780730897,
+        "margin": 1718,
+        "margin_pct": 21.92445125063808,
         "winner": "R"
       },
       "88": {
-        "dem_votes": 3496,
-        "rep_votes": 4776,
-        "other_votes": 195,
-        "total_votes": 8467,
+        "dem_votes": 3205,
+        "rep_votes": 4631,
+        "other_votes": 186,
+        "total_votes": 8022,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1280,
-        "margin_pct": 15.117515058462267,
+        "margin": 1426,
+        "margin_pct": 17.776115681874842,
         "winner": "R"
       },
       "89": {
-        "dem_votes": 3582,
-        "rep_votes": 4755,
-        "other_votes": 274,
-        "total_votes": 8611,
+        "dem_votes": 3954,
+        "rep_votes": 4762,
+        "other_votes": 267,
+        "total_votes": 8983,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1173,
-        "margin_pct": 13.622111253048427,
+        "margin": 808,
+        "margin_pct": 8.994767894912613,
         "winner": "R"
       },
       "90": {
-        "dem_votes": 2534,
-        "rep_votes": 2428,
-        "other_votes": 168,
-        "total_votes": 5130,
+        "dem_votes": 4143,
+        "rep_votes": 4894,
+        "other_votes": 333,
+        "total_votes": 9370,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -106,
-        "margin_pct": 2.0662768031189085,
-        "winner": "D"
+        "margin": 751,
+        "margin_pct": 8.014941302027747,
+        "winner": "R"
+      },
+      "91": {
+        "dem_votes": 3331,
+        "rep_votes": 5598,
+        "other_votes": 399,
+        "total_votes": 9328,
+        "dem_candidate": "John Burkhalter",
+        "rep_candidate": "Congressman Tim Griffin",
+        "margin": 2267,
+        "margin_pct": 24.303173241852488,
+        "winner": "R"
       },
       "92": {
-        "dem_votes": 2634,
-        "rep_votes": 5682,
-        "other_votes": 370,
-        "total_votes": 8686,
+        "dem_votes": 2767,
+        "rep_votes": 5738,
+        "other_votes": 359,
+        "total_votes": 8864,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 3048,
-        "margin_pct": 35.09095095556067,
+        "margin": 2971,
+        "margin_pct": 33.51759927797834,
         "winner": "R"
       },
       "93": {
-        "dem_votes": 2377,
-        "rep_votes": 4191,
-        "other_votes": 232,
-        "total_votes": 6800,
+        "dem_votes": 4563,
+        "rep_votes": 3485,
+        "other_votes": 216,
+        "total_votes": 8264,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1814,
-        "margin_pct": 26.676470588235297,
-        "winner": "R"
+        "margin": -1078,
+        "margin_pct": 13.044530493707649,
+        "winner": "D"
       },
       "94": {
-        "dem_votes": 3294,
-        "rep_votes": 3172,
-        "other_votes": 171,
-        "total_votes": 6637,
+        "dem_votes": 4335,
+        "rep_votes": 4183,
+        "other_votes": 216,
+        "total_votes": 8734,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -122,
-        "margin_pct": 1.8381799005574808,
+        "margin": -152,
+        "margin_pct": 1.7403251660178611,
         "winner": "D"
       },
       "95": {
         "dem_votes": 2309,
-        "rep_votes": 1113,
+        "rep_votes": 1114,
         "other_votes": 52,
-        "total_votes": 3474,
+        "total_votes": 3475,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": -1196,
-        "margin_pct": 34.427173287276915,
+        "margin": -1195,
+        "margin_pct": 34.388489208633096,
         "winner": "D"
       },
       "96": {
-        "dem_votes": 2567,
-        "rep_votes": 3288,
-        "other_votes": 159,
-        "total_votes": 6014,
+        "dem_votes": 2540,
+        "rep_votes": 3161,
+        "other_votes": 160,
+        "total_votes": 5861,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 721,
-        "margin_pct": 11.988693049551047,
+        "margin": 621,
+        "margin_pct": 10.595461525336972,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 1205,
-        "rep_votes": 1416,
-        "other_votes": 70,
-        "total_votes": 2691,
+        "dem_votes": 1483,
+        "rep_votes": 2542,
+        "other_votes": 109,
+        "total_votes": 4134,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 211,
-        "margin_pct": 7.840951319212189,
+        "margin": 1059,
+        "margin_pct": 25.61683599419449,
         "winner": "R"
       },
       "99": {
-        "dem_votes": 1409,
-        "rep_votes": 3932,
-        "other_votes": 162,
-        "total_votes": 5503,
+        "dem_votes": 3077,
+        "rep_votes": 5957,
+        "other_votes": 236,
+        "total_votes": 9270,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 2523,
-        "margin_pct": 45.847719425767764,
+        "margin": 2880,
+        "margin_pct": 31.06796116504854,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 2595,
-        "rep_votes": 4293,
-        "other_votes": 153,
-        "total_votes": 7041,
+        "dem_votes": 2496,
+        "rep_votes": 5271,
+        "other_votes": 182,
+        "total_votes": 7949,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 1698,
-        "margin_pct": 24.11589262888794,
+        "margin": 2775,
+        "margin_pct": 34.910051578814944,
         "winner": "R"
       }
     }

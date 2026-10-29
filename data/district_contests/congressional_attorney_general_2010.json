@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.617341,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 82502,
+        "dem_votes": 143115,
         "rep_votes": 0,
-        "other_votes": 31594,
-        "total_votes": 114096,
+        "other_votes": 48408,
+        "total_votes": 191523,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -82502,
-        "margin_pct": 72.30928341046136,
+        "margin": -143115,
+        "margin_pct": 74.7247066931909,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 103164,
+        "dem_votes": 142697,
         "rep_votes": 0,
-        "other_votes": 32498,
-        "total_votes": 135662,
+        "other_votes": 49257,
+        "total_votes": 191954,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -103164,
-        "margin_pct": 76.04487623652902,
+        "margin": -142697,
+        "margin_pct": 74.33916459151672,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 48441,
+        "dem_votes": 92975,
         "rep_votes": 0,
-        "other_votes": 22897,
-        "total_votes": 71338,
+        "other_votes": 46128,
+        "total_votes": 139103,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -48441,
-        "margin_pct": 67.90350164007963,
+        "margin": -92975,
+        "margin_pct": 66.83896105763355,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 93348,
+        "dem_votes": 147153,
         "rep_votes": 0,
-        "other_votes": 31779,
-        "total_votes": 125127,
+        "other_votes": 53081,
+        "total_votes": 200234,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -93348,
-        "margin_pct": 74.60260375458535,
+        "margin": -147153,
+        "margin_pct": 73.49051609616748,
         "winner": "D"
       }
     }

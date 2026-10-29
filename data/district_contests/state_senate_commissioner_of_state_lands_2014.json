@@ -3,399 +3,636 @@
   "scope": "state_senate",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2032,
-    "matched_vote_coverage": 0.80724,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 7491,
-        "rep_votes": 9159,
-        "other_votes": 834,
-        "total_votes": 17484,
+        "dem_votes": 9072,
+        "rep_votes": 9261,
+        "other_votes": 846,
+        "total_votes": 19179,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 1668,
-        "margin_pct": 9.540150995195608,
+        "margin": 189,
+        "margin_pct": 0.9854528390427029,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 2512,
-        "rep_votes": 4407,
-        "other_votes": 376,
-        "total_votes": 7295,
+        "dem_votes": 2620,
+        "rep_votes": 4488,
+        "other_votes": 377,
+        "total_votes": 7485,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 1895,
-        "margin_pct": 25.976696367374913,
+        "margin": 1868,
+        "margin_pct": 24.956579826319306,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 8578,
-        "rep_votes": 10798,
-        "other_votes": 1001,
-        "total_votes": 20377,
+        "dem_votes": 10798,
+        "rep_votes": 14423,
+        "other_votes": 1270,
+        "total_votes": 26491,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 2220,
-        "margin_pct": 10.894636109338961,
+        "margin": 3625,
+        "margin_pct": 13.683892642784343,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 7739,
-        "rep_votes": 13684,
-        "other_votes": 883,
-        "total_votes": 22306,
+        "dem_votes": 7844,
+        "rep_votes": 14264,
+        "other_votes": 916,
+        "total_votes": 23024,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 5945,
-        "margin_pct": 26.652021877521744,
+        "margin": 6420,
+        "margin_pct": 27.883947185545516,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 6871,
-        "rep_votes": 14868,
-        "other_votes": 1725,
-        "total_votes": 23464,
+        "dem_votes": 7666,
+        "rep_votes": 15864,
+        "other_votes": 1860,
+        "total_votes": 25390,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 7997,
-        "margin_pct": 34.081997954312996,
+        "margin": 8198,
+        "margin_pct": 32.28830248129185,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 1075,
-        "rep_votes": 3566,
-        "other_votes": 170,
-        "total_votes": 4811,
+        "dem_votes": 8676,
+        "rep_votes": 16801,
+        "other_votes": 1842,
+        "total_votes": 27319,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 2491,
-        "margin_pct": 51.777177302016206,
+        "margin": 8125,
+        "margin_pct": 29.741205754236976,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 5956,
-        "rep_votes": 12030,
-        "other_votes": 1404,
-        "total_votes": 19390,
+        "dem_votes": 7920,
+        "rep_votes": 15385,
+        "other_votes": 1676,
+        "total_votes": 24981,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 6074,
-        "margin_pct": 31.32542547705003,
+        "margin": 7465,
+        "margin_pct": 29.88271086025379,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 12964,
-        "rep_votes": 6082,
-        "other_votes": 639,
-        "total_votes": 19685,
+        "dem_votes": 14235,
+        "rep_votes": 9357,
+        "other_votes": 1026,
+        "total_votes": 24618,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -6882,
-        "margin_pct": 34.960629921259844,
+        "margin": -4878,
+        "margin_pct": 19.814769680721422,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1337,
-        "rep_votes": 583,
-        "other_votes": 56,
-        "total_votes": 1976,
+        "dem_votes": 12511,
+        "rep_votes": 8568,
+        "other_votes": 641,
+        "total_votes": 21720,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -754,
-        "margin_pct": 38.15789473684211,
+        "margin": -3943,
+        "margin_pct": 18.15377532228361,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 7008,
-        "rep_votes": 9499,
-        "other_votes": 981,
-        "total_votes": 17488,
+        "dem_votes": 10765,
+        "rep_votes": 12976,
+        "other_votes": 1367,
+        "total_votes": 25108,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 2491,
-        "margin_pct": 14.244053064958829,
+        "margin": 2211,
+        "margin_pct": 8.805958260315437,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 3845,
-        "rep_votes": 8932,
-        "other_votes": 881,
-        "total_votes": 13658,
+        "dem_votes": 8314,
+        "rep_votes": 14842,
+        "other_votes": 1451,
+        "total_votes": 24607,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 5087,
-        "margin_pct": 37.245570361692785,
+        "margin": 6528,
+        "margin_pct": 26.529036453041815,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 15217,
-        "rep_votes": 5505,
-        "other_votes": 1032,
-        "total_votes": 21754,
+        "dem_votes": 14381,
+        "rep_votes": 11729,
+        "other_votes": 1380,
+        "total_votes": 27490,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -9712,
-        "margin_pct": 44.644663050473476,
+        "margin": -2652,
+        "margin_pct": 9.647144416151328,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 11486,
-        "rep_votes": 17904,
-        "other_votes": 1826,
-        "total_votes": 31216,
+        "dem_votes": 14734,
+        "rep_votes": 12017,
+        "other_votes": 1414,
+        "total_votes": 28165,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 6418,
-        "margin_pct": 20.559969246540234,
-        "winner": "R"
+        "margin": -2717,
+        "margin_pct": 9.646724658263803,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 17223,
-        "rep_votes": 16809,
-        "other_votes": 1849,
-        "total_votes": 35881,
+        "dem_votes": 14678,
+        "rep_votes": 11971,
+        "other_votes": 1408,
+        "total_votes": 28057,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -414,
-        "margin_pct": 1.1538139962654328,
+        "margin": -2707,
+        "margin_pct": 9.648216131446699,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 16370,
-        "rep_votes": 4776,
-        "other_votes": 706,
-        "total_votes": 21852,
+        "dem_votes": 12821,
+        "rep_votes": 10457,
+        "other_votes": 1230,
+        "total_votes": 24508,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -11594,
-        "margin_pct": 53.05692842760388,
+        "margin": -2364,
+        "margin_pct": 9.645829933083075,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 6887,
-        "rep_votes": 16453,
-        "other_votes": 1770,
-        "total_votes": 25110,
+        "dem_votes": 7507,
+        "rep_votes": 17919,
+        "other_votes": 1838,
+        "total_votes": 27264,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 9566,
-        "margin_pct": 38.09637594583831,
+        "margin": 10412,
+        "margin_pct": 38.18955399061033,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2586,
-        "rep_votes": 4858,
-        "other_votes": 511,
-        "total_votes": 7955,
+        "dem_votes": 8935,
+        "rep_votes": 14682,
+        "other_votes": 1671,
+        "total_votes": 25288,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 2272,
-        "margin_pct": 28.560653676932745,
+        "margin": 5747,
+        "margin_pct": 22.726194242328376,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 6058,
-        "rep_votes": 16854,
-        "other_votes": 1869,
-        "total_votes": 24781,
+        "dem_votes": 6170,
+        "rep_votes": 17106,
+        "other_votes": 1888,
+        "total_votes": 25164,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 10796,
-        "margin_pct": 43.56563496226948,
+        "margin": 10936,
+        "margin_pct": 43.45890955333015,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 3207,
-        "rep_votes": 5494,
-        "other_votes": 718,
-        "total_votes": 9419,
+        "dem_votes": 8839,
+        "rep_votes": 11044,
+        "other_votes": 1297,
+        "total_votes": 21180,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 2287,
-        "margin_pct": 24.28070920479881,
+        "margin": 2205,
+        "margin_pct": 10.410764872521247,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 6183,
-        "rep_votes": 11228,
-        "other_votes": 1212,
-        "total_votes": 18623,
+        "dem_votes": 6419,
+        "rep_votes": 11699,
+        "other_votes": 1322,
+        "total_votes": 19440,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 5045,
-        "margin_pct": 27.09015733233099,
+        "margin": 5280,
+        "margin_pct": 27.160493827160494,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 7250,
-        "rep_votes": 11685,
-        "other_votes": 1373,
-        "total_votes": 20308,
+        "dem_votes": 7727,
+        "rep_votes": 12520,
+        "other_votes": 1444,
+        "total_votes": 21691,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 4435,
-        "margin_pct": 21.83868426235966,
+        "margin": 4793,
+        "margin_pct": 22.096722142824213,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 7794,
-        "rep_votes": 16164,
-        "other_votes": 1843,
-        "total_votes": 25801,
+        "dem_votes": 7959,
+        "rep_votes": 16044,
+        "other_votes": 1871,
+        "total_votes": 25874,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 8370,
-        "margin_pct": 32.4406030774001,
+        "margin": 8085,
+        "margin_pct": 31.247584447708128,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 3150,
-        "rep_votes": 6175,
-        "other_votes": 720,
-        "total_votes": 10045,
+        "dem_votes": 7002,
+        "rep_votes": 16043,
+        "other_votes": 1741,
+        "total_votes": 24786,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 3025,
-        "margin_pct": 30.11448481831757,
+        "margin": 9041,
+        "margin_pct": 36.47623658516905,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 7250,
-        "rep_votes": 17966,
-        "other_votes": 1926,
-        "total_votes": 27142,
+        "dem_votes": 8217,
+        "rep_votes": 16742,
+        "other_votes": 1901,
+        "total_votes": 26860,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 10716,
-        "margin_pct": 39.481246776213986,
+        "margin": 8525,
+        "margin_pct": 31.738644825018614,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 6880,
-        "rep_votes": 13186,
-        "other_votes": 1436,
-        "total_votes": 21502,
+        "dem_votes": 7698,
+        "rep_votes": 14790,
+        "other_votes": 1676,
+        "total_votes": 24164,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 6306,
-        "margin_pct": 29.327504418193655,
+        "margin": 7092,
+        "margin_pct": 29.349445456050322,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 5825,
-        "rep_votes": 11961,
-        "other_votes": 1353,
-        "total_votes": 19139,
+        "dem_votes": 7760,
+        "rep_votes": 14138,
+        "other_votes": 1668,
+        "total_votes": 23566,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 6136,
-        "margin_pct": 32.060191232561785,
+        "margin": 6378,
+        "margin_pct": 27.064414834931682,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 5139,
-        "rep_votes": 9702,
-        "other_votes": 1039,
-        "total_votes": 15880,
+        "dem_votes": 5648,
+        "rep_votes": 12969,
+        "other_votes": 1330,
+        "total_votes": 19947,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 4563,
-        "margin_pct": 28.73425692695214,
+        "margin": 7321,
+        "margin_pct": 36.70226099162782,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 5097,
-        "rep_votes": 9176,
-        "other_votes": 1097,
-        "total_votes": 15370,
+        "dem_votes": 5649,
+        "rep_votes": 9630,
+        "other_votes": 1202,
+        "total_votes": 16481,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 4079,
-        "margin_pct": 26.53871177618738,
+        "margin": 3981,
+        "margin_pct": 24.155087676718644,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 6241,
-        "rep_votes": 14526,
-        "other_votes": 1762,
-        "total_votes": 22529,
+        "dem_votes": 6137,
+        "rep_votes": 13906,
+        "other_votes": 1632,
+        "total_votes": 21675,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 8285,
-        "margin_pct": 36.77482356074393,
+        "margin": 7769,
+        "margin_pct": 35.84313725490196,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 9126,
-        "rep_votes": 8598,
-        "other_votes": 1400,
-        "total_votes": 19124,
+        "dem_votes": 7555,
+        "rep_votes": 11893,
+        "other_votes": 1526,
+        "total_votes": 20974,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": -528,
-        "margin_pct": 2.760928676009203,
-        "winner": "D"
+        "margin": 4338,
+        "margin_pct": 20.682750071517116,
+        "winner": "R"
       },
       "31": {
-        "dem_votes": 756,
-        "rep_votes": 2284,
-        "other_votes": 196,
-        "total_votes": 3236,
+        "dem_votes": 5058,
+        "rep_votes": 7961,
+        "other_votes": 1022,
+        "total_votes": 14041,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 1528,
-        "margin_pct": 47.21878862793572,
+        "margin": 2903,
+        "margin_pct": 20.67516558649669,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 4080,
-        "rep_votes": 11117,
-        "other_votes": 1117,
-        "total_votes": 16314,
+        "dem_votes": 4116,
+        "rep_votes": 11508,
+        "other_votes": 1179,
+        "total_votes": 16803,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 7037,
-        "margin_pct": 43.13473090597033,
+        "margin": 7392,
+        "margin_pct": 43.992144259953584,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 4011,
-        "rep_votes": 11850,
-        "other_votes": 1117,
-        "total_votes": 16978,
+        "dem_votes": 4156,
+        "rep_votes": 12183,
+        "other_votes": 1229,
+        "total_votes": 17568,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 7839,
-        "margin_pct": 46.17151607963246,
+        "margin": 8027,
+        "margin_pct": 45.691029143898,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 4126,
-        "rep_votes": 11602,
-        "other_votes": 1185,
-        "total_votes": 16913,
+        "dem_votes": 4646,
+        "rep_votes": 13620,
+        "other_votes": 1375,
+        "total_votes": 19641,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 7476,
-        "margin_pct": 44.202684325666645,
+        "margin": 8974,
+        "margin_pct": 45.690137976681434,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 5572,
-        "rep_votes": 15110,
-        "other_votes": 1727,
-        "total_votes": 22409,
+        "dem_votes": 5790,
+        "rep_votes": 11690,
+        "other_votes": 1347,
+        "total_votes": 18827,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 9538,
-        "margin_pct": 42.56325583470927,
+        "margin": 5900,
+        "margin_pct": 31.33797206140118,
         "winner": "R"
       }
     }

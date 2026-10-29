@@ -3,1004 +3,1535 @@
   "scope": "state_house",
   "contest_type": "president",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1874,
-    "matched_vote_coverage": 0.687181,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 3048,
-        "rep_votes": 5919,
-        "other_votes": 437,
-        "total_votes": 9404,
+        "dem_votes": 3250,
+        "rep_votes": 6364,
+        "other_votes": 363,
+        "total_votes": 9977,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2871,
-        "margin_pct": 30.52956188855806,
+        "margin": 3114,
+        "margin_pct": 31.21178711035381,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 3727,
-        "rep_votes": 7082,
-        "other_votes": 359,
-        "total_votes": 11168,
+        "dem_votes": 3706,
+        "rep_votes": 7580,
+        "other_votes": 388,
+        "total_votes": 11674,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3355,
-        "margin_pct": 30.04118911174785,
+        "margin": 3874,
+        "margin_pct": 33.18485523385301,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 248,
-        "rep_votes": 663,
-        "other_votes": 30,
-        "total_votes": 941,
+        "dem_votes": 3883,
+        "rep_votes": 10088,
+        "other_votes": 356,
+        "total_votes": 14327,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 415,
-        "margin_pct": 44.10201912858661,
+        "margin": 6205,
+        "margin_pct": 43.30983457806938,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 2038,
-        "rep_votes": 4776,
-        "other_votes": 240,
-        "total_votes": 7054,
+        "dem_votes": 3607,
+        "rep_votes": 8928,
+        "other_votes": 386,
+        "total_votes": 12921,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2738,
-        "margin_pct": 38.8148568188262,
+        "margin": 5321,
+        "margin_pct": 41.18102314062379,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 3255,
-        "rep_votes": 9569,
-        "other_votes": 410,
-        "total_votes": 13234,
+        "dem_votes": 3115,
+        "rep_votes": 9214,
+        "other_votes": 380,
+        "total_votes": 12709,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 6314,
-        "margin_pct": 47.710442798851446,
+        "margin": 6099,
+        "margin_pct": 47.989613659611294,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 3228,
-        "rep_votes": 5668,
-        "other_votes": 285,
-        "total_votes": 9181,
+        "dem_votes": 3779,
+        "rep_votes": 7118,
+        "other_votes": 386,
+        "total_votes": 11283,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2440,
-        "margin_pct": 26.576625639908507,
+        "margin": 3339,
+        "margin_pct": 29.593193299654345,
         "winner": "R"
       },
-      "9": {
-        "dem_votes": 133,
-        "rep_votes": 342,
-        "other_votes": 14,
-        "total_votes": 489,
+      "7": {
+        "dem_votes": 2245,
+        "rep_votes": 5419,
+        "other_votes": 196,
+        "total_votes": 7860,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 209,
-        "margin_pct": 42.740286298568506,
+        "margin": 3174,
+        "margin_pct": 40.38167938931297,
         "winner": "R"
       },
-      "11": {
-        "dem_votes": 0,
-        "rep_votes": 1,
-        "other_votes": 0,
-        "total_votes": 1,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1,
-        "margin_pct": 100.0,
-        "winner": "R"
-      },
-      "12": {
-        "dem_votes": 2885,
-        "rep_votes": 7328,
-        "other_votes": 256,
-        "total_votes": 10469,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4443,
-        "margin_pct": 42.43958353233356,
-        "winner": "R"
-      },
-      "17": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
-      },
-      "18": {
-        "dem_votes": 1796,
-        "rep_votes": 3733,
-        "other_votes": 149,
-        "total_votes": 5678,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1937,
-        "margin_pct": 34.11412469179289,
-        "winner": "R"
-      },
-      "19": {
-        "dem_votes": 1289,
-        "rep_votes": 1843,
-        "other_votes": 83,
-        "total_votes": 3215,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 554,
-        "margin_pct": 17.231726283048214,
-        "winner": "R"
-      },
-      "20": {
-        "dem_votes": 5888,
-        "rep_votes": 6424,
-        "other_votes": 451,
-        "total_votes": 12763,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 536,
-        "margin_pct": 4.199639583170101,
-        "winner": "R"
-      },
-      "21": {
-        "dem_votes": 3980,
-        "rep_votes": 1906,
-        "other_votes": 402,
-        "total_votes": 6288,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -2074,
-        "margin_pct": 32.98346055979644,
-        "winner": "D"
-      },
-      "22": {
-        "dem_votes": 3529,
-        "rep_votes": 4076,
-        "other_votes": 341,
-        "total_votes": 7946,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 547,
-        "margin_pct": 6.883966775736219,
-        "winner": "R"
-      },
-      "23": {
-        "dem_votes": 3246,
-        "rep_votes": 6178,
-        "other_votes": 298,
-        "total_votes": 9722,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2932,
-        "margin_pct": 30.158403620654184,
-        "winner": "R"
-      },
-      "24": {
-        "dem_votes": 2462,
-        "rep_votes": 7946,
-        "other_votes": 297,
-        "total_votes": 10705,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 5484,
-        "margin_pct": 51.228397944885565,
-        "winner": "R"
-      },
-      "25": {
-        "dem_votes": 3012,
-        "rep_votes": 6567,
-        "other_votes": 357,
-        "total_votes": 9936,
+      "8": {
+        "dem_votes": 2514,
+        "rep_votes": 6069,
+        "other_votes": 219,
+        "total_votes": 8802,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
         "margin": 3555,
-        "margin_pct": 35.778985507246375,
+        "margin_pct": 40.38854805725972,
         "winner": "R"
       },
-      "26": {
-        "dem_votes": 2965,
-        "rep_votes": 6247,
-        "other_votes": 317,
-        "total_votes": 9529,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3282,
-        "margin_pct": 34.442228985203066,
-        "winner": "R"
-      },
-      "27": {
-        "dem_votes": 3404,
-        "rep_votes": 9168,
-        "other_votes": 537,
-        "total_votes": 13109,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 5764,
-        "margin_pct": 43.969791746128614,
-        "winner": "R"
-      },
-      "28": {
-        "dem_votes": 2850,
-        "rep_votes": 7591,
-        "other_votes": 430,
-        "total_votes": 10871,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4741,
-        "margin_pct": 43.61144328948579,
-        "winner": "R"
-      },
-      "29": {
-        "dem_votes": 3074,
-        "rep_votes": 5188,
-        "other_votes": 245,
-        "total_votes": 8507,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2114,
-        "margin_pct": 24.850123427765368,
-        "winner": "R"
-      },
-      "30": {
-        "dem_votes": 1174,
-        "rep_votes": 2431,
-        "other_votes": 176,
-        "total_votes": 3781,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1257,
-        "margin_pct": 33.24517323459402,
-        "winner": "R"
-      },
-      "31": {
-        "dem_votes": 2533,
-        "rep_votes": 5814,
-        "other_votes": 340,
-        "total_votes": 8687,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3281,
-        "margin_pct": 37.76908023483366,
-        "winner": "R"
-      },
-      "32": {
-        "dem_votes": 1457,
-        "rep_votes": 1543,
-        "other_votes": 81,
-        "total_votes": 3081,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 86,
-        "margin_pct": 2.7913015254787408,
-        "winner": "R"
-      },
-      "33": {
-        "dem_votes": 716,
-        "rep_votes": 1764,
-        "other_votes": 76,
-        "total_votes": 2556,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1048,
-        "margin_pct": 41.00156494522692,
-        "winner": "R"
-      },
-      "35": {
-        "dem_votes": 628,
-        "rep_votes": 294,
-        "other_votes": 13,
-        "total_votes": 935,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -334,
-        "margin_pct": 35.721925133689844,
-        "winner": "D"
-      },
-      "36": {
-        "dem_votes": 1024,
-        "rep_votes": 2152,
-        "other_votes": 85,
-        "total_votes": 3261,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1128,
-        "margin_pct": 34.590616375344986,
-        "winner": "R"
-      },
-      "37": {
-        "dem_votes": 2243,
-        "rep_votes": 4916,
-        "other_votes": 146,
-        "total_votes": 7305,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2673,
-        "margin_pct": 36.591375770020534,
-        "winner": "R"
-      },
-      "38": {
-        "dem_votes": 2181,
-        "rep_votes": 4461,
-        "other_votes": 167,
-        "total_votes": 6809,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2280,
-        "margin_pct": 33.485093258922014,
-        "winner": "R"
-      },
-      "39": {
-        "dem_votes": 1518,
-        "rep_votes": 4212,
-        "other_votes": 214,
-        "total_votes": 5944,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2694,
-        "margin_pct": 45.32301480484522,
-        "winner": "R"
-      },
-      "40": {
-        "dem_votes": 2849,
-        "rep_votes": 7759,
-        "other_votes": 312,
-        "total_votes": 10920,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4910,
-        "margin_pct": 44.96336996336996,
-        "winner": "R"
-      },
-      "41": {
-        "dem_votes": 3163,
-        "rep_votes": 9956,
-        "other_votes": 438,
-        "total_votes": 13557,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 6793,
-        "margin_pct": 50.106955816183515,
-        "winner": "R"
-      },
-      "42": {
-        "dem_votes": 2460,
-        "rep_votes": 8052,
-        "other_votes": 319,
-        "total_votes": 10831,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 5592,
-        "margin_pct": 51.62958175607054,
-        "winner": "R"
-      },
-      "43": {
-        "dem_votes": 3863,
-        "rep_votes": 6612,
-        "other_votes": 354,
-        "total_votes": 10829,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2749,
-        "margin_pct": 25.385538830916982,
-        "winner": "R"
-      },
-      "44": {
-        "dem_votes": 1986,
-        "rep_votes": 7245,
-        "other_votes": 278,
-        "total_votes": 9509,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 5259,
-        "margin_pct": 55.30550005258177,
-        "winner": "R"
-      },
-      "45": {
-        "dem_votes": 3230,
-        "rep_votes": 6540,
-        "other_votes": 282,
-        "total_votes": 10052,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3310,
-        "margin_pct": 32.92877039395145,
-        "winner": "R"
-      },
-      "46": {
-        "dem_votes": 2189,
-        "rep_votes": 6123,
-        "other_votes": 272,
-        "total_votes": 8584,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3934,
-        "margin_pct": 45.82945013979497,
-        "winner": "R"
-      },
-      "47": {
-        "dem_votes": 2523,
-        "rep_votes": 9701,
-        "other_votes": 285,
-        "total_votes": 12509,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 7178,
-        "margin_pct": 57.38268446718363,
-        "winner": "R"
-      },
-      "48": {
-        "dem_votes": 2580,
-        "rep_votes": 6353,
-        "other_votes": 251,
-        "total_votes": 9184,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3773,
-        "margin_pct": 41.082317073170735,
-        "winner": "R"
-      },
-      "49": {
-        "dem_votes": 2163,
-        "rep_votes": 1854,
-        "other_votes": 116,
-        "total_votes": 4133,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -309,
-        "margin_pct": 7.47640938785386,
-        "winner": "D"
-      },
-      "50": {
-        "dem_votes": 3954,
-        "rep_votes": 7721,
-        "other_votes": 324,
-        "total_votes": 11999,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3767,
-        "margin_pct": 31.39428285690474,
-        "winner": "R"
-      },
-      "51": {
-        "dem_votes": 1653,
-        "rep_votes": 4710,
-        "other_votes": 132,
-        "total_votes": 6495,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3057,
-        "margin_pct": 47.06697459584296,
-        "winner": "R"
-      },
-      "52": {
-        "dem_votes": 2596,
-        "rep_votes": 6967,
-        "other_votes": 312,
-        "total_votes": 9875,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4371,
-        "margin_pct": 44.26329113924051,
-        "winner": "R"
-      },
-      "53": {
-        "dem_votes": 205,
-        "rep_votes": 739,
-        "other_votes": 23,
-        "total_votes": 967,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 534,
-        "margin_pct": 55.222337125129265,
-        "winner": "R"
-      },
-      "54": {
-        "dem_votes": 2137,
-        "rep_votes": 4435,
-        "other_votes": 274,
-        "total_votes": 6846,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2298,
-        "margin_pct": 33.56704645048204,
-        "winner": "R"
-      },
-      "55": {
-        "dem_votes": 57,
-        "rep_votes": 62,
-        "other_votes": 4,
-        "total_votes": 123,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 5,
-        "margin_pct": 4.0650406504065035,
-        "winner": "R"
-      },
-      "56": {
-        "dem_votes": 665,
-        "rep_votes": 1278,
-        "other_votes": 57,
-        "total_votes": 2000,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 613,
-        "margin_pct": 30.65,
-        "winner": "R"
-      },
-      "57": {
-        "dem_votes": 2114,
-        "rep_votes": 8237,
-        "other_votes": 293,
-        "total_votes": 10644,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 6123,
-        "margin_pct": 57.52536640360767,
-        "winner": "R"
-      },
-      "58": {
-        "dem_votes": 2331,
-        "rep_votes": 8375,
-        "other_votes": 223,
-        "total_votes": 10929,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 6044,
-        "margin_pct": 55.30240644157745,
-        "winner": "R"
-      },
-      "59": {
-        "dem_votes": 1799,
-        "rep_votes": 6208,
-        "other_votes": 250,
-        "total_votes": 8257,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4409,
-        "margin_pct": 53.39711759719026,
-        "winner": "R"
-      },
-      "60": {
-        "dem_votes": 3489,
-        "rep_votes": 7635,
-        "other_votes": 290,
-        "total_votes": 11414,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4146,
-        "margin_pct": 36.32381286139828,
-        "winner": "R"
-      },
-      "61": {
-        "dem_votes": 3610,
-        "rep_votes": 5109,
-        "other_votes": 212,
-        "total_votes": 8931,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1499,
-        "margin_pct": 16.78423468816482,
-        "winner": "R"
-      },
-      "62": {
-        "dem_votes": 2477,
-        "rep_votes": 1777,
-        "other_votes": 59,
-        "total_votes": 4313,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -700,
-        "margin_pct": 16.23000231857176,
-        "winner": "D"
-      },
-      "63": {
-        "dem_votes": 271,
-        "rep_votes": 300,
-        "other_votes": 7,
-        "total_votes": 578,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 29,
-        "margin_pct": 5.017301038062284,
-        "winner": "R"
-      },
-      "64": {
-        "dem_votes": 7506,
-        "rep_votes": 2322,
-        "other_votes": 109,
-        "total_votes": 9937,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -5184,
-        "margin_pct": 52.16866257421757,
-        "winner": "D"
-      },
-      "65": {
-        "dem_votes": 7952,
-        "rep_votes": 2301,
-        "other_votes": 138,
-        "total_votes": 10391,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -5651,
-        "margin_pct": 54.38360119334039,
-        "winner": "D"
-      },
-      "66": {
-        "dem_votes": 5713,
-        "rep_votes": 3007,
-        "other_votes": 142,
-        "total_votes": 8862,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -2706,
-        "margin_pct": 30.534867975626266,
-        "winner": "D"
-      },
-      "67": {
-        "dem_votes": 5542,
-        "rep_votes": 7332,
-        "other_votes": 284,
-        "total_votes": 13158,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1790,
-        "margin_pct": 13.60389116887065,
-        "winner": "R"
-      },
-      "68": {
-        "dem_votes": 1940,
-        "rep_votes": 8413,
-        "other_votes": 270,
-        "total_votes": 10623,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 6473,
-        "margin_pct": 60.93382283723995,
-        "winner": "R"
-      },
-      "69": {
-        "dem_votes": 3332,
-        "rep_votes": 6711,
-        "other_votes": 243,
-        "total_votes": 10286,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3379,
-        "margin_pct": 32.85047637565623,
-        "winner": "R"
-      },
-      "70": {
-        "dem_votes": 5370,
-        "rep_votes": 9117,
-        "other_votes": 297,
-        "total_votes": 14784,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3747,
-        "margin_pct": 25.344967532467532,
-        "winner": "R"
-      },
-      "71": {
-        "dem_votes": 4588,
-        "rep_votes": 7113,
-        "other_votes": 232,
-        "total_votes": 11933,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2525,
-        "margin_pct": 21.159808933210424,
-        "winner": "R"
-      },
-      "72": {
-        "dem_votes": 7039,
-        "rep_votes": 2995,
-        "other_votes": 251,
-        "total_votes": 10285,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -4044,
-        "margin_pct": 39.31939718035975,
-        "winner": "D"
-      },
-      "73": {
-        "dem_votes": 6587,
-        "rep_votes": 7899,
-        "other_votes": 306,
-        "total_votes": 14792,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1312,
-        "margin_pct": 8.869659275283938,
-        "winner": "R"
-      },
-      "74": {
-        "dem_votes": 8748,
-        "rep_votes": 5775,
-        "other_votes": 422,
-        "total_votes": 14945,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -2973,
-        "margin_pct": 19.892940782870525,
-        "winner": "D"
-      },
-      "75": {
-        "dem_votes": 5317,
-        "rep_votes": 7676,
-        "other_votes": 243,
-        "total_votes": 13236,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2359,
-        "margin_pct": 17.822605016621335,
-        "winner": "R"
-      },
-      "76": {
-        "dem_votes": 9170,
-        "rep_votes": 1395,
+      "9": {
+        "dem_votes": 2085,
+        "rep_votes": 2930,
         "other_votes": 187,
-        "total_votes": 10752,
+        "total_votes": 5202,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -7775,
-        "margin_pct": 72.31212797619048,
-        "winner": "D"
-      },
-      "77": {
-        "dem_votes": 8568,
-        "rep_votes": 2749,
-        "other_votes": 205,
-        "total_votes": 11522,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -5819,
-        "margin_pct": 50.503384829022735,
-        "winner": "D"
-      },
-      "78": {
-        "dem_votes": 2616,
-        "rep_votes": 6434,
-        "other_votes": 198,
-        "total_votes": 9248,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3818,
-        "margin_pct": 41.284602076124564,
+        "margin": 845,
+        "margin_pct": 16.243752402921956,
         "winner": "R"
       },
-      "79": {
-        "dem_votes": 7529,
-        "rep_votes": 1957,
-        "other_votes": 110,
-        "total_votes": 9596,
+      "10": {
+        "dem_votes": 2461,
+        "rep_votes": 5940,
+        "other_votes": 215,
+        "total_votes": 8616,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -5572,
-        "margin_pct": 58.06586077532305,
-        "winner": "D"
-      },
-      "80": {
-        "dem_votes": 8961,
-        "rep_votes": 2303,
-        "other_votes": 179,
-        "total_votes": 11443,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -6658,
-        "margin_pct": 58.18404264615923,
-        "winner": "D"
-      },
-      "81": {
-        "dem_votes": 30,
-        "rep_votes": 7,
-        "other_votes": 0,
-        "total_votes": 37,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": -23,
-        "margin_pct": 62.16216216216216,
-        "winner": "D"
-      },
-      "83": {
-        "dem_votes": 199,
-        "rep_votes": 724,
-        "other_votes": 40,
-        "total_votes": 963,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 525,
-        "margin_pct": 54.51713395638629,
+        "margin": 3479,
+        "margin_pct": 40.37836583101207,
         "winner": "R"
       },
-      "84": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+      "11": {
+        "dem_votes": 2173,
+        "rep_votes": 3946,
+        "other_votes": 193,
+        "total_votes": 6312,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
-      },
-      "85": {
-        "dem_votes": 265,
-        "rep_votes": 581,
-        "other_votes": 26,
-        "total_votes": 872,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 316,
-        "margin_pct": 36.23853211009174,
+        "margin": 1773,
+        "margin_pct": 28.0893536121673,
         "winner": "R"
       },
-      "86": {
-        "dem_votes": 2007,
-        "rep_votes": 6881,
-        "other_votes": 269,
-        "total_votes": 9157,
+      "12": {
+        "dem_votes": 2822,
+        "rep_votes": 6813,
+        "other_votes": 246,
+        "total_votes": 9881,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 4874,
-        "margin_pct": 53.22703942339194,
+        "margin": 3991,
+        "margin_pct": 40.3906487197652,
         "winner": "R"
       },
-      "87": {
-        "dem_votes": 2581,
-        "rep_votes": 6465,
-        "other_votes": 266,
-        "total_votes": 9312,
+      "13": {
+        "dem_votes": 2138,
+        "rep_votes": 5162,
+        "other_votes": 187,
+        "total_votes": 7487,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3884,
-        "margin_pct": 41.70962199312715,
+        "margin": 3024,
+        "margin_pct": 40.3900093495392,
         "winner": "R"
       },
-      "88": {
-        "dem_votes": 3560,
-        "rep_votes": 6080,
-        "other_votes": 218,
-        "total_votes": 9858,
+      "14": {
+        "dem_votes": 2604,
+        "rep_votes": 6287,
+        "other_votes": 227,
+        "total_votes": 9118,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2520,
-        "margin_pct": 25.562994522215458,
+        "margin": 3683,
+        "margin_pct": 40.39262996271112,
         "winner": "R"
       },
-      "89": {
-        "dem_votes": 3378,
-        "rep_votes": 7124,
-        "other_votes": 300,
-        "total_votes": 10802,
+      "15": {
+        "dem_votes": 2147,
+        "rep_votes": 5184,
+        "other_votes": 187,
+        "total_votes": 7518,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3746,
-        "margin_pct": 34.67876319200148,
+        "margin": 3037,
+        "margin_pct": 40.396382016493746,
         "winner": "R"
       },
-      "90": {
-        "dem_votes": 2806,
-        "rep_votes": 3784,
-        "other_votes": 199,
-        "total_votes": 6789,
+      "16": {
+        "dem_votes": 2340,
+        "rep_votes": 5648,
+        "other_votes": 204,
+        "total_votes": 8192,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 978,
-        "margin_pct": 14.405656208572692,
+        "margin": 3308,
+        "margin_pct": 40.380859375,
         "winner": "R"
       },
-      "91": {
-        "dem_votes": 557,
-        "rep_votes": 1563,
-        "other_votes": 49,
-        "total_votes": 2169,
+      "17": {
+        "dem_votes": 2378,
+        "rep_votes": 5741,
+        "other_votes": 208,
+        "total_votes": 8327,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1006,
-        "margin_pct": 46.380820654679574,
+        "margin": 3363,
+        "margin_pct": 40.38669388735439,
         "winner": "R"
       },
-      "92": {
-        "dem_votes": 1470,
-        "rep_votes": 4817,
-        "other_votes": 182,
-        "total_votes": 6469,
+      "18": {
+        "dem_votes": 3518,
+        "rep_votes": 5050,
+        "other_votes": 316,
+        "total_votes": 8884,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3347,
-        "margin_pct": 51.73906322460967,
+        "margin": 1532,
+        "margin_pct": 17.24448446645655,
         "winner": "R"
       },
-      "93": {
-        "dem_votes": 2155,
-        "rep_votes": 6121,
-        "other_votes": 225,
-        "total_votes": 8501,
+      "19": {
+        "dem_votes": 3244,
+        "rep_votes": 4559,
+        "other_votes": 291,
+        "total_votes": 8094,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3966,
-        "margin_pct": 46.65333490177626,
+        "margin": 1315,
+        "margin_pct": 16.246602421546825,
         "winner": "R"
       },
-      "94": {
-        "dem_votes": 3613,
-        "rep_votes": 4708,
-        "other_votes": 146,
-        "total_votes": 8467,
+      "20": {
+        "dem_votes": 3828,
+        "rep_votes": 5380,
+        "other_votes": 344,
+        "total_votes": 9552,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1095,
-        "margin_pct": 12.93256171016889,
+        "margin": 1552,
+        "margin_pct": 16.24790619765494,
         "winner": "R"
       },
-      "95": {
-        "dem_votes": 4869,
-        "rep_votes": 6339,
-        "other_votes": 228,
-        "total_votes": 11436,
+      "21": {
+        "dem_votes": 4113,
+        "rep_votes": 5781,
+        "other_votes": 369,
+        "total_votes": 10263,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1668,
+        "margin_pct": 16.25255773165741,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 3883,
+        "rep_votes": 5458,
+        "other_votes": 349,
+        "total_votes": 9690,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1575,
+        "margin_pct": 16.253869969040245,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 3622,
+        "rep_votes": 5092,
+        "other_votes": 325,
+        "total_votes": 9039,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
         "margin": 1470,
-        "margin_pct": 12.85414480587618,
+        "margin_pct": 16.262860935944243,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 2505,
+        "rep_votes": 7149,
+        "other_votes": 280,
+        "total_votes": 9934,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4644,
+        "margin_pct": 46.74854036641836,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 3167,
+        "rep_votes": 5717,
+        "other_votes": 304,
+        "total_votes": 9188,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2550,
+        "margin_pct": 27.753591641271225,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 3566,
+        "rep_votes": 7610,
+        "other_votes": 357,
+        "total_votes": 11533,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4044,
+        "margin_pct": 35.06459724269488,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 3582,
+        "rep_votes": 9479,
+        "other_votes": 559,
+        "total_votes": 13620,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5897,
+        "margin_pct": 43.29662261380323,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 3093,
+        "rep_votes": 7302,
+        "other_votes": 388,
+        "total_votes": 10783,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4209,
+        "margin_pct": 39.033664100899564,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 3431,
+        "rep_votes": 6839,
+        "other_votes": 304,
+        "total_votes": 10574,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3408,
+        "margin_pct": 32.22999810856819,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 3025,
+        "rep_votes": 6022,
+        "other_votes": 310,
+        "total_votes": 9357,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2997,
+        "margin_pct": 32.02949663353639,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 2711,
+        "rep_votes": 6149,
+        "other_votes": 468,
+        "total_votes": 9328,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3438,
+        "margin_pct": 36.85677530017153,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 3044,
+        "rep_votes": 5885,
+        "other_votes": 238,
+        "total_votes": 9167,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2841,
+        "margin_pct": 30.99160030544344,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 3471,
+        "rep_votes": 5208,
+        "other_votes": 221,
+        "total_votes": 8900,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1737,
+        "margin_pct": 19.51685393258427,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 4820,
+        "rep_votes": 4922,
+        "other_votes": 227,
+        "total_votes": 9969,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 102,
+        "margin_pct": 1.0231718326813122,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 5891,
+        "rep_votes": 4486,
+        "other_votes": 147,
+        "total_votes": 10524,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1405,
+        "margin_pct": 13.350437096161155,
+        "winner": "D"
+      },
+      "36": {
+        "dem_votes": 2967,
+        "rep_votes": 5900,
+        "other_votes": 236,
+        "total_votes": 9103,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2933,
+        "margin_pct": 32.22014720421839,
+        "winner": "R"
+      },
+      "37": {
+        "dem_votes": 4866,
+        "rep_votes": 6471,
+        "other_votes": 199,
+        "total_votes": 11536,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1605,
+        "margin_pct": 13.912968099861303,
+        "winner": "R"
+      },
+      "38": {
+        "dem_votes": 3163,
+        "rep_votes": 6106,
+        "other_votes": 252,
+        "total_votes": 9521,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2943,
+        "margin_pct": 30.91061863249659,
+        "winner": "R"
+      },
+      "39": {
+        "dem_votes": 2986,
+        "rep_votes": 6774,
+        "other_votes": 309,
+        "total_votes": 10069,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3788,
+        "margin_pct": 37.62041910815374,
+        "winner": "R"
+      },
+      "40": {
+        "dem_votes": 2564,
+        "rep_votes": 7245,
+        "other_votes": 309,
+        "total_votes": 10118,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4681,
+        "margin_pct": 46.26408381102985,
+        "winner": "R"
+      },
+      "41": {
+        "dem_votes": 3329,
+        "rep_votes": 10553,
+        "other_votes": 458,
+        "total_votes": 14340,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 7224,
+        "margin_pct": 50.37656903765691,
+        "winner": "R"
+      },
+      "42": {
+        "dem_votes": 3143,
+        "rep_votes": 6586,
+        "other_votes": 292,
+        "total_votes": 10021,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3443,
+        "margin_pct": 34.357848518111965,
+        "winner": "R"
+      },
+      "43": {
+        "dem_votes": 4230,
+        "rep_votes": 7086,
+        "other_votes": 353,
+        "total_votes": 11669,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2856,
+        "margin_pct": 24.4751049790042,
+        "winner": "R"
+      },
+      "44": {
+        "dem_votes": 2317,
+        "rep_votes": 6628,
+        "other_votes": 250,
+        "total_votes": 9195,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4311,
+        "margin_pct": 46.88417618270799,
+        "winner": "R"
+      },
+      "45": {
+        "dem_votes": 3249,
+        "rep_votes": 6463,
+        "other_votes": 286,
+        "total_votes": 9998,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3214,
+        "margin_pct": 32.14642928585717,
+        "winner": "R"
+      },
+      "46": {
+        "dem_votes": 2892,
+        "rep_votes": 7326,
+        "other_votes": 332,
+        "total_votes": 10550,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4434,
+        "margin_pct": 42.02843601895734,
+        "winner": "R"
+      },
+      "47": {
+        "dem_votes": 3176,
+        "rep_votes": 7077,
+        "other_votes": 267,
+        "total_votes": 10520,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3901,
+        "margin_pct": 37.08174904942966,
+        "winner": "R"
+      },
+      "48": {
+        "dem_votes": 2377,
+        "rep_votes": 7131,
+        "other_votes": 267,
+        "total_votes": 9775,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4754,
+        "margin_pct": 48.63427109974425,
+        "winner": "R"
+      },
+      "49": {
+        "dem_votes": 2389,
+        "rep_votes": 5322,
+        "other_votes": 201,
+        "total_votes": 7912,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2933,
+        "margin_pct": 37.070273003033364,
+        "winner": "R"
+      },
+      "50": {
+        "dem_votes": 3246,
+        "rep_votes": 7232,
+        "other_votes": 273,
+        "total_votes": 10751,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3986,
+        "margin_pct": 37.075620872476975,
+        "winner": "R"
+      },
+      "51": {
+        "dem_votes": 3525,
+        "rep_votes": 7854,
+        "other_votes": 296,
+        "total_votes": 11675,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4329,
+        "margin_pct": 37.07922912205567,
+        "winner": "R"
+      },
+      "52": {
+        "dem_votes": 2658,
+        "rep_votes": 6718,
+        "other_votes": 312,
+        "total_votes": 9688,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4060,
+        "margin_pct": 41.90751445086705,
+        "winner": "R"
+      },
+      "53": {
+        "dem_votes": 2351,
+        "rep_votes": 6771,
+        "other_votes": 252,
+        "total_votes": 9374,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4420,
+        "margin_pct": 47.15169618092597,
+        "winner": "R"
+      },
+      "54": {
+        "dem_votes": 3252,
+        "rep_votes": 6959,
+        "other_votes": 358,
+        "total_votes": 10569,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3707,
+        "margin_pct": 35.07427381966127,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 3592,
+        "rep_votes": 7046,
+        "other_votes": 295,
+        "total_votes": 10933,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3454,
+        "margin_pct": 31.592426598371905,
+        "winner": "R"
+      },
+      "56": {
+        "dem_votes": 3343,
+        "rep_votes": 6559,
+        "other_votes": 274,
+        "total_votes": 10176,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3216,
+        "margin_pct": 31.60377358490566,
+        "winner": "R"
+      },
+      "57": {
+        "dem_votes": 2780,
+        "rep_votes": 6946,
+        "other_votes": 272,
+        "total_votes": 9998,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4166,
+        "margin_pct": 41.668333666733346,
+        "winner": "R"
+      },
+      "58": {
+        "dem_votes": 2411,
+        "rep_votes": 8368,
+        "other_votes": 308,
+        "total_votes": 11087,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5957,
+        "margin_pct": 53.729593217281504,
+        "winner": "R"
+      },
+      "59": {
+        "dem_votes": 2189,
+        "rep_votes": 7260,
+        "other_votes": 258,
+        "total_votes": 9707,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5071,
+        "margin_pct": 52.2406510765427,
+        "winner": "R"
+      },
+      "60": {
+        "dem_votes": 2667,
+        "rep_votes": 7963,
+        "other_votes": 299,
+        "total_votes": 10929,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5296,
+        "margin_pct": 48.45823039619361,
+        "winner": "R"
+      },
+      "61": {
+        "dem_votes": 5145,
+        "rep_votes": 6670,
+        "other_votes": 331,
+        "total_votes": 12146,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1525,
+        "margin_pct": 12.555573851473737,
+        "winner": "R"
+      },
+      "62": {
+        "dem_votes": 8253,
+        "rep_votes": 4791,
+        "other_votes": 203,
+        "total_votes": 13247,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -3462,
+        "margin_pct": 26.134219068468333,
+        "winner": "D"
+      },
+      "63": {
+        "dem_votes": 6280,
+        "rep_votes": 4500,
+        "other_votes": 135,
+        "total_votes": 10915,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1780,
+        "margin_pct": 16.3078332569858,
+        "winner": "D"
+      },
+      "64": {
+        "dem_votes": 6690,
+        "rep_votes": 4562,
+        "other_votes": 194,
+        "total_votes": 11446,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -2128,
+        "margin_pct": 18.59164773720077,
+        "winner": "D"
+      },
+      "65": {
+        "dem_votes": 7993,
+        "rep_votes": 4432,
+        "other_votes": 182,
+        "total_votes": 12607,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -3561,
+        "margin_pct": 28.246212421670503,
+        "winner": "D"
+      },
+      "66": {
+        "dem_votes": 5992,
+        "rep_votes": 4737,
+        "other_votes": 216,
+        "total_votes": 10945,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1255,
+        "margin_pct": 11.46642302421197,
+        "winner": "D"
+      },
+      "67": {
+        "dem_votes": 7524,
+        "rep_votes": 5949,
+        "other_votes": 271,
+        "total_votes": 13744,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1575,
+        "margin_pct": 11.459545983701979,
+        "winner": "D"
+      },
+      "68": {
+        "dem_votes": 2359,
+        "rep_votes": 7497,
+        "other_votes": 255,
+        "total_votes": 10111,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5138,
+        "margin_pct": 50.81594303234102,
+        "winner": "R"
+      },
+      "69": {
+        "dem_votes": 5710,
+        "rep_votes": 5877,
+        "other_votes": 259,
+        "total_votes": 11846,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 167,
+        "margin_pct": 1.4097585682930946,
+        "winner": "R"
+      },
+      "70": {
+        "dem_votes": 7386,
+        "rep_votes": 5840,
+        "other_votes": 267,
+        "total_votes": 13493,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1546,
+        "margin_pct": 11.457792929667235,
+        "winner": "D"
+      },
+      "71": {
+        "dem_votes": 6601,
+        "rep_votes": 5219,
+        "other_votes": 238,
+        "total_votes": 12058,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1382,
+        "margin_pct": 11.461270525792006,
+        "winner": "D"
+      },
+      "72": {
+        "dem_votes": 6223,
+        "rep_votes": 4921,
+        "other_votes": 225,
+        "total_votes": 11369,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1302,
+        "margin_pct": 11.452194564165714,
+        "winner": "D"
+      },
+      "73": {
+        "dem_votes": 7026,
+        "rep_votes": 5555,
+        "other_votes": 254,
+        "total_votes": 12835,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1471,
+        "margin_pct": 11.460849240358396,
+        "winner": "D"
+      },
+      "74": {
+        "dem_votes": 7003,
+        "rep_votes": 5537,
+        "other_votes": 253,
+        "total_votes": 12793,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1466,
+        "margin_pct": 11.45939185492066,
+        "winner": "D"
+      },
+      "75": {
+        "dem_votes": 6260,
+        "rep_votes": 4950,
+        "other_votes": 226,
+        "total_votes": 11436,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1310,
+        "margin_pct": 11.455054214760406,
+        "winner": "D"
+      },
+      "76": {
+        "dem_votes": 6123,
+        "rep_votes": 4841,
+        "other_votes": 221,
+        "total_votes": 11185,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1282,
+        "margin_pct": 11.461779168529281,
+        "winner": "D"
+      },
+      "77": {
+        "dem_votes": 6557,
+        "rep_votes": 5184,
+        "other_votes": 237,
+        "total_votes": 11978,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1373,
+        "margin_pct": 11.462681582901988,
+        "winner": "D"
+      },
+      "78": {
+        "dem_votes": 5279,
+        "rep_votes": 6387,
+        "other_votes": 264,
+        "total_votes": 11930,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1108,
+        "margin_pct": 9.287510477787093,
+        "winner": "R"
+      },
+      "79": {
+        "dem_votes": 5528,
+        "rep_votes": 4371,
+        "other_votes": 199,
+        "total_votes": 10098,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1157,
+        "margin_pct": 11.45771439889087,
+        "winner": "D"
+      },
+      "80": {
+        "dem_votes": 6449,
+        "rep_votes": 5099,
+        "other_votes": 233,
+        "total_votes": 11781,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -1350,
+        "margin_pct": 11.459129106187929,
+        "winner": "D"
+      },
+      "81": {
+        "dem_votes": 3089,
+        "rep_votes": 7911,
+        "other_votes": 295,
+        "total_votes": 11295,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4822,
+        "margin_pct": 42.69145639663568,
+        "winner": "R"
+      },
+      "82": {
+        "dem_votes": 2943,
+        "rep_votes": 7539,
+        "other_votes": 281,
+        "total_votes": 10763,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4596,
+        "margin_pct": 42.70184892687912,
+        "winner": "R"
+      },
+      "83": {
+        "dem_votes": 3427,
+        "rep_votes": 8779,
+        "other_votes": 328,
+        "total_votes": 12534,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5352,
+        "margin_pct": 42.69985639061752,
+        "winner": "R"
+      },
+      "84": {
+        "dem_votes": 3913,
+        "rep_votes": 7374,
+        "other_votes": 258,
+        "total_votes": 11545,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3461,
+        "margin_pct": 29.978345604157642,
+        "winner": "R"
+      },
+      "85": {
+        "dem_votes": 4191,
+        "rep_votes": 7899,
+        "other_votes": 276,
+        "total_votes": 12366,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3708,
+        "margin_pct": 29.985443959243085,
+        "winner": "R"
+      },
+      "86": {
+        "dem_votes": 2790,
+        "rep_votes": 8941,
+        "other_votes": 351,
+        "total_votes": 12082,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 6151,
+        "margin_pct": 50.910445290514815,
+        "winner": "R"
+      },
+      "87": {
+        "dem_votes": 2739,
+        "rep_votes": 6806,
+        "other_votes": 276,
+        "total_votes": 9821,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 4067,
+        "margin_pct": 41.4112615823236,
+        "winner": "R"
+      },
+      "88": {
+        "dem_votes": 3578,
+        "rep_votes": 6504,
+        "other_votes": 241,
+        "total_votes": 10323,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2926,
+        "margin_pct": 28.34447350576383,
+        "winner": "R"
+      },
+      "89": {
+        "dem_votes": 3868,
+        "rep_votes": 6947,
+        "other_votes": 282,
+        "total_votes": 11097,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3079,
+        "margin_pct": 27.74623772190682,
+        "winner": "R"
+      },
+      "90": {
+        "dem_votes": 4552,
+        "rep_votes": 6859,
+        "other_votes": 322,
+        "total_votes": 11733,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 2307,
+        "margin_pct": 19.662490411659423,
+        "winner": "R"
+      },
+      "91": {
+        "dem_votes": 4205,
+        "rep_votes": 7924,
+        "other_votes": 277,
+        "total_votes": 12406,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 3719,
+        "margin_pct": 29.97743027567306,
+        "winner": "R"
+      },
+      "92": {
+        "dem_votes": 2625,
+        "rep_votes": 7793,
+        "other_votes": 293,
+        "total_votes": 10711,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 5168,
+        "margin_pct": 48.24946316870507,
+        "winner": "R"
+      },
+      "93": {
+        "dem_votes": 5768,
+        "rep_votes": 4903,
+        "other_votes": 214,
+        "total_votes": 10885,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": -865,
+        "margin_pct": 7.946715663757464,
+        "winner": "D"
+      },
+      "94": {
+        "dem_votes": 4760,
+        "rep_votes": 6298,
+        "other_votes": 203,
+        "total_votes": 11261,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1538,
+        "margin_pct": 13.65775685995915,
+        "winner": "R"
+      },
+      "95": {
+        "dem_votes": 5508,
+        "rep_votes": 6537,
+        "other_votes": 237,
+        "total_votes": 12282,
+        "dem_candidate": "Barack Obama / Joe Biden",
+        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "margin": 1029,
+        "margin_pct": 8.378114313629702,
         "winner": "R"
       },
       "96": {
-        "dem_votes": 2691,
-        "rep_votes": 4720,
-        "other_votes": 212,
-        "total_votes": 7623,
+        "dem_votes": 2697,
+        "rep_votes": 4664,
+        "other_votes": 204,
+        "total_votes": 7565,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 2029,
-        "margin_pct": 26.616817525908438,
+        "margin": 1967,
+        "margin_pct": 26.00132187706543,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 945,
-        "rep_votes": 1061,
-        "other_votes": 28,
-        "total_votes": 2034,
+        "dem_votes": 788,
+        "rep_votes": 1159,
+        "other_votes": 32,
+        "total_votes": 1979,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 116,
-        "margin_pct": 5.703048180924287,
+        "margin": 371,
+        "margin_pct": 18.746841839312783,
         "winner": "R"
       },
       "99": {
-        "dem_votes": 854,
-        "rep_votes": 4045,
-        "other_votes": 73,
-        "total_votes": 4972,
+        "dem_votes": 1762,
+        "rep_votes": 3683,
+        "other_votes": 71,
+        "total_votes": 5516,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 3191,
-        "margin_pct": 64.17940466613034,
+        "margin": 1921,
+        "margin_pct": 34.82596084118927,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 3151,
-        "rep_votes": 5119,
-        "other_votes": 95,
-        "total_votes": 8365,
+        "dem_votes": 3176,
+        "rep_votes": 7466,
+        "other_votes": 133,
+        "total_votes": 10775,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 1968,
-        "margin_pct": 23.526598924088464,
+        "margin": 4290,
+        "margin_pct": 39.814385150812065,
         "winner": "R"
       }
     }

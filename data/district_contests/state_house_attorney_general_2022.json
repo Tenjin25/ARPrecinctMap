@@ -3,1015 +3,1546 @@
   "scope": "state_house",
   "contest_type": "attorney_general",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.755081,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 1084,
-        "rep_votes": 5373,
+        "dem_votes": 1499,
+        "rep_votes": 6563,
         "other_votes": 0,
-        "total_votes": 6457,
+        "total_votes": 8062,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 4289,
-        "margin_pct": 66.42403592999845,
+        "margin": 5064,
+        "margin_pct": 62.81319771768792,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 1948,
-        "rep_votes": 7816,
+        "dem_votes": 1808,
+        "rep_votes": 8235,
         "other_votes": 0,
-        "total_votes": 9764,
+        "total_votes": 10043,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 5868,
-        "margin_pct": 60.098320360507984,
+        "margin": 6427,
+        "margin_pct": 63.99482226426366,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 108,
-        "rep_votes": 710,
+        "dem_votes": 2345,
+        "rep_votes": 9250,
         "other_votes": 0,
-        "total_votes": 818,
+        "total_votes": 11595,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 602,
-        "margin_pct": 73.59413202933986,
+        "margin": 6905,
+        "margin_pct": 59.55153083225528,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 1130,
-        "rep_votes": 4819,
+        "dem_votes": 2087,
+        "rep_votes": 8585,
         "other_votes": 0,
-        "total_votes": 5949,
+        "total_votes": 10672,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 3689,
-        "margin_pct": 62.01042191965036,
+        "margin": 6498,
+        "margin_pct": 60.88830584707646,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 2013,
-        "rep_votes": 8418,
+        "dem_votes": 1938,
+        "rep_votes": 8472,
         "other_votes": 0,
-        "total_votes": 10431,
+        "total_votes": 10410,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 6405,
-        "margin_pct": 61.40350877192983,
+        "margin": 6534,
+        "margin_pct": 62.76657060518732,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 1151,
-        "rep_votes": 3293,
+        "dem_votes": 2928,
+        "rep_votes": 6874,
         "other_votes": 0,
-        "total_votes": 4444,
+        "total_votes": 9802,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2142,
-        "margin_pct": 48.199819981998196,
+        "margin": 3946,
+        "margin_pct": 40.25709038971638,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 2676,
-        "rep_votes": 5518,
+        "dem_votes": 2963,
+        "rep_votes": 5965,
         "other_votes": 0,
-        "total_votes": 8194,
+        "total_votes": 8928,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2842,
-        "margin_pct": 34.68391505979985,
+        "margin": 3002,
+        "margin_pct": 33.62455197132617,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 3294,
-        "rep_votes": 7764,
+        "dem_votes": 3318,
+        "rep_votes": 6681,
         "other_votes": 0,
-        "total_votes": 11058,
+        "total_votes": 9999,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 4470,
-        "margin_pct": 40.42322300596853,
+        "margin": 3363,
+        "margin_pct": 33.63336333633363,
         "winner": "R"
       },
       "9": {
-        "dem_votes": 1468,
-        "rep_votes": 1847,
+        "dem_votes": 2351,
+        "rep_votes": 2807,
         "other_votes": 0,
-        "total_votes": 3315,
+        "total_votes": 5158,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 379,
-        "margin_pct": 11.43288084464555,
+        "margin": 456,
+        "margin_pct": 8.840635905389686,
         "winner": "R"
       },
       "10": {
-        "dem_votes": 4821,
-        "rep_votes": 6833,
+        "dem_votes": 3248,
+        "rep_votes": 6539,
         "other_votes": 0,
-        "total_votes": 11654,
+        "total_votes": 9787,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2012,
-        "margin_pct": 17.264458555002573,
+        "margin": 3291,
+        "margin_pct": 33.62623888832124,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 2142,
-        "rep_votes": 3438,
+        "dem_votes": 2621,
+        "rep_votes": 4084,
         "other_votes": 0,
-        "total_votes": 5580,
+        "total_votes": 6705,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1296,
-        "margin_pct": 23.225806451612904,
+        "margin": 1463,
+        "margin_pct": 21.819537658463833,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 3569,
-        "rep_votes": 9661,
+        "dem_votes": 3726,
+        "rep_votes": 7500,
         "other_votes": 0,
-        "total_votes": 13230,
+        "total_votes": 11226,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 6092,
-        "margin_pct": 46.046863189720334,
+        "margin": 3774,
+        "margin_pct": 33.61838588989845,
         "winner": "R"
       },
       "13": {
-        "dem_votes": 3184,
-        "rep_votes": 4412,
+        "dem_votes": 2823,
+        "rep_votes": 5682,
         "other_votes": 0,
-        "total_votes": 7596,
+        "total_votes": 8505,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1228,
-        "margin_pct": 16.16640337019484,
+        "margin": 2859,
+        "margin_pct": 33.61552028218695,
         "winner": "R"
       },
       "14": {
-        "dem_votes": 3019,
-        "rep_votes": 5262,
+        "dem_votes": 3438,
+        "rep_votes": 6921,
         "other_votes": 0,
-        "total_votes": 8281,
+        "total_votes": 10359,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2243,
-        "margin_pct": 27.086100712474337,
+        "margin": 3483,
+        "margin_pct": 33.622936576889664,
         "winner": "R"
       },
       "15": {
-        "dem_votes": 2776,
-        "rep_votes": 4127,
+        "dem_votes": 2835,
+        "rep_votes": 5706,
         "other_votes": 0,
-        "total_votes": 6903,
+        "total_votes": 8541,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1351,
-        "margin_pct": 19.57120092713313,
+        "margin": 2871,
+        "margin_pct": 33.614330874604846,
         "winner": "R"
       },
       "16": {
-        "dem_votes": 3583,
-        "rep_votes": 7855,
+        "dem_votes": 3088,
+        "rep_votes": 6217,
+        "other_votes": 0,
+        "total_votes": 9305,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3129,
+        "margin_pct": 33.62708221386351,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 3139,
+        "rep_votes": 6320,
+        "other_votes": 0,
+        "total_votes": 9459,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3181,
+        "margin_pct": 33.629347711174546,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 3987,
+        "rep_votes": 4873,
+        "other_votes": 0,
+        "total_votes": 8860,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 886,
+        "margin_pct": 10.0,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 3658,
+        "rep_votes": 4368,
+        "other_votes": 0,
+        "total_votes": 8026,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 710,
+        "margin_pct": 8.846249688512335,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 4316,
+        "rep_votes": 5153,
+        "other_votes": 0,
+        "total_votes": 9469,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 837,
+        "margin_pct": 8.839370577674517,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 4639,
+        "rep_votes": 5538,
+        "other_votes": 0,
+        "total_votes": 10177,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 899,
+        "margin_pct": 8.83364449248305,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 4379,
+        "rep_votes": 5228,
+        "other_votes": 0,
+        "total_votes": 9607,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 849,
+        "margin_pct": 8.837306130946185,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 4085,
+        "rep_votes": 4877,
+        "other_votes": 0,
+        "total_votes": 8962,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 792,
+        "margin_pct": 8.83731309975452,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 1830,
+        "rep_votes": 6484,
+        "other_votes": 0,
+        "total_votes": 8314,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4654,
+        "margin_pct": 55.97786865528025,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 3201,
+        "rep_votes": 5358,
+        "other_votes": 0,
+        "total_votes": 8559,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 2157,
+        "margin_pct": 25.201542236242553,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 2196,
+        "rep_votes": 7596,
+        "other_votes": 0,
+        "total_votes": 9792,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5400,
+        "margin_pct": 55.14705882352941,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 1983,
+        "rep_votes": 9650,
+        "other_votes": 0,
+        "total_votes": 11633,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 7667,
+        "margin_pct": 65.90733258832631,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 1612,
+        "rep_votes": 7447,
+        "other_votes": 0,
+        "total_votes": 9059,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5835,
+        "margin_pct": 64.41108290098245,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 2192,
+        "rep_votes": 7080,
+        "other_votes": 0,
+        "total_votes": 9272,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4888,
+        "margin_pct": 52.717860224331325,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 1951,
+        "rep_votes": 6002,
+        "other_votes": 0,
+        "total_votes": 7953,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4051,
+        "margin_pct": 50.93675342637998,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 1444,
+        "rep_votes": 6332,
+        "other_votes": 0,
+        "total_votes": 7776,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4888,
+        "margin_pct": 62.860082304526756,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 2317,
+        "rep_votes": 5623,
+        "other_votes": 0,
+        "total_votes": 7940,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3306,
+        "margin_pct": 41.63727959697733,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 2155,
+        "rep_votes": 4770,
+        "other_votes": 0,
+        "total_votes": 6925,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 2615,
+        "margin_pct": 37.761732851985556,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 2243,
+        "rep_votes": 4097,
+        "other_votes": 0,
+        "total_votes": 6340,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 1854,
+        "margin_pct": 29.242902208201894,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 3210,
+        "rep_votes": 3500,
+        "other_votes": 0,
+        "total_votes": 6710,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 290,
+        "margin_pct": 4.321907600596125,
+        "winner": "R"
+      },
+      "36": {
+        "dem_votes": 1914,
+        "rep_votes": 5487,
+        "other_votes": 0,
+        "total_votes": 7401,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3573,
+        "margin_pct": 48.27725982975274,
+        "winner": "R"
+      },
+      "37": {
+        "dem_votes": 2374,
+        "rep_votes": 5560,
+        "other_votes": 0,
+        "total_votes": 7934,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3186,
+        "margin_pct": 40.15628938744643,
+        "winner": "R"
+      },
+      "38": {
+        "dem_votes": 2062,
+        "rep_votes": 5727,
+        "other_votes": 0,
+        "total_votes": 7789,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3665,
+        "margin_pct": 47.053537039414564,
+        "winner": "R"
+      },
+      "39": {
+        "dem_votes": 1721,
+        "rep_votes": 6673,
+        "other_votes": 0,
+        "total_votes": 8394,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4952,
+        "margin_pct": 58.99451989516321,
+        "winner": "R"
+      },
+      "40": {
+        "dem_votes": 1571,
+        "rep_votes": 7108,
+        "other_votes": 0,
+        "total_votes": 8679,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5537,
+        "margin_pct": 63.79767254291969,
+        "winner": "R"
+      },
+      "41": {
+        "dem_votes": 1992,
+        "rep_votes": 10614,
+        "other_votes": 0,
+        "total_votes": 12606,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 8622,
+        "margin_pct": 68.3960019038553,
+        "winner": "R"
+      },
+      "42": {
+        "dem_votes": 2651,
+        "rep_votes": 6920,
+        "other_votes": 0,
+        "total_votes": 9571,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4269,
+        "margin_pct": 44.60348970849441,
+        "winner": "R"
+      },
+      "43": {
+        "dem_votes": 2766,
+        "rep_votes": 7709,
+        "other_votes": 0,
+        "total_votes": 10475,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4943,
+        "margin_pct": 47.18854415274463,
+        "winner": "R"
+      },
+      "44": {
+        "dem_votes": 1662,
+        "rep_votes": 6084,
+        "other_votes": 0,
+        "total_votes": 7746,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4422,
+        "margin_pct": 57.08752904725019,
+        "winner": "R"
+      },
+      "45": {
+        "dem_votes": 1955,
+        "rep_votes": 6590,
+        "other_votes": 0,
+        "total_votes": 8545,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4635,
+        "margin_pct": 54.24224692802808,
+        "winner": "R"
+      },
+      "46": {
+        "dem_votes": 1716,
+        "rep_votes": 7130,
+        "other_votes": 0,
+        "total_votes": 8846,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5414,
+        "margin_pct": 61.202803527017856,
+        "winner": "R"
+      },
+      "47": {
+        "dem_votes": 2361,
+        "rep_votes": 5878,
+        "other_votes": 0,
+        "total_votes": 8239,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3517,
+        "margin_pct": 42.68721932273334,
+        "winner": "R"
+      },
+      "48": {
+        "dem_votes": 1596,
+        "rep_votes": 6393,
+        "other_votes": 0,
+        "total_votes": 7989,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4797,
+        "margin_pct": 60.04506196019527,
+        "winner": "R"
+      },
+      "49": {
+        "dem_votes": 1775,
+        "rep_votes": 4420,
+        "other_votes": 0,
+        "total_votes": 6195,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 2645,
+        "margin_pct": 42.69572235673931,
+        "winner": "R"
+      },
+      "50": {
+        "dem_votes": 2412,
+        "rep_votes": 6007,
+        "other_votes": 0,
+        "total_votes": 8419,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3595,
+        "margin_pct": 42.70103337688562,
+        "winner": "R"
+      },
+      "51": {
+        "dem_votes": 2620,
+        "rep_votes": 6523,
+        "other_votes": 0,
+        "total_votes": 9143,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3903,
+        "margin_pct": 42.68839549382041,
+        "winner": "R"
+      },
+      "52": {
+        "dem_votes": 1385,
+        "rep_votes": 6724,
+        "other_votes": 0,
+        "total_votes": 8109,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5339,
+        "margin_pct": 65.84042422000248,
+        "winner": "R"
+      },
+      "53": {
+        "dem_votes": 1696,
+        "rep_votes": 6163,
+        "other_votes": 0,
+        "total_votes": 7859,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4467,
+        "margin_pct": 56.83929253085635,
+        "winner": "R"
+      },
+      "54": {
+        "dem_votes": 2503,
+        "rep_votes": 7481,
+        "other_votes": 0,
+        "total_votes": 9984,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4978,
+        "margin_pct": 49.859775641025635,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 3297,
+        "rep_votes": 7188,
+        "other_votes": 0,
+        "total_votes": 10485,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3891,
+        "margin_pct": 37.110157367668094,
+        "winner": "R"
+      },
+      "56": {
+        "dem_votes": 3069,
+        "rep_votes": 6691,
+        "other_votes": 0,
+        "total_votes": 9760,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3622,
+        "margin_pct": 37.11065573770492,
+        "winner": "R"
+      },
+      "57": {
+        "dem_votes": 2378,
+        "rep_votes": 6983,
+        "other_votes": 0,
+        "total_votes": 9361,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4605,
+        "margin_pct": 49.1934622369405,
+        "winner": "R"
+      },
+      "58": {
+        "dem_votes": 1761,
+        "rep_votes": 8299,
+        "other_votes": 0,
+        "total_votes": 10060,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 6538,
+        "margin_pct": 64.99005964214712,
+        "winner": "R"
+      },
+      "59": {
+        "dem_votes": 1722,
+        "rep_votes": 7166,
+        "other_votes": 0,
+        "total_votes": 8888,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5444,
+        "margin_pct": 61.251125112511254,
+        "winner": "R"
+      },
+      "60": {
+        "dem_votes": 1978,
+        "rep_votes": 7929,
+        "other_votes": 0,
+        "total_votes": 9907,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5951,
+        "margin_pct": 60.06863833652972,
+        "winner": "R"
+      },
+      "61": {
+        "dem_votes": 2492,
+        "rep_votes": 6183,
+        "other_votes": 0,
+        "total_votes": 8675,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 3691,
+        "margin_pct": 42.54755043227666,
+        "winner": "R"
+      },
+      "62": {
+        "dem_votes": 3774,
+        "rep_votes": 3719,
+        "other_votes": 0,
+        "total_votes": 7493,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -55,
+        "margin_pct": 0.7340184171893768,
+        "winner": "D"
+      },
+      "63": {
+        "dem_votes": 3317,
+        "rep_votes": 3457,
+        "other_votes": 0,
+        "total_votes": 6774,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 140,
+        "margin_pct": 2.0667257159728374,
+        "winner": "R"
+      },
+      "64": {
+        "dem_votes": 3589,
+        "rep_votes": 3867,
+        "other_votes": 0,
+        "total_votes": 7456,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 278,
+        "margin_pct": 3.7285407725321886,
+        "winner": "R"
+      },
+      "65": {
+        "dem_votes": 4333,
+        "rep_votes": 3571,
+        "other_votes": 0,
+        "total_votes": 7904,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -762,
+        "margin_pct": 9.640688259109313,
+        "winner": "D"
+      },
+      "66": {
+        "dem_votes": 4666,
+        "rep_votes": 3774,
+        "other_votes": 0,
+        "total_votes": 8440,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -892,
+        "margin_pct": 10.568720379146919,
+        "winner": "D"
+      },
+      "67": {
+        "dem_votes": 5859,
+        "rep_votes": 4738,
+        "other_votes": 0,
+        "total_votes": 10597,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -1121,
+        "margin_pct": 10.578465603472681,
+        "winner": "D"
+      },
+      "68": {
+        "dem_votes": 1974,
+        "rep_votes": 7368,
+        "other_votes": 0,
+        "total_votes": 9342,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5394,
+        "margin_pct": 57.73924213230571,
+        "winner": "R"
+      },
+      "69": {
+        "dem_votes": 4609,
+        "rep_votes": 5191,
+        "other_votes": 0,
+        "total_votes": 9800,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 582,
+        "margin_pct": 5.938775510204081,
+        "winner": "R"
+      },
+      "70": {
+        "dem_votes": 5752,
+        "rep_votes": 4652,
+        "other_votes": 0,
+        "total_votes": 10404,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -1100,
+        "margin_pct": 10.57285659361784,
+        "winner": "D"
+      },
+      "71": {
+        "dem_votes": 5140,
+        "rep_votes": 4157,
+        "other_votes": 0,
+        "total_votes": 9297,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -983,
+        "margin_pct": 10.573303216091212,
+        "winner": "D"
+      },
+      "72": {
+        "dem_votes": 4846,
+        "rep_votes": 3919,
+        "other_votes": 0,
+        "total_votes": 8765,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -927,
+        "margin_pct": 10.576155162578436,
+        "winner": "D"
+      },
+      "73": {
+        "dem_votes": 5471,
+        "rep_votes": 4425,
+        "other_votes": 0,
+        "total_votes": 9896,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -1046,
+        "margin_pct": 10.569927243330639,
+        "winner": "D"
+      },
+      "74": {
+        "dem_votes": 5453,
+        "rep_votes": 4410,
+        "other_votes": 0,
+        "total_votes": 9863,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -1043,
+        "margin_pct": 10.574875798438608,
+        "winner": "D"
+      },
+      "75": {
+        "dem_votes": 4875,
+        "rep_votes": 3943,
+        "other_votes": 0,
+        "total_votes": 8818,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -932,
+        "margin_pct": 10.569290088455432,
+        "winner": "D"
+      },
+      "76": {
+        "dem_votes": 4768,
+        "rep_votes": 3856,
+        "other_votes": 0,
+        "total_votes": 8624,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -912,
+        "margin_pct": 10.575139146567718,
+        "winner": "D"
+      },
+      "77": {
+        "dem_votes": 5106,
+        "rep_votes": 4129,
+        "other_votes": 0,
+        "total_votes": 9235,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -977,
+        "margin_pct": 10.579317812669194,
+        "winner": "D"
+      },
+      "78": {
+        "dem_votes": 4203,
+        "rep_votes": 5644,
+        "other_votes": 0,
+        "total_votes": 9847,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 1441,
+        "margin_pct": 14.633898649334823,
+        "winner": "R"
+      },
+      "79": {
+        "dem_votes": 4305,
+        "rep_votes": 3481,
+        "other_votes": 0,
+        "total_votes": 7786,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -824,
+        "margin_pct": 10.583097867968148,
+        "winner": "D"
+      },
+      "80": {
+        "dem_votes": 5022,
+        "rep_votes": 4062,
+        "other_votes": 0,
+        "total_votes": 9084,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": -960,
+        "margin_pct": 10.568031704095112,
+        "winner": "D"
+      },
+      "81": {
+        "dem_votes": 2632,
+        "rep_votes": 7675,
+        "other_votes": 0,
+        "total_votes": 10307,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 5043,
+        "margin_pct": 48.9279130687882,
+        "winner": "R"
+      },
+      "82": {
+        "dem_votes": 2509,
+        "rep_votes": 7314,
+        "other_votes": 0,
+        "total_votes": 9823,
+        "dem_candidate": "Jesse Gibson",
+        "rep_candidate": "Tim Griffin",
+        "margin": 4805,
+        "margin_pct": 48.91580983406291,
+        "winner": "R"
+      },
+      "83": {
+        "dem_votes": 2921,
+        "rep_votes": 8517,
         "other_votes": 0,
         "total_votes": 11438,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 4272,
-        "margin_pct": 37.34918692079035,
-        "winner": "R"
-      },
-      "17": {
-        "dem_votes": 1667,
-        "rep_votes": 6294,
-        "other_votes": 0,
-        "total_votes": 7961,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4627,
-        "margin_pct": 58.12083909056651,
-        "winner": "R"
-      },
-      "18": {
-        "dem_votes": 2946,
-        "rep_votes": 5260,
-        "other_votes": 0,
-        "total_votes": 8206,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2314,
-        "margin_pct": 28.198878869120158,
-        "winner": "R"
-      },
-      "19": {
-        "dem_votes": 3743,
-        "rep_votes": 5089,
-        "other_votes": 0,
-        "total_votes": 8832,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1346,
-        "margin_pct": 15.240036231884059,
-        "winner": "R"
-      },
-      "20": {
-        "dem_votes": 6669,
-        "rep_votes": 4651,
-        "other_votes": 0,
-        "total_votes": 11320,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -2018,
-        "margin_pct": 17.82685512367491,
-        "winner": "D"
-      },
-      "21": {
-        "dem_votes": 5754,
-        "rep_votes": 2246,
-        "other_votes": 0,
-        "total_votes": 8000,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -3508,
-        "margin_pct": 43.85,
-        "winner": "D"
-      },
-      "22": {
-        "dem_votes": 4026,
-        "rep_votes": 3787,
-        "other_votes": 0,
-        "total_votes": 7813,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -239,
-        "margin_pct": 3.0590042237296813,
-        "winner": "D"
-      },
-      "23": {
-        "dem_votes": 2279,
-        "rep_votes": 4834,
-        "other_votes": 0,
-        "total_votes": 7113,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2555,
-        "margin_pct": 35.92014621116266,
-        "winner": "R"
-      },
-      "24": {
-        "dem_votes": 345,
-        "rep_votes": 978,
-        "other_votes": 0,
-        "total_votes": 1323,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 633,
-        "margin_pct": 47.84580498866213,
-        "winner": "R"
-      },
-      "25": {
-        "dem_votes": 2460,
-        "rep_votes": 5336,
-        "other_votes": 0,
-        "total_votes": 7796,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2876,
-        "margin_pct": 36.89071318624936,
-        "winner": "R"
-      },
-      "26": {
-        "dem_votes": 1425,
-        "rep_votes": 5380,
-        "other_votes": 0,
-        "total_votes": 6805,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3955,
-        "margin_pct": 58.11903012490816,
-        "winner": "R"
-      },
-      "27": {
-        "dem_votes": 1960,
-        "rep_votes": 9542,
-        "other_votes": 0,
-        "total_votes": 11502,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 7582,
-        "margin_pct": 65.9189706138063,
-        "winner": "R"
-      },
-      "28": {
-        "dem_votes": 1469,
-        "rep_votes": 8263,
-        "other_votes": 0,
-        "total_votes": 9732,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 6794,
-        "margin_pct": 69.81093300452117,
-        "winner": "R"
-      },
-      "29": {
-        "dem_votes": 1776,
-        "rep_votes": 6300,
-        "other_votes": 0,
-        "total_votes": 8076,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4524,
-        "margin_pct": 56.01783060921248,
-        "winner": "R"
-      },
-      "30": {
-        "dem_votes": 1524,
-        "rep_votes": 5490,
-        "other_votes": 0,
-        "total_votes": 7014,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3966,
-        "margin_pct": 56.544054747647564,
-        "winner": "R"
-      },
-      "32": {
-        "dem_votes": 2741,
-        "rep_votes": 4647,
-        "other_votes": 0,
-        "total_votes": 7388,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1906,
-        "margin_pct": 25.798592311857067,
-        "winner": "R"
-      },
-      "33": {
-        "dem_votes": 1139,
-        "rep_votes": 3910,
-        "other_votes": 0,
-        "total_votes": 5049,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2771,
-        "margin_pct": 54.882154882154886,
-        "winner": "R"
-      },
-      "35": {
-        "dem_votes": 215,
-        "rep_votes": 102,
-        "other_votes": 0,
-        "total_votes": 317,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -113,
-        "margin_pct": 35.646687697160885,
-        "winner": "D"
-      },
-      "36": {
-        "dem_votes": 1418,
-        "rep_votes": 2475,
-        "other_votes": 0,
-        "total_votes": 3893,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1057,
-        "margin_pct": 27.151297200102746,
-        "winner": "R"
-      },
-      "37": {
-        "dem_votes": 917,
-        "rep_votes": 3730,
-        "other_votes": 0,
-        "total_votes": 4647,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2813,
-        "margin_pct": 60.533677641489135,
-        "winner": "R"
-      },
-      "38": {
-        "dem_votes": 1744,
-        "rep_votes": 5046,
-        "other_votes": 0,
-        "total_votes": 6790,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3302,
-        "margin_pct": 48.630338733431515,
-        "winner": "R"
-      },
-      "39": {
-        "dem_votes": 1388,
-        "rep_votes": 6151,
-        "other_votes": 0,
-        "total_votes": 7539,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4763,
-        "margin_pct": 63.17814033691471,
-        "winner": "R"
-      },
-      "40": {
-        "dem_votes": 1537,
-        "rep_votes": 6828,
-        "other_votes": 0,
-        "total_votes": 8365,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 5291,
-        "margin_pct": 63.251643753735806,
-        "winner": "R"
-      },
-      "41": {
-        "dem_votes": 1974,
-        "rep_votes": 10255,
-        "other_votes": 0,
-        "total_votes": 12229,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 8281,
-        "margin_pct": 67.71608471665712,
-        "winner": "R"
-      },
-      "42": {
-        "dem_votes": 472,
-        "rep_votes": 2323,
-        "other_votes": 0,
-        "total_votes": 2795,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1851,
-        "margin_pct": 66.22540250447227,
-        "winner": "R"
-      },
-      "43": {
-        "dem_votes": 2714,
-        "rep_votes": 7482,
-        "other_votes": 0,
-        "total_votes": 10196,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4768,
-        "margin_pct": 46.76343664182032,
-        "winner": "R"
-      },
-      "44": {
-        "dem_votes": 1327,
-        "rep_votes": 7021,
-        "other_votes": 0,
-        "total_votes": 8348,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 5694,
-        "margin_pct": 68.20795400095831,
-        "winner": "R"
-      },
-      "45": {
-        "dem_votes": 346,
-        "rep_votes": 1556,
-        "other_votes": 0,
-        "total_votes": 1902,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1210,
-        "margin_pct": 63.61724500525763,
-        "winner": "R"
-      },
-      "46": {
-        "dem_votes": 998,
-        "rep_votes": 4487,
-        "other_votes": 0,
-        "total_votes": 5485,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3489,
-        "margin_pct": 63.6098450319052,
-        "winner": "R"
-      },
-      "52": {
-        "dem_votes": 1042,
-        "rep_votes": 5537,
-        "other_votes": 0,
-        "total_votes": 6579,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4495,
-        "margin_pct": 68.3234534123727,
-        "winner": "R"
-      },
-      "53": {
-        "dem_votes": 167,
-        "rep_votes": 729,
-        "other_votes": 0,
-        "total_votes": 896,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 562,
-        "margin_pct": 62.72321428571429,
-        "winner": "R"
-      },
-      "54": {
-        "dem_votes": 1150,
-        "rep_votes": 4992,
-        "other_votes": 0,
-        "total_votes": 6142,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3842,
-        "margin_pct": 62.552914360143276,
-        "winner": "R"
-      },
-      "57": {
-        "dem_votes": 665,
-        "rep_votes": 3952,
-        "other_votes": 0,
-        "total_votes": 4617,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3287,
-        "margin_pct": 71.19341563786008,
-        "winner": "R"
-      },
-      "58": {
-        "dem_votes": 446,
-        "rep_votes": 2330,
-        "other_votes": 0,
-        "total_votes": 2776,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1884,
-        "margin_pct": 67.86743515850145,
-        "winner": "R"
-      },
-      "59": {
-        "dem_votes": 1777,
-        "rep_votes": 7700,
-        "other_votes": 0,
-        "total_votes": 9477,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 5923,
-        "margin_pct": 62.49868101719953,
-        "winner": "R"
-      },
-      "60": {
-        "dem_votes": 2205,
-        "rep_votes": 7583,
-        "other_votes": 0,
-        "total_votes": 9788,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 5378,
-        "margin_pct": 54.94483040457704,
-        "winner": "R"
-      },
-      "61": {
-        "dem_votes": 1680,
-        "rep_votes": 4298,
-        "other_votes": 0,
-        "total_votes": 5978,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2618,
-        "margin_pct": 43.79391100702576,
-        "winner": "R"
-      },
-      "62": {
-        "dem_votes": 392,
-        "rep_votes": 842,
-        "other_votes": 0,
-        "total_votes": 1234,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 450,
-        "margin_pct": 36.466774716369535,
-        "winner": "R"
-      },
-      "63": {
-        "dem_votes": 26,
-        "rep_votes": 16,
-        "other_votes": 0,
-        "total_votes": 42,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -10,
-        "margin_pct": 23.809523809523807,
-        "winner": "D"
-      },
-      "64": {
-        "dem_votes": 4383,
-        "rep_votes": 1710,
-        "other_votes": 0,
-        "total_votes": 6093,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -2673,
-        "margin_pct": 43.870014771048744,
-        "winner": "D"
-      },
-      "65": {
-        "dem_votes": 3538,
-        "rep_votes": 1731,
-        "other_votes": 0,
-        "total_votes": 5269,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -1807,
-        "margin_pct": 34.29493262478649,
-        "winner": "D"
-      },
-      "66": {
-        "dem_votes": 3649,
-        "rep_votes": 4402,
-        "other_votes": 0,
-        "total_votes": 8051,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 753,
-        "margin_pct": 9.352875419202583,
-        "winner": "R"
-      },
-      "67": {
-        "dem_votes": 3980,
-        "rep_votes": 5821,
-        "other_votes": 0,
-        "total_votes": 9801,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1841,
-        "margin_pct": 18.78379757167636,
-        "winner": "R"
-      },
-      "68": {
-        "dem_votes": 1846,
-        "rep_votes": 7453,
-        "other_votes": 0,
-        "total_votes": 9299,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 5607,
-        "margin_pct": 60.296806108183674,
-        "winner": "R"
-      },
-      "69": {
-        "dem_votes": 3530,
-        "rep_votes": 5258,
-        "other_votes": 0,
-        "total_votes": 8788,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1728,
-        "margin_pct": 19.66317705962676,
-        "winner": "R"
-      },
-      "70": {
-        "dem_votes": 5495,
-        "rep_votes": 5261,
-        "other_votes": 0,
-        "total_votes": 10756,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -234,
-        "margin_pct": 2.1755299367794723,
-        "winner": "D"
-      },
-      "71": {
-        "dem_votes": 3424,
-        "rep_votes": 4736,
-        "other_votes": 0,
-        "total_votes": 8160,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 1312,
-        "margin_pct": 16.07843137254902,
-        "winner": "R"
-      },
-      "72": {
-        "dem_votes": 4469,
-        "rep_votes": 3195,
-        "other_votes": 0,
-        "total_votes": 7664,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -1274,
-        "margin_pct": 16.623173277661795,
-        "winner": "D"
-      },
-      "73": {
-        "dem_votes": 7879,
-        "rep_votes": 5994,
-        "other_votes": 0,
-        "total_votes": 13873,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -1885,
-        "margin_pct": 13.587544150508183,
-        "winner": "D"
-      },
-      "74": {
-        "dem_votes": 7251,
-        "rep_votes": 2764,
-        "other_votes": 0,
-        "total_votes": 10015,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -4487,
-        "margin_pct": 44.80279580629056,
-        "winner": "D"
-      },
-      "75": {
-        "dem_votes": 6007,
-        "rep_votes": 5058,
-        "other_votes": 0,
-        "total_votes": 11065,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -949,
-        "margin_pct": 8.576592860370539,
-        "winner": "D"
-      },
-      "76": {
-        "dem_votes": 5611,
-        "rep_votes": 1230,
-        "other_votes": 0,
-        "total_votes": 6841,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -4381,
-        "margin_pct": 64.04034497880427,
-        "winner": "D"
-      },
-      "77": {
-        "dem_votes": 5531,
-        "rep_votes": 2602,
-        "other_votes": 0,
-        "total_votes": 8133,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -2929,
-        "margin_pct": 36.013771056190826,
-        "winner": "D"
-      },
-      "78": {
-        "dem_votes": 4049,
-        "rep_votes": 8176,
-        "other_votes": 0,
-        "total_votes": 12225,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 4127,
-        "margin_pct": 33.758691206543965,
-        "winner": "R"
-      },
-      "79": {
-        "dem_votes": 4303,
-        "rep_votes": 2865,
-        "other_votes": 0,
-        "total_votes": 7168,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -1438,
-        "margin_pct": 20.061383928571427,
-        "winner": "D"
-      },
-      "80": {
-        "dem_votes": 3616,
-        "rep_votes": 722,
-        "other_votes": 0,
-        "total_votes": 4338,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": -2894,
-        "margin_pct": 66.71277086214845,
-        "winner": "D"
-      },
-      "81": {
-        "dem_votes": 3147,
-        "rep_votes": 6100,
-        "other_votes": 0,
-        "total_votes": 9247,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 2953,
-        "margin_pct": 31.934681518330272,
-        "winner": "R"
-      },
-      "82": {
-        "dem_votes": 2677,
-        "rep_votes": 6505,
-        "other_votes": 0,
-        "total_votes": 9182,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 3828,
-        "margin_pct": 41.69026355913744,
-        "winner": "R"
-      },
-      "83": {
-        "dem_votes": 3075,
-        "rep_votes": 10315,
-        "other_votes": 0,
-        "total_votes": 13390,
-        "dem_candidate": "Jesse Gibson",
-        "rep_candidate": "Tim Griffin",
-        "margin": 7240,
-        "margin_pct": 54.07020164301718,
+        "margin": 5596,
+        "margin_pct": 48.924637174331174,
         "winner": "R"
       },
       "84": {
-        "dem_votes": 2028,
-        "rep_votes": 4504,
+        "dem_votes": 2722,
+        "rep_votes": 6580,
         "other_votes": 0,
-        "total_votes": 6532,
+        "total_votes": 9302,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2476,
-        "margin_pct": 37.905695039804044,
+        "margin": 3858,
+        "margin_pct": 41.474951623306815,
         "winner": "R"
       },
       "85": {
-        "dem_votes": 1925,
-        "rep_votes": 6380,
+        "dem_votes": 2915,
+        "rep_votes": 7048,
         "other_votes": 0,
-        "total_votes": 8305,
+        "total_votes": 9963,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 4455,
-        "margin_pct": 53.64238410596026,
+        "margin": 4133,
+        "margin_pct": 41.48348890896316,
         "winner": "R"
       },
       "86": {
-        "dem_votes": 1218,
-        "rep_votes": 7116,
+        "dem_votes": 1745,
+        "rep_votes": 8904,
         "other_votes": 0,
-        "total_votes": 8334,
+        "total_votes": 10649,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 5898,
-        "margin_pct": 70.77033837293017,
+        "margin": 7159,
+        "margin_pct": 67.22696966851348,
         "winner": "R"
       },
       "87": {
-        "dem_votes": 1254,
-        "rep_votes": 5229,
+        "dem_votes": 1591,
+        "rep_votes": 6169,
         "other_votes": 0,
-        "total_votes": 6483,
+        "total_votes": 7760,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 3975,
-        "margin_pct": 61.31420638593244,
+        "margin": 4578,
+        "margin_pct": 58.99484536082474,
         "winner": "R"
       },
       "88": {
-        "dem_votes": 1953,
-        "rep_votes": 4598,
+        "dem_votes": 1910,
+        "rep_votes": 5446,
         "other_votes": 0,
-        "total_votes": 6551,
+        "total_votes": 7356,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2645,
-        "margin_pct": 40.375515188520836,
+        "margin": 3536,
+        "margin_pct": 48.06960304513323,
         "winner": "R"
       },
       "89": {
-        "dem_votes": 1987,
-        "rep_votes": 7112,
+        "dem_votes": 2299,
+        "rep_votes": 6768,
         "other_votes": 0,
-        "total_votes": 9099,
+        "total_votes": 9067,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 5125,
-        "margin_pct": 56.32487086493021,
+        "margin": 4469,
+        "margin_pct": 49.28862909451858,
         "winner": "R"
       },
       "90": {
-        "dem_votes": 2253,
-        "rep_votes": 5119,
+        "dem_votes": 2856,
+        "rep_votes": 6351,
         "other_votes": 0,
-        "total_votes": 7372,
+        "total_votes": 9207,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2866,
-        "margin_pct": 38.87683125339121,
+        "margin": 3495,
+        "margin_pct": 37.960247637666996,
         "winner": "R"
       },
       "91": {
-        "dem_votes": 2327,
-        "rep_votes": 4131,
+        "dem_votes": 2925,
+        "rep_votes": 7071,
         "other_votes": 0,
-        "total_votes": 6458,
+        "total_votes": 9996,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1804,
-        "margin_pct": 27.934344998451532,
+        "margin": 4146,
+        "margin_pct": 41.4765906362545,
         "winner": "R"
       },
       "92": {
-        "dem_votes": 1577,
-        "rep_votes": 8515,
+        "dem_votes": 1893,
+        "rep_votes": 8244,
         "other_votes": 0,
-        "total_votes": 10092,
+        "total_votes": 10137,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 6938,
-        "margin_pct": 68.74752279032897,
+        "margin": 6351,
+        "margin_pct": 62.65167209233501,
         "winner": "R"
       },
       "93": {
-        "dem_votes": 1257,
-        "rep_votes": 6004,
+        "dem_votes": 3052,
+        "rep_votes": 4387,
         "other_votes": 0,
-        "total_votes": 7261,
+        "total_votes": 7439,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 4747,
-        "margin_pct": 65.3766698801818,
+        "margin": 1335,
+        "margin_pct": 17.945960478558945,
         "winner": "R"
       },
       "94": {
-        "dem_votes": 2901,
-        "rep_votes": 5342,
+        "dem_votes": 2911,
+        "rep_votes": 5518,
         "other_votes": 0,
-        "total_votes": 8243,
+        "total_votes": 8429,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2441,
-        "margin_pct": 29.613004973917263,
+        "margin": 2607,
+        "margin_pct": 30.92893581682287,
         "winner": "R"
       },
       "95": {
-        "dem_votes": 2189,
-        "rep_votes": 3610,
+        "dem_votes": 3046,
+        "rep_votes": 5756,
         "other_votes": 0,
-        "total_votes": 5799,
+        "total_votes": 8802,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1421,
-        "margin_pct": 24.50422486635627,
+        "margin": 2710,
+        "margin_pct": 30.788457168825268,
         "winner": "R"
       },
       "96": {
-        "dem_votes": 1464,
-        "rep_votes": 4834,
+        "dem_votes": 2628,
+        "rep_votes": 6855,
         "other_votes": 0,
-        "total_votes": 6298,
+        "total_votes": 9483,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 3370,
-        "margin_pct": 53.50905049221976,
+        "margin": 4227,
+        "margin_pct": 44.57450173995571,
         "winner": "R"
       },
       "97": {
-        "dem_votes": 2812,
-        "rep_votes": 5689,
+        "dem_votes": 2702,
+        "rep_votes": 6062,
         "other_votes": 0,
-        "total_votes": 8501,
+        "total_votes": 8764,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2877,
-        "margin_pct": 33.84307728502529,
+        "margin": 3360,
+        "margin_pct": 38.33865814696485,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 3676,
-        "rep_votes": 5243,
+        "dem_votes": 3290,
+        "rep_votes": 5841,
         "other_votes": 0,
-        "total_votes": 8919,
+        "total_votes": 9131,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 1567,
-        "margin_pct": 17.56923421908286,
+        "margin": 2551,
+        "margin_pct": 27.93779432701785,
         "winner": "R"
       },
       "99": {
-        "dem_votes": 1457,
-        "rep_votes": 6964,
+        "dem_votes": 2192,
+        "rep_votes": 5786,
         "other_votes": 0,
-        "total_votes": 8421,
+        "total_votes": 7978,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 5507,
-        "margin_pct": 65.39603372521078,
+        "margin": 3594,
+        "margin_pct": 45.048884432188515,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 1856,
-        "rep_votes": 4570,
+        "dem_votes": 1777,
+        "rep_votes": 6071,
         "other_votes": 0,
-        "total_votes": 6426,
+        "total_votes": 7848,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 2714,
-        "margin_pct": 42.234671646436354,
+        "margin": 4294,
+        "margin_pct": 54.71457696228338,
         "winner": "R"
       }
     }

@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2032,
-    "matched_vote_coverage": 0.807345,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 47030,
-        "rep_votes": 72728,
-        "other_votes": 5247,
-        "total_votes": 125005,
+        "dem_votes": 77575,
+        "rep_votes": 110104,
+        "other_votes": 7735,
+        "total_votes": 195414,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 25698,
-        "margin_pct": 20.557577696892125,
+        "margin": 32529,
+        "margin_pct": 16.646197304184962,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 92539,
-        "rep_votes": 119687,
-        "other_votes": 8584,
-        "total_votes": 220810,
+        "dem_votes": 99334,
+        "rep_votes": 126306,
+        "other_votes": 9160,
+        "total_votes": 234800,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 27148,
-        "margin_pct": 12.294733028395454,
+        "margin": 26972,
+        "margin_pct": 11.487223168654173,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 48337,
-        "rep_votes": 97094,
-        "other_votes": 8475,
-        "total_votes": 153906,
+        "dem_votes": 54760,
+        "rep_votes": 109799,
+        "other_votes": 9541,
+        "total_votes": 174100,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 48757,
-        "margin_pct": 31.67972658635791,
+        "margin": 55039,
+        "margin_pct": 31.613440551407233,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 62288,
-        "rep_votes": 80475,
-        "other_votes": 5460,
-        "total_votes": 148223,
+        "dem_votes": 79338,
+        "rep_votes": 111412,
+        "other_votes": 7496,
+        "total_votes": 198246,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 18187,
-        "margin_pct": 12.27002556958097,
+        "margin": 32074,
+        "margin_pct": 16.178888855260638,
         "winner": "R"
       }
     }

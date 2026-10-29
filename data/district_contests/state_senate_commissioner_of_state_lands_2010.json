@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.615171,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 8137,
-        "rep_votes": 5915,
+        "dem_votes": 13080,
+        "rep_votes": 9577,
         "other_votes": 0,
-        "total_votes": 14052,
+        "total_votes": 22657,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -2222,
-        "margin_pct": 15.812695701679477,
+        "margin": -3503,
+        "margin_pct": 15.461005428785807,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 6750,
-        "rep_votes": 6648,
+        "dem_votes": 13580,
+        "rep_votes": 12526,
         "other_votes": 0,
-        "total_votes": 13398,
+        "total_votes": 26106,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -102,
-        "margin_pct": 0.761307657859382,
+        "margin": -1054,
+        "margin_pct": 4.037386041523021,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 9832,
-        "rep_votes": 8033,
+        "dem_votes": 13422,
+        "rep_votes": 11357,
         "other_votes": 0,
-        "total_votes": 17865,
+        "total_votes": 24779,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -1799,
-        "margin_pct": 10.06996921354604,
+        "margin": -2065,
+        "margin_pct": 8.33366963961419,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 8178,
-        "rep_votes": 9916,
+        "dem_votes": 9451,
+        "rep_votes": 11341,
         "other_votes": 0,
-        "total_votes": 18094,
+        "total_votes": 20792,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 1738,
-        "margin_pct": 9.60539405327733,
+        "margin": 1890,
+        "margin_pct": 9.090034628703346,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 9620,
-        "rep_votes": 12536,
+        "dem_votes": 10617,
+        "rep_votes": 13647,
         "other_votes": 0,
-        "total_votes": 22156,
+        "total_votes": 24264,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 2916,
-        "margin_pct": 13.161220436901969,
+        "margin": 3030,
+        "margin_pct": 12.487636003956478,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 835,
-        "rep_votes": 1129,
+        "dem_votes": 10504,
+        "rep_votes": 15820,
         "other_votes": 0,
-        "total_votes": 1964,
+        "total_votes": 26324,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 294,
-        "margin_pct": 14.969450101832994,
+        "margin": 5316,
+        "margin_pct": 20.194499316213342,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 5313,
-        "rep_votes": 5080,
+        "dem_votes": 10045,
+        "rep_votes": 12591,
         "other_votes": 0,
-        "total_votes": 10393,
+        "total_votes": 22636,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -233,
-        "margin_pct": 2.241893582218801,
-        "winner": "D"
+        "margin": 2546,
+        "margin_pct": 11.247570242092241,
+        "winner": "R"
       },
       "8": {
-        "dem_votes": 10220,
-        "rep_votes": 3864,
+        "dem_votes": 15085,
+        "rep_votes": 7756,
         "other_votes": 0,
-        "total_votes": 14084,
+        "total_votes": 22841,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -6356,
-        "margin_pct": 45.12922465208747,
+        "margin": -7329,
+        "margin_pct": 32.08703646950659,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1684,
-        "rep_votes": 583,
+        "dem_votes": 15595,
+        "rep_votes": 8597,
         "other_votes": 0,
-        "total_votes": 2267,
+        "total_votes": 24192,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -1101,
-        "margin_pct": 48.566387295985884,
+        "margin": -6998,
+        "margin_pct": 28.926917989417987,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 9440,
-        "rep_votes": 6543,
+        "dem_votes": 15149,
+        "rep_votes": 9693,
         "other_votes": 0,
-        "total_votes": 15983,
+        "total_votes": 24842,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -2897,
-        "margin_pct": 18.125508352624664,
+        "margin": -5456,
+        "margin_pct": 21.962804927139523,
         "winner": "D"
       },
       "11": {
-        "dem_votes": 5549,
-        "rep_votes": 10929,
+        "dem_votes": 9094,
+        "rep_votes": 11598,
         "other_votes": 0,
-        "total_votes": 16478,
+        "total_votes": 20692,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 5380,
-        "margin_pct": 32.64959339725695,
+        "margin": 2504,
+        "margin_pct": 12.101295186545524,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 13172,
-        "rep_votes": 4667,
+        "dem_votes": 13654,
+        "rep_votes": 10077,
         "other_votes": 0,
-        "total_votes": 17839,
+        "total_votes": 23731,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -8505,
-        "margin_pct": 47.67643926229049,
+        "margin": -3577,
+        "margin_pct": 15.073111120475327,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 12076,
-        "rep_votes": 15097,
+        "dem_votes": 13989,
+        "rep_votes": 10325,
         "other_votes": 0,
-        "total_votes": 27173,
+        "total_votes": 24314,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 3021,
-        "margin_pct": 11.117653553159386,
-        "winner": "R"
+        "margin": -3664,
+        "margin_pct": 15.06950727975652,
+        "winner": "D"
       },
       "14": {
-        "dem_votes": 17190,
-        "rep_votes": 14453,
+        "dem_votes": 13937,
+        "rep_votes": 10286,
         "other_votes": 0,
-        "total_votes": 31643,
+        "total_votes": 24223,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -2737,
-        "margin_pct": 8.649622349334766,
+        "margin": -3651,
+        "margin_pct": 15.072451802006356,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 14154,
-        "rep_votes": 4226,
+        "dem_votes": 12174,
+        "rep_votes": 8985,
         "other_votes": 0,
-        "total_votes": 18380,
+        "total_votes": 21159,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -9928,
-        "margin_pct": 54.015233949945596,
+        "margin": -3189,
+        "margin_pct": 15.071600737274919,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 1277,
-        "rep_votes": 1829,
+        "dem_votes": 9653,
+        "rep_votes": 14258,
         "other_votes": 0,
-        "total_votes": 3106,
+        "total_votes": 23911,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 552,
-        "margin_pct": 17.77205408886027,
+        "margin": 4605,
+        "margin_pct": 19.258918489398187,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2973,
-        "rep_votes": 3978,
+        "dem_votes": 9524,
+        "rep_votes": 10883,
         "other_votes": 0,
-        "total_votes": 6951,
+        "total_votes": 20407,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 1005,
-        "margin_pct": 14.45835131635736,
+        "margin": 1359,
+        "margin_pct": 6.659479590336649,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 2099,
-        "rep_votes": 3276,
+        "dem_votes": 8790,
+        "rep_votes": 13751,
         "other_votes": 0,
-        "total_votes": 5375,
+        "total_votes": 22541,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 1177,
-        "margin_pct": 21.89767441860465,
+        "margin": 4961,
+        "margin_pct": 22.00878399361164,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 2971,
-        "rep_votes": 2342,
+        "dem_votes": 12409,
+        "rep_votes": 8437,
         "other_votes": 0,
-        "total_votes": 5313,
+        "total_votes": 20846,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -629,
-        "margin_pct": 11.838885751929231,
+        "margin": -3972,
+        "margin_pct": 19.05401515878346,
         "winner": "D"
       },
       "20": {
-        "dem_votes": 1392,
-        "rep_votes": 1517,
+        "dem_votes": 8228,
+        "rep_votes": 8054,
         "other_votes": 0,
-        "total_votes": 2909,
+        "total_votes": 16282,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 125,
-        "margin_pct": 4.297009281540048,
-        "winner": "R"
+        "margin": -174,
+        "margin_pct": 1.0686647831961675,
+        "winner": "D"
       },
       "21": {
-        "dem_votes": 10182,
-        "rep_votes": 8810,
+        "dem_votes": 10312,
+        "rep_votes": 9062,
         "other_votes": 0,
-        "total_votes": 18992,
+        "total_votes": 19374,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": -1372,
-        "margin_pct": 7.224094355518113,
+        "margin": -1250,
+        "margin_pct": 6.451945906885517,
         "winner": "D"
       },
       "22": {
-        "dem_votes": 10735,
-        "rep_votes": 12879,
+        "dem_votes": 11344,
+        "rep_votes": 13029,
         "other_votes": 0,
-        "total_votes": 23614,
+        "total_votes": 24373,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 2144,
-        "margin_pct": 9.079359701871772,
+        "margin": 1685,
+        "margin_pct": 6.913387765149961,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 7592,
-        "rep_votes": 13381,
+        "dem_votes": 10136,
+        "rep_votes": 18294,
         "other_votes": 0,
-        "total_votes": 20973,
+        "total_votes": 28430,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 5789,
-        "margin_pct": 27.60215515186192,
+        "margin": 8158,
+        "margin_pct": 28.695040450228632,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 10250,
-        "rep_votes": 14040,
+        "dem_votes": 10979,
+        "rep_votes": 13551,
         "other_votes": 0,
-        "total_votes": 24290,
+        "total_votes": 24530,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 3790,
-        "margin_pct": 15.60312885961301,
+        "margin": 2572,
+        "margin_pct": 10.485120260905015,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 5817,
-        "rep_votes": 6210,
+        "dem_votes": 10005,
+        "rep_votes": 11820,
         "other_votes": 0,
-        "total_votes": 12027,
+        "total_votes": 21825,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 393,
-        "margin_pct": 3.2676477924669496,
+        "margin": 1815,
+        "margin_pct": 8.31615120274914,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 7919,
-        "rep_votes": 12315,
+        "dem_votes": 9690,
+        "rep_votes": 12453,
         "other_votes": 0,
-        "total_votes": 20234,
+        "total_votes": 22143,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 4396,
-        "margin_pct": 21.7258080458634,
+        "margin": 2763,
+        "margin_pct": 12.477984013006367,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 6217,
-        "rep_votes": 9851,
+        "dem_votes": 6776,
+        "rep_votes": 12110,
         "other_votes": 0,
-        "total_votes": 16068,
+        "total_votes": 18886,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 3634,
-        "margin_pct": 22.616380383370675,
+        "margin": 5334,
+        "margin_pct": 28.243143068939958,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 9300,
-        "rep_votes": 13570,
+        "dem_votes": 10992,
+        "rep_votes": 16200,
         "other_votes": 0,
-        "total_votes": 22870,
+        "total_votes": 27192,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 4270,
-        "margin_pct": 18.670747704416264,
+        "margin": 5208,
+        "margin_pct": 19.152691968225948,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 7204,
-        "rep_votes": 12838,
+        "dem_votes": 6888,
+        "rep_votes": 12099,
         "other_votes": 0,
-        "total_votes": 20042,
+        "total_votes": 18987,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 5634,
-        "margin_pct": 28.110966969364338,
+        "margin": 5211,
+        "margin_pct": 27.445094011692213,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 498,
-        "rep_votes": 922,
+        "dem_votes": 7160,
+        "rep_votes": 9917,
         "other_votes": 0,
-        "total_votes": 1420,
+        "total_votes": 17077,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 424,
-        "margin_pct": 29.859154929577464,
+        "margin": 2757,
+        "margin_pct": 16.1445218715231,
         "winner": "R"
       },
       "31": {
-        "dem_votes": 695,
-        "rep_votes": 1569,
+        "dem_votes": 4793,
+        "rep_votes": 6638,
         "other_votes": 0,
-        "total_votes": 2264,
+        "total_votes": 11431,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 874,
-        "margin_pct": 38.60424028268552,
+        "margin": 1845,
+        "margin_pct": 16.140320181961336,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 262,
-        "rep_votes": 468,
+        "dem_votes": 4212,
+        "rep_votes": 9769,
         "other_votes": 0,
-        "total_votes": 730,
+        "total_votes": 13981,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 206,
-        "margin_pct": 28.21917808219178,
+        "margin": 5557,
+        "margin_pct": 39.74679922752307,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 4288,
+        "rep_votes": 10352,
+        "other_votes": 0,
+        "total_votes": 14640,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": 6064,
+        "margin_pct": 41.4207650273224,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 4794,
+        "rep_votes": 11574,
+        "other_votes": 0,
+        "total_votes": 16368,
+        "dem_candidate": "LJ Bryant",
+        "rep_candidate": "John M. Thurston",
+        "margin": 6780,
+        "margin_pct": 41.422287390029325,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 4296,
-        "rep_votes": 9526,
+        "dem_votes": 5647,
+        "rep_votes": 9836,
         "other_votes": 0,
-        "total_votes": 13822,
+        "total_votes": 15483,
         "dem_candidate": "LJ Bryant",
         "rep_candidate": "John M. Thurston",
-        "margin": 5230,
-        "margin_pct": 37.83822891043264,
+        "margin": 4189,
+        "margin_pct": 27.055480204094813,
         "winner": "R"
       }
     }

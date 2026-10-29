@@ -3,388 +3,636 @@
   "scope": "state_senate",
   "contest_type": "us_senate",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 2139,
-    "matched_vote_coverage": 0.823288,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 17758,
-        "other_votes": 6630,
-        "total_votes": 24388,
+        "rep_votes": 21932,
+        "other_votes": 9894,
+        "total_votes": 31826,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 17758,
-        "margin_pct": 72.81449893390192,
+        "margin": 21932,
+        "margin_pct": 68.91221014265066,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 23484,
-        "other_votes": 9939,
-        "total_votes": 33423,
+        "rep_votes": 25097,
+        "other_votes": 10349,
+        "total_votes": 35446,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 23484,
-        "margin_pct": 70.2629925500404,
+        "margin": 25097,
+        "margin_pct": 70.80347570952998,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 20645,
-        "other_votes": 8279,
-        "total_votes": 28924,
+        "rep_votes": 21923,
+        "other_votes": 9213,
+        "total_votes": 31136,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 20645,
-        "margin_pct": 71.37671138155164,
+        "margin": 21923,
+        "margin_pct": 70.41045734840698,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 21560,
-        "other_votes": 6584,
-        "total_votes": 28144,
+        "rep_votes": 24361,
+        "other_votes": 7292,
+        "total_votes": 31653,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 21560,
-        "margin_pct": 76.60602615122228,
+        "margin": 24361,
+        "margin_pct": 76.9626891605851,
         "winner": "R"
       },
       "5": {
         "dem_votes": 0,
-        "rep_votes": 27231,
-        "other_votes": 5517,
-        "total_votes": 32748,
+        "rep_votes": 27227,
+        "other_votes": 6825,
+        "total_votes": 34052,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 27231,
-        "margin_pct": 83.15316965921583,
+        "margin": 27227,
+        "margin_pct": 79.95712439797956,
         "winner": "R"
       },
       "6": {
         "dem_votes": 0,
-        "rep_votes": 27574,
-        "other_votes": 11733,
-        "total_votes": 39307,
+        "rep_votes": 27852,
+        "other_votes": 11964,
+        "total_votes": 39816,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 27574,
-        "margin_pct": 70.15035489861857,
+        "margin": 27852,
+        "margin_pct": 69.95177817962627,
         "winner": "R"
       },
       "7": {
         "dem_votes": 0,
-        "rep_votes": 26795,
-        "other_votes": 7375,
-        "total_votes": 34170,
+        "rep_votes": 26124,
+        "other_votes": 9393,
+        "total_votes": 35517,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 26795,
-        "margin_pct": 78.41673983026047,
+        "margin": 26124,
+        "margin_pct": 73.55350958695836,
         "winner": "R"
       },
       "8": {
         "dem_votes": 0,
-        "rep_votes": 11368,
-        "other_votes": 13737,
-        "total_votes": 25105,
+        "rep_votes": 16360,
+        "other_votes": 14484,
+        "total_votes": 30844,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 11368,
-        "margin_pct": 45.281816371240794,
-        "winner": "O"
+        "margin": 16360,
+        "margin_pct": 53.041110102451036,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 14052,
+        "other_votes": 12657,
+        "total_votes": 26709,
+        "dem_candidate": "",
+        "rep_candidate": "Tom Cotton",
+        "margin": 14052,
+        "margin_pct": 52.61147927664832,
+        "winner": "R"
       },
       "10": {
         "dem_votes": 0,
-        "rep_votes": 14403,
-        "other_votes": 3843,
-        "total_votes": 18246,
+        "rep_votes": 22796,
+        "other_votes": 8382,
+        "total_votes": 31178,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 14403,
-        "margin_pct": 78.93784939164749,
+        "margin": 22796,
+        "margin_pct": 73.1156584771313,
         "winner": "R"
       },
       "11": {
         "dem_votes": 0,
-        "rep_votes": 14968,
-        "other_votes": 5213,
-        "total_votes": 20181,
+        "rep_votes": 24833,
+        "other_votes": 12144,
+        "total_votes": 36977,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 14968,
-        "margin_pct": 74.16877260789852,
+        "margin": 24833,
+        "margin_pct": 67.1579630581172,
         "winner": "R"
       },
       "12": {
         "dem_votes": 0,
-        "rep_votes": 8679,
-        "other_votes": 19351,
-        "total_votes": 28030,
+        "rep_votes": 16022,
+        "other_votes": 20880,
+        "total_votes": 36902,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 8679,
-        "margin_pct": 30.96325365679629,
+        "margin": 16022,
+        "margin_pct": 43.417700937618555,
         "winner": "O"
       },
       "13": {
         "dem_votes": 0,
-        "rep_votes": 24303,
-        "other_votes": 18925,
-        "total_votes": 43228,
+        "rep_votes": 16416,
+        "other_votes": 21393,
+        "total_votes": 37809,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 24303,
-        "margin_pct": 56.2205052280929,
-        "winner": "R"
+        "margin": 16416,
+        "margin_pct": 43.41823375386812,
+        "winner": "O"
       },
       "14": {
         "dem_votes": 0,
-        "rep_votes": 20041,
-        "other_votes": 26800,
-        "total_votes": 46841,
+        "rep_votes": 16353,
+        "other_votes": 21311,
+        "total_votes": 37664,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 20041,
-        "margin_pct": 42.78516684101535,
+        "margin": 16353,
+        "margin_pct": 43.41811809685642,
         "winner": "O"
       },
       "15": {
         "dem_votes": 0,
-        "rep_votes": 6847,
-        "other_votes": 21593,
-        "total_votes": 28440,
+        "rep_votes": 14285,
+        "other_votes": 18616,
+        "total_votes": 32901,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 6847,
-        "margin_pct": 24.075246132208157,
+        "margin": 14285,
+        "margin_pct": 43.41813318744111,
         "winner": "O"
       },
       "16": {
         "dem_votes": 0,
-        "rep_votes": 26411,
-        "other_votes": 11940,
-        "total_votes": 38351,
+        "rep_votes": 28267,
+        "other_votes": 11299,
+        "total_votes": 39566,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 26411,
-        "margin_pct": 68.86652238533544,
+        "margin": 28267,
+        "margin_pct": 71.4426527826922,
         "winner": "R"
       },
       "17": {
         "dem_votes": 0,
-        "rep_votes": 6095,
-        "other_votes": 2973,
-        "total_votes": 9068,
+        "rep_votes": 24903,
+        "other_votes": 14841,
+        "total_votes": 39744,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 6095,
-        "margin_pct": 67.21438023820026,
+        "margin": 24903,
+        "margin_pct": 62.658514492753625,
         "winner": "R"
       },
       "18": {
         "dem_votes": 0,
-        "rep_votes": 28016,
-        "other_votes": 6465,
-        "total_votes": 34481,
+        "rep_votes": 29012,
+        "other_votes": 6770,
+        "total_votes": 35782,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 28016,
-        "margin_pct": 81.25054377773266,
+        "margin": 29012,
+        "margin_pct": 81.07987256162316,
         "winner": "R"
       },
       "19": {
         "dem_votes": 0,
-        "rep_votes": 7721,
-        "other_votes": 2018,
-        "total_votes": 9739,
+        "rep_votes": 19293,
+        "other_votes": 7638,
+        "total_votes": 26931,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 7721,
-        "margin_pct": 79.27918677482288,
+        "margin": 19293,
+        "margin_pct": 71.63863205970814,
         "winner": "R"
       },
       "20": {
         "dem_votes": 0,
-        "rep_votes": 18911,
-        "other_votes": 9603,
-        "total_votes": 28514,
+        "rep_votes": 20771,
+        "other_votes": 9137,
+        "total_votes": 29908,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 18911,
-        "margin_pct": 66.32180683173178,
+        "margin": 20771,
+        "margin_pct": 69.44964557977798,
         "winner": "R"
       },
       "21": {
         "dem_votes": 0,
-        "rep_votes": 10819,
-        "other_votes": 2235,
-        "total_votes": 13054,
+        "rep_votes": 24704,
+        "other_votes": 5567,
+        "total_votes": 30271,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 10819,
-        "margin_pct": 82.87881109238548,
+        "margin": 24704,
+        "margin_pct": 81.60946120048892,
         "winner": "R"
       },
       "22": {
         "dem_votes": 0,
-        "rep_votes": 27794,
-        "other_votes": 6039,
-        "total_votes": 33833,
+        "rep_votes": 28503,
+        "other_votes": 6200,
+        "total_votes": 34703,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 27794,
-        "margin_pct": 82.15056305973458,
+        "margin": 28503,
+        "margin_pct": 82.13410944298764,
         "winner": "R"
       },
       "23": {
         "dem_votes": 0,
-        "rep_votes": 30288,
-        "other_votes": 7410,
-        "total_votes": 37698,
+        "rep_votes": 31317,
+        "other_votes": 7793,
+        "total_votes": 39110,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 30288,
-        "margin_pct": 80.34378481617061,
+        "margin": 31317,
+        "margin_pct": 80.0741498338021,
         "winner": "R"
       },
       "24": {
         "dem_votes": 0,
-        "rep_votes": 29493,
-        "other_votes": 6725,
-        "total_votes": 36218,
+        "rep_votes": 28825,
+        "other_votes": 10237,
+        "total_votes": 39062,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 29493,
-        "margin_pct": 81.43188469821636,
+        "margin": 28825,
+        "margin_pct": 73.79294454969023,
         "winner": "R"
       },
       "25": {
         "dem_votes": 0,
-        "rep_votes": 18495,
-        "other_votes": 5502,
-        "total_votes": 23997,
+        "rep_votes": 25359,
+        "other_votes": 8568,
+        "total_votes": 33927,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 18495,
-        "margin_pct": 77.07213401675209,
+        "margin": 25359,
+        "margin_pct": 74.74577769917765,
         "winner": "R"
       },
       "26": {
         "dem_votes": 0,
-        "rep_votes": 17336,
-        "other_votes": 4727,
-        "total_votes": 22063,
+        "rep_votes": 24655,
+        "other_votes": 8337,
+        "total_votes": 32992,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 17336,
-        "margin_pct": 78.57498980193084,
+        "margin": 24655,
+        "margin_pct": 74.73023763336566,
         "winner": "R"
       },
       "27": {
         "dem_votes": 0,
-        "rep_votes": 1099,
-        "other_votes": 312,
-        "total_votes": 1411,
+        "rep_votes": 20486,
+        "other_votes": 9478,
+        "total_votes": 29964,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 1099,
-        "margin_pct": 77.8880226789511,
+        "margin": 20486,
+        "margin_pct": 68.36870911760779,
         "winner": "R"
       },
       "28": {
         "dem_votes": 0,
-        "rep_votes": 22131,
-        "other_votes": 6574,
-        "total_votes": 28705,
+        "rep_votes": 27889,
+        "other_votes": 8890,
+        "total_votes": 36779,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 22131,
-        "margin_pct": 77.0980665389305,
+        "margin": 27889,
+        "margin_pct": 75.82859784115936,
         "winner": "R"
       },
       "29": {
         "dem_votes": 0,
-        "rep_votes": 26606,
-        "other_votes": 9430,
-        "total_votes": 36036,
+        "rep_votes": 24228,
+        "other_votes": 9945,
+        "total_votes": 34173,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 26606,
-        "margin_pct": 73.83172383172382,
+        "margin": 24228,
+        "margin_pct": 70.89807742954964,
         "winner": "R"
       },
       "30": {
         "dem_votes": 0,
-        "rep_votes": 12844,
-        "other_votes": 20997,
-        "total_votes": 33841,
+        "rep_votes": 19634,
+        "other_votes": 17185,
+        "total_votes": 36819,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 12844,
-        "margin_pct": 37.953961171360184,
-        "winner": "O"
+        "margin": 19634,
+        "margin_pct": 53.3257285640566,
+        "winner": "R"
       },
       "31": {
         "dem_votes": 0,
-        "rep_votes": 14061,
-        "other_votes": 9637,
-        "total_votes": 23698,
+        "rep_votes": 13143,
+        "other_votes": 11504,
+        "total_votes": 24647,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 14061,
-        "margin_pct": 59.33412102287113,
+        "margin": 13143,
+        "margin_pct": 53.32494826956628,
         "winner": "R"
       },
       "32": {
         "dem_votes": 0,
-        "rep_votes": 19693,
-        "other_votes": 10963,
-        "total_votes": 30656,
+        "rep_votes": 20634,
+        "other_votes": 11588,
+        "total_votes": 32222,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 19693,
-        "margin_pct": 64.23864822546973,
+        "margin": 20634,
+        "margin_pct": 64.03699335857489,
         "winner": "R"
       },
       "33": {
         "dem_votes": 0,
-        "rep_votes": 22064,
-        "other_votes": 12872,
-        "total_votes": 34936,
+        "rep_votes": 21945,
+        "other_votes": 11949,
+        "total_votes": 33894,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 22064,
-        "margin_pct": 63.155484314174494,
+        "margin": 21945,
+        "margin_pct": 64.74597273853779,
         "winner": "R"
       },
       "34": {
         "dem_votes": 0,
-        "rep_votes": 25986,
-        "other_votes": 15087,
-        "total_votes": 41073,
+        "rep_votes": 24534,
+        "other_votes": 13358,
+        "total_votes": 37892,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 25986,
-        "margin_pct": 63.267840186984145,
+        "margin": 24534,
+        "margin_pct": 64.74717618494668,
         "winner": "R"
       },
       "35": {
         "dem_votes": 0,
-        "rep_votes": 22999,
-        "other_votes": 10852,
-        "total_votes": 33851,
+        "rep_votes": 20136,
+        "other_votes": 14309,
+        "total_votes": 34445,
         "dem_candidate": "",
         "rep_candidate": "Tom Cotton",
-        "margin": 22999,
-        "margin_pct": 67.94186286963458,
+        "margin": 20136,
+        "margin_pct": 58.4584119610974,
         "winner": "R"
       }
     }

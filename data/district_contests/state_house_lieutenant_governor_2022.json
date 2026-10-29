@@ -3,1015 +3,1546 @@
   "scope": "state_house",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.755053,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 997,
-        "rep_votes": 5259,
-        "other_votes": 216,
-        "total_votes": 6472,
+        "dem_votes": 1382,
+        "rep_votes": 6432,
+        "other_votes": 261,
+        "total_votes": 8075,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4262,
-        "margin_pct": 65.85290482076638,
+        "margin": 5050,
+        "margin_pct": 62.538699690402474,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 1750,
-        "rep_votes": 7685,
-        "other_votes": 332,
-        "total_votes": 9767,
+        "dem_votes": 1624,
+        "rep_votes": 8087,
+        "other_votes": 337,
+        "total_votes": 10048,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5935,
-        "margin_pct": 60.76584416914098,
+        "margin": 6463,
+        "margin_pct": 64.32125796178345,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 98,
-        "rep_votes": 697,
-        "other_votes": 29,
-        "total_votes": 824,
+        "dem_votes": 2227,
+        "rep_votes": 8899,
+        "other_votes": 435,
+        "total_votes": 11561,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 599,
-        "margin_pct": 72.69417475728154,
+        "margin": 6672,
+        "margin_pct": 57.71127065132774,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 1016,
-        "rep_votes": 4739,
-        "other_votes": 212,
-        "total_votes": 5967,
+        "dem_votes": 1931,
+        "rep_votes": 8355,
+        "other_votes": 392,
+        "total_votes": 10678,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3723,
-        "margin_pct": 62.39316239316239,
+        "margin": 6424,
+        "margin_pct": 60.16107885371792,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 1875,
-        "rep_votes": 8188,
-        "other_votes": 414,
-        "total_votes": 10477,
+        "dem_votes": 1770,
+        "rep_votes": 8275,
+        "other_votes": 402,
+        "total_votes": 10447,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6313,
-        "margin_pct": 60.255798415576976,
+        "margin": 6505,
+        "margin_pct": 62.266679429501295,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 1070,
-        "rep_votes": 3232,
-        "other_votes": 139,
-        "total_votes": 4441,
+        "dem_votes": 2845,
+        "rep_votes": 6631,
+        "other_votes": 330,
+        "total_votes": 9806,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2162,
-        "margin_pct": 48.68272911506418,
+        "margin": 3786,
+        "margin_pct": 38.60901488884356,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 2677,
-        "rep_votes": 5203,
-        "other_votes": 355,
-        "total_votes": 8235,
+        "dem_votes": 3000,
+        "rep_votes": 5607,
+        "other_votes": 371,
+        "total_votes": 8978,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2526,
-        "margin_pct": 30.67395264116576,
+        "margin": 2607,
+        "margin_pct": 29.037647582980618,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 3338,
-        "rep_votes": 7345,
-        "other_votes": 423,
-        "total_votes": 11106,
+        "dem_votes": 3361,
+        "rep_votes": 6280,
+        "other_votes": 415,
+        "total_votes": 10056,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4007,
-        "margin_pct": 36.07959661444264,
+        "margin": 2919,
+        "margin_pct": 29.027446300715994,
         "winner": "R"
       },
       "9": {
-        "dem_votes": 1458,
-        "rep_votes": 1736,
-        "other_votes": 142,
-        "total_votes": 3336,
+        "dem_votes": 2399,
+        "rep_votes": 2599,
+        "other_votes": 191,
+        "total_votes": 5189,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 278,
-        "margin_pct": 8.333333333333332,
+        "margin": 200,
+        "margin_pct": 3.8543071882829056,
         "winner": "R"
       },
       "10": {
-        "dem_votes": 4895,
-        "rep_votes": 6355,
-        "other_votes": 479,
-        "total_votes": 11729,
+        "dem_votes": 3289,
+        "rep_votes": 6147,
+        "other_votes": 406,
+        "total_votes": 9842,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1460,
-        "margin_pct": 12.447779009293205,
+        "margin": 2858,
+        "margin_pct": 29.03881324933957,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 2147,
-        "rep_votes": 3224,
-        "other_votes": 240,
-        "total_votes": 5611,
+        "dem_votes": 2666,
+        "rep_votes": 3814,
+        "other_votes": 264,
+        "total_votes": 6744,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1077,
-        "margin_pct": 19.194439493851366,
+        "margin": 1148,
+        "margin_pct": 17.022538552787665,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 3514,
-        "rep_votes": 9218,
-        "other_votes": 562,
-        "total_votes": 13294,
+        "dem_votes": 3773,
+        "rep_votes": 7051,
+        "other_votes": 466,
+        "total_votes": 11290,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5704,
-        "margin_pct": 42.90657439446367,
+        "margin": 3278,
+        "margin_pct": 29.034543844109834,
         "winner": "R"
       },
       "13": {
-        "dem_votes": 3204,
-        "rep_votes": 4144,
-        "other_votes": 283,
-        "total_votes": 7631,
+        "dem_votes": 2858,
+        "rep_votes": 5342,
+        "other_votes": 353,
+        "total_votes": 8553,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 940,
-        "margin_pct": 12.318175861617089,
+        "margin": 2484,
+        "margin_pct": 29.042441248684668,
         "winner": "R"
       },
       "14": {
-        "dem_votes": 3028,
-        "rep_votes": 4945,
-        "other_votes": 374,
-        "total_votes": 8347,
+        "dem_votes": 3481,
+        "rep_votes": 6506,
+        "other_votes": 430,
+        "total_votes": 10417,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1917,
-        "margin_pct": 22.96633521025518,
+        "margin": 3025,
+        "margin_pct": 29.039070749736005,
         "winner": "R"
       },
       "15": {
-        "dem_votes": 2833,
-        "rep_votes": 3790,
-        "other_votes": 319,
-        "total_votes": 6942,
+        "dem_votes": 2871,
+        "rep_votes": 5364,
+        "other_votes": 354,
+        "total_votes": 8589,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 957,
-        "margin_pct": 13.785652549697494,
+        "margin": 2493,
+        "margin_pct": 29.02549772965421,
         "winner": "R"
       },
       "16": {
-        "dem_votes": 3830,
-        "rep_votes": 7269,
-        "other_votes": 425,
-        "total_votes": 11524,
+        "dem_votes": 3128,
+        "rep_votes": 5845,
+        "other_votes": 386,
+        "total_votes": 9359,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3439,
-        "margin_pct": 29.842068726136755,
+        "margin": 2717,
+        "margin_pct": 29.03087936745379,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 1641,
-        "rep_votes": 6006,
-        "other_votes": 354,
-        "total_votes": 8001,
+        "dem_votes": 3179,
+        "rep_votes": 5941,
+        "other_votes": 393,
+        "total_votes": 9513,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4365,
-        "margin_pct": 54.5556805399325,
+        "margin": 2762,
+        "margin_pct": 29.033953537264797,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 3082,
-        "rep_votes": 4890,
-        "other_votes": 289,
-        "total_votes": 8261,
+        "dem_votes": 4069,
+        "rep_votes": 4516,
+        "other_votes": 329,
+        "total_votes": 8914,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1808,
-        "margin_pct": 21.88597022152282,
+        "margin": 447,
+        "margin_pct": 5.014583800762845,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 3889,
-        "rep_votes": 4672,
-        "other_votes": 313,
-        "total_votes": 8874,
+        "dem_votes": 3733,
+        "rep_votes": 4044,
+        "other_votes": 297,
+        "total_votes": 8074,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 783,
-        "margin_pct": 8.823529411764707,
+        "margin": 311,
+        "margin_pct": 3.8518702006440426,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 6870,
-        "rep_votes": 4119,
-        "other_votes": 384,
-        "total_votes": 11373,
+        "dem_votes": 4405,
+        "rep_votes": 4772,
+        "other_votes": 350,
+        "total_votes": 9527,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2751,
-        "margin_pct": 24.18886837246109,
-        "winner": "D"
+        "margin": 367,
+        "margin_pct": 3.8522095098142124,
+        "winner": "R"
       },
       "21": {
-        "dem_votes": 5797,
-        "rep_votes": 1999,
-        "other_votes": 266,
-        "total_votes": 8062,
+        "dem_votes": 4734,
+        "rep_votes": 5128,
+        "other_votes": 376,
+        "total_votes": 10238,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -3798,
-        "margin_pct": 47.10989828826594,
-        "winner": "D"
+        "margin": 394,
+        "margin_pct": 3.848407892166439,
+        "winner": "R"
       },
       "22": {
-        "dem_votes": 4081,
-        "rep_votes": 3464,
-        "other_votes": 304,
-        "total_votes": 7849,
+        "dem_votes": 4469,
+        "rep_votes": 4841,
+        "other_votes": 355,
+        "total_votes": 9665,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -617,
-        "margin_pct": 7.860873996687475,
-        "winner": "D"
+        "margin": 372,
+        "margin_pct": 3.848939472322814,
+        "winner": "R"
       },
       "23": {
-        "dem_votes": 2320,
-        "rep_votes": 4574,
-        "other_votes": 271,
-        "total_votes": 7165,
+        "dem_votes": 4169,
+        "rep_votes": 4516,
+        "other_votes": 332,
+        "total_votes": 9017,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2254,
-        "margin_pct": 31.45847871598046,
+        "margin": 347,
+        "margin_pct": 3.8482865698125766,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 347,
-        "rep_votes": 924,
-        "other_votes": 53,
-        "total_votes": 1324,
+        "dem_votes": 1834,
+        "rep_votes": 6268,
+        "other_votes": 363,
+        "total_votes": 8465,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 577,
-        "margin_pct": 43.58006042296073,
+        "margin": 4434,
+        "margin_pct": 52.38038984051979,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 2478,
-        "rep_votes": 5045,
-        "other_votes": 327,
-        "total_votes": 7850,
+        "dem_votes": 3252,
+        "rep_votes": 5046,
+        "other_votes": 335,
+        "total_votes": 8633,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2567,
-        "margin_pct": 32.70063694267516,
+        "margin": 1794,
+        "margin_pct": 20.78072512452218,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 1390,
-        "rep_votes": 5179,
-        "other_votes": 247,
-        "total_votes": 6816,
+        "dem_votes": 2154,
+        "rep_votes": 7277,
+        "other_votes": 356,
+        "total_votes": 9787,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3789,
-        "margin_pct": 55.58978873239436,
+        "margin": 5123,
+        "margin_pct": 52.34494737917645,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 1828,
-        "rep_votes": 9306,
-        "other_votes": 411,
-        "total_votes": 11545,
+        "dem_votes": 1849,
+        "rep_votes": 9417,
+        "other_votes": 409,
+        "total_votes": 11675,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 7478,
-        "margin_pct": 64.77262884365527,
+        "margin": 7568,
+        "margin_pct": 64.82226980728052,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 1336,
-        "rep_votes": 8055,
-        "other_votes": 353,
-        "total_votes": 9744,
+        "dem_votes": 1506,
+        "rep_votes": 7245,
+        "other_votes": 321,
+        "total_votes": 9072,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6719,
-        "margin_pct": 68.95525451559934,
+        "margin": 5739,
+        "margin_pct": 63.26058201058201,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 1739,
-        "rep_votes": 6137,
-        "other_votes": 300,
-        "total_votes": 8176,
+        "dem_votes": 2145,
+        "rep_votes": 6880,
+        "other_votes": 348,
+        "total_votes": 9373,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4398,
-        "margin_pct": 53.79158512720157,
+        "margin": 4735,
+        "margin_pct": 50.51744372132722,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 1516,
-        "rep_votes": 5254,
-        "other_votes": 257,
-        "total_votes": 7027,
+        "dem_votes": 1902,
+        "rep_votes": 5766,
+        "other_votes": 296,
+        "total_votes": 7964,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3738,
-        "margin_pct": 53.19481998007684,
+        "margin": 3864,
+        "margin_pct": 48.51833249623304,
+        "winner": "R"
+      },
+      "31": {
+        "dem_votes": 1337,
+        "rep_votes": 6211,
+        "other_votes": 258,
+        "total_votes": 7806,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4874,
+        "margin_pct": 62.43914937227773,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 2713,
-        "rep_votes": 4380,
-        "other_votes": 313,
-        "total_votes": 7406,
+        "dem_votes": 2314,
+        "rep_votes": 5362,
+        "other_votes": 296,
+        "total_votes": 7972,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1667,
-        "margin_pct": 22.50877666756684,
+        "margin": 3048,
+        "margin_pct": 38.23381836427496,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 1120,
-        "rep_votes": 3756,
-        "other_votes": 197,
-        "total_votes": 5073,
+        "dem_votes": 2131,
+        "rep_votes": 4551,
+        "other_votes": 248,
+        "total_votes": 6930,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2636,
-        "margin_pct": 51.96136408436822,
+        "margin": 2420,
+        "margin_pct": 34.92063492063492,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 2180,
+        "rep_votes": 3914,
+        "other_votes": 205,
+        "total_votes": 6299,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 1734,
+        "margin_pct": 27.52817907604382,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 211,
-        "rep_votes": 101,
-        "other_votes": 8,
-        "total_votes": 320,
+        "dem_votes": 3119,
+        "rep_votes": 3426,
+        "other_votes": 180,
+        "total_votes": 6725,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -110,
-        "margin_pct": 34.375,
-        "winner": "D"
+        "margin": 307,
+        "margin_pct": 4.565055762081784,
+        "winner": "R"
       },
       "36": {
-        "dem_votes": 1388,
-        "rep_votes": 2375,
-        "other_votes": 144,
-        "total_votes": 3907,
+        "dem_votes": 1875,
+        "rep_votes": 5317,
+        "other_votes": 246,
+        "total_votes": 7438,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 987,
-        "margin_pct": 25.262349628871256,
+        "margin": 3442,
+        "margin_pct": 46.275880613068026,
         "winner": "R"
       },
       "37": {
-        "dem_votes": 924,
-        "rep_votes": 3638,
-        "other_votes": 102,
-        "total_votes": 4664,
+        "dem_votes": 2325,
+        "rep_votes": 5455,
+        "other_votes": 181,
+        "total_votes": 7961,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2714,
-        "margin_pct": 58.19039451114922,
+        "margin": 3130,
+        "margin_pct": 39.316668760206,
         "winner": "R"
       },
       "38": {
-        "dem_votes": 1794,
-        "rep_votes": 4814,
-        "other_votes": 217,
-        "total_votes": 6825,
+        "dem_votes": 2026,
+        "rep_votes": 5537,
+        "other_votes": 261,
+        "total_votes": 7824,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3020,
-        "margin_pct": 44.24908424908425,
+        "margin": 3511,
+        "margin_pct": 44.874744376278116,
         "winner": "R"
       },
       "39": {
-        "dem_votes": 1338,
-        "rep_votes": 6008,
-        "other_votes": 225,
-        "total_votes": 7571,
+        "dem_votes": 1670,
+        "rep_votes": 6475,
+        "other_votes": 283,
+        "total_votes": 8428,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4670,
-        "margin_pct": 61.682736758684456,
+        "margin": 4805,
+        "margin_pct": 57.012339819648794,
         "winner": "R"
       },
       "40": {
-        "dem_votes": 1485,
-        "rep_votes": 6660,
-        "other_votes": 257,
-        "total_votes": 8402,
+        "dem_votes": 1507,
+        "rep_votes": 6926,
+        "other_votes": 288,
+        "total_votes": 8721,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5175,
-        "margin_pct": 61.59247798143299,
+        "margin": 5419,
+        "margin_pct": 62.137369567710124,
         "winner": "R"
       },
       "41": {
-        "dem_votes": 1936,
-        "rep_votes": 9927,
-        "other_votes": 401,
-        "total_votes": 12264,
+        "dem_votes": 1948,
+        "rep_votes": 10264,
+        "other_votes": 433,
+        "total_votes": 12645,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 7991,
-        "margin_pct": 65.15818656229615,
+        "margin": 8316,
+        "margin_pct": 65.76512455516014,
         "winner": "R"
       },
       "42": {
-        "dem_votes": 496,
-        "rep_votes": 2202,
-        "other_votes": 110,
-        "total_votes": 2808,
+        "dem_votes": 2679,
+        "rep_votes": 6543,
+        "other_votes": 402,
+        "total_votes": 9624,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1706,
-        "margin_pct": 60.75498575498576,
+        "margin": 3864,
+        "margin_pct": 40.14962593516209,
         "winner": "R"
       },
       "43": {
-        "dem_votes": 2691,
-        "rep_votes": 7135,
-        "other_votes": 407,
-        "total_votes": 10233,
+        "dem_votes": 2756,
+        "rep_votes": 7340,
+        "other_votes": 412,
+        "total_votes": 10508,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4444,
-        "margin_pct": 43.42812469461546,
+        "margin": 4584,
+        "margin_pct": 43.62390559573658,
         "winner": "R"
       },
       "44": {
-        "dem_votes": 1411,
-        "rep_votes": 6691,
-        "other_votes": 289,
-        "total_votes": 8391,
+        "dem_votes": 1781,
+        "rep_votes": 5718,
+        "other_votes": 283,
+        "total_votes": 7782,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5280,
-        "margin_pct": 62.92456203074723,
+        "margin": 3937,
+        "margin_pct": 50.591107684399894,
         "winner": "R"
       },
       "45": {
-        "dem_votes": 349,
-        "rep_votes": 1481,
-        "other_votes": 77,
-        "total_votes": 1907,
+        "dem_votes": 1906,
+        "rep_votes": 6302,
+        "other_votes": 360,
+        "total_votes": 8568,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1132,
-        "margin_pct": 59.36025170424751,
+        "margin": 4396,
+        "margin_pct": 51.307189542483655,
         "winner": "R"
       },
       "46": {
-        "dem_votes": 937,
-        "rep_votes": 4339,
-        "other_votes": 193,
-        "total_votes": 5469,
+        "dem_votes": 1609,
+        "rep_votes": 6873,
+        "other_votes": 352,
+        "total_votes": 8834,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3402,
-        "margin_pct": 62.20515633571036,
+        "margin": 5264,
+        "margin_pct": 59.587955625990496,
+        "winner": "R"
+      },
+      "47": {
+        "dem_votes": 2327,
+        "rep_votes": 5586,
+        "other_votes": 370,
+        "total_votes": 8283,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3259,
+        "margin_pct": 39.345647712181574,
+        "winner": "R"
+      },
+      "48": {
+        "dem_votes": 1589,
+        "rep_votes": 6191,
+        "other_votes": 355,
+        "total_votes": 8135,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4602,
+        "margin_pct": 56.570374923171485,
+        "winner": "R"
+      },
+      "49": {
+        "dem_votes": 1750,
+        "rep_votes": 4201,
+        "other_votes": 278,
+        "total_votes": 6229,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 2451,
+        "margin_pct": 39.34820998555145,
+        "winner": "R"
+      },
+      "50": {
+        "dem_votes": 2378,
+        "rep_votes": 5708,
+        "other_votes": 378,
+        "total_votes": 8464,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3330,
+        "margin_pct": 39.343100189035916,
+        "winner": "R"
+      },
+      "51": {
+        "dem_votes": 2582,
+        "rep_votes": 6199,
+        "other_votes": 411,
+        "total_votes": 9192,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3617,
+        "margin_pct": 39.349434290687554,
         "winner": "R"
       },
       "52": {
-        "dem_votes": 1008,
-        "rep_votes": 5359,
-        "other_votes": 228,
-        "total_votes": 6595,
+        "dem_votes": 1343,
+        "rep_votes": 6490,
+        "other_votes": 290,
+        "total_votes": 8123,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4351,
-        "margin_pct": 65.97422289613344,
+        "margin": 5147,
+        "margin_pct": 63.363289425089256,
         "winner": "R"
       },
       "53": {
-        "dem_votes": 190,
-        "rep_votes": 680,
-        "other_votes": 26,
-        "total_votes": 896,
+        "dem_votes": 1819,
+        "rep_votes": 5789,
+        "other_votes": 285,
+        "total_votes": 7893,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 490,
-        "margin_pct": 54.6875,
+        "margin": 3970,
+        "margin_pct": 50.29773216774357,
         "winner": "R"
       },
       "54": {
-        "dem_votes": 1121,
-        "rep_votes": 4797,
-        "other_votes": 227,
-        "total_votes": 6145,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3676,
-        "margin_pct": 59.82099267697315,
-        "winner": "R"
-      },
-      "57": {
-        "dem_votes": 651,
-        "rep_votes": 3794,
-        "other_votes": 190,
-        "total_votes": 4635,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 3143,
-        "margin_pct": 67.8101402373247,
-        "winner": "R"
-      },
-      "58": {
-        "dem_votes": 425,
-        "rep_votes": 2286,
-        "other_votes": 76,
-        "total_votes": 2787,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1861,
-        "margin_pct": 66.77430929314674,
-        "winner": "R"
-      },
-      "59": {
-        "dem_votes": 1733,
-        "rep_votes": 7353,
-        "other_votes": 431,
-        "total_votes": 9517,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 5620,
-        "margin_pct": 59.052222338972356,
-        "winner": "R"
-      },
-      "60": {
-        "dem_votes": 2186,
-        "rep_votes": 7261,
-        "other_votes": 332,
-        "total_votes": 9779,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 5075,
-        "margin_pct": 51.89692197566214,
-        "winner": "R"
-      },
-      "61": {
-        "dem_votes": 1665,
-        "rep_votes": 4199,
-        "other_votes": 133,
-        "total_votes": 5997,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 2534,
-        "margin_pct": 42.25446056361514,
-        "winner": "R"
-      },
-      "62": {
-        "dem_votes": 391,
-        "rep_votes": 814,
-        "other_votes": 24,
-        "total_votes": 1229,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 423,
-        "margin_pct": 34.418226200162735,
-        "winner": "R"
-      },
-      "63": {
-        "dem_votes": 22,
-        "rep_votes": 17,
-        "other_votes": 2,
-        "total_votes": 41,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -5,
-        "margin_pct": 12.195121951219512,
-        "winner": "D"
-      },
-      "64": {
-        "dem_votes": 4324,
-        "rep_votes": 1619,
-        "other_votes": 137,
-        "total_votes": 6080,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -2705,
-        "margin_pct": 44.49013157894737,
-        "winner": "D"
-      },
-      "65": {
-        "dem_votes": 3478,
-        "rep_votes": 1665,
-        "other_votes": 119,
-        "total_votes": 5262,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -1813,
-        "margin_pct": 34.45458000760167,
-        "winner": "D"
-      },
-      "66": {
-        "dem_votes": 3611,
-        "rep_votes": 4095,
-        "other_votes": 355,
-        "total_votes": 8061,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 484,
-        "margin_pct": 6.0042178389777945,
-        "winner": "R"
-      },
-      "67": {
-        "dem_votes": 3909,
-        "rep_votes": 5534,
-        "other_votes": 404,
-        "total_votes": 9847,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1625,
-        "margin_pct": 16.502488067431706,
-        "winner": "R"
-      },
-      "68": {
-        "dem_votes": 1907,
-        "rep_votes": 6995,
-        "other_votes": 403,
-        "total_votes": 9305,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 5088,
-        "margin_pct": 54.680279419666846,
-        "winner": "R"
-      },
-      "69": {
-        "dem_votes": 3626,
-        "rep_votes": 4837,
-        "other_votes": 353,
-        "total_votes": 8816,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 1211,
-        "margin_pct": 13.73638838475499,
-        "winner": "R"
-      },
-      "70": {
-        "dem_votes": 5515,
-        "rep_votes": 4804,
-        "other_votes": 466,
-        "total_votes": 10785,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -711,
-        "margin_pct": 6.592489568845619,
-        "winner": "D"
-      },
-      "71": {
-        "dem_votes": 3468,
-        "rep_votes": 4415,
-        "other_votes": 306,
-        "total_votes": 8189,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": 947,
-        "margin_pct": 11.564293564537795,
-        "winner": "R"
-      },
-      "72": {
-        "dem_votes": 4427,
-        "rep_votes": 2908,
-        "other_votes": 362,
-        "total_votes": 7697,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -1519,
-        "margin_pct": 19.73496167337924,
-        "winner": "D"
-      },
-      "73": {
-        "dem_votes": 8079,
-        "rep_votes": 5260,
-        "other_votes": 563,
-        "total_votes": 13902,
-        "dem_candidate": "Kelly Ross Krout",
-        "rep_candidate": "Leslie Rutledge",
-        "margin": -2819,
-        "margin_pct": 20.27765789095094,
-        "winner": "D"
-      },
-      "74": {
-        "dem_votes": 7304,
-        "rep_votes": 2289,
-        "other_votes": 421,
+        "dem_votes": 2483,
+        "rep_votes": 7126,
+        "other_votes": 405,
         "total_votes": 10014,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -5015,
-        "margin_pct": 50.079888156580786,
+        "margin": 4643,
+        "margin_pct": 46.365088875574195,
+        "winner": "R"
+      },
+      "55": {
+        "dem_votes": 3330,
+        "rep_votes": 6756,
+        "other_votes": 449,
+        "total_votes": 10535,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3426,
+        "margin_pct": 32.52017085904129,
+        "winner": "R"
+      },
+      "56": {
+        "dem_votes": 3099,
+        "rep_votes": 6288,
+        "other_votes": 418,
+        "total_votes": 9805,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3189,
+        "margin_pct": 32.524222335543094,
+        "winner": "R"
+      },
+      "57": {
+        "dem_votes": 2375,
+        "rep_votes": 6640,
+        "other_votes": 387,
+        "total_votes": 9402,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4265,
+        "margin_pct": 45.362688789619234,
+        "winner": "R"
+      },
+      "58": {
+        "dem_votes": 1713,
+        "rep_votes": 8003,
+        "other_votes": 392,
+        "total_votes": 10108,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 6290,
+        "margin_pct": 62.22793826671943,
+        "winner": "R"
+      },
+      "59": {
+        "dem_votes": 1703,
+        "rep_votes": 6846,
+        "other_votes": 362,
+        "total_votes": 8911,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 5143,
+        "margin_pct": 57.71518348109078,
+        "winner": "R"
+      },
+      "60": {
+        "dem_votes": 1978,
+        "rep_votes": 7546,
+        "other_votes": 374,
+        "total_votes": 9898,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 5568,
+        "margin_pct": 56.25378864417054,
+        "winner": "R"
+      },
+      "61": {
+        "dem_votes": 2493,
+        "rep_votes": 6017,
+        "other_votes": 189,
+        "total_votes": 8699,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 3524,
+        "margin_pct": 40.510403494654554,
+        "winner": "R"
+      },
+      "62": {
+        "dem_votes": 3671,
+        "rep_votes": 3598,
+        "other_votes": 201,
+        "total_votes": 7470,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -73,
+        "margin_pct": 0.9772423025435073,
+        "winner": "D"
+      },
+      "63": {
+        "dem_votes": 3209,
+        "rep_votes": 3401,
+        "other_votes": 176,
+        "total_votes": 6786,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 192,
+        "margin_pct": 2.829354553492484,
+        "winner": "R"
+      },
+      "64": {
+        "dem_votes": 3490,
+        "rep_votes": 3742,
+        "other_votes": 189,
+        "total_votes": 7421,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 252,
+        "margin_pct": 3.3957687643174777,
+        "winner": "R"
+      },
+      "65": {
+        "dem_votes": 4296,
+        "rep_votes": 3417,
+        "other_votes": 177,
+        "total_votes": 7890,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -879,
+        "margin_pct": 11.140684410646388,
+        "winner": "D"
+      },
+      "66": {
+        "dem_votes": 4694,
+        "rep_votes": 3415,
+        "other_votes": 353,
+        "total_votes": 8462,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1279,
+        "margin_pct": 15.114630111084852,
+        "winner": "D"
+      },
+      "67": {
+        "dem_votes": 5894,
+        "rep_votes": 4288,
+        "other_votes": 443,
+        "total_votes": 10625,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1606,
+        "margin_pct": 15.11529411764706,
+        "winner": "D"
+      },
+      "68": {
+        "dem_votes": 1977,
+        "rep_votes": 6975,
+        "other_votes": 396,
+        "total_votes": 9348,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 4998,
+        "margin_pct": 53.465982028241335,
+        "winner": "R"
+      },
+      "69": {
+        "dem_votes": 4640,
+        "rep_votes": 4779,
+        "other_votes": 414,
+        "total_votes": 9833,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 139,
+        "margin_pct": 1.4136072409234213,
+        "winner": "R"
+      },
+      "70": {
+        "dem_votes": 5787,
+        "rep_votes": 4210,
+        "other_votes": 435,
+        "total_votes": 10432,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1577,
+        "margin_pct": 15.116947852760736,
+        "winner": "D"
+      },
+      "71": {
+        "dem_votes": 5172,
+        "rep_votes": 3762,
+        "other_votes": 389,
+        "total_votes": 9323,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1410,
+        "margin_pct": 15.123887160785154,
+        "winner": "D"
+      },
+      "72": {
+        "dem_votes": 4876,
+        "rep_votes": 3547,
+        "other_votes": 366,
+        "total_votes": 8789,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1329,
+        "margin_pct": 15.121174195016499,
+        "winner": "D"
+      },
+      "73": {
+        "dem_votes": 5504,
+        "rep_votes": 4004,
+        "other_votes": 413,
+        "total_votes": 9921,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1500,
+        "margin_pct": 15.119443604475356,
+        "winner": "D"
+      },
+      "74": {
+        "dem_votes": 5486,
+        "rep_votes": 3991,
+        "other_votes": 412,
+        "total_votes": 9889,
+        "dem_candidate": "Kelly Ross Krout",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": -1495,
+        "margin_pct": 15.117807665082413,
         "winner": "D"
       },
       "75": {
-        "dem_votes": 6182,
-        "rep_votes": 4450,
-        "other_votes": 452,
-        "total_votes": 11084,
+        "dem_votes": 4905,
+        "rep_votes": 3568,
+        "other_votes": 368,
+        "total_votes": 8841,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -1732,
-        "margin_pct": 15.626127751714183,
+        "margin": -1337,
+        "margin_pct": 15.122723673792557,
         "winner": "D"
       },
       "76": {
-        "dem_votes": 5482,
-        "rep_votes": 1096,
-        "other_votes": 306,
-        "total_votes": 6884,
+        "dem_votes": 4797,
+        "rep_votes": 3490,
+        "other_votes": 360,
+        "total_votes": 8647,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -4386,
-        "margin_pct": 63.7129575828007,
+        "margin": -1307,
+        "margin_pct": 15.115068809991905,
         "winner": "D"
       },
       "77": {
-        "dem_votes": 5541,
-        "rep_votes": 2261,
-        "other_votes": 354,
-        "total_votes": 8156,
+        "dem_votes": 5137,
+        "rep_votes": 3737,
+        "other_votes": 386,
+        "total_votes": 9260,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -3280,
-        "margin_pct": 40.21579205492889,
+        "margin": -1400,
+        "margin_pct": 15.118790496760258,
         "winner": "D"
       },
       "78": {
-        "dem_votes": 4238,
-        "rep_votes": 7485,
-        "other_votes": 498,
-        "total_votes": 12221,
+        "dem_votes": 4229,
+        "rep_votes": 5232,
+        "other_votes": 407,
+        "total_votes": 9868,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3247,
-        "margin_pct": 26.569020538417476,
+        "margin": 1003,
+        "margin_pct": 10.164167004458857,
         "winner": "R"
       },
       "79": {
-        "dem_votes": 4314,
-        "rep_votes": 2565,
-        "other_votes": 312,
-        "total_votes": 7191,
+        "dem_votes": 4331,
+        "rep_votes": 3151,
+        "other_votes": 325,
+        "total_votes": 7807,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -1749,
-        "margin_pct": 24.32206925323321,
+        "margin": -1180,
+        "margin_pct": 15.11464070705777,
         "winner": "D"
       },
       "80": {
-        "dem_votes": 3511,
-        "rep_votes": 698,
-        "other_votes": 159,
-        "total_votes": 4368,
+        "dem_votes": 5052,
+        "rep_votes": 3676,
+        "other_votes": 380,
+        "total_votes": 9108,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": -2813,
-        "margin_pct": 64.40018315018315,
+        "margin": -1376,
+        "margin_pct": 15.10759771629337,
         "winner": "D"
       },
       "81": {
-        "dem_votes": 3162,
-        "rep_votes": 5724,
-        "other_votes": 393,
-        "total_votes": 9279,
+        "dem_votes": 2649,
+        "rep_votes": 7255,
+        "other_votes": 421,
+        "total_votes": 10325,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2562,
-        "margin_pct": 27.610733915292595,
+        "margin": 4606,
+        "margin_pct": 44.610169491525426,
         "winner": "R"
       },
       "82": {
-        "dem_votes": 2668,
-        "rep_votes": 6080,
-        "other_votes": 457,
-        "total_votes": 9205,
+        "dem_votes": 2525,
+        "rep_votes": 6914,
+        "other_votes": 402,
+        "total_votes": 9841,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3412,
-        "margin_pct": 37.066811515480715,
+        "margin": 4389,
+        "margin_pct": 44.599126105070624,
         "winner": "R"
       },
       "83": {
-        "dem_votes": 3149,
-        "rep_votes": 9835,
-        "other_votes": 406,
-        "total_votes": 13390,
+        "dem_votes": 2940,
+        "rep_votes": 8051,
+        "other_votes": 468,
+        "total_votes": 11459,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6686,
-        "margin_pct": 49.932785660941,
+        "margin": 5111,
+        "margin_pct": 44.602495854786625,
         "winner": "R"
       },
       "84": {
-        "dem_votes": 2049,
-        "rep_votes": 4271,
-        "other_votes": 256,
-        "total_votes": 6576,
+        "dem_votes": 2705,
+        "rep_votes": 6283,
+        "other_votes": 363,
+        "total_votes": 9351,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2222,
-        "margin_pct": 33.78953771289538,
+        "margin": 3578,
+        "margin_pct": 38.26328734894663,
         "winner": "R"
       },
       "85": {
-        "dem_votes": 1885,
-        "rep_votes": 6134,
-        "other_votes": 326,
-        "total_votes": 8345,
+        "dem_votes": 2897,
+        "rep_votes": 6731,
+        "other_votes": 389,
+        "total_votes": 10017,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4249,
-        "margin_pct": 50.91671659676453,
+        "margin": 3834,
+        "margin_pct": 38.274932614555254,
         "winner": "R"
       },
       "86": {
-        "dem_votes": 1222,
-        "rep_votes": 6832,
-        "other_votes": 373,
-        "total_votes": 8427,
+        "dem_votes": 1736,
+        "rep_votes": 8545,
+        "other_votes": 476,
+        "total_votes": 10757,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5610,
-        "margin_pct": 66.57173371306516,
+        "margin": 6809,
+        "margin_pct": 63.29831737473274,
         "winner": "R"
       },
       "87": {
-        "dem_votes": 1223,
-        "rep_votes": 5108,
-        "other_votes": 181,
-        "total_votes": 6512,
+        "dem_votes": 1544,
+        "rep_votes": 6029,
+        "other_votes": 217,
+        "total_votes": 7790,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3885,
-        "margin_pct": 59.65909090909091,
+        "margin": 4485,
+        "margin_pct": 57.57381258023106,
         "winner": "R"
       },
       "88": {
-        "dem_votes": 1932,
-        "rep_votes": 4501,
-        "other_votes": 141,
-        "total_votes": 6574,
+        "dem_votes": 1904,
+        "rep_votes": 5314,
+        "other_votes": 157,
+        "total_votes": 7375,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2569,
-        "margin_pct": 39.078186796470945,
+        "margin": 3410,
+        "margin_pct": 46.23728813559322,
         "winner": "R"
       },
       "89": {
-        "dem_votes": 1920,
-        "rep_votes": 6926,
-        "other_votes": 253,
-        "total_votes": 9099,
+        "dem_votes": 2253,
+        "rep_votes": 6581,
+        "other_votes": 248,
+        "total_votes": 9082,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5006,
-        "margin_pct": 55.0170348389933,
+        "margin": 4328,
+        "margin_pct": 47.654701607575426,
         "winner": "R"
       },
       "90": {
-        "dem_votes": 2290,
-        "rep_votes": 4820,
-        "other_votes": 278,
-        "total_votes": 7388,
+        "dem_votes": 2847,
+        "rep_votes": 6056,
+        "other_votes": 327,
+        "total_votes": 9230,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2530,
-        "margin_pct": 34.24472116946399,
+        "margin": 3209,
+        "margin_pct": 34.767063921993504,
         "winner": "R"
       },
       "91": {
-        "dem_votes": 2316,
-        "rep_votes": 3905,
-        "other_votes": 281,
-        "total_votes": 6502,
+        "dem_votes": 2907,
+        "rep_votes": 6752,
+        "other_votes": 391,
+        "total_votes": 10050,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1589,
-        "margin_pct": 24.438634266379573,
+        "margin": 3845,
+        "margin_pct": 38.25870646766169,
         "winner": "R"
       },
       "92": {
-        "dem_votes": 1582,
-        "rep_votes": 8119,
-        "other_votes": 389,
-        "total_votes": 10090,
+        "dem_votes": 1914,
+        "rep_votes": 7857,
+        "other_votes": 366,
+        "total_votes": 10137,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 6537,
-        "margin_pct": 64.78691774033697,
+        "margin": 5943,
+        "margin_pct": 58.62681266646938,
         "winner": "R"
       },
       "93": {
-        "dem_votes": 1242,
-        "rep_votes": 5838,
-        "other_votes": 179,
-        "total_votes": 7259,
+        "dem_votes": 3011,
+        "rep_votes": 4256,
+        "other_votes": 171,
+        "total_votes": 7438,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4596,
-        "margin_pct": 63.31450613032098,
+        "margin": 1245,
+        "margin_pct": 16.738370529712288,
         "winner": "R"
       },
       "94": {
-        "dem_votes": 2625,
-        "rep_votes": 5370,
-        "other_votes": 248,
-        "total_votes": 8243,
+        "dem_votes": 2654,
+        "rep_votes": 5522,
+        "other_votes": 251,
+        "total_votes": 8427,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2745,
-        "margin_pct": 33.30098265194711,
+        "margin": 2868,
+        "margin_pct": 34.03346386614454,
         "winner": "R"
       },
       "95": {
-        "dem_votes": 2092,
-        "rep_votes": 3617,
-        "other_votes": 113,
-        "total_votes": 5822,
+        "dem_votes": 2925,
+        "rep_votes": 5723,
+        "other_votes": 184,
+        "total_votes": 8832,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1525,
-        "margin_pct": 26.193747852971487,
+        "margin": 2798,
+        "margin_pct": 31.680253623188403,
         "winner": "R"
       },
       "96": {
-        "dem_votes": 1419,
-        "rep_votes": 4747,
-        "other_votes": 158,
-        "total_votes": 6324,
+        "dem_votes": 2540,
+        "rep_votes": 6704,
+        "other_votes": 251,
+        "total_votes": 9495,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 3328,
-        "margin_pct": 52.62492093611638,
+        "margin": 4164,
+        "margin_pct": 43.854660347551345,
         "winner": "R"
       },
       "97": {
-        "dem_votes": 2775,
-        "rep_votes": 5528,
-        "other_votes": 232,
-        "total_votes": 8535,
+        "dem_votes": 2646,
+        "rep_votes": 5919,
+        "other_votes": 227,
+        "total_votes": 8792,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2753,
-        "margin_pct": 32.25541886350322,
+        "margin": 3273,
+        "margin_pct": 37.227024567788895,
         "winner": "R"
       },
       "98": {
-        "dem_votes": 3606,
-        "rep_votes": 5089,
-        "other_votes": 251,
-        "total_votes": 8946,
+        "dem_votes": 3216,
+        "rep_votes": 5690,
+        "other_votes": 256,
+        "total_votes": 9162,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 1483,
-        "margin_pct": 16.57724122512855,
+        "margin": 2474,
+        "margin_pct": 27.002837808338793,
         "winner": "R"
       },
       "99": {
-        "dem_votes": 1456,
-        "rep_votes": 6793,
-        "other_votes": 181,
-        "total_votes": 8430,
+        "dem_votes": 2174,
+        "rep_votes": 5627,
+        "other_votes": 189,
+        "total_votes": 7990,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 5337,
-        "margin_pct": 63.30960854092527,
+        "margin": 3453,
+        "margin_pct": 43.216520650813514,
         "winner": "R"
       },
       "100": {
-        "dem_votes": 1812,
-        "rep_votes": 4473,
-        "other_votes": 168,
-        "total_votes": 6453,
+        "dem_votes": 1731,
+        "rep_votes": 5956,
+        "other_votes": 187,
+        "total_votes": 7874,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 2661,
-        "margin_pct": 41.236634123663414,
+        "margin": 4225,
+        "margin_pct": 53.65760731521463,
         "winner": "R"
       }
     }

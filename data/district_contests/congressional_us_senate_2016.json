@@ -3,58 +3,76 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 2150,
-    "matched_vote_coverage": 0.834956,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 48284,
-        "rep_votes": 112159,
-        "other_votes": 7037,
-        "total_votes": 167480,
+        "dem_votes": 85961,
+        "rep_votes": 169769,
+        "other_votes": 11000,
+        "total_votes": 266730,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 63875,
-        "margin_pct": 38.13888225459756,
+        "margin": 83808,
+        "margin_pct": 31.420537622314697,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 115753,
-        "rep_votes": 139800,
-        "other_votes": 9969,
-        "total_votes": 265522,
+        "dem_votes": 129732,
+        "rep_votes": 158164,
+        "other_votes": 11698,
+        "total_votes": 299594,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 24047,
-        "margin_pct": 9.056500026363164,
+        "margin": 28432,
+        "margin_pct": 9.490176705808526,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 79995,
-        "rep_votes": 153632,
-        "other_votes": 11077,
-        "total_votes": 244704,
+        "dem_votes": 84304,
+        "rep_votes": 160935,
+        "other_votes": 11621,
+        "total_votes": 256860,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 73637,
-        "margin_pct": 30.092274748267293,
+        "margin": 76631,
+        "margin_pct": 29.83376158218485,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 85100,
-        "rep_votes": 144297,
-        "other_votes": 17628,
-        "total_votes": 247025,
+        "dem_votes": 91651,
+        "rep_votes": 157671,
+        "other_votes": 35016,
+        "total_votes": 284338,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 59197,
-        "margin_pct": 23.963971257969842,
+        "margin": 66020,
+        "margin_pct": 23.21884517721866,
         "winner": "R"
       }
     }

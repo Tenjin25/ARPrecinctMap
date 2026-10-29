@@ -7,6 +7,7 @@ data/openelections-data-ar/.git-local-backup/
 data/tl_2008_05_tabblock00.zip
 data/tl_2012_05_tabblock10.zip
 data/tl_2020_05_tabblock20.zip
+data/ar_2024_gen_2020_blocks.zip
 
 # Local development artifacts.
 __pycache__/

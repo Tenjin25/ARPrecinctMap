@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.615287,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 7792,
-        "rep_votes": 6280,
+        "dem_votes": 12742,
+        "rep_votes": 9965,
         "other_votes": 0,
-        "total_votes": 14072,
+        "total_votes": 22707,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -1512,
-        "margin_pct": 10.744741330301308,
+        "margin": -2777,
+        "margin_pct": 12.229708900339102,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 6610,
-        "rep_votes": 6897,
+        "dem_votes": 13018,
+        "rep_votes": 13235,
         "other_votes": 0,
-        "total_votes": 13507,
+        "total_votes": 26253,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 287,
-        "margin_pct": 2.1248241652476496,
+        "margin": 217,
+        "margin_pct": 0.8265722012722356,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 9752,
-        "rep_votes": 8314,
+        "dem_votes": 13252,
+        "rep_votes": 11823,
         "other_votes": 0,
-        "total_votes": 18066,
+        "total_votes": 25075,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -1438,
-        "margin_pct": 7.959703310085244,
+        "margin": -1429,
+        "margin_pct": 5.698903290129611,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 7958,
-        "rep_votes": 10184,
+        "dem_votes": 9203,
+        "rep_votes": 11631,
         "other_votes": 0,
-        "total_votes": 18142,
+        "total_votes": 20834,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 2226,
-        "margin_pct": 12.269871017528388,
+        "margin": 2428,
+        "margin_pct": 11.654027071133724,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 9374,
-        "rep_votes": 13046,
+        "dem_votes": 10540,
+        "rep_votes": 14017,
         "other_votes": 0,
-        "total_votes": 22420,
+        "total_votes": 24557,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 3672,
-        "margin_pct": 16.378233719892954,
+        "margin": 3477,
+        "margin_pct": 14.158895630573767,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 933,
-        "rep_votes": 1078,
+        "dem_votes": 12080,
+        "rep_votes": 14913,
         "other_votes": 0,
-        "total_votes": 2011,
+        "total_votes": 26993,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 145,
-        "margin_pct": 7.210343112879164,
+        "margin": 2833,
+        "margin_pct": 10.495313599822175,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 5775,
-        "rep_votes": 4712,
+        "dem_votes": 12124,
+        "rep_votes": 10897,
         "other_votes": 0,
-        "total_votes": 10487,
+        "total_votes": 23021,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -1063,
-        "margin_pct": 10.136359301992943,
+        "margin": -1227,
+        "margin_pct": 5.329916163502888,
         "winner": "D"
       },
       "8": {
-        "dem_votes": 10534,
-        "rep_votes": 3615,
+        "dem_votes": 15568,
+        "rep_votes": 7431,
         "other_votes": 0,
-        "total_votes": 14149,
+        "total_votes": 22999,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -6919,
-        "margin_pct": 48.90098240158315,
+        "margin": -8137,
+        "margin_pct": 35.37979912170094,
         "winner": "D"
       },
       "9": {
-        "dem_votes": 1731,
-        "rep_votes": 545,
+        "dem_votes": 15515,
+        "rep_votes": 8174,
         "other_votes": 0,
-        "total_votes": 2276,
+        "total_votes": 23689,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -1186,
-        "margin_pct": 52.10896309314587,
+        "margin": -7341,
+        "margin_pct": 30.989066655409687,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 9658,
-        "rep_votes": 6441,
+        "dem_votes": 15286,
+        "rep_votes": 9682,
         "other_votes": 0,
-        "total_votes": 16099,
+        "total_votes": 24968,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -3217,
-        "margin_pct": 19.982607615379838,
+        "margin": -5604,
+        "margin_pct": 22.44472925344441,
         "winner": "D"
       },
       "11": {
-        "dem_votes": 6571,
-        "rep_votes": 10201,
+        "dem_votes": 10210,
+        "rep_votes": 10877,
         "other_votes": 0,
-        "total_votes": 16772,
+        "total_votes": 21087,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 3630,
-        "margin_pct": 21.6432148819461,
+        "margin": 667,
+        "margin_pct": 3.163086261677811,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 13931,
-        "rep_votes": 4170,
+        "dem_votes": 15101,
+        "rep_votes": 9206,
         "other_votes": 0,
-        "total_votes": 18101,
+        "total_votes": 24307,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -9761,
-        "margin_pct": 53.92519750290039,
+        "margin": -5895,
+        "margin_pct": 24.25227300777554,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 14148,
-        "rep_votes": 13760,
+        "dem_votes": 15472,
+        "rep_votes": 9432,
         "other_votes": 0,
-        "total_votes": 27908,
+        "total_votes": 24904,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -388,
-        "margin_pct": 1.3902823563136018,
+        "margin": -6040,
+        "margin_pct": 24.253132026983618,
         "winner": "D"
       },
       "14": {
-        "dem_votes": 19326,
-        "rep_votes": 13349,
+        "dem_votes": 15413,
+        "rep_votes": 9396,
         "other_votes": 0,
-        "total_votes": 32675,
+        "total_votes": 24809,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -5977,
-        "margin_pct": 18.292272379495028,
+        "margin": -6017,
+        "margin_pct": 24.253295175138053,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 14920,
-        "rep_votes": 3755,
+        "dem_votes": 13464,
+        "rep_votes": 8208,
         "other_votes": 0,
-        "total_votes": 18675,
+        "total_votes": 21672,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -11165,
-        "margin_pct": 59.78580990629183,
+        "margin": -5256,
+        "margin_pct": 24.25249169435216,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 1726,
-        "rep_votes": 1461,
+        "dem_votes": 13884,
+        "rep_votes": 10502,
         "other_votes": 0,
-        "total_votes": 3187,
+        "total_votes": 24386,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -265,
-        "margin_pct": 8.315029808597426,
+        "margin": -3382,
+        "margin_pct": 13.86861313868613,
         "winner": "D"
       },
       "17": {
-        "dem_votes": 3278,
-        "rep_votes": 3806,
+        "dem_votes": 9984,
+        "rep_votes": 10802,
         "other_votes": 0,
-        "total_votes": 7084,
+        "total_votes": 20786,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 528,
-        "margin_pct": 7.453416149068323,
+        "margin": 818,
+        "margin_pct": 3.9353410949677667,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 2207,
-        "rep_votes": 3204,
+        "dem_votes": 9161,
+        "rep_votes": 13688,
         "other_votes": 0,
-        "total_votes": 5411,
+        "total_votes": 22849,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 997,
-        "margin_pct": 18.425429680280907,
+        "margin": 4527,
+        "margin_pct": 19.81268326841437,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 2866,
-        "rep_votes": 2480,
+        "dem_votes": 11776,
+        "rep_votes": 9155,
         "other_votes": 0,
-        "total_votes": 5346,
+        "total_votes": 20931,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -386,
-        "margin_pct": 7.22035166479611,
+        "margin": -2621,
+        "margin_pct": 12.522096412020447,
         "winner": "D"
       },
       "20": {
-        "dem_votes": 1489,
-        "rep_votes": 1475,
+        "dem_votes": 8782,
+        "rep_votes": 7797,
         "other_votes": 0,
-        "total_votes": 2964,
+        "total_votes": 16579,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -14,
-        "margin_pct": 0.47233468286099867,
+        "margin": -985,
+        "margin_pct": 5.941250980155618,
         "winner": "D"
       },
       "21": {
-        "dem_votes": 10479,
-        "rep_votes": 8673,
+        "dem_votes": 10633,
+        "rep_votes": 8911,
         "other_votes": 0,
-        "total_votes": 19152,
+        "total_votes": 19544,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -1806,
-        "margin_pct": 9.429824561403509,
+        "margin": -1722,
+        "margin_pct": 8.810888252148997,
         "winner": "D"
       },
       "22": {
-        "dem_votes": 10796,
-        "rep_votes": 13031,
+        "dem_votes": 11387,
+        "rep_votes": 13175,
         "other_votes": 0,
-        "total_votes": 23827,
+        "total_votes": 24562,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 2235,
-        "margin_pct": 9.380114995593235,
+        "margin": 1788,
+        "margin_pct": 7.279537496946503,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 7801,
-        "rep_votes": 13427,
+        "dem_votes": 10455,
+        "rep_votes": 18327,
         "other_votes": 0,
-        "total_votes": 21228,
+        "total_votes": 28782,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 5626,
-        "margin_pct": 26.50273224043716,
+        "margin": 7872,
+        "margin_pct": 27.350427350427353,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 10472,
-        "rep_votes": 14155,
+        "dem_votes": 11199,
+        "rep_votes": 13690,
         "other_votes": 0,
-        "total_votes": 24627,
+        "total_votes": 24889,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 3683,
-        "margin_pct": 14.955130547772768,
+        "margin": 2491,
+        "margin_pct": 10.008437462332758,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 5811,
-        "rep_votes": 6368,
+        "dem_votes": 10180,
+        "rep_votes": 11991,
         "other_votes": 0,
-        "total_votes": 12179,
+        "total_votes": 22171,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 557,
-        "margin_pct": 4.573446095738566,
+        "margin": 1811,
+        "margin_pct": 8.16832799603085,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 7805,
-        "rep_votes": 12676,
+        "dem_votes": 9597,
+        "rep_votes": 12781,
         "other_votes": 0,
-        "total_votes": 20481,
+        "total_votes": 22378,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 4871,
-        "margin_pct": 23.783018407304333,
+        "margin": 3184,
+        "margin_pct": 14.22825989811422,
         "winner": "R"
       },
       "27": {
-        "dem_votes": 6619,
-        "rep_votes": 9780,
+        "dem_votes": 7008,
+        "rep_votes": 12253,
         "other_votes": 0,
-        "total_votes": 16399,
+        "total_votes": 19261,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 3161,
-        "margin_pct": 19.275565583267273,
+        "margin": 5245,
+        "margin_pct": 27.231192565287373,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 9521,
-        "rep_votes": 13854,
+        "dem_votes": 11195,
+        "rep_votes": 16539,
         "other_votes": 0,
-        "total_votes": 23375,
+        "total_votes": 27734,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 4333,
-        "margin_pct": 18.536898395721927,
+        "margin": 5344,
+        "margin_pct": 19.26876757770246,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 7353,
-        "rep_votes": 12947,
+        "dem_votes": 7008,
+        "rep_votes": 12240,
         "other_votes": 0,
-        "total_votes": 20300,
+        "total_votes": 19248,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 5594,
-        "margin_pct": 27.55665024630542,
+        "margin": 5232,
+        "margin_pct": 27.18204488778055,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 544,
-        "rep_votes": 917,
+        "dem_votes": 7570,
+        "rep_votes": 9949,
         "other_votes": 0,
-        "total_votes": 1461,
+        "total_votes": 17519,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 373,
-        "margin_pct": 25.530458590006845,
+        "margin": 2379,
+        "margin_pct": 13.57954221131343,
         "winner": "R"
       },
       "31": {
-        "dem_votes": 759,
-        "rep_votes": 1579,
+        "dem_votes": 5068,
+        "rep_votes": 6659,
         "other_votes": 0,
-        "total_votes": 2338,
+        "total_votes": 11727,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 820,
-        "margin_pct": 35.0727117194183,
+        "margin": 1591,
+        "margin_pct": 13.566982177880105,
         "winner": "R"
       },
       "32": {
-        "dem_votes": 267,
-        "rep_votes": 468,
+        "dem_votes": 4374,
+        "rep_votes": 9976,
         "other_votes": 0,
-        "total_votes": 735,
+        "total_votes": 14350,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 201,
-        "margin_pct": 27.346938775510203,
+        "margin": 5602,
+        "margin_pct": 39.038327526132406,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 4444,
+        "rep_votes": 10581,
+        "other_votes": 0,
+        "total_votes": 15025,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 6137,
+        "margin_pct": 40.84525790349417,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 4969,
+        "rep_votes": 11830,
+        "other_votes": 0,
+        "total_votes": 16799,
+        "dem_candidate": "Shane Broadway",
+        "rep_candidate": "Mark Darr",
+        "margin": 6861,
+        "margin_pct": 40.84171676885529,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 4619,
-        "rep_votes": 9565,
+        "dem_votes": 5929,
+        "rep_votes": 9957,
         "other_votes": 0,
-        "total_votes": 14184,
+        "total_votes": 15886,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": 4946,
-        "margin_pct": 34.8702763677383,
+        "margin": 4028,
+        "margin_pct": 25.355659070880023,
         "winner": "R"
       }
     }

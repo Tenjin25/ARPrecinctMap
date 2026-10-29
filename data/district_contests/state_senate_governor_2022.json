@@ -3,377 +3,636 @@
   "scope": "state_senate",
   "contest_type": "governor",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2020,
-    "matched_precincts": 1981,
-    "matched_vote_coverage": 0.753949,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 6260,
-        "rep_votes": 14517,
-        "other_votes": 224,
-        "total_votes": 21001,
+        "dem_votes": 8358,
+        "rep_votes": 15860,
+        "other_votes": 263,
+        "total_votes": 24481,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8257,
-        "margin_pct": 39.317175372601305,
+        "margin": 7502,
+        "margin_pct": 30.644173032147382,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 7300,
-        "rep_votes": 15167,
-        "other_votes": 351,
-        "total_votes": 22818,
+        "dem_votes": 8315,
+        "rep_votes": 17867,
+        "other_votes": 391,
+        "total_votes": 26573,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 7867,
-        "margin_pct": 34.47716714874222,
+        "margin": 9552,
+        "margin_pct": 35.94626124261468,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 7341,
-        "rep_votes": 15396,
-        "other_votes": 323,
-        "total_votes": 23060,
+        "dem_votes": 7684,
+        "rep_votes": 15705,
+        "other_votes": 313,
+        "total_votes": 23702,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8055,
-        "margin_pct": 34.93061578490893,
+        "margin": 8021,
+        "margin_pct": 33.841026073749056,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 4544,
-        "rep_votes": 14817,
-        "other_votes": 323,
-        "total_votes": 19684,
+        "dem_votes": 5301,
+        "rep_votes": 17281,
+        "other_votes": 371,
+        "total_votes": 22953,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 10273,
-        "margin_pct": 52.18959561064824,
+        "margin": 11980,
+        "margin_pct": 52.19361303533307,
         "winner": "R"
       },
       "5": {
-        "dem_votes": 3718,
-        "rep_votes": 17556,
-        "other_votes": 393,
-        "total_votes": 21667,
+        "dem_votes": 5476,
+        "rep_votes": 21536,
+        "other_votes": 548,
+        "total_votes": 27560,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 13838,
-        "margin_pct": 63.86670974292703,
+        "margin": 16060,
+        "margin_pct": 58.27285921625545,
         "winner": "R"
       },
       "6": {
-        "dem_votes": 7800,
-        "rep_votes": 17312,
-        "other_votes": 426,
-        "total_votes": 25538,
+        "dem_votes": 9467,
+        "rep_votes": 20317,
+        "other_votes": 563,
+        "total_votes": 30347,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 9512,
-        "margin_pct": 37.246456261257734,
+        "margin": 10850,
+        "margin_pct": 35.753122219659275,
         "winner": "R"
       },
       "7": {
-        "dem_votes": 5483,
-        "rep_votes": 18328,
-        "other_votes": 450,
-        "total_votes": 24261,
+        "dem_votes": 7729,
+        "rep_votes": 19320,
+        "other_votes": 501,
+        "total_votes": 27550,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 12845,
-        "margin_pct": 52.945055850954205,
+        "margin": 11591,
+        "margin_pct": 42.07259528130671,
         "winner": "R"
       },
       "8": {
-        "dem_votes": 10655,
-        "rep_votes": 7569,
-        "other_votes": 179,
-        "total_votes": 18403,
+        "dem_votes": 11873,
+        "rep_votes": 10551,
+        "other_votes": 239,
+        "total_votes": 22663,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -3086,
-        "margin_pct": 16.769005053523884,
+        "margin": -1322,
+        "margin_pct": 5.833296562679257,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 10037,
+        "rep_votes": 9463,
+        "other_votes": 287,
+        "total_votes": 19787,
+        "dem_candidate": "Chris Jones",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -574,
+        "margin_pct": 2.9008945267094557,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 4829,
-        "rep_votes": 13216,
-        "other_votes": 321,
-        "total_votes": 18366,
+        "dem_votes": 7134,
+        "rep_votes": 16680,
+        "other_votes": 414,
+        "total_votes": 24228,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8387,
-        "margin_pct": 45.66590438854405,
+        "margin": 9546,
+        "margin_pct": 39.40069341258049,
         "winner": "R"
       },
       "11": {
-        "dem_votes": 8711,
-        "rep_votes": 19653,
-        "other_votes": 576,
-        "total_votes": 28940,
+        "dem_votes": 9550,
+        "rep_votes": 17287,
+        "other_votes": 525,
+        "total_votes": 27362,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 10942,
-        "margin_pct": 37.8092605390463,
+        "margin": 7737,
+        "margin_pct": 28.2764417805716,
         "winner": "R"
       },
       "12": {
-        "dem_votes": 12510,
-        "rep_votes": 5785,
-        "other_votes": 304,
-        "total_votes": 18599,
+        "dem_votes": 16786,
+        "rep_votes": 10470,
+        "other_votes": 386,
+        "total_votes": 27642,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -6725,
-        "margin_pct": 36.15785794935212,
+        "margin": -6316,
+        "margin_pct": 22.849287316402574,
         "winner": "D"
       },
       "13": {
-        "dem_votes": 14967,
-        "rep_votes": 14454,
-        "other_votes": 464,
-        "total_votes": 29885,
+        "dem_votes": 17197,
+        "rep_votes": 10727,
+        "other_votes": 395,
+        "total_votes": 28319,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -513,
-        "margin_pct": 1.7165802241927388,
+        "margin": -6470,
+        "margin_pct": 22.84685193686218,
         "winner": "D"
       },
       "14": {
-        "dem_votes": 23385,
-        "rep_votes": 10609,
-        "other_votes": 417,
-        "total_votes": 34411,
+        "dem_votes": 17132,
+        "rep_votes": 10686,
+        "other_votes": 394,
+        "total_votes": 28212,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -12776,
-        "margin_pct": 37.12766266600796,
+        "margin": -6446,
+        "margin_pct": 22.84843329079824,
         "winner": "D"
       },
       "15": {
-        "dem_votes": 15643,
-        "rep_votes": 5190,
-        "other_votes": 261,
-        "total_votes": 21094,
+        "dem_votes": 14965,
+        "rep_votes": 9335,
+        "other_votes": 344,
+        "total_votes": 24644,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -10453,
-        "margin_pct": 49.554375651844126,
+        "margin": -5630,
+        "margin_pct": 22.84531731861711,
         "winner": "D"
       },
       "16": {
-        "dem_votes": 10470,
-        "rep_votes": 18975,
-        "other_votes": 520,
-        "total_votes": 29965,
+        "dem_votes": 9355,
+        "rep_votes": 20301,
+        "other_votes": 528,
+        "total_votes": 30184,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8505,
-        "margin_pct": 28.383113632571334,
+        "margin": 10946,
+        "margin_pct": 36.26424595812351,
         "winner": "R"
       },
       "17": {
-        "dem_votes": 2691,
-        "rep_votes": 3073,
-        "other_votes": 79,
-        "total_votes": 5843,
+        "dem_votes": 11618,
+        "rep_votes": 17750,
+        "other_votes": 582,
+        "total_votes": 29950,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 382,
-        "margin_pct": 6.537737463631696,
+        "margin": 6132,
+        "margin_pct": 20.474123539232053,
         "winner": "R"
       },
       "18": {
-        "dem_votes": 3608,
-        "rep_votes": 17039,
-        "other_votes": 421,
-        "total_votes": 21068,
+        "dem_votes": 5621,
+        "rep_votes": 22043,
+        "other_votes": 600,
+        "total_votes": 28264,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 13431,
-        "margin_pct": 63.750711980254415,
+        "margin": 16422,
+        "margin_pct": 58.10217945089159,
         "winner": "R"
       },
       "19": {
-        "dem_votes": 1492,
-        "rep_votes": 5196,
-        "other_votes": 166,
-        "total_votes": 6854,
+        "dem_votes": 6013,
+        "rep_votes": 13514,
+        "other_votes": 448,
+        "total_votes": 19975,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 3704,
-        "margin_pct": 54.04143565800992,
+        "margin": 7501,
+        "margin_pct": 37.55193992490613,
         "winner": "R"
       },
       "20": {
-        "dem_votes": 7488,
-        "rep_votes": 12975,
-        "other_votes": 395,
-        "total_votes": 20858,
+        "dem_votes": 7081,
+        "rep_votes": 14328,
+        "other_votes": 442,
+        "total_votes": 21851,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 5487,
-        "margin_pct": 26.3064531594592,
+        "margin": 7247,
+        "margin_pct": 33.16553018168505,
         "winner": "R"
       },
       "21": {
-        "dem_votes": 2337,
-        "rep_votes": 9449,
-        "other_votes": 284,
-        "total_votes": 12070,
+        "dem_votes": 4558,
+        "rep_votes": 17930,
+        "other_votes": 517,
+        "total_votes": 23005,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 7112,
-        "margin_pct": 58.92294946147473,
+        "margin": 13372,
+        "margin_pct": 58.12649424038252,
         "winner": "R"
       },
       "22": {
-        "dem_votes": 5191,
-        "rep_votes": 21356,
-        "other_votes": 585,
-        "total_votes": 27132,
+        "dem_votes": 5204,
+        "rep_votes": 21297,
+        "other_votes": 584,
+        "total_votes": 27085,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 16165,
-        "margin_pct": 59.579094795813056,
+        "margin": 16093,
+        "margin_pct": 59.41665128299797,
         "winner": "R"
       },
       "23": {
-        "dem_votes": 2642,
-        "rep_votes": 11634,
-        "other_votes": 341,
-        "total_votes": 14617,
+        "dem_votes": 6141,
+        "rep_votes": 23851,
+        "other_votes": 631,
+        "total_votes": 30623,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8992,
-        "margin_pct": 61.517411233495245,
+        "margin": 17710,
+        "margin_pct": 57.832348234986775,
         "winner": "R"
       },
       "24": {
-        "dem_votes": 3247,
-        "rep_votes": 12989,
-        "other_votes": 344,
-        "total_votes": 16580,
+        "dem_votes": 8271,
+        "rep_votes": 22066,
+        "other_votes": 641,
+        "total_votes": 30978,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 9742,
-        "margin_pct": 58.75753920386008,
+        "margin": 13795,
+        "margin_pct": 44.53160307314869,
         "winner": "R"
       },
       "25": {
-        "dem_votes": 4531,
-        "rep_votes": 13516,
-        "other_votes": 308,
-        "total_votes": 18355,
+        "dem_votes": 6893,
+        "rep_votes": 18253,
+        "other_votes": 410,
+        "total_votes": 25556,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 8985,
-        "margin_pct": 48.95123944429311,
+        "margin": 11360,
+        "margin_pct": 44.45140084520269,
         "winner": "R"
       },
       "26": {
-        "dem_votes": 1233,
-        "rep_votes": 4574,
-        "other_votes": 107,
-        "total_votes": 5914,
+        "dem_votes": 6342,
+        "rep_votes": 17928,
+        "other_votes": 512,
+        "total_votes": 24782,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 3341,
-        "margin_pct": 56.493067297937095,
+        "margin": 11586,
+        "margin_pct": 46.7516746025341,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 6873,
+        "rep_votes": 14687,
+        "other_votes": 450,
+        "total_votes": 22010,
+        "dem_candidate": "Chris Jones",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 7814,
+        "margin_pct": 35.50204452521581,
         "winner": "R"
       },
       "28": {
-        "dem_votes": 4660,
-        "rep_votes": 15993,
-        "other_votes": 465,
-        "total_votes": 21118,
+        "dem_votes": 7063,
+        "rep_votes": 20890,
+        "other_votes": 627,
+        "total_votes": 28580,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 11333,
-        "margin_pct": 53.66511980301165,
+        "margin": 13827,
+        "margin_pct": 48.37998600419874,
         "winner": "R"
       },
       "29": {
-        "dem_votes": 3438,
-        "rep_votes": 5709,
-        "other_votes": 235,
-        "total_votes": 9382,
+        "dem_votes": 7592,
+        "rep_votes": 17575,
+        "other_votes": 526,
+        "total_votes": 25693,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 2271,
-        "margin_pct": 24.2059262417395,
+        "margin": 9983,
+        "margin_pct": 38.85494103452302,
         "winner": "R"
       },
       "30": {
-        "dem_votes": 17553,
-        "rep_votes": 8323,
-        "other_votes": 442,
-        "total_votes": 26318,
+        "dem_votes": 13859,
+        "rep_votes": 13667,
+        "other_votes": 578,
+        "total_votes": 28104,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": -9230,
-        "margin_pct": 35.07105403146136,
+        "margin": -192,
+        "margin_pct": 0.6831767719897524,
         "winner": "D"
       },
       "31": {
-        "dem_votes": 6837,
-        "rep_votes": 9155,
-        "other_votes": 350,
-        "total_votes": 16342,
+        "dem_votes": 9277,
+        "rep_votes": 9149,
+        "other_votes": 387,
+        "total_votes": 18813,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 2318,
-        "margin_pct": 14.184310365928281,
-        "winner": "R"
+        "margin": -128,
+        "margin_pct": 0.6803805878913517,
+        "winner": "D"
       },
       "32": {
-        "dem_votes": 7980,
-        "rep_votes": 14487,
-        "other_votes": 505,
-        "total_votes": 22972,
+        "dem_votes": 9242,
+        "rep_votes": 15124,
+        "other_votes": 543,
+        "total_votes": 24909,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 6507,
-        "margin_pct": 28.325787915723488,
+        "margin": 5882,
+        "margin_pct": 23.61395479545546,
         "winner": "R"
       },
       "33": {
-        "dem_votes": 10602,
-        "rep_votes": 16092,
-        "other_votes": 582,
-        "total_votes": 27276,
+        "dem_votes": 9520,
+        "rep_votes": 16129,
+        "other_votes": 574,
+        "total_votes": 26223,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 5490,
-        "margin_pct": 20.12758468983722,
+        "margin": 6609,
+        "margin_pct": 25.203066010753915,
         "winner": "R"
       },
       "34": {
-        "dem_votes": 12687,
-        "rep_votes": 19049,
-        "other_votes": 675,
-        "total_votes": 32411,
+        "dem_votes": 10643,
+        "rep_votes": 18032,
+        "other_votes": 642,
+        "total_votes": 29317,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 6362,
-        "margin_pct": 19.629138255530528,
+        "margin": 7389,
+        "margin_pct": 25.203806665074875,
         "winner": "R"
       },
       "35": {
-        "dem_votes": 7190,
-        "rep_votes": 14349,
-        "other_votes": 525,
-        "total_votes": 22064,
+        "dem_votes": 11487,
+        "rep_votes": 14406,
+        "other_votes": 560,
+        "total_votes": 26453,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 7159,
-        "margin_pct": 32.44651921682378,
+        "margin": 2919,
+        "margin_pct": 11.034665255358561,
         "winner": "R"
       }
     }

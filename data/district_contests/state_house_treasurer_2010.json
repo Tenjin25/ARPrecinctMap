@@ -3,982 +3,1546 @@
   "scope": "state_house",
   "contest_type": "treasurer",
   "meta": {
-    "source": "NHGIS block crosswalks + Census 2022 block equivalency files",
-    "vtd_vintage": 2010,
-    "matched_precincts": 1617,
-    "matched_vote_coverage": 0.617422,
-    "approximate": true,
-    "statewide_partial": false,
-    "missing_counties": []
+    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 24,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "61": 0.91457568,
+          "62": 0.05577753,
+          "65": 0.0296468
+        }
+      },
+      {
+        "county": "BAXTER",
+        "district_shares": {
+          "27": 0.00476273,
+          "3": 0.69175038,
+          "4": 0.3034869
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "10": 0.10870036,
+          "11": 0.03901383,
+          "12": 0.1246789,
+          "13": 0.09446386,
+          "14": 0.11505339,
+          "15": 0.09486246,
+          "16": 0.10335613,
+          "17": 0.10506373,
+          "18": 0.00459623,
+          "7": 0.09915358,
+          "8": 0.11105753
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "5": 0.82569058,
+          "6": 0.17430942
+        }
+      },
+      {
+        "county": "BRADLEY",
+        "district_shares": {
+          "94": 0.79558166,
+          "96": 0.20441834
+        }
+      },
+      {
+        "county": "CARROLL",
+        "district_shares": {
+          "26": 0.15537772,
+          "6": 0.84462228
+        }
+      },
+      {
+        "county": "CLARK",
+        "district_shares": {
+          "89": 0.40470021,
+          "90": 0.59529979
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "40": 0.0441453,
+          "41": 0.91839058,
+          "42": 0.03746412
+        }
+      },
+      {
+        "county": "CLEVELAND",
+        "district_shares": {
+          "93": 0.52244688,
+          "96": 0.47755312
+        }
+      },
+      {
+        "county": "COLUMBIA",
+        "district_shares": {
+          "98": 0.331523,
+          "99": 0.668477
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "30": 0.17044542,
+          "32": 0.28917216,
+          "33": 0.17330382,
+          "36": 0.1756027,
+          "38": 0.1914759
+        }
+      },
+      {
+        "county": "CRAWFORD",
+        "district_shares": {
+          "24": 0.43797133,
+          "25": 0.13241455,
+          "48": 0.42961411
+        }
+      },
+      {
+        "county": "CRITTENDEN",
+        "district_shares": {
+          "35": 0.60797362,
+          "63": 0.39202638
+        }
+      },
+      {
+        "county": "CROSS",
+        "district_shares": {
+          "35": 0.05402968,
+          "37": 0.94597032
+        }
+      },
+      {
+        "county": "DESHA",
+        "district_shares": {
+          "62": 0.17336587,
+          "64": 0.40002568,
+          "94": 0.42660845
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "93": 0.0247559,
+          "94": 0.9752441
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "42": 0.17372568,
+          "54": 0.1022473,
+          "55": 0.2636904,
+          "56": 0.24544347,
+          "57": 0.12950838,
+          "69": 0.08538477
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "25": 0.07622914,
+          "26": 0.51714028,
+          "46": 0.40663058
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "2": 0.79024441,
+          "3": 0.20975559
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "84": 0.2834553,
+          "85": 0.30364362,
+          "89": 0.01064429,
+          "90": 0.09762806,
+          "91": 0.30462873
+        }
+      },
+      {
+        "county": "GREENE",
+        "district_shares": {
+          "1": 0.22064789,
+          "30": 0.10149689,
+          "31": 0.67785522
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "29": 0.71738803,
+          "89": 0.03835152,
+          "90": 0.24426044
+        }
+      },
+      {
+        "county": "HOWARD",
+        "district_shares": {
+          "86": 0.21331981,
+          "87": 0.09860266,
+          "88": 0.68807753
+        }
+      },
+      {
+        "county": "INDEPENDENCE",
+        "district_shares": {
+          "28": 0.29672343,
+          "39": 0.08777035,
+          "40": 0.61550622
+        }
+      },
+      {
+        "county": "JACKSON",
+        "district_shares": {
+          "38": 0.13623999,
+          "39": 0.79960707,
+          "61": 0.06415294
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "64": 0.28746919,
+          "65": 0.4533275,
+          "93": 0.25920331
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "45": 0.96562636,
+          "46": 0.03437364
+        }
+      },
+      {
+        "county": "LAFAYETTE",
+        "district_shares": {
+          "98": 0.55825533,
+          "99": 0.44174467
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "28": 0.53846154,
+          "30": 0.46153846
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "64": 0.48524991,
+          "93": 0.51475009
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "57": 0.02546537,
+          "59": 0.20623364,
+          "60": 0.34898318,
+          "68": 0.41931781
+        }
+      },
+      {
+        "county": "MILLER",
+        "district_shares": {
+          "100": 0.70286281,
+          "88": 0.02168047,
+          "99": 0.27545672
+        }
+      },
+      {
+        "county": "MISSISSIPPI",
+        "district_shares": {
+          "33": 0.25462099,
+          "34": 0.74537901
+        }
+      },
+      {
+        "county": "MONROE",
+        "district_shares": {
+          "61": 0.78982168,
+          "62": 0.21017832
+        }
+      },
+      {
+        "county": "NEVADA",
+        "district_shares": {
+          "89": 0.89846349,
+          "98": 0.10153651
+        }
+      },
+      {
+        "county": "OUACHITA",
+        "district_shares": {
+          "96": 0.16801359,
+          "98": 0.83198641
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "36": 0.46782588,
+          "37": 0.17210788,
+          "38": 0.36006624
+        }
+      },
+      {
+        "county": "POPE",
+        "district_shares": {
+          "44": 0.434789,
+          "45": 0.10657149,
+          "53": 0.45863951
+        }
+      },
+      {
+        "county": "PRAIRIE",
+        "district_shares": {
+          "60": 0.80028262,
+          "61": 0.19971738
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "66": 0.06867437,
+          "67": 0.0862329,
+          "69": 0.0521134,
+          "70": 0.08465942,
+          "71": 0.07565733,
+          "72": 0.07133112,
+          "73": 0.08052518,
+          "74": 0.08026122,
+          "75": 0.0717562,
+          "76": 0.07018272,
+          "77": 0.07514998,
+          "78": 0.04618285,
+          "79": 0.06335744,
+          "80": 0.07391588
+        }
+      },
+      {
+        "county": "RANDOLPH",
+        "district_shares": {
+          "1": 0.30751022,
+          "2": 0.69248978
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "29": 0.05302791,
+          "54": 0.0248943,
+          "78": 0.09712669,
+          "81": 0.24000337,
+          "82": 0.22870785,
+          "83": 0.26632801,
+          "92": 0.08991187
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "46": 0.00649646,
+          "47": 0.24263589,
+          "48": 0.02137651,
+          "49": 0.18246497,
+          "50": 0.24793935,
+          "51": 0.26925079,
+          "52": 0.02983602
+        }
+      },
+      {
+        "county": "SHARP",
+        "district_shares": {
+          "2": 0.5459721,
+          "28": 0.4540279
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "37": 0.46829579,
+          "62": 0.01013377,
+          "63": 0.52157044
+        }
+      },
+      {
+        "county": "STONE",
+        "district_shares": {
+          "27": 0.1673283,
+          "28": 0.15214371,
+          "41": 0.68052799
+        }
+      },
+      {
+        "county": "UNION",
+        "district_shares": {
+          "96": 0.24302761,
+          "97": 0.75697239
+        }
+      },
+      {
+        "county": "VAN BUREN",
+        "district_shares": {
+          "42": 0.37067338,
+          "43": 0.58134047,
+          "44": 0.04798615
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "11": 0.04569632,
+          "18": 0.1209221,
+          "19": 0.11488224,
+          "20": 0.13555627,
+          "21": 0.14567191,
+          "22": 0.13752604,
+          "23": 0.12829028,
+          "24": 0.01299932,
+          "25": 0.08462617,
+          "9": 0.07382935
+        }
+      },
+      {
+        "county": "WHITE",
+        "district_shares": {
+          "39": 0.17753222,
+          "40": 0.07440451,
+          "57": 0.15141403,
+          "58": 0.41816355,
+          "59": 0.17848569
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "52": 0.7957958,
+          "54": 0.2042042
+        }
+      }
+    ],
+    "matched_vote_coverage": 1.0,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 4896,
+        "dem_votes": 4882,
         "rep_votes": 0,
-        "other_votes": 2058,
-        "total_votes": 6954,
+        "other_votes": 2005,
+        "total_votes": 6887,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4896,
-        "margin_pct": 70.40552200172563,
+        "margin": -4882,
+        "margin_pct": 70.88717874255845,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 5396,
+        "dem_votes": 5658,
         "rep_votes": 0,
-        "other_votes": 2602,
-        "total_votes": 7998,
+        "other_votes": 2651,
+        "total_votes": 8309,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5396,
-        "margin_pct": 67.46686671667918,
+        "margin": -5658,
+        "margin_pct": 68.09483692381755,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 5252,
+        "dem_votes": 5368,
         "rep_votes": 0,
-        "other_votes": 4275,
-        "total_votes": 9527,
+        "other_votes": 4262,
+        "total_votes": 9630,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5252,
-        "margin_pct": 55.127532276687305,
+        "margin": -5368,
+        "margin_pct": 55.742471443406025,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 2105,
+        "dem_votes": 4981,
         "rep_votes": 0,
-        "other_votes": 1605,
-        "total_votes": 3710,
+        "other_votes": 4014,
+        "total_votes": 8995,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2105,
-        "margin_pct": 56.73854447439353,
+        "margin": -4981,
+        "margin_pct": 55.37520844913841,
         "winner": "D"
       },
       "5": {
-        "dem_votes": 5572,
+        "dem_votes": 6618,
         "rep_votes": 0,
-        "other_votes": 3220,
-        "total_votes": 8792,
+        "other_votes": 3967,
+        "total_votes": 10585,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5572,
-        "margin_pct": 63.37579617834395,
+        "margin": -6618,
+        "margin_pct": 62.52243741143128,
         "winner": "D"
       },
       "6": {
-        "dem_votes": 4112,
+        "dem_votes": 5456,
         "rep_votes": 0,
-        "other_votes": 2583,
-        "total_votes": 6695,
+        "other_votes": 3251,
+        "total_votes": 8707,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4112,
-        "margin_pct": 61.41896938013443,
+        "margin": -5456,
+        "margin_pct": 62.66222579533709,
+        "winner": "D"
+      },
+      "7": {
+        "dem_votes": 2708,
+        "rep_votes": 0,
+        "other_votes": 1826,
+        "total_votes": 4534,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2708,
+        "margin_pct": 59.726510807234234,
+        "winner": "D"
+      },
+      "8": {
+        "dem_votes": 3033,
+        "rep_votes": 0,
+        "other_votes": 2045,
+        "total_votes": 5078,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -3033,
+        "margin_pct": 59.72823946435605,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 1959,
+        "rep_votes": 0,
+        "other_votes": 1016,
+        "total_votes": 2975,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -1959,
+        "margin_pct": 65.84873949579831,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 2969,
+        "rep_votes": 0,
+        "other_votes": 2002,
+        "total_votes": 4971,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2969,
+        "margin_pct": 59.72641319653993,
+        "winner": "D"
+      },
+      "11": {
+        "dem_votes": 2279,
+        "rep_votes": 0,
+        "other_votes": 1347,
+        "total_votes": 3626,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2279,
+        "margin_pct": 62.851627137341424,
         "winner": "D"
       },
       "12": {
-        "dem_votes": 3915,
+        "dem_votes": 3405,
         "rep_votes": 0,
-        "other_votes": 2427,
-        "total_votes": 6342,
+        "other_votes": 2296,
+        "total_votes": 5701,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3915,
-        "margin_pct": 61.73131504257332,
+        "margin": -3405,
+        "margin_pct": 59.7263637958253,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 2580,
+        "rep_votes": 0,
+        "other_votes": 1739,
+        "total_votes": 4319,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2580,
+        "margin_pct": 59.73605001157676,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 3142,
+        "rep_votes": 0,
+        "other_votes": 2118,
+        "total_votes": 5260,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -3142,
+        "margin_pct": 59.73384030418251,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 2591,
+        "rep_votes": 0,
+        "other_votes": 1747,
+        "total_votes": 4338,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2591,
+        "margin_pct": 59.72798524665745,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 2823,
+        "rep_votes": 0,
+        "other_votes": 1903,
+        "total_votes": 4726,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -2823,
+        "margin_pct": 59.73338975878121,
         "winner": "D"
       },
       "17": {
-        "dem_votes": 0,
+        "dem_votes": 2869,
         "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "other_votes": 1935,
+        "total_votes": 4804,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "T"
+        "margin": -2869,
+        "margin_pct": 59.721065778517904,
+        "winner": "D"
       },
       "18": {
-        "dem_votes": 1197,
+        "dem_votes": 3335,
         "rep_votes": 0,
-        "other_votes": 761,
-        "total_votes": 1958,
+        "other_votes": 1749,
+        "total_votes": 5084,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1197,
-        "margin_pct": 61.1338100102145,
+        "margin": -3335,
+        "margin_pct": 65.59795436664044,
         "winner": "D"
       },
       "19": {
-        "dem_votes": 435,
+        "dem_votes": 3048,
         "rep_votes": 0,
-        "other_votes": 234,
-        "total_votes": 669,
+        "other_votes": 1581,
+        "total_votes": 4629,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -435,
-        "margin_pct": 65.02242152466367,
+        "margin": -3048,
+        "margin_pct": 65.84575502268308,
         "winner": "D"
       },
       "20": {
-        "dem_votes": 724,
+        "dem_votes": 3597,
         "rep_votes": 0,
-        "other_votes": 357,
-        "total_votes": 1081,
+        "other_votes": 1865,
+        "total_votes": 5462,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -724,
-        "margin_pct": 66.9750231267345,
+        "margin": -3597,
+        "margin_pct": 65.8549981691688,
+        "winner": "D"
+      },
+      "21": {
+        "dem_votes": 3865,
+        "rep_votes": 0,
+        "other_votes": 2004,
+        "total_votes": 5869,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -3865,
+        "margin_pct": 65.85448969159992,
         "winner": "D"
       },
       "22": {
-        "dem_votes": 1042,
+        "dem_votes": 3649,
         "rep_votes": 0,
-        "other_votes": 578,
-        "total_votes": 1620,
+        "other_votes": 1892,
+        "total_votes": 5541,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1042,
-        "margin_pct": 64.32098765432099,
+        "margin": -3649,
+        "margin_pct": 65.85453889189678,
         "winner": "D"
       },
       "23": {
-        "dem_votes": 3535,
+        "dem_votes": 3404,
         "rep_votes": 0,
-        "other_votes": 2127,
-        "total_votes": 5662,
+        "other_votes": 1765,
+        "total_votes": 5169,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3535,
-        "margin_pct": 62.433768986223946,
+        "margin": -3404,
+        "margin_pct": 65.85413039272586,
         "winner": "D"
       },
       "24": {
-        "dem_votes": 4248,
+        "dem_votes": 3977,
         "rep_votes": 0,
-        "other_votes": 2771,
-        "total_votes": 7019,
+        "other_votes": 2372,
+        "total_votes": 6349,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4248,
-        "margin_pct": 60.521441800826324,
+        "margin": -3977,
+        "margin_pct": 62.63978579303827,
         "winner": "D"
       },
       "25": {
-        "dem_votes": 3889,
+        "dem_votes": 3604,
         "rep_votes": 0,
-        "other_votes": 2396,
-        "total_votes": 6285,
+        "other_votes": 1936,
+        "total_votes": 5540,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3889,
-        "margin_pct": 61.877486077963404,
+        "margin": -3604,
+        "margin_pct": 65.05415162454874,
         "winner": "D"
       },
       "26": {
-        "dem_votes": 4824,
+        "dem_votes": 5693,
         "rep_votes": 0,
-        "other_votes": 2012,
-        "total_votes": 6836,
+        "other_votes": 2479,
+        "total_votes": 8172,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4824,
-        "margin_pct": 70.5675833820948,
+        "margin": -5693,
+        "margin_pct": 69.66470876162506,
         "winner": "D"
       },
       "27": {
-        "dem_votes": 5680,
+        "dem_votes": 6493,
         "rep_votes": 0,
-        "other_votes": 3510,
-        "total_votes": 9190,
+        "other_votes": 3991,
+        "total_votes": 10484,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5680,
-        "margin_pct": 61.80631120783461,
+        "margin": -6493,
+        "margin_pct": 61.93246852346432,
         "winner": "D"
       },
       "28": {
-        "dem_votes": 5090,
+        "dem_votes": 5497,
         "rep_votes": 0,
-        "other_votes": 2420,
-        "total_votes": 7510,
+        "other_votes": 2492,
+        "total_votes": 7989,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5090,
-        "margin_pct": 67.7762982689747,
+        "margin": -5497,
+        "margin_pct": 68.80710977594192,
         "winner": "D"
       },
       "29": {
-        "dem_votes": 4216,
+        "dem_votes": 4916,
         "rep_votes": 0,
-        "other_votes": 1840,
-        "total_votes": 6056,
+        "other_votes": 2445,
+        "total_votes": 7361,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4216,
-        "margin_pct": 69.61690885072656,
+        "margin": -4916,
+        "margin_pct": 66.78440429289498,
         "winner": "D"
       },
       "30": {
-        "dem_votes": 2103,
+        "dem_votes": 4313,
         "rep_votes": 0,
-        "other_votes": 783,
-        "total_votes": 2886,
+        "other_votes": 1870,
+        "total_votes": 6183,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2103,
-        "margin_pct": 72.86902286902287,
+        "margin": -4313,
+        "margin_pct": 69.7557819828562,
         "winner": "D"
       },
       "31": {
-        "dem_votes": 3595,
+        "dem_votes": 3801,
         "rep_votes": 0,
-        "other_votes": 1717,
-        "total_votes": 5312,
+        "other_votes": 1861,
+        "total_votes": 5662,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3595,
-        "margin_pct": 67.6769578313253,
+        "margin": -3801,
+        "margin_pct": 67.13175556340516,
         "winner": "D"
       },
       "32": {
-        "dem_votes": 713,
+        "dem_votes": 3884,
         "rep_votes": 0,
-        "other_votes": 313,
-        "total_votes": 1026,
+        "other_votes": 1783,
+        "total_votes": 5667,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -713,
-        "margin_pct": 69.49317738791423,
+        "margin": -3884,
+        "margin_pct": 68.53714487383094,
         "winner": "D"
       },
       "33": {
-        "dem_votes": 1133,
+        "dem_votes": 4273,
         "rep_votes": 0,
-        "other_votes": 525,
-        "total_votes": 1658,
+        "other_votes": 1648,
+        "total_votes": 5921,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1133,
-        "margin_pct": 68.33534378769602,
+        "margin": -4273,
+        "margin_pct": 72.16686370545517,
+        "winner": "D"
+      },
+      "34": {
+        "dem_votes": 5693,
+        "rep_votes": 0,
+        "other_votes": 1699,
+        "total_votes": 7392,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -5693,
+        "margin_pct": 77.01569264069265,
         "winner": "D"
       },
       "35": {
-        "dem_votes": 552,
+        "dem_votes": 5010,
         "rep_votes": 0,
-        "other_votes": 60,
-        "total_votes": 612,
+        "other_votes": 1672,
+        "total_votes": 6682,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -552,
-        "margin_pct": 90.19607843137256,
+        "margin": -5010,
+        "margin_pct": 74.97755163124813,
         "winner": "D"
       },
       "36": {
-        "dem_votes": 1944,
+        "dem_votes": 4440,
         "rep_votes": 0,
-        "other_votes": 789,
-        "total_votes": 2733,
+        "other_votes": 1876,
+        "total_votes": 6316,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1944,
-        "margin_pct": 71.13062568605928,
+        "margin": -4440,
+        "margin_pct": 70.29765674477517,
         "winner": "D"
       },
       "37": {
-        "dem_votes": 2860,
+        "dem_votes": 6422,
         "rep_votes": 0,
-        "other_votes": 1080,
-        "total_votes": 3940,
+        "other_votes": 2208,
+        "total_votes": 8630,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2860,
-        "margin_pct": 72.58883248730965,
+        "margin": -6422,
+        "margin_pct": 74.41483198146003,
         "winner": "D"
       },
       "38": {
-        "dem_votes": 1732,
+        "dem_votes": 4569,
         "rep_votes": 0,
-        "other_votes": 786,
-        "total_votes": 2518,
+        "other_votes": 1914,
+        "total_votes": 6483,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1732,
-        "margin_pct": 68.7847498014297,
+        "margin": -4569,
+        "margin_pct": 70.47663118926422,
         "winner": "D"
       },
       "39": {
-        "dem_votes": 1108,
+        "dem_votes": 4852,
         "rep_votes": 0,
-        "other_votes": 420,
-        "total_votes": 1528,
+        "other_votes": 2117,
+        "total_votes": 6969,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1108,
-        "margin_pct": 72.5130890052356,
+        "margin": -4852,
+        "margin_pct": 69.62261443535658,
         "winner": "D"
       },
       "40": {
-        "dem_votes": 4074,
+        "dem_votes": 4737,
         "rep_votes": 0,
-        "other_votes": 1770,
-        "total_votes": 5844,
+        "other_votes": 2227,
+        "total_votes": 6964,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4074,
-        "margin_pct": 69.71252566735113,
+        "margin": -4737,
+        "margin_pct": 68.02125215393453,
         "winner": "D"
       },
       "41": {
-        "dem_votes": 6355,
+        "dem_votes": 6477,
         "rep_votes": 0,
-        "other_votes": 4041,
-        "total_votes": 10396,
+        "other_votes": 4138,
+        "total_votes": 10615,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -6355,
-        "margin_pct": 61.12928049249712,
+        "margin": -6477,
+        "margin_pct": 61.017428167687235,
         "winner": "D"
       },
       "42": {
-        "dem_votes": 4411,
+        "dem_votes": 4093,
         "rep_votes": 0,
-        "other_votes": 2689,
-        "total_votes": 7100,
+        "other_votes": 2274,
+        "total_votes": 6367,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4411,
-        "margin_pct": 62.12676056338028,
+        "margin": -4093,
+        "margin_pct": 64.28459242971573,
         "winner": "D"
       },
       "43": {
-        "dem_votes": 5428,
+        "dem_votes": 6090,
         "rep_votes": 0,
-        "other_votes": 2241,
-        "total_votes": 7669,
+        "other_votes": 2543,
+        "total_votes": 8633,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5428,
-        "margin_pct": 70.77845872995175,
+        "margin": -6090,
+        "margin_pct": 70.5432642186957,
         "winner": "D"
       },
       "44": {
-        "dem_votes": 2746,
+        "dem_votes": 4148,
         "rep_votes": 0,
-        "other_votes": 1713,
-        "total_votes": 4459,
+        "other_votes": 2338,
+        "total_votes": 6486,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2746,
-        "margin_pct": 61.583314644539136,
+        "margin": -4148,
+        "margin_pct": 63.953129818069684,
         "winner": "D"
       },
       "45": {
-        "dem_votes": 3144,
+        "dem_votes": 4547,
         "rep_votes": 0,
-        "other_votes": 1779,
-        "total_votes": 4923,
+        "other_votes": 2370,
+        "total_votes": 6917,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3144,
-        "margin_pct": 63.86349786715417,
+        "margin": -4547,
+        "margin_pct": 65.73659100766228,
         "winner": "D"
       },
       "46": {
-        "dem_votes": 4232,
+        "dem_votes": 5578,
         "rep_votes": 0,
-        "other_votes": 2106,
-        "total_votes": 6338,
+        "other_votes": 2637,
+        "total_votes": 8215,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4232,
-        "margin_pct": 66.77185231934364,
+        "margin": -5578,
+        "margin_pct": 67.90018259281801,
         "winner": "D"
       },
       "47": {
-        "dem_votes": 5286,
+        "dem_votes": 4622,
         "rep_votes": 0,
-        "other_votes": 2979,
-        "total_votes": 8265,
+        "other_votes": 2172,
+        "total_votes": 6794,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5286,
-        "margin_pct": 63.95644283121597,
+        "margin": -4622,
+        "margin_pct": 68.03061524874889,
         "winner": "D"
       },
       "48": {
-        "dem_votes": 3792,
+        "dem_votes": 3969,
         "rep_votes": 0,
-        "other_votes": 1946,
-        "total_votes": 5738,
+        "other_votes": 2342,
+        "total_votes": 6311,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3792,
-        "margin_pct": 66.08574416172883,
+        "margin": -3969,
+        "margin_pct": 62.890191728727615,
         "winner": "D"
       },
       "49": {
-        "dem_votes": 2142,
+        "dem_votes": 3475,
         "rep_votes": 0,
-        "other_votes": 713,
-        "total_votes": 2855,
+        "other_votes": 1634,
+        "total_votes": 5109,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2142,
-        "margin_pct": 75.02626970227671,
+        "margin": -3475,
+        "margin_pct": 68.01722450577412,
         "winner": "D"
       },
       "50": {
-        "dem_votes": 4761,
+        "dem_votes": 4723,
         "rep_votes": 0,
-        "other_votes": 2062,
-        "total_votes": 6823,
+        "other_votes": 2220,
+        "total_votes": 6943,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4761,
-        "margin_pct": 69.77868972592701,
+        "margin": -4723,
+        "margin_pct": 68.02534927264871,
         "winner": "D"
       },
       "51": {
-        "dem_votes": 4880,
+        "dem_votes": 5128,
         "rep_votes": 0,
-        "other_votes": 2248,
-        "total_votes": 7128,
+        "other_votes": 2410,
+        "total_votes": 7538,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4880,
-        "margin_pct": 68.46240179573513,
+        "margin": -5128,
+        "margin_pct": 68.02865481560096,
         "winner": "D"
       },
       "52": {
-        "dem_votes": 5065,
+        "dem_votes": 4974,
         "rep_votes": 0,
-        "other_votes": 2377,
-        "total_votes": 7442,
+        "other_votes": 2262,
+        "total_votes": 7236,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5065,
-        "margin_pct": 68.0596613813491,
+        "margin": -4974,
+        "margin_pct": 68.7396351575456,
         "winner": "D"
       },
       "53": {
-        "dem_votes": 195,
+        "dem_votes": 4218,
         "rep_votes": 0,
-        "other_votes": 125,
-        "total_votes": 320,
+        "other_votes": 2372,
+        "total_votes": 6590,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -195,
-        "margin_pct": 60.9375,
+        "margin": -4218,
+        "margin_pct": 64.00606980273142,
         "winner": "D"
       },
       "54": {
-        "dem_votes": 3074,
+        "dem_votes": 4489,
         "rep_votes": 0,
-        "other_votes": 1653,
-        "total_votes": 4727,
+        "other_votes": 2464,
+        "total_votes": 6953,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3074,
-        "margin_pct": 65.03067484662577,
+        "margin": -4489,
+        "margin_pct": 64.56205954264347,
         "winner": "D"
       },
       "55": {
-        "dem_votes": 62,
+        "dem_votes": 4176,
         "rep_votes": 0,
-        "other_votes": 25,
-        "total_votes": 87,
+        "other_votes": 2218,
+        "total_votes": 6394,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -62,
-        "margin_pct": 71.26436781609196,
+        "margin": -4176,
+        "margin_pct": 65.31122927744761,
         "winner": "D"
       },
       "56": {
-        "dem_votes": 809,
+        "dem_votes": 3887,
         "rep_votes": 0,
-        "other_votes": 438,
-        "total_votes": 1247,
+        "other_votes": 2065,
+        "total_votes": 5952,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -809,
-        "margin_pct": 64.8757016840417,
+        "margin": -3887,
+        "margin_pct": 65.30577956989248,
         "winner": "D"
       },
       "57": {
-        "dem_votes": 3119,
+        "dem_votes": 3993,
         "rep_votes": 0,
-        "other_votes": 2128,
-        "total_votes": 5247,
+        "other_votes": 2235,
+        "total_votes": 6228,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3119,
-        "margin_pct": 59.44349151896322,
+        "margin": -3993,
+        "margin_pct": 64.11368015414259,
         "winner": "D"
       },
       "58": {
-        "dem_votes": 96,
+        "dem_votes": 4737,
         "rep_votes": 0,
-        "other_votes": 59,
-        "total_votes": 155,
+        "other_votes": 2741,
+        "total_votes": 7478,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -96,
-        "margin_pct": 61.935483870967744,
+        "margin": -4737,
+        "margin_pct": 63.34581438887403,
         "winner": "D"
       },
       "59": {
-        "dem_votes": 899,
+        "dem_votes": 3860,
         "rep_votes": 0,
-        "other_votes": 695,
-        "total_votes": 1594,
+        "other_votes": 2410,
+        "total_votes": 6270,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -899,
-        "margin_pct": 56.39899623588457,
+        "margin": -3860,
+        "margin_pct": 61.56299840510366,
         "winner": "D"
       },
       "60": {
-        "dem_votes": 3575,
+        "dem_votes": 4513,
         "rep_votes": 0,
-        "other_votes": 1725,
-        "total_votes": 5300,
+        "other_votes": 2569,
+        "total_votes": 7082,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3575,
-        "margin_pct": 67.45283018867924,
+        "margin": -4513,
+        "margin_pct": 63.724936458627504,
         "winner": "D"
       },
       "61": {
-        "dem_votes": 4931,
+        "dem_votes": 7175,
         "rep_votes": 0,
-        "other_votes": 1390,
-        "total_votes": 6321,
+        "other_votes": 1840,
+        "total_votes": 9015,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4931,
-        "margin_pct": 78.00980857459263,
+        "margin": -7175,
+        "margin_pct": 79.58957293399888,
         "winner": "D"
       },
       "62": {
-        "dem_votes": 2824,
+        "dem_votes": 8833,
         "rep_votes": 0,
-        "other_votes": 405,
-        "total_votes": 3229,
+        "other_votes": 1414,
+        "total_votes": 10247,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2824,
-        "margin_pct": 87.45741715701456,
+        "margin": -8833,
+        "margin_pct": 86.20083927003024,
         "winner": "D"
       },
       "63": {
-        "dem_votes": 99,
+        "dem_votes": 5811,
         "rep_votes": 0,
-        "other_votes": 74,
-        "total_votes": 173,
+        "other_votes": 1789,
+        "total_votes": 7600,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -99,
-        "margin_pct": 57.22543352601156,
+        "margin": -5811,
+        "margin_pct": 76.46052631578948,
         "winner": "D"
       },
       "64": {
-        "dem_votes": 3877,
+        "dem_votes": 6065,
         "rep_votes": 0,
-        "other_votes": 768,
-        "total_votes": 4645,
+        "other_votes": 1606,
+        "total_votes": 7671,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3877,
-        "margin_pct": 83.46609257265877,
+        "margin": -6065,
+        "margin_pct": 79.06400730022162,
         "winner": "D"
       },
       "65": {
-        "dem_votes": 5138,
+        "dem_votes": 6393,
         "rep_votes": 0,
-        "other_votes": 950,
-        "total_votes": 6088,
+        "other_votes": 1668,
+        "total_votes": 8061,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5138,
-        "margin_pct": 84.39553219448095,
+        "margin": -6393,
+        "margin_pct": 79.3077781912914,
         "winner": "D"
       },
       "66": {
-        "dem_votes": 4144,
+        "dem_votes": 5253,
         "rep_votes": 0,
-        "other_votes": 1178,
-        "total_votes": 5322,
+        "other_votes": 1785,
+        "total_votes": 7038,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4144,
-        "margin_pct": 77.86546411123638,
+        "margin": -5253,
+        "margin_pct": 74.63768115942028,
         "winner": "D"
       },
       "67": {
-        "dem_votes": 5906,
+        "dem_votes": 6597,
         "rep_votes": 0,
-        "other_votes": 2577,
-        "total_votes": 8483,
+        "other_votes": 2241,
+        "total_votes": 8838,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5906,
-        "margin_pct": 69.62159613344335,
+        "margin": -6597,
+        "margin_pct": 74.64358452138494,
         "winner": "D"
       },
       "68": {
-        "dem_votes": 3600,
+        "dem_votes": 3736,
         "rep_votes": 0,
-        "other_votes": 2997,
-        "total_votes": 6597,
+        "other_votes": 2520,
+        "total_votes": 6256,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3600,
-        "margin_pct": 54.570259208731244,
+        "margin": -3736,
+        "margin_pct": 59.71867007672634,
         "winner": "D"
       },
       "69": {
-        "dem_votes": 4003,
+        "dem_votes": 5338,
         "rep_votes": 0,
-        "other_votes": 2563,
-        "total_votes": 6566,
+        "other_votes": 2072,
+        "total_votes": 7410,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4003,
-        "margin_pct": 60.96558026195553,
+        "margin": -5338,
+        "margin_pct": 72.03778677462887,
         "winner": "D"
       },
       "70": {
-        "dem_votes": 7040,
+        "dem_votes": 6476,
         "rep_votes": 0,
-        "other_votes": 3436,
-        "total_votes": 10476,
+        "other_votes": 2200,
+        "total_votes": 8676,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -7040,
-        "margin_pct": 67.2012218403971,
+        "margin": -6476,
+        "margin_pct": 74.64269248501614,
         "winner": "D"
       },
       "71": {
-        "dem_votes": 4380,
+        "dem_votes": 5788,
         "rep_votes": 0,
-        "other_votes": 2173,
-        "total_votes": 6553,
+        "other_votes": 1966,
+        "total_votes": 7754,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4380,
-        "margin_pct": 66.8396154433084,
+        "margin": -5788,
+        "margin_pct": 74.64534433840598,
         "winner": "D"
       },
       "72": {
-        "dem_votes": 4719,
+        "dem_votes": 5457,
         "rep_votes": 0,
-        "other_votes": 1315,
-        "total_votes": 6034,
+        "other_votes": 1854,
+        "total_votes": 7311,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4719,
-        "margin_pct": 78.20682797480941,
+        "margin": -5457,
+        "margin_pct": 74.64095199015183,
         "winner": "D"
       },
       "73": {
-        "dem_votes": 7733,
+        "dem_votes": 6160,
         "rep_votes": 0,
-        "other_votes": 2819,
-        "total_votes": 10552,
+        "other_votes": 2092,
+        "total_votes": 8252,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -7733,
-        "margin_pct": 73.2846853677028,
+        "margin": -6160,
+        "margin_pct": 74.64857004362578,
         "winner": "D"
       },
       "74": {
-        "dem_votes": 7665,
+        "dem_votes": 6140,
         "rep_votes": 0,
-        "other_votes": 2694,
-        "total_votes": 10359,
+        "other_votes": 2086,
+        "total_votes": 8226,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -7665,
-        "margin_pct": 73.99362872864175,
+        "margin": -6140,
+        "margin_pct": 74.64138098711402,
         "winner": "D"
       },
       "75": {
-        "dem_votes": 6152,
+        "dem_votes": 5489,
         "rep_votes": 0,
-        "other_votes": 2448,
-        "total_votes": 8600,
+        "other_votes": 1865,
+        "total_votes": 7354,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -6152,
-        "margin_pct": 71.53488372093022,
+        "margin": -5489,
+        "margin_pct": 74.63965189012782,
         "winner": "D"
       },
       "76": {
-        "dem_votes": 5996,
+        "dem_votes": 5369,
         "rep_votes": 0,
-        "other_votes": 755,
-        "total_votes": 6751,
+        "other_votes": 1824,
+        "total_votes": 7193,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5996,
-        "margin_pct": 88.81647163383202,
+        "margin": -5369,
+        "margin_pct": 74.64201306826081,
         "winner": "D"
       },
       "77": {
-        "dem_votes": 5927,
+        "dem_votes": 5749,
         "rep_votes": 0,
-        "other_votes": 1039,
-        "total_votes": 6966,
+        "other_votes": 1953,
+        "total_votes": 7702,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5927,
-        "margin_pct": 85.08469710020098,
+        "margin": -5749,
+        "margin_pct": 74.64294988314724,
         "winner": "D"
       },
       "78": {
-        "dem_votes": 3929,
+        "dem_votes": 5385,
         "rep_votes": 0,
-        "other_votes": 2452,
-        "total_votes": 6381,
+        "other_votes": 2441,
+        "total_votes": 7826,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3929,
-        "margin_pct": 61.57342109387244,
+        "margin": -5385,
+        "margin_pct": 68.80909787886532,
         "winner": "D"
       },
       "79": {
-        "dem_votes": 4954,
+        "dem_votes": 4847,
         "rep_votes": 0,
-        "other_votes": 810,
-        "total_votes": 5764,
+        "other_votes": 1646,
+        "total_votes": 6493,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4954,
-        "margin_pct": 85.94725884802222,
+        "margin": -4847,
+        "margin_pct": 74.6496226705683,
         "winner": "D"
       },
       "80": {
-        "dem_votes": 6133,
+        "dem_votes": 5654,
         "rep_votes": 0,
-        "other_votes": 1110,
-        "total_votes": 7243,
+        "other_votes": 1921,
+        "total_votes": 7575,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -6133,
-        "margin_pct": 84.67485848405357,
+        "margin": -5654,
+        "margin_pct": 74.64026402640263,
         "winner": "D"
       },
       "81": {
-        "dem_votes": 18,
+        "dem_votes": 4576,
         "rep_votes": 0,
-        "other_votes": 3,
-        "total_votes": 21,
+        "other_votes": 3067,
+        "total_votes": 7643,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -18,
-        "margin_pct": 85.71428571428571,
+        "margin": -4576,
+        "margin_pct": 59.871778097605656,
+        "winner": "D"
+      },
+      "82": {
+        "dem_votes": 4360,
+        "rep_votes": 0,
+        "other_votes": 2923,
+        "total_votes": 7283,
+        "dem_candidate": "Martha Shoffner",
+        "rep_candidate": "",
+        "margin": -4360,
+        "margin_pct": 59.8654400659069,
         "winner": "D"
       },
       "83": {
-        "dem_votes": 410,
+        "dem_votes": 5077,
         "rep_votes": 0,
-        "other_votes": 279,
-        "total_votes": 689,
+        "other_votes": 3404,
+        "total_votes": 8481,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -410,
-        "margin_pct": 59.50653120464441,
+        "margin": -5077,
+        "margin_pct": 59.863223676453245,
         "winner": "D"
       },
       "84": {
-        "dem_votes": 279,
+        "dem_votes": 4596,
         "rep_votes": 0,
-        "other_votes": 180,
-        "total_votes": 459,
+        "other_votes": 3185,
+        "total_votes": 7781,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -279,
-        "margin_pct": 60.78431372549019,
+        "margin": -4596,
+        "margin_pct": 59.066957974553404,
         "winner": "D"
       },
       "85": {
-        "dem_votes": 648,
+        "dem_votes": 4924,
         "rep_votes": 0,
-        "other_votes": 381,
-        "total_votes": 1029,
+        "other_votes": 3412,
+        "total_votes": 8336,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -648,
-        "margin_pct": 62.973760932944614,
+        "margin": -4924,
+        "margin_pct": 59.06909788867563,
         "winner": "D"
       },
       "86": {
-        "dem_votes": 4011,
+        "dem_votes": 5258,
         "rep_votes": 0,
-        "other_votes": 2980,
-        "total_votes": 6991,
+        "other_votes": 3875,
+        "total_votes": 9133,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4011,
-        "margin_pct": 57.37376627091976,
+        "margin": -5258,
+        "margin_pct": 57.57144421329245,
         "winner": "D"
       },
       "87": {
-        "dem_votes": 4222,
+        "dem_votes": 4226,
         "rep_votes": 0,
-        "other_votes": 2505,
-        "total_votes": 6727,
+        "other_votes": 2494,
+        "total_votes": 6720,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4222,
-        "margin_pct": 62.762003865021555,
+        "margin": -4226,
+        "margin_pct": 62.88690476190476,
         "winner": "D"
       },
       "88": {
-        "dem_votes": 2455,
+        "dem_votes": 4254,
         "rep_votes": 0,
-        "other_votes": 1640,
-        "total_votes": 4095,
+        "other_votes": 2599,
+        "total_votes": 6853,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2455,
-        "margin_pct": 59.95115995115995,
+        "margin": -4254,
+        "margin_pct": 62.07500364803735,
         "winner": "D"
       },
       "89": {
-        "dem_votes": 5516,
+        "dem_votes": 6164,
         "rep_votes": 0,
-        "other_votes": 2227,
-        "total_votes": 7743,
+        "other_votes": 2334,
+        "total_votes": 8498,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5516,
-        "margin_pct": 71.23853803435361,
+        "margin": -6164,
+        "margin_pct": 72.53471405036478,
         "winner": "D"
       },
       "90": {
-        "dem_votes": 4272,
+        "dem_votes": 6278,
         "rep_votes": 0,
-        "other_votes": 1420,
-        "total_votes": 5692,
+        "other_votes": 2571,
+        "total_votes": 8849,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -4272,
-        "margin_pct": 75.05270555165144,
+        "margin": -6278,
+        "margin_pct": 70.94586958978417,
         "winner": "D"
       },
       "91": {
-        "dem_votes": 479,
+        "dem_votes": 4940,
         "rep_votes": 0,
-        "other_votes": 317,
-        "total_votes": 796,
+        "other_votes": 3423,
+        "total_votes": 8363,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -479,
-        "margin_pct": 60.175879396984925,
+        "margin": -4940,
+        "margin_pct": 59.069711825899795,
         "winner": "D"
       },
       "92": {
-        "dem_votes": 3032,
+        "dem_votes": 4789,
         "rep_votes": 0,
-        "other_votes": 1828,
-        "total_votes": 4860,
+        "other_votes": 3003,
+        "total_votes": 7792,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3032,
-        "margin_pct": 62.38683127572017,
+        "margin": -4789,
+        "margin_pct": 61.46047227926078,
         "winner": "D"
       },
       "93": {
-        "dem_votes": 1172,
+        "dem_votes": 5506,
         "rep_votes": 0,
-        "other_votes": 469,
-        "total_votes": 1641,
+        "other_votes": 1714,
+        "total_votes": 7220,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -1172,
-        "margin_pct": 71.41986593540524,
+        "margin": -5506,
+        "margin_pct": 76.26038781163435,
         "winner": "D"
       },
       "94": {
-        "dem_votes": 3163,
+        "dem_votes": 5747,
         "rep_votes": 0,
-        "other_votes": 1000,
-        "total_votes": 4163,
+        "other_votes": 1885,
+        "total_votes": 7632,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3163,
-        "margin_pct": 75.97886139803026,
+        "margin": -5747,
+        "margin_pct": 75.30136268343816,
         "winner": "D"
       },
       "95": {
-        "dem_votes": 5704,
+        "dem_votes": 5987,
         "rep_votes": 0,
-        "other_votes": 1958,
-        "total_votes": 7662,
+        "other_votes": 2156,
+        "total_votes": 8143,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -5704,
-        "margin_pct": 74.44531453928478,
+        "margin": -5987,
+        "margin_pct": 73.52327152155226,
         "winner": "D"
       },
       "96": {
-        "dem_votes": 3850,
+        "dem_votes": 6537,
         "rep_votes": 0,
-        "other_votes": 1646,
-        "total_votes": 5496,
+        "other_votes": 2755,
+        "total_votes": 9292,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3850,
-        "margin_pct": 70.0509461426492,
+        "margin": -6537,
+        "margin_pct": 70.35083943176926,
         "winner": "D"
       },
       "97": {
-        "dem_votes": 2806,
+        "dem_votes": 5404,
         "rep_votes": 0,
-        "other_votes": 1401,
-        "total_votes": 4207,
+        "other_votes": 2658,
+        "total_votes": 8062,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2806,
-        "margin_pct": 66.69835987639648,
+        "margin": -5404,
+        "margin_pct": 67.0305135202183,
         "winner": "D"
       },
       "98": {
-        "dem_votes": 2298,
+        "dem_votes": 6611,
         "rep_votes": 0,
-        "other_votes": 912,
-        "total_votes": 3210,
+        "other_votes": 2684,
+        "total_votes": 9295,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2298,
-        "margin_pct": 71.58878504672897,
+        "margin": -6611,
+        "margin_pct": 71.12426035502959,
         "winner": "D"
       },
       "99": {
-        "dem_votes": 2864,
+        "dem_votes": 4816,
         "rep_votes": 0,
-        "other_votes": 2247,
-        "total_votes": 5111,
+        "other_votes": 2744,
+        "total_votes": 7560,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -2864,
-        "margin_pct": 56.036000782625706,
+        "margin": -4816,
+        "margin_pct": 63.70370370370371,
         "winner": "D"
       },
       "100": {
-        "dem_votes": 3119,
+        "dem_votes": 3846,
         "rep_votes": 0,
-        "other_votes": 1969,
-        "total_votes": 5088,
+        "other_votes": 2941,
+        "total_votes": 6787,
         "dem_candidate": "Martha Shoffner",
         "rep_candidate": "",
-        "margin": -3119,
-        "margin_pct": 61.30110062893082,
+        "margin": -3846,
+        "margin_pct": 56.66715780167968,
         "winner": "D"
       }
     }
