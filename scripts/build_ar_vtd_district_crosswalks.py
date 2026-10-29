@@ -177,11 +177,20 @@ def normalize_vtd_mix(raw_mix: dict[str, dict[tuple[str, str], float]]) -> dict[
     return out
 
 
-def write_crosswalk(year: int, mix: dict, metadata: dict[str, dict]) -> None:
+def write_crosswalk(
+    year: int,
+    mix: dict,
+    metadata: dict[str, dict],
+    basis_totals: dict[str, dict[str, float]] | None = None,
+    basis_labels: dict[str, dict[str, str]] | None = None,
+) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     path = OUT_DIR / f"vtd{year}_to_2022_districts.csv"
     with path.open("w", newline="", encoding="utf-8") as output:
-        fields = ["vtd_year", "county_fips", "county", "vtd_code", "vtd_name", "scope", "district", "weight"]
+        fields = [
+            "vtd_year", "county_fips", "county", "vtd_code", "vtd_name",
+            "scope", "district", "weight", "basis_total", "weight_basis",
+        ]
         writer = csv.DictWriter(output, fieldnames=fields)
         writer.writeheader()
         for vtd, values in sorted(mix.items()):
@@ -197,6 +206,8 @@ def write_crosswalk(year: int, mix: dict, metadata: dict[str, dict]) -> None:
                         "scope": scope,
                         "district": district,
                         "weight": f"{weight:.10f}",
+                        "basis_total": f"{(basis_totals or {}).get(vtd, {}).get(scope, 1.0):.6f}",
+                        "weight_basis": (basis_labels or {}).get(vtd, {}).get(scope, "legacy block crosswalk"),
                     }
                 )
     print(f"Wrote {path} ({len(mix):,} VTDs)")
@@ -204,55 +215,75 @@ def write_crosswalk(year: int, mix: dict, metadata: dict[str, dict]) -> None:
 
 def main() -> int:
     indexes, metadata = build_vtd_indexes()
-    block_vtd = {year: block_to_vtd(year, indexes[year]) for year in (2000, 2010, 2020)}
     befs = load_befs()
 
-    raw20: dict[str, dict[tuple[str, str], float]] = defaultdict(lambda: defaultdict(float))
-    for scope, assignments in befs.items():
-        for block, district in assignments.items():
-            vtd = block_vtd[2020].get(block)
-            if vtd:
-                add_mix(raw20, vtd, scope, district, 1.0)
-    mix20 = normalize_vtd_mix(raw20)
-
-    block10_mix: dict[str, dict[tuple[str, str], float]] = defaultdict(lambda: defaultdict(float))
-    archive, rows = read_nhgis(DATA_DIR / "nhgis_blk2010_blk2020_05.zip")
+    cvap_by_block: dict[str, float] = {}
+    archive, rows = read_nhgis(DATA_DIR / "ar_cvap_2024_2020_b_csv.zip")
     for row in rows:
-        block10 = row["blk2010ge"]
-        block20 = row["blk2020ge"]
-        weight = float(row["weight"] or 0)
-        for scope, assignments in befs.items():
-            district = assignments.get(block20)
-            if district:
-                add_mix(block10_mix, block10, scope, district, weight)
+        cvap_by_block[row["GEOID20"]] = float(row.get("CVAP_TOT24") or 0)
     archive.close()
 
-    raw10: dict[str, dict[tuple[str, str], float]] = defaultdict(lambda: defaultdict(float))
-    for block10, values in block10_mix.items():
-        vtd = block_vtd[2010].get(block10)
-        if not vtd:
+    raw_cvap = {
+        year: defaultdict(lambda: defaultdict(float))
+        for year in (2000, 2010, 2020)
+    }
+    raw_blocks = {
+        year: defaultdict(lambda: defaultdict(float))
+        for year in (2000, 2010, 2020)
+    }
+    archive, reader = open_reader(DATA_DIR / "tl_2020_05_tabblock20.zip")
+    processed = 0
+    for item in reader.iterShapeRecords():
+        props = item.record.as_dict()
+        block = str(props.get("GEOID20") or props.get("GEOID") or "")
+        county = str(props.get("COUNTYFP20") or props.get("COUNTYFP") or "").zfill(3)
+        if not block or not county:
             continue
-        for (scope, district), value in values.items():
-            add_mix(raw10, vtd, scope, district, value)
-    mix10 = normalize_vtd_mix(raw10)
-
-    raw00: dict[str, dict[tuple[str, str], float]] = defaultdict(lambda: defaultdict(float))
-    archive, rows = read_nhgis(DATA_DIR / "nhgis_blk2000_blk2010_05.zip")
-    for row in rows:
-        block00 = row["blk2000ge"]
-        block10 = row["blk2010ge"]
-        weight = float(row["weight"] or 0)
-        vtd = block_vtd[2000].get(block00)
-        if not vtd:
-            continue
-        for (scope, district), value in block10_mix.get(block10, {}).items():
-            add_mix(raw00, vtd, scope, district, weight * value)
+        lon = float(props.get("INTPTLON20") or props.get("INTPTLON"))
+        lat = float(props.get("INTPTLAT20") or props.get("INTPTLAT"))
+        point = Point(lon, lat)
+        cvap = cvap_by_block.get(block, 0.0)
+        for year in (2000, 2010, 2020):
+            meta = locate_vtd(point, county, indexes[year])
+            if not meta:
+                continue
+            vtd = f"05{meta['county_fips']}{meta['code']}"
+            for scope, assignments in befs.items():
+                district = assignments.get(block)
+                if not district:
+                    continue
+                add_mix(raw_cvap[year], vtd, scope, district, cvap)
+                add_mix(raw_blocks[year], vtd, scope, district, 1.0)
+        processed += 1
     archive.close()
-    mix00 = normalize_vtd_mix(raw00)
+    print(f"Assigned {processed:,} current blocks to each historical VTD vintage")
 
-    write_crosswalk(2000, mix00, metadata[2000])
-    write_crosswalk(2010, mix10, metadata[2010])
-    write_crosswalk(2020, mix20, metadata[2020])
+    for year in (2000, 2010, 2020):
+        chosen: dict[str, dict[tuple[str, str], float]] = defaultdict(lambda: defaultdict(float))
+        basis_totals: dict[str, dict[str, float]] = defaultdict(dict)
+        basis_labels: dict[str, dict[str, str]] = defaultdict(dict)
+        all_vtds = set(raw_cvap[year]) | set(raw_blocks[year])
+        for vtd in all_vtds:
+            for scope in SCOPES:
+                cvap_values = {
+                    district: value
+                    for (candidate_scope, district), value in raw_cvap[year][vtd].items()
+                    if candidate_scope == scope and value > 0
+                }
+                block_values = {
+                    district: value
+                    for (candidate_scope, district), value in raw_blocks[year][vtd].items()
+                    if candidate_scope == scope and value > 0
+                }
+                values = cvap_values or block_values
+                total = sum(values.values())
+                if total <= 0:
+                    continue
+                basis_totals[vtd][scope] = total
+                basis_labels[vtd][scope] = "2024 CVAP" if cvap_values else "block-count fallback"
+                for district, value in values.items():
+                    chosen[vtd][(scope, district)] = value / total
+        write_crosswalk(year, chosen, metadata[year], basis_totals, basis_labels)
     return 0
 
 

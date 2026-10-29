@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 634751,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 154625,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_canonical": 5,
+      "canonical": 65,
+      "exact": 163,
+      "numeric_code": 3,
+      "numeric_group": 19
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 73519,
-        "rep_votes": 107673,
-        "other_votes": 11618,
-        "total_votes": 192810,
+        "dem_votes": 72585,
+        "rep_votes": 106605,
+        "other_votes": 11494,
+        "total_votes": 190684,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 34154,
-        "margin_pct": 17.71381152429853,
+        "margin": 34020,
+        "margin_pct": 17.841035430345492,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 92342,
-        "rep_votes": 123470,
-        "other_votes": 13858,
-        "total_votes": 229670,
+        "dem_votes": 92041,
+        "rep_votes": 126641,
+        "other_votes": 14150,
+        "total_votes": 232832,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 31128,
-        "margin_pct": 13.553359167501197,
+        "margin": 34600,
+        "margin_pct": 14.860500274876307,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 50026,
-        "rep_votes": 108801,
-        "other_votes": 12146,
-        "total_votes": 170973,
+        "dem_votes": 49575,
+        "rep_votes": 107404,
+        "other_votes": 12006,
+        "total_votes": 168985,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 58775,
-        "margin_pct": 34.37677294075673,
+        "margin": 57829,
+        "margin_pct": 34.22138059591088,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 74136,
-        "rep_votes": 110546,
-        "other_votes": 11241,
-        "total_votes": 195923,
+        "dem_votes": 75822,
+        "rep_votes": 109840,
+        "other_votes": 11213,
+        "total_votes": 196875,
         "dem_candidate": "Mark A. Robertson",
         "rep_candidate": "John Thurston",
-        "margin": 36410,
-        "margin_pct": 18.58383140315328,
+        "margin": 34018,
+        "margin_pct": 17.278984126984128,
         "winner": "R"
       }
     }

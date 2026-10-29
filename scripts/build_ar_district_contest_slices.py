@@ -24,7 +24,9 @@ DATA_DIR = ROOT / "data"
 SOURCE_PATH = DATA_DIR / "ar_elections_aggregated.json"
 CROSSWALK_DIR = DATA_DIR / "crosswalks"
 OUTPUT_DIR = DATA_DIR / "district_contests"
-SAFE_METHODS = {"exact", "canonical", "structural", "abbreviation", "containment", "fuzzy_high"}
+SAFE_METHODS = {
+    "exact", "canonical", "structural", "abbreviation", "numeric_code", "containment", "fuzzy_high"
+}
 DISTRICT_SAFE_METHODS = {
     "ambiguous_canonical",
     "ambiguous_structural",
@@ -83,7 +85,10 @@ def load_crosswalk(vintage: int, path: Path | None = None):
                     "canonical": canonical_label(name),
                     "structural": structural_label(name),
                     "abbreviations": abbreviation_variants(name),
+                    "basis_total_by_scope": {},
                 }
+            basis_total = float(row.get("basis_total") or 1.0)
+            targets_by_county[county][vtd_key]["basis_total_by_scope"][row["scope"]] = basis_total
             weights[vtd_key][row["scope"]][row["district"]] = float(row["weight"])
     return {county: list(items.values()) for county, items in targets_by_county.items()}, weights
 
@@ -220,8 +225,136 @@ def hamilton_allocate(total: int, weights: dict[str, float]) -> dict[str, int]:
     return allocated
 
 
+def combine_target_weights(matches: list[dict], weights: dict, scope: str) -> dict[str, float]:
+    """Combine one or more matched VTDs using their CVAP/basis totals."""
+    combined: dict[str, float] = defaultdict(float)
+    basis_sum = 0.0
+    for item in matches:
+        vtd_weights = weights.get(str(item["vtd_key"]), {}).get(scope, {})
+        if not vtd_weights:
+            continue
+        basis = float(item.get("basis_total_by_scope", {}).get(scope) or 1.0)
+        basis_sum += basis
+        for district, share in vtd_weights.items():
+            combined[district] += basis * share
+    if basis_sum <= 0:
+        return {}
+    total = sum(combined.values())
+    return {district: value / total for district, value in combined.items() if value > 0}
+
+
+def precinct_weight_options(
+    year: int,
+    county: str,
+    precinct: str,
+    crosswalks: dict[int, tuple[dict, dict]],
+    reporting_2024: tuple[dict, dict] | None,
+) -> list[tuple[dict, list[dict], dict]]:
+    vintage = vintage_for_year(year)
+    targets_by_county, weights = crosswalks[vintage]
+    fallback_targets, fallback_weights = crosswalks[2020]
+    options: list[tuple[dict, list[dict], dict]] = []
+    if year >= 2018 and reporting_2024:
+        reporting_targets, reporting_weights = reporting_2024
+        match = match_precinct(precinct, reporting_targets.get(county, []))
+        options.append((match, list(match["targets"]), reporting_weights))
+    match = match_precinct(precinct, targets_by_county.get(county, []))
+    options.append((match, list(match["targets"]), weights))
+    if 2014 <= year < 2018 and reporting_2024:
+        reporting_targets, reporting_weights = reporting_2024
+        match = match_precinct(precinct, reporting_targets.get(county, []))
+        options.append((match, list(match["targets"]), reporting_weights))
+    if vintage != 2020:
+        match = match_precinct(precinct, fallback_targets.get(county, []))
+        options.append((match, list(match["targets"]), fallback_weights))
+    return options
+
+
+def resolve_precinct_weights(
+    year: int,
+    county: str,
+    precinct: str,
+    scope: str,
+    crosswalks: dict[int, tuple[dict, dict]],
+    reporting_2024: tuple[dict, dict] | None,
+) -> tuple[dict[str, float], str]:
+    options = precinct_weight_options(year, county, precinct, crosswalks, reporting_2024)
+    for match, matches, active_weights in options:
+        if str(match["method"]) in SAFE_METHODS and len(matches) == 1:
+            resolved = combine_target_weights(matches, active_weights, scope)
+            if resolved:
+                return resolved, str(match["method"])
+    for match, matches, active_weights in options:
+        method = str(match["method"])
+        if method not in DISTRICT_SAFE_METHODS or not matches:
+            continue
+        if method in {"structural_group", "numeric_group"}:
+            resolved = combine_target_weights(matches, active_weights, scope)
+            if resolved:
+                return resolved, method
+        district = district_safe_assignments(matches, active_weights).get(scope)
+        if district:
+            return {district: 1.0}, method
+    return {}, "county_cvap_fallback"
+
+
+def load_2024_block_party_weights() -> dict:
+    """Return within-county district shares from the supplied 2024 block returns."""
+    if not BLOCK_2024_PATH.exists():
+        return {}
+    assignments = load_block_district_assignments()
+    county_payload = json.loads((DATA_DIR / "tl_2020_05_county20.geojson").read_text(encoding="utf-8"))
+    county_names = {
+        str(feature["properties"]["COUNTYFP20"]).zfill(3): atlas.normalize_county_name(
+            feature["properties"]["NAME20"]
+        )
+        for feature in county_payload["features"]
+    }
+    raw = defaultdict(
+        lambda: defaultdict(
+            lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+        )
+    )
+    with zipfile.ZipFile(BLOCK_2024_PATH) as archive:
+        csv_name = next(name for name in archive.namelist() if name.lower().endswith(".csv"))
+        stream = io.TextIOWrapper(archive.open(csv_name), encoding="utf-8-sig", newline="")
+        for row in csv.DictReader(stream):
+            block = row["GEOID20"]
+            county = county_names.get(block[2:5])
+            if not county:
+                continue
+            for contest, fields in BLOCK_2024_FIELDS.items():
+                party_votes = {
+                    party: sum(int(row.get(field) or 0) for field in party_fields)
+                    for party, party_fields in fields.items()
+                }
+                for scope in SCOPES:
+                    district = assignments[scope].get(block)
+                    if not district:
+                        continue
+                    for party, votes in party_votes.items():
+                        raw[contest][scope][county][party][district] += votes
+
+    normalized = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
+    for contest, scopes in raw.items():
+        for scope, counties in scopes.items():
+            for county, parties in counties.items():
+                for party, district_votes in parties.items():
+                    total = sum(district_votes.values())
+                    if total > 0:
+                        normalized[contest][scope][county][f"{party}_votes"] = {
+                            district: votes / total
+                            for district, votes in district_votes.items()
+                            if votes > 0
+                        }
+    return normalized
+
+
 def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
     county_weights, diagnostics = load_county_cvap_weights()
+    crosswalks = {vintage: load_crosswalk(vintage) for vintage in (2000, 2010, 2020)}
+    reporting_2024 = load_crosswalk(2024, REPORTING_2024_CROSSWALK) if REPORTING_2024_CROSSWALK.exists() else None
+    block_party_weights = load_2024_block_party_weights()
     manifest: list[dict] = []
     for year_text, contests in sorted(payload["results_by_year"].items()):
         year = int(year_text)
@@ -229,12 +362,14 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
             contest_type = contest_type_for_ui(source_type)
             source_results = contest_node["general"]["results"]
             county_totals = defaultdict(lambda: defaultdict(int))
+            county_precincts = defaultdict(list)
             candidates = {"dem": "", "rep": ""}
             for precinct_key, result in source_results.items():
-                county_raw, separator, _precinct = precinct_key.partition(" - ")
+                county_raw, separator, precinct = precinct_key.partition(" - ")
                 if not separator:
                     continue
                 county = atlas.normalize_county_name(county_raw)
+                county_precincts[county].append((precinct, result))
                 county_totals[county]["dem_votes"] += int(result.get("dem_votes") or 0)
                 county_totals[county]["rep_votes"] += int(result.get("rep_votes") or 0)
                 county_totals[county]["other_votes"] += int(result.get("other_votes") or 0)
@@ -243,13 +378,66 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
 
             for scope in SCOPES:
                 aggregates = defaultdict(lambda: defaultdict(int))
+                whole_county_votes = 0
+                split_matched_votes = 0
+                split_fallback_votes = 0
+                split_block_votes = 0
+                match_methods: dict[str, int] = defaultdict(int)
                 for county, totals in county_totals.items():
-                    weights = county_weights[scope].get(county)
-                    if not weights:
+                    county_district_weights = county_weights[scope].get(county)
+                    if not county_district_weights:
                         raise RuntimeError(f"No {scope} CVAP weights for {county}")
-                    for party in ("dem_votes", "rep_votes", "other_votes"):
-                        for district, votes in hamilton_allocate(totals[party], weights).items():
-                            aggregates[district][party] += votes
+                    county_vote_total = sum(totals.values())
+                    if len(county_district_weights) == 1:
+                        district = next(iter(county_district_weights))
+                        for party in ("dem_votes", "rep_votes", "other_votes"):
+                            aggregates[district][party] += totals[party]
+                        whole_county_votes += county_vote_total
+                        continue
+
+                    direct_weights = (
+                        block_party_weights.get(contest_type, {}).get(scope, {}).get(county, {})
+                        if year == 2024
+                        else {}
+                    )
+                    if direct_weights:
+                        for party in ("dem_votes", "rep_votes", "other_votes"):
+                            party_weights = direct_weights.get(party) or county_district_weights
+                            for district, votes in hamilton_allocate(totals[party], party_weights).items():
+                                aggregates[district][party] += votes
+                        split_block_votes += county_vote_total
+                        continue
+
+                    for precinct, result in county_precincts[county]:
+                        precinct_weights, method = resolve_precinct_weights(
+                            year,
+                            county,
+                            precinct,
+                            scope,
+                            crosswalks,
+                            reporting_2024,
+                        )
+                        precinct_vote_total = sum(
+                            int(result.get(party) or 0)
+                            for party in ("dem_votes", "rep_votes", "other_votes")
+                        )
+                        if precinct_weights:
+                            split_matched_votes += precinct_vote_total
+                            match_methods[method] += 1
+                        else:
+                            precinct_weights = county_district_weights
+                            split_fallback_votes += precinct_vote_total
+                            match_methods["county_cvap_fallback"] += 1
+                        for party in ("dem_votes", "rep_votes", "other_votes"):
+                            for district, votes in hamilton_allocate(
+                                int(result.get(party) or 0), precinct_weights
+                            ).items():
+                                aggregates[district][party] += votes
+
+                split_precinct_votes = split_matched_votes + split_fallback_votes
+                split_match_coverage = (
+                    split_matched_votes / split_precinct_votes if split_precinct_votes else 1.0
+                )
                 results = {
                     district: finish_result(values, candidates["dem"], candidates["rep"])
                     for district, values in sorted(aggregates.items(), key=lambda item: int(item[0]))
@@ -260,14 +448,24 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                     "scope": scope,
                     "contest_type": contest_type,
                     "meta": {
-                        "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-                        "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+                        "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+                        "allocation_method": (
+                            "whole county at 99.9%; split counties preserve precinct geography; "
+                            "2024 block-return patterns are rescaled to certified county totals"
+                        ),
                         "county_rule_threshold": NC_RULE_MIN_COVERAGE,
                         "whole_counties": len(diagnostics[scope]["whole"]),
                         "split_counties": diagnostics[scope]["split"],
+                        "whole_county_vote_total": whole_county_votes,
+                        "split_block_direct_vote_total": split_block_votes,
+                        "split_precinct_matched_vote_total": split_matched_votes,
+                        "split_county_cvap_fallback_vote_total": split_fallback_votes,
+                        "split_precinct_match_coverage": round(split_match_coverage, 6),
+                        "split_match_methods": dict(sorted(match_methods.items())),
                         "matched_vote_coverage": 1.0,
                         "statewide_totals_preserved": True,
                         "reconciles_precinct_votes": False,
+                        "precinct_name_matching": bool(split_precinct_votes),
                         "approximate": bool(diagnostics[scope]["split"]),
                     },
                     "general": {"results": results},
@@ -283,6 +481,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                     "county_rule": True,
                     "whole_counties": len(diagnostics[scope]["whole"]),
                     "split_counties": len(diagnostics[scope]["split"]),
+                    "split_precinct_match_coverage_pct": round(split_match_coverage * 100, 2),
                     "partial": not bool(coverage_by_year.get(str(year), {}).get("complete", True)),
                     "missing_counties": coverage_by_year.get(str(year), {}).get("missing_counties", []),
                 })

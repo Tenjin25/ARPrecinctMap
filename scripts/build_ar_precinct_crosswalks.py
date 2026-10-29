@@ -161,6 +161,32 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
     if len(structural_group) > 1:
         return {"method": "structural_group", "score": 0.97, "targets": structural_group}
 
+    # Older county exports often identify a polling place by one or more
+    # precinct numbers ("056/058 WINFIELD UMC"), while Census VTDs retain
+    # lettered pieces ("PCT 056A").  Treat all listed numeric pieces as one
+    # reporting group; the district builder combines them by their basis/CVAP.
+    clean_tokens = clean.split()
+    source_codes: list[int] = []
+    for token in clean_tokens:
+        if token.isdigit():
+            source_codes.append(int(token))
+        else:
+            break
+    if source_codes:
+        numeric_matches = []
+        for item in targets:
+            target_tokens = item["clean"].split()
+            if target_tokens and target_tokens[0] == "PRECINCT":
+                target_tokens = target_tokens[1:]
+            first = target_tokens[0] if target_tokens else ""
+            number = re.fullmatch(r"0*(\d+)[A-Z]*", first)
+            if number and int(number.group(1)) in source_codes:
+                numeric_matches.append(item)
+        if len(numeric_matches) == 1:
+            return {"method": "numeric_code", "score": 0.975, "targets": numeric_matches}
+        if len(numeric_matches) > 1:
+            return {"method": "numeric_group", "score": 0.97, "targets": numeric_matches}
+
     source_tokens = canonical.split()
     month_tokens = {"JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"}
     if source_tokens and source_tokens[0].isdigit() and all(

@@ -12,6 +12,7 @@ import build_ar_atlas_election_json as atlas
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 SOURCE = DATA_DIR / "ar_2024_gen_2020_blocks_csv.zip"
+CVAP_SOURCE = DATA_DIR / "ar_cvap_2024_2020_b_csv.zip"
 OUTPUT = DATA_DIR / "crosswalks" / "precinct2024_to_2022_districts.csv"
 SCOPES = {
     "congressional": (DATA_DIR / "05_AR_CD118.txt", "CDFP"),
@@ -30,7 +31,17 @@ def main() -> int:
                 if row.get("GEOID") and row.get(field)
             }
 
+    cvap_by_block: dict[str, float] = {}
+    with zipfile.ZipFile(CVAP_SOURCE) as archive:
+        csv_name = next(name for name in archive.namelist() if name.lower().endswith(".csv"))
+        stream = io.TextIOWrapper(archive.open(csv_name), encoding="utf-8-sig", newline="")
+        cvap_by_block = {
+            row["GEOID20"]: float(row.get("CVAP_TOT24") or 0)
+            for row in csv.DictReader(stream)
+        }
+
     weighted = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
+    vap_weighted = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
     block_counts = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
     metadata: dict[str, tuple[str, str]] = {}
     with zipfile.ZipFile(SOURCE) as archive:
@@ -46,17 +57,22 @@ def main() -> int:
             key = f"{county}|{precinct}"
             metadata[key] = (county, precinct)
             block = row["GEOID20"]
+            cvap = cvap_by_block.get(block, 0.0)
             vap = float(row.get("VAP_MOD") or 0)
             for scope in SCOPES:
                 district = assignments[scope].get(block)
                 if not district:
                     continue
-                weighted[key][scope][district] += vap
+                weighted[key][scope][district] += cvap
+                vap_weighted[key][scope][district] += vap
                 block_counts[key][scope][district] += 1
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT.open("w", newline="", encoding="utf-8") as output:
-        fields = ["vtd_year", "county_fips", "county", "vtd_code", "vtd_name", "scope", "district", "weight"]
+        fields = [
+            "vtd_year", "county_fips", "county", "vtd_code", "vtd_name",
+            "scope", "district", "weight", "basis_total", "weight_basis",
+        ]
         writer = csv.DictWriter(output, fieldnames=fields)
         writer.writeheader()
         for key, (county, precinct) in sorted(metadata.items()):
@@ -64,8 +80,15 @@ def main() -> int:
                 values = weighted[key][scope]
                 total = sum(values.values())
                 if total <= 0:
+                    values = vap_weighted[key][scope]
+                    total = sum(values.values())
+                    basis = "VAP fallback"
+                else:
+                    basis = "2024 CVAP"
+                if total <= 0:
                     values = block_counts[key][scope]
                     total = sum(values.values())
+                    basis = "block-count fallback"
                 for district, value in sorted(values.items(), key=lambda item: int(item[0])):
                     writer.writerow({
                         "vtd_year": 2024,
@@ -76,6 +99,8 @@ def main() -> int:
                         "scope": scope,
                         "district": district,
                         "weight": f"{value / total:.10f}",
+                        "basis_total": f"{total:.6f}",
+                        "weight_basis": basis,
                     })
     print(f"Wrote {OUTPUT} ({len(metadata):,} reporting precincts)")
     return 0

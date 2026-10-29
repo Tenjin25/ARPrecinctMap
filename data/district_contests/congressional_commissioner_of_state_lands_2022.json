@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 735710,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 155091,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_containment": 33,
+      "containment": 3,
+      "exact": 136,
+      "numeric_code": 28,
+      "numeric_group": 43
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 53286,
-        "rep_votes": 155624,
+        "dem_votes": 53210,
+        "rep_votes": 155179,
         "other_votes": 0,
-        "total_votes": 208910,
+        "total_votes": 208389,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 102338,
-        "margin_pct": 48.98664496673209,
+        "margin": 101969,
+        "margin_pct": 48.93204535748048,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 90285,
-        "rep_votes": 151673,
+        "dem_votes": 90880,
+        "rep_votes": 154453,
         "other_votes": 0,
-        "total_votes": 241958,
+        "total_votes": 245333,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 61388,
-        "margin_pct": 25.371345440117704,
+        "margin": 63573,
+        "margin_pct": 25.91294281649839,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 74325,
-        "rep_votes": 147135,
+        "dem_votes": 74306,
+        "rep_votes": 145752,
         "other_votes": 0,
-        "total_votes": 221460,
+        "total_votes": 220058,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 72810,
-        "margin_pct": 32.87726903278244,
+        "margin": 71446,
+        "margin_pct": 32.46689509129411,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 60210,
-        "rep_votes": 158263,
+        "dem_votes": 59710,
+        "rep_votes": 157311,
         "other_votes": 0,
-        "total_votes": 218473,
+        "total_votes": 217021,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 98053,
-        "margin_pct": 44.881060817583865,
+        "margin": 97601,
+        "margin_pct": 44.973067122536534,
         "winner": "R"
       }
     }

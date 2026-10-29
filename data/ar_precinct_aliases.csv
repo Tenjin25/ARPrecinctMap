@@ -51,8 +51,6 @@ ASHLEY,SNYDER/TRAFALGAR,24 - Snyder / Trafalgar,24 - Snyder / Trafalgar,2008,can
 ASHLEY,VO-TECH,07 - VO - Tech,07 - VO - Tech,2008,canonical,0.9900
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2008,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2008,canonical,0.9900
-BENTON,26 BELLA VISTA 1ST UNITED METHODIST CHURCH,Precinct 01,Precinct 01,2008,containment,0.9500
-BENTON,53 ROGERS 1ST UNITED METHODIST CHURCH,Precinct 01,Precinct 01,2008,containment,0.9500
 BRADLEY,EAGLE LAKE BAPTIST,11 - Eagle Lake,11 - Eagle Lake,2008,containment,0.9500
 BRADLEY,JOHNSVILLE GROCERY,13 - Johnsville,13 - Johnsville,2008,containment,0.9500
 BRADLEY,SPRINGHILL BAPTIST,08 - Springhill,08 - Springhill,2008,containment,0.9500
@@ -142,17 +140,6 @@ CRITTENDEN,JERICHO,"80 - Wappanocca, Jericho","80 - Wappanocca, Jericho",2008,co
 CRITTENDEN,SUNSET,"75 - Jasper County Box, Sunset","75 - Jasper County Box, Sunset",2008,containment,0.9500
 CROSS,CHERRY VALLEY EMERGENCY SERVICE,Cherry Valley,Cherry Valley,2008,containment,0.9500
 CROSS,HICKORY RIDGE CITY HALL,Hickory Ridge City,Hickory Ridge City,2008,containment,0.9500
-DESHA,04 BOWIE RURAL MCGEHEE DESHA COUNTY COURT BLDG,04 - Bowie Rural,04 - Bowie Rural,2008,containment,0.9500
-DESHA,05 CLAYTON MCARTHUR LT MOUNT OLIVE CHURCH,05 - Clayton McArthur,05 - Clayton McArthur,2008,containment,0.9500
-DESHA,06/07 CLAYTON REED/TILLAR REED CITY HALL,06 - Clayton Reed,06 - Clayton Reed,2008,containment,0.9500
-DESHA,08 FRANKLIN ARKANSAS CITY MUNICIPAL BLDG,08 - Franklin,08 - Franklin,2008,containment,0.9500
-DESHA,09 HALLEY HALLEY FIRE STATION,09 - Halley,09 - Halley,2008,containment,0.9500
-DESHA,10 JEFFERSON RALPH AYECOCK SHOP,10 - Jefferson,10 - Jefferson,2008,containment,0.9500
-DESHA,11 MISSISSIPPI SNOW LAKE BAPTIST CHURCH,11 - Mississippi,11 - Mississippi,2008,containment,0.9500
-DESHA,18 REDFORK WATSON CITY HALL,18 - Redfork,18 - Redfork,2008,containment,0.9500
-DESHA,19 RICHLAND KELSO FIRE STATION,19 - Richland,19 - Richland,2008,containment,0.9500
-DESHA,20 SILVER LAKE PENDLETON GIN,20 - Silver Lake,20 - Silver Lake,2008,containment,0.9500
-DESHA,21 WALNUT LAKE PICKENS GENERAL STORE,21 - Walnut Lake,21 - Walnut Lake,2008,containment,0.9500
 DREW,01 WARD 1,01 - Ward 1,01 - Ward 1,2008,exact,1.0000
 DREW,02 WARD 2,02 - Ward 2,02 - Ward 2,2008,exact,1.0000
 DREW,03 WARD 3,03 - Ward 3,03 - Ward 3,2008,exact,1.0000
@@ -183,17 +170,6 @@ FAULKNER,VILONIA CITY,Vilonia City 21,Vilonia City 21,2008,containment,0.9500
 FAULKNER,WALKER,Walker 38,Walker 38,2008,containment,0.9500
 FAULKNER,WEST CADRON,West Cadron 14,West Cadron 14,2008,containment,0.9500
 FAULKNER,WILSON,Wilson 35,Wilson 35,2008,containment,0.9500
-FRANKLIN,07 3-A (PHILPOT),4-A (Philpot),4-A (Philpot),2008,containment,0.9500
-FRANKLIN,09 3-C(BOSTON),3-C (Boston),3-C (Boston),2008,containment,0.9500
-FRANKLIN,10 3-D (JETHRO),3-D (Jethro),3-D (Jethro),2008,containment,0.9500
-FRANKLIN,11 3-E (WATALULA),3-E (Watalula),3-E (Watalula),2008,containment,0.9500
-FRANKLIN,14 5-A (WALLACE/IVY),5-A (Wallace/Ivy),5-A (Wallace/Ivy),2008,containment,0.9500
-FRANKLIN,17 6-B (ALTUS CITY),6-B (Altus City),6-B (Altus City),2008,containment,0.9500
-FRANKLIN,18 6-C(DENNING),6-C (Denning),6-C (Denning),2008,containment,0.9500
-FRANKLIN,20 7-A ( CECIL),7-A (Cecil),7-A (Cecil),2008,containment,0.9500
-FRANKLIN,22 7-C (ETNA),7-C (Etna),7-C (Etna),2008,containment,0.9500
-FRANKLIN,24 8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2008,containment,0.9500
-FRANKLIN,"25 8-B CHARLESTON,WD.1",8-B (Charleston Wd 1),8-B (Charleston Wd 1),2008,containment,0.9500
 GARLAND,"10C, 12C NEW SALEM UNITED METHODIST CHURCH",012,012,2008,containment,0.9500
 GARLAND,11A ROCK SPRINGS BAPTIST CHURCH,011,011,2008,containment,0.9500
 GARLAND,11B JESSIEVILLE 1ST BAPTIST CHURCH,011,011,2008,containment,0.9500
@@ -260,7 +236,6 @@ HOT SPRING,MONTGOMERY,Montgomery,Montgomery,2008,exact,1.0000
 HOT SPRING,OUACHITA,Ouachita,Ouachita,2008,exact,1.0000
 HOT SPRING,PRAIRIE,Prairie,Prairie,2008,exact,1.0000
 HOT SPRING,VALLEY,Valley,Valley,2008,exact,1.0000
-HOWARD,0005 CENTER POINT 1 & 2,16 - Center Point 1,16 - Center Point 1,2008,containment,0.9500
 HOWARD,0007 DIERKS WARD 3,52 - Dierks Ward 3,52 - Dierks Ward 3,2008,canonical,0.9900
 HOWARD,0011 NASHVILLE WARD 1,24 - Nashville Ward 1,24 - Nashville Ward 1,2008,canonical,0.9900
 HOWARD,0014 NASHVILLE WARD 5,30 - Nashville Ward 5,30 - Nashville Ward 5,2008,canonical,0.9900
@@ -558,11 +533,7 @@ MILLER,29 DODDRIDGE,Doddridge,Doddridge,2008,canonical,0.9900
 MILLER,30 SUGAR HILL,Sugar Hill,Sugar Hill,2008,canonical,0.9900
 MISSISSIPPI,"1A,1B, 1C, 1D, 1E - ALDERSGATE METHODIST CHURCH",01,01,2008,containment,0.9500
 MISSISSIPPI,"3A, 3B, 3C, 3D, 3F - AAMOD BUILDING",03,03,2008,containment,0.9500
-MONROE,08 CACHE & KEEVIL,10 - Cache,10 - Cache,2008,containment,0.9500
-MONROE,10 FARGO COMMUNITY CENTER,19 - Fargo,19 - Fargo,2008,containment,0.9500
-MONROE,11 FIRE STATION #1 - CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2008,containment,0.9500
 MONROE,14 DUNCAN,18 - Duncan Township,18 - Duncan Township,2008,containment,0.9500
-MONROE,15 CLEBURNE/JACKSON/MONTGOMERY-SMALLEY,15 - Cleburne,15 - Cleburne,2008,containment,0.9500
 MONTGOMERY,ALAMO MISSIONARY BAP 01,01 - ALAMO,01 - ALAMO,2008,containment,0.9500
 MONTGOMERY,BLACK SPRINGS COMMUN 02,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2008,containment,0.9500
 MONTGOMERY,CADDO GAP BAPTIST CH 03,03 - CADDO GAP,03 - CADDO GAP,2008,containment,0.9500
@@ -660,7 +631,6 @@ PRAIRIE,18. WHITE RIVER WARD 1,White River Ward 1,White River Ward 1,2008,canoni
 PRAIRIE,19. WHITE RIVER WARD 2,White River Ward 2,White River Ward 2,2008,canonical,0.9900
 PRAIRIE,20. WHITE RIVER WARD 3,White River Ward 3,White River Ward 3,2008,canonical,0.9900
 PRAIRIE,21. WHITE RIVER COUNTRY,White River Country,White River Country,2008,canonical,0.9900
-PULASKI,059 C. A. VINES ARKANSAS 4-H CTR,Precinct 004,Precinct 004,2008,containment,0.9500
 RANDOLPH,DALTON FIRE STATION 01,06 - Dalton,06 - Dalton,2008,containment,0.9500
 RANDOLPH,REYNO COM BLDG 12,14 - Reyno,14 - Reyno,2008,containment,0.9500
 RANDOLPH,WARM SPRINGS FS 15,23 - Warm Springs,23 - Warm Springs,2008,containment,0.9500
@@ -688,7 +658,6 @@ SCOTT,22 MILL CREEK,22 - Mill Creek,22 - Mill Creek,2008,exact,1.0000
 SCOTT,23 MOUNTAIN,23 - Mountain,23 - Mountain,2008,exact,1.0000
 SCOTT,24 MT. PLEASANT,24 - Mt. Pleasant,24 - Mt. Pleasant,2008,exact,1.0000
 SCOTT,25 PARKS,25 - Parks,25 - Parks,2008,exact,1.0000
-SCOTT,26 TOMLINSON,26 - Tomlinson/Tate,26 - Tomlinson/Tate,2008,containment,0.9500
 SEARCY,BEAR CREEK 4,Bear Creek #4,Bear Creek #4,2008,exact,1.0000
 SEARCY,BEAR CREEK 5,Bear Creek #5,Bear Creek #5,2008,exact,1.0000
 SEARCY,BEAR CREEK 6,Bear Creek #6,Bear Creek #6,2008,exact,1.0000
@@ -779,7 +748,6 @@ VAN BUREN,09 CARGILE,09 CARGILE,09 CARGILE,2008,exact,1.0000
 VAN BUREN,10 DAVIS,10 DAVIS,10 DAVIS,2008,exact,1.0000
 VAN BUREN,11 FORMOSA,11 FORMOSA,11 FORMOSA,2008,exact,1.0000
 VAN BUREN,12 EAST GRIGGS,12 EAST GRIGGS,12 EAST GRIGGS,2008,exact,1.0000
-VAN BUREN,15 MOUNTAIN-HARTSUGGS,15 MOUNTAIN,15 MOUNTAIN,2008,containment,0.9500
 VAN BUREN,17 LINN CREEK,17 LINN CREEK,17 LINN CREEK,2008,exact,1.0000
 VAN BUREN,19 RED RIVER,19 RED RIVER,19 RED RIVER,2008,exact,1.0000
 VAN BUREN,20 UNION,20 UNION,20 UNION,2008,exact,1.0000
@@ -929,16 +897,6 @@ BAXTER,PREC 8-4,8-4,8-4,2010,containment,0.9500
 BAXTER,PREC 9-1,9-1,9-1,2010,containment,0.9500
 BAXTER,PREC 9-2,9-2,9-2,2010,containment,0.9500
 BAXTER,PREC 9-3,9-3,9-3,2010,containment,0.9500
-BENTON,32 BENTONVILLE 1ST PRESBY,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,34 BENTONVILLE 1ST BAPTIS,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,35 BENTONVILLE 1ST BAPTIS,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,37 BENTONVILLE 1ST CHRIST,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,43 ROGERS 1ST CH OF NAZAR,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,44 ROGERS 1ST CH OF NAZAR,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,49 LOWELL 1ST BAPTIST,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,50 LOWELL 1ST BAPTIST,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,53 ROGERS 1ST UNITED METH,Precinct 01,Precinct 01,2010,containment,0.9500
-BENTON,75 ROGERS 1ST UNITED METH,Precinct 01,Precinct 01,2010,containment,0.9500
 BRADLEY,BANKS CITY,06 - Banks City,06 - Banks City,2010,canonical,0.9900
 BRADLEY,BANKS RURAL,07 - Banks Rural,07 - Banks Rural,2010,canonical,0.9900
 BRADLEY,EAGLE LAKE,11 - Eagle Lake,11 - Eagle Lake,2010,canonical,0.9900
@@ -1198,10 +1156,8 @@ FRANKLIN,5-A WALLACE/IVY,5-A (Wallace/Ivy),5-A (Wallace/Ivy),2010,exact,1.0000
 FRANKLIN,5-B WEBB CITY,7-B (Webb City),7-B (Webb City),2010,canonical,0.9900
 FRANKLIN,6-B ALTUS CITY,6-B (Altus City),6-B (Altus City),2010,exact,1.0000
 FRANKLIN,6-C DENNING,6-C (Denning),6-C (Denning),2010,exact,1.0000
-FRANKLIN,6-D WEIDERKEHR VILL,6-D (Weiderkehr Village),6-D (Weiderkehr Village),2010,containment,0.9500
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2010,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2010,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2010,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2010,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2010,exact,1.0000
 FRANKLIN,9-A CHARLESTON WD.2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2010,exact,1.0000
@@ -2287,11 +2243,6 @@ ASHLEY,VO-TECH,07 - VO - Tech,07 - VO - Tech,2012,canonical,0.9900
 ASHLEY,WEST CROSSETT RURAL,06 - West Crossett Rural,06 - West Crossett Rural,2012,canonical,0.9900
 ASHLEY,WILMOT CITY,29 - Wilmot City,29 - Wilmot City,2012,canonical,0.9900
 ASHLEY,WILMOT RURAL,30 - Wilmot Rural,30 - Wilmot Rural,2012,canonical,0.9900
-BENTON,14 GARFIELD 1ST BAPTIST CHURCH,Precinct 01,Precinct 01,2012,containment,0.9500
-BENTON,26 BELLA VISTA 1ST UNITED METHODIST CHURCH,Precinct 01,Precinct 01,2012,containment,0.9500
-BENTON,32 BENTONVILLE 1ST PRESBYTERIAN CHURCH,Precinct 01,Precinct 01,2012,containment,0.9500
-BENTON,43 ROGERS 1ST CHURCH OF THE NAZARENE,Precinct 01,Precinct 01,2012,containment,0.9500
-BENTON,53 ROGERS 1ST UNITED METHODIST CHURCH,Precinct 01,Precinct 01,2012,containment,0.9500
 BOONE,DISTRICT 1,District 1,District 1,2012,exact,1.0000
 BOONE,DISTRICT 10,District 10,District 10,2012,exact,1.0000
 BOONE,DISTRICT 11,District 11,District 11,2012,exact,1.0000
@@ -2595,7 +2546,6 @@ FRANKLIN,3-E WATALULA,3-E (Watalula),3-E (Watalula),2012,exact,1.0000
 FRANKLIN,3-F MOUNTAIN,3-F (Mountain),3-F (Mountain),2012,exact,1.0000
 FRANKLIN,4-A PHILPOT,4-A (Philpot),4-A (Philpot),2012,exact,1.0000
 FRANKLIN,4-B WATALULA,4-B (Watalula),4-B (Watalula),2012,exact,1.0000
-FRANKLIN,4-C W.V. RURAL,4-C (WV Rural),4-C (WV Rural),2012,fuzzy_high,0.9524
 FRANKLIN,5-A WALLACE/IVY,5-A (Wallace/Ivy),5-A (Wallace/Ivy),2012,exact,1.0000
 FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2012,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2012,exact,1.0000
@@ -2605,13 +2555,10 @@ FRANKLIN,6-D WEIDERKEHR VILLAGE,6-D (Weiderkehr Village),6-D (Weiderkehr Village
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2012,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2012,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2012,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2012,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2012,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2012,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2012,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2012,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2012,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2012,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD. 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2012,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD. 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2012,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2012,exact,1.0000
@@ -4431,7 +4378,6 @@ FRANKLIN,3-E WATALULA,3-E (Watalula),3-E (Watalula),2014,exact,1.0000
 FRANKLIN,3-F MOUNTAIN,3-F (Mountain),3-F (Mountain),2014,exact,1.0000
 FRANKLIN,4-A PHILPOT,4-A (Philpot),4-A (Philpot),2014,exact,1.0000
 FRANKLIN,4-B WATALULA,4-B (Watalula),4-B (Watalula),2014,exact,1.0000
-FRANKLIN,4-C W.V. RURAL,4-C (WV Rural),4-C (WV Rural),2014,fuzzy_high,0.9524
 FRANKLIN,5-A WALLACE/IVY,5-A (Wallace/Ivy),5-A (Wallace/Ivy),2014,exact,1.0000
 FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2014,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2014,exact,1.0000
@@ -4441,13 +4387,10 @@ FRANKLIN,6-D WEIDERKEHR VILLAGE,6-D (Weiderkehr Village),6-D (Weiderkehr Village
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2014,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2014,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2014,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2014,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2014,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2014,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2014,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2014,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2014,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2014,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD. 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2014,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD. 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2014,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2014,exact,1.0000
@@ -6386,7 +6329,6 @@ FRANKLIN,3-E WATALULA,3-E (Watalula),3-E (Watalula),2016,exact,1.0000
 FRANKLIN,3-F MOUNTAIN,3-F (Mountain),3-F (Mountain),2016,exact,1.0000
 FRANKLIN,4-A PHILPOT,4-A (Philpot),4-A (Philpot),2016,exact,1.0000
 FRANKLIN,4-B WATALULA,4-B (Watalula),4-B (Watalula),2016,exact,1.0000
-FRANKLIN,4-C W.V. RURAL,4-C (WV Rural),4-C (WV Rural),2016,fuzzy_high,0.9524
 FRANKLIN,5-A WALLACE/IVY,5-A (Wallace/Ivy),5-A (Wallace/Ivy),2016,exact,1.0000
 FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2016,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2016,exact,1.0000
@@ -6396,13 +6338,10 @@ FRANKLIN,6-D WEIDERKEHR VILLAGE,6-D (Weiderkehr Village),6-D (Weiderkehr Village
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2016,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2016,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2016,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2016,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2016,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2016,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2016,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2016,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2016,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2016,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD. 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2016,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD. 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2016,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2016,exact,1.0000
@@ -8511,23 +8450,18 @@ FRANKLIN,3-E WATALULA,3-E (Watalula),3-E (Watalula),2018,exact,1.0000
 FRANKLIN,3-F MOUNTAIN,3-F (Mountain),3-F (Mountain),2018,exact,1.0000
 FRANKLIN,4-A PHILPOT,4-A (Philpot),4-A (Philpot),2018,exact,1.0000
 FRANKLIN,4-B WATALULA,4-B (Watalula),4-B (Watalula),2018,exact,1.0000
-FRANKLIN,4-C W-V RURAL,4-C (WV Rural),4-C (WV Rural),2018,fuzzy_high,0.9524
 FRANKLIN,5-A WALLACE/IVY,5-A (Wallace/Ivy),5-A (Wallace/Ivy),2018,exact,1.0000
 FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2018,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2018,exact,1.0000
 FRANKLIN,6-B ALTUS CITY,6-B (Altus City),6-B (Altus City),2018,exact,1.0000
-FRANKLIN,6-C DENNING CITY,6-C (Denning),6-C (Denning),2018,containment,0.9500
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2018,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2018,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2018,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2018,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2018,exact,1.0000
 FRANKLIN,8-B CHARLESTON WD. 1,8-B (Charleston Wd 1),8-B (Charleston Wd 1),2018,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2018,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2018,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2018,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2018,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2018,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD. 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2018,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD. 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2018,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2018,exact,1.0000
@@ -10696,18 +10630,14 @@ FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2020,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2020,exact,1.0000
 FRANKLIN,6-B ALTUS CITY,6-B (Altus City),6-B (Altus City),2020,exact,1.0000
 FRANKLIN,6-C DENNING,6-C (Denning),6-C (Denning),2020,exact,1.0000
-FRANKLIN,6-D WIEDERKEHR VILLAGE,6-D (Weiderkehr Village),6-D (Weiderkehr Village),2020,fuzzy_high,0.9500
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2020,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2020,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2020,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2020,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2020,exact,1.0000
 FRANKLIN,8-B CHARLESTON WD 1,8-B (Charleston Wd 1),8-B (Charleston Wd 1),2020,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2020,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2020,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2020,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2020,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2020,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2020,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2020,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2020,exact,1.0000
@@ -10722,46 +10652,34 @@ FULTON,SOUTHFORK/WILSON,Southfork - Wilson,Southfork - Wilson,2020,exact,1.0000
 FULTON,VIDETTE/BIG CREEK,Vidette - Big Creek,Vidette - Big Creek,2020,exact,1.0000
 FULTON,WASHINGTON,Washington,Washington,2020,exact,1.0000
 GARLAND,011,011,011,2020,exact,1.0000
-GARLAND,012 1C,012,012,2020,containment,0.9500
 GARLAND,013,013,013,2020,exact,1.0000
 GARLAND,014,014,014,2020,exact,1.0000
 GARLAND,021,021,021,2020,exact,1.0000
 GARLAND,022,022,022,2020,exact,1.0000
 GARLAND,023,023,023,2020,exact,1.0000
-GARLAND,024 2T,024,024,2020,containment,0.9500
 GARLAND,031,031,031,2020,exact,1.0000
 GARLAND,032,032,032,2020,exact,1.0000
 GARLAND,033,033,033,2020,exact,1.0000
 GARLAND,034,034,034,2020,exact,1.0000
 GARLAND,041,041,041,2020,exact,1.0000
-GARLAND,042 4C,042,042,2020,containment,0.9500
 GARLAND,043,043,043,2020,exact,1.0000
 GARLAND,044,044,044,2020,exact,1.0000
-GARLAND,051 5A,051,051,2020,containment,0.9500
 GARLAND,052,052,052,2020,exact,1.0000
 GARLAND,053,053,053,2020,exact,1.0000
 GARLAND,054,054,054,2020,exact,1.0000
-GARLAND,061 6K,061,061,2020,containment,0.9500
 GARLAND,062,062,062,2020,exact,1.0000
 GARLAND,063,063,063,2020,exact,1.0000
 GARLAND,064,064,064,2020,exact,1.0000
-GARLAND,065 6S,065,065,2020,containment,0.9500
 GARLAND,071,071,071,2020,exact,1.0000
-GARLAND,072 7B,072,072,2020,containment,0.9500
-GARLAND,073 7C,073,073,2020,containment,0.9500
 GARLAND,074,074,074,2020,exact,1.0000
 GARLAND,081,081,081,2020,exact,1.0000
-GARLAND,082 8C,082,082,2020,containment,0.9500
 GARLAND,083,083,083,2020,exact,1.0000
-GARLAND,084 8F,084,084,2020,containment,0.9500
 GARLAND,091,091,091,2020,exact,1.0000
 GARLAND,092,092,092,2020,exact,1.0000
-GARLAND,093 9R,093,093,2020,containment,0.9500
 GARLAND,094,094,094,2020,exact,1.0000
 GARLAND,095,095,095,2020,exact,1.0000
 GARLAND,101,101,101,2020,exact,1.0000
 GARLAND,102,102,102,2020,exact,1.0000
-GARLAND,103 10H,103,103,2020,containment,0.9500
 GARLAND,104,104,104,2020,exact,1.0000
 GARLAND,111,111,111,2020,exact,1.0000
 GARLAND,112,112,112,2020,exact,1.0000
@@ -12707,7 +12625,6 @@ DREW,WILMAR,16 - Wilmar,16 - Wilmar,2022,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2022,canonical,0.9900
 FRANKLIN,2-C LONELM/CRAVENS,2-C (Lonelm/Cravens),2-C (Lonelm/Cravens),2022,exact,1.0000
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2022,exact,1.0000
-FRANKLIN,3-A 04A LONELM/CRAVENS,3-A (Lonelm/Cravens),3-A (Lonelm/Cravens),2022,containment,0.9500
 FRANKLIN,3-B FERN,3-B (Fern),3-B (Fern),2022,exact,1.0000
 FRANKLIN,3-C BOSTON,3-C (Boston),3-C (Boston),2022,exact,1.0000
 FRANKLIN,3-D JETHRO,3-D (Jethro),3-D (Jethro),2022,exact,1.0000
@@ -12720,17 +12637,13 @@ FRANKLIN,5-C WEBB CITY,5-C (Webb City),5-C (Webb City),2022,exact,1.0000
 FRANKLIN,6-A ALTUS RURAL,6-A (Altus Rural),6-A (Altus Rural),2022,exact,1.0000
 FRANKLIN,6-B ALTUS CITY,6-B (Altus City),6-B (Altus City),2022,exact,1.0000
 FRANKLIN,6-C DENNING,6-C (Denning),6-C (Denning),2022,exact,1.0000
-FRANKLIN,6-D WIEDERKEHR VILLAGE,6-D (Weiderkehr Village),6-D (Weiderkehr Village),2022,fuzzy_high,0.9500
 FRANKLIN,7-A CECIL,7-A (Cecil),7-A (Cecil),2022,exact,1.0000
 FRANKLIN,7-B WEBB CITY,7-B (Webb City),7-B (Webb City),2022,exact,1.0000
 FRANKLIN,7-C ETNA,7-C (Etna),7-C (Etna),2022,exact,1.0000
-FRANKLIN,7-D DONALD,7-D (Donald Rural),7-D (Donald Rural),2022,containment,0.9500
 FRANKLIN,8-A BRANCH CITY,8-A (Branch City),8-A (Branch City),2022,exact,1.0000
 FRANKLIN,8-C CHARLESTON RURAL,8-C (Charleston Rural),8-C (Charleston Rural),2022,exact,1.0000
 FRANKLIN,8-D VESTA,8-D (Vesta),8-D (Vesta),2022,exact,1.0000
-FRANKLIN,8-E DONALD,8-E (Donald Rural),8-E (Donald Rural),2022,containment,0.9500
 FRANKLIN,8-F CECIL,8-F (Cecil),8-F (Cecil),2022,exact,1.0000
-FRANKLIN,8-G DONALD,8-G (Donald Rural),8-G (Donald Rural),2022,containment,0.9500
 FRANKLIN,9-A CHARLESTON WD 2,9-A (Charleston Wd 2),9-A (Charleston Wd 2),2022,exact,1.0000
 FRANKLIN,9-B CHARLESTON WD 3,9-B (Charleston Wd 3),9-B (Charleston Wd 3),2022,exact,1.0000
 FRANKLIN,9-C CHARLESTON RURAL,9-C (Charleston Rural),9-C (Charleston Rural),2022,exact,1.0000
@@ -12746,8 +12659,6 @@ FULTON,VIDETTE/BIG CREEK,Vidette - Big Creek,Vidette - Big Creek,2022,exact,1.00
 FULTON,WASHINGTON,Washington,Washington,2022,exact,1.0000
 GARLAND,101,101,101,2022,exact,1.0000
 GARLAND,102,102,102,2022,exact,1.0000
-GARLAND,103 06,103,103,2022,containment,0.9500
-GARLAND,104 07,104,104,2022,containment,0.9500
 GARLAND,11,011,011,2022,canonical,0.9900
 GARLAND,111,111,111,2022,exact,1.0000
 GARLAND,112,112,112,2022,exact,1.0000
@@ -13175,10 +13086,8 @@ LAFAYETTE,075 OAK GROVE,075 - Oak Grove,075 - Oak Grove,2022,exact,1.0000
 LAFAYETTE,080 PINEY GROVE,080 - Piney Grove,080 - Piney Grove,2022,exact,1.0000
 LAFAYETTE,085 RED RIVER,085 - Red River,085 - Red River,2022,exact,1.0000
 LAFAYETTE,090 SARDIS,090 - Sardis,090 - Sardis,2022,exact,1.0000
-LAFAYETTE,095 STATELINE,095 - State Line,095 - State Line,2022,fuzzy_high,0.9474
 LAFAYETTE,100 WALKER CREEK,100 - Walker Creek,100 - Walker Creek,2022,exact,1.0000
 LAFAYETTE,105 LEWISVILLE OUT,105 - Lewisville Out,105 - Lewisville Out,2022,exact,1.0000
-LAFAYETTE,115 STAMPS WARD 2 OUT,030 - Stamps Ward 2,030 - Stamps Ward 2,2022,containment,0.9500
 LAFAYETTE,120 BUCKNER OUT,120 - Buckner Out,120 - Buckner Out,2022,exact,1.0000
 LAFAYETTE,125 BRADLEY OUT,125 - Bradley Out,125 - Bradley Out,2022,exact,1.0000
 LAWRENCE,ANNIEVILLE,01 - Annieville,01 - Annieville,2022,canonical,0.9900
@@ -14724,11 +14633,8 @@ FULTON,MS/AFTON,MS - Afton,MS - Afton,2024,exact,1.0000
 FULTON,MYATT,Myatt,Myatt,2024,exact,1.0000
 FULTON,PR/SB,PR-SB,PR-SB,2024,exact,1.0000
 FULTON,WASHINGTON,Washington,Washington,2024,exact,1.0000
-GARLAND,014 16,014,014,2024,containment,0.9500
 GARLAND,101,101,101,2024,exact,1.0000
-GARLAND,102 04,102,102,2024,containment,0.9500
 GARLAND,103,103,103,2024,exact,1.0000
-GARLAND,104 07,104,104,2024,containment,0.9500
 GARLAND,11,011,011,2024,canonical,0.9900
 GARLAND,113,113,113,2024,exact,1.0000
 GARLAND,12,012,012,2024,canonical,0.9900

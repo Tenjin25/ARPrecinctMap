@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "governor",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 749849,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 158529,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_containment": 33,
+      "containment": 3,
+      "exact": 136,
+      "numeric_code": 28,
+      "numeric_group": 43
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 59423,
-        "rep_votes": 148993,
-        "other_votes": 4213,
-        "total_votes": 212629,
+        "dem_votes": 59207,
+        "rep_votes": 148687,
+        "other_votes": 4198,
+        "total_votes": 212092,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 89570,
-        "margin_pct": 42.12501587271727,
+        "margin": 89480,
+        "margin_pct": 42.18923863229165,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 105547,
-        "rep_votes": 136912,
-        "other_votes": 4167,
-        "total_votes": 246626,
+        "dem_votes": 106837,
+        "rep_votes": 139045,
+        "other_votes": 4232,
+        "total_votes": 250114,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 31365,
-        "margin_pct": 12.717637232084208,
+        "margin": 32208,
+        "margin_pct": 12.877327938460063,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 85937,
-        "rep_votes": 135237,
-        "other_votes": 4755,
-        "total_votes": 225929,
+        "dem_votes": 85843,
+        "rep_votes": 133901,
+        "other_votes": 4748,
+        "total_votes": 224492,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 49300,
-        "margin_pct": 21.82101456652311,
+        "margin": 48058,
+        "margin_pct": 21.407444363273523,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 68750,
-        "rep_votes": 150863,
-        "other_votes": 3581,
-        "total_votes": 223194,
+        "dem_votes": 67770,
+        "rep_votes": 150372,
+        "other_votes": 3538,
+        "total_votes": 221680,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 82113,
-        "margin_pct": 36.78996747224388,
+        "margin": 82602,
+        "margin_pct": 37.26181883796463,
         "winner": "R"
       }
     }

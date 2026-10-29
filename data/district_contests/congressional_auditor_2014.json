@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "auditor",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 633637,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 154521,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_canonical": 5,
+      "canonical": 65,
+      "exact": 163,
+      "numeric_code": 3,
+      "numeric_group": 19
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 74868,
-        "rep_votes": 107194,
-        "other_votes": 10320,
-        "total_votes": 192382,
+        "dem_votes": 73906,
+        "rep_votes": 106143,
+        "other_votes": 10214,
+        "total_votes": 190263,
         "dem_candidate": "Regina Stewart Hampton",
         "rep_candidate": "Andrea Lea",
-        "margin": 32326,
-        "margin_pct": 16.80302731024732,
+        "margin": 32237,
+        "margin_pct": 16.943388888012908,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 94586,
-        "rep_votes": 122482,
-        "other_votes": 12177,
-        "total_votes": 229245,
+        "dem_votes": 94244,
+        "rep_votes": 125697,
+        "other_votes": 12419,
+        "total_votes": 232360,
         "dem_candidate": "Regina Stewart Hampton",
         "rep_candidate": "Andrea Lea",
-        "margin": 27896,
-        "margin_pct": 12.168640537416302,
+        "margin": 31453,
+        "margin_pct": 13.536322947150973,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 50319,
-        "rep_votes": 109722,
-        "other_votes": 10746,
-        "total_votes": 170787,
+        "dem_votes": 49880,
+        "rep_votes": 108292,
+        "other_votes": 10623,
+        "total_votes": 168795,
         "dem_candidate": "Regina Stewart Hampton",
         "rep_candidate": "Andrea Lea",
-        "margin": 59403,
-        "margin_pct": 34.78192134061726,
+        "margin": 58412,
+        "margin_pct": 34.60529044106757,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 75418,
-        "rep_votes": 110628,
-        "other_votes": 9698,
-        "total_votes": 195744,
+        "dem_votes": 77161,
+        "rep_votes": 109894,
+        "other_votes": 9685,
+        "total_votes": 196740,
         "dem_candidate": "Regina Stewart Hampton",
         "rep_candidate": "Andrea Lea",
-        "margin": 35210,
-        "margin_pct": 17.987779957495505,
+        "margin": 32733,
+        "margin_pct": 16.63769441903019,
         "winner": "R"
       }
     }

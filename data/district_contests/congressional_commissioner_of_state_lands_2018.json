@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "commissioner_of_state_lands",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 717923,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 165112,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_canonical": 5,
+      "canonical": 198,
+      "exact": 27,
+      "numeric_code": 14,
+      "numeric_group": 4
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 69260,
-        "rep_votes": 135044,
-        "other_votes": 6781,
-        "total_votes": 211085,
+        "dem_votes": 68301,
+        "rep_votes": 134952,
+        "other_votes": 6732,
+        "total_votes": 209985,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 65784,
-        "margin_pct": 31.16469668616908,
+        "margin": 66651,
+        "margin_pct": 31.74083863133081,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 103597,
-        "rep_votes": 133681,
-        "other_votes": 8582,
-        "total_votes": 245860,
+        "dem_votes": 104049,
+        "rep_votes": 135844,
+        "other_votes": 8686,
+        "total_votes": 248579,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 30084,
-        "margin_pct": 12.236232001952331,
+        "margin": 31795,
+        "margin_pct": 12.790702352169733,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 72809,
-        "rep_votes": 122703,
-        "other_votes": 7615,
-        "total_votes": 203127,
+        "dem_votes": 70515,
+        "rep_votes": 117039,
+        "other_votes": 7294,
+        "total_votes": 194848,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 49894,
-        "margin_pct": 24.562958149335145,
+        "margin": 46524,
+        "margin_pct": 23.87707341106914,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 78016,
-        "rep_votes": 138802,
-        "other_votes": 6145,
-        "total_votes": 222963,
+        "dem_votes": 80817,
+        "rep_votes": 142395,
+        "other_votes": 6411,
+        "total_votes": 229623,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 60786,
-        "margin_pct": 27.262819391558242,
+        "margin": 61578,
+        "margin_pct": 26.817000039194678,
         "winner": "R"
       }
     }

@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "governor",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 723677,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 167832,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_canonical": 5,
+      "canonical": 198,
+      "exact": 27,
+      "numeric_code": 14,
+      "numeric_group": 4
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 58753,
-        "rep_votes": 146090,
-        "other_votes": 7724,
-        "total_votes": 212567,
+        "dem_votes": 57811,
+        "rep_votes": 145951,
+        "other_votes": 7691,
+        "total_votes": 211453,
         "dem_candidate": "Jared K. Henderson",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 87337,
-        "margin_pct": 41.08681027628936,
+        "margin": 88140,
+        "margin_pct": 41.683021758972444,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 92970,
-        "rep_votes": 150141,
-        "other_votes": 6327,
-        "total_votes": 249438,
+        "dem_votes": 93297,
+        "rep_votes": 152512,
+        "other_votes": 6399,
+        "total_votes": 252208,
         "dem_candidate": "Jared K. Henderson",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 57171,
-        "margin_pct": 22.919923989127557,
+        "margin": 59215,
+        "margin_pct": 23.478636680834867,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 65373,
-        "rep_votes": 134135,
-        "other_votes": 5741,
-        "total_votes": 205249,
+        "dem_votes": 63482,
+        "rep_votes": 127929,
+        "other_votes": 5508,
+        "total_votes": 196919,
         "dem_candidate": "Jared K. Henderson",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 68762,
-        "margin_pct": 33.50174665893622,
+        "margin": 64447,
+        "margin_pct": 32.72766975253785,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 66122,
-        "rep_votes": 152040,
-        "other_votes": 6093,
-        "total_votes": 224255,
+        "dem_votes": 68628,
+        "rep_votes": 156014,
+        "other_votes": 6287,
+        "total_votes": 230929,
         "dem_candidate": "Jared K. Henderson",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 85918,
-        "margin_pct": 38.3126351697844,
+        "margin": 87386,
+        "margin_pct": 37.84106803389786,
         "winner": "R"
       }
     }

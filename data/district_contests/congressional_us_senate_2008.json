@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 817830,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 102819,
+    "split_county_cvap_fallback_vote_total": 90831,
+    "split_precinct_match_coverage": 0.530953,
+    "split_match_methods": {
+      "ambiguous_containment": 42,
+      "containment": 8,
+      "county_cvap_fallback": 7,
+      "numeric_code": 100,
+      "numeric_group": 14
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 207159,
+        "dem_votes": 208066,
         "rep_votes": 0,
-        "other_votes": 49131,
-        "total_votes": 256290,
+        "other_votes": 49383,
+        "total_votes": 257449,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -207159,
-        "margin_pct": 80.82991923211986,
+        "margin": -208066,
+        "margin_pct": 80.81833683564513,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 213181,
+        "dem_votes": 212815,
         "rep_votes": 0,
-        "other_votes": 56981,
-        "total_votes": 270162,
+        "other_votes": 57272,
+        "total_votes": 270087,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -213181,
-        "margin_pct": 78.90858077745945,
+        "margin": -212815,
+        "margin_pct": 78.79498087653238,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 155162,
+        "dem_votes": 156340,
         "rep_votes": 0,
-        "other_votes": 49969,
-        "total_votes": 205131,
+        "other_votes": 50290,
+        "total_votes": 206630,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -155162,
-        "margin_pct": 75.64044439894506,
+        "margin": -156340,
+        "margin_pct": 75.6618109664618,
         "winner": "D"
       },
       "4": {
-        "dem_votes": 228935,
+        "dem_votes": 227216,
         "rep_votes": 0,
-        "other_votes": 50962,
-        "total_votes": 279897,
+        "other_votes": 50098,
+        "total_votes": 277314,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "",
-        "margin": -228935,
-        "margin_pct": 81.79258798772405,
+        "margin": -227216,
+        "margin_pct": 81.93455793793318,
         "winner": "D"
       }
     }

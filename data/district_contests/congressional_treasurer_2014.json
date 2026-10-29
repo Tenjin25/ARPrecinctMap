@@ -3,8 +3,8 @@
   "scope": "congressional",
   "contest_type": "treasurer",
   "meta": {
-    "source": "Certified county totals + 2024 CVAP on 2020 blocks + official 2022 BEFs",
-    "allocation_method": "whole county at 99.9%; block-CVAP shares only for split counties",
+    "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
     "county_rule_threshold": 0.999,
     "whole_counties": 73,
     "split_counties": [
@@ -24,55 +24,68 @@
         }
       }
     ],
+    "whole_county_vote_total": 636524,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 155524,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_canonical": 5,
+      "canonical": 65,
+      "exact": 163,
+      "numeric_code": 3,
+      "numeric_group": 19
+    },
     "matched_vote_coverage": 1.0,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
     "approximate": true
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 73169,
-        "rep_votes": 108258,
-        "other_votes": 11868,
-        "total_votes": 193295,
+        "dem_votes": 72192,
+        "rep_votes": 107239,
+        "other_votes": 11721,
+        "total_votes": 191152,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 35089,
-        "margin_pct": 18.15308207661864,
+        "margin": 35047,
+        "margin_pct": 18.334623754917555,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 94986,
-        "rep_votes": 119972,
-        "other_votes": 15763,
-        "total_votes": 230721,
+        "dem_votes": 94862,
+        "rep_votes": 123089,
+        "other_votes": 15953,
+        "total_votes": 233904,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 24986,
-        "margin_pct": 10.829530038444702,
+        "margin": 28227,
+        "margin_pct": 12.067771393392162,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 50779,
-        "rep_votes": 109809,
-        "other_votes": 11187,
-        "total_votes": 171775,
+        "dem_votes": 50369,
+        "rep_votes": 108344,
+        "other_votes": 11065,
+        "total_votes": 169778,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 59030,
-        "margin_pct": 34.3647212923883,
+        "margin": 57975,
+        "margin_pct": 34.147533838306494,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 76729,
-        "rep_votes": 107715,
-        "other_votes": 11813,
-        "total_votes": 196257,
+        "dem_votes": 78240,
+        "rep_votes": 107082,
+        "other_votes": 11892,
+        "total_votes": 197214,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 30986,
-        "margin_pct": 15.788481429961735,
+        "margin": 28842,
+        "margin_pct": 14.624722382792296,
         "winner": "R"
       }
     }
