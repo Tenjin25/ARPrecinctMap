@@ -74,9 +74,9 @@ def normalize_county_name(value: str) -> str:
 
 def normalize_party(value: str) -> str:
     party = " ".join((value or "").strip().upper().split())
-    if party in {"DEM", "DEMOCRAT", "DEMOCRATIC", "D"}:
+    if party in {"DEM", "DEMOCRAT", "DEMOCRATIC", "DEMOCRATIC PARTY", "D"}:
         return "DEM"
-    if party in {"REP", "REPUBLICAN", "R"}:
+    if party in {"REP", "REPUBLICAN", "REPUBLICAN PARTY", "R"}:
         return "REP"
     return party
 
