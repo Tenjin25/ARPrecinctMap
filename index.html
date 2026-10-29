@@ -613,10 +613,14 @@
       map.fitBounds(bbox, { padding: pad, maxZoom: 10 });
     }
   </script>
-  <script src="./vendor/maplibre-gl.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js'></script>
   <script>
-    // Keep the established mapboxgl API name while using token-free MapLibre.
-    window.mapboxgl = window.maplibregl;
+    // Reduce noisy console errors when ad blockers block Mapbox telemetry (events.mapbox.com).
+    try {
+      if (window.mapboxgl && typeof window.mapboxgl.setTelemetryEnabled === 'function') {
+        window.mapboxgl.setTelemetryEnabled(false);
+      }
+    } catch (_) {}
   </script>
   <script src="./vendor/turf.min.js"></script>
     <meta charset='utf-8'>
@@ -629,7 +633,7 @@
     <meta property="og:description" content="Interactive visualization of Arkansas election results with county, voting district, congressional, and legislative views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link href="./vendor/maplibre-gl.css" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap&v=2026-08-25-typography-tooltip-v2" rel="stylesheet">
@@ -10264,8 +10268,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-29-ar-county-rule-v1';
-    const APP_BUILD_ID = '2026-10-29-ar-county-rule-v1';
+    const DATA_CACHE_BUSTER = '2026-10-29-ar-mapbox-gl-v1';
+    const APP_BUILD_ID = '2026-10-29-ar-mapbox-gl-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10517,21 +10521,17 @@ document.addEventListener('DOMContentLoaded', function() {
       return true;
     }
 
+    mapboxgl.accessToken = CONFIG.mapboxToken;
+    // Silence Mapbox telemetry requests (often blocked by ad blockers, causing noisy console errors).
+    try {
+      if (mapboxgl && typeof mapboxgl.setTelemetryEnabled === 'function') {
+        mapboxgl.setTelemetryEnabled(false);
+      }
+    } catch (_) {}
+
     const map = new mapboxgl.Map({
       container: 'map',
-      style: {
-        version: 8,
-        glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
-        sources: {
-          osm: {
-            type: 'raster',
-            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-            tileSize: 256,
-            attribution: '© OpenStreetMap contributors'
-          }
-        },
-        layers: [{ id: 'osm-basemap', type: 'raster', source: 'osm' }]
-      },
+      style: 'mapbox://styles/mapbox/light-v11',
       center: CONFIG.center,
       zoom: CONFIG.zoom,
       preserveDrawingBuffer: true,
