@@ -393,6 +393,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2548,
+      "rep_votes": 3398,
+      "other_votes": 196,
+      "total_votes": 6142,
+      "dem_candidate": "Mark A. Robertson",
+      "rep_candidate": "John Thurston",
+      "margin": 850,
+      "margin_pct": 13.839140345164441,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 266,
       "rep_votes": 561,
@@ -1899,6 +1915,22 @@
       "margin_pct": 52.603036876355745,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2635,
+      "rep_votes": 7153,
+      "other_votes": 798,
+      "total_votes": 10586,
+      "dem_candidate": "Mark A. Robertson",
+      "rep_candidate": "John Thurston",
+      "margin": 4518,
+      "margin_pct": 42.67901001322502,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 56.09756097560976,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -126,
+      "rep_votes": -34,
+      "other_votes": -4,
+      "total_votes": -164,
+      "dem_candidate": "Mark A. Robertson",
+      "rep_candidate": "John Thurston",
+      "margin": 92,
+      "margin_pct": -56.09756097560976,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2746,
+      "rep_votes": 3828,
+      "other_votes": 999,
+      "total_votes": 7573,
+      "dem_candidate": "Mark A. Robertson",
+      "rep_candidate": "John Thurston",
+      "margin": 1082,
+      "margin_pct": 14.28760068664994,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 42,
       "rep_votes": 52,
@@ -29251,6 +29315,22 @@
       "margin_pct": 23.376623376623375,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4222,
+      "rep_votes": 7013,
+      "other_votes": 666,
+      "total_votes": 11901,
+      "dem_candidate": "Mark A. Robertson",
+      "rep_candidate": "John Thurston",
+      "margin": 2791,
+      "margin_pct": 23.451810772204016,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

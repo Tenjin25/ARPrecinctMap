@@ -393,6 +393,22 @@
       "color": "#dc2626"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2775,
+      "rep_votes": 3267,
+      "other_votes": 179,
+      "total_votes": 6221,
+      "dem_candidate": "Mark Pryor",
+      "rep_candidate": "Tom Cotton",
+      "margin": 492,
+      "margin_pct": 7.90869635106896,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 296,
       "rep_votes": 591,
@@ -1899,6 +1915,22 @@
       "margin_pct": 50.317796610169495,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2884,
+      "rep_votes": 7578,
+      "other_votes": 540,
+      "total_votes": 11002,
+      "dem_candidate": "Mark Pryor",
+      "rep_candidate": "Tom Cotton",
+      "margin": 4694,
+      "margin_pct": 42.664970005453554,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 62.65060240963856,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -134,
+      "rep_votes": -30,
+      "other_votes": -2,
+      "total_votes": -166,
+      "dem_candidate": "Mark Pryor",
+      "rep_candidate": "Tom Cotton",
+      "margin": 104,
+      "margin_pct": -62.65060240963856,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3999,
+      "rep_votes": 3748,
+      "other_votes": 204,
+      "total_votes": 7951,
+      "dem_candidate": "Mark Pryor",
+      "rep_candidate": "Tom Cotton",
+      "margin": -251,
+      "margin_pct": 3.156835618161238,
+      "winner": "D",
+      "color": "#60a5fa",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 52,
       "rep_votes": 53,
@@ -29251,6 +29315,22 @@
       "margin_pct": 38.21656050955414,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4818,
+      "rep_votes": 7253,
+      "other_votes": 310,
+      "total_votes": 12381,
+      "dem_candidate": "Mark Pryor",
+      "rep_candidate": "Tom Cotton",
+      "margin": 2435,
+      "margin_pct": 19.667232049107504,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

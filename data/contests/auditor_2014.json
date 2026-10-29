@@ -393,6 +393,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2560,
+      "rep_votes": 3343,
+      "other_votes": 224,
+      "total_votes": 6127,
+      "dem_candidate": "Regina Stewart Hampton",
+      "rep_candidate": "Andrea Lea",
+      "margin": 783,
+      "margin_pct": 12.779500571242044,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 262,
       "rep_votes": 588,
@@ -1899,6 +1915,22 @@
       "margin_pct": 51.95652173913044,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2592,
+      "rep_votes": 7209,
+      "other_votes": 760,
+      "total_votes": 10561,
+      "dem_candidate": "Regina Stewart Hampton",
+      "rep_candidate": "Andrea Lea",
+      "margin": 4617,
+      "margin_pct": 43.71745099895843,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 57.22891566265061,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -129,
+      "rep_votes": -34,
+      "other_votes": -3,
+      "total_votes": -166,
+      "dem_candidate": "Regina Stewart Hampton",
+      "rep_candidate": "Andrea Lea",
+      "margin": 95,
+      "margin_pct": -57.22891566265061,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3657,
+      "rep_votes": 3684,
+      "other_votes": 302,
+      "total_votes": 7643,
+      "dem_candidate": "Regina Stewart Hampton",
+      "rep_candidate": "Andrea Lea",
+      "margin": 27,
+      "margin_pct": 0.3532644249640194,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 44,
       "rep_votes": 50,
@@ -29251,6 +29315,22 @@
       "margin_pct": 23.56687898089172,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4414,
+      "rep_votes": 6983,
+      "other_votes": 478,
+      "total_votes": 11875,
+      "dem_candidate": "Regina Stewart Hampton",
+      "rep_candidate": "Andrea Lea",
+      "margin": 2569,
+      "margin_pct": 21.633684210526315,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

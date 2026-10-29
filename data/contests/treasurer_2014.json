@@ -393,6 +393,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2572,
+      "rep_votes": 3355,
+      "other_votes": 227,
+      "total_votes": 6154,
+      "dem_candidate": "Karen Sealy Garcia",
+      "rep_candidate": "Dennis Milligan",
+      "margin": 783,
+      "margin_pct": 12.723431914202147,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 265,
       "rep_votes": 582,
@@ -1899,6 +1915,22 @@
       "margin_pct": 51.51843817787418,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2496,
+      "rep_votes": 7401,
+      "other_votes": 725,
+      "total_votes": 10622,
+      "dem_candidate": "Karen Sealy Garcia",
+      "rep_candidate": "Dennis Milligan",
+      "margin": 4905,
+      "margin_pct": 46.17774430427415,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 61.212121212121204,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -131,
+      "rep_votes": -30,
+      "other_votes": -4,
+      "total_votes": -165,
+      "dem_candidate": "Karen Sealy Garcia",
+      "rep_candidate": "Dennis Milligan",
+      "margin": 101,
+      "margin_pct": -61.212121212121204,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3636,
+      "rep_votes": 3573,
+      "other_votes": 467,
+      "total_votes": 7676,
+      "dem_candidate": "Karen Sealy Garcia",
+      "rep_candidate": "Dennis Milligan",
+      "margin": -63,
+      "margin_pct": 0.8207399687337155,
+      "winner": "D",
+      "color": "#60a5fa",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 39,
       "rep_votes": 57,
@@ -29251,6 +29315,22 @@
       "margin_pct": 24.840764331210192,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4427,
+      "rep_votes": 6906,
+      "other_votes": 594,
+      "total_votes": 11927,
+      "dem_candidate": "Karen Sealy Garcia",
+      "rep_candidate": "Dennis Milligan",
+      "margin": 2479,
+      "margin_pct": 20.784774042089378,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

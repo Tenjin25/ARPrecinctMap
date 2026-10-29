@@ -393,6 +393,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2603,
+      "rep_votes": 3398,
+      "other_votes": 132,
+      "total_votes": 6133,
+      "dem_candidate": "John Burkhalter",
+      "rep_candidate": "Tim Griffin",
+      "margin": 795,
+      "margin_pct": 12.962661014185553,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 277,
       "rep_votes": 596,
@@ -1899,6 +1915,22 @@
       "margin_pct": 48.977395048439185,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2630,
+      "rep_votes": 7504,
+      "other_votes": 621,
+      "total_votes": 10755,
+      "dem_candidate": "John Burkhalter",
+      "rep_candidate": "Tim Griffin",
+      "margin": 4874,
+      "margin_pct": 45.318456531845655,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 57.831325301204814,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -129,
+      "rep_votes": -33,
+      "other_votes": -4,
+      "total_votes": -166,
+      "dem_candidate": "John Burkhalter",
+      "rep_candidate": "Tim Griffin",
+      "margin": 96,
+      "margin_pct": -57.831325301204814,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3774,
+      "rep_votes": 3823,
+      "other_votes": 217,
+      "total_votes": 7814,
+      "dem_candidate": "John Burkhalter",
+      "rep_candidate": "Tim Griffin",
+      "margin": 49,
+      "margin_pct": 0.6270796007166625,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 42,
       "rep_votes": 61,
@@ -29251,6 +29315,22 @@
       "margin_pct": 32.278481012658226,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4375,
+      "rep_votes": 7360,
+      "other_votes": 359,
+      "total_votes": 12094,
+      "dem_candidate": "John Burkhalter",
+      "rep_candidate": "Tim Griffin",
+      "margin": 2985,
+      "margin_pct": 24.681660327435093,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

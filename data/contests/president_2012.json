@@ -4241,6 +4241,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "COLUMBIA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3557,
+      "rep_votes": 5790,
+      "other_votes": 108,
+      "total_votes": 9455,
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "margin": 2233,
+      "margin_pct": 23.617133791644633,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2012 Voices of Arkansas",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf"
+    },
+    {
       "county": "CONWAY - ABSENTEE",
       "dem_votes": 220,
       "rep_votes": 87,
@@ -4447,6 +4463,22 @@
       "margin_pct": 63.0,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -160,
+      "rep_votes": -34,
+      "other_votes": -6,
+      "total_votes": -200,
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "margin": 126,
+      "margin_pct": -63.0,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2012 Voices of Arkansas",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -18905,6 +18937,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4633,
+      "rep_votes": 5521,
+      "other_votes": 161,
+      "total_votes": 10315,
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "margin": 888,
+      "margin_pct": 8.608822103732429,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2012 Voices of Arkansas",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 36,
       "rep_votes": 67,
@@ -26391,6 +26439,22 @@
       "margin_pct": 39.59390862944163,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 6196,
+      "rep_votes": 10699,
+      "other_votes": 282,
+      "total_votes": 17177,
+      "dem_candidate": "Barack Obama / Joe Biden",
+      "rep_candidate": "Mitt Romney / Paul Ryan",
+      "margin": 4503,
+      "margin_pct": 26.21528788496245,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2012 Voices of Arkansas",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

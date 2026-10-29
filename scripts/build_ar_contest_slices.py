@@ -40,6 +40,15 @@ def main() -> int:
                         "margin_pct": float(result.get("margin_pct") or 0),
                         "winner": result.get("winner") or "",
                         "color": (result.get("competitiveness") or {}).get("color") or "",
+                        **(
+                            {
+                                "source_scope": result.get("source_scope") or "",
+                                "source_label": result.get("source_label") or "",
+                                "source_url": result.get("source_url") or "",
+                            }
+                            if result.get("source_scope")
+                            else {}
+                        ),
                     }
                 )
 
@@ -52,6 +61,7 @@ def main() -> int:
             (OUTPUT_DIR / file_name).write_text(
                 json.dumps(slice_payload, ensure_ascii=False, indent=2),
                 encoding="utf-8",
+                newline="\n",
             )
             manifest.append(
                 {
@@ -63,12 +73,26 @@ def main() -> int:
                     "counties_present": coverage_by_year.get(str(year), {}).get("counties_present", 75),
                     "counties_expected": coverage_by_year.get(str(year), {}).get("counties_expected", 75),
                     "missing_counties": coverage_by_year.get(str(year), {}).get("missing_counties", []),
+                    **(
+                        {
+                            "county_coverage_complete": coverage_by_year.get(str(year), {}).get("county_coverage_complete", True),
+                            "precinct_coverage_complete": coverage_by_year.get(str(year), {}).get("precinct_coverage_complete", True),
+                            "official_county_fallbacks": coverage_by_year.get(str(year), {}).get("official_county_fallbacks", []),
+                            "official_county_controls": coverage_by_year.get(str(year), {}).get("official_county_controls", []),
+                        }
+                        if (
+                            coverage_by_year.get(str(year), {}).get("official_county_fallbacks")
+                            or coverage_by_year.get(str(year), {}).get("official_county_controls")
+                        )
+                        else {}
+                    ),
                 }
             )
 
     (OUTPUT_DIR / "manifest.json").write_text(
         json.dumps({"state": "Arkansas", "files": manifest}, indent=2),
         encoding="utf-8",
+        newline="\n",
     )
     print(f"Wrote {len(manifest)} contest slices to {OUTPUT_DIR}")
     return 0

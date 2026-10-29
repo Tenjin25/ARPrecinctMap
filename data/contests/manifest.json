@@ -105,91 +105,189 @@
       "year": 2012,
       "contest_type": "president",
       "file": "president_2012.json",
-      "rows": 2331,
-      "partial": false,
-      "counties_present": 72,
+      "rows": 2335,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "COLUMBIA",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "attorney_general",
       "file": "attorney_general_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "auditor",
       "file": "auditor_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "commissioner_of_state_lands",
       "file": "commissioner_of_state_lands_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "governor",
       "file": "governor_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "lieutenant_governor",
       "file": "lieutenant_governor_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "secretary_of_state",
       "file": "secretary_of_state_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "treasurer",
       "file": "treasurer_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2014,
       "contest_type": "us_senate",
       "file": "us_senate_2014.json",
-      "rows": 2563,
-      "partial": false,
-      "counties_present": 71,
+      "rows": 2568,
+      "partial": true,
+      "counties_present": 75,
       "counties_expected": 75,
-      "missing_counties": []
+      "missing_counties": [],
+      "county_coverage_complete": true,
+      "precinct_coverage_complete": false,
+      "official_county_fallbacks": [
+        "ASHLEY",
+        "BOONE",
+        "OUACHITA",
+        "UNION"
+      ],
+      "official_county_controls": [
+        "CONWAY"
+      ]
     },
     {
       "year": 2016,

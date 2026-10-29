@@ -393,6 +393,22 @@
       "color": "#dc2626"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2805,
+      "rep_votes": 3129,
+      "other_votes": 195,
+      "total_votes": 6129,
+      "dem_candidate": "Nate Steel",
+      "rep_candidate": "Leslie Rutledge",
+      "margin": 324,
+      "margin_pct": 5.286343612334802,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 284,
       "rep_votes": 578,
@@ -1899,6 +1915,22 @@
       "margin_pct": 43.13513513513513,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 2740,
+      "rep_votes": 7127,
+      "other_votes": 803,
+      "total_votes": 10670,
+      "dem_candidate": "Nate Steel",
+      "rep_candidate": "Leslie Rutledge",
+      "margin": 4387,
+      "margin_pct": 41.11527647610122,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 60.122699386503065,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -128,
+      "rep_votes": -30,
+      "other_votes": -5,
+      "total_votes": -163,
+      "dem_candidate": "Nate Steel",
+      "rep_candidate": "Leslie Rutledge",
+      "margin": 98,
+      "margin_pct": -60.122699386503065,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3887,
+      "rep_votes": 3541,
+      "other_votes": 311,
+      "total_votes": 7739,
+      "dem_candidate": "Nate Steel",
+      "rep_candidate": "Leslie Rutledge",
+      "margin": -346,
+      "margin_pct": 4.470861868458457,
+      "winner": "D",
+      "color": "#60a5fa",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 51,
       "rep_votes": 55,
@@ -29251,6 +29315,22 @@
       "margin_pct": 19.745222929936308,
       "winner": "R",
       "color": "#dc2626"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4640,
+      "rep_votes": 6913,
+      "other_votes": 407,
+      "total_votes": 11960,
+      "dem_candidate": "Nate Steel",
+      "rep_candidate": "Leslie Rutledge",
+      "margin": 2273,
+      "margin_pct": 19.005016722408026,
+      "winner": "R",
+      "color": "#dc2626",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

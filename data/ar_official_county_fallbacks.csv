@@ -1,0 +1,156 @@
+year,county,office,party,candidate,votes,source_label,source_url,mode
+2012,Columbia,President,LIB,Gary Johnson / James P. Gray,64,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Columbia,President,SOC,Peta Lindsay / Yari Osorio,4,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Columbia,President,DEM,Barack Obama / Joe Biden,3557,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Columbia,President,REP,Mitt Romney / Paul Ryan,5790,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Columbia,President,GRN,Jill Stein / Cheri Honkala,40,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Ouachita,President,LIB,Gary Johnson / James P. Gray,58,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Ouachita,President,SOC,Peta Lindsay / Yari Osorio,16,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Ouachita,President,DEM,Barack Obama / Joe Biden,4633,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Ouachita,President,REP,Mitt Romney / Paul Ryan,5521,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Ouachita,President,GRN,Jill Stein / Cheri Honkala,87,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Union,President,LIB,Gary Johnson / James P. Gray,158,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Union,President,SOC,Peta Lindsay / Yari Osorio,63,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Union,President,DEM,Barack Obama / Joe Biden,6196,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Union,President,REP,Mitt Romney / Paul Ryan,10699,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2012,Union,President,GRN,Jill Stein / Cheri Honkala,61,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf
+2014,Ashley,U.S. Senate,REP,Tom Cotton,3267,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,U.S. Senate,DEM,Mark Pryor,2775,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,U.S. Senate,GRN,Mark H. Swaney,111,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,U.S. Senate,LIB,Nathan LaFrance,66,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,U.S. Senate,WRI,Write-In,2,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,U.S. Senate,REP,Tom Cotton,7578,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,U.S. Senate,DEM,Mark Pryor,2884,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,U.S. Senate,GRN,Mark H. Swaney,262,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,U.S. Senate,LIB,Nathan LaFrance,272,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,U.S. Senate,WRI,Write-In,6,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,U.S. Senate,REP,Tom Cotton,3748,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,U.S. Senate,DEM,Mark Pryor,3999,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,U.S. Senate,GRN,Mark H. Swaney,108,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,U.S. Senate,LIB,Nathan LaFrance,96,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,U.S. Senate,WRI,Write-In,0,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,U.S. Senate,REP,Tom Cotton,7253,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,U.S. Senate,DEM,Mark Pryor,4818,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,U.S. Senate,GRN,Mark H. Swaney,152,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,U.S. Senate,LIB,Nathan LaFrance,158,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,U.S. Senate,WRI,Write-In,0,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Governor,REP,Asa Hutchinson,3037,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Governor,DEM,Mike Ross,3077,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Governor,GRN,J. Joshua Drake,57,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Governor,LIB,Frank Gilbert,75,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Governor,REP,Asa Hutchinson,7363,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Governor,DEM,Mike Ross,3107,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Governor,GRN,J. Joshua Drake,190,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Governor,LIB,Frank Gilbert,322,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Governor,REP,Asa Hutchinson,3456,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Governor,DEM,Mike Ross,4340,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Governor,GRN,J. Joshua Drake,45,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Governor,LIB,Frank Gilbert,79,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Governor,REP,Asa Hutchinson,6626,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Governor,DEM,Mike Ross,5555,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Governor,GRN,J. Joshua Drake,93,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Governor,LIB,Frank Gilbert,150,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Lieutenant Governor,REP,Tim Griffin,3398,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Lieutenant Governor,DEM,John Burkhalter,2603,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Lieutenant Governor,LIB,Christopher Olson,132,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Lieutenant Governor,REP,Tim Griffin,7504,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Lieutenant Governor,DEM,John Burkhalter,2630,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Lieutenant Governor,LIB,Christopher Olson,621,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Lieutenant Governor,REP,Tim Griffin,3823,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Lieutenant Governor,DEM,John Burkhalter,3774,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Lieutenant Governor,LIB,Christopher Olson,217,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Lieutenant Governor,REP,Tim Griffin,7360,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Lieutenant Governor,DEM,John Burkhalter,4375,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Lieutenant Governor,LIB,Christopher Olson,359,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Attorney General,REP,Leslie Rutledge,3129,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Attorney General,DEM,Nate Steel,2805,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Attorney General,LIB,Aaron Cash,195,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Attorney General,REP,Leslie Rutledge,7127,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Attorney General,DEM,Nate Steel,2740,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Attorney General,LIB,Aaron Cash,803,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Attorney General,REP,Leslie Rutledge,3541,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Attorney General,DEM,Nate Steel,3887,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Attorney General,LIB,Aaron Cash,311,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Attorney General,REP,Leslie Rutledge,6913,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Attorney General,DEM,Nate Steel,4640,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Attorney General,LIB,Aaron Cash,407,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Secretary of State,REP,Mark Martin,3669,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Secretary of State,DEM,Susan Inman,2354,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Secretary of State,LIB,Jacob D. Holloway,150,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Secretary of State,REP,Mark Martin,7773,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Secretary of State,DEM,Susan Inman,2426,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Secretary of State,LIB,Jacob D. Holloway,573,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Secretary of State,REP,Mark Martin,4079,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Secretary of State,DEM,Susan Inman,3143,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Secretary of State,LIB,Jacob D. Holloway,473,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Secretary of State,REP,Mark Martin,7365,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Secretary of State,DEM,Susan Inman,4001,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Secretary of State,LIB,Jacob D. Holloway,666,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,State Treasurer,REP,Dennis Milligan,3355,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,State Treasurer,DEM,Karen Sealy Garcia,2572,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,State Treasurer,LIB,Chris Hayes,227,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,State Treasurer,REP,Dennis Milligan,7401,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,State Treasurer,DEM,Karen Sealy Garcia,2496,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,State Treasurer,LIB,Chris Hayes,725,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,State Treasurer,REP,Dennis Milligan,3573,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,State Treasurer,DEM,Karen Sealy Garcia,3636,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,State Treasurer,LIB,Chris Hayes,467,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,State Treasurer,REP,Dennis Milligan,6906,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,State Treasurer,DEM,Karen Sealy Garcia,4427,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,State Treasurer,LIB,Chris Hayes,594,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Auditor of State,REP,Andrea Lea,3343,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Auditor of State,DEM,Regina Stewart Hampton,2560,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Auditor of State,LIB,Brian Leach,224,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Auditor of State,REP,Andrea Lea,7209,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Auditor of State,DEM,Regina Stewart Hampton,2592,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Auditor of State,LIB,Brian Leach,760,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Auditor of State,REP,Andrea Lea,3684,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Auditor of State,DEM,Regina Stewart Hampton,3657,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Auditor of State,LIB,Brian Leach,302,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Auditor of State,REP,Andrea Lea,6983,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Auditor of State,DEM,Regina Stewart Hampton,4414,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Auditor of State,LIB,Brian Leach,478,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Commissioner of State Lands,REP,John Thurston,3398,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Commissioner of State Lands,DEM,Mark A. Robertson,2548,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ashley,Commissioner of State Lands,LIB,Elvis D. Presley,196,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Commissioner of State Lands,REP,John Thurston,7153,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Commissioner of State Lands,DEM,Mark A. Robertson,2635,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Boone,Commissioner of State Lands,LIB,Elvis D. Presley,798,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Commissioner of State Lands,REP,John Thurston,3828,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Commissioner of State Lands,DEM,Mark A. Robertson,2746,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Ouachita,Commissioner of State Lands,LIB,Elvis D. Presley,999,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Commissioner of State Lands,REP,John Thurston,7013,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Commissioner of State Lands,DEM,Mark A. Robertson,4222,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2014,Union,Commissioner of State Lands,LIB,Elvis D. Presley,666,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf
+2012,Conway,President,LIB,Gary Johnson / James P. Gray,105,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf,control_total
+2012,Conway,President,SOC,Peta Lindsay / Yari Osorio,12,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf,control_total
+2012,Conway,President,DEM,Barack Obama / Joe Biden,3005,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf,control_total
+2012,Conway,President,REP,Mitt Romney / Paul Ryan,4514,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf,control_total
+2012,Conway,President,GRN,Jill Stein / Cheri Honkala,94,Arkansas Secretary of State - 2012 Voices of Arkansas,https://www.sos.arkansas.gov/uploads/elections/Voices2012_Web.pdf,control_total
+2014,Conway,U.S. Senate,REP,Tom Cotton,3393,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,U.S. Senate,DEM,Mark Pryor,2703,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,U.S. Senate,GRN,Mark H. Swaney,134,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,U.S. Senate,LIB,Nathan LaFrance,110,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,U.S. Senate,WRI,Write-In,5,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Governor,REP,Asa Hutchinson,3366,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Governor,DEM,Mike Ross,2822,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Governor,GRN,J. Joshua Drake,65,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Governor,LIB,Frank Gilbert,102,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Lieutenant Governor,REP,Tim Griffin,3320,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Lieutenant Governor,DEM,John Burkhalter,2756,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Lieutenant Governor,LIB,Christopher Olson,239,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Attorney General,REP,Leslie Rutledge,2965,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Attorney General,DEM,Nate Steel,2976,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Attorney General,LIB,Aaron Cash,320,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Secretary of State,REP,Mark Martin,3538,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Secretary of State,DEM,Susan Inman,2510,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Secretary of State,LIB,Jacob D. Holloway,246,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,State Treasurer,REP,Dennis Milligan,3240,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,State Treasurer,DEM,Karen Sealy Garcia,2591,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,State Treasurer,LIB,Chris Hayes,418,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Auditor of State,REP,Andrea Lea,3196,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Auditor of State,DEM,Regina Stewart Hampton,2689,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Auditor of State,LIB,Brian Leach,346,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Commissioner of State Lands,REP,John Thurston,3055,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Commissioner of State Lands,DEM,Mark A. Robertson,2855,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total
+2014,Conway,Commissioner of State Lands,LIB,Elvis D. Presley,349,Arkansas Secretary of State - 2014 General Election Official Results,https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf,control_total

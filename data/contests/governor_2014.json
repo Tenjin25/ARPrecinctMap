@@ -393,6 +393,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "ASHLEY - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3077,
+      "rep_votes": 3037,
+      "other_votes": 132,
+      "total_votes": 6246,
+      "dem_candidate": "Mike Ross",
+      "rep_candidate": "Asa Hutchinson",
+      "margin": -40,
+      "margin_pct": 0.6404098623118796,
+      "winner": "D",
+      "color": "#60a5fa",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "BAXTER - 1-APR",
       "dem_votes": 319,
       "rep_votes": 567,
@@ -1899,6 +1915,22 @@
       "margin_pct": 53.17124735729387,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "BOONE - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 3107,
+      "rep_votes": 7363,
+      "other_votes": 512,
+      "total_votes": 10982,
+      "dem_candidate": "Mike Ross",
+      "rep_candidate": "Asa Hutchinson",
+      "margin": 4256,
+      "margin_pct": 38.75432525951557,
+      "winner": "R",
+      "color": "#991b1b",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "BRADLEY - BANKS CITY",
@@ -4434,6 +4466,22 @@
       "margin_pct": 53.65853658536586,
       "winner": "D",
       "color": "#1e3a8a"
+    },
+    {
+      "county": "CONWAY - NG-OFFICIAL COUNTY ADJUSTMENT",
+      "dem_votes": -125,
+      "rep_votes": -37,
+      "other_votes": -2,
+      "total_votes": -164,
+      "dem_candidate": "Mike Ross",
+      "rep_candidate": "Asa Hutchinson",
+      "margin": 88,
+      "margin_pct": -53.65853658536586,
+      "winner": "O",
+      "color": "#d1d5db",
+      "source_scope": "official_county_adjustment",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "CONWAY - NICHOLS",
@@ -21531,6 +21579,22 @@
       "color": "#991b1b"
     },
     {
+      "county": "OUACHITA - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 4340,
+      "rep_votes": 3456,
+      "other_votes": 124,
+      "total_votes": 7920,
+      "dem_candidate": "Mike Ross",
+      "rep_candidate": "Asa Hutchinson",
+      "margin": -884,
+      "margin_pct": 11.16161616161616,
+      "winner": "D",
+      "color": "#2563eb",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
+    },
+    {
       "county": "PERRY - 01-APLIN",
       "dem_votes": 49,
       "rep_votes": 59,
@@ -29251,6 +29315,22 @@
       "margin_pct": 28.749999999999996,
       "winner": "R",
       "color": "#991b1b"
+    },
+    {
+      "county": "UNION - NG-OFFICIAL COUNTY TOTAL",
+      "dem_votes": 5555,
+      "rep_votes": 6626,
+      "other_votes": 243,
+      "total_votes": 12424,
+      "dem_candidate": "Mike Ross",
+      "rep_candidate": "Asa Hutchinson",
+      "margin": 1071,
+      "margin_pct": 8.62041210560206,
+      "winner": "R",
+      "color": "#f87171",
+      "source_scope": "official_county_total",
+      "source_label": "Arkansas Secretary of State - 2014 General Election Official Results",
+      "source_url": "https://www.sos.arkansas.gov/uploads/elections/2014_GE.pdf"
     },
     {
       "county": "VAN BUREN - 02 BARNETT",

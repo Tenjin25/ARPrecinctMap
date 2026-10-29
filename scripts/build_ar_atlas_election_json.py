@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 OUTPUT_PATH = DATA_DIR / "ar_elections_aggregated.json"
+OFFICIAL_COUNTY_FALLBACKS_PATH = DATA_DIR / "ar_official_county_fallbacks.csv"
 
 OFFICE_TYPES = {
     "President": "presidential",
@@ -61,11 +62,6 @@ INPUTS = {
     2022: [DATA_DIR / "20221108__ar__general__precinct.csv"],
     2024: [DATA_DIR / "20241105__ar__general__precinct.csv"],
 }
-
-# These files are maintained as completed statewide releases.  County-name
-# presence is useful as a diagnostic, but is not a completeness test for them.
-AUTHORITATIVE_COMPLETE_YEARS = {2012, 2014}
-
 
 def normalize_county_name(value: str) -> str:
     county = " ".join((value or "").strip().upper().split())
@@ -121,6 +117,9 @@ def main() -> int:
 
     for year, input_paths in INPUTS.items():
         counties_seen: set[str] = set()
+        contest_counties_seen: set[tuple[str, str]] = set()
+        official_county_fallbacks_used: set[str] = set()
+        official_county_controls_used: set[str] = set()
         grouped: dict[tuple[str, str], dict] = defaultdict(
             lambda: {
                 "dem_votes": 0,
@@ -146,12 +145,15 @@ def main() -> int:
                     if not county or not precinct:
                         continue
                     counties_seen.add(county)
+                    contest_counties_seen.add((office_type, county))
                     key = f"{county} - {precinct}"
                     node = grouped[(office_type, key)]
                     votes_raw = str(row.get("votes") or "0").replace(",", "").strip()
                     votes = int(float(votes_raw or 0))
                     party = normalize_party(row.get("party") or "")
                     candidate = normalize_candidate_name(row.get("candidate") or "")
+                    if year == 2008 and office_type == "presidential":
+                        candidate = candidate.split(" and ", 1)[0].strip()
                     if party == "DEM":
                         node["dem_votes"] += votes
                         node["dem_candidate"] = node["dem_candidate"] or candidate
@@ -161,6 +163,92 @@ def main() -> int:
                     else:
                         node["other_votes"] += votes
 
+        # Certified statewide releases provide controls for gaps and occasional
+        # errors in the precinct exports. Keep these as explicit non-geographic
+        # rows so totals reconcile without presenting an aggregate or adjustment
+        # as an observed precinct result.
+        if OFFICIAL_COUNTY_FALLBACKS_PATH.exists():
+            official_groups: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
+            with OFFICIAL_COUNTY_FALLBACKS_PATH.open(
+                newline="", encoding="utf-8-sig"
+            ) as source:
+                for row in csv.DictReader(source):
+                    if int(row.get("year") or 0) != year:
+                        continue
+                    office_type = OFFICE_TYPES.get((row.get("office") or "").strip())
+                    county = normalize_county_name(row.get("county") or "")
+                    if not office_type or not county:
+                        continue
+                    mode = (row.get("mode") or "fill_missing").strip().lower()
+                    official_groups[(office_type, county, mode)].append(row)
+
+            for (office_type, county, mode), rows in official_groups.items():
+                county_is_present = (office_type, county) in contest_counties_seen
+                if mode == "fill_missing" and county_is_present:
+                    continue
+                if mode == "control_total" and not county_is_present:
+                    raise RuntimeError(
+                        f"Official control requested for absent {year} "
+                        f"{office_type} county {county}"
+                    )
+                if mode not in {"fill_missing", "control_total"}:
+                    raise ValueError(f"Unknown official county mode: {mode}")
+
+                official = {
+                    "dem_votes": 0,
+                    "rep_votes": 0,
+                    "other_votes": 0,
+                    "dem_candidate": "",
+                    "rep_candidate": "",
+                }
+                for row in rows:
+                    votes = int(float(str(row.get("votes") or "0").replace(",", "")))
+                    party = normalize_party(row.get("party") or "")
+                    candidate = normalize_candidate_name(row.get("candidate") or "")
+                    if party == "DEM":
+                        official["dem_votes"] += votes
+                        official["dem_candidate"] = official["dem_candidate"] or candidate
+                    elif party == "REP":
+                        official["rep_votes"] += votes
+                        official["rep_candidate"] = official["rep_candidate"] or candidate
+                    else:
+                        official["other_votes"] += votes
+
+                if mode == "control_total":
+                    existing = {"dem_votes": 0, "rep_votes": 0, "other_votes": 0}
+                    prefix = f"{county} - "
+                    for (existing_office, precinct_key), existing_node in grouped.items():
+                        if existing_office != office_type or not precinct_key.startswith(prefix):
+                            continue
+                        for field in existing:
+                            existing[field] += existing_node[field]
+                    values = {
+                        field: official[field] - existing[field]
+                        for field in existing
+                    }
+                    key = f"{county} - NG-OFFICIAL COUNTY ADJUSTMENT"
+                    scope = "official_county_adjustment"
+                    official_county_controls_used.add(county)
+                else:
+                    values = {
+                        field: official[field]
+                        for field in ("dem_votes", "rep_votes", "other_votes")
+                    }
+                    key = f"{county} - NG-OFFICIAL COUNTY TOTAL"
+                    scope = "official_county_total"
+                    official_county_fallbacks_used.add(county)
+
+                if not any(values.values()):
+                    continue
+                node = grouped[(office_type, key)]
+                node.update(values)
+                node["dem_candidate"] = official["dem_candidate"]
+                node["rep_candidate"] = official["rep_candidate"]
+                node["source_scope"] = scope
+                node["source_label"] = rows[0].get("source_label") or ""
+                node["source_url"] = rows[0].get("source_url") or ""
+                counties_seen.add(county)
+
         expected_counties_payload = json.loads(
             (DATA_DIR / "tl_2020_05_county20.geojson").read_text(encoding="utf-8")
         )
@@ -169,18 +257,41 @@ def main() -> int:
             for feature in expected_counties_payload.get("features", [])
         }
         missing_counties = sorted(expected_counties - counties_seen)
-        is_complete = year in AUTHORITATIVE_COMPLETE_YEARS or len(missing_counties) == 0
+        county_coverage_complete = len(missing_counties) == 0
+        precinct_coverage_complete = (
+            county_coverage_complete
+            and not official_county_fallbacks_used
+            and not official_county_controls_used
+        )
         coverage_by_year[str(year)] = {
-            "complete": is_complete,
+            "complete": precinct_coverage_complete,
+            "county_coverage_complete": county_coverage_complete,
+            "precinct_coverage_complete": precinct_coverage_complete,
             "counties_present": len(counties_seen),
             "counties_expected": len(expected_counties),
-            "missing_counties": [] if is_complete else missing_counties,
+            "missing_counties": missing_counties,
+            "official_county_fallbacks": sorted(official_county_fallbacks_used),
+            "official_county_controls": sorted(official_county_controls_used),
         }
-        if not is_complete:
+        if missing_counties:
             print(
                 f"{year}: partial precinct coverage "
                 f"({len(counties_seen)}/{len(expected_counties)} counties; "
                 f"missing {', '.join(missing_counties)})"
+            )
+        elif official_county_fallbacks_used or official_county_controls_used:
+            details = []
+            if official_county_fallbacks_used:
+                details.append(
+                    "fallbacks for " + ", ".join(sorted(official_county_fallbacks_used))
+                )
+            if official_county_controls_used:
+                details.append(
+                    "controls for " + ", ".join(sorted(official_county_controls_used))
+                )
+            print(
+                f"{year}: complete county coverage with official county "
+                + "; ".join(details)
             )
 
         year_payload: dict[str, dict] = {}
@@ -225,6 +336,7 @@ def main() -> int:
     OUTPUT_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
+        newline="\n",
     )
     print(f"Wrote {OUTPUT_PATH} ({OUTPUT_PATH.stat().st_size} bytes)")
     return 0
