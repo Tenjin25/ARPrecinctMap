@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 4,
+      "audited_alias_exact": 130,
+      "canonical": 2,
       "compact_code": 52,
-      "exact": 170,
+      "exact": 42,
       "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 103280,
-        "rep_votes": 96191,
+        "dem_votes": 103488,
+        "rep_votes": 96258,
         "other_votes": 0,
-        "total_votes": 199471,
+        "total_votes": 199746,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -7089,
-        "margin_pct": 3.553900065673707,
+        "margin": -7230,
+        "margin_pct": 3.6195968880478206,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 111763,
-        "rep_votes": 93088,
+        "dem_votes": 111555,
+        "rep_votes": 93021,
         "other_votes": 0,
-        "total_votes": 204851,
+        "total_votes": 204576,
         "dem_candidate": "Shane Broadway",
         "rep_candidate": "Mark Darr",
-        "margin": -18675,
-        "margin_pct": 9.116382150929212,
+        "margin": -18534,
+        "margin_pct": 9.05971374941342,
         "winner": "D"
       },
       "3": {

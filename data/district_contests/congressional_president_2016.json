@@ -30,11 +30,14 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 13,
+      "audited_alias_exact": 137,
+      "canonical": 4,
       "compact_code": 69,
-      "exact": 164
+      "exact": 36
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -43,25 +46,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 81382,
-        "rep_votes": 177826,
-        "other_votes": 13396,
-        "total_votes": 272604,
+        "dem_votes": 82754,
+        "rep_votes": 178635,
+        "other_votes": 13471,
+        "total_votes": 274860,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 96444,
-        "margin_pct": 35.37879121362856,
+        "margin": 95881,
+        "margin_pct": 34.88357709379321,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 121448,
-        "rep_votes": 167530,
-        "other_votes": 18491,
-        "total_votes": 307469,
+        "dem_votes": 120848,
+        "rep_votes": 166862,
+        "other_votes": 18434,
+        "total_votes": 306144,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 46082,
-        "margin_pct": 14.987527197863852,
+        "margin": 46014,
+        "margin_pct": 15.030181875195986,
         "winner": "R"
       },
       "3": {
@@ -76,14 +79,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 85036,
-        "rep_votes": 167098,
-        "other_votes": 39188,
-        "total_votes": 291322,
+        "dem_votes": 94440,
+        "rep_votes": 182764,
+        "other_votes": 13187,
+        "total_votes": 290391,
         "dem_candidate": "Hillary Clinton / Tim Kaine",
         "rep_candidate": "Donald J. Trump / Michael R. Pence",
-        "margin": 82062,
-        "margin_pct": 28.168830366398694,
+        "margin": 88324,
+        "margin_pct": 30.415543181434685,
         "winner": "R"
       }
     }

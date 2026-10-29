@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 53210,
-        "rep_votes": 155179,
+        "dem_votes": 52738,
+        "rep_votes": 155953,
         "other_votes": 0,
-        "total_votes": 208389,
+        "total_votes": 208691,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 101969,
-        "margin_pct": 48.93204535748048,
+        "margin": 103215,
+        "margin_pct": 49.45829000771476,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 90880,
-        "rep_votes": 154453,
+        "dem_votes": 92132,
+        "rep_votes": 154122,
         "other_votes": 0,
-        "total_votes": 245333,
+        "total_votes": 246254,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 63573,
-        "margin_pct": 25.91294281649839,
+        "margin": 61990,
+        "margin_pct": 25.173195156220814,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 59296,
-        "rep_votes": 156117,
+        "dem_votes": 58516,
+        "rep_votes": 155674,
         "other_votes": 0,
-        "total_votes": 215413,
+        "total_votes": 214190,
         "dem_candidate": "Darlene Goldi Gaines",
         "rep_candidate": "Tommy Land",
-        "margin": 96821,
-        "margin_pct": 44.9466838120262,
+        "margin": 97158,
+        "margin_pct": 45.36066109528923,
         "winner": "R"
       }
     }

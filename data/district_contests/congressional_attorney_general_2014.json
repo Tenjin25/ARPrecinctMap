@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 66,
-      "exact": 163,
+      "exact": 35,
       "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 85676,
-        "rep_votes": 106828,
-        "other_votes": 10221,
-        "total_votes": 202725,
+        "dem_votes": 86728,
+        "rep_votes": 107385,
+        "other_votes": 10286,
+        "total_votes": 204399,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 21152,
-        "margin_pct": 10.433838944382783,
+        "margin": 20657,
+        "margin_pct": 10.106213826877822,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 109828,
-        "rep_votes": 114761,
-        "other_votes": 11549,
-        "total_votes": 236138,
+        "dem_votes": 109381,
+        "rep_votes": 114308,
+        "other_votes": 11495,
+        "total_votes": 235184,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 4933,
-        "margin_pct": 2.0890326842778375,
+        "margin": 4927,
+        "margin_pct": 2.09495543914552,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 99988,
-        "rep_votes": 113038,
-        "other_votes": 10230,
-        "total_votes": 223256,
+        "dem_votes": 99383,
+        "rep_votes": 112934,
+        "other_votes": 10219,
+        "total_votes": 222536,
         "dem_candidate": "Nate Steel",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 13050,
-        "margin_pct": 5.84530762891031,
+        "margin": 13551,
+        "margin_pct": 6.089351835208685,
         "winner": "R"
       }
     }

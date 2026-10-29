@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 53223,
-        "rep_votes": 149772,
-        "other_votes": 7087,
-        "total_votes": 210082,
+        "dem_votes": 52874,
+        "rep_votes": 150438,
+        "other_votes": 7077,
+        "total_votes": 210389,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 96549,
-        "margin_pct": 45.957768871202674,
+        "margin": 97564,
+        "margin_pct": 46.373146885055775,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 95758,
-        "rep_votes": 142484,
-        "other_votes": 10181,
-        "total_votes": 248423,
+        "dem_votes": 96850,
+        "rep_votes": 142296,
+        "other_votes": 10198,
+        "total_votes": 249344,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 46726,
-        "margin_pct": 18.809047471449905,
+        "margin": 45446,
+        "margin_pct": 18.22622561601643,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 60698,
-        "rep_votes": 150017,
-        "other_votes": 6955,
-        "total_votes": 217670,
+        "dem_votes": 59955,
+        "rep_votes": 149539,
+        "other_votes": 6948,
+        "total_votes": 216442,
         "dem_candidate": "Kelly Ross Krout",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 89319,
-        "margin_pct": 41.03413423990444,
+        "margin": 89584,
+        "margin_pct": 41.38937914083219,
         "winner": "R"
       }
     }

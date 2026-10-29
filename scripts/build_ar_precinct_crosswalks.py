@@ -143,6 +143,25 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
         if len(compact_matches) > 1:
             return {"method": "compact_code_group", "score": 0.987, "targets": compact_matches}
 
+        # Garland County historically reported ballot-style suffixes such as
+        # "09R" while later Census VTDs encode the same precinct family as
+        # 091-095.  When the target set is purely numeric, retain every VTD
+        # in that two-digit family instead of treating the row as unmatched.
+        family = re.fullmatch(r"0*(\d{1,2})[A-Z][A-Z0-9]*", source_compact)
+        if family:
+            family_number = int(family.group(1))
+            family_matches = []
+            for item in targets:
+                target_name = clean_label(item.get("name") or "")
+                if not re.fullmatch(r"\d{3}", target_name):
+                    continue
+                if int(target_name) // 10 == family_number:
+                    family_matches.append(item)
+            if len(family_matches) == 1:
+                return {"method": "numeric_code", "score": 0.976, "targets": family_matches}
+            if len(family_matches) > 1:
+                return {"method": "numeric_family_group", "score": 0.972, "targets": family_matches}
+
     canonical_matches = [item for item in targets if item["canonical"] == canonical]
     if len(canonical_matches) == 1:
         return {"method": "canonical", "score": 0.99, "targets": canonical_matches}
@@ -177,6 +196,8 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
         and not any(token.isdigit() for token in structural.split())
         and (item["structural"] if "structural" in item else structural_label(item["name"])).startswith(structural + " ")
     ]
+    if len(structural_group) == 1:
+        return {"method": "structural_prefix", "score": 0.971, "targets": structural_group}
     if len(structural_group) > 1:
         return {"method": "structural_group", "score": 0.97, "targets": structural_group}
 

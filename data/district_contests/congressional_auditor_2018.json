@@ -30,11 +30,14 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 13,
+      "audited_alias_exact": 137,
+      "canonical": 4,
       "compact_code": 71,
-      "exact": 164
+      "exact": 36
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,24 +47,24 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 154535,
-        "other_votes": 48996,
-        "total_votes": 203531,
+        "rep_votes": 155404,
+        "other_votes": 49920,
+        "total_votes": 205324,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 154535,
-        "margin_pct": 75.92700866207113,
+        "margin": 155404,
+        "margin_pct": 75.6872065613372,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 166454,
-        "other_votes": 75451,
-        "total_votes": 241905,
+        "rep_votes": 165769,
+        "other_votes": 75022,
+        "total_votes": 240791,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 166454,
-        "margin_pct": 68.80965668340878,
+        "margin": 165769,
+        "margin_pct": 68.84351989899955,
         "winner": "R"
       },
       "3": {
@@ -77,13 +80,13 @@
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 159974,
-        "other_votes": 55648,
-        "total_votes": 215622,
+        "rep_votes": 159790,
+        "other_votes": 55153,
+        "total_votes": 214943,
         "dem_candidate": "",
         "rep_candidate": "Andrea Lea",
-        "margin": 159974,
-        "margin_pct": 74.19187281446234,
+        "margin": 159790,
+        "margin_pct": 74.34063914619225,
         "winner": "R"
       }
     }

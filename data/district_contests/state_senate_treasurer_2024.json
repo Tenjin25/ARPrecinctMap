@@ -250,6 +250,8 @@
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {},
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 35,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": false,

@@ -30,11 +30,14 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 70,
-      "exact": 163
+      "exact": 35
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -43,25 +46,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 96591,
-        "rep_votes": 162742,
-        "other_votes": 7225,
-        "total_votes": 266558,
+        "dem_votes": 96943,
+        "rep_votes": 162860,
+        "other_votes": 7233,
+        "total_votes": 267036,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 66151,
-        "margin_pct": 24.81673782066192,
+        "margin": 65917,
+        "margin_pct": 24.684686708908163,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 118503,
-        "rep_votes": 165465,
-        "other_votes": 7004,
-        "total_votes": 290972,
+        "dem_votes": 118151,
+        "rep_votes": 165347,
+        "other_votes": 6996,
+        "total_votes": 290494,
         "dem_candidate": "Barack Obama / Joe Biden",
         "rep_candidate": "Mitt Romney / Paul Ryan",
-        "margin": 46962,
-        "margin_pct": 16.139697290460937,
+        "margin": 47196,
+        "margin_pct": 16.246807162970665,
         "winner": "R"
       },
       "3": {

@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 4,
+      "audited_alias_exact": 130,
+      "canonical": 2,
       "compact_code": 52,
-      "exact": 170,
+      "exact": 42,
       "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 142440,
+        "dem_votes": 142676,
         "rep_votes": 0,
-        "other_votes": 48181,
-        "total_votes": 190621,
+        "other_votes": 48215,
+        "total_votes": 190891,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -142440,
-        "margin_pct": 74.72419093384255,
+        "margin": -142676,
+        "margin_pct": 74.74213032568325,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 143852,
+        "dem_votes": 143616,
         "rep_votes": 0,
-        "other_votes": 50235,
-        "total_votes": 194087,
+        "other_votes": 50201,
+        "total_votes": 193817,
         "dem_candidate": "Dustin McDaniel",
         "rep_candidate": "",
-        "margin": -143852,
-        "margin_pct": 74.11727730347731,
+        "margin": -143616,
+        "margin_pct": 74.09876326638015,
         "winner": "D"
       },
       "3": {

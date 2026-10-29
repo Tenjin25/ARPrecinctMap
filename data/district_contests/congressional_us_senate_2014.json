@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 66,
-      "exact": 163,
+      "exact": 35,
       "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 81281,
-        "rep_votes": 116425,
-        "other_votes": 8698,
-        "total_votes": 206404,
+        "dem_votes": 82333,
+        "rep_votes": 117025,
+        "other_votes": 8737,
+        "total_votes": 208095,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 35144,
-        "margin_pct": 17.026801806166546,
+        "margin": 34692,
+        "margin_pct": 16.671231889281337,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 102958,
-        "rep_votes": 127532,
-        "other_votes": 8839,
-        "total_votes": 239329,
+        "dem_votes": 102524,
+        "rep_votes": 127038,
+        "other_votes": 8811,
+        "total_votes": 238373,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 24574,
-        "margin_pct": 10.267873930865044,
+        "margin": 24514,
+        "margin_pct": 10.283882822299507,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 92169,
-        "rep_votes": 126180,
-        "other_votes": 8447,
-        "total_votes": 226796,
+        "dem_votes": 91551,
+        "rep_votes": 126074,
+        "other_votes": 8436,
+        "total_votes": 226061,
         "dem_candidate": "Mark Pryor",
         "rep_candidate": "Tom Cotton",
-        "margin": 34011,
-        "margin_pct": 14.99629623097409,
+        "margin": 34523,
+        "margin_pct": 15.271541752004989,
         "winner": "R"
       }
     }

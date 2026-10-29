@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 4,
+      "audited_alias_exact": 130,
+      "canonical": 2,
       "compact_code": 52,
-      "exact": 170,
+      "exact": 42,
       "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 84436,
-        "rep_votes": 108845,
-        "other_votes": 11759,
-        "total_votes": 205040,
+        "dem_votes": 84626,
+        "rep_votes": 108928,
+        "other_votes": 11766,
+        "total_votes": 205320,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 24409,
-        "margin_pct": 11.90450643776824,
+        "margin": 24302,
+        "margin_pct": 11.836158192090396,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 83718,
-        "rep_votes": 115087,
-        "other_votes": 8963,
-        "total_votes": 207768,
+        "dem_votes": 83528,
+        "rep_votes": 115004,
+        "other_votes": 8956,
+        "total_votes": 207488,
         "dem_candidate": "Blanche Lambert Lincoln",
         "rep_candidate": "Congressman John Boozman",
-        "margin": 31369,
-        "margin_pct": 15.09809017750568,
+        "margin": 31476,
+        "margin_pct": 15.17003392967304,
         "winner": "R"
       },
       "3": {

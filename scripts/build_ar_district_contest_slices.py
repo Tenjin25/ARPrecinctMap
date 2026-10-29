@@ -25,7 +25,8 @@ SOURCE_PATH = DATA_DIR / "ar_elections_aggregated.json"
 CROSSWALK_DIR = DATA_DIR / "crosswalks"
 OUTPUT_DIR = DATA_DIR / "district_contests"
 SAFE_METHODS = {
-    "exact", "canonical", "compact_code", "structural", "abbreviation", "numeric_code", "containment", "fuzzy_high"
+    "exact", "canonical", "compact_code", "structural", "structural_prefix",
+    "abbreviation", "numeric_code", "containment", "fuzzy_high"
 }
 DISTRICT_SAFE_METHODS = {
     "ambiguous_canonical",
@@ -35,12 +36,14 @@ DISTRICT_SAFE_METHODS = {
     "structural_group",
     "numeric_group",
     "compact_code_group",
+    "numeric_family_group",
 }
 SCOPES = ("congressional", "state_house", "state_senate")
 NC_RULE_MIN_COVERAGE = 0.999
 BLOCK_2024_PATH = DATA_DIR / "ar_2024_gen_2020_blocks_csv.zip"
 CVAP_BLOCK_PATH = DATA_DIR / "ar_cvap_2024_2020_b_csv.zip"
 REPORTING_2024_CROSSWALK = CROSSWALK_DIR / "precinct2024_to_2022_districts.csv"
+PRECINCT_ALIASES_PATH = DATA_DIR / "ar_precinct_aliases.csv"
 BLOCK_2024_FIELDS = {
     "president": {
         "dem": ("G24PREDHAR",),
@@ -92,6 +95,33 @@ def load_crosswalk(vintage: int, path: Path | None = None):
             targets_by_county[county][vtd_key]["basis_total_by_scope"][row["scope"]] = basis_total
             weights[vtd_key][row["scope"]][row["district"]] = float(row["weight"])
     return {county: list(items.values()) for county, items in targets_by_county.items()}, weights
+
+
+def load_precinct_aliases() -> dict[tuple[int, str, str], str]:
+    """Load audited one-to-one historical precinct aliases to 2020 VTD labels."""
+    if not PRECINCT_ALIASES_PATH.exists():
+        return {}
+    aliases: dict[tuple[int, str, str], str] = {}
+    consensus: dict[tuple[str, str], set[str]] = defaultdict(set)
+    with PRECINCT_ALIASES_PATH.open(newline="", encoding="utf-8-sig") as source:
+        for row in csv.DictReader(source):
+            try:
+                year = int(row.get("election_year") or 0)
+            except ValueError:
+                continue
+            county = atlas.normalize_county_name(row.get("county_norm") or "")
+            precinct = clean_label(row.get("precinct_norm") or "")
+            target = str(row.get("canonical_label") or row.get("prctseq_2024") or "").strip()
+            if year and county and precinct and target:
+                aliases[(year, county, precinct)] = target
+                consensus[(county, precinct)].add(target)
+    # Polling-place labels often persist even when one election's export is
+    # truncated or formatted differently. Reuse a cross-year alias only when
+    # every audited occurrence points to the same 2020 VTD.
+    for (county, precinct), targets in consensus.items():
+        if len(targets) == 1:
+            aliases[(0, county, precinct)] = next(iter(targets))
+    return aliases
 
 
 def finish_result(node: dict, dem_candidate: str, rep_candidate: str) -> dict:
@@ -313,10 +343,23 @@ def resolve_precinct_weights(
     scope: str,
     crosswalks: dict[int, tuple[dict, dict]],
     reporting_2024: tuple[dict, dict] | None,
+    aliases: dict[tuple[int, str, str], str] | None = None,
 ) -> tuple[dict[str, float], str]:
     regional = resolve_named_region_weights(year, county, precinct, scope, crosswalks)
     if regional:
         return regional, "named_region"
+    precinct_clean = clean_label(precinct)
+    alias = (aliases or {}).get((year, county, precinct_clean)) or (aliases or {}).get(
+        (0, county, precinct_clean)
+    )
+    if alias:
+        alias_targets, alias_weights = crosswalks[2020]
+        alias_match = match_precinct(alias, alias_targets.get(county, []))
+        alias_matches = list(alias_match.get("targets") or [])
+        if len(alias_matches) == 1:
+            resolved = combine_target_weights(alias_matches, alias_weights, scope)
+            if resolved:
+                return resolved, f"audited_alias_{alias_match['method']}"
     options = precinct_weight_options(year, county, precinct, crosswalks, reporting_2024)
     method_rank = {
         "exact": 100,
@@ -329,6 +372,7 @@ def resolve_precinct_weights(
         "fuzzy_high": 78,
         "structural_group": 76,
         "compact_code_group": 75,
+        "numeric_family_group": 77,
         "numeric_group": 74,
         "ambiguous_canonical": 68,
         "ambiguous_structural": 66,
@@ -345,7 +389,7 @@ def resolve_precinct_weights(
             continue
         if method not in DISTRICT_SAFE_METHODS or not matches:
             continue
-        if method in {"structural_group", "compact_code_group", "numeric_group"}:
+        if method in {"structural_group", "compact_code_group", "numeric_family_group", "numeric_group"}:
             resolved = combine_target_weights(matches, active_weights, scope)
             if resolved:
                 resolved_options.append((method_rank.get(method, 0), -order, resolved, method))
@@ -413,8 +457,17 @@ def load_2024_block_party_weights() -> dict:
 
 def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
     county_weights, diagnostics = load_county_cvap_weights()
+    expected_districts = {
+        scope: {
+            district
+            for weights_by_district in county_weights[scope].values()
+            for district in weights_by_district
+        }
+        for scope in SCOPES
+    }
     crosswalks = {vintage: load_crosswalk(vintage) for vintage in (2000, 2010, 2020)}
     reporting_2024 = load_crosswalk(2024, REPORTING_2024_CROSSWALK) if REPORTING_2024_CROSSWALK.exists() else None
+    aliases = load_precinct_aliases()
     block_party_weights = load_2024_block_party_weights()
     manifest: list[dict] = []
     for year_text, contests in sorted(payload["results_by_year"].items()):
@@ -477,6 +530,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                             scope,
                             crosswalks,
                             reporting_2024,
+                            aliases,
                         )
                         precinct_vote_total = sum(
                             int(result.get(party) or 0)
@@ -503,6 +557,14 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                     district: finish_result(values, candidates["dem"], candidates["rep"])
                     for district, values in sorted(aggregates.items(), key=lambda item: int(item[0]))
                 }
+                missing_districts = sorted(
+                    expected_districts[scope] - set(results), key=int
+                )
+                if missing_districts:
+                    raise RuntimeError(
+                        f"{year} {contest_type} {scope} omitted districts: "
+                        + ", ".join(missing_districts)
+                    )
                 file_name = f"{scope}_{contest_type}_{year}.json"
                 node = {
                     "year": year,
@@ -524,6 +586,8 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                         "split_precinct_match_coverage": round(split_match_coverage, 6),
                         "split_match_methods": dict(sorted(match_methods.items())),
                         "matched_vote_coverage": 1.0,
+                        "district_coverage_complete": True,
+                        "district_count": len(results),
                         "statewide_totals_preserved": True,
                         "reconciles_precinct_votes": False,
                         "precinct_name_matching": bool(split_precinct_votes),

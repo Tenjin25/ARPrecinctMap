@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 66,
-      "exact": 163,
+      "exact": 35,
       "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 87168,
-        "rep_votes": 112244,
-        "other_votes": 6907,
-        "total_votes": 206319,
+        "dem_votes": 88248,
+        "rep_votes": 112839,
+        "other_votes": 6926,
+        "total_votes": 208013,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 25076,
-        "margin_pct": 12.153994542431864,
+        "margin": 24591,
+        "margin_pct": 11.821857287765669,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 104777,
-        "rep_votes": 127959,
-        "other_votes": 6875,
-        "total_votes": 239611,
+        "dem_votes": 104304,
+        "rep_votes": 127486,
+        "other_votes": 6861,
+        "total_votes": 238651,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
         "margin": 23182,
-        "margin_pct": 9.674847982772077,
+        "margin_pct": 9.713766127106108,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 102280,
-        "rep_votes": 119335,
-        "other_votes": 5928,
-        "total_votes": 227543,
+        "dem_votes": 101673,
+        "rep_votes": 119213,
+        "other_votes": 5923,
+        "total_votes": 226809,
         "dem_candidate": "Mike Ross",
         "rep_candidate": "Asa Hutchinson",
-        "margin": 17055,
-        "margin_pct": 7.495286605169133,
+        "margin": 17540,
+        "margin_pct": 7.733379186892936,
         "winner": "R"
       }
     }

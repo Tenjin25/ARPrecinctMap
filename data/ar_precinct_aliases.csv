@@ -155,32 +155,6 @@ DREW,14 SELMA,14 - Selma,14 - Selma,2008,exact,1.0000
 DREW,15 TILLAR,15 - Tillar,15 - Tillar,2008,exact,1.0000
 DREW,16 WILMAR,16 - Wilmar,16 - Wilmar,2008,exact,1.0000
 DREW,17 WINCHESTER,17 - Winchester,17 - Winchester,2008,exact,1.0000
-FAULKNER,CALIFORNIA,California 18,California 18,2008,containment,0.9500
-FAULKNER,CLIFTON,Clifton 19,Clifton 19,2008,containment,0.9500
-FAULKNER,DANLEY CITY,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2008,containment,0.9500
-FAULKNER,EAGLE,Eagle 25,Eagle 25,2008,containment,0.9500
-FAULKNER,EAST FORK,East Fork 26,East Fork 26,2008,containment,0.9500
-FAULKNER,ENOLA,Enola 27,Enola 27,2008,containment,0.9500
-FAULKNER,HARDIN RURAL,Hardin Rural 28,Hardin Rural 28,2008,containment,0.9500
-FAULKNER,HARVE,Harve 30,Harve 30,2008,containment,0.9500
-FAULKNER,MATTHEWS,Matthews 31,Matthews 31,2008,containment,0.9500
-FAULKNER,PALARM,Palarm 39,Palarm 39,2008,containment,0.9500
-FAULKNER,UNION,Union 37,Union 37,2008,containment,0.9500
-FAULKNER,VILONIA CITY,Vilonia City 21,Vilonia City 21,2008,containment,0.9500
-FAULKNER,WALKER,Walker 38,Walker 38,2008,containment,0.9500
-FAULKNER,WEST CADRON,West Cadron 14,West Cadron 14,2008,containment,0.9500
-FAULKNER,WILSON,Wilson 35,Wilson 35,2008,containment,0.9500
-GARLAND,"10C, 12C NEW SALEM UNITED METHODIST CHURCH",012,012,2008,containment,0.9500
-GARLAND,11A ROCK SPRINGS BAPTIST CHURCH,011,011,2008,containment,0.9500
-GARLAND,11B JESSIEVILLE 1ST BAPTIST CHURCH,011,011,2008,containment,0.9500
-GARLAND,11C VILLAGE CHURCH OF CHRIST,011,011,2008,containment,0.9500
-GARLAND,11D BARCELONA BAPTIST CHURCH,011,011,2008,containment,0.9500
-GARLAND,11E CHRIST LUTHERAN CHURCH,011,011,2008,containment,0.9500
-GARLAND,"12A, 12D MOUNTAIN PINE SCHOOL",012,012,2008,containment,0.9500
-GARLAND,12E KIRK IN THE PINES PRESBYTERIAN CHURCH,012,012,2008,containment,0.9500
-GARLAND,"13A,13B VILLAGE BIBLE CHURCH",013,013,2008,containment,0.9500
-GARLAND,13E CUTTER MORNING STAR SCHOOL,013,013,2008,containment,0.9500
-GARLAND,"13F, 13G LONSDALE CITY HALL",013,013,2008,containment,0.9500
 GRANT,1 CALVERT,01 - Calvert,01 - Calvert,2008,canonical,0.9900
 GRANT,10 MERRY GREEN 2,12 - Merry Green 2,12 - Merry Green 2,2008,canonical,0.9900
 GRANT,11 RIVER,13 - River,13 - River,2008,canonical,0.9900
@@ -533,7 +507,6 @@ MILLER,29 DODDRIDGE,Doddridge,Doddridge,2008,canonical,0.9900
 MILLER,30 SUGAR HILL,Sugar Hill,Sugar Hill,2008,canonical,0.9900
 MISSISSIPPI,"1A,1B, 1C, 1D, 1E - ALDERSGATE METHODIST CHURCH",01,01,2008,containment,0.9500
 MISSISSIPPI,"3A, 3B, 3C, 3D, 3F - AAMOD BUILDING",03,03,2008,containment,0.9500
-MONROE,14 DUNCAN,18 - Duncan Township,18 - Duncan Township,2008,containment,0.9500
 MONTGOMERY,ALAMO MISSIONARY BAP 01,01 - ALAMO,01 - ALAMO,2008,containment,0.9500
 MONTGOMERY,BLACK SPRINGS COMMUN 02,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2008,containment,0.9500
 MONTGOMERY,CADDO GAP BAPTIST CH 03,03 - CADDO GAP,03 - CADDO GAP,2008,containment,0.9500
@@ -784,7 +757,6 @@ WHITE,GRAY BOX B,32 - Gray B,32 - Gray B,2008,containment,0.9500
 WHITE,HIGGINSON CITY/HIGGINSON TWP,38 - Higginson TWP,38 - Higginson TWP,2008,containment,0.9500
 WHITE,KENSETT CITY/KENSETT TWP,49 - Kensett TWP,49 - Kensett TWP,2008,containment,0.9500
 WHITE,MCRAE CITY/MCRAE TWP,57 - McRae TWP,57 - McRae TWP,2008,containment,0.9500
-WOODRUFF,GREGORY,Gregory - 06,Gregory - 06,2008,containment,0.9500
 YELL,BLUFFTON,01 - Bluffton,01 - Bluffton,2008,canonical,0.9900
 YELL,BRIGGSVILLE,02 - Briggsville,02 - Briggsville,2008,canonical,0.9900
 YELL,CENTERVILLE,03 - Centerville,03 - Centerville,2008,canonical,0.9900
@@ -949,12 +921,6 @@ CLARK,ARKADELPHIA WARD 2,Arkadelphia Ward 2,Arkadelphia Ward 2,2010,exact,1.0000
 CLARK,ARKADELPHIA WARD 3,Arkadelphia Ward 3,Arkadelphia Ward 3,2010,exact,1.0000
 CLARK,ARKADELPHIA WARD 4,Arkadelphia Ward 4,Arkadelphia Ward 4,2010,exact,1.0000
 CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2010,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2010,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2010,containment,0.9500
-CLARK,GUM SPRINGS OUTSIDE,Gum Springs Outside 1,Gum Springs Outside 1,2010,containment,0.9500
-CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2010,containment,0.9500
-CLARK,OKOLONA CITY,Okolona City 1,Okolona City 1,2010,containment,0.9500
-CLARK,WEST COUNTY,West County 1,West County 1,2010,containment,0.9500
 CLAY,BENNETT AND LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2010,canonical,0.9900
 CLAY,BRADSHAW AND HAYWOOD,06 - Bradshaw & Haywood,06 - Bradshaw & Haywood,2010,canonical,0.9900
 CLAY,BROWN AND CARPENTER,12 - Brown & Carpenter,12 - Brown & Carpenter,2010,canonical,0.9900
@@ -1123,26 +1089,6 @@ DREW,14 SELMA,14 - Selma,14 - Selma,2010,exact,1.0000
 DREW,15 TILLAR,15 - Tillar,15 - Tillar,2010,exact,1.0000
 DREW,16 WILMAR,16 - Wilmar,16 - Wilmar,2010,exact,1.0000
 DREW,17 WINCHESTER,17 - Winchester,17 - Winchester,2010,exact,1.0000
-FAULKNER,BENEDICT,Benedict 15,Benedict 15,2010,containment,0.9500
-FAULKNER,BENTON,Benton 16,Benton 16,2010,containment,0.9500
-FAULKNER,BRISTOL,Bristol 17,Bristol 17,2010,containment,0.9500
-FAULKNER,CALIFORNIA,California 18,California 18,2010,containment,0.9500
-FAULKNER,CLIFTON,Clifton 19,Clifton 19,2010,containment,0.9500
-FAULKNER,DANLEY CITY,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2010,containment,0.9500
-FAULKNER,DANLEY RURAL,Danley Rural 23,Danley Rural 23,2010,containment,0.9500
-FAULKNER,EAGLE,Eagle 25,Eagle 25,2010,containment,0.9500
-FAULKNER,EAST FORK,East Fork 26,East Fork 26,2010,containment,0.9500
-FAULKNER,ENOLA,Enola 27,Enola 27,2010,containment,0.9500
-FAULKNER,HARDIN RURAL,Hardin Rural 28,Hardin Rural 28,2010,containment,0.9500
-FAULKNER,HARVE,Harve 30,Harve 30,2010,containment,0.9500
-FAULKNER,MATTHEWS,Matthews 31,Matthews 31,2010,containment,0.9500
-FAULKNER,NEWTON,Newton 34,Newton 34,2010,containment,0.9500
-FAULKNER,PALARM,Palarm 39,Palarm 39,2010,containment,0.9500
-FAULKNER,UNION,Union 37,Union 37,2010,containment,0.9500
-FAULKNER,VILONIA CITY,Vilonia City 21,Vilonia City 21,2010,containment,0.9500
-FAULKNER,WALKER,Walker 38,Walker 38,2010,containment,0.9500
-FAULKNER,WEST CADRON,West Cadron 14,West Cadron 14,2010,containment,0.9500
-FAULKNER,WILSON,Wilson 35,Wilson 35,2010,containment,0.9500
 FRANKLIN,1-A OZ. WD. 1,1-A (Oz Wd 1),1-A (Oz Wd 1),2010,exact,1.0000
 FRANKLIN,1-B OZ. WD.3,1-B (Oz Wd 3),1-B (Oz Wd 3),2010,exact,1.0000
 FRANKLIN,2-A OZ. WD. 2,2-A (Oz Wd 2),2-A (Oz Wd 2),2010,exact,1.0000
@@ -1640,8 +1586,6 @@ MONROE,CLARENDON - WARD 1,11 - Clarendon Ward 1,11 - Clarendon Ward 1,2010,canon
 MONROE,CLARENDON - WARD 2,12 - Clarendon Ward 2,12 - Clarendon Ward 2,2010,canonical,0.9900
 MONROE,CLARENDON - WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2010,canonical,0.9900
 MONROE,CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2010,canonical,0.9900
-MONROE,DUNCAN,18 - Duncan Township,18 - Duncan Township,2010,containment,0.9500
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2010,containment,0.9500
 MONROE,RICHLAND-GREENFIELD-FARGO,19 - Fargo,19 - Fargo,2010,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2010,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2010,canonical,0.9900
@@ -1727,7 +1671,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2010,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2010,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2010,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2010,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2010,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2010,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2010,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2010,canonical,0.9900
@@ -2277,10 +2220,6 @@ CLARK,ARKADELPHIA WARD 2,Arkadelphia Ward 2,Arkadelphia Ward 2,2012,exact,1.0000
 CLARK,ARKADELPHIA WARD 3,Arkadelphia Ward 3,Arkadelphia Ward 3,2012,exact,1.0000
 CLARK,ARKADELPHIA WARD 4,Arkadelphia Ward 4,Arkadelphia Ward 4,2012,exact,1.0000
 CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2012,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2012,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2012,containment,0.9500
-CLARK,GUM SPRINGS OUTSIDE,Gum Springs Outside 1,Gum Springs Outside 1,2012,containment,0.9500
-CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2012,containment,0.9500
 CLARK,NORTH COUNTY,North County,North County,2012,exact,1.0000
 CLARK,NORTHEAST COUNTY,North East County,North East County,2012,fuzzy_high,0.9697
 CLAY,BENNETT & LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2012,canonical,0.9900
@@ -2438,7 +2377,6 @@ CROSS,PARKIN WARD 3,Parkin Ward 3,Parkin Ward 3,2012,exact,1.0000
 CROSS,SEARCY,Searcy,Searcy,2012,exact,1.0000
 CROSS,SMITH,Smith,Smith,2012,exact,1.0000
 CROSS,TWIST,Tyronza / Twist,Tyronza / Twist,2012,containment,0.9500
-CROSS,TYRONZA,Tyronza / Twist,Tyronza / Twist,2012,containment,0.9500
 CROSS,WYNNE TOWNSHIP,Wynne Township,Wynne Township,2012,exact,1.0000
 CROSS,WYNNE WARD 1,Wynne Ward 1,Wynne Ward 1,2012,exact,1.0000
 CROSS,WYNNE WARD 2,Wynne Ward 2,Wynne Ward 2,2012,exact,1.0000
@@ -2465,27 +2403,6 @@ DREW,WARD 3,03 - Ward 3,03 - Ward 3,2012,canonical,0.9900
 DREW,WARD 4,04 - Ward 4,04 - Ward 4,2012,canonical,0.9900
 DREW,WILMAR,16 - Wilmar,16 - Wilmar,2012,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2012,canonical,0.9900
-FAULKNER,BENEDICT,Benedict 15,Benedict 15,2012,containment,0.9500
-FAULKNER,BENTON,Benton 16,Benton 16,2012,containment,0.9500
-FAULKNER,BRISTOL,Bristol 17,Bristol 17,2012,containment,0.9500
-FAULKNER,CALIFORNIA,California 18,California 18,2012,containment,0.9500
-FAULKNER,CLIFTON,Clifton 19,Clifton 19,2012,containment,0.9500
-FAULKNER,CYPRESS RURAL,Cypress Rural 22,Cypress Rural 22,2012,containment,0.9500
-FAULKNER,DANLEY CITY,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2012,containment,0.9500
-FAULKNER,DANLEY RURAL,Danley Rural 23,Danley Rural 23,2012,containment,0.9500
-FAULKNER,EAGLE,Eagle 25,Eagle 25,2012,containment,0.9500
-FAULKNER,EAST FORK,East Fork 26,East Fork 26,2012,containment,0.9500
-FAULKNER,ENOLA,Enola 27,Enola 27,2012,containment,0.9500
-FAULKNER,HARDIN RURAL,Hardin Rural 28,Hardin Rural 28,2012,containment,0.9500
-FAULKNER,HARVE,Harve 30,Harve 30,2012,containment,0.9500
-FAULKNER,MATTHEWS,Matthews 31,Matthews 31,2012,containment,0.9500
-FAULKNER,NEWTON,Newton 34,Newton 34,2012,containment,0.9500
-FAULKNER,PALARM,Palarm 39,Palarm 39,2012,containment,0.9500
-FAULKNER,UNION,Union 37,Union 37,2012,containment,0.9500
-FAULKNER,VILONIA CITY,Vilonia City 21,Vilonia City 21,2012,containment,0.9500
-FAULKNER,WALKER,Walker 38,Walker 38,2012,containment,0.9500
-FAULKNER,WEST CADRON,West Cadron 14,West Cadron 14,2012,containment,0.9500
-FAULKNER,WILSON,Wilson 35,Wilson 35,2012,containment,0.9500
 FRANKLIN,2-C LONELM/CRAVENS,2-C (Lonelm/Cravens),2-C (Lonelm/Cravens),2012,exact,1.0000
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2012,exact,1.0000
 FRANKLIN,3-A LONELM/CRAVENS,3-A (Lonelm/Cravens),3-A (Lonelm/Cravens),2012,exact,1.0000
@@ -2607,7 +2524,6 @@ HOT SPRING,DOVER,Dover,Dover,2012,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2012,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2012,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2012,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2012,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2012,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2012,exact,1.0000
 HOT SPRING,HENDERSON,Henderson,Henderson,2012,exact,1.0000
@@ -3045,7 +2961,6 @@ LONOKE,GRAY TWP.,24 - Gray TWP,24 - Gray TWP,2012,canonical,0.9900
 LONOKE,GUMWOOD TWP.,25 - Gumwood TWP,25 - Gumwood TWP,2012,canonical,0.9900
 LONOKE,HAMILTON TWP.,26 - Hamilton TWP,26 - Hamilton TWP,2012,canonical,0.9900
 LONOKE,HUMNOKE CITY,28 - Humnoke City,28 - Humnoke City,2012,canonical,0.9900
-LONOKE,INDIAN BAYOU,29 - Indian Bayou TWP,29 - Indian Bayou TWP,2012,containment,0.9500
 LONOKE,ISBELL TWP.,31 - Isbell TWP,31 - Isbell TWP,2012,canonical,0.9900
 LONOKE,KEO CITY,33 - Keo City,33 - Keo City,2012,canonical,0.9900
 LONOKE,LAFAYETTE TWP.,32 - Lafayette TWP,32 - Lafayette TWP,2012,canonical,0.9900
@@ -3140,7 +3055,6 @@ MONROE,CLARENDON WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2012,canonic
 MONROE,CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2012,canonical,0.9900
 MONROE,DUNCAN TOWNSHIP,18 - Duncan Township,18 - Duncan Township,2012,canonical,0.9900
 MONROE,FARGO-GREENFIELD-RICHLAND,19 - Fargo,19 - Fargo,2012,containment,0.9500
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2012,containment,0.9500
 MONROE,ROC-ROE TOWNSHIP/CITY,31 - Roc-Roe Township/City,31 - Roc-Roe Township/City,2012,canonical,0.9900
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2012,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2012,canonical,0.9900
@@ -3224,7 +3138,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2012,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2012,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2012,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2012,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2012,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2012,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2012,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2012,canonical,0.9900
@@ -3714,11 +3627,9 @@ WHITE,EL PASO,26 - El Paso,26 - El Paso,2012,canonical,0.9900
 WHITE,FRANCURE,27 - Francure,27 - Francure,2012,canonical,0.9900
 WHITE,GARNER CITY,29 - Garner City,29 - Garner City,2012,canonical,0.9900
 WHITE,GARNER TWP,28 - Garner TWP,28 - Garner TWP,2012,canonical,0.9900
-WHITE,GEORGETOWN,86 - Georgetown City,86 - Georgetown City,2012,containment,0.9500
 WHITE,GRAVEL HILL,30 - Gravel Hill,30 - Gravel Hill,2012,canonical,0.9900
 WHITE,GRAY A,31 - Gray A,31 - Gray A,2012,canonical,0.9900
 WHITE,GRAY B,32 - Gray B,32 - Gray B,2012,canonical,0.9900
-WHITE,GRIFFITHVILLE,33 - Griffithville City,33 - Griffithville City,2012,containment,0.9500
 WHITE,GUM SPRINGS,34 - Gum Springs,34 - Gum Springs,2012,canonical,0.9900
 WHITE,GUTHRIE,35 - Guthrie,35 - Guthrie,2012,canonical,0.9900
 WHITE,HARRISON,36 - Harrison,36 - Harrison,2012,canonical,0.9900
@@ -3748,7 +3659,6 @@ WHITE,PANGBURN WARD 1,59 - Pangburn Ward 1,59 - Pangburn Ward 1,2012,canonical,0
 WHITE,PANGBURN WARD 2,60 - Pangburn Ward 2,60 - Pangburn Ward 2,2012,canonical,0.9900
 WHITE,PANGBURN WARD 3,94 - Pangburn Ward 3,94 - Pangburn Ward 3,2012,canonical,0.9900
 WHITE,RED RIVER,61 - Red River,61 - Red River,2012,canonical,0.9900
-WHITE,ROSE BUD,62 - Rose Bud City,62 - Rose Bud City,2012,containment,0.9500
 WHITE,ROYAL,63 - Royal,63 - Royal,2012,canonical,0.9900
 WHITE,RUSSELL CITY,64 - Russell City,64 - Russell City,2012,canonical,0.9900
 WHITE,RUSSELL TWP,65 - Russell TWP,65 - Russell TWP,2012,canonical,0.9900
@@ -3975,16 +3885,8 @@ CLARK,ARKADELPHIA WARD 2,Arkadelphia Ward 2,Arkadelphia Ward 2,2014,exact,1.0000
 CLARK,ARKADELPHIA WARD 3,Arkadelphia Ward 3,Arkadelphia Ward 3,2014,exact,1.0000
 CLARK,ARKADELPHIA WARD 4,Arkadelphia Ward 4,Arkadelphia Ward 4,2014,exact,1.0000
 CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2014,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2014,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2014,containment,0.9500
-CLARK,GUM SPRINGS OUTSIDE,Gum Springs Outside 1,Gum Springs Outside 1,2014,containment,0.9500
-CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2014,containment,0.9500
 CLARK,NE COUNTY,North East County,North East County,2014,abbreviation,0.9800
 CLARK,NORTH COUNTY,North County,North County,2014,exact,1.0000
-CLARK,OKOLONA CITY,Okolona City 1,Okolona City 1,2014,containment,0.9500
-CLARK,SOUTH COUNTY,South County 1,South County 1,2014,containment,0.9500
-CLARK,WEST COUNTY,West County 1,West County 1,2014,containment,0.9500
-CLARK,WHELEN SPRINGS,Whelen Springs 1,Whelen Springs 1,2014,containment,0.9500
 CLAY,BENNETT & LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2014,canonical,0.9900
 CLAY,BRADSHAW & HAYWOOD,06 - Bradshaw & Haywood,06 - Bradshaw & Haywood,2014,canonical,0.9900
 CLAY,BROWN & CARPENTER,12 - Brown & Carpenter,12 - Brown & Carpenter,2014,canonical,0.9900
@@ -4197,7 +4099,6 @@ CROSS,PARKIN WARD 3,Parkin Ward 3,Parkin Ward 3,2014,exact,1.0000
 CROSS,SEARCY,Searcy,Searcy,2014,exact,1.0000
 CROSS,SMITH,Smith,Smith,2014,exact,1.0000
 CROSS,TWIST,Tyronza / Twist,Tyronza / Twist,2014,containment,0.9500
-CROSS,TYRONZA,Tyronza / Twist,Tyronza / Twist,2014,containment,0.9500
 CROSS,WYNNE TOWNSHIP,Wynne Township,Wynne Township,2014,exact,1.0000
 CROSS,WYNNE WARD 1,Wynne Ward 1,Wynne Ward 1,2014,exact,1.0000
 CROSS,WYNNE WARD 2,Wynne Ward 2,Wynne Ward 2,2014,exact,1.0000
@@ -4235,27 +4136,6 @@ DREW,WARD 3,03 - Ward 3,03 - Ward 3,2014,canonical,0.9900
 DREW,WARD 4,04 - Ward 4,04 - Ward 4,2014,canonical,0.9900
 DREW,WILMAR,16 - Wilmar,16 - Wilmar,2014,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2014,canonical,0.9900
-FAULKNER,BENEDICT,Benedict 15,Benedict 15,2014,containment,0.9500
-FAULKNER,BENTON,Benton 16,Benton 16,2014,containment,0.9500
-FAULKNER,BRISTOL,Bristol 17,Bristol 17,2014,containment,0.9500
-FAULKNER,CALIFORNIA,California 18,California 18,2014,containment,0.9500
-FAULKNER,CLIFTON,Clifton 19,Clifton 19,2014,containment,0.9500
-FAULKNER,CYPRESS RURAL,Cypress Rural 22,Cypress Rural 22,2014,containment,0.9500
-FAULKNER,DANLEY CITY,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2014,containment,0.9500
-FAULKNER,DANLEY RURAL,Danley Rural 23,Danley Rural 23,2014,containment,0.9500
-FAULKNER,EAGLE,Eagle 25,Eagle 25,2014,containment,0.9500
-FAULKNER,EAST FORK,East Fork 26,East Fork 26,2014,containment,0.9500
-FAULKNER,ENOLA,Enola 27,Enola 27,2014,containment,0.9500
-FAULKNER,HARDIN RURAL,Hardin Rural 28,Hardin Rural 28,2014,containment,0.9500
-FAULKNER,HARVE,Harve 30,Harve 30,2014,containment,0.9500
-FAULKNER,MATTHEWS,Matthews 31,Matthews 31,2014,containment,0.9500
-FAULKNER,NEWTON,Newton 34,Newton 34,2014,containment,0.9500
-FAULKNER,PALARM,Palarm 39,Palarm 39,2014,containment,0.9500
-FAULKNER,UNION,Union 37,Union 37,2014,containment,0.9500
-FAULKNER,VILONIA CITY,Vilonia City 21,Vilonia City 21,2014,containment,0.9500
-FAULKNER,WALKER,Walker 38,Walker 38,2014,containment,0.9500
-FAULKNER,WEST CADRON,West Cadron 14,West Cadron 14,2014,containment,0.9500
-FAULKNER,WILSON,Wilson 35,Wilson 35,2014,containment,0.9500
 FRANKLIN,2-C LONELM/CRAVENS,2-C (Lonelm/Cravens),2-C (Lonelm/Cravens),2014,exact,1.0000
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2014,exact,1.0000
 FRANKLIN,3-A LONELM/CRAVENS,3-A (Lonelm/Cravens),3-A (Lonelm/Cravens),2014,exact,1.0000
@@ -4383,7 +4263,6 @@ HOT SPRING,DOVER,Dover,Dover,2014,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2014,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2014,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2014,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2014,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2014,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2014,exact,1.0000
 HOT SPRING,HENDERSON,Henderson,Henderson,2014,exact,1.0000
@@ -4920,7 +4799,6 @@ MONROE,CLARENDON WARD 2,12 - Clarendon Ward 2,12 - Clarendon Ward 2,2014,canonic
 MONROE,CLARENDON WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2014,canonical,0.9900
 MONROE,CYPRESS RIDGE TOWNSHIP,16 - Cypress Ridge,16 - Cypress Ridge,2014,containment,0.9500
 MONROE,DUNCAN TOWNSHIP,18 - Duncan Township,18 - Duncan Township,2014,canonical,0.9900
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2014,containment,0.9500
 MONROE,RICHLAND-GREENFIELD-FARGO,19 - Fargo,19 - Fargo,2014,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2014,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2014,canonical,0.9900
@@ -5009,7 +4887,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2014,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2014,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2014,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2014,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2014,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2014,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2014,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2014,canonical,0.9900
@@ -5878,8 +5755,6 @@ CLARK,ARKADELPHIA WARD 2,Arkadelphia Ward 2,Arkadelphia Ward 2,2016,exact,1.0000
 CLARK,ARKADELPHIA WARD 3,Arkadelphia Ward 3,Arkadelphia Ward 3,2016,exact,1.0000
 CLARK,ARKADELPHIA WARD 4,Arkadelphia Ward 4,Arkadelphia Ward 4,2016,exact,1.0000
 CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2016,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2016,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2016,containment,0.9500
 CLARK,NORTH COUNTY,North County,North County,2016,exact,1.0000
 CLARK,NORTHEAST COUNTY,North East County,North East County,2016,fuzzy_high,0.9697
 CLAY,BENNETT & LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2016,canonical,0.9900
@@ -6097,7 +5972,6 @@ CROSS,PARKIN WARD 3,Parkin Ward 3,Parkin Ward 3,2016,exact,1.0000
 CROSS,SEARCY,Searcy,Searcy,2016,exact,1.0000
 CROSS,SMITH,Smith,Smith,2016,exact,1.0000
 CROSS,TWIST,Tyronza / Twist,Tyronza / Twist,2016,containment,0.9500
-CROSS,TYRONZA,Tyronza / Twist,Tyronza / Twist,2016,containment,0.9500
 CROSS,WYNNE TOWNSHIP,Wynne Township,Wynne Township,2016,exact,1.0000
 CROSS,WYNNE WARD 1,Wynne Ward 1,Wynne Ward 1,2016,exact,1.0000
 CROSS,WYNNE WARD 2,Wynne Ward 2,Wynne Ward 2,2016,exact,1.0000
@@ -6135,20 +6009,6 @@ DREW,WARD 3,03 - Ward 3,03 - Ward 3,2016,canonical,0.9900
 DREW,WARD 4,04 - Ward 4,04 - Ward 4,2016,canonical,0.9900
 DREW,WILMAR,16 - Wilmar,16 - Wilmar,2016,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2016,canonical,0.9900
-FAULKNER,15 BENEDICT,Benedict 15,Benedict 15,2016,containment,0.9500
-FAULKNER,16 BENTON,Benton 16,Benton 16,2016,containment,0.9500
-FAULKNER,17 BRISTOL,Bristol 17,Bristol 17,2016,containment,0.9500
-FAULKNER,19 CLIFTON,Clifton 19,Clifton 19,2016,containment,0.9500
-FAULKNER,25 EAGLE,Eagle 25,Eagle 25,2016,containment,0.9500
-FAULKNER,27 ENOLA,Enola 27,Enola 27,2016,containment,0.9500
-FAULKNER,30 HARVE,Harve 30,Harve 30,2016,containment,0.9500
-FAULKNER,31 MATTHEWS,Matthews 31,Matthews 31,2016,containment,0.9500
-FAULKNER,32 MOUNTAIN,Mountain 32,Mountain 32,2016,containment,0.9500
-FAULKNER,34 NEWTON,Newton 34,Newton 34,2016,containment,0.9500
-FAULKNER,35 WILSON,Wilson 35,Wilson 35,2016,containment,0.9500
-FAULKNER,37 UNION,Union 37,Union 37,2016,containment,0.9500
-FAULKNER,38 WALKER,Walker 38,Walker 38,2016,containment,0.9500
-FAULKNER,39 PALARM,Palarm 39,Palarm 39,2016,containment,0.9500
 FRANKLIN,2-C LONELM/CRAVENS,2-C (Lonelm/Cravens),2-C (Lonelm/Cravens),2016,exact,1.0000
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2016,exact,1.0000
 FRANKLIN,3-A LONELM/CRAVENS,3-A (Lonelm/Cravens),3-A (Lonelm/Cravens),2016,exact,1.0000
@@ -6331,7 +6191,6 @@ HOT SPRING,DOVER,Dover,Dover,2016,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2016,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2016,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2016,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2016,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2016,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2016,exact,1.0000
 HOT SPRING,HENDERSON,Henderson,Henderson,2016,exact,1.0000
@@ -6445,7 +6304,6 @@ IZARD,WISEMAN,Wiseman,Wiseman,2016,exact,1.0000
 IZARD,ZION,Zion,Zion,2016,exact,1.0000
 JACKSON,BEEDEVILLE INSIDE,07 - Beedeville,07 - Beedeville,2016,containment,0.9500
 JACKSON,BEEDEVILLE OUTSIDE,07 - Beedeville,07 - Beedeville,2016,containment,0.9500
-JACKSON,CROSSROADS,11 - Crossroads -37,11 - Crossroads -37,2016,containment,0.9500
 JACKSON,DIAZ,14 - Diaz,14 - Diaz,2016,canonical,0.9900
 JACKSON,GRUBBS,17 - Grubbs,17 - Grubbs,2016,canonical,0.9900
 JACKSON,JACKSONPORT,22 - Jacksonport,22 - Jacksonport,2016,canonical,0.9900
@@ -6847,7 +6705,6 @@ MONROE,CLARENDON WARD 2,12 - Clarendon Ward 2,12 - Clarendon Ward 2,2016,canonic
 MONROE,CLARENDON WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2016,canonical,0.9900
 MONROE,CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2016,canonical,0.9900
 MONROE,DUNCAN TOWNSHIP,18 - Duncan Township,18 - Duncan Township,2016,canonical,0.9900
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2016,containment,0.9500
 MONROE,KEEVIL TOWNSHIP,25 - Keevil Township,25 - Keevil Township,2016,canonical,0.9900
 MONROE,RICHLAND/GREENFIELD/FARGO,19 - Fargo,19 - Fargo,2016,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2016,canonical,0.9900
@@ -6931,7 +6788,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2016,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2016,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2016,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2016,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2016,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2016,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2016,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2016,canonical,0.9900
@@ -7928,15 +7784,8 @@ CLARK,ARKADELPHIA WARD 2,Arkadelphia Ward 2,Arkadelphia Ward 2,2018,exact,1.0000
 CLARK,ARKADELPHIA WARD 3,Arkadelphia Ward 3,Arkadelphia Ward 3,2018,exact,1.0000
 CLARK,ARKADELPHIA WARD 4,Arkadelphia Ward 4,Arkadelphia Ward 4,2018,exact,1.0000
 CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2018,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2018,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2018,containment,0.9500
-CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2018,containment,0.9500
 CLARK,NORTH COUNTY,North County,North County,2018,exact,1.0000
 CLARK,NORTHEAST COUNTY,North East County,North East County,2018,fuzzy_high,0.9697
-CLARK,OKOLONA CITY,Okolona City 1,Okolona City 1,2018,containment,0.9500
-CLARK,SOUTH COUNTY,South County 1,South County 1,2018,containment,0.9500
-CLARK,WEST COUNTY,West County 1,West County 1,2018,containment,0.9500
-CLARK,WHELEN SPRINGS,Whelen Springs 1,Whelen Springs 1,2018,containment,0.9500
 CLAY,BENNETT AND LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2018,canonical,0.9900
 CLAY,BRADSHAW & HAYWOOD,06 - Bradshaw & Haywood,06 - Bradshaw & Haywood,2018,canonical,0.9900
 CLAY,BROWN & CARPENTER,12 - Brown & Carpenter,12 - Brown & Carpenter,2018,canonical,0.9900
@@ -8190,28 +8039,7 @@ DREW,WARD 3,03 - Ward 3,03 - Ward 3,2018,canonical,0.9900
 DREW,WARD 4,04 - Ward 4,04 - Ward 4,2018,canonical,0.9900
 DREW,WILMAR,16 - Wilmar,16 - Wilmar,2018,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2018,canonical,0.9900
-FAULKNER,12 E CADRON A,E Cadron A 12,E Cadron A 12,2018,containment,0.9500
-FAULKNER,13 E CADRON B,E Cadron B 13,E Cadron B 13,2018,containment,0.9500
-FAULKNER,15 BENEDICT,Benedict 15,Benedict 15,2018,containment,0.9500
-FAULKNER,16 BENTON,Benton 16,Benton 16,2018,containment,0.9500
-FAULKNER,17 BRISTOL,Bristol 17,Bristol 17,2018,containment,0.9500
-FAULKNER,19 CLIFTON,Clifton 19,Clifton 19,2018,containment,0.9500
-FAULKNER,21 VILONIA,Vilonia City 21,Vilonia City 21,2018,containment,0.9500
-FAULKNER,22 CYPRESS,Cypress Rural 22,Cypress Rural 22,2018,containment,0.9500
 FAULKNER,24 MAYFLOWER,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2018,containment,0.9500
-FAULKNER,25 EAGLE,Eagle 25,Eagle 25,2018,containment,0.9500
-FAULKNER,26 EAST FORK,East Fork 26,East Fork 26,2018,containment,0.9500
-FAULKNER,27 ENOLA,Enola 27,Enola 27,2018,containment,0.9500
-FAULKNER,30 HARVE,Harve 30,Harve 30,2018,containment,0.9500
-FAULKNER,31 MATTHEWS,Matthews 31,Matthews 31,2018,containment,0.9500
-FAULKNER,32 MOUNTAIN,Mountain 32,Mountain 32,2018,containment,0.9500
-FAULKNER,34 NEWTON,Newton 34,Newton 34,2018,containment,0.9500
-FAULKNER,35 WILSON,Wilson 35,Wilson 35,2018,containment,0.9500
-FAULKNER,36 PINE MT.,Pine Mt 36,Pine Mt 36,2018,containment,0.9500
-FAULKNER,37 UNION,Union 37,Union 37,2018,containment,0.9500
-FAULKNER,38 WALKER,Walker 38,Walker 38,2018,containment,0.9500
-FAULKNER,39 PALARM,Palarm 39,Palarm 39,2018,containment,0.9500
-FAULKNER,48 E CADRON C,E Cadron C 48,E Cadron C 48,2018,containment,0.9500
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2018,exact,1.0000
 FRANKLIN,3-B FERN,3-B (Fern),3-B (Fern),2018,exact,1.0000
 FRANKLIN,3-C BOSTON,3-C (Boston),3-C (Boston),2018,exact,1.0000
@@ -8392,7 +8220,6 @@ HOT SPRING,DOVER,Dover,Dover,2018,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2018,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2018,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2018,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2018,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2018,exact,1.0000
 HOT SPRING,GLEN ROSE,Glen Rose,Glen Rose,2018,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2018,exact,1.0000
@@ -8810,25 +8637,12 @@ LINCOLN,STAR CITY W1,023 - Star City W1,023 - Star City W1,2018,canonical,0.9900
 LINCOLN,STAR CITY W2,024 - Star City W2,024 - Star City W2,2018,canonical,0.9900
 LINCOLN,STAR CITY W3,025 - Star City W3,025 - Star City W3,2018,canonical,0.9900
 LINCOLN,WELLS BAYOU/FS,017 -Wells Bayou,017 -Wells Bayou,2018,containment,0.9500
-LITTLE RIVER,ARDEN,Arden Township,Arden Township,2018,containment,0.9500
-LITTLE RIVER,ARKINDA,Arkinda Township,Arkinda Township,2018,containment,0.9500
 LITTLE RIVER,ASHDOWN WARD 1,Ashdown Ward 1,Ashdown Ward 1,2018,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 2,Ashdown Ward 2,Ashdown Ward 2,2018,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 3,Ashdown Ward 3,Ashdown Ward 3,2018,exact,1.0000
-LITTLE RIVER,BURKE,Burke Township,Burke Township,2018,containment,0.9500
-LITTLE RIVER,CANEY,Caney Township,Caney Township,2018,containment,0.9500
-LITTLE RIVER,CLEVELAND,Cleveland Township,Cleveland Township,2018,containment,0.9500
 LITTLE RIVER,FOREMAN WARD 1,Foreman Ward 1,Foreman Ward 1,2018,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 2,Foreman Ward 2,Foreman Ward 2,2018,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 3,Foreman Ward 3,Foreman Ward 3,2018,exact,1.0000
-LITTLE RIVER,FRANKLIN,Franklin Township,Franklin Township,2018,containment,0.9500
-LITTLE RIVER,JACKSON,Jackson Township,Jackson Township,2018,containment,0.9500
-LITTLE RIVER,JEFFERSON,Jefferson Township,Jefferson Township,2018,containment,0.9500
-LITTLE RIVER,JEWELL,Jewell Township,Jewell Township,2018,containment,0.9500
-LITTLE RIVER,JOHNSON,Johnson Township,Johnson Township,2018,containment,0.9500
-LITTLE RIVER,LICK CREEK,Lick Creek Township,Lick Creek Township,2018,containment,0.9500
-LITTLE RIVER,LITTLE RIVER,Little River Township,Little River Township,2018,containment,0.9500
-LITTLE RIVER,RED RIVER,Red River Township,Red River Township,2018,containment,0.9500
 LITTLE RIVER,WALLACE/RICHLAND,Wallace / Richland,Wallace / Richland,2018,exact,1.0000
 LOGAN,BARBER,146 - Barber,146 - Barber,2018,canonical,0.9900
 LOGAN,CANE CREEK,100 - Cane Creek,100 - Cane Creek,2018,canonical,0.9900
@@ -8941,9 +8755,6 @@ MONROE,CLARENDON WARD 1,11 - Clarendon Ward 1,11 - Clarendon Ward 1,2018,canonic
 MONROE,CLARENDON WARD 2,12 - Clarendon Ward 2,12 - Clarendon Ward 2,2018,canonical,0.9900
 MONROE,CLARENDON WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2018,canonical,0.9900
 MONROE,CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2018,canonical,0.9900
-MONROE,DUNCAN,18 - Duncan Township,18 - Duncan Township,2018,containment,0.9500
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2018,containment,0.9500
-MONROE,KEEVIL,25 - Keevil Township,25 - Keevil Township,2018,containment,0.9500
 MONROE,RICHLAND/GREENFIELD/FARGO,19 - Fargo,19 - Fargo,2018,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2018,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2018,canonical,0.9900
@@ -9035,7 +8846,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2018,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2018,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2018,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2018,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2018,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2018,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2018,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2018,canonical,0.9900
@@ -10034,21 +9844,13 @@ CLARK,ARKADELPHIA WARD 5,Arkadelphia Ward 5,Arkadelphia Ward 5,2020,exact,1.0000
 CLARK,CADDO VALLEY WARD 1,Caddo Valley Ward 1,Caddo Valley Ward 1,2020,exact,1.0000
 CLARK,CADDO VALLEY WARD 2,Caddo Valley Ward 2,Caddo Valley Ward 2,2020,exact,1.0000
 CLARK,CADDO VALLEY WARD 3,Caddo Valley Ward 3,Caddo Valley Ward 3,2020,exact,1.0000
-CLARK,CENTRAL,Central 1,Central 1,2020,containment,0.9500
-CLARK,CURTIS,Curtis 1,Curtis 1,2020,containment,0.9500
-CLARK,GUM SPRINGS OUTSIDE,Gum Springs Outside 1,Gum Springs Outside 1,2020,containment,0.9500
 CLARK,GURDON WARD 1,Gurdon Ward 1,Gurdon Ward 1,2020,exact,1.0000
 CLARK,GURDON WARD 2,Gurdon Ward 2,Gurdon Ward 2,2020,exact,1.0000
 CLARK,GURDON WARD 3,Gurdon Ward 3,Gurdon Ward 3,2020,exact,1.0000
 CLARK,GURDON WARD 4,Gurdon Ward 4,Gurdon Ward 4,2020,exact,1.0000
 CLARK,GURDON WARD 5,Gurdon Ward 5,Gurdon Ward 5,2020,exact,1.0000
-CLARK,HOLLYWOOD,Hollywood 1,Hollywood 1,2020,containment,0.9500
 CLARK,NORTH COUNTY,North County,North County,2020,exact,1.0000
 CLARK,NORTH EAST COUNTY,North East County,North East County,2020,exact,1.0000
-CLARK,OKOLONA,Okolona City 1,Okolona City 1,2020,containment,0.9500
-CLARK,SOUTH COUNTY,South County 1,South County 1,2020,containment,0.9500
-CLARK,WEST COUNTY,West County 1,West County 1,2020,containment,0.9500
-CLARK,WHELEN SPRINGS,Whelen Springs 1,Whelen Springs 1,2020,containment,0.9500
 CLAY,BENNETT AND LEMMONS,05 - Bennett & Lemmons,05 - Bennett & Lemmons,2020,canonical,0.9900
 CLAY,BRADSHAW & HAYWOOD,06 - Bradshaw & Haywood,06 - Bradshaw & Haywood,2020,canonical,0.9900
 CLAY,BROWN & CARPENTER,12 - Brown & Carpenter,12 - Brown & Carpenter,2020,canonical,0.9900
@@ -10303,27 +10105,7 @@ DREW,WARD 3,03 - Ward 3,03 - Ward 3,2020,canonical,0.9900
 DREW,WARD 4,04 - Ward 4,04 - Ward 4,2020,canonical,0.9900
 DREW,WILMAR,16 - Wilmar,16 - Wilmar,2020,canonical,0.9900
 DREW,WINCHESTER,17 - Winchester,17 - Winchester,2020,canonical,0.9900
-FAULKNER,15 BENEDICT,Benedict 15,Benedict 15,2020,containment,0.9500
-FAULKNER,16 BENTON,Benton 16,Benton 16,2020,containment,0.9500
-FAULKNER,17 BRISTOL,Bristol 17,Bristol 17,2020,containment,0.9500
-FAULKNER,19 CLIFTON,Clifton 19,Clifton 19,2020,containment,0.9500
-FAULKNER,21 VILONIA CITY,Vilonia City 21,Vilonia City 21,2020,containment,0.9500
-FAULKNER,22 CYPRESS,Cypress Rural 22,Cypress Rural 22,2020,containment,0.9500
-FAULKNER,23 DANLEY RURAL,Danley Rural 23,Danley Rural 23,2020,containment,0.9500
-FAULKNER,24 DANLEY CITY,Danley City (Mayflower) 24,Danley City (Mayflower) 24,2020,containment,0.9500
-FAULKNER,25 EAGLE,Eagle 25,Eagle 25,2020,containment,0.9500
-FAULKNER,26 EAST FORK,East Fork 26,East Fork 26,2020,containment,0.9500
-FAULKNER,27 ENOLA,Enola 27,Enola 27,2020,containment,0.9500
-FAULKNER,28 HARDIN RURAL,Hardin Rural 28,Hardin Rural 28,2020,containment,0.9500
 FAULKNER,29 HARDIN CITY E,Hardin City East (GB) 29,Hardin City East (GB) 29,2020,containment,0.9500
-FAULKNER,30 HARVE,Harve 30,Harve 30,2020,containment,0.9500
-FAULKNER,31 MATTHEWS,Matthews 31,Matthews 31,2020,containment,0.9500
-FAULKNER,32 MOUNTAIN,Mountain 32,Mountain 32,2020,containment,0.9500
-FAULKNER,34 NEWTON,Newton 34,Newton 34,2020,containment,0.9500
-FAULKNER,35 WILSON,Wilson 35,Wilson 35,2020,containment,0.9500
-FAULKNER,37 UNION,Union 37,Union 37,2020,containment,0.9500
-FAULKNER,38 WALKER,Walker 38,Walker 38,2020,containment,0.9500
-FAULKNER,39 PALARM,Palarm 39,Palarm 39,2020,containment,0.9500
 FRANKLIN,2-C LONELM/CRAVENS,2-C (Lonelm/Cravens),2-C (Lonelm/Cravens),2020,exact,1.0000
 FRANKLIN,2-D WALLACE/IVY,2-D (Wallace/Ivy),2-D (Wallace/Ivy),2020,exact,1.0000
 FRANKLIN,3-A LONELM/CRAVENS,3-A (Lonelm/Cravens),3-A (Lonelm/Cravens),2020,exact,1.0000
@@ -10472,7 +10254,6 @@ HOT SPRING,DOVER,Dover,Dover,2020,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2020,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2020,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2020,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2020,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2020,exact,1.0000
 HOT SPRING,GLEN ROSE,Glen Rose,Glen Rose,2020,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2020,exact,1.0000
@@ -10869,25 +10650,12 @@ LINCOLN,STAR CITY W1,023 - Star City W1,023 - Star City W1,2020,canonical,0.9900
 LINCOLN,STAR CITY W2,024 - Star City W2,024 - Star City W2,2020,canonical,0.9900
 LINCOLN,STAR CITY W3,025 - Star City W3,025 - Star City W3,2020,canonical,0.9900
 LINCOLN,WELLS BAYOU/FS,017 -Wells Bayou,017 -Wells Bayou,2020,containment,0.9500
-LITTLE RIVER,ARDEN,Arden Township,Arden Township,2020,containment,0.9500
-LITTLE RIVER,ARKINDA,Arkinda Township,Arkinda Township,2020,containment,0.9500
 LITTLE RIVER,ASHDOWN WARD 1,Ashdown Ward 1,Ashdown Ward 1,2020,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 2,Ashdown Ward 2,Ashdown Ward 2,2020,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 3,Ashdown Ward 3,Ashdown Ward 3,2020,exact,1.0000
-LITTLE RIVER,BURKE,Burke Township,Burke Township,2020,containment,0.9500
-LITTLE RIVER,CANEY,Caney Township,Caney Township,2020,containment,0.9500
-LITTLE RIVER,CLEVELAND,Cleveland Township,Cleveland Township,2020,containment,0.9500
 LITTLE RIVER,FOREMAN WARD 1,Foreman Ward 1,Foreman Ward 1,2020,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 2,Foreman Ward 2,Foreman Ward 2,2020,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 3,Foreman Ward 3,Foreman Ward 3,2020,exact,1.0000
-LITTLE RIVER,FRANKLIN,Franklin Township,Franklin Township,2020,containment,0.9500
-LITTLE RIVER,JACKSON,Jackson Township,Jackson Township,2020,containment,0.9500
-LITTLE RIVER,JEFFERSON,Jefferson Township,Jefferson Township,2020,containment,0.9500
-LITTLE RIVER,JEWELL,Jewell Township,Jewell Township,2020,containment,0.9500
-LITTLE RIVER,JOHNSON,Johnson Township,Johnson Township,2020,containment,0.9500
-LITTLE RIVER,LICK CREEK,Lick Creek Township,Lick Creek Township,2020,containment,0.9500
-LITTLE RIVER,LITTLE RIVER,Little River Township,Little River Township,2020,containment,0.9500
-LITTLE RIVER,RED RIVER,Red River Township,Red River Township,2020,containment,0.9500
 LITTLE RIVER,WALLACE/RICHLAND,Wallace / Richland,Wallace / Richland,2020,exact,1.0000
 LOGAN,BARBER,146 - Barber,146 - Barber,2020,canonical,0.9900
 LOGAN,CANE CREEK,100 - Cane Creek,100 - Cane Creek,2020,canonical,0.9900
@@ -11016,9 +10784,7 @@ MILLER,TRICE,Trice,Trice,2020,exact,1.0000
 MILLER,UNION,Union,Union,2020,exact,1.0000
 MILLER,WASHINGTON,Washington,Washington,2020,exact,1.0000
 MONROE,CACHE/DUNCAN/ROE/ROC-ROE,10 - Cache,10 - Cache,2020,containment,0.9500
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2020,containment,0.9500
 MONROE,KEEVIL/CYPRESS RIDGE/R/G/F,16 - Cypress Ridge,16 - Cypress Ridge,2020,containment,0.9500
-MONROE,PINE RIDGE,27 - Pine Ridge Township,27 - Pine Ridge Township,2020,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2020,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2020,canonical,0.9900
 MONTGOMERY,CADDO GAP,03 - CADDO GAP,03 - CADDO GAP,2020,canonical,0.9900
@@ -11121,7 +10887,6 @@ POLK,BIG FORK,08 - BIG FORK,08 - BIG FORK,2020,canonical,0.9900
 POLK,BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2020,canonical,0.9900
 POLK,CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2020,canonical,0.9900
 POLK,COVE,14 - COVE,14 - COVE,2020,canonical,0.9900
-POLK,DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2020,containment,0.9500
 POLK,GRANNIS,17 - GRANNIS,17 - GRANNIS,2020,canonical,0.9900
 POLK,HATFIELD,13 - HATFIELD,13 - HATFIELD,2020,canonical,0.9900
 POLK,INK,05 - INK,05 - INK,2020,canonical,0.9900
@@ -12410,12 +12175,10 @@ HOT SPRING,BUTTERFIELD,Butterfield,Butterfield,2022,exact,1.0000
 HOT SPRING,CENTRAL,Central,Central,2022,exact,1.0000
 HOT SPRING,CLEAR CREEK,Clear Creek,Clear Creek,2022,exact,1.0000
 HOT SPRING,DEROCHE,Deroche,Deroche,2022,exact,1.0000
-HOT SPRING,DONALDSON,Donaldson City,Donaldson City,2022,containment,0.9500
 HOT SPRING,DOVER,Dover,Dover,2022,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2022,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2022,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2022,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2022,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2022,exact,1.0000
 HOT SPRING,GLEN ROSE,Glen Rose,Glen Rose,2022,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2022,exact,1.0000
@@ -12427,7 +12190,6 @@ HOT SPRING,MALVERN W-3,Malvern W-3,Malvern W-3,2022,exact,1.0000
 HOT SPRING,MALVERN W-4,Malvern W-4,Malvern W-4,2022,exact,1.0000
 HOT SPRING,MONTGOMERY,Montgomery,Montgomery,2022,exact,1.0000
 HOT SPRING,OUACHITA,Ouachita,Ouachita,2022,exact,1.0000
-HOT SPRING,PERLA,Perla City,Perla City,2022,containment,0.9500
 HOT SPRING,PRAIRIE,Prairie,Prairie,2022,exact,1.0000
 HOT SPRING,VALLEY,Valley,Valley,2022,exact,1.0000
 HOWARD,BLACKLAND,45 - Blackland,45 - Blackland,2022,canonical,0.9900
@@ -12796,25 +12558,12 @@ LINCOLN,STAR CITY W1,023 - Star City W1,023 - Star City W1,2022,canonical,0.9900
 LINCOLN,STAR CITY W2,024 - Star City W2,024 - Star City W2,2022,canonical,0.9900
 LINCOLN,STAR CITY W3,025 - Star City W3,025 - Star City W3,2022,canonical,0.9900
 LINCOLN,WELLS BAYOU/FS,017 -Wells Bayou,017 -Wells Bayou,2022,containment,0.9500
-LITTLE RIVER,ARDEN,Arden Township,Arden Township,2022,containment,0.9500
-LITTLE RIVER,ARKINDA,Arkinda Township,Arkinda Township,2022,containment,0.9500
 LITTLE RIVER,ASHDOWN WARD 1,Ashdown Ward 1,Ashdown Ward 1,2022,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 2,Ashdown Ward 2,Ashdown Ward 2,2022,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 3,Ashdown Ward 3,Ashdown Ward 3,2022,exact,1.0000
-LITTLE RIVER,BURKE,Burke Township,Burke Township,2022,containment,0.9500
-LITTLE RIVER,CANEY,Caney Township,Caney Township,2022,containment,0.9500
-LITTLE RIVER,CLEVELAND,Cleveland Township,Cleveland Township,2022,containment,0.9500
 LITTLE RIVER,FOREMAN WARD 1,Foreman Ward 1,Foreman Ward 1,2022,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 2,Foreman Ward 2,Foreman Ward 2,2022,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 3,Foreman Ward 3,Foreman Ward 3,2022,exact,1.0000
-LITTLE RIVER,FRANKLIN,Franklin Township,Franklin Township,2022,containment,0.9500
-LITTLE RIVER,JACKSON,Jackson Township,Jackson Township,2022,containment,0.9500
-LITTLE RIVER,JEFFERSON,Jefferson Township,Jefferson Township,2022,containment,0.9500
-LITTLE RIVER,JEWELL,Jewell Township,Jewell Township,2022,containment,0.9500
-LITTLE RIVER,JOHNSON,Johnson Township,Johnson Township,2022,containment,0.9500
-LITTLE RIVER,LICK CREEK,Lick Creek Township,Lick Creek Township,2022,containment,0.9500
-LITTLE RIVER,LITTLE RIVER,Little River Township,Little River Township,2022,containment,0.9500
-LITTLE RIVER,RED RIVER,Red River Township,Red River Township,2022,containment,0.9500
 LOGAN,BARBER,146 - Barber,146 - Barber,2022,canonical,0.9900
 LOGAN,CANE CREEK,100 - Cane Creek,100 - Cane Creek,2022,canonical,0.9900
 LOGAN,CAULKSVILLE CITY,118 - Caulksville City,118 - Caulksville City,2022,canonical,0.9900
@@ -12963,10 +12712,7 @@ MONROE,CLARENDON WARD 1,11 - Clarendon Ward 1,11 - Clarendon Ward 1,2022,canonic
 MONROE,CLARENDON WARD 2,12 - Clarendon Ward 2,12 - Clarendon Ward 2,2022,canonical,0.9900
 MONROE,CLARENDON WARD 3,13 - Clarendon Ward 3,13 - Clarendon Ward 3,2022,canonical,0.9900
 MONROE,CYPRESS RIDGE,16 - Cypress Ridge,16 - Cypress Ridge,2022,canonical,0.9900
-MONROE,DUNCAN,18 - Duncan Township,18 - Duncan Township,2022,containment,0.9500
-MONROE,HOLLY GROVE,22 - Holly Grove Township,22 - Holly Grove Township,2022,containment,0.9500
 MONROE,JACKSON/CLEBURNE/MONT./SMALLEY,15 - Cleburne,15 - Cleburne,2022,containment,0.9500
-MONROE,KEEVIL,25 - Keevil Township,25 - Keevil Township,2022,containment,0.9500
 MONROE,RICH/GREENFIELD/FARGO,19 - Fargo,19 - Fargo,2022,containment,0.9500
 MONTGOMERY,ALAMO,01 - ALAMO,01 - ALAMO,2022,canonical,0.9900
 MONTGOMERY,BLACK SPRINGS,02 - BLACK SPRINGS,02 - BLACK SPRINGS,2022,canonical,0.9900
@@ -13067,7 +12813,6 @@ POLK,PRECINCT 5 - INK,05 - INK,05 - INK,2022,canonical,0.9900
 POLK,PRECINCT 6 - BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2022,canonical,0.9900
 POLK,PRECINCT 7- CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2022,canonical,0.9900
 POLK,PRECINCT 8 - BIG FORK,08 - BIG FORK,08 - BIG FORK,2022,canonical,0.9900
-POLK,PRECINCT 9 - DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2022,containment,0.9500
 POPE,APPLETON 1,001- Appleton 1,001- Appleton 1,2022,canonical,0.9900
 POPE,APPLETON 2,002- Appleton 2,002- Appleton 2,2022,canonical,0.9900
 POPE,ATKINS IN,003- Atkins In,003- Atkins In,2022,canonical,0.9900
@@ -14363,7 +14108,6 @@ HOT SPRING,DOVER,Dover,Dover,2024,exact,1.0000
 HOT SPRING,FENTER A,Fenter A,Fenter A,2024,exact,1.0000
 HOT SPRING,FENTER B,Fenter B,Fenter B,2024,exact,1.0000
 HOT SPRING,FENTER C,Fenter C,Fenter C,2024,exact,1.0000
-HOT SPRING,FRIENDSHIP,Friendship City,Friendship City,2024,containment,0.9500
 HOT SPRING,GIFFORD,Gifford,Gifford,2024,exact,1.0000
 HOT SPRING,GLEN ROSE,Glen Rose,Glen Rose,2024,exact,1.0000
 HOT SPRING,HARRISON,Harrison,Harrison,2024,exact,1.0000
@@ -14461,7 +14205,6 @@ JACKSON,AUVERGNE,05 - Auvergne,05 - Auvergne,2024,canonical,0.9900
 JACKSON,BEEDEVILLE,07 - Beedeville,07 - Beedeville,2024,canonical,0.9900
 JACKSON,BLACKVILLE,08 - Blackville,08 - Blackville,2024,canonical,0.9900
 JACKSON,CAMPBELL STATION,09 - Campbell Station,09 - Campbell Station,2024,canonical,0.9900
-JACKSON,CROSSROADS,11 - Crossroads -37,11 - Crossroads -37,2024,containment,0.9500
 JACKSON,DENMARK,12 - Denmark,12 - Denmark,2024,canonical,0.9900
 JACKSON,DIAZ,14 - Diaz,14 - Diaz,2024,canonical,0.9900
 JACKSON,GOURDNECK-CITIZENSHIP,15 - Gourdneck - Citizenship,15 - Gourdneck - Citizenship,2024,canonical,0.9900
@@ -14700,25 +14443,12 @@ LINCOLN,STAR CITY W1,023 - Star City W1,023 - Star City W1,2024,canonical,0.9900
 LINCOLN,STAR CITY W2,024 - Star City W2,024 - Star City W2,2024,canonical,0.9900
 LINCOLN,STAR CITY W3,025 - Star City W3,025 - Star City W3,2024,canonical,0.9900
 LINCOLN,WELLS BAYOU/FS,017 -Wells Bayou,017 -Wells Bayou,2024,containment,0.9500
-LITTLE RIVER,ARDEN,Arden Township,Arden Township,2024,containment,0.9500
-LITTLE RIVER,ARKINDA,Arkinda Township,Arkinda Township,2024,containment,0.9500
 LITTLE RIVER,ASHDOWN WARD 1,Ashdown Ward 1,Ashdown Ward 1,2024,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 2,Ashdown Ward 2,Ashdown Ward 2,2024,exact,1.0000
 LITTLE RIVER,ASHDOWN WARD 3,Ashdown Ward 3,Ashdown Ward 3,2024,exact,1.0000
-LITTLE RIVER,BURKE,Burke Township,Burke Township,2024,containment,0.9500
-LITTLE RIVER,CANEY,Caney Township,Caney Township,2024,containment,0.9500
-LITTLE RIVER,CLEVELAND,Cleveland Township,Cleveland Township,2024,containment,0.9500
 LITTLE RIVER,FOREMAN WARD 1,Foreman Ward 1,Foreman Ward 1,2024,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 2,Foreman Ward 2,Foreman Ward 2,2024,exact,1.0000
 LITTLE RIVER,FOREMAN WARD 3,Foreman Ward 3,Foreman Ward 3,2024,exact,1.0000
-LITTLE RIVER,FRANKLIN,Franklin Township,Franklin Township,2024,containment,0.9500
-LITTLE RIVER,JACKSON,Jackson Township,Jackson Township,2024,containment,0.9500
-LITTLE RIVER,JEFFERSON,Jefferson Township,Jefferson Township,2024,containment,0.9500
-LITTLE RIVER,JEWELL,Jewell Township,Jewell Township,2024,containment,0.9500
-LITTLE RIVER,JOHNSON,Johnson Township,Johnson Township,2024,containment,0.9500
-LITTLE RIVER,LICK CREEK,Lick Creek Township,Lick Creek Township,2024,containment,0.9500
-LITTLE RIVER,LITTLE RIVER,Little River Township,Little River Township,2024,containment,0.9500
-LITTLE RIVER,RED RIVER,Red River Township,Red River Township,2024,containment,0.9500
 LITTLE RIVER,WALLACE/RICHLAND,Wallace / Richland,Wallace / Richland,2024,exact,1.0000
 LOGAN,BARBER,146 - Barber,146 - Barber,2024,canonical,0.9900
 LOGAN,BLUE MOUNTAIN CITY,132 - Blue Mountain City,132 - Blue Mountain City,2024,canonical,0.9900
@@ -14986,7 +14716,6 @@ POLK,PRECINCT 5 - INK,05 - INK,05 - INK,2024,canonical,0.9900
 POLK,PRECINCT 6 - BOARD CAMP,06 - BOARD CAMP,06 - BOARD CAMP,2024,canonical,0.9900
 POLK,PRECINCT 7 - CHERRY HILL,07 - CHERRY HILL,07 - CHERRY HILL,2024,canonical,0.9900
 POLK,PRECINCT 8 - BIG FORK,08 - BIG FORK,08 - BIG FORK,2024,canonical,0.9900
-POLK,PRECINCT 9 - DALLAS VALLEY,09 - DALLAS VALLEY/ SHADY,09 - DALLAS VALLEY/ SHADY,2024,containment,0.9500
 POPE,APPLETON 1/JP4,001- Appleton 1,001- Appleton 1,2024,containment,0.9500
 POPE,APPLETON 2/JP3,002- Appleton 2,002- Appleton 2,2024,containment,0.9500
 POPE,ATKINS IN/JP1,003- Atkins In,003- Atkins In,2024,containment,0.9500

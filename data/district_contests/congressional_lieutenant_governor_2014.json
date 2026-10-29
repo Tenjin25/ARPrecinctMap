@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 66,
-      "exact": 163,
+      "exact": 35,
       "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 79196,
-        "rep_votes": 116516,
-        "other_votes": 8271,
-        "total_votes": 203983,
+        "dem_votes": 80204,
+        "rep_votes": 117135,
+        "other_votes": 8329,
+        "total_votes": 205668,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 37320,
-        "margin_pct": 18.295642283915818,
+        "margin": 36931,
+        "margin_pct": 17.95660968162281,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 99137,
-        "rep_votes": 129500,
-        "other_votes": 9334,
-        "total_votes": 237971,
+        "dem_votes": 98723,
+        "rep_votes": 129012,
+        "other_votes": 9281,
+        "total_votes": 237016,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 30363,
-        "margin_pct": 12.759117707619835,
+        "margin": 30289,
+        "margin_pct": 12.779306038410908,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 91303,
-        "rep_votes": 124761,
-        "other_votes": 8169,
-        "total_votes": 224233,
+        "dem_votes": 90709,
+        "rep_votes": 124630,
+        "other_votes": 8164,
+        "total_votes": 223503,
         "dem_candidate": "John Burkhalter",
         "rep_candidate": "Congressman Tim Griffin",
-        "margin": 33458,
-        "margin_pct": 14.921086548367098,
+        "margin": 33921,
+        "margin_pct": 15.17697749023503,
         "winner": "R"
       }
     }

@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 4,
+      "audited_alias_exact": 130,
+      "canonical": 2,
       "compact_code": 52,
-      "exact": 170,
+      "exact": 42,
       "numeric_group": 1
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 138596,
-        "rep_votes": 62708,
-        "other_votes": 4436,
-        "total_votes": 205740,
+        "dem_votes": 138825,
+        "rep_votes": 62759,
+        "other_votes": 4438,
+        "total_votes": 206022,
         "dem_candidate": "Mike Beebe",
         "rep_candidate": "Jim Keet",
-        "margin": -75888,
-        "margin_pct": 36.885389326334206,
+        "margin": -76066,
+        "margin_pct": 36.921299667025856,
         "winner": "D"
       },
       "2": {
-        "dem_votes": 135269,
-        "rep_votes": 69477,
-        "other_votes": 3506,
-        "total_votes": 208252,
+        "dem_votes": 135040,
+        "rep_votes": 69426,
+        "other_votes": 3504,
+        "total_votes": 207970,
         "dem_candidate": "Mike Beebe",
         "rep_candidate": "Jim Keet",
-        "margin": -65792,
-        "margin_pct": 31.592493709544208,
+        "margin": -65614,
+        "margin_pct": 31.549742751358366,
         "winner": "D"
       },
       "3": {

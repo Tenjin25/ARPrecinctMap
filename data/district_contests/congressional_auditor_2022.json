@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 50332,
-        "rep_votes": 150983,
-        "other_votes": 7518,
-        "total_votes": 208833,
+        "dem_votes": 49866,
+        "rep_votes": 151727,
+        "other_votes": 7543,
+        "total_votes": 209136,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 100651,
-        "margin_pct": 48.19688459199456,
+        "margin": 101861,
+        "margin_pct": 48.70562696044679,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 82900,
-        "rep_votes": 149986,
-        "other_votes": 12320,
-        "total_votes": 245206,
+        "dem_votes": 84133,
+        "rep_votes": 149672,
+        "other_votes": 12330,
+        "total_votes": 246135,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 67086,
-        "margin_pct": 27.359036891430062,
+        "margin": 65539,
+        "margin_pct": 26.627257399394644,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 56624,
-        "rep_votes": 152420,
-        "other_votes": 7191,
-        "total_votes": 216235,
+        "dem_votes": 55857,
+        "rep_votes": 151990,
+        "other_votes": 7156,
+        "total_votes": 215003,
         "dem_candidate": "Diamond Arnold-Johnson",
         "rep_candidate": "Dennis Milligan",
-        "margin": 95796,
-        "margin_pct": 44.30180128101372,
+        "margin": 96133,
+        "margin_pct": 44.71239936186937,
         "winner": "R"
       }
     }

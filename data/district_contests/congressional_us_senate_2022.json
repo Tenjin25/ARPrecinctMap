@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 52709,
-        "rep_votes": 151036,
-        "other_votes": 6745,
-        "total_votes": 210490,
+        "dem_votes": 52285,
+        "rep_votes": 151773,
+        "other_votes": 6751,
+        "total_votes": 210809,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 98327,
-        "margin_pct": 46.713383058577605,
+        "margin": 99488,
+        "margin_pct": 47.19343102049723,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 93558,
-        "rep_votes": 147353,
-        "other_votes": 7933,
-        "total_votes": 248844,
+        "dem_votes": 94689,
+        "rep_votes": 147086,
+        "other_votes": 7948,
+        "total_votes": 249723,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 53795,
-        "margin_pct": 21.617961453762195,
+        "margin": 52397,
+        "margin_pct": 20.98204810930511,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 59365,
-        "rep_votes": 152536,
-        "other_votes": 6255,
-        "total_votes": 218156,
+        "dem_votes": 58658,
+        "rep_votes": 152066,
+        "other_votes": 6234,
+        "total_votes": 216958,
         "dem_candidate": "Natalie James",
         "rep_candidate": "John Boozman",
-        "margin": 93171,
-        "margin_pct": 42.70842883074497,
+        "margin": 93408,
+        "margin_pct": 43.05349422468865,
         "winner": "R"
       }
     }

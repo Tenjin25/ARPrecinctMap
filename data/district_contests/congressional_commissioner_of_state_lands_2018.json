@@ -30,11 +30,14 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 13,
+      "audited_alias_exact": 137,
+      "canonical": 4,
       "compact_code": 71,
-      "exact": 164
+      "exact": 36
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -43,25 +46,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 68048,
-        "rep_votes": 133978,
-        "other_votes": 6691,
-        "total_votes": 208717,
+        "dem_votes": 69238,
+        "rep_votes": 134606,
+        "other_votes": 6756,
+        "total_votes": 210600,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 65930,
-        "margin_pct": 31.588227120934086,
+        "margin": 65368,
+        "margin_pct": 31.038936372269703,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 104313,
-        "rep_votes": 136735,
-        "other_votes": 8792,
-        "total_votes": 249840,
+        "dem_votes": 103737,
+        "rep_votes": 136231,
+        "other_votes": 8744,
+        "total_votes": 248712,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 32422,
-        "margin_pct": 12.977105347422349,
+        "margin": 32494,
+        "margin_pct": 13.06491041847599,
         "winner": "R"
       },
       "3": {
@@ -76,14 +79,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 78243,
-        "rep_votes": 137412,
-        "other_votes": 6006,
-        "total_votes": 221661,
+        "dem_votes": 77629,
+        "rep_votes": 137288,
+        "other_votes": 5989,
+        "total_votes": 220906,
         "dem_candidate": "Larry Williams",
         "rep_candidate": "Tommy Land",
-        "margin": 59169,
-        "margin_pct": 26.693464344201278,
+        "margin": 59659,
+        "margin_pct": 27.006509556100784,
         "winner": "R"
       }
     }

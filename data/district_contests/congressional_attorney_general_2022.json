@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 55258,
-        "rep_votes": 154540,
+        "dem_votes": 54839,
+        "rep_votes": 155290,
         "other_votes": 0,
-        "total_votes": 209798,
+        "total_votes": 210129,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 99282,
-        "margin_pct": 47.32266275178982,
+        "margin": 100451,
+        "margin_pct": 47.804443936819766,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 95166,
-        "rep_votes": 152525,
+        "dem_votes": 96297,
+        "rep_votes": 152276,
         "other_votes": 0,
-        "total_votes": 247691,
+        "total_votes": 248573,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 57359,
-        "margin_pct": 23.157482508448027,
+        "margin": 55979,
+        "margin_pct": 22.52014498758916,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 61663,
-        "rep_votes": 155332,
+        "dem_votes": 60951,
+        "rep_votes": 154831,
         "other_votes": 0,
-        "total_votes": 216995,
+        "total_votes": 215782,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 93669,
-        "margin_pct": 43.16643240627664,
+        "margin": 93880,
+        "margin_pct": 43.50687267705369,
         "winner": "R"
       }
     }

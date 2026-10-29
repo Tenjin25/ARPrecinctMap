@@ -30,11 +30,14 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 13,
+      "audited_alias_exact": 137,
+      "canonical": 4,
       "compact_code": 69,
-      "exact": 164
+      "exact": 36
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -43,25 +46,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 84576,
-        "rep_votes": 168516,
-        "other_votes": 10900,
-        "total_votes": 263992,
+        "dem_votes": 85969,
+        "rep_votes": 169308,
+        "other_votes": 10947,
+        "total_votes": 266224,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 83940,
-        "margin_pct": 31.796418073274946,
+        "margin": 83339,
+        "margin_pct": 31.304089789049822,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 130293,
-        "rep_votes": 161834,
-        "other_votes": 11869,
-        "total_votes": 303996,
+        "dem_votes": 129648,
+        "rep_votes": 161181,
+        "other_votes": 11850,
+        "total_votes": 302679,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 31541,
-        "margin_pct": 10.375465466650876,
+        "margin": 31533,
+        "margin_pct": 10.41796754978046,
         "winner": "R"
       },
       "3": {
@@ -76,14 +79,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 92287,
-        "rep_votes": 155877,
-        "other_votes": 34920,
-        "total_votes": 283084,
+        "dem_votes": 100493,
+        "rep_votes": 171183,
+        "other_votes": 10493,
+        "total_votes": 282169,
         "dem_candidate": "Conner Eldridge",
         "rep_candidate": "John Boozman",
-        "margin": 63590,
-        "margin_pct": 22.463297113224343,
+        "margin": 70690,
+        "margin_pct": 25.052362236815522,
         "winner": "R"
       }
     }

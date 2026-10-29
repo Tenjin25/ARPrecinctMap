@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
-      "canonical": 11,
+      "audited_alias_exact": 135,
+      "canonical": 4,
       "compact_code": 66,
-      "exact": 163,
+      "exact": 35,
       "numeric_group": 15
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 74688,
-        "rep_votes": 114640,
-        "other_votes": 12446,
-        "total_votes": 201774,
+        "dem_votes": 75683,
+        "rep_votes": 115212,
+        "other_votes": 12536,
+        "total_votes": 203431,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 39952,
-        "margin_pct": 19.800370711786456,
+        "margin": 39529,
+        "margin_pct": 19.431158476338414,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 94731,
-        "rep_votes": 123059,
-        "other_votes": 15949,
-        "total_votes": 233739,
+        "dem_votes": 94319,
+        "rep_votes": 122589,
+        "other_votes": 15897,
+        "total_votes": 232805,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 28328,
-        "margin_pct": 12.11950081073334,
+        "margin": 28270,
+        "margin_pct": 12.143209982603466,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 88582,
-        "rep_votes": 120353,
-        "other_votes": 13117,
-        "total_votes": 222052,
+        "dem_votes": 87999,
+        "rep_votes": 120251,
+        "other_votes": 13079,
+        "total_votes": 221329,
         "dem_candidate": "Karen Sealy Garcia",
         "rep_candidate": "Circuit Clerk Dennis Milligan",
-        "margin": 31771,
-        "margin_pct": 14.307909858951955,
+        "margin": 32252,
+        "margin_pct": 14.571972041621297,
         "winner": "R"
       }
     }

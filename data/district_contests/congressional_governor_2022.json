@@ -30,12 +30,15 @@
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
+      "audited_alias_exact": 131,
       "compact_code": 94,
-      "exact": 136,
+      "exact": 5,
       "numeric_code": 2,
       "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
     "statewide_totals_preserved": true,
     "reconciles_precinct_votes": false,
     "precinct_name_matching": true,
@@ -44,25 +47,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 59207,
-        "rep_votes": 148687,
+        "dem_votes": 58854,
+        "rep_votes": 149349,
         "other_votes": 4198,
-        "total_votes": 212092,
+        "total_votes": 212401,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 89480,
-        "margin_pct": 42.18923863229165,
+        "margin": 90495,
+        "margin_pct": 42.60573161143309,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 106837,
-        "rep_votes": 139045,
-        "other_votes": 4232,
-        "total_votes": 250114,
+        "dem_votes": 107936,
+        "rep_votes": 138844,
+        "other_votes": 4257,
+        "total_votes": 251037,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 32208,
-        "margin_pct": 12.877327938460063,
+        "margin": 30908,
+        "margin_pct": 12.31212928771456,
         "winner": "R"
       },
       "3": {
@@ -77,14 +80,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 67218,
-        "rep_votes": 149292,
-        "other_votes": 3518,
-        "total_votes": 220028,
+        "dem_votes": 66472,
+        "rep_votes": 148831,
+        "other_votes": 3493,
+        "total_votes": 218796,
         "dem_candidate": "Chris Jones",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 82074,
-        "margin_pct": 37.301616157943535,
+        "margin": 82359,
+        "margin_pct": 37.64191301486316,
         "winner": "R"
       }
     }
