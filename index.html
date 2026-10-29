@@ -9313,7 +9313,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     font-size: 13px; line-height: 1;
     box-shadow: 0 0 0 2px #00205b;
   }
-  .controls-title-pill::before { background: #fff !important; border-color: #00205b !important; }
+  .controls-title-pill {
+    background: linear-gradient(135deg, #001638 0%, #00205b 54%, #bf0a30 100%) !important;
+    border-color: rgba(255,255,255,.42) !important;
+    box-shadow: 0 12px 26px rgba(0,32,91,.24), 0 8px 20px rgba(191,10,48,.14), inset 0 1px 0 rgba(255,255,255,.18) !important;
+  }
+  .controls-title-pill::before {
+    background: #fff !important;
+    box-shadow: 0 0 0 2px #bf0a30, 0 0 0 4px rgba(0,32,91,.72) !important;
+  }
   .controls-kicker { color: #bf0a30; letter-spacing: .13em; }
   @media (min-width: 769px) {
     .map-topbar {
@@ -9330,7 +9338,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       border-color: rgba(0,32,91,.18);
     }
     .main-controls .control-group { background: #fff; border-color: rgba(0,32,91,.12); }
-    .controls-title-pill, .legend-badge {
+    .legend-badge {
       background: linear-gradient(125deg, #bf0a30, #850b27);
       border-color: rgba(255,255,255,.55);
     }
@@ -9352,7 +9360,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       border-color: #00205b !important;
     }
     .main-controls, .legend { border-top: 3px solid #bf0a30 !important; }
-    .controls-title-pill, .legend-badge { background: #bf0a30; color: white; }
+    .legend-badge { background: #bf0a30; color: white; }
   }
 </style>
 <style id="selected-panel-type-scale">
@@ -10268,8 +10276,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-29-ar-fort-smith-districts-v4';
-    const APP_BUILD_ID = '2026-10-29-ar-fort-smith-districts-v4';
+    const DATA_CACHE_BUSTER = '2026-10-29-ar-demographics-population-v5';
+    const APP_BUILD_ID = '2026-10-29-ar-demographics-population-v5';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10320,10 +10328,19 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./data/tl_2022_05_sldu.geojson'),
         state_senate_2022: withBase('./data/tl_2022_05_sldu.geojson'),
         state_senate_2024: withBase('./data/tl_2022_05_sldu.geojson'),
-        county_demographics: '',
-        county_population_estimates: '',
-        precinct_demographics: '',
-        cvap_aggregates: {},
+        county_demographics: withBase('./data/ar_county_demographics.json'),
+        county_population_estimates: withBase('./data/ar_county_population_estimates_2025.csv'),
+        precinct_demographics: withBase('./data/ar_cvap_2024_aggregates.json'),
+        cvap_aggregates: {
+          county_2020: withBase('./data/ar_cvap_2024_aggregates.json'),
+          precinct_2020: withBase('./data/ar_cvap_2024_aggregates.json'),
+          cd118_2022: withBase('./data/ar_congressional_demographics.csv'),
+          cd119_2024: withBase('./data/ar_congressional_demographics.csv'),
+          state_house_2022: withBase('./data/ar_state_house_demographics.csv'),
+          state_house_2024: withBase('./data/ar_state_house_demographics.csv'),
+          state_senate_2022: withBase('./data/ar_state_senate_demographics.csv'),
+          state_senate_2024: withBase('./data/ar_state_senate_demographics.csv')
+        },
         election: withBase('./data/ar_elections_aggregated.json'),
         district_election: '',
         district_contests_dir: withBase('./data/district_contests'),
@@ -10332,9 +10349,9 @@ document.addEventListener('DOMContentLoaded', function() {
           '2022': withBase('./data/district_contests'),
           '2024': withBase('./data/district_contests')
         },
-        districts_info: '',
-        state_house_info: '',
-        state_senate_info: '',
+        districts_info: withBase('./data/ar_congressional_demographics.csv'),
+        state_house_info: withBase('./data/ar_state_house_demographics.csv'),
+        state_senate_info: withBase('./data/ar_state_senate_demographics.csv'),
         district_descriptions: '',
         contests_dir: withBase('./data/contests'),
         reports_match_year_summary: '',
@@ -13953,11 +13970,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const pop = countyPopulationEstimatesByNorm?.get(norm) || null;
       const popDeltaRaw = Number(pop?.change2020To2025);
       const popPctRaw = Number(pop?.changePct2020To2025);
-      const popDelta2024Raw = (Number.isFinite(Number(pop?.population2024)) && Number.isFinite(Number(pop?.population2020)))
-        ? (Number(pop.population2024) - Number(pop.population2020))
+      const population2020Baseline = Number(pop?.population2020Base ?? pop?.population2020);
+      const popDelta2024Raw = (Number.isFinite(Number(pop?.population2024)) && Number.isFinite(population2020Baseline))
+        ? (Number(pop.population2024) - population2020Baseline)
         : NaN;
-      const popPct2024Raw = (Number(pop?.population2020) > 0 && Number.isFinite(popDelta2024Raw))
-        ? ((popDelta2024Raw / Number(pop.population2020)) * 100.0)
+      const popPct2024Raw = (population2020Baseline > 0 && Number.isFinite(popDelta2024Raw))
+        ? ((popDelta2024Raw / population2020Baseline) * 100.0)
         : NaN;
       const popDelta2425Raw = Number(pop?.change2024To2025);
       const popPct2425Raw = Number(pop?.changePct2024To2025);
@@ -20304,10 +20322,11 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!demo) return '';
       const touchMode = (typeof isTouchInteractionMode === 'function') ? isTouchInteractionMode() : false;
       const vap = numericOrZero(demo.vap_18plus);
+      const embeddedCvap = numericOrNull(demo.cvap_18plus);
       const countyNorm = normalizeCountyToken(countyNormRaw || demo.county || '');
       const cvap = countyNorm ? getCvapCountyTotal(countyNorm) : null;
-      const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP (18+):' : 'VAP (18+):';
+      const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : (embeddedCvap !== null ? embeddedCvap : vap);
+      const metricLabel = Number.isFinite(Number(cvap)) || embeddedCvap !== null ? 'CVAP (18+):' : 'VAP (18+):';
       const dominant = describeDemographicDominance(
         demo.white_pop_pct,
         demo.black_pop_pct,
@@ -20337,7 +20356,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="demo-hover-dominance-relation">${escapeHtml(dominant.relation === 'mixed' ? 'near tie' : dominant.relation === 'none' ? 'unavailable' : dominant.relation === 'majority' ? 'majority 50%+' : 'plurality <50%')}</span>
           </div>`}
           ${races}
-          <div class="demo-hover-note">${Number.isFinite(Number(cvap)) ? 'CVAP totals from ACS special tabulation (2020–2024). ' : ''}Race/ethnicity reflects county VAP-by-race shares, not total population.</div>
+          <div class="demo-hover-note">${Number.isFinite(Number(cvap)) || embeddedCvap !== null ? 'CVAP totals and race/ethnicity shares from the ACS 2020–2024 special tabulation.' : 'Race/ethnicity reflects county VAP-by-race shares, not total population.'}</div>
         </div>
       `;
     }
@@ -20347,7 +20366,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const vap = numericOrZero(demo.vap_18plus);
       const cvap = precinctNormRaw ? getCvapPrecinctTotal(precinctNormRaw) : null;
       const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP (18+):' : 'VAP (18+):';
+      const metricLabel = Number.isFinite(Number(cvap)) || demo?.metric_type === 'CVAP' ? 'CVAP (18+):' : 'VAP (18+):';
       const races = buildRaceChipRowHTML(
         demo.white_vap_pct,
         demo.black_vap_pct,
@@ -20463,7 +20482,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const hispanicVotes = numericOrNull(rawRow?.cvap_hsp);
         const asianVotes = numericOrNull(rawRow?.cvap_asi);
         const nativeVotes = numericOrNull(rawRow?.cvap_ami);
-        const pacificVotes = null;
+        const pacificVotes = numericOrNull(rawRow?.cvap_nhp);
         const multiracialVotes = numericOrNull(rawRow?.cvap_2om);
 
         const whitePct = vap > 0 ? (whiteVotes / vap) * 100 : 0;
@@ -20471,6 +20490,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const hispanicPct = (hispanicVotes !== null && vap > 0) ? (hispanicVotes / vap) * 100 : null;
         const asianPct = (asianVotes !== null && vap > 0) ? (asianVotes / vap) * 100 : null;
         const nativePct = (nativeVotes !== null && vap > 0) ? (nativeVotes / vap) * 100 : null;
+        const pacificPct = (pacificVotes !== null && vap > 0) ? (pacificVotes / vap) * 100 : null;
         const multiracialPct = (multiracialVotes !== null && vap > 0) ? (multiracialVotes / vap) * 100 : null;
 
         const row = {
@@ -20489,9 +20509,10 @@ document.addEventListener('DOMContentLoaded', function() {
           black_vap_pct: Math.round((blackPct + Number.EPSILON) * 100) / 100,
           native_vap_pct: nativePct === null ? null : (Math.round((nativePct + Number.EPSILON) * 100) / 100),
           asian_vap_pct: asianPct === null ? null : (Math.round((asianPct + Number.EPSILON) * 100) / 100),
-          pacific_vap_pct: null,
+          pacific_vap_pct: pacificPct === null ? null : (Math.round((pacificPct + Number.EPSILON) * 100) / 100),
           multiracial_vap_pct: multiracialPct === null ? null : (Math.round((multiracialPct + Number.EPSILON) * 100) / 100),
-          hispanic_vap_pct: hispanicPct === null ? null : (Math.round((hispanicPct + Number.EPSILON) * 100) / 100)
+          hispanic_vap_pct: hispanicPct === null ? null : (Math.round((hispanicPct + Number.EPSILON) * 100) / 100),
+          metric_type: 'CVAP'
         };
 
         const norm = normalizeCountyToken(`${countyNorm} - ${codeNorm}`);
@@ -22087,17 +22108,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!countyName || !countyNorm) return;
 
         const population2020 = Number(row?.population_2020 ?? row?.pop_2020 ?? 0);
+        const population2020Base = Number(row?.population_2020_base ?? population2020);
         const population2021 = Number(row?.population_2021 ?? row?.pop_2021 ?? 0);
         const population2022 = Number(row?.population_2022 ?? row?.pop_2022 ?? 0);
         const population2023 = Number(row?.population_2023 ?? row?.pop_2023 ?? 0);
         const population2024 = Number(row?.population_2024 ?? row?.pop_2024 ?? 0);
         const population2025 = Number(row?.population_2025 ?? row?.pop_2025 ?? 0);
-        const change2020To2025Raw = Number(row?.change_2020_2025 ?? (population2025 - population2020));
+        const change2020To2025Raw = Number(row?.change_2020_2025 ?? (population2025 - population2020Base));
         const change2024To2025Raw = Number(row?.change_2024_2025 ?? (population2025 - population2024));
         const changePct2020To2025 = Number(
           row?.change_2020_2025_pct
           ?? row?.pct_change_2020_2025
-          ?? ((population2020 > 0 && population2025 > 0) ? (((population2025 - population2020) / population2020) * 100) : NaN)
+          ?? ((population2020Base > 0 && population2025 > 0) ? (((population2025 - population2020Base) / population2020Base) * 100) : NaN)
         );
         const changePct2024To2025 = Number(
           row?.change_2024_2025_pct
@@ -22122,6 +22144,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const entry = {
           countyName,
           countyNorm,
+          population2020Base,
           population2020,
           population2021,
           population2022,
@@ -22139,7 +22162,7 @@ document.addEventListener('DOMContentLoaded', function() {
           changePct2023To2024: Number.isFinite(changePct2023To2024) ? changePct2023To2024 : NaN
         };
 
-        if (countyNorm === 'TENNESSEE') statewide = entry;
+        if (countyNorm === 'STATEWIDE' || (!String(row?.county_fips || '').trim() && countyNorm === 'ARKANSAS')) statewide = entry;
         else byNorm.set(countyNorm, entry);
       });
       return { byNorm, statewide };
@@ -22154,12 +22177,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getTnCensusContext(countyNorm) {
       const norm = String(countyNorm || '').trim().toUpperCase();
-      const urbanAnchor = new Set(['DAVIDSON', 'SHELBY', 'KNOX', 'HAMILTON', 'WILLIAMSON', 'RUTHERFORD', 'SUMNER']);
-      const metroSpillover = new Set(['CHEATHAM', 'DICKSON', 'WILSON', 'ROBERTSON', 'LOUDON', 'SEVIER', 'BLOUNT', 'MONTGOMERY']);
-      const coastalGrowth = new Set(['SEVIER', 'POLK', 'MONROE', 'COCKE', 'GRAINGER']);
-      const ruralSlowdown = new Set(['DECATUR', 'HARDIN', 'HENDERSON', 'HAYWOOD', 'LAUDERDALE', 'MACON', 'PERRY', 'LAKE']);
-      const mixedTransition = new Set(['MADISON', 'CUMBERLAND', 'PUTNAM', 'NASH', 'DAVIDSON', 'RHEA', 'ROANE', 'BRADLEY', 'WASHINGTON']);
-      const institutionalHub = new Set(['CUMBERLAND', 'HAMILTON', 'DAVIDSON', 'SHELBY', 'KNOX']);
+      const urbanAnchor = new Set(['PULASKI', 'BENTON', 'WASHINGTON', 'SEBASTIAN', 'CRAIGHEAD']);
+      const metroSpillover = new Set(['SALINE', 'LONOKE', 'FAULKNER', 'GRANT', 'MADISON']);
+      const amenityGrowth = new Set(['CARROLL', 'GARLAND', 'BAXTER', 'MARION', 'STONE', 'BOONE', 'SHARP']);
+      const ruralSlowdown = new Set(['PHILLIPS', 'DESHA', 'CHICOT', 'MONROE', 'LEE', 'DALLAS', 'JEFFERSON', 'MISSISSIPPI', 'CRITTENDEN']);
+      const mixedTransition = new Set(['POPE', 'WHITE', 'GREENE', 'CRAWFORD', 'HOT SPRING', 'INDEPENDENCE', 'CONWAY']);
+      const institutionalHub = new Set(['PULASKI', 'SEBASTIAN', 'WASHINGTON', 'FAULKNER', 'CRAIGHEAD']);
 
       let signalEmoji = '📊';
       let signalLabel = 'Steady population signal';
@@ -22185,7 +22208,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (estimate) {
         signalLabel = `Population ${formatPopulationChangePct(totalPct)} since 2020`;
         noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.`;
-        sourceNote = 'Based on U.S. Census Bureau Vintage 2025 Tennessee county population estimates, released March 26, 2026 (April 1, 2020 to July 1, 2025).';
+        sourceNote = 'Based on U.S. Census Bureau Vintage 2025 Arkansas county population estimates, released March 2026 (April 1, 2020 to July 1, 2025).';
 
         if (urbanAnchor.has(norm)) {
           signalEmoji = '🏙️';
@@ -22194,12 +22217,12 @@ document.addEventListener('DOMContentLoaded', function() {
             ? 'Urban anchor with slower 2025 growth'
             : 'Urban anchor with continued growth';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}, versus ${formatPopulationChangePct(stateTotalPct)} statewide. ${slowedIn2025 ? 'Growth cooled compared with 2023 to 2024.' : 'The county is still adding residents at a steady clip.'}`;
-        } else if (coastalGrowth.has(norm) && !belowStatewide) {
-          signalEmoji = '🌊';
-          patternEmoji = '🏖️';
+        } else if (amenityGrowth.has(norm) && !belowStatewide) {
+          signalEmoji = '📈';
+          patternEmoji = '🏞️';
           patternLabel = slowedIn2025
-            ? 'Coastal growth still positive but cooling in 2025'
-            : 'Coastal growth running above the statewide pace';
+            ? 'Amenity growth still positive but cooling in 2025'
+            : 'Amenity and retirement growth above the statewide pace';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020, this county is ${formatPopulationChangePct(totalPct)}${aboveStatewide ? ', faster than the statewide pace.' : '.'}`;
         } else if (metroSpillover.has(norm) && (aboveStatewide || Number(totalPct) >= 8)) {
           signalEmoji = '📈';
@@ -22230,7 +22253,7 @@ document.addEventListener('DOMContentLoaded', function() {
           patternEmoji = '📉';
           patternLabel = 'Urban county with flat/declining population';
           const hubClause = isInstitutionalHub
-            ? 'In institutional hubs (e.g., military-heavy counties like Cumberland/Fayetteville), year-to-year estimates can be choppy, and political change may track voter turnover and participation as much as net in-migration.'
+            ? 'In major employment and university hubs, year-to-year estimates can be choppy, and political change may track voter turnover and participation as much as net in-migration.'
             : 'Flat or declining growth often means less in-migration-driven electorate churn, so shifts may show up more through turnout and coalition change than sheer population inflow.';
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020 this county is ${formatPopulationChangePct(totalPct)}, while the 2024 to 2025 change was ${formatPopulationChangePct(recentPct)}. ${hubClause}`;
         } else if (ruralSlowdown.has(norm) || isFlatOrDeclining) {
@@ -22247,8 +22270,8 @@ document.addEventListener('DOMContentLoaded', function() {
           noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}${Number.isFinite(stateTotalPct) ? ` versus ${formatPopulationChangePct(stateTotalPct)} statewide` : ''}.`;
         }
 
-        if (isInstitutionalHub && !/institutional hubs|military/i.test(noteLabel)) {
-          noteLabel += ' Military hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
+        if (isInstitutionalHub && !/employment and university hubs/i.test(noteLabel)) {
+          noteLabel += ' Employment and university hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
         }
       }
 
@@ -22258,12 +22281,12 @@ document.addEventListener('DOMContentLoaded', function() {
         patternEmoji = '🧲';
         patternLabel = 'Jobs and institutions pull in growth';
         noteLabel = 'Large urban counties often absorb new voters first, which can reshape both county margins and nearby suburbs.';
-      } else if (!estimate && coastalGrowth.has(norm)) {
+      } else if (!estimate && amenityGrowth.has(norm)) {
         signalEmoji = '📈';
-        signalLabel = 'High-growth coastal county';
-        patternEmoji = '🏖️';
-        patternLabel = 'Coastal migration and retirement growth';
-        noteLabel = 'Coastal growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
+        signalLabel = 'High-growth amenity county';
+        patternEmoji = '🏞️';
+        patternLabel = 'Amenity migration and retirement growth';
+        noteLabel = 'Amenity growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
       } else if (!estimate && metroSpillover.has(norm)) {
         signalEmoji = '📈';
         signalLabel = 'High-growth county';
@@ -22284,8 +22307,8 @@ document.addEventListener('DOMContentLoaded', function() {
         noteLabel = 'These counties often sit between metro growth and rural stability, making them useful early-warning signs for political change.';
       }
 
-      if (!/institutional hubs|military/i.test(noteLabel) && isInstitutionalHub) {
-        noteLabel += ' Military hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
+      if (!/employment and university hubs/i.test(noteLabel) && isInstitutionalHub) {
+        noteLabel += ' Employment and university hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
       }
 
       return {
@@ -22958,21 +22981,20 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const norm = String(countyName || '').trim().toUpperCase();
 	      if (!norm) return '🏭 Stable / Local Growth';
 
-      const tourism = new Set([
-        'SEVIER', 'COCKE', 'POLK', 'RHEA', 'MONROE', 'GRAINGER', 'CUMBERLAND'
-      ]);
-      const nashvilleMetro = new Set([
-        'DAVIDSON', 'WILLIAMSON', 'RUTHERFORD', 'SUMNER', 'WILSON', 'CHEATHAM',
-        'DICKSON', 'ROBERTSON', 'MONTGOMERY'
-      ]);
-      const i40Corridor = new Set([
-        'MONTGOMERY', 'ROBERTSON', 'CHEATHAM', 'DICKSON', 'WILLIAMSON',
-        'RUTHERFORD', 'COFFEE', 'WARREN', 'BLEDSOE'
-      ]);
+	      const tourism = new Set([
+	        'CARROLL', 'GARLAND', 'BAXTER', 'MARION', 'STONE', 'BOONE', 'SHARP'
+	      ]);
+	      const metroSpillover = new Set([
+	        'SALINE', 'LONOKE', 'FAULKNER', 'GRANT', 'MADISON'
+	      ]);
+	      const interstateCorridor = new Set([
+	        'CRAWFORD', 'SEBASTIAN', 'FRANKLIN', 'JOHNSON', 'POPE', 'WHITE',
+	        'LONOKE', 'FAULKNER'
+	      ]);
 
       if (tourism.has(norm)) return '🏔️ Tourism Growth';
-      if (nashvilleMetro.has(norm)) return '🌆 Metro Spillover';
-      if (i40Corridor.has(norm)) return '🛣️ Corridor Growth';
+	      if (metroSpillover.has(norm)) return '🌆 Metro Spillover';
+	      if (interstateCorridor.has(norm)) return '🛣️ Corridor Growth';
 
 	      void growthRate;
 	      return '🏭 Stable / Local Growth';
@@ -25977,7 +25999,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentVizMode !== 'population_change') return '';
         const estimate = countyPopulationEstimatesByNorm?.get(norm) || null;
         if (!estimate) return '';
-        const p2020 = Number(estimate.population2020 || 0);
+        const p2020 = Number(estimate.population2020Base || estimate.population2020 || 0);
         const p2025 = Number(estimate.population2025 || 0);
         const pct = Number(estimate.changePct2020To2025);
         const abs = Number(estimate.change2020To2025);
@@ -25993,7 +26015,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentVizMode !== 'population_change') return null;
         const estimate = countyPopulationEstimatesByNorm?.get(norm) || null;
         if (!estimate) return null;
-        const p2020 = Number(estimate.population2020 || 0);
+        const p2020 = Number(estimate.population2020Base || estimate.population2020 || 0);
         const p2025 = Number(estimate.population2025 || 0);
         const pct = Number(estimate.changePct2020To2025);
         const abs = Number(estimate.change2020To2025);
@@ -31011,8 +31033,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>👥 Demographics (VAP)</h5>
-            <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
+            <h5>👥 Demographics (CVAP)</h5>
+            <p><strong>CVAP (18+):</strong> ${districtInfo.total_population.toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
             <p><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</p>
@@ -31126,8 +31148,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (districtInfo) {
         demographicInfo = `
           <div style="margin-bottom: 16px;">
-            <h5>👥 Demographics (VAP)</h5>
-            <p><strong>Total Population:</strong> ${districtInfo.total_population.toLocaleString()}</p>
+            <h5>👥 Demographics (CVAP)</h5>
+            <p><strong>CVAP (18+):</strong> ${districtInfo.total_population.toLocaleString()}</p>
             <p><strong>White:</strong> ${districtInfo.white_vap_pct}%</p>
             <p><strong>Black:</strong> ${districtInfo.black_vap_pct}%</p>
             <p><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</p>
