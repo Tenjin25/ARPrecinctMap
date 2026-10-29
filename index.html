@@ -10268,8 +10268,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-29-ar-mapbox-gl-precinct-v2';
-    const APP_BUILD_ID = '2026-10-29-ar-mapbox-gl-precinct-v2';
+    const DATA_CACHE_BUSTER = '2026-10-29-ar-mapbox-gl-district-colors-v3';
+    const APP_BUILD_ID = '2026-10-29-ar-mapbox-gl-district-colors-v3';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -19641,7 +19641,7 @@ document.addEventListener('DOMContentLoaded', function() {
             districtNum: districtId,
             contestType,
             year: Number(year),
-            margin_pct: Number(row.margin_pct),
+            margin_pct: getDistrictSignedMarginFromRow(row, contestType),
             otherCandidate: row.other_candidate || '',
             otherParty: row.other_party || ''
           },
@@ -19857,7 +19857,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function getDistrictSignedMarginFromRow(row, contestType = '') {
       if (!row) return NaN;
       const direct = Number(row.margin_pct);
-      if (Number.isFinite(direct)) return direct;
+      const winnerRaw = (row.winner || row.Winner || '').toString().trim().toUpperCase();
+      const winner = (winnerRaw === 'R' || winnerRaw.startsWith('REP'))
+        ? 'R'
+        : ((winnerRaw === 'D' || winnerRaw.startsWith('DEM')) ? 'D' : '');
+      if (Number.isFinite(direct)) {
+        if (winner === 'R') return Math.abs(direct);
+        if (winner === 'D') return -Math.abs(direct);
+        return direct;
+      }
       const prefix = (contestType || '').toString().trim();
       const demVotes = Number(row.dem_votes ?? (prefix ? row[`${prefix}_dem`] : undefined) ?? row.dem ?? row.Democratic ?? 0);
       const repVotes = Number(row.rep_votes ?? (prefix ? row[`${prefix}_rep`] : undefined) ?? row.rep ?? row.Republican ?? 0);
@@ -26545,14 +26553,15 @@ document.addEventListener('DOMContentLoaded', function() {
           districtNum: Number(districtNum),
           contestType,
           year: Number(year),
-          margin_pct: Number(row.margin_pct),
+          margin_pct: getDistrictSignedMarginFromRow(row, contestType),
           otherCandidate,
           otherParty
         }
       );
 
-      const signedMarginPct = ('margin_pct' in row)
-        ? Number(row.margin_pct || 0)
+      const signedMarginPctRaw = getDistrictSignedMarginFromRow(row, contestType);
+      const signedMarginPct = Number.isFinite(signedMarginPctRaw)
+        ? signedMarginPctRaw
         : signedMarginPctFromMajorOrOther(demVotes, repVotes, otherVotes, totalVotes);
       let prevSignedForFlip = null;
       let prevYearForFlip = null;
@@ -29719,7 +29728,7 @@ document.addEventListener('DOMContentLoaded', function() {
                       districtNum: Number(districtNum),
                       contestType,
                       year: Number(year),
-                      margin_pct: Number(row.margin_pct),
+                      margin_pct: getDistrictSignedMarginFromRow(row, contestType),
                       otherCandidate: row.other_candidate || '',
                       otherParty: row.other_party || ''
                     },
@@ -29851,7 +29860,7 @@ document.addEventListener('DOMContentLoaded', function() {
                       districtNum: Number(districtNum),
                       contestType,
                       year: Number(year),
-                      margin_pct: Number(row.margin_pct),
+                      margin_pct: getDistrictSignedMarginFromRow(row, contestType),
                       otherCandidate: row.other_candidate || '',
                       otherParty: row.other_party || ''
                     },
@@ -29982,7 +29991,7 @@ document.addEventListener('DOMContentLoaded', function() {
                       districtNum: Number(districtNum),
                       contestType,
                       year: Number(year),
-                      margin_pct: Number(row.margin_pct),
+                      margin_pct: getDistrictSignedMarginFromRow(row, contestType),
                       otherCandidate: row.other_candidate || '',
                       otherParty: row.other_party || ''
                     },
@@ -31224,7 +31233,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const demPct = (demVotes / totalVotes) * 100.0;
       const repPct = (repVotes / totalVotes) * 100.0;
       const othPct = (otherVotes / totalVotes) * 100.0;
-      const signedRaw = Number(row.margin_pct);
+      const signedRaw = getDistrictSignedMarginFromRow(row);
       const signedMarginPct = Number.isFinite(signedRaw)
         ? signedRaw
         : signedMarginPctFromMajorOrOther(demVotes, repVotes, otherVotes, totalVotes);
@@ -33901,9 +33910,10 @@ document.addEventListener('DOMContentLoaded', function() {
             totalVotes += rowTotalVotes;
             currentDistrictTurnoutTotals[String(Number(districtId))] = rowTotalVotes;
 
-            const signed = ('margin_pct' in row) ? Number(row.margin_pct || 0) : signedMarginPctFromVotes(demVotes, repVotes, rowTotalVotes);
-            const winnerRaw = (row.winner || '').toString().toUpperCase();
-            const winner = winnerRaw.startsWith('REP') ? 'R' : (winnerRaw.startsWith('DEM') ? 'D' : winnerFromSignedMarginPct(signed));
+            // Stored district margins are absolute winner margins. Derive a signed GOP-facing
+            // margin from the adjusted vote totals so Democratic districts remain blue.
+            const signed = signedMarginPctFromVotes(demVotes, repVotes, rowTotalVotes);
+            const winner = winnerFromSignedMarginPct(signed);
             let color = '#e0e0e0';
             const districtNum = Number(districtId);
             if (mode === 'demographics') {
