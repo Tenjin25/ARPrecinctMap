@@ -245,20 +245,22 @@
     ],
     "whole_county_vote_total": 279519,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 615075,
-    "split_county_cvap_fallback_vote_total": 2699,
-    "split_precinct_match_coverage": 0.995631,
+    "split_precinct_matched_vote_total": 616452,
+    "split_county_cvap_fallback_vote_total": 1322,
+    "split_precinct_match_coverage": 0.99786,
     "split_match_methods": {
       "ambiguous_containment": 1,
-      "audited_alias_exact": 1216,
-      "compact_code": 104,
-      "containment": 2,
-      "county_cvap_fallback": 12,
-      "exact": 140,
-      "numeric_code": 18,
-      "numeric_group": 28,
-      "structural_group": 2,
-      "structural_prefix": 2
+      "audited_alias_exact": 1251,
+      "compact_code": 103,
+      "containment": 1,
+      "county_cvap_fallback": 3,
+      "cross_year_alias_compact_code": 1,
+      "cross_year_alias_containment": 1,
+      "cross_year_alias_numeric_code": 31,
+      "cross_year_alias_structural_prefix": 3,
+      "exact": 99,
+      "numeric_code": 5,
+      "numeric_group": 26
     },
     "matched_vote_coverage": 1.0,
     "district_coverage_complete": true,
@@ -315,14 +317,14 @@
         "winner": "R"
       },
       "5": {
-        "dem_votes": 4224,
-        "rep_votes": 22381,
+        "dem_votes": 4203,
+        "rep_votes": 22308,
         "other_votes": 0,
-        "total_votes": 26605,
+        "total_votes": 26511,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 18157,
-        "margin_pct": 68.24657019357264,
+        "margin": 18105,
+        "margin_pct": 68.29240692542719,
         "winner": "R"
       },
       "6": {
@@ -359,25 +361,25 @@
         "winner": "D"
       },
       "9": {
-        "dem_votes": 9864,
-        "rep_votes": 8827,
+        "dem_votes": 9857,
+        "rep_votes": 8782,
         "other_votes": 0,
-        "total_votes": 18691,
+        "total_votes": 18639,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": -1037,
-        "margin_pct": 5.548124765930127,
+        "margin": -1075,
+        "margin_pct": 5.767476795965449,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 6430,
-        "rep_votes": 18285,
+        "dem_votes": 6437,
+        "rep_votes": 18330,
         "other_votes": 0,
-        "total_votes": 24715,
+        "total_votes": 24767,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 11855,
-        "margin_pct": 47.96682176815699,
+        "margin": 11893,
+        "margin_pct": 48.01954213267655,
         "winner": "R"
       },
       "11": {
@@ -448,13 +450,13 @@
       },
       "17": {
         "dem_votes": 11784,
-        "rep_votes": 17056,
+        "rep_votes": 17057,
         "other_votes": 0,
-        "total_votes": 28840,
+        "total_votes": 28841,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 5272,
-        "margin_pct": 18.280166435506242,
+        "margin": 5273,
+        "margin_pct": 18.282999895981416,
         "winner": "R"
       },
       "18": {
@@ -525,13 +527,13 @@
       },
       "24": {
         "dem_votes": 5955,
-        "rep_votes": 26795,
+        "rep_votes": 26794,
         "other_votes": 0,
-        "total_votes": 32750,
+        "total_votes": 32749,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 20840,
-        "margin_pct": 63.63358778625954,
+        "margin": 20839,
+        "margin_pct": 63.63247732755198,
         "winner": "R"
       },
       "25": {
@@ -546,14 +548,14 @@
         "winner": "R"
       },
       "26": {
-        "dem_votes": 5412,
-        "rep_votes": 20508,
+        "dem_votes": 5433,
+        "rep_votes": 20581,
         "other_votes": 0,
-        "total_votes": 25920,
+        "total_votes": 26014,
         "dem_candidate": "Jesse Gibson",
         "rep_candidate": "Tim Griffin",
-        "margin": 15096,
-        "margin_pct": 58.24074074074074,
+        "margin": 15148,
+        "margin_pct": 58.23018374721304,
         "winner": "R"
       },
       "27": {

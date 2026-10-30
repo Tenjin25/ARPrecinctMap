@@ -143,6 +143,18 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
         if len(compact_matches) > 1:
             return {"method": "compact_code_group", "score": 0.987, "targets": compact_matches}
 
+        # Compact municipal codes such as Faulkner's "4A" and "3C-E"
+        # prefix a longer Census VTD label (for example, "4A Conway City").
+        # A unique prefix is deterministic and safer than fuzzy text matching.
+        compact_prefix_matches = []
+        for item in targets:
+            target_compact = re.sub(r"[^A-Z0-9]", "", (item.get("name") or "").upper())
+            target_compact = re.sub(r"^PRECINCT", "", target_compact)
+            if target_compact.startswith(source_compact) and target_compact != source_compact:
+                compact_prefix_matches.append(item)
+        if len(compact_prefix_matches) == 1:
+            return {"method": "compact_prefix", "score": 0.982, "targets": compact_prefix_matches}
+
         # Garland County historically reported ballot-style suffixes such as
         # "09R" while later Census VTDs encode the same precinct family as
         # 091-095.  When the target set is purely numeric, retain every VTD
@@ -193,7 +205,6 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
     structural_group = [
         item for item in targets
         if len(structural) >= 4
-        and not any(token.isdigit() for token in structural.split())
         and (item["structural"] if "structural" in item else structural_label(item["name"])).startswith(structural + " ")
     ]
     if len(structural_group) == 1:
@@ -206,6 +217,8 @@ def match_precinct(label: str, targets: list[dict[str, str]]) -> dict[str, objec
     # lettered pieces ("PCT 056A").  Treat all listed numeric pieces as one
     # reporting group; the district builder combines them by their basis/CVAP.
     clean_tokens = clean.split()
+    if clean_tokens and clean_tokens[0] == "PRECINCT":
+        clean_tokens = clean_tokens[1:]
     source_codes: list[int] = []
     for token in clean_tokens:
         if token.isdigit():
@@ -279,7 +292,10 @@ def main() -> int:
     elections = load_election_precincts()
     audit_rows: list[dict[str, object]] = []
     alias_rows: list[dict[str, str]] = []
-    safe_methods = {"exact", "canonical", "structural", "abbreviation", "containment", "fuzzy_high"}
+    safe_methods = {
+        "exact", "canonical", "compact_prefix", "structural", "structural_prefix",
+        "abbreviation", "numeric_code", "containment", "fuzzy_high"
+    }
 
     for year in sorted(elections):
         stats: dict[str, int] = defaultdict(int)

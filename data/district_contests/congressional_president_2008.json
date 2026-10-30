@@ -31,10 +31,10 @@
     "split_precinct_match_coverage": 0.620498,
     "split_match_methods": {
       "ambiguous_containment": 42,
+      "audited_alias_exact": 100,
       "containment": 8,
       "county_cvap_fallback": 3,
       "named_region": 4,
-      "numeric_code": 100,
       "numeric_group": 14
     },
     "matched_vote_coverage": 1.0,
@@ -48,25 +48,25 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 108757,
-        "rep_votes": 161507,
-        "other_votes": 7894,
-        "total_votes": 278158,
+        "dem_votes": 108397,
+        "rep_votes": 160648,
+        "other_votes": 7871,
+        "total_votes": 276916,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "John McCain",
-        "margin": 52750,
-        "margin_pct": 18.964042019284005,
+        "margin": 52251,
+        "margin_pct": 18.86889887186006,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 123365,
-        "rep_votes": 159310,
-        "other_votes": 5842,
-        "total_votes": 288517,
+        "dem_votes": 123389,
+        "rep_votes": 159966,
+        "other_votes": 5857,
+        "total_votes": 289212,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "John McCain",
-        "margin": 35945,
-        "margin_pct": 12.458537971765962,
+        "margin": 36577,
+        "margin_pct": 12.64712390910474,
         "winner": "R"
       },
       "3": {
@@ -81,14 +81,14 @@
         "winner": "R"
       },
       "4": {
-        "dem_votes": 112866,
-        "rep_votes": 175912,
-        "other_votes": 7525,
-        "total_votes": 296303,
+        "dem_votes": 113202,
+        "rep_votes": 176115,
+        "other_votes": 7533,
+        "total_votes": 296850,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "John McCain",
-        "margin": 63046,
-        "margin_pct": 21.27754359557615,
+        "margin": 62913,
+        "margin_pct": 21.19353208691258,
         "winner": "R"
       }
     }

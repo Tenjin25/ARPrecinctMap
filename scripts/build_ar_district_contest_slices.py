@@ -4,6 +4,7 @@ import csv
 import io
 import json
 import math
+import re
 import sys
 import zipfile
 from collections import defaultdict
@@ -25,7 +26,7 @@ SOURCE_PATH = DATA_DIR / "ar_elections_aggregated.json"
 CROSSWALK_DIR = DATA_DIR / "crosswalks"
 OUTPUT_DIR = DATA_DIR / "district_contests"
 SAFE_METHODS = {
-    "exact", "canonical", "compact_code", "structural", "structural_prefix",
+    "exact", "canonical", "compact_code", "compact_prefix", "structural", "structural_prefix",
     "abbreviation", "numeric_code", "containment", "fuzzy_high"
 }
 DISTRICT_SAFE_METHODS = {
@@ -97,10 +98,12 @@ def load_crosswalk(vintage: int, path: Path | None = None):
     return {county: list(items.values()) for county, items in targets_by_county.items()}, weights
 
 
-def load_precinct_aliases() -> dict[tuple[int, str, str], str]:
+def load_precinct_aliases() -> tuple[
+    dict[tuple[int, str, str], str], dict[str, list[dict[str, object]]]
+]:
     """Load audited one-to-one historical precinct aliases to 2020 VTD labels."""
     if not PRECINCT_ALIASES_PATH.exists():
-        return {}
+        return {}, {}
     aliases: dict[tuple[int, str, str], str] = {}
     consensus: dict[tuple[str, str], set[str]] = defaultdict(set)
     with PRECINCT_ALIASES_PATH.open(newline="", encoding="utf-8-sig") as source:
@@ -121,7 +124,21 @@ def load_precinct_aliases() -> dict[tuple[int, str, str], str]:
     for (county, precinct), targets in consensus.items():
         if len(targets) == 1:
             aliases[(0, county, precinct)] = next(iter(targets))
-    return aliases
+    alias_candidates: dict[str, list[dict[str, object]]] = defaultdict(list)
+    for (county, precinct), targets in sorted(consensus.items()):
+        if len(targets) != 1:
+            continue
+        target = next(iter(targets))
+        alias_candidates[county].append({
+            "name": precinct,
+            "code": "",
+            "clean": clean_label(precinct),
+            "canonical": canonical_label(precinct),
+            "structural": structural_label(precinct),
+            "abbreviations": abbreviation_variants(precinct),
+            "alias_target": target,
+        })
+    return aliases, dict(alias_candidates)
 
 
 def finish_result(node: dict, dem_candidate: str, rep_candidate: str) -> dict:
@@ -281,29 +298,50 @@ def precinct_weight_options(
     crosswalks: dict[int, tuple[dict, dict]],
     reporting_2024: tuple[dict, dict] | None,
 ) -> list[tuple[dict, list[dict], dict]]:
+    label_variants = [precinct]
+    cleaned = clean_label(precinct)
+    if county == "WASHINGTON":
+        washington = re.fullmatch(
+            r"(FAY|FAYETTEVILLE|SPR|SPG|SPRINGDALE)(?:\s+P(?:RECINCT)?)?\s+0*(\d+)",
+            cleaned,
+        )
+        if washington:
+            city_token, number = washington.groups()
+            city = "FAYETTEVILLE" if city_token.startswith("FAY") else "SPRINGDALE"
+            label_variants.insert(0, f"{city} PRECINCT {int(number)}")
+    elif county == "ST. FRANCIS":
+        forest_city = re.fullmatch(r"FC\s+WARD\s+0*(\d+)", cleaned)
+        if forest_city:
+            label_variants.insert(0, f"FORREST CITY WARD {int(forest_city.group(1))}")
+    elif county == "LOGAN":
+        expanded = re.sub(r"\bSHORT MTN\b", "SHORT MOUNTAIN", cleaned)
+        expanded = re.sub(r"\bBLUE MTN\b", "BLUE MOUNTAIN", expanded)
+        if expanded != cleaned:
+            label_variants.insert(0, expanded)
+
+    def append_matches(targets_by_county: dict, active_weights: dict) -> None:
+        for label in label_variants:
+            match = match_precinct(label, targets_by_county.get(county, []))
+            options.append((match, list(match["targets"]), active_weights))
+
     vintage = vintage_for_year(year)
     targets_by_county, weights = crosswalks[vintage]
     fallback_targets, fallback_weights = crosswalks[2020]
     options: list[tuple[dict, list[dict], dict]] = []
     if year >= 2022 and reporting_2024:
         reporting_targets, reporting_weights = reporting_2024
-        match = match_precinct(precinct, reporting_targets.get(county, []))
-        options.append((match, list(match["targets"]), reporting_weights))
-    match = match_precinct(precinct, targets_by_county.get(county, []))
-    options.append((match, list(match["targets"]), weights))
+        append_matches(reporting_targets, reporting_weights)
+    append_matches(targets_by_county, weights)
     if 2014 <= year < 2022 and reporting_2024:
         reporting_targets, reporting_weights = reporting_2024
-        match = match_precinct(precinct, reporting_targets.get(county, []))
-        options.append((match, list(match["targets"]), reporting_weights))
+        append_matches(reporting_targets, reporting_weights)
     if vintage != 2020:
-        match = match_precinct(precinct, fallback_targets.get(county, []))
-        options.append((match, list(match["targets"]), fallback_weights))
+        append_matches(fallback_targets, fallback_weights)
     else:
         # Several counties, especially Sebastian, continued reporting with
         # 2010-era ward/precinct identifiers through 2020 and into 2022.
         legacy_targets, legacy_weights = crosswalks[2010]
-        match = match_precinct(precinct, legacy_targets.get(county, []))
-        options.append((match, list(match["targets"]), legacy_weights))
+        append_matches(legacy_targets, legacy_weights)
     return options
 
 
@@ -344,6 +382,7 @@ def resolve_precinct_weights(
     crosswalks: dict[int, tuple[dict, dict]],
     reporting_2024: tuple[dict, dict] | None,
     aliases: dict[tuple[int, str, str], str] | None = None,
+    alias_candidates: dict[str, list[dict[str, object]]] | None = None,
 ) -> tuple[dict[str, float], str]:
     regional = resolve_named_region_weights(year, county, precinct, scope, crosswalks)
     if regional:
@@ -360,11 +399,30 @@ def resolve_precinct_weights(
             resolved = combine_target_weights(alias_matches, alias_weights, scope)
             if resolved:
                 return resolved, f"audited_alias_{alias_match['method']}"
+    # A polling-place label may be truncated or slightly renamed between
+    # exports. Match it to the set of already-audited historical labels only
+    # when the result is a unique, high-confidence one-to-one alias.
+    historical_alias_match = match_precinct(
+        precinct, (alias_candidates or {}).get(county, [])
+    )
+    historical_alias_method = str(historical_alias_match.get("method") or "")
+    historical_alias_targets = list(historical_alias_match.get("targets") or [])
+    if historical_alias_method in SAFE_METHODS and len(historical_alias_targets) == 1:
+        historical_target = str(historical_alias_targets[0].get("alias_target") or "")
+        if historical_target:
+            alias_targets, alias_weights = crosswalks[2020]
+            alias_match = match_precinct(historical_target, alias_targets.get(county, []))
+            alias_matches = list(alias_match.get("targets") or [])
+            if len(alias_matches) == 1:
+                resolved = combine_target_weights(alias_matches, alias_weights, scope)
+                if resolved:
+                    return resolved, f"cross_year_alias_{historical_alias_method}"
     options = precinct_weight_options(year, county, precinct, crosswalks, reporting_2024)
     method_rank = {
         "exact": 100,
         "canonical": 95,
         "compact_code": 94,
+        "compact_prefix": 93,
         "structural": 92,
         "numeric_code": 90,
         "abbreviation": 88,
@@ -467,7 +525,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
     }
     crosswalks = {vintage: load_crosswalk(vintage) for vintage in (2000, 2010, 2020)}
     reporting_2024 = load_crosswalk(2024, REPORTING_2024_CROSSWALK) if REPORTING_2024_CROSSWALK.exists() else None
-    aliases = load_precinct_aliases()
+    aliases, alias_candidates = load_precinct_aliases()
     block_party_weights = load_2024_block_party_weights()
     manifest: list[dict] = []
     for year_text, contests in sorted(payload["results_by_year"].items()):
@@ -531,6 +589,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                             crosswalks,
                             reporting_2024,
                             aliases,
+                            alias_candidates,
                         )
                         precinct_vote_total = sum(
                             int(result.get(party) or 0)

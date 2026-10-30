@@ -245,20 +245,24 @@
     ],
     "whole_county_vote_total": 283541,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 600003,
-    "split_county_cvap_fallback_vote_total": 5191,
-    "split_precinct_match_coverage": 0.991423,
+    "split_precinct_matched_vote_total": 601167,
+    "split_county_cvap_fallback_vote_total": 4027,
+    "split_precinct_match_coverage": 0.993346,
     "split_match_methods": {
       "ambiguous_containment": 4,
-      "audited_alias_exact": 1201,
-      "canonical": 21,
-      "compact_code": 82,
-      "containment": 6,
-      "county_cvap_fallback": 24,
-      "exact": 90,
-      "numeric_code": 48,
-      "numeric_group": 14,
-      "structural_group": 2
+      "audited_alias_exact": 1256,
+      "canonical": 5,
+      "compact_code": 80,
+      "containment": 5,
+      "county_cvap_fallback": 18,
+      "cross_year_alias_abbreviation": 1,
+      "cross_year_alias_compact_code": 2,
+      "cross_year_alias_compact_prefix": 4,
+      "cross_year_alias_containment": 12,
+      "cross_year_alias_structural_prefix": 1,
+      "exact": 81,
+      "numeric_code": 12,
+      "numeric_group": 11
     },
     "matched_vote_coverage": 1.0,
     "district_coverage_complete": true,
@@ -315,14 +319,14 @@
         "winner": "R"
       },
       "5": {
-        "dem_votes": 4583,
-        "rep_votes": 20698,
-        "other_votes": 695,
-        "total_votes": 25976,
+        "dem_votes": 4565,
+        "rep_votes": 20641,
+        "other_votes": 693,
+        "total_votes": 25899,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 16115,
-        "margin_pct": 62.03803510933169,
+        "margin": 16076,
+        "margin_pct": 62.071894667747785,
         "winner": "R"
       },
       "6": {
@@ -359,25 +363,25 @@
         "winner": "D"
       },
       "9": {
-        "dem_votes": 12184,
-        "rep_votes": 9279,
-        "other_votes": 478,
-        "total_votes": 21941,
+        "dem_votes": 12176,
+        "rep_votes": 9236,
+        "other_votes": 477,
+        "total_votes": 21889,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": -2905,
-        "margin_pct": 13.240052869057928,
+        "margin": -2940,
+        "margin_pct": 13.431403901503039,
         "winner": "D"
       },
       "10": {
-        "dem_votes": 8044,
-        "rep_votes": 18171,
-        "other_votes": 501,
-        "total_votes": 26716,
+        "dem_votes": 8052,
+        "rep_votes": 18214,
+        "other_votes": 502,
+        "total_votes": 26768,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 10127,
-        "margin_pct": 37.90612367120826,
+        "margin": 10162,
+        "margin_pct": 37.96323968918111,
         "winner": "R"
       },
       "11": {
@@ -447,14 +451,14 @@
         "winner": "R"
       },
       "17": {
-        "dem_votes": 10855,
-        "rep_votes": 17746,
+        "dem_votes": 10850,
+        "rep_votes": 17736,
         "other_votes": 897,
-        "total_votes": 29498,
+        "total_votes": 29483,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 6891,
-        "margin_pct": 23.36090582412367,
+        "margin": 6886,
+        "margin_pct": 23.355832174473427,
         "winner": "R"
       },
       "18": {
@@ -524,14 +528,14 @@
         "winner": "R"
       },
       "24": {
-        "dem_votes": 5558,
-        "rep_votes": 23226,
+        "dem_votes": 5563,
+        "rep_votes": 23236,
         "other_votes": 848,
-        "total_votes": 29632,
+        "total_votes": 29647,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 17668,
-        "margin_pct": 59.62473002159827,
+        "margin": 17673,
+        "margin_pct": 59.61142780045199,
         "winner": "R"
       },
       "25": {
@@ -546,14 +550,14 @@
         "winner": "R"
       },
       "26": {
-        "dem_votes": 4706,
-        "rep_votes": 17060,
-        "other_votes": 635,
-        "total_votes": 22401,
+        "dem_votes": 4724,
+        "rep_votes": 17117,
+        "other_votes": 637,
+        "total_votes": 22478,
         "dem_candidate": "Anthony Bland",
         "rep_candidate": "Tim Griffin",
-        "margin": 12354,
-        "margin_pct": 55.14932369090666,
+        "margin": 12393,
+        "margin_pct": 55.13390871073939,
         "winner": "R"
       },
       "27": {
