@@ -99,6 +99,10 @@ def normalize_candidate_name(value: str) -> str:
     return " / ".join(strip_title(part) for part in candidate.split("/"))
 
 
+def presidential_nominee_name(candidate: str) -> str:
+    return candidate.split(" / ", 1)[0].split(" and ", 1)[0].strip()
+
+
 def color_for_margin(rep_votes: int, dem_votes: int, total_votes: int) -> str:
     if total_votes <= 0:
         return "#d1d5db"
@@ -152,8 +156,8 @@ def main() -> int:
                     votes = int(float(votes_raw or 0))
                     party = normalize_party(row.get("party") or "")
                     candidate = normalize_candidate_name(row.get("candidate") or "")
-                    if year == 2008 and office_type == "presidential":
-                        candidate = candidate.split(" and ", 1)[0].strip()
+                    if office_type == "presidential":
+                        candidate = presidential_nominee_name(candidate)
                     if party == "DEM":
                         node["dem_votes"] += votes
                         node["dem_candidate"] = node["dem_candidate"] or candidate
@@ -205,6 +209,8 @@ def main() -> int:
                     votes = int(float(str(row.get("votes") or "0").replace(",", "")))
                     party = normalize_party(row.get("party") or "")
                     candidate = normalize_candidate_name(row.get("candidate") or "")
+                    if office_type == "presidential":
+                        candidate = presidential_nominee_name(candidate)
                     if party == "DEM":
                         official["dem_votes"] += votes
                         official["dem_candidate"] = official["dem_candidate"] or candidate

@@ -50,8 +50,8 @@
         "rep_votes": 178635,
         "other_votes": 13471,
         "total_votes": 274860,
-        "dem_candidate": "Hillary Clinton / Tim Kaine",
-        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
         "margin": 95881,
         "margin_pct": 34.88357709379321,
         "winner": "R"
@@ -61,8 +61,8 @@
         "rep_votes": 166862,
         "other_votes": 18434,
         "total_votes": 306144,
-        "dem_candidate": "Hillary Clinton / Tim Kaine",
-        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
         "margin": 46014,
         "margin_pct": 15.030181875195986,
         "winner": "R"
@@ -72,8 +72,8 @@
         "rep_votes": 156611,
         "other_votes": 20218,
         "total_votes": 259281,
-        "dem_candidate": "Hillary Clinton / Tim Kaine",
-        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
         "margin": 74159,
         "margin_pct": 28.60178725012631,
         "winner": "R"
@@ -83,8 +83,8 @@
         "rep_votes": 182764,
         "other_votes": 13187,
         "total_votes": 290391,
-        "dem_candidate": "Hillary Clinton / Tim Kaine",
-        "rep_candidate": "Donald J. Trump / Michael R. Pence",
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald J. Trump",
         "margin": 88324,
         "margin_pct": 30.415543181434685,
         "winner": "R"

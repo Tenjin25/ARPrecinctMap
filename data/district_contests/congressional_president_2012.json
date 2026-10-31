@@ -50,8 +50,8 @@
         "rep_votes": 162860,
         "other_votes": 7233,
         "total_votes": 267036,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
         "margin": 65917,
         "margin_pct": 24.684686708908163,
         "winner": "R"
@@ -61,8 +61,8 @@
         "rep_votes": 165347,
         "other_votes": 6996,
         "total_votes": 290494,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
         "margin": 47196,
         "margin_pct": 16.246807162970665,
         "winner": "R"
@@ -72,8 +72,8 @@
         "rep_votes": 145996,
         "other_votes": 6619,
         "total_votes": 226300,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
         "margin": 72311,
         "margin_pct": 31.95360141405214,
         "winner": "R"
@@ -83,8 +83,8 @@
         "rep_votes": 173541,
         "other_votes": 6467,
         "total_votes": 285638,
-        "dem_candidate": "Barack Obama / Joe Biden",
-        "rep_candidate": "Mitt Romney / Paul Ryan",
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
         "margin": 67911,
         "margin_pct": 23.77519797786009,
         "winner": "R"
