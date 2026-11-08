@@ -1,0 +1,97 @@
+{
+  "year": 2026,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "whole_county_vote_total": 722680,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 163431,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_containment": 6,
+      "audited_alias_exact": 136,
+      "containment": 61,
+      "exact": 43
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 67156,
+        "rep_votes": 121383,
+        "other_votes": 7101,
+        "total_votes": 195640,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 54227,
+        "margin_pct": 27.717746882028216,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 123810,
+        "rep_votes": 119132,
+        "other_votes": 7257,
+        "total_votes": 250199,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -4678,
+        "margin_pct": 1.8697117094792544,
+        "winner": "D"
+      },
+      "3": {
+        "dem_votes": 110317,
+        "rep_votes": 117617,
+        "other_votes": 7283,
+        "total_votes": 235217,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 7300,
+        "margin_pct": 3.103517177755009,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 74540,
+        "rep_votes": 122668,
+        "other_votes": 7847,
+        "total_votes": 205055,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 48128,
+        "margin_pct": 23.470776133232548,
+        "winner": "R"
+      }
+    }
+  }
+}

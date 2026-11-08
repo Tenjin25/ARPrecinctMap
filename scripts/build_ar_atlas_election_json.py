@@ -61,6 +61,18 @@ INPUTS = {
     ),
     2022: [DATA_DIR / "20221108__ar__general__precinct.csv"],
     2024: [DATA_DIR / "20241105__ar__general__precinct.csv"],
+    2026: [DATA_DIR / "20261103__ar__general__precinct.csv"],
+}
+
+SOURCE_BY_YEAR = {
+    "2026": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": False,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00",
+    }
 }
 
 def normalize_county_name(value: str) -> str:
@@ -336,6 +348,7 @@ def main() -> int:
     payload = {
         "state": "Arkansas",
         "state_fips": "05",
+        "source_by_year": SOURCE_BY_YEAR,
         "coverage_by_year": coverage_by_year,
         "results_by_year": results_by_year,
     }

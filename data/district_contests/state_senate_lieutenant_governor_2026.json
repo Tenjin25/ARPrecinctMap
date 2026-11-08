@@ -1,0 +1,667 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "whole_county_vote_total": 247208,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 585218,
+    "split_county_cvap_fallback_vote_total": 6998,
+    "split_precinct_match_coverage": 0.988183,
+    "split_match_methods": {
+      "ambiguous_containment": 8,
+      "audited_alias_exact": 988,
+      "canonical": 98,
+      "compact_prefix": 4,
+      "containment": 69,
+      "county_cvap_fallback": 79,
+      "cross_year_alias_canonical": 137,
+      "cross_year_alias_compact_code": 2,
+      "cross_year_alias_containment": 10,
+      "cross_year_alias_numeric_code": 25,
+      "cross_year_alias_structural_prefix": 1,
+      "exact": 464,
+      "numeric_code": 15,
+      "numeric_group": 2
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 35,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 16034,
+        "other_votes": 6478,
+        "total_votes": 22512,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 16034,
+        "margin_pct": 71.22423596304193,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 15836,
+        "other_votes": 7251,
+        "total_votes": 23087,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 15836,
+        "margin_pct": 68.59271451466194,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 14269,
+        "other_votes": 6401,
+        "total_votes": 20670,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 14269,
+        "margin_pct": 69.03241412675375,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 15255,
+        "other_votes": 5203,
+        "total_votes": 20458,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 15255,
+        "margin_pct": 74.56740639358686,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 19361,
+        "other_votes": 5044,
+        "total_votes": 24405,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 19361,
+        "margin_pct": 79.33210407703339,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 20689,
+        "other_votes": 9092,
+        "total_votes": 29781,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 20689,
+        "margin_pct": 69.47046774789295,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 18012,
+        "other_votes": 6571,
+        "total_votes": 24583,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 18012,
+        "margin_pct": 73.27014603587844,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 9915,
+        "other_votes": 9496,
+        "total_votes": 19411,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 9915,
+        "margin_pct": 51.079284941528,
+        "winner": "R"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 8379,
+        "other_votes": 8623,
+        "total_votes": 17002,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 8379,
+        "margin_pct": 49.28243736031055,
+        "winner": "O"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 15421,
+        "other_votes": 5734,
+        "total_votes": 21155,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 15421,
+        "margin_pct": 72.89529662018435,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 18757,
+        "other_votes": 8803,
+        "total_votes": 27560,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 18757,
+        "margin_pct": 68.0587808417997,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 8054,
+        "other_votes": 13166,
+        "total_votes": 21220,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 8054,
+        "margin_pct": 37.954759660697455,
+        "winner": "O"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 14875,
+        "other_votes": 14050,
+        "total_votes": 28925,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 14875,
+        "margin_pct": 51.42610198789974,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 11116,
+        "other_votes": 19192,
+        "total_votes": 30308,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 11116,
+        "margin_pct": 36.67678500725881,
+        "winner": "O"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 5889,
+        "other_votes": 13476,
+        "total_votes": 19365,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 5889,
+        "margin_pct": 30.41053446940356,
+        "winner": "O"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 18531,
+        "other_votes": 11211,
+        "total_votes": 29742,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 18531,
+        "margin_pct": 62.30583013919709,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 14948,
+        "other_votes": 13109,
+        "total_votes": 28057,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 14948,
+        "margin_pct": 53.27725701251025,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 19905,
+        "other_votes": 5530,
+        "total_votes": 25435,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 19905,
+        "margin_pct": 78.25830548456851,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 12749,
+        "other_votes": 4947,
+        "total_votes": 17696,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 12749,
+        "margin_pct": 72.04452983725136,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 12239,
+        "other_votes": 7167,
+        "total_votes": 19406,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 12239,
+        "margin_pct": 63.068123260847166,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 15337,
+        "other_votes": 4268,
+        "total_votes": 19605,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 15337,
+        "margin_pct": 78.23004335628666,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 19049,
+        "other_votes": 4664,
+        "total_votes": 23713,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 19049,
+        "margin_pct": 80.33146375405894,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 21413,
+        "other_votes": 5755,
+        "total_votes": 27168,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 21413,
+        "margin_pct": 78.8169905771496,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 22775,
+        "other_votes": 6956,
+        "total_votes": 29731,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 22775,
+        "margin_pct": 76.60354512125392,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 16164,
+        "other_votes": 6191,
+        "total_votes": 22355,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 16164,
+        "margin_pct": 72.30597181838515,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 17306,
+        "other_votes": 6488,
+        "total_votes": 23794,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 17306,
+        "margin_pct": 72.7326216693284,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 10331,
+        "other_votes": 7257,
+        "total_votes": 17588,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 10331,
+        "margin_pct": 58.73891289515579,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 18721,
+        "other_votes": 7397,
+        "total_votes": 26118,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 18721,
+        "margin_pct": 71.67853587564133,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 17546,
+        "other_votes": 7418,
+        "total_votes": 24964,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 17546,
+        "margin_pct": 70.28521070341291,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 9636,
+        "other_votes": 15739,
+        "total_votes": 25375,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 9636,
+        "margin_pct": 37.974384236453204,
+        "winner": "O"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 10210,
+        "other_votes": 8786,
+        "total_votes": 18996,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 10210,
+        "margin_pct": 53.74815750684354,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 14150,
+        "other_votes": 9418,
+        "total_votes": 23568,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 14150,
+        "margin_pct": 60.03903598099117,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 24381,
+        "other_votes": 15415,
+        "total_votes": 39796,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 24381,
+        "margin_pct": 61.26495125138205,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 10070,
+        "other_votes": 6869,
+        "total_votes": 16939,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 10070,
+        "margin_pct": 59.44860971722061,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 18964,
+        "other_votes": 9972,
+        "total_votes": 28936,
+        "dem_candidate": "",
+        "rep_candidate": "Leslie Rutledge",
+        "margin": 18964,
+        "margin_pct": 65.53773845728504,
+        "winner": "R"
+      }
+    }
+  }
+}

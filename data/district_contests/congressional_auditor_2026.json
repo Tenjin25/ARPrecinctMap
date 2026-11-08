@@ -1,0 +1,97 @@
+{
+  "year": 2026,
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 73,
+    "split_counties": [
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "1": 0.02331768,
+          "2": 0.90016455,
+          "4": 0.07651777
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "3": 0.91807297,
+          "4": 0.08192703
+        }
+      }
+    ],
+    "whole_county_vote_total": 568237,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 103796,
+    "split_county_cvap_fallback_vote_total": 0,
+    "split_precinct_match_coverage": 1.0,
+    "split_match_methods": {
+      "ambiguous_containment": 6,
+      "audited_alias_exact": 136,
+      "containment": 61,
+      "exact": 43
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 4,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 162014,
+        "other_votes": 0,
+        "total_votes": 162014,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 162014,
+        "margin_pct": 100.0,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 179241,
+        "other_votes": 0,
+        "total_votes": 179241,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 179241,
+        "margin_pct": 100.0,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 166373,
+        "other_votes": 0,
+        "total_votes": 166373,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 166373,
+        "margin_pct": 100.0,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 164405,
+        "other_votes": 0,
+        "total_votes": 164405,
+        "dem_candidate": "",
+        "rep_candidate": "Dennis Milligan",
+        "margin": 164405,
+        "margin_pct": 100.0,
+        "winner": "R"
+      }
+    }
+  }
+}

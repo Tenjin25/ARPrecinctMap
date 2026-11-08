@@ -17,6 +17,7 @@ def ui_contest_type(value: str) -> str:
 def main() -> int:
     payload = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
     coverage_by_year = payload.get("coverage_by_year", {})
+    source_by_year = payload.get("source_by_year", {})
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = []
 
@@ -57,6 +58,11 @@ def main() -> int:
                 "year": year,
                 "contest_type": contest_type,
                 "rows": rows,
+                **(
+                    {"source": source_by_year[str(year)]}
+                    if str(year) in source_by_year
+                    else {}
+                ),
             }
             (OUTPUT_DIR / file_name).write_text(
                 json.dumps(slice_payload, ensure_ascii=False, indent=2),
@@ -73,6 +79,11 @@ def main() -> int:
                     "counties_present": coverage_by_year.get(str(year), {}).get("counties_present", 75),
                     "counties_expected": coverage_by_year.get(str(year), {}).get("counties_expected", 75),
                     "missing_counties": coverage_by_year.get(str(year), {}).get("missing_counties", []),
+                    **(
+                        {"source": source_by_year[str(year)]}
+                        if str(year) in source_by_year
+                        else {}
+                    ),
                     **(
                         {
                             "county_coverage_complete": coverage_by_year.get(str(year), {}).get("county_coverage_complete", True),

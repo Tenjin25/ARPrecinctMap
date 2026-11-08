@@ -1,0 +1,667 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "commissioner_of_state_lands",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "whole_county_vote_total": 243781,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 572203,
+    "split_county_cvap_fallback_vote_total": 6955,
+    "split_precinct_match_coverage": 0.987991,
+    "split_match_methods": {
+      "ambiguous_containment": 8,
+      "audited_alias_exact": 988,
+      "canonical": 98,
+      "compact_prefix": 4,
+      "containment": 69,
+      "county_cvap_fallback": 79,
+      "cross_year_alias_canonical": 137,
+      "cross_year_alias_compact_code": 2,
+      "cross_year_alias_containment": 10,
+      "cross_year_alias_numeric_code": 25,
+      "cross_year_alias_structural_prefix": 1,
+      "exact": 464,
+      "numeric_code": 15,
+      "numeric_group": 2
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 35,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 15750,
+        "other_votes": 6495,
+        "total_votes": 22245,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15750,
+        "margin_pct": 70.8024275118004,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 15666,
+        "other_votes": 7088,
+        "total_votes": 22754,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15666,
+        "margin_pct": 68.84943306671354,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 14282,
+        "other_votes": 6142,
+        "total_votes": 20424,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 14282,
+        "margin_pct": 69.92753623188406,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 15131,
+        "other_votes": 5172,
+        "total_votes": 20303,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15131,
+        "margin_pct": 74.52593212825691,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 19277,
+        "other_votes": 4925,
+        "total_votes": 24202,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 19277,
+        "margin_pct": 79.65044211222214,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 20232,
+        "other_votes": 8703,
+        "total_votes": 28935,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 20232,
+        "margin_pct": 69.92223950233281,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 18013,
+        "other_votes": 6283,
+        "total_votes": 24296,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18013,
+        "margin_pct": 74.13977609483042,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 9289,
+        "other_votes": 9384,
+        "total_votes": 18673,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 9289,
+        "margin_pct": 49.74562202109998,
+        "winner": "O"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 8095,
+        "other_votes": 8331,
+        "total_votes": 16426,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 8095,
+        "margin_pct": 49.28162668939486,
+        "winner": "O"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 15175,
+        "other_votes": 5742,
+        "total_votes": 20917,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15175,
+        "margin_pct": 72.54864464311326,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 18374,
+        "other_votes": 8669,
+        "total_votes": 27043,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18374,
+        "margin_pct": 67.94364530562437,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 7324,
+        "other_votes": 12841,
+        "total_votes": 20165,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 7324,
+        "margin_pct": 36.32035705430201,
+        "winner": "O"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 14173,
+        "other_votes": 13750,
+        "total_votes": 27923,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 14173,
+        "margin_pct": 50.75744010314078,
+        "winner": "R"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 10521,
+        "other_votes": 18268,
+        "total_votes": 28789,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 10521,
+        "margin_pct": 36.545208239258045,
+        "winner": "O"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 5334,
+        "other_votes": 12948,
+        "total_votes": 18282,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 5334,
+        "margin_pct": 29.176238923531344,
+        "winner": "O"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 18379,
+        "other_votes": 10908,
+        "total_votes": 29287,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18379,
+        "margin_pct": 62.75480588657083,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 14736,
+        "other_votes": 12688,
+        "total_votes": 27424,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 14736,
+        "margin_pct": 53.733955659276546,
+        "winner": "R"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 19392,
+        "other_votes": 5571,
+        "total_votes": 24963,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 19392,
+        "margin_pct": 77.68297079677924,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 12545,
+        "other_votes": 4854,
+        "total_votes": 17399,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 12545,
+        "margin_pct": 72.10184493361687,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 12092,
+        "other_votes": 7049,
+        "total_votes": 19141,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 12092,
+        "margin_pct": 63.17329293140379,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 15028,
+        "other_votes": 4334,
+        "total_votes": 19362,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15028,
+        "margin_pct": 77.61594876562339,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 18597,
+        "other_votes": 4828,
+        "total_votes": 23425,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18597,
+        "margin_pct": 79.38954108858057,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 21191,
+        "other_votes": 5694,
+        "total_votes": 26885,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 21191,
+        "margin_pct": 78.82090384973033,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 22578,
+        "other_votes": 6832,
+        "total_votes": 29410,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 22578,
+        "margin_pct": 76.7698061883713,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 15942,
+        "other_votes": 6225,
+        "total_votes": 22167,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 15942,
+        "margin_pct": 71.91771552307485,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 17117,
+        "other_votes": 6425,
+        "total_votes": 23542,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 17117,
+        "margin_pct": 72.70835103219777,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 10280,
+        "other_votes": 6924,
+        "total_votes": 17204,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 10280,
+        "margin_pct": 59.753545687049524,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 18518,
+        "other_votes": 7239,
+        "total_votes": 25757,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18518,
+        "margin_pct": 71.89501882983267,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 17472,
+        "other_votes": 7328,
+        "total_votes": 24800,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 17472,
+        "margin_pct": 70.45161290322581,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 9526,
+        "other_votes": 15665,
+        "total_votes": 25191,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 9526,
+        "margin_pct": 37.81509269183439,
+        "winner": "O"
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 10090,
+        "other_votes": 8735,
+        "total_votes": 18825,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 10090,
+        "margin_pct": 53.59893758300133,
+        "winner": "R"
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 14083,
+        "other_votes": 8904,
+        "total_votes": 22987,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 14083,
+        "margin_pct": 61.26506286161744,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 24275,
+        "other_votes": 14420,
+        "total_votes": 38695,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 24275,
+        "margin_pct": 62.734203385450314,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 10036,
+        "other_votes": 6483,
+        "total_votes": 16519,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 10036,
+        "margin_pct": 60.75428294690962,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 18791,
+        "other_votes": 9788,
+        "total_votes": 28579,
+        "dem_candidate": "",
+        "rep_candidate": "Cole Jester",
+        "margin": 18791,
+        "margin_pct": 65.75107596486932,
+        "winner": "R"
+      }
+    }
+  }
+}

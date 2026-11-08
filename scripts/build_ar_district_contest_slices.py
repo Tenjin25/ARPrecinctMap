@@ -514,6 +514,7 @@ def load_2024_block_party_weights() -> dict:
 
 
 def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
+    source_by_year = payload.get("source_by_year", {})
     county_weights, diagnostics = load_county_cvap_weights()
     expected_districts = {
         scope: {
@@ -530,6 +531,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
     manifest: list[dict] = []
     for year_text, contests in sorted(payload["results_by_year"].items()):
         year = int(year_text)
+        year_source = source_by_year.get(year_text, {})
         for source_type, contest_node in sorted(contests.items()):
             contest_type = contest_type_for_ui(source_type)
             source_results = contest_node["general"]["results"]
@@ -630,7 +632,17 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                     "scope": scope,
                     "contest_type": contest_type,
                     "meta": {
-                        "source": "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+                        "source": year_source.get("label")
+                        or "Certified county/precinct totals + block CVAP + official 2022 BEFs",
+                        **(
+                            {
+                                "source_url": year_source.get("url") or "",
+                                "source_status": year_source.get("status") or "",
+                                "allocation_basis": "Block CVAP + official 2022 BEFs",
+                            }
+                            if year_source
+                            else {}
+                        ),
                         "allocation_method": (
                             "whole county at 99.9%; split counties preserve precinct geography; "
                             "2024 block-return patterns are rescaled to certified county totals"
@@ -668,6 +680,7 @@ def build_county_rule_slices(payload: dict, coverage_by_year: dict) -> int:
                     "split_precinct_match_coverage_pct": round(split_match_coverage * 100, 2),
                     "partial": not bool(coverage_by_year.get(str(year), {}).get("complete", True)),
                     "missing_counties": coverage_by_year.get(str(year), {}).get("missing_counties", []),
+                    **({"source": year_source} if year_source else {}),
                 })
         print(f"{year}: wrote county-rule district slices")
     manifest.sort(key=lambda entry: (int(entry["year"]), entry["scope"], entry["contest_type"]))

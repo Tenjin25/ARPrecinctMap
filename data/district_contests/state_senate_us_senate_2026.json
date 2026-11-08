@@ -1,0 +1,667 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "whole_county_vote_total": 257339,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 621576,
+    "split_county_cvap_fallback_vote_total": 7196,
+    "split_precinct_match_coverage": 0.988555,
+    "split_match_methods": {
+      "ambiguous_containment": 8,
+      "audited_alias_exact": 988,
+      "canonical": 98,
+      "compact_prefix": 4,
+      "containment": 69,
+      "county_cvap_fallback": 79,
+      "cross_year_alias_canonical": 137,
+      "cross_year_alias_compact_code": 2,
+      "cross_year_alias_containment": 10,
+      "cross_year_alias_numeric_code": 25,
+      "cross_year_alias_structural_prefix": 1,
+      "exact": 464,
+      "numeric_code": 15,
+      "numeric_group": 2
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 35,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8096,
+        "rep_votes": 14459,
+        "other_votes": 844,
+        "total_votes": 23399,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6363,
+        "margin_pct": 27.193469806401982,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 9060,
+        "rep_votes": 14443,
+        "other_votes": 866,
+        "total_votes": 24369,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 5383,
+        "margin_pct": 22.089539989330707,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 8142,
+        "rep_votes": 13054,
+        "other_votes": 711,
+        "total_votes": 21907,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4912,
+        "margin_pct": 22.42205687679737,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 6394,
+        "rep_votes": 14156,
+        "other_votes": 793,
+        "total_votes": 21343,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 7762,
+        "margin_pct": 36.36789579721689,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 5520,
+        "rep_votes": 18418,
+        "other_votes": 1077,
+        "total_votes": 25015,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 12898,
+        "margin_pct": 51.561063361982804,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 11114,
+        "rep_votes": 19162,
+        "other_votes": 971,
+        "total_votes": 31247,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8048,
+        "margin_pct": 25.756072582967963,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 7504,
+        "rep_votes": 16798,
+        "other_votes": 947,
+        "total_votes": 25249,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 9294,
+        "margin_pct": 36.809378589251054,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 13112,
+        "rep_votes": 7626,
+        "other_votes": 699,
+        "total_votes": 21437,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -5486,
+        "margin_pct": 25.591267434808973,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 11456,
+        "rep_votes": 6953,
+        "other_votes": 501,
+        "total_votes": 18910,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -4503,
+        "margin_pct": 23.812797461660498,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 7732,
+        "rep_votes": 13609,
+        "other_votes": 767,
+        "total_votes": 22108,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 5877,
+        "margin_pct": 26.583137325854896,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 10426,
+        "rep_votes": 17010,
+        "other_votes": 1110,
+        "total_votes": 28546,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 6584,
+        "margin_pct": 23.064527429412177,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 16687,
+        "rep_votes": 6224,
+        "other_votes": 552,
+        "total_votes": 23463,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -10463,
+        "margin_pct": 44.59361547969143,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 17411,
+        "rep_votes": 12683,
+        "other_votes": 816,
+        "total_votes": 30910,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -4728,
+        "margin_pct": 15.296020705273374,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 24649,
+        "rep_votes": 8331,
+        "other_votes": 628,
+        "total_votes": 33608,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -16318,
+        "margin_pct": 48.55391573434896,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 17162,
+        "rep_votes": 4069,
+        "other_votes": 415,
+        "total_votes": 21646,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -13093,
+        "margin_pct": 60.48692599094521,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 13508,
+        "rep_votes": 16434,
+        "other_votes": 979,
+        "total_votes": 30921,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 2926,
+        "margin_pct": 9.462824617573817,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 15853,
+        "rep_votes": 13071,
+        "other_votes": 826,
+        "total_votes": 29750,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -2782,
+        "margin_pct": 9.351260504201681,
+        "winner": "D"
+      },
+      "18": {
+        "dem_votes": 6266,
+        "rep_votes": 18762,
+        "other_votes": 1042,
+        "total_votes": 26070,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 12496,
+        "margin_pct": 47.9324894514768,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 6496,
+        "rep_votes": 11272,
+        "other_votes": 756,
+        "total_votes": 18524,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4776,
+        "margin_pct": 25.782768300583026,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 9147,
+        "rep_votes": 10632,
+        "other_votes": 641,
+        "total_votes": 20420,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1485,
+        "margin_pct": 7.27228207639569,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 5260,
+        "rep_votes": 13912,
+        "other_votes": 898,
+        "total_votes": 20070,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 8652,
+        "margin_pct": 43.10911808669656,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 5674,
+        "rep_votes": 17645,
+        "other_votes": 874,
+        "total_votes": 24193,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 11971,
+        "margin_pct": 49.4812549084446,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 6695,
+        "rep_votes": 20345,
+        "other_votes": 928,
+        "total_votes": 27968,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 13650,
+        "margin_pct": 48.80577803203661,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 7562,
+        "rep_votes": 21593,
+        "other_votes": 1232,
+        "total_votes": 30387,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 14031,
+        "margin_pct": 46.1743508737289,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 7396,
+        "rep_votes": 14789,
+        "other_votes": 833,
+        "total_votes": 23018,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 7393,
+        "margin_pct": 32.11834216699974,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 6915,
+        "rep_votes": 16065,
+        "other_votes": 1439,
+        "total_votes": 24419,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 9150,
+        "margin_pct": 37.47082190097875,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 9116,
+        "rep_votes": 9167,
+        "other_votes": 703,
+        "total_votes": 18986,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 51,
+        "margin_pct": 0.2686189824080902,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 8434,
+        "rep_votes": 17581,
+        "other_votes": 1033,
+        "total_votes": 27048,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 9147,
+        "margin_pct": 33.817657497781724,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 8401,
+        "rep_votes": 16350,
+        "other_votes": 998,
+        "total_votes": 25749,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 7949,
+        "margin_pct": 30.87110179036079,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 20429,
+        "rep_votes": 7275,
+        "other_votes": 542,
+        "total_votes": 28246,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -13154,
+        "margin_pct": 46.569425759399564,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 11041,
+        "rep_votes": 8762,
+        "other_votes": 483,
+        "total_votes": 20286,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -2279,
+        "margin_pct": 11.234348811988564,
+        "winner": "D"
+      },
+      "32": {
+        "dem_votes": 11817,
+        "rep_votes": 12854,
+        "other_votes": 761,
+        "total_votes": 25432,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1037,
+        "margin_pct": 4.077540106951872,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 20044,
+        "rep_votes": 21457,
+        "other_votes": 1282,
+        "total_votes": 42783,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 1413,
+        "margin_pct": 3.3027136946918167,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 8952,
+        "rep_votes": 8766,
+        "other_votes": 563,
+        "total_votes": 18281,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": -186,
+        "margin_pct": 1.0174498112794705,
+        "winner": "D"
+      },
+      "35": {
+        "dem_votes": 12352,
+        "rep_votes": 17073,
+        "other_votes": 978,
+        "total_votes": 30403,
+        "dem_candidate": "Hallie Shoffner",
+        "rep_candidate": "Tom Cotton",
+        "margin": 4721,
+        "margin_pct": 15.528072887543992,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "source": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+    "source_url": "https://arkansas.tally-enr.com/",
+    "source_status": "Unofficial",
+    "allocation_basis": "Block CVAP + official 2022 BEFs",
+    "allocation_method": "whole county at 99.9%; split counties preserve precinct geography; 2024 block-return patterns are rescaled to certified county totals",
+    "county_rule_threshold": 0.999,
+    "whole_counties": 44,
+    "split_counties": [
+      {
+        "county": "ARKANSAS",
+        "district_shares": {
+          "10": 0.83754195,
+          "8": 0.16245805
+        }
+      },
+      {
+        "county": "BENTON",
+        "district_shares": {
+          "32": 0.25725604,
+          "33": 0.28849466,
+          "34": 0.32252842,
+          "35": 0.13172088
+        }
+      },
+      {
+        "county": "BOONE",
+        "district_shares": {
+          "23": 0.22265852,
+          "28": 0.77734148
+        }
+      },
+      {
+        "county": "CLEBURNE",
+        "district_shares": {
+          "18": 0.35118282,
+          "22": 0.54637236,
+          "24": 0.10244482
+        }
+      },
+      {
+        "county": "CONWAY",
+        "district_shares": {
+          "25": 0.9769813,
+          "5": 0.0230187
+        }
+      },
+      {
+        "county": "CRAIGHEAD",
+        "district_shares": {
+          "19": 0.2114725,
+          "20": 0.7885275
+        }
+      },
+      {
+        "county": "DREW",
+        "district_shares": {
+          "1": 0.97601292,
+          "8": 0.02398708
+        }
+      },
+      {
+        "county": "FAULKNER",
+        "district_shares": {
+          "17": 0.6339374,
+          "18": 0.01139782,
+          "24": 0.35466478
+        }
+      },
+      {
+        "county": "FRANKLIN",
+        "district_shares": {
+          "26": 0.84799278,
+          "28": 0.15200722
+        }
+      },
+      {
+        "county": "FULTON",
+        "district_shares": {
+          "22": 0.22573992,
+          "23": 0.77426008
+        }
+      },
+      {
+        "county": "GARLAND",
+        "district_shares": {
+          "6": 0.80696996,
+          "7": 0.19303004
+        }
+      },
+      {
+        "county": "GRANT",
+        "district_shares": {
+          "1": 0.19473242,
+          "2": 0.66447184,
+          "7": 0.14079574
+        }
+      },
+      {
+        "county": "HEMPSTEAD",
+        "district_shares": {
+          "3": 0.87948222,
+          "4": 0.12051778
+        }
+      },
+      {
+        "county": "HOT SPRING",
+        "district_shares": {
+          "3": 0.11298457,
+          "7": 0.88701543
+        }
+      },
+      {
+        "county": "IZARD",
+        "district_shares": {
+          "22": 0.34102833,
+          "23": 0.65897167
+        }
+      },
+      {
+        "county": "JEFFERSON",
+        "district_shares": {
+          "1": 0.1443508,
+          "8": 0.8556492
+        }
+      },
+      {
+        "county": "JOHNSON",
+        "district_shares": {
+          "26": 0.85803143,
+          "28": 0.14196857
+        }
+      },
+      {
+        "county": "LAWRENCE",
+        "district_shares": {
+          "21": 0.46153846,
+          "22": 0.53846154
+        }
+      },
+      {
+        "county": "LEE",
+        "district_shares": {
+          "10": 0.26641902,
+          "9": 0.73358098
+        }
+      },
+      {
+        "county": "LINCOLN",
+        "district_shares": {
+          "1": 0.44269072,
+          "8": 0.55730928
+        }
+      },
+      {
+        "county": "LOGAN",
+        "district_shares": {
+          "26": 0.93264937,
+          "5": 0.06735063
+        }
+      },
+      {
+        "county": "LONOKE",
+        "district_shares": {
+          "10": 0.08568559,
+          "11": 0.85154765,
+          "8": 0.06276676
+        }
+      },
+      {
+        "county": "NEWTON",
+        "district_shares": {
+          "24": 0.35434707,
+          "28": 0.64565293
+        }
+      },
+      {
+        "county": "PIKE",
+        "district_shares": {
+          "3": 0.47237716,
+          "5": 0.52762284
+        }
+      },
+      {
+        "county": "POINSETT",
+        "district_shares": {
+          "10": 0.02655548,
+          "19": 0.97344452
+        }
+      },
+      {
+        "county": "PULASKI",
+        "district_shares": {
+          "11": 0.06695005,
+          "12": 0.22263892,
+          "13": 0.22810325,
+          "14": 0.22723938,
+          "15": 0.19849508,
+          "16": 0.01505948,
+          "17": 0.03527476,
+          "8": 0.00623907
+        }
+      },
+      {
+        "county": "SALINE",
+        "district_shares": {
+          "16": 0.65591805,
+          "6": 0.07973118,
+          "7": 0.26435077
+        }
+      },
+      {
+        "county": "SEBASTIAN",
+        "district_shares": {
+          "26": 0.24185502,
+          "27": 0.64025422,
+          "5": 0.11789076
+        }
+      },
+      {
+        "county": "ST. FRANCIS",
+        "district_shares": {
+          "10": 0.3722856,
+          "9": 0.6277144
+        }
+      },
+      {
+        "county": "WASHINGTON",
+        "district_shares": {
+          "29": 0.10945545,
+          "30": 0.39775662,
+          "31": 0.26625909,
+          "32": 0.02158796,
+          "35": 0.20494088
+        }
+      },
+      {
+        "county": "YELL",
+        "district_shares": {
+          "25": 0.21419094,
+          "5": 0.78580906
+        }
+      }
+    ],
+    "whole_county_vote_total": 257501,
+    "split_block_direct_vote_total": 0,
+    "split_precinct_matched_vote_total": 621353,
+    "split_county_cvap_fallback_vote_total": 7195,
+    "split_precinct_match_coverage": 0.988553,
+    "split_match_methods": {
+      "ambiguous_containment": 8,
+      "audited_alias_exact": 988,
+      "canonical": 98,
+      "compact_prefix": 4,
+      "containment": 69,
+      "county_cvap_fallback": 79,
+      "cross_year_alias_canonical": 137,
+      "cross_year_alias_compact_code": 2,
+      "cross_year_alias_containment": 10,
+      "cross_year_alias_numeric_code": 25,
+      "cross_year_alias_structural_prefix": 1,
+      "exact": 464,
+      "numeric_code": 15,
+      "numeric_group": 2
+    },
+    "matched_vote_coverage": 1.0,
+    "district_coverage_complete": true,
+    "district_count": 35,
+    "statewide_totals_preserved": true,
+    "reconciles_precinct_votes": false,
+    "precinct_name_matching": true,
+    "approximate": true
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7620,
+        "rep_votes": 14030,
+        "other_votes": 1765,
+        "total_votes": 23415,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 6410,
+        "margin_pct": 27.375613922699127,
+        "winner": "R"
+      },
+      "2": {
+        "dem_votes": 8582,
+        "rep_votes": 14204,
+        "other_votes": 1656,
+        "total_votes": 24442,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 5622,
+        "margin_pct": 23.001391048195728,
+        "winner": "R"
+      },
+      "3": {
+        "dem_votes": 7712,
+        "rep_votes": 12508,
+        "other_votes": 1715,
+        "total_votes": 21935,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 4796,
+        "margin_pct": 21.86459995441076,
+        "winner": "R"
+      },
+      "4": {
+        "dem_votes": 5941,
+        "rep_votes": 13299,
+        "other_votes": 2121,
+        "total_votes": 21361,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 7358,
+        "margin_pct": 34.445952904826555,
+        "winner": "R"
+      },
+      "5": {
+        "dem_votes": 4538,
+        "rep_votes": 17497,
+        "other_votes": 3003,
+        "total_votes": 25038,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 12959,
+        "margin_pct": 51.7573288601326,
+        "winner": "R"
+      },
+      "6": {
+        "dem_votes": 10017,
+        "rep_votes": 19338,
+        "other_votes": 1830,
+        "total_votes": 31185,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 9321,
+        "margin_pct": 29.88936988936989,
+        "winner": "R"
+      },
+      "7": {
+        "dem_votes": 6540,
+        "rep_votes": 16593,
+        "other_votes": 2124,
+        "total_votes": 25257,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 10053,
+        "margin_pct": 39.8028269390664,
+        "winner": "R"
+      },
+      "8": {
+        "dem_votes": 12786,
+        "rep_votes": 7522,
+        "other_votes": 1173,
+        "total_votes": 21481,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -5264,
+        "margin_pct": 24.505376844653416,
+        "winner": "D"
+      },
+      "9": {
+        "dem_votes": 11215,
+        "rep_votes": 7008,
+        "other_votes": 773,
+        "total_votes": 18996,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -4207,
+        "margin_pct": 22.146767740576966,
+        "winner": "D"
+      },
+      "10": {
+        "dem_votes": 6832,
+        "rep_votes": 13148,
+        "other_votes": 2159,
+        "total_votes": 22139,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 6316,
+        "margin_pct": 28.528840507701343,
+        "winner": "R"
+      },
+      "11": {
+        "dem_votes": 9102,
+        "rep_votes": 17040,
+        "other_votes": 2371,
+        "total_votes": 28513,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 7938,
+        "margin_pct": 27.83993266229439,
+        "winner": "R"
+      },
+      "12": {
+        "dem_votes": 15938,
+        "rep_votes": 6470,
+        "other_votes": 1106,
+        "total_votes": 23514,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -9468,
+        "margin_pct": 40.265373819852,
+        "winner": "D"
+      },
+      "13": {
+        "dem_votes": 15970,
+        "rep_votes": 13075,
+        "other_votes": 1871,
+        "total_votes": 30916,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -2895,
+        "margin_pct": 9.36408332255143,
+        "winner": "D"
+      },
+      "14": {
+        "dem_votes": 22584,
+        "rep_votes": 8809,
+        "other_votes": 2123,
+        "total_votes": 33516,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -13775,
+        "margin_pct": 41.099773242630384,
+        "winner": "D"
+      },
+      "15": {
+        "dem_votes": 16083,
+        "rep_votes": 4393,
+        "other_votes": 1172,
+        "total_votes": 21648,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -11690,
+        "margin_pct": 54.00036954915004,
+        "winner": "D"
+      },
+      "16": {
+        "dem_votes": 12053,
+        "rep_votes": 16619,
+        "other_votes": 2227,
+        "total_votes": 30899,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 4566,
+        "margin_pct": 14.777177254927343,
+        "winner": "R"
+      },
+      "17": {
+        "dem_votes": 14329,
+        "rep_votes": 13281,
+        "other_votes": 2096,
+        "total_votes": 29706,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -1048,
+        "margin_pct": 3.527906820171009,
+        "winner": "D"
+      },
+      "18": {
+        "dem_votes": 5196,
+        "rep_votes": 18349,
+        "other_votes": 2503,
+        "total_votes": 26048,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 13153,
+        "margin_pct": 50.49523955773956,
+        "winner": "R"
+      },
+      "19": {
+        "dem_votes": 5840,
+        "rep_votes": 11299,
+        "other_votes": 1399,
+        "total_votes": 18538,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 5459,
+        "margin_pct": 29.447621102600063,
+        "winner": "R"
+      },
+      "20": {
+        "dem_votes": 8389,
+        "rep_votes": 10836,
+        "other_votes": 1182,
+        "total_votes": 20407,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 2447,
+        "margin_pct": 11.990983486058706,
+        "winner": "R"
+      },
+      "21": {
+        "dem_votes": 4466,
+        "rep_votes": 13895,
+        "other_votes": 1671,
+        "total_votes": 20032,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 9429,
+        "margin_pct": 47.069688498402556,
+        "winner": "R"
+      },
+      "22": {
+        "dem_votes": 4844,
+        "rep_votes": 17674,
+        "other_votes": 1680,
+        "total_votes": 24198,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 12830,
+        "margin_pct": 53.020910819075965,
+        "winner": "R"
+      },
+      "23": {
+        "dem_votes": 5937,
+        "rep_votes": 20282,
+        "other_votes": 1730,
+        "total_votes": 27949,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 14345,
+        "margin_pct": 51.32562882392931,
+        "winner": "R"
+      },
+      "24": {
+        "dem_votes": 6382,
+        "rep_votes": 21120,
+        "other_votes": 2884,
+        "total_votes": 30386,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 14738,
+        "margin_pct": 48.50259988152439,
+        "winner": "R"
+      },
+      "25": {
+        "dem_votes": 6532,
+        "rep_votes": 14207,
+        "other_votes": 2242,
+        "total_votes": 22981,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 7675,
+        "margin_pct": 33.39715417083678,
+        "winner": "R"
+      },
+      "26": {
+        "dem_votes": 5124,
+        "rep_votes": 13623,
+        "other_votes": 5706,
+        "total_votes": 24453,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 8499,
+        "margin_pct": 34.75647159857686,
+        "winner": "R"
+      },
+      "27": {
+        "dem_votes": 8237,
+        "rep_votes": 9139,
+        "other_votes": 1691,
+        "total_votes": 19067,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 902,
+        "margin_pct": 4.730686526459327,
+        "winner": "R"
+      },
+      "28": {
+        "dem_votes": 7552,
+        "rep_votes": 16524,
+        "other_votes": 2944,
+        "total_votes": 27020,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 8972,
+        "margin_pct": 33.205033308660255,
+        "winner": "R"
+      },
+      "29": {
+        "dem_votes": 7417,
+        "rep_votes": 16150,
+        "other_votes": 2158,
+        "total_votes": 25725,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 8733,
+        "margin_pct": 33.947521865889215,
+        "winner": "R"
+      },
+      "30": {
+        "dem_votes": 18980,
+        "rep_votes": 7783,
+        "other_votes": 1386,
+        "total_votes": 28149,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -11197,
+        "margin_pct": 39.77761199332125,
+        "winner": "D"
+      },
+      "31": {
+        "dem_votes": 10316,
+        "rep_votes": 9028,
+        "other_votes": 930,
+        "total_votes": 20274,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": -1288,
+        "margin_pct": 6.352964387885962,
+        "winner": "D"
+      },
+      "32": {
+        "dem_votes": 10992,
+        "rep_votes": 13271,
+        "other_votes": 1170,
+        "total_votes": 25433,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 2279,
+        "margin_pct": 8.960798961978531,
+        "winner": "R"
+      },
+      "33": {
+        "dem_votes": 18469,
+        "rep_votes": 22461,
+        "other_votes": 1824,
+        "total_votes": 42754,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 3992,
+        "margin_pct": 9.33713804556299,
+        "winner": "R"
+      },
+      "34": {
+        "dem_votes": 8214,
+        "rep_votes": 9248,
+        "other_votes": 821,
+        "total_votes": 18283,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 1034,
+        "margin_pct": 5.655526992287918,
+        "winner": "R"
+      },
+      "35": {
+        "dem_votes": 11106,
+        "rep_votes": 17580,
+        "other_votes": 1705,
+        "total_votes": 30391,
+        "dem_candidate": "Fred Love",
+        "rep_candidate": "Sarah Huckabee Sanders",
+        "margin": 6474,
+        "margin_pct": 21.302359251094074,
+        "winner": "R"
+      }
+    }
+  }
+}

@@ -498,6 +498,150 @@
       "counties_present": 75,
       "counties_expected": 75,
       "missing_counties": []
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "auditor",
+      "file": "auditor_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "commissioner_of_state_lands",
+      "file": "commissioner_of_state_lands_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "governor_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "treasurer_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
+    },
+    {
+      "year": 2026,
+      "contest_type": "us_senate",
+      "file": "us_senate_2026.json",
+      "rows": 2768,
+      "partial": false,
+      "counties_present": 75,
+      "counties_expected": 75,
+      "missing_counties": [],
+      "source": {
+        "label": "Arkansas Secretary of State Election Night Reporting (Tally ENR)",
+        "url": "https://arkansas.tally-enr.com/",
+        "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+        "is_official": false,
+        "status": "Unofficial",
+        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+      }
     }
   ]
 }
