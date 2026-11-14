@@ -71,7 +71,7 @@ SOURCE_BY_YEAR = {
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": False,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00",
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00",
     }
 }
 

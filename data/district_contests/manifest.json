@@ -1701,7 +1701,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1723,7 +1723,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1745,7 +1745,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1767,7 +1767,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1789,7 +1789,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1811,7 +1811,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1833,7 +1833,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1855,7 +1855,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1877,7 +1877,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 91.94,
+      "split_precinct_match_coverage_pct": 91.95,
       "partial": false,
       "missing_counties": [],
       "source": {
@@ -1899,7 +1899,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1912,7 +1912,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 92.59,
+      "split_precinct_match_coverage_pct": 92.6,
       "partial": false,
       "missing_counties": [],
       "source": {
@@ -1921,7 +1921,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1934,7 +1934,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 92.77,
+      "split_precinct_match_coverage_pct": 92.78,
       "partial": false,
       "missing_counties": [],
       "source": {
@@ -1943,7 +1943,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1956,7 +1956,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 92.65,
+      "split_precinct_match_coverage_pct": 92.66,
       "partial": false,
       "missing_counties": [],
       "source": {
@@ -1965,7 +1965,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -1987,7 +1987,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2009,7 +2009,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2022,7 +2022,7 @@
       "county_rule": true,
       "whole_counties": 24,
       "split_counties": 51,
-      "split_precinct_match_coverage_pct": 92.77,
+      "split_precinct_match_coverage_pct": 92.78,
       "partial": false,
       "missing_counties": [],
       "source": {
@@ -2031,7 +2031,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2053,7 +2053,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2075,7 +2075,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2097,7 +2097,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2119,7 +2119,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2141,7 +2141,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2163,7 +2163,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2185,7 +2185,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     },
     {
@@ -2207,7 +2207,7 @@
         "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
         "is_official": false,
         "status": "Unofficial",
-        "snapshot_last_modified": "2026-11-06T12:41:47-05:00"
+        "snapshot_last_modified": "2026-11-13T20:57:19-05:00"
       }
     }
   ]

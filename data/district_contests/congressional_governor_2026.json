@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 722571,
+    "whole_county_vote_total": 723932,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 163478,
+    "split_precinct_matched_vote_total": 163541,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -49,47 +49,47 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 60746,
-        "rep_votes": 120240,
-        "other_votes": 14689,
-        "total_votes": 195675,
+        "dem_votes": 60911,
+        "rep_votes": 120376,
+        "other_votes": 14714,
+        "total_votes": 196001,
         "dem_candidate": "Fred Love",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 59494,
-        "margin_pct": 30.40449725309825,
+        "margin": 59465,
+        "margin_pct": 30.339130922801417,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 112125,
-        "rep_votes": 120017,
-        "other_votes": 17926,
-        "total_votes": 250068,
+        "dem_votes": 112227,
+        "rep_votes": 120108,
+        "other_votes": 17940,
+        "total_votes": 250275,
         "dem_candidate": "Fred Love",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 7892,
-        "margin_pct": 3.1559415838891827,
+        "margin": 7881,
+        "margin_pct": 3.148936170212766,
         "winner": "R"
       },
       "3": {
-        "dem_votes": 100947,
-        "rep_votes": 119773,
-        "other_votes": 14447,
-        "total_votes": 235167,
+        "dem_votes": 101342,
+        "rep_votes": 119945,
+        "other_votes": 14470,
+        "total_votes": 235757,
         "dem_candidate": "Fred Love",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 18826,
-        "margin_pct": 8.005374903791774,
+        "margin": 18603,
+        "margin_pct": 7.890751918288746,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 68017,
-        "rep_votes": 117273,
-        "other_votes": 19849,
-        "total_votes": 205139,
+        "dem_votes": 68148,
+        "rep_votes": 117413,
+        "other_votes": 19879,
+        "total_votes": 205440,
         "dem_candidate": "Fred Love",
         "rep_candidate": "Sarah Huckabee Sanders",
-        "margin": 49256,
-        "margin_pct": 24.01103641920844,
+        "margin": 49265,
+        "margin_pct": 23.98023753894081,
         "winner": "R"
       }
     }

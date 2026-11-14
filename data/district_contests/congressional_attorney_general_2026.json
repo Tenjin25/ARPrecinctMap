@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 577292,
+    "whole_county_vote_total": 578139,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 105807,
+    "split_precinct_matched_vote_total": 105847,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -50,45 +50,45 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 164498,
+        "rep_votes": 164734,
         "other_votes": 0,
-        "total_votes": 164498,
+        "total_votes": 164734,
         "dem_candidate": "",
         "rep_candidate": "Tim Griffin",
-        "margin": 164498,
+        "margin": 164734,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 182821,
+        "rep_votes": 182962,
         "other_votes": 0,
-        "total_votes": 182821,
+        "total_votes": 182962,
         "dem_candidate": "",
         "rep_candidate": "Tim Griffin",
-        "margin": 182821,
+        "margin": 182962,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 168061,
+        "rep_votes": 168367,
         "other_votes": 0,
-        "total_votes": 168061,
+        "total_votes": 168367,
         "dem_candidate": "",
         "rep_candidate": "Tim Griffin",
-        "margin": 168061,
+        "margin": 168367,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 167719,
+        "rep_votes": 167923,
         "other_votes": 0,
-        "total_votes": 167719,
+        "total_votes": 167923,
         "dem_candidate": "",
         "rep_candidate": "Tim Griffin",
-        "margin": 167719,
+        "margin": 167923,
         "margin_pct": 100.0,
         "winner": "R"
       }

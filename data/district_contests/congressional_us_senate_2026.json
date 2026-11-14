@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 722680,
+    "whole_county_vote_total": 724052,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 163431,
+    "split_precinct_matched_vote_total": 163493,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -49,47 +49,47 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 67156,
-        "rep_votes": 121383,
-        "other_votes": 7101,
-        "total_votes": 195640,
+        "dem_votes": 67335,
+        "rep_votes": 121520,
+        "other_votes": 7112,
+        "total_votes": 195967,
         "dem_candidate": "Hallie Shoffner",
         "rep_candidate": "Tom Cotton",
-        "margin": 54227,
-        "margin_pct": 27.717746882028216,
+        "margin": 54185,
+        "margin_pct": 27.650063531104728,
         "winner": "R"
       },
       "2": {
-        "dem_votes": 123810,
-        "rep_votes": 119132,
-        "other_votes": 7257,
-        "total_votes": 250199,
+        "dem_votes": 123926,
+        "rep_votes": 119223,
+        "other_votes": 7263,
+        "total_votes": 250412,
         "dem_candidate": "Hallie Shoffner",
         "rep_candidate": "Tom Cotton",
-        "margin": -4678,
-        "margin_pct": 1.8697117094792544,
+        "margin": -4703,
+        "margin_pct": 1.8781048831525644,
         "winner": "D"
       },
       "3": {
-        "dem_votes": 110317,
-        "rep_votes": 117617,
-        "other_votes": 7283,
-        "total_votes": 235217,
+        "dem_votes": 110732,
+        "rep_votes": 117784,
+        "other_votes": 7292,
+        "total_votes": 235808,
         "dem_candidate": "Hallie Shoffner",
         "rep_candidate": "Tom Cotton",
-        "margin": 7300,
-        "margin_pct": 3.103517177755009,
+        "margin": 7052,
+        "margin_pct": 2.9905685981815715,
         "winner": "R"
       },
       "4": {
-        "dem_votes": 74540,
-        "rep_votes": 122668,
-        "other_votes": 7847,
-        "total_votes": 205055,
+        "dem_votes": 74687,
+        "rep_votes": 122818,
+        "other_votes": 7853,
+        "total_votes": 205358,
         "dem_candidate": "Hallie Shoffner",
         "rep_candidate": "Tom Cotton",
-        "margin": 48128,
-        "margin_pct": 23.470776133232548,
+        "margin": 48131,
+        "margin_pct": 23.437606521294523,
         "winner": "R"
       }
     }

@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 688916,
+    "whole_county_vote_total": 690156,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 150508,
+    "split_precinct_matched_vote_total": 150564,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -50,46 +50,46 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 134144,
-        "other_votes": 53421,
-        "total_votes": 187565,
+        "rep_votes": 134306,
+        "other_votes": 53562,
+        "total_votes": 187868,
         "dem_candidate": "",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 134144,
-        "margin_pct": 71.51867352651081,
+        "margin": 134306,
+        "margin_pct": 71.48955649711499,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 135123,
-        "other_votes": 100895,
-        "total_votes": 236018,
+        "rep_votes": 135227,
+        "other_votes": 100984,
+        "total_votes": 236211,
         "dem_candidate": "",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 135123,
-        "margin_pct": 57.251141862061374,
+        "margin": 135227,
+        "margin_pct": 57.248392327198985,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 132206,
-        "other_votes": 88005,
-        "total_votes": 220211,
+        "rep_votes": 132417,
+        "other_votes": 88319,
+        "total_votes": 220736,
         "dem_candidate": "",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 132206,
-        "margin_pct": 60.036056327794704,
+        "margin": 132417,
+        "margin_pct": 59.98885546535227,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 134814,
-        "other_votes": 60816,
-        "total_votes": 195630,
+        "rep_votes": 134982,
+        "other_votes": 60923,
+        "total_votes": 195905,
         "dem_candidate": "",
         "rep_candidate": "Leslie Rutledge",
-        "margin": 134814,
-        "margin_pct": 68.91274344425702,
+        "margin": 134982,
+        "margin_pct": 68.90176360991298,
         "winner": "R"
       }
     }

@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 573552,
+    "whole_county_vote_total": 574392,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 106606,
+    "split_precinct_matched_vote_total": 106648,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -50,45 +50,45 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 163226,
+        "rep_votes": 163454,
         "other_votes": 0,
-        "total_votes": 163226,
+        "total_votes": 163454,
         "dem_candidate": "",
         "rep_candidate": "John Thurston",
-        "margin": 163226,
+        "margin": 163454,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 182611,
+        "rep_votes": 182750,
         "other_votes": 0,
-        "total_votes": 182611,
+        "total_votes": 182750,
         "dem_candidate": "",
         "rep_candidate": "John Thurston",
-        "margin": 182611,
+        "margin": 182750,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 168161,
+        "rep_votes": 168465,
         "other_votes": 0,
-        "total_votes": 168161,
+        "total_votes": 168465,
         "dem_candidate": "",
         "rep_candidate": "John Thurston",
-        "margin": 168161,
+        "margin": 168465,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 166160,
+        "rep_votes": 166371,
         "other_votes": 0,
-        "total_votes": 166160,
+        "total_votes": 166371,
         "dem_candidate": "",
         "rep_candidate": "John Thurston",
-        "margin": 166160,
+        "margin": 166371,
         "margin_pct": 100.0,
         "winner": "R"
       }

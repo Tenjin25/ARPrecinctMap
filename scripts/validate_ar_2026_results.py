@@ -53,8 +53,16 @@ def main() -> int:
             )
             row_count += 1
 
-    if row_count != 102_320:
-        raise RuntimeError(f"Expected 102,320 CSV rows, found {row_count:,}")
+    expected_row_count = sum(
+        len(precinct.get("Choices", [])) + len(precinct.get("WriteinChoices", []))
+        for contest in raw["ContestData"]
+        for county in contest.get("Locations", {}).values()
+        for precinct in county.get("Locations", {}).values()
+    )
+    if row_count != expected_row_count:
+        raise RuntimeError(
+            f"Expected {expected_row_count:,} CSV rows from the source, found {row_count:,}"
+        )
 
     for office, aggregate_key in OFFICES.items():
         contest = next(

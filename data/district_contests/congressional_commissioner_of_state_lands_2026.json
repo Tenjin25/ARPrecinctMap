@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 678248,
+    "whole_county_vote_total": 679444,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 144691,
+    "split_precinct_matched_vote_total": 144747,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -50,46 +50,46 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 131723,
-        "other_votes": 52976,
-        "total_votes": 184699,
+        "rep_votes": 131873,
+        "other_votes": 53121,
+        "total_votes": 184994,
         "dem_candidate": "",
         "rep_candidate": "Cole Jester",
-        "margin": 131723,
-        "margin_pct": 71.31765737767935,
+        "margin": 131873,
+        "margin_pct": 71.28501464912375,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 131427,
-        "other_votes": 98051,
-        "total_votes": 229478,
+        "rep_votes": 131520,
+        "other_votes": 98135,
+        "total_votes": 229655,
         "dem_candidate": "",
         "rep_candidate": "Cole Jester",
-        "margin": 131427,
-        "margin_pct": 57.27215680806004,
+        "margin": 131520,
+        "margin_pct": 57.26851146284644,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 131323,
-        "other_votes": 85182,
-        "total_votes": 216505,
+        "rep_votes": 131528,
+        "other_votes": 85490,
+        "total_votes": 217018,
         "dem_candidate": "",
         "rep_candidate": "Cole Jester",
-        "margin": 131323,
-        "margin_pct": 60.655873998291035,
+        "margin": 131528,
+        "margin_pct": 60.60695426185846,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 132831,
-        "other_votes": 59426,
-        "total_votes": 192257,
+        "rep_votes": 132993,
+        "other_votes": 59531,
+        "total_votes": 192524,
         "dem_candidate": "",
         "rep_candidate": "Cole Jester",
-        "margin": 132831,
-        "margin_pct": 69.09033221157097,
+        "margin": 132993,
+        "margin_pct": 69.07866032286883,
         "winner": "R"
       }
     }

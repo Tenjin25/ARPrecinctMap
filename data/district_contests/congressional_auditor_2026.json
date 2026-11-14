@@ -27,9 +27,9 @@
         }
       }
     ],
-    "whole_county_vote_total": 568237,
+    "whole_county_vote_total": 569072,
     "split_block_direct_vote_total": 0,
-    "split_precinct_matched_vote_total": 103796,
+    "split_precinct_matched_vote_total": 103837,
     "split_county_cvap_fallback_vote_total": 0,
     "split_precinct_match_coverage": 1.0,
     "split_match_methods": {
@@ -50,45 +50,45 @@
     "results": {
       "1": {
         "dem_votes": 0,
-        "rep_votes": 162014,
+        "rep_votes": 162247,
         "other_votes": 0,
-        "total_votes": 162014,
+        "total_votes": 162247,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 162014,
+        "margin": 162247,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "2": {
         "dem_votes": 0,
-        "rep_votes": 179241,
+        "rep_votes": 179380,
         "other_votes": 0,
-        "total_votes": 179241,
+        "total_votes": 179380,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 179241,
+        "margin": 179380,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "3": {
         "dem_votes": 0,
-        "rep_votes": 166373,
+        "rep_votes": 166674,
         "other_votes": 0,
-        "total_votes": 166373,
+        "total_votes": 166674,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 166373,
+        "margin": 166674,
         "margin_pct": 100.0,
         "winner": "R"
       },
       "4": {
         "dem_votes": 0,
-        "rep_votes": 164405,
+        "rep_votes": 164608,
         "other_votes": 0,
-        "total_votes": 164405,
+        "total_votes": 164608,
         "dem_candidate": "",
         "rep_candidate": "Dennis Milligan",
-        "margin": 164405,
+        "margin": 164608,
         "margin_pct": 100.0,
         "winner": "R"
       }
