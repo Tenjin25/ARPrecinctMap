@@ -2527,9 +2527,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   font-size: 12px;
   color: #6b7280;
   line-height: 1.1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-width: 0;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
 }
 
 .vote-counter-context .context-actions {
@@ -7493,8 +7495,9 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .vote-label.candidate {
     display: block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .vote-percent {
@@ -13522,21 +13525,9 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${full} (${partyCode})`;
     }
 
-    function shouldUseCompactVoteCounterWinnerLabel() {
-      try {
-        return !!(window.matchMedia && window.matchMedia('(max-width: 1180px)').matches);
-      } catch (_) {
-        return true;
-      }
-    }
 
     function formatVoteCounterWinnerLabel(name, partyCode, fallbackText) {
-      if (!shouldUseCompactVoteCounterWinnerLabel()) {
-        return formatVoteCounterCandidateLabel(name, partyCode, fallbackText);
-      }
-      const short = shortCandidateLabel(name, fallbackText);
-      if (!short || short.toUpperCase() === partyCode.toUpperCase()) return fallbackText;
-      return `${short} (${partyCode})`;
+      return formatVoteCounterCandidateLabel(name, partyCode, fallbackText);
     }
 
     function formatFocusBarLabel(name, pct, fallbackText, marginPct = null) {
